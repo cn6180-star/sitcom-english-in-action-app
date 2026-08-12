@@ -1,4 +1,4 @@
-# Sitcom English in Action v4.0
+# Sitcom English in Action v3.0
 
 GitHub Pagesで動作する、海外ドラマ英語の静的学習アプリです。
 
