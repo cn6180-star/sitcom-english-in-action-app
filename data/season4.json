@@ -1,0 +1,2889 @@
+{
+  "season": 4,
+  "phrases": [
+    {
+      "id": "p347",
+      "phrase": "dig a hole",
+      "meaning": "自分で状況を悪くする／墓穴を掘る",
+      "scene": "やらかしてさらに悪化させるとき",
+      "example1": "I dug myself a hole.",
+      "example2": "He’s digging himself deeper.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E01",
+      "usage": "日常的"
+    },
+    {
+      "id": "p348",
+      "phrase": "the gist",
+      "meaning": "要点／大まかな内容",
+      "scene": "ざっくり理解を言うとき",
+      "example1": "That’s the gist of it.",
+      "example2": "I got the gist.",
+      "type": "noun",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E01",
+      "usage": "日常的"
+    },
+    {
+      "id": "p349",
+      "phrase": "stage fright",
+      "meaning": "人前であがること",
+      "scene": "発表や演技のとき",
+      "example1": "I got stage fright.",
+      "example2": "I have stage fright.",
+      "type": "noun",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S04E01",
+      "usage": "日常的"
+    },
+    {
+      "id": "p350",
+      "phrase": "flight risk",
+      "meaning": "逃げそうなやつ（比喩）",
+      "scene": "冗談や大げさ表現で言うとき",
+      "example1": "He’s a flight risk.",
+      "example2": "Don’t let him leave, he’s a flight risk.",
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S04E01",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p351",
+      "phrase": "own up to ~",
+      "meaning": "責任を持って認める",
+      "scene": "ミスや罪を認めるとき",
+      "example1": "He owned up to it.",
+      "example2": "She owned up to the mistake.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E01",
+      "usage": "日常的"
+    },
+    {
+      "id": "p352",
+      "phrase": "give yourself credit",
+      "meaning": "自分をちゃんと評価する",
+      "scene": "自信を持たせるとき",
+      "example1": "Give yourself some credit.",
+      "example2": "You don’t give yourself enough credit.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E01",
+      "usage": "日常的"
+    },
+    {
+      "id": "p353",
+      "phrase": "gain perspective",
+      "meaning": "客観的に見れるようになる",
+      "scene": "冷静になって状況を見るとき",
+      "example1": "I needed some perspective.",
+      "example2": "It helped me gain perspective.",
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E01",
+      "usage": "日常的"
+    },
+    {
+      "id": "p354",
+      "phrase": "ramble on",
+      "meaning": "ダラダラ話し続ける",
+      "scene": "話が長くなるとき",
+      "example1": "He rambled on for hours.",
+      "example2": "Sorry, I’m rambling.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E01",
+      "usage": "日常的"
+    },
+    {
+      "id": "p355",
+      "phrase": "suck someone into ~",
+      "meaning": "巻き込む（誘導して）",
+      "scene": "トラブルや議論に巻き込むとき",
+      "example1": "Don’t suck me into this.",
+      "example2": "I got sucked into an argument.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E02",
+      "usage": "日常的"
+    },
+    {
+      "id": "p356",
+      "phrase": "rope someone in",
+      "meaning": "丸め込んで参加させる",
+      "scene": "手伝いや計画に引き込むとき",
+      "example1": "They roped me into helping.",
+      "example2": "He roped her into the project.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E02",
+      "usage": "日常的"
+    },
+    {
+      "id": "p357",
+      "phrase": "I’m set / I’m all set",
+      "meaning": "もう大丈夫／足りてる",
+      "scene": "丁寧に断るとき",
+      "example1": "I’m all set, thanks.",
+      "example2": "I’m set for now.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E02",
+      "usage": "日常的"
+    },
+    {
+      "id": "p358",
+      "phrase": "enough is enough",
+      "meaning": "もう限界／いい加減にしろ",
+      "scene": "我慢の限界に達したとき",
+      "example1": "Enough is enough.",
+      "example2": "I’m done, enough is enough.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E02",
+      "usage": "日常的"
+    },
+    {
+      "id": "p359",
+      "phrase": "smidgen",
+      "meaning": "ほんのちょっと",
+      "scene": "量がごくわずかなとき",
+      "example1": "I just need a smidgen of help.",
+      "example2": "Add a smidgen of salt.",
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S04E03",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p360",
+      "phrase": "stick up for someone",
+      "meaning": "（人を）かばう",
+      "scene": "誰かを擁護するとき",
+      "example1": "Thanks for sticking up for me.",
+      "example2": "I’ll stick up for you.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E03",
+      "usage": "日常的"
+    },
+    {
+      "id": "p361",
+      "phrase": "take something to the next level",
+      "meaning": "次の段階に進める",
+      "scene": "関係やスキルを発展させるとき",
+      "example1": "Let’s take this project to the next level.",
+      "example2": "We should take our relationship to the next level.",
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E03",
+      "usage": "日常的"
+    },
+    {
+      "id": "p362",
+      "phrase": "rave (about ~)",
+      "meaning": "大絶賛する",
+      "scene": "テンション高く褒めるとき",
+      "example1": "Everyone is raving about that movie.",
+      "example2": "She raved about the restaurant.",
+      "type": "verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E03",
+      "usage": "日常的"
+    },
+    {
+      "id": "p363",
+      "phrase": "pull a 人名",
+      "meaning": "その人らしいことをやる",
+      "scene": "お決まりの行動をいじるとき",
+      "example1": "Don’t pull a Ross.",
+      "example2": "He totally pulled a Chandler.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E03",
+      "usage": "日常的"
+    },
+    {
+      "id": "p364",
+      "phrase": "catch on",
+      "meaning": "広まる／流行る",
+      "scene": "トレンドや考えが浸透するとき",
+      "example1": "That idea is catching on.",
+      "example2": "The trend quickly caught on.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E03",
+      "usage": "日常的"
+    },
+    {
+      "id": "p365",
+      "phrase": "swing（都合つける）",
+      "meaning": "なんとかやりくりする",
+      "scene": "お金や予定を無理して調整するとき",
+      "example1": "I can swing 20 bucks.",
+      "example2": "I can’t swing it tonight.",
+      "type": "verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E03",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p366",
+      "phrase": "I get the picture",
+      "meaning": "状況はわかった",
+      "scene": "全体像を理解したとき",
+      "example1": "Okay, I get the picture.",
+      "example2": "I get the picture now.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E03",
+      "usage": "日常的"
+    },
+    {
+      "id": "p367",
+      "phrase": "generous / stingy（比喩）",
+      "meaning": "気前よく出す／出し渋る",
+      "scene": "情報や対応の量を表すとき",
+      "example1": "He was generous with details.",
+      "example2": "She was stingy with information.",
+      "type": "word",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E03",
+      "usage": "日常的"
+    },
+    {
+      "id": "p368",
+      "phrase": "teach someone a lesson",
+      "meaning": "思い知らせる",
+      "scene": "相手に痛い目を見せたいとき",
+      "example1": "I’ll teach him a lesson.",
+      "example2": "He needs to be taught a lesson.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E04",
+      "usage": "日常的"
+    },
+    {
+      "id": "p369",
+      "phrase": "easy for you to say",
+      "meaning": "そりゃあんたはそう言える",
+      "scene": "立場の違いに不満を言うとき",
+      "example1": "That’s easy for you to say.",
+      "example2": "Easy for you to say, you’re not involved.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E04",
+      "usage": "日常的"
+    },
+    {
+      "id": "p370",
+      "phrase": "the other way around",
+      "meaning": "逆に／反対に",
+      "scene": "順序や関係が逆のとき",
+      "example1": "You got it the other way around.",
+      "example2": "I thought it was the other way around.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E04",
+      "usage": "日常的"
+    },
+    {
+      "id": "p371",
+      "phrase": "We’re doomed",
+      "meaning": "もう終わりだ",
+      "scene": "絶望的な状況で",
+      "example1": "We’re doomed if they find out.",
+      "example2": "This is bad… we’re doomed.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E04",
+      "usage": "日常的"
+    },
+    {
+      "id": "p372",
+      "phrase": "get something over with",
+      "meaning": "さっさと終わらせる",
+      "scene": "嫌なことを片付けるとき",
+      "example1": "Let’s get this over with.",
+      "example2": "I just want to get it over with.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E04",
+      "usage": "日常的"
+    },
+    {
+      "id": "p374",
+      "phrase": "put your foot in your mouth",
+      "meaning": "失言する／余計なことを言う",
+      "scene": "気まずい発言をしてしまったとき",
+      "example1": "I really put my foot in my mouth.",
+      "example2": "He always puts his foot in his mouth.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E05",
+      "usage": "日常的"
+    },
+    {
+      "id": "p375",
+      "phrase": "square",
+      "meaning": "堅苦しい／ノリが悪い人",
+      "scene": "真面目すぎて面白みがない人を言うとき",
+      "example1": "Don’t be such a square.",
+      "example2": "I don’t want to sound like a square, but…",
+      "type": "slang",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S04E05",
+      "usage": "やや古め"
+    },
+    {
+      "id": "p376",
+      "phrase": "don’t take this the wrong way",
+      "meaning": "悪く受け取らないでほしい",
+      "scene": "失礼になりそうな発言の前置き",
+      "example1": "Don’t take this the wrong way, but you look tired.",
+      "example2": "Don’t take this the wrong way, but that’s not a good idea.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E06",
+      "usage": "日常的"
+    },
+    {
+      "id": "p377",
+      "phrase": "no offense",
+      "meaning": "悪気はないけど／気を悪くしないで",
+      "scene": "カジュアルに失礼なことを言う前の前置き",
+      "example1": "No offense, but that’s kind of weird.",
+      "example2": "No offense, but I don’t agree.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E06",
+      "usage": "日常的"
+    },
+    {
+      "id": "p378",
+      "phrase": "endearing",
+      "meaning": "愛嬌がある／憎めない",
+      "scene": "欠点込みで好感が持てるとき",
+      "example1": "His awkwardness is endearing.",
+      "example2": "She has an endearing smile.",
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S04E06",
+      "usage": "日常的"
+    },
+    {
+      "id": "p379",
+      "phrase": "granted",
+      "meaning": "まあ確かに（でも）",
+      "scene": "相手の意見を一旦認めてから言い返すとき",
+      "example1": "Granted, it’s expensive, but it’s worth it.",
+      "example2": "Granted, I was late, but it wasn’t my fault.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E07",
+      "usage": "日常的"
+    },
+    {
+      "id": "p380",
+      "phrase": "pick a lane",
+      "meaning": "どっちかに決めろ",
+      "scene": "中途半端な態度にイラっとしたとき",
+      "example1": "Come on, pick a lane.",
+      "example2": "You can’t have both—pick a lane.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E07",
+      "usage": "日常的"
+    },
+    {
+      "id": "p381",
+      "phrase": "have your work cut out for you",
+      "meaning": "大変なことになる／骨が折れる",
+      "scene": "これからやることが多くて大変なとき",
+      "example1": "Good luck, you’ve got your work cut out for you.",
+      "example2": "This project is huge—you have your work cut out for you.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E08",
+      "usage": "日常的"
+    },
+    {
+      "id": "p382",
+      "phrase": "one thing led to another",
+      "meaning": "なんやかんやあって",
+      "scene": "詳しい説明をぼかしたいとき",
+      "example1": "We started talking, and one thing led to another.",
+      "example2": "I went out for a drink, and one thing led to another.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E08",
+      "usage": "日常的"
+    },
+    {
+      "id": "p383",
+      "phrase": "go behind someone’s back",
+      "meaning": "本人に内緒で勝手にやる",
+      "scene": "裏でコソコソ行動されたとき",
+      "example1": "Why did you go behind my back?",
+      "example2": "He went behind her back and told the boss.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E08",
+      "usage": "日常的"
+    },
+    {
+      "id": "p384",
+      "phrase": "over the line",
+      "meaning": "一線を越えている／やりすぎ",
+      "scene": "言いすぎ・やりすぎを指摘するとき",
+      "example1": "That joke was over the line.",
+      "example2": "You really went over the line this time.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E08",
+      "usage": "日常的"
+    },
+    {
+      "id": "p385",
+      "phrase": "for the best",
+      "meaning": "結果的にこれでよかった",
+      "scene": "微妙な結果を前向きに捉えるとき",
+      "example1": "Maybe it’s for the best.",
+      "example2": "It all worked out for the best.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E08",
+      "usage": "日常的"
+    },
+    {
+      "id": "p386",
+      "phrase": "make a scene",
+      "meaning": "騒ぎを起こす",
+      "scene": "人前で大げさに騒いだとき",
+      "example1": "Don’t make a scene.",
+      "example2": "She made a scene at the restaurant.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E09",
+      "usage": "日常的"
+    },
+    {
+      "id": "p387",
+      "phrase": "I’m beat",
+      "meaning": "めっちゃ疲れた",
+      "scene": "カジュアルに疲労を言うとき",
+      "example1": "I’m beat. I’m going home.",
+      "example2": "I’m kind of beat tonight.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E09",
+      "usage": "日常的"
+    },
+    {
+      "id": "p388",
+      "phrase": "next thing you know",
+      "meaning": "気づいたら〜してた",
+      "scene": "流れで状況が変わったとき",
+      "example1": "Next thing you know, we were dating.",
+      "example2": "Next thing you know, it’s midnight.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E09",
+      "usage": "日常的"
+    },
+    {
+      "id": "p389",
+      "phrase": "go out of my way to ~",
+      "meaning": "わざわざ〜する",
+      "scene": "意識的に手間をかけるとき",
+      "example1": "I went out of my way to help him.",
+      "example2": "You don’t have to go out of your way.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E09",
+      "usage": "日常的"
+    },
+    {
+      "id": "p390",
+      "phrase": "make headway",
+      "meaning": "進展する",
+      "scene": "物事が前に進んでいるとき",
+      "example1": "We’re finally making headway.",
+      "example2": "I’m not making any headway.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E09",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p391",
+      "phrase": "be picked on",
+      "meaning": "いじめられる／からかわれる",
+      "scene": "ターゲットにされているとき",
+      "example1": "Why are you picking on me?",
+      "example2": "He gets picked on a lot.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E10",
+      "usage": "日常的"
+    },
+    {
+      "id": "p392",
+      "phrase": "give someone another chance",
+      "meaning": "もう一度チャンスをあげる",
+      "scene": "再挑戦を許すとき",
+      "example1": "I gave him another chance.",
+      "example2": "She doesn’t deserve another chance.",
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E10",
+      "usage": "日常的"
+    },
+    {
+      "id": "p393",
+      "phrase": "like father, like son",
+      "meaning": "親子そっくり",
+      "scene": "行動や性格が似ているとき",
+      "example1": "He acts just like his dad—like father, like son.",
+      "example2": "Well, like father, like son.",
+      "type": "proverb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E10",
+      "usage": "日常的"
+    },
+    {
+      "id": "p394",
+      "phrase": "I’ve had it up to here",
+      "meaning": "我慢の限界",
+      "scene": "ストレスが限界に達したとき",
+      "example1": "I’ve had it up to here with this job.",
+      "example2": "I’ve had it up to here with his attitude.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E10",
+      "usage": "日常的"
+    },
+    {
+      "id": "p395",
+      "phrase": "fit in",
+      "meaning": "馴染む",
+      "scene": "周囲に溶け込めるか話すとき",
+      "example1": "I want to fit in.",
+      "example2": "I don’t fit in here.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E10",
+      "usage": "日常的"
+    },
+    {
+      "id": "p396",
+      "phrase": "I’m torn",
+      "meaning": "決められない／気持ちが揺れてる",
+      "scene": "選択で迷っているとき",
+      "example1": "I’m torn between the two options.",
+      "example2": "I’m still torn.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E10",
+      "usage": "日常的"
+    },
+    {
+      "id": "p397",
+      "phrase": "get a jump on things",
+      "meaning": "先手を打つ／早めに取りかかる",
+      "scene": "仕事や準備を前倒しするとき",
+      "example1": "Let’s get a jump on the project.",
+      "example2": "I woke up early to get a jump on things.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E11",
+      "usage": "日常的"
+    },
+    {
+      "id": "p398",
+      "phrase": "know squat",
+      "meaning": "何も知らない",
+      "scene": "知識ゼロを強調するとき",
+      "example1": "I don’t know squat about cars.",
+      "example2": "He knows squat about cooking.",
+      "type": "slang",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E11",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p399",
+      "phrase": "Ten bucks says ~",
+      "meaning": "絶対〜だと思う／〜に賭ける",
+      "scene": "軽い賭けや自信ある予想",
+      "example1": "Ten bucks says he’s late again.",
+      "example2": "Five bucks says she forgot.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E12",
+      "usage": "日常的"
+    },
+    {
+      "id": "p400",
+      "phrase": "Challenge extended / accepted",
+      "meaning": "挑戦を出す／受けて立つ",
+      "scene": "ノリで勝負が始まるとき",
+      "example1": "Challenge extended.",
+      "example2": "Challenge accepted.",
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E12",
+      "usage": "日常的"
+    },
+    {
+      "id": "p401",
+      "phrase": "fork it over / cough it up",
+      "meaning": "さっさと払え／出せ",
+      "scene": "お金や物を強めに要求するとき",
+      "example1": "Fork it over.",
+      "example2": "Come on, cough it up.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E12",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p402",
+      "phrase": "pay the piper",
+      "meaning": "代償を払う",
+      "scene": "行動の結果を受けるとき",
+      "example1": "You broke it, now pay the piper.",
+      "example2": "He’ll have to pay the piper someday.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E12",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p403",
+      "phrase": "scare the bejesus out of ~",
+      "meaning": "めちゃくちゃ怖がらせる",
+      "scene": "強い恐怖を表すとき",
+      "example1": "That noise scared the bejesus out of me.",
+      "example2": "He scared the bejesus out of everyone.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E12",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p404",
+      "phrase": "pet peeves",
+      "meaning": "個人的にイラッとすること",
+      "scene": "嫌いなことを話すとき",
+      "example1": "What’s your biggest pet peeve?",
+      "example2": "One of my pet peeves is loud chewing.",
+      "type": "noun",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E12",
+      "usage": "日常的"
+    },
+    {
+      "id": "p405",
+      "phrase": "in favor of",
+      "meaning": "〜に有利／〜に賛成",
+      "scene": "意見やスコアを言うとき",
+      "example1": "It’s 3–2 in favor of our team.",
+      "example2": "I’m in favor of the plan.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E12",
+      "usage": "日常的"
+    },
+    {
+      "id": "p407",
+      "phrase": "get someone all riled up",
+      "meaning": "人をムキにさせる／感情を煽る",
+      "scene": "相手を興奮・イライラさせるとき",
+      "example1": "Don’t get him all riled up.",
+      "example2": "She got everyone all riled up.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E12",
+      "usage": "日常的"
+    },
+    {
+      "id": "p408",
+      "phrase": "shotgun rules / call it",
+      "meaning": "先に宣言したもん勝ち",
+      "scene": "取り合いで権利を主張するとき",
+      "example1": "Shotgun! I called it.",
+      "example2": "Sorry, I called it first.",
+      "type": "slang",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E12",
+      "usage": "日常的"
+    },
+    {
+      "id": "p409",
+      "phrase": "come down with something",
+      "meaning": "体調を崩しかける",
+      "scene": "風邪などの初期症状を言うとき",
+      "example1": "I think I’m coming down with something.",
+      "example2": "He came down with the flu.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E12",
+      "usage": "日常的"
+    },
+    {
+      "id": "p412",
+      "phrase": "chemistry",
+      "meaning": "相性／自然なノリの良さ",
+      "scene": "人や関係の相性を語るとき",
+      "example1": "They have great chemistry.",
+      "example2": "There’s no chemistry between them.",
+      "type": "noun",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E13",
+      "usage": "日常的"
+    },
+    {
+      "id": "p413",
+      "phrase": "jump to conclusions",
+      "meaning": "早とちりする／決めつける",
+      "scene": "根拠なく判断している人を止めるとき",
+      "example1": "Don’t jump to conclusions.",
+      "example2": "You’re jumping to conclusions.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E13",
+      "usage": "日常的"
+    },
+    {
+      "id": "p414",
+      "phrase": "throw something in someone’s face",
+      "meaning": "弱みや過去を持ち出して責める",
+      "scene": "ケンカや言い合いのとき",
+      "example1": "Don’t throw it in my face.",
+      "example2": "He always throws my mistakes in my face.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E13",
+      "usage": "日常的"
+    },
+    {
+      "id": "p415",
+      "phrase": "turn-on",
+      "meaning": "魅力を感じるポイント／グッとくる要素",
+      "scene": "好みや魅力を語るとき",
+      "example1": "Confidence is a turn-on.",
+      "example2": "That’s a huge turn-on for me.",
+      "type": "noun",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E13",
+      "usage": "日常的"
+    },
+    {
+      "id": "p416",
+      "phrase": "base A on B",
+      "meaning": "AをBに基づかせる",
+      "scene": "判断や意見の根拠を言うとき",
+      "example1": "You’re basing this on that?",
+      "example2": "This is based on real events.",
+      "type": "pattern",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E13",
+      "usage": "日常的"
+    },
+    {
+      "id": "p417",
+      "phrase": "pan out",
+      "meaning": "期待通りにうまくいく",
+      "scene": "結果や見込みを話すとき",
+      "example1": "Let’s see how this pans out.",
+      "example2": "It didn’t pan out the way I hoped.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E13",
+      "usage": "日常的"
+    },
+    {
+      "id": "p418",
+      "phrase": "worth one’s salt",
+      "meaning": "プロとしてちゃんとしている／価値がある",
+      "scene": "能力や価値を評価するとき",
+      "example1": "Any teacher worth their salt knows that.",
+      "example2": "He’s not worth his salt.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E14",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p419",
+      "phrase": "preemptive strike",
+      "meaning": "先手を打つ／先制攻撃",
+      "scene": "相手より先に動くとき",
+      "example1": "I apologized first as a preemptive strike.",
+      "example2": "I texted her first—preemptive strike.",
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E15",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p420",
+      "phrase": "meant to be",
+      "meaning": "運命だ／なるべくしてなった",
+      "scene": "偶然が重なったときや皮肉で",
+      "example1": "I guess it was meant to be.",
+      "example2": "Talk about meant to be.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E15",
+      "usage": "日常的"
+    },
+    {
+      "id": "p421",
+      "phrase": "not leave someone much choice",
+      "meaning": "ほとんど選択肢がない状態にする",
+      "scene": "相手のせいで選べなかったとき",
+      "example1": "You didn’t leave me much choice.",
+      "example2": "They gave us no choice.",
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E15",
+      "usage": "日常的"
+    },
+    {
+      "id": "p422",
+      "phrase": "bring someone down",
+      "meaning": "気分を下げる／テンションを落とす",
+      "scene": "出来事や発言で気分が沈むとき",
+      "example1": "Don’t bring me down.",
+      "example2": "That news really brought me down.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E15",
+      "usage": "日常的"
+    },
+    {
+      "id": "p423",
+      "phrase": "(no) piece of cake",
+      "meaning": "（全然）簡単じゃない／楽勝だ",
+      "scene": "難易度を言うとき",
+      "example1": "This test is a piece of cake.",
+      "example2": "This is no piece of cake.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E16",
+      "usage": "日常的"
+    },
+    {
+      "id": "p424",
+      "phrase": "crave / cravings",
+      "meaning": "強く欲する／強い欲求",
+      "scene": "食べ物などを無性に欲するとき",
+      "example1": "I’m craving chocolate.",
+      "example2": "I have a craving for sweets.",
+      "type": "word",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E16",
+      "usage": "日常的"
+    },
+    {
+      "id": "p425",
+      "phrase": "trick ~",
+      "meaning": "だましてそう思わせる",
+      "scene": "相手をごまかすとき",
+      "example1": "I tried to trick him.",
+      "example2": "I tricked it into thinking it was meat.",
+      "type": "verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E16",
+      "usage": "日常的"
+    },
+    {
+      "id": "p426",
+      "phrase": "play hard to get",
+      "meaning": "わざとそっけなくする",
+      "scene": "恋愛の駆け引きで使う",
+      "example1": "She’s playing hard to get.",
+      "example2": "I’m trying to play hard to get.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E16",
+      "usage": "日常的"
+    },
+    {
+      "id": "p427",
+      "phrase": "even things out",
+      "meaning": "帳尻を合わせる／バランスを取る",
+      "scene": "不公平を調整するとき",
+      "example1": "Let’s even things out.",
+      "example2": "That should even things out.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E16",
+      "usage": "日常的"
+    },
+    {
+      "id": "p428",
+      "phrase": "-wise（meat-wiseなど）",
+      "meaning": "〜の観点では／〜的に言うと",
+      "scene": "特定の観点で話すとき",
+      "example1": "Money-wise, I’m fine.",
+      "example2": "Meat-wise, it works.",
+      "type": "suffix",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E16",
+      "usage": "日常的"
+    },
+    {
+      "id": "p429",
+      "phrase": "lay off ~",
+      "meaning": "（習慣的に）控える／やめる",
+      "scene": "食べ物や行動を控えるとき",
+      "example1": "I’m laying off sugar.",
+      "example2": "I should lay off junk food.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E16",
+      "usage": "日常的"
+    },
+    {
+      "id": "p430",
+      "phrase": "make a fool of oneself",
+      "meaning": "恥をかく／やらかす",
+      "scene": "自分の行動で失敗したとき",
+      "example1": "I made a fool of myself.",
+      "example2": "Don’t make a fool of yourself.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E16",
+      "usage": "日常的"
+    },
+    {
+      "id": "p431",
+      "phrase": "if you will",
+      "meaning": "言ってみれば／あえて言うなら",
+      "scene": "ちょっと変な例えや表現をやわらかく言うとき",
+      "example1": "It’s like a mental shield, if you will.",
+      "example2": "A battle of egos, if you will.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E17",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p432",
+      "phrase": "bring something up with someone",
+      "meaning": "（人に）話を切り出す",
+      "scene": "デリケートな話題を誰かに持ち出すとき",
+      "example1": "I need to bring this up with my boss.",
+      "example2": "Have you brought it up with her yet?",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E17",
+      "usage": "日常的"
+    },
+    {
+      "id": "p433",
+      "phrase": "bring up",
+      "meaning": "話題に出す／育てる",
+      "scene": "会話で話題を出すとき、または人を育てた話をするとき",
+      "example1": "Why did you bring that up?",
+      "example2": "She was brought up in Osaka.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E17",
+      "usage": "日常的"
+    },
+    {
+      "id": "p434",
+      "phrase": "broach",
+      "meaning": "（話題を）切り出す",
+      "scene": "言いにくい話を慎重に出すとき",
+      "example1": "I broached the subject of salary.",
+      "example2": "She finally broached it with him.",
+      "type": "word",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E17",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p435",
+      "phrase": "come out and say it",
+      "meaning": "はっきり言う／思い切って言う",
+      "scene": "遠回しをやめてストレートに言うとき",
+      "example1": "I’m gonna come out and say it—I don’t like him.",
+      "example2": "Let me just come out and say this.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E17",
+      "usage": "日常的"
+    },
+    {
+      "id": "p436",
+      "phrase": "Don’t get me started",
+      "meaning": "その話はやめて／語り出したら止まらん",
+      "scene": "不満や愚痴がたまってる話題のとき",
+      "example1": "Don’t get me started on my boss.",
+      "example2": "Oh, don’t even get me started.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E18",
+      "usage": "日常的"
+    },
+    {
+      "id": "p437",
+      "phrase": "creep someone out",
+      "meaning": "ゾワッとさせる／気味悪がらせる",
+      "scene": "不気味さや嫌悪感を感じるとき",
+      "example1": "That guy really creeps me out.",
+      "example2": "Stop it, you’re creeping me out.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E18",
+      "usage": "日常的"
+    },
+    {
+      "id": "p438",
+      "phrase": "by the by",
+      "meaning": "ところで（やや古風）",
+      "scene": "軽く話題を変えるとき（ちょいユーモラス）",
+      "example1": "By the by, did you call her?",
+      "example2": "Uh, by the by, I forgot something.",
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S04E18",
+      "usage": "やや古め"
+    },
+    {
+      "id": "p439",
+      "phrase": "be out of your hair",
+      "meaning": "邪魔をしない／すぐどく",
+      "scene": "相手に気を遣って離れるとき",
+      "example1": "I’ll be out of your hair in a minute.",
+      "example2": "Let me finish this and I’ll be out of your hair.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E18",
+      "usage": "日常的"
+    },
+    {
+      "id": "p440",
+      "phrase": "sycophant",
+      "meaning": "ゴマすり／おべっか使い",
+      "scene": "権力者に媚びる人を批判するとき",
+      "example1": "He’s just a sycophant.",
+      "example2": "He’s surrounded by sycophants.",
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S04E18",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p441",
+      "phrase": "bellyaching",
+      "meaning": "ぐちぐち文句を言う、不満を言ってばかりいる",
+      "scene": "誰かが延々と愚痴っていて、うんざりしている時",
+      "example1": "I’m tired of your bellyaching.",
+      "example2": "Stop bellyaching and do something about it.",
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S04E19",
+      "usage": "やや古め"
+    },
+    {
+      "id": "p442",
+      "phrase": "(This place is a) hole",
+      "meaning": "ボロくて最悪な場所、しょぼい店",
+      "scene": "汚い・狭い・居心地の悪い場所を雑にディスる時",
+      "example1": "This bar is a hole.",
+      "example2": "We can’t stay in this hole all night.",
+      "type": "slang",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E19",
+      "usage": "日常的"
+    },
+    {
+      "id": "p443",
+      "phrase": "blimey",
+      "meaning": "うわ！まじか！",
+      "scene": "驚いた時に軽くリアクションする時（かなりBritish）",
+      "example1": "Blimey, that’s expensive.",
+      "example2": "Oh, blimey! I forgot my wallet.",
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S04E19",
+      "usage": "やや古め"
+    },
+    {
+      "id": "p444",
+      "phrase": "I didn’t see that coming",
+      "meaning": "そう来るとは思わなかった",
+      "scene": "予想外の展開や発言に驚いた時",
+      "example1": "Wow, I didn’t see that coming.",
+      "example2": "Nobody saw it coming.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E19",
+      "usage": "日常的"
+    },
+    {
+      "id": "p445",
+      "phrase": "that’s what counts",
+      "meaning": "大事なのはそこ、それが一番重要",
+      "scene": "結果より気持ちや本質を重視する時",
+      "example1": "You tried your best, and that’s what counts.",
+      "example2": "It’s the effort that counts.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E19",
+      "usage": "日常的"
+    },
+    {
+      "id": "p446",
+      "phrase": "rule / rule all",
+      "meaning": "最高だ、最強だ",
+      "scene": "何かをノリよく褒める時",
+      "example1": "This song rules.",
+      "example2": "Dude, you rule.",
+      "type": "slang",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E19",
+      "usage": "やや古め"
+    },
+    {
+      "id": "p447",
+      "phrase": "fair and square",
+      "meaning": "正々堂々と、公正に",
+      "scene": "不正なしで勝った・手に入れたと強調する時",
+      "example1": "He beat me fair and square.",
+      "example2": "We won fair and square.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E19",
+      "usage": "日常的"
+    },
+    {
+      "id": "p448",
+      "phrase": "handle it well",
+      "meaning": "うまく対処する、乗り切る",
+      "scene": "ストレスやショックへの対応について話す時",
+      "example1": "She’s handling it pretty well.",
+      "example2": "I’m not handling the pressure very well.",
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E20",
+      "usage": "日常的"
+    },
+    {
+      "id": "p449",
+      "phrase": "somewhere down the road",
+      "meaning": "いつかそのうち、将来的に",
+      "scene": "将来のどこかの時点について話す時",
+      "example1": "Maybe we’ll meet again somewhere down the road.",
+      "example2": "I’d like to travel more down the road.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E20",
+      "usage": "日常的"
+    },
+    {
+      "id": "p452",
+      "phrase": "Shame on you",
+      "meaning": "恥を知れ / よくそんなことできるね",
+      "scene": "相手を強く非難する時",
+      "example1": "Shame on you for lying to her.",
+      "example2": "Shame on you! That was cruel.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E22",
+      "usage": "日常的"
+    },
+    {
+      "id": "p453",
+      "phrase": "What a shame / That’s a shame",
+      "meaning": "それは残念",
+      "scene": "相手の不運や残念な出来事に反応する時",
+      "example1": "You can’t come? That’s a shame.",
+      "example2": "What a shame we missed the concert.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E22",
+      "usage": "日常的"
+    },
+    {
+      "id": "p454",
+      "phrase": "No shame in ~",
+      "meaning": "〜するのは恥じゃない",
+      "scene": "誰かを励ましたり安心させたりする時",
+      "example1": "There’s no shame in asking for help.",
+      "example2": "No shame in taking a break sometimes.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E22",
+      "usage": "日常的"
+    },
+    {
+      "id": "p456",
+      "phrase": "mellow",
+      "meaning": "穏やかな / 柔らかい / 落ち着いた",
+      "scene": "人・音楽・雰囲気などがリラックスしている時",
+      "example1": "He’s gotten more mellow with age.",
+      "example2": "I like mellow music before bed.",
+      "type": "word",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E22",
+      "usage": "日常的"
+    },
+    {
+      "id": "p457",
+      "phrase": "clip show",
+      "meaning": "総集編",
+      "scene": "過去シーンを振り返るドラマ回について話す時",
+      "example1": "This episode was basically a clip show.",
+      "example2": "Sitcoms used to do clip shows a lot.",
+      "type": "media term",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S04E21",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p458",
+      "phrase": "recap episode",
+      "meaning": "おさらい回",
+      "scene": "ストーリーや過去展開を整理する回について話す時",
+      "example1": "It felt more like a recap episode.",
+      "example2": "The recap episode helped me remember the story.",
+      "type": "media term",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S04E21",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p459",
+      "phrase": "flashback episode",
+      "meaning": "回想中心の回",
+      "scene": "過去シーンが多いエピソードについて話す時",
+      "example1": "There were so many flashbacks in this episode.",
+      "example2": "I love flashback episodes.",
+      "type": "media term",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S04E21",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p460",
+      "phrase": "look back on ~",
+      "meaning": "〜を振り返る",
+      "scene": "過去の経験や関係を思い返す時",
+      "example1": "She looked back on her childhood fondly.",
+      "example2": "Ross was looking back on his relationship with Rachel.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E21",
+      "usage": "日常的"
+    },
+    {
+      "id": "p461",
+      "phrase": "hands down",
+      "meaning": "文句なしで、圧倒的に",
+      "scene": "何かが間違いなく一番だと言いたいとき",
+      "example1": "Friends is hands down my favorite sitcom.",
+      "example2": "That was hands down the best meal I’ve had all year.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E23",
+      "usage": "日常的"
+    },
+    {
+      "id": "p462",
+      "phrase": "be bummed",
+      "meaning": "がっかりする、落ち込む",
+      "scene": "残念な気持ちやモヤモヤを表すとき",
+      "example1": "I was really bummed about the cancellation.",
+      "example2": "She’s still bummed out about what happened.",
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E23",
+      "usage": "日常的"
+    },
+    {
+      "id": "p463",
+      "phrase": "don’t be so hard on yourself",
+      "meaning": "自分を責めすぎないで",
+      "scene": "落ち込んでいる人を慰めるとき",
+      "example1": "You made one mistake. Don’t be so hard on yourself.",
+      "example2": "Try to relax and stop being so hard on yourself.",
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E23",
+      "usage": "日常的"
+    },
+    {
+      "id": "p464",
+      "phrase": "now or never",
+      "meaning": "今しかない、やるなら今",
+      "scene": "最後のチャンスや大きな決断のとき",
+      "example1": "If you’re gonna tell her, it’s now or never.",
+      "example2": "Come on, now or never!",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E23",
+      "usage": "日常的"
+    },
+    {
+      "id": "p465",
+      "phrase": "for the record",
+      "meaning": "念のため言っておくけど、誤解ないように言うと",
+      "scene": "自分の立場や本音を明確にしたいとき",
+      "example1": "For the record, I never agreed to this.",
+      "example2": "Just for the record, that wasn’t my idea.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E23",
+      "usage": "日常的"
+    },
+    {
+      "id": "p466",
+      "phrase": "in a pickle / here’s a pickle",
+      "meaning": "困った状況で、ややこしい問題がある",
+      "scene": "面倒な状況を軽く表現するとき",
+      "example1": "We’re in a bit of a pickle now.",
+      "example2": "Well, here’s a pickle.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E23",
+      "usage": "やや古め"
+    },
+    {
+      "id": "p467",
+      "phrase": "I’m not at liberty to ~",
+      "meaning": "〜する立場にありません、〜は言えません",
+      "scene": "情報を明かせないときのフォーマルな表現",
+      "example1": "I’m not at liberty to discuss that matter.",
+      "example2": "I’m afraid I’m not at liberty to say more.",
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E24",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p468",
+      "phrase": "laugh in someone’s face",
+      "meaning": "面と向かって笑う、鼻で笑う",
+      "scene": "相手を露骨にバカにするとき",
+      "example1": "They laughed in my face when I told them the plan.",
+      "example2": "He thought she’d laugh in his face.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E24",
+      "usage": "日常的"
+    },
+    {
+      "id": "p469",
+      "phrase": "Don’t take that tone with me.",
+      "meaning": "その口の利き方はやめなさい",
+      "scene": "相手の態度や口調を咎めるとき",
+      "example1": "Don’t take that tone with me, young man.",
+      "example2": "I don’t appreciate you taking that tone with me.",
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E24",
+      "usage": "日常的"
+    },
+    {
+      "id": "p470",
+      "phrase": "the third degree",
+      "meaning": "厳しい尋問、質問攻め",
+      "scene": "根掘り葉掘り聞かれているとき",
+      "example1": "Why are you giving me the third degree?",
+      "example2": "My parents gave me the third degree after the party.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E24",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p471",
+      "phrase": "No good can come of this.",
+      "meaning": "ろくなことにならない",
+      "scene": "悪い予感がするとき",
+      "example1": "No good can come of lying to your friends.",
+      "example2": "I have a bad feeling. No good can come of this.",
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E24",
+      "usage": "日常的"
+    },
+    {
+      "id": "p472",
+      "phrase": "meet someone in the middle",
+      "meaning": "歩み寄る、妥協点を見つける",
+      "scene": "お互い譲歩しようとするとき",
+      "example1": "We need to meet in the middle.",
+      "example2": "I’m trying to meet you in the middle here.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E24",
+      "usage": "日常的"
+    },
+    {
+      "id": "p473",
+      "phrase": "You want a piece of me?",
+      "meaning": "やんのか？、喧嘩売ってるの？",
+      "scene": "挑発的に相手へ言い返すとき",
+      "example1": "You got a problem? You want a piece of me?",
+      "example2": "Hey! You want a piece of me?",
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S04E24",
+      "usage": "やや古め"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d39",
+      "season": "Season 4",
+      "title": "仕事①（プレゼン前の緊張）",
+      "lines": [
+        [
+          "A",
+          "You look nervous.",
+          "緊張してるみたいやな。"
+        ],
+        [
+          "B",
+          "I’ve got terrible stage fright.",
+          "人前で話すのがめっちゃ怖くて。"
+        ],
+        [
+          "A",
+          "Give yourself some credit. You know this material.",
+          "もっと自分を評価していいよ。内容はちゃんとわかってる。"
+        ],
+        [
+          "B",
+          "Easy for you to say.",
+          "そっちはそう言えるけど。"
+        ],
+        [
+          "A",
+          "You’ve done all the prep. You’re all set.",
+          "準備は全部したやろ。もう万全やで。"
+        ],
+        [
+          "B",
+          "I still feel like I have my work cut out for me.",
+          "それでも大仕事が待ってる感じする。"
+        ],
+        [
+          "A",
+          "Just get it over with. The first minute is the hardest.",
+          "とにかく終わらせてしまおう。最初の1分が一番きついから。"
+        ],
+        [
+          "B",
+          "Okay. Now or never.",
+          "わかった。今やるしかない。"
+        ],
+        [
+          "A",
+          "Exactly.",
+          "そう。"
+        ],
+        [
+          "B",
+          "Wish me luck.",
+          "祈っといて。"
+        ],
+        [
+          "A",
+          "You’ve got this.",
+          "大丈夫。"
+        ]
+      ],
+      "phraseLinks": [
+        "p349",
+        "p352",
+        "p369",
+        "p357",
+        "p381",
+        "p372",
+        "p464"
+      ]
+    },
+    {
+      "id": "d40",
+      "season": "Season 4",
+      "title": "日常①（話が長すぎる友人）",
+      "lines": [
+        [
+          "A",
+          "Can you give me the gist?",
+          "要点だけ教えてくれる？"
+        ],
+        [
+          "B",
+          "Sure, but first you need the backstory.",
+          "もちろん。でもまず背景から説明せな。"
+        ],
+        [
+          "A",
+          "Please don’t ramble on for twenty minutes.",
+          "20分も延々しゃべらんといてな。"
+        ],
+        [
+          "B",
+          "Fine. One thing led to another, and I ended up at her apartment.",
+          "わかった。いろいろあって、最終的に彼女の部屋に行くことになって。"
+        ],
+        [
+          "A",
+          "I get the picture.",
+          "もうわかった。"
+        ],
+        [
+          "B",
+          "No, you don’t. Next thing you know, her parents walk in.",
+          "いや、まだわかってない。その直後に彼女の両親が入ってきて。"
+        ],
+        [
+          "A",
+          "Okay, I definitely didn’t see that coming.",
+          "それはさすがに予想してなかった。"
+        ],
+        [
+          "B",
+          "Exactly.",
+          "やろ？"
+        ],
+        [
+          "A",
+          "Fine. Keep going.",
+          "わかった。続けて。"
+        ],
+        [
+          "B",
+          "Thank you.",
+          "どうも。"
+        ]
+      ],
+      "phraseLinks": [
+        "p348",
+        "p354",
+        "p382",
+        "p366",
+        "p388",
+        "p444"
+      ]
+    },
+    {
+      "id": "d41",
+      "season": "Season 4",
+      "title": "仕事②（同僚のミスを指摘する）",
+      "lines": [
+        [
+          "A",
+          "We need to talk about the client email.",
+          "クライアントへのメールのことで話さないと。"
+        ],
+        [
+          "B",
+          "I know. I really put my foot in my mouth.",
+          "わかってる。ほんま余計なこと言ってもうた。"
+        ],
+        [
+          "A",
+          "And then you went behind my back and sent a second one.",
+          "そのあと私に黙って2通目まで送ったやろ。"
+        ],
+        [
+          "B",
+          "I was trying to fix it.",
+          "直そうとしてた。"
+        ],
+        [
+          "A",
+          "You crossed a line.",
+          "やりすぎやで。"
+        ],
+        [
+          "B",
+          "Fair. I’ll own up to it.",
+          "そうやな。ちゃんと認める。"
+        ],
+        [
+          "A",
+          "Good. Bring it up with the client yourself.",
+          "よし。自分でクライアントにその件を話して。"
+        ],
+        [
+          "B",
+          "I will.",
+          "そうする。"
+        ],
+        [
+          "A",
+          "And don’t make a scene if they’re annoyed.",
+          "向こうが怒ってても大騒ぎせんといて。"
+        ],
+        [
+          "B",
+          "Understood.",
+          "了解。"
+        ],
+        [
+          "A",
+          "We can still recover from this.",
+          "まだ立て直せる。"
+        ]
+      ],
+      "phraseLinks": [
+        "p374",
+        "p383",
+        "p384",
+        "p351",
+        "p432",
+        "p386"
+      ]
+    },
+    {
+      "id": "d42",
+      "season": "Season 4",
+      "title": "相談①（新しい環境になじめない）",
+      "lines": [
+        [
+          "A",
+          "How’s the new office?",
+          "新しい職場どう？"
+        ],
+        [
+          "B",
+          "Honestly, I’m having trouble fitting in.",
+          "正直、なじめてない。"
+        ],
+        [
+          "A",
+          "That takes time.",
+          "時間かかるよ。"
+        ],
+        [
+          "B",
+          "I feel like I’m being picked on because I’m the new person.",
+          "新人やから目つけられてる気がする。"
+        ],
+        [
+          "A",
+          "Maybe, but don’t jump to conclusions.",
+          "そうかもしれんけど、決めつけん方がいい。"
+        ],
+        [
+          "B",
+          "I know. I’m just bummed.",
+          "わかってる。ただ落ち込んでる。"
+        ],
+        [
+          "A",
+          "Don’t be so hard on yourself.",
+          "そんなに自分を責めんといて。"
+        ],
+        [
+          "B",
+          "I’m trying.",
+          "そうしてるつもり。"
+        ],
+        [
+          "A",
+          "You’ll gain perspective once you’ve been there a little longer.",
+          "もう少し働けば見え方も変わってくるよ。"
+        ],
+        [
+          "B",
+          "I hope so.",
+          "そうやといいけど。"
+        ],
+        [
+          "A",
+          "Give it a week.",
+          "あと1週間やってみよ。"
+        ]
+      ],
+      "phraseLinks": [
+        "p395",
+        "p391",
+        "p413",
+        "p462",
+        "p463",
+        "p353"
+      ]
+    },
+    {
+      "id": "d43",
+      "season": "Season 4",
+      "title": "仕事③（交渉と妥協）",
+      "lines": [
+        [
+          "A",
+          "They want us to cut the budget again.",
+          "また予算削れって言われてる。"
+        ],
+        [
+          "B",
+          "Enough is enough.",
+          "もう限界や。"
+        ],
+        [
+          "A",
+          "I’m in favor of pushing back this time.",
+          "今回は反対意見を出すのに賛成。"
+        ],
+        [
+          "B",
+          "Same. But we may have to meet them in the middle.",
+          "同感。でもどこかで折り合う必要はあるかも。"
+        ],
+        [
+          "A",
+          "What if we trim travel costs and even things out elsewhere?",
+          "出張費を削って、ほかで帳尻合わせるのは？"
+        ],
+        [
+          "B",
+          "I could swing that.",
+          "それなら都合つけられる。"
+        ],
+        [
+          "A",
+          "Good. Let’s get a jump on things and send a counterproposal today.",
+          "よし。先手打って今日対案送ろう。"
+        ],
+        [
+          "B",
+          "For the record, I still hate the cut.",
+          "念のため言っとくけど、削減には今も反対やで。"
+        ],
+        [
+          "A",
+          "Duly noted.",
+          "了解。"
+        ],
+        [
+          "B",
+          "Let’s do it.",
+          "やろう。"
+        ]
+      ],
+      "phraseLinks": [
+        "p358",
+        "p405",
+        "p472",
+        "p427",
+        "p365",
+        "p397",
+        "p465"
+      ]
+    },
+    {
+      "id": "d44",
+      "season": "Season 4",
+      "title": "日常②（旅行の段取り）",
+      "lines": [
+        [
+          "A",
+          "Are we ready for tomorrow?",
+          "明日の準備できてる？"
+        ],
+        [
+          "B",
+          "Almost. I’m torn between taking the early train and driving.",
+          "だいたい。早い電車にするか車にするか迷ってる。"
+        ],
+        [
+          "A",
+          "Ten bucks says traffic will be awful.",
+          "10ドル賭けてもいいけど、道めっちゃ混むで。"
+        ],
+        [
+          "B",
+          "Then let’s call the train.",
+          "じゃあ電車にしよう。"
+        ],
+        [
+          "A",
+          "Shotgun rules don’t really apply to train seats.",
+          "電車の席には「助手席取った！」ルール使えへんけどな。"
+        ],
+        [
+          "B",
+          "I know. I just wanted to call it first.",
+          "わかってる。ただ先に言いたかっただけ。"
+        ],
+        [
+          "A",
+          "Food-wise, are we set?",
+          "食べ物の方は準備できてる？"
+        ],
+        [
+          "B",
+          "Yep. And I went out of my way to get your favorite snacks.",
+          "うん。わざわざ君の好きなお菓子も買ってきた。"
+        ],
+        [
+          "A",
+          "That’s endearing.",
+          "それちょっと嬉しいな。"
+        ],
+        [
+          "B",
+          "Don’t get sentimental on me.",
+          "急にしんみりせんといて。"
+        ],
+        [
+          "A",
+          "Fine. Train it is.",
+          "はいはい。電車で決まり。"
+        ]
+      ],
+      "phraseLinks": [
+        "p396",
+        "p399",
+        "p408",
+        "p428",
+        "p389",
+        "p378"
+      ]
+    },
+    {
+      "id": "d45",
+      "season": "Season 4",
+      "title": "トラブル①（誰が悪いかでもめる）",
+      "lines": [
+        [
+          "A",
+          "Why are you throwing this in my face again?",
+          "なんでまたそのこと持ち出して責めるん？"
+        ],
+        [
+          "B",
+          "Because you said this whole mess was my fault.",
+          "だってこの騒ぎ全部私のせいって言ったやろ。"
+        ],
+        [
+          "A",
+          "I said you started it.",
+          "君がきっかけ作ったって言っただけ。"
+        ],
+        [
+          "B",
+          "That’s the other way around. You started it.",
+          "逆や。始めたのはそっち。"
+        ],
+        [
+          "A",
+          "No offense, but that’s ridiculous.",
+          "悪いけど、それは無茶苦茶や。"
+        ],
+        [
+          "B",
+          "Don’t take this the wrong way, but you’re impossible when you’re angry.",
+          "悪く取らんといてほしいけど、怒ってるときほんま話にならん。"
+        ],
+        [
+          "A",
+          "Granted, I was angry.",
+          "確かに怒ってた。"
+        ],
+        [
+          "B",
+          "Then stop trying to teach me a lesson and just talk to me.",
+          "じゃあ懲らしめようとせず、普通に話して。"
+        ],
+        [
+          "A",
+          "Fine.",
+          "わかった。"
+        ],
+        [
+          "B",
+          "Good.",
+          "よし。"
+        ],
+        [
+          "A",
+          "Let’s start over.",
+          "やり直そう。"
+        ]
+      ],
+      "phraseLinks": [
+        "p414",
+        "p370",
+        "p377",
+        "p376",
+        "p379",
+        "p368"
+      ]
+    },
+    {
+      "id": "d46",
+      "season": "Season 4",
+      "title": "仕事④（提案が通るか探る）",
+      "lines": [
+        [
+          "A",
+          "Do you think the remote-work idea will pan out?",
+          "在宅勤務の案、うまくいくと思う？"
+        ],
+        [
+          "B",
+          "Maybe. It’s starting to catch on with management.",
+          "たぶん。上の人たちにも浸透し始めてる。"
+        ],
+        [
+          "A",
+          "I want to take it to the next level and make it permanent.",
+          "もう一段進めて恒久制度にしたい。"
+        ],
+        [
+          "B",
+          "Then base your proposal on the productivity data.",
+          "じゃあ生産性データを根拠に提案したら。"
+        ],
+        [
+          "A",
+          "Good point.",
+          "確かに。"
+        ],
+        [
+          "B",
+          "And broach the cost savings before they ask.",
+          "それと聞かれる前にコスト削減の話も切り出して。"
+        ],
+        [
+          "A",
+          "Think they’ll go for it?",
+          "受け入れてくれると思う？"
+        ],
+        [
+          "B",
+          "Anyone worth their salt will at least consider it.",
+          "まともな人なら少なくとも検討はする。"
+        ],
+        [
+          "A",
+          "I’ll take that.",
+          "それで十分。"
+        ],
+        [
+          "B",
+          "Good luck.",
+          "頑張って。"
+        ]
+      ],
+      "phraseLinks": [
+        "p417",
+        "p364",
+        "p361",
+        "p416",
+        "p434",
+        "p418"
+      ]
+    },
+    {
+      "id": "d47",
+      "season": "Season 4",
+      "title": "日常③（風邪をひいた友人）",
+      "lines": [
+        [
+          "A",
+          "You sound awful.",
+          "声ひどいで。"
+        ],
+        [
+          "B",
+          "I think I’m coming down with something.",
+          "なんか風邪ひきかけてる気がする。"
+        ],
+        [
+          "A",
+          "Then lay off the late nights for a while.",
+          "じゃあしばらく夜更かしやめとき。"
+        ],
+        [
+          "B",
+          "Easy for you to say. I have three deadlines.",
+          "そっちはそう言えるけど、締切3つあるねん。"
+        ],
+        [
+          "A",
+          "You’re going to bring yourself down if you keep this up.",
+          "このままやったら体調さらに落とすよ。"
+        ],
+        [
+          "B",
+          "I know.",
+          "わかってる。"
+        ],
+        [
+          "A",
+          "Take tomorrow off.",
+          "明日休み。"
+        ],
+        [
+          "B",
+          "That doesn’t leave me much choice, does it?",
+          "それじゃあんまり選択肢ないな。"
+        ],
+        [
+          "A",
+          "Correct.",
+          "その通り。"
+        ],
+        [
+          "B",
+          "Fine. I’ll stay home.",
+          "わかった。家にいる。"
+        ]
+      ],
+      "phraseLinks": [
+        "p409",
+        "p429",
+        "p369",
+        "p422",
+        "p421"
+      ]
+    },
+    {
+      "id": "d48",
+      "season": "Season 4",
+      "title": "仕事⑤（苦手な上司への対応）",
+      "lines": [
+        [
+          "A",
+          "Don’t get me started on the new director.",
+          "新しい部長の話は始めさせんといて。"
+        ],
+        [
+          "B",
+          "That bad?",
+          "そんなに？"
+        ],
+        [
+          "A",
+          "He rambles, takes credit for everything, and loves sycophants.",
+          "話長いし、何でも自分の手柄にするし、おべっか使いが大好き。"
+        ],
+        [
+          "B",
+          "Sounds charming.",
+          "魅力的やな。"
+        ],
+        [
+          "A",
+          "By the by, he asked me to work this weekend.",
+          "そういえば、週末出勤頼まれた。"
+        ],
+        [
+          "B",
+          "Can you say no?",
+          "断れる？"
+        ],
+        [
+          "A",
+          "Not really. I need him out of my hair on Monday.",
+          "難しいな。月曜にはもう干渉されたくないし。"
+        ],
+        [
+          "B",
+          "Then get it over with and move on.",
+          "じゃあ終わらせて前に進もう。"
+        ],
+        [
+          "A",
+          "That’s the plan.",
+          "そうする。"
+        ],
+        [
+          "B",
+          "And maybe skip the bellyaching in front of him.",
+          "本人の前では愚痴らん方がいいかもな。"
+        ],
+        [
+          "A",
+          "Noted.",
+          "了解。"
+        ]
+      ],
+      "phraseLinks": [
+        "p436",
+        "p440",
+        "p438",
+        "p439",
+        "p372",
+        "p441"
+      ]
+    },
+    {
+      "id": "d49",
+      "season": "Season 4",
+      "title": "日常④（怖い映画を見る）",
+      "lines": [
+        [
+          "A",
+          "You said this movie wasn’t scary.",
+          "この映画怖くないって言ったやん。"
+        ],
+        [
+          "B",
+          "I said it wasn’t that scary.",
+          "そこまで怖くないって言った。"
+        ],
+        [
+          "A",
+          "That jump scare scared the bejesus out of me.",
+          "今のびっくり演出で心臓止まるかと思った。"
+        ],
+        [
+          "B",
+          "You screamed louder than the movie.",
+          "映画より大きい声出してたで。"
+        ],
+        [
+          "A",
+          "Shame on you for laughing.",
+          "笑うとかひどい。"
+        ],
+        [
+          "B",
+          "What a shame. I was having fun.",
+          "残念やな。私は楽しんでたのに。"
+        ],
+        [
+          "A",
+          "No shame in being scared.",
+          "怖がるのは恥ずかしいことちゃう。"
+        ],
+        [
+          "B",
+          "Granted.",
+          "それは認める。"
+        ],
+        [
+          "A",
+          "Can we watch something mellow now?",
+          "次はもっと穏やかなやつ見ていい？"
+        ],
+        [
+          "B",
+          "Absolutely.",
+          "もちろん。"
+        ]
+      ],
+      "phraseLinks": [
+        "p403",
+        "p452",
+        "p453",
+        "p454",
+        "p379",
+        "p456"
+      ]
+    },
+    {
+      "id": "d50",
+      "season": "Season 4",
+      "title": "人間関係①（友達をかばう）",
+      "lines": [
+        [
+          "A",
+          "Why did you stick up for him after what he said?",
+          "あんなこと言われたのに、なんで彼をかばったん？"
+        ],
+        [
+          "B",
+          "Because everyone was piling on him.",
+          "みんなで一斉に責めてたから。"
+        ],
+        [
+          "A",
+          "He deserved some of it.",
+          "多少は自業自得やろ。"
+        ],
+        [
+          "B",
+          "Maybe, but I’m not going to watch someone get picked on.",
+          "そうかもしれんけど、誰かがいじめられるの黙って見てられへん。"
+        ],
+        [
+          "A",
+          "That’s generous of you.",
+          "優しいな。"
+        ],
+        [
+          "B",
+          "Or stupid. Depends who you ask.",
+          "あるいはバカ。誰に聞くかによる。"
+        ],
+        [
+          "A",
+          "For what it’s worth, I think you handled it well.",
+          "一応言っとくと、うまく対応したと思う。"
+        ],
+        [
+          "B",
+          "Thanks. That’s what counts.",
+          "ありがとう。それが大事やな。"
+        ],
+        [
+          "A",
+          "You’d give him another chance?",
+          "もう一回チャンスあげる？"
+        ],
+        [
+          "B",
+          "Maybe.",
+          "たぶん。"
+        ]
+      ],
+      "phraseLinks": [
+        "p360",
+        "p391",
+        "p367",
+        "p448",
+        "p445",
+        "p392"
+      ]
+    },
+    {
+      "id": "d51",
+      "season": "Season 4",
+      "title": "仕事⑥（情報を言えない立場）",
+      "lines": [
+        [
+          "A",
+          "Is the company really closing the branch?",
+          "会社、ほんまに支店閉めるん？"
+        ],
+        [
+          "B",
+          "I’m not at liberty to discuss that yet.",
+          "まだそれについて話せない。"
+        ],
+        [
+          "A",
+          "So that means yes.",
+          "じゃあイエスってことやな。"
+        ],
+        [
+          "B",
+          "It means I’m not at liberty to discuss it.",
+          "話せないって意味。"
+        ],
+        [
+          "A",
+          "You’re putting me in a pickle here.",
+          "こっちは困った立場になるな。"
+        ],
+        [
+          "B",
+          "I know, but I can’t come out and say something that isn’t official.",
+          "わかるけど、公式じゃないことをはっきり言うわけにはいかない。"
+        ],
+        [
+          "A",
+          "Fair enough.",
+          "ごもっとも。"
+        ],
+        [
+          "B",
+          "For the record, I’ll tell you as soon as I can.",
+          "念のため言っとくと、言えるようになったらすぐ話す。"
+        ],
+        [
+          "A",
+          "Okay.",
+          "わかった。"
+        ],
+        [
+          "B",
+          "Thanks for understanding.",
+          "理解してくれてありがとう。"
+        ]
+      ],
+      "phraseLinks": [
+        "p467",
+        "p466",
+        "p435",
+        "p465"
+      ]
+    },
+    {
+      "id": "d52",
+      "season": "Season 4",
+      "title": "日常⑤（口論がヒートアップする）",
+      "lines": [
+        [
+          "A",
+          "Don’t take that tone with me.",
+          "そんな口の利き方せんといて。"
+        ],
+        [
+          "B",
+          "Then stop giving me the third degree.",
+          "じゃあ尋問みたいに質問するのやめて。"
+        ],
+        [
+          "A",
+          "I asked two questions.",
+          "2つ聞いただけやん。"
+        ],
+        [
+          "B",
+          "And you got me all riled up over nothing.",
+          "そのせいでどうでもいいことでめっちゃイライラした。"
+        ],
+        [
+          "A",
+          "No good can come of this if we keep yelling.",
+          "このまま怒鳴り合ってもいいことない。"
+        ],
+        [
+          "B",
+          "Agreed.",
+          "同感。"
+        ],
+        [
+          "A",
+          "Let’s cool off.",
+          "ちょっと頭冷やそう。"
+        ],
+        [
+          "B",
+          "Fine.",
+          "わかった。"
+        ],
+        [
+          "A",
+          "And for the record, I wasn’t accusing you.",
+          "一応言っとくけど、責めてたわけじゃない。"
+        ],
+        [
+          "B",
+          "Okay. I’ll take that.",
+          "わかった。そう受け取る。"
+        ]
+      ],
+      "phraseLinks": [
+        "p469",
+        "p470",
+        "p407",
+        "p471",
+        "p465"
+      ]
+    },
+    {
+      "id": "d60",
+      "season": "Season 4",
+      "title": "仕事⑦（難しい課題に取り組む）",
+      "lines": [
+        [
+          "A",
+          "How bad is the backlog?",
+          "未処理どのくらいひどい？"
+        ],
+        [
+          "B",
+          "No piece of cake, that’s for sure.",
+          "簡単じゃないのは確か。"
+        ],
+        [
+          "A",
+          "How much do you know about the old system?",
+          "古いシステムのことどのくらい知ってる？"
+        ],
+        [
+          "B",
+          "Honestly? I know squat.",
+          "正直？全然知らん。"
+        ],
+        [
+          "A",
+          "Then you’ve got your work cut out for you.",
+          "じゃあかなり大変やな。"
+        ],
+        [
+          "B",
+          "Yep. But we’re making headway.",
+          "うん。でも少しずつ進んでる。"
+        ],
+        [
+          "A",
+          "Good. Don’t let anyone suck you into fixing everything at once.",
+          "よし。一気に全部直す流れに巻き込まれんといて。"
+        ],
+        [
+          "B",
+          "Too late. They already roped me in.",
+          "遅い。もう巻き込まれた。"
+        ],
+        [
+          "A",
+          "Of course they did.",
+          "やっぱりな。"
+        ],
+        [
+          "B",
+          "At least I’m learning.",
+          "まあ勉強にはなってる。"
+        ]
+      ],
+      "phraseLinks": [
+        "p423",
+        "p398",
+        "p381",
+        "p390",
+        "p355",
+        "p356"
+      ]
+    },
+    {
+      "id": "d61",
+      "season": "Season 4",
+      "title": "恋愛①（関係を進めるか迷う）",
+      "lines": [
+        [
+          "A",
+          "So, are you two serious?",
+          "で、二人本気なん？"
+        ],
+        [
+          "B",
+          "I don’t know. We have chemistry, but that doesn’t mean we’re meant to be.",
+          "わからん。相性はいいけど、それで運命の相手ってわけじゃないし。"
+        ],
+        [
+          "A",
+          "Fair.",
+          "そうやな。"
+        ],
+        [
+          "B",
+          "Part of me wants to take it to the next level.",
+          "もう少し関係を進めたい気持ちもある。"
+        ],
+        [
+          "A",
+          "And the other part?",
+          "もう一方は？"
+        ],
+        [
+          "B",
+          "Wants to play hard to get and not rush anything.",
+          "ちょっと焦らして、急がずにいたい。"
+        ],
+        [
+          "A",
+          "Pick a lane.",
+          "どっちか決めなよ。"
+        ],
+        [
+          "B",
+          "That’s the problem.",
+          "それができへん。"
+        ],
+        [
+          "A",
+          "Then don’t force it.",
+          "じゃあ無理に決めんでいい。"
+        ],
+        [
+          "B",
+          "Good advice.",
+          "それがよさそう。"
+        ]
+      ],
+      "phraseLinks": [
+        "p412",
+        "p420",
+        "p361",
+        "p426",
+        "p380"
+      ]
+    },
+    {
+      "id": "d62",
+      "season": "Season 4",
+      "title": "日常⑥（賭けと罰ゲーム）",
+      "lines": [
+        [
+          "A",
+          "Ten bucks says you can’t finish that puzzle in five minutes.",
+          "5分でそのパズル終わらせられへん方に10ドル。"
+        ],
+        [
+          "B",
+          "Challenge accepted.",
+          "受けて立つ。"
+        ],
+        [
+          "A",
+          "If you lose, fork it over.",
+          "負けたら払ってな。"
+        ],
+        [
+          "B",
+          "And if I win?",
+          "勝ったら？"
+        ],
+        [
+          "A",
+          "I’ll cough it up fair and square.",
+          "ちゃんと正々堂々払う。"
+        ],
+        [
+          "B",
+          "Deal.",
+          "決まり。"
+        ],
+        [
+          "A",
+          "You’ve got two minutes left.",
+          "あと2分。"
+        ],
+        [
+          "B",
+          "Stop talking.",
+          "黙って。"
+        ],
+        [
+          "A",
+          "You’re doomed.",
+          "もう無理やな。"
+        ],
+        [
+          "B",
+          "Wait for it.",
+          "見とき。"
+        ],
+        [
+          "A",
+          "Okay, that was impressive.",
+          "お、それはすごい。"
+        ]
+      ],
+      "phraseLinks": [
+        "p399",
+        "p400",
+        "p401",
+        "p447",
+        "p371"
+      ]
+    },
+    {
+      "id": "d63",
+      "season": "Season 4",
+      "title": "雑談①（苦手な人の話）",
+      "lines": [
+        [
+          "A",
+          "Why do you dislike him so much?",
+          "なんでそんなにあの人嫌いなん？"
+        ],
+        [
+          "B",
+          "Where do I start? He’s loud, stingy, and kind of a square.",
+          "どこから言おう。うるさいし、ケチやし、ちょっと堅物。"
+        ],
+        [
+          "A",
+          "That seems harsh.",
+          "きついな。"
+        ],
+        [
+          "B",
+          "He also makes a fool of himself whenever he tries to be funny.",
+          "面白いこと言おうとするたびに恥かいてるし。"
+        ],
+        [
+          "A",
+          "Maybe that’s what makes him endearing.",
+          "そこが逆に愛嬌なんちゃう？"
+        ],
+        [
+          "B",
+          "No offense, but your standards are low.",
+          "悪いけど、基準低いで。"
+        ],
+        [
+          "A",
+          "Granted, I’m generous with second chances.",
+          "まあ、二度目のチャンスには甘いけど。"
+        ],
+        [
+          "B",
+          "That’s one word for it.",
+          "そういう言い方もできるな。"
+        ],
+        [
+          "A",
+          "Give him another chance.",
+          "もう一回チャンスあげてみて。"
+        ],
+        [
+          "B",
+          "We’ll see.",
+          "考えとく。"
+        ]
+      ],
+      "phraseLinks": [
+        "p367",
+        "p375",
+        "p430",
+        "p378",
+        "p377",
+        "p379",
+        "p392"
+      ]
+    }
+  ]
+}

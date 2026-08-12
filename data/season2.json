@@ -1,0 +1,2796 @@
+{
+  "season": 2,
+  "phrases": [
+    {
+      "id": "p129",
+      "phrase": "cramp",
+      "meaning": "筋肉が攣る",
+      "scene": "運動中や急に体が痛くなったとき",
+      "example1": "I got a cramp in my leg.",
+      "example2": "My side is cramping.",
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E01",
+      "usage": "日常的"
+    },
+    {
+      "id": "p131",
+      "phrase": "the silver lining",
+      "meaning": "不幸中の幸い",
+      "scene": "悪い状況の中で良い面を言うとき",
+      "example1": "The silver lining is that I learned a lot.",
+      "example2": "There’s always a silver lining.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E01",
+      "usage": "日常的"
+    },
+    {
+      "id": "p132",
+      "phrase": "spare your feelings",
+      "meaning": "相手を傷つけないようにする",
+      "scene": "本音を言わずに配慮するとき",
+      "example1": "I was trying to spare your feelings.",
+      "example2": "I didn’t say it to spare him.",
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E01",
+      "usage": "日常的"
+    },
+    {
+      "id": "p134",
+      "phrase": "If I had a nickel for ~",
+      "meaning": "〜がめっちゃ多い",
+      "scene": "回数の多さを皮肉っぽく言うとき",
+      "example1": "If I had a nickel for every mistake, I’d be rich.",
+      "example2": "If I had a nickel for every time he said that…",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E01",
+      "usage": "日常的"
+    },
+    {
+      "id": "p135",
+      "phrase": "hit rock bottom",
+      "meaning": "どん底に達する",
+      "scene": "最悪の状態に落ちたとき",
+      "example1": "I hit rock bottom last year.",
+      "example2": "That was my rock bottom.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E01",
+      "usage": "日常的"
+    },
+    {
+      "id": "p136",
+      "phrase": "my share of ~",
+      "meaning": "それなりに経験してきた",
+      "scene": "経験を少し控えめに言うとき",
+      "example1": "I’ve had my share of problems.",
+      "example2": "We’ve had our share of fights.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E01",
+      "usage": "日常的"
+    },
+    {
+      "id": "p137",
+      "phrase": "bore you with ~",
+      "meaning": "〜で退屈させる",
+      "scene": "長い話や細かい話を省くとき",
+      "example1": "I won’t bore you with the details.",
+      "example2": "Don’t bore me with that story.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E02",
+      "usage": "日常的"
+    },
+    {
+      "id": "p138",
+      "phrase": "nut case",
+      "meaning": "変人／イカれた人",
+      "scene": "誰かの行動が極端で「普通じゃない」と軽く言うとき",
+      "example1": "He’s kind of a nut case, but I like him.",
+      "example2": "Don’t listen to him—he’s a total nut case.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E03",
+      "usage": "日常的"
+    },
+    {
+      "id": "p140",
+      "phrase": "cave (in)",
+      "meaning": "折れる／屈する",
+      "scene": "最初は抵抗してたのに結局譲ったとき",
+      "example1": "He finally caved in to pressure.",
+      "example2": "I didn’t want to, but I caved.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E03",
+      "usage": "日常的"
+    },
+    {
+      "id": "p141",
+      "phrase": "hang someone up",
+      "meaning": "（人を）引っかからせる／前に進めなくする",
+      "scene": "過去や不安が原因で行動できないとき",
+      "example1": "Don’t let that hang you up.",
+      "example2": "I used to get hung up on small things.",
+      "type": "phrasal verb",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E03",
+      "usage": "日常的"
+    },
+    {
+      "id": "p142",
+      "phrase": "psyched out",
+      "meaning": "ビビる／考えすぎてダメになる",
+      "scene": "自分の不安で本来の力が出せないとき",
+      "example1": "I got psyched out before the interview.",
+      "example2": "Don’t psyche yourself out.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E04",
+      "usage": "日常的"
+    },
+    {
+      "id": "p143",
+      "phrase": "degrading to ~",
+      "meaning": "〜にとって侮辱的",
+      "scene": "発言・作品などが特定の人にとって不快なとき",
+      "example1": "That joke is degrading to women.",
+      "example2": "It’s degrading to the audience.",
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E04",
+      "usage": "日常的"
+    },
+    {
+      "id": "p145",
+      "phrase": "wiped (out)",
+      "meaning": "ヘトヘト／完全に疲れている",
+      "scene": "体力・気力ともに限界のとき",
+      "example1": "I’m completely wiped after work.",
+      "example2": "That workout left me wiped out.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E04",
+      "usage": "日常的"
+    },
+    {
+      "id": "p146",
+      "phrase": "in a nutshell",
+      "meaning": "要するに／簡単に言うと",
+      "scene": "長い話をまとめるとき",
+      "example1": "In a nutshell, we need more time.",
+      "example2": "So, in a nutshell, he quit his job.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E04",
+      "usage": "日常的"
+    },
+    {
+      "id": "p147",
+      "phrase": "catch someone off guard",
+      "meaning": "不意を突く",
+      "scene": "準備していない状態で質問や出来事に直面したとき",
+      "example1": "That question caught me off guard.",
+      "example2": "Sorry, you caught me off guard.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E04",
+      "usage": "日常的"
+    },
+    {
+      "id": "p148",
+      "phrase": "have the nerve",
+      "meaning": "よくそんなことするよね／そんな度胸ある",
+      "scene": "相手の図々しさや信じられなさをツッコむとき",
+      "example1": "You have the nerve to say that?",
+      "example2": "I didn’t have the nerve to call her.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E05",
+      "usage": "日常的"
+    },
+    {
+      "id": "p149",
+      "phrase": "pay off",
+      "meaning": "報われる／成果が出る",
+      "scene": "努力や投資が結果につながったとき",
+      "example1": "All that hard work paid off.",
+      "example2": "Studying every day finally paid off.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E05",
+      "usage": "日常的"
+    },
+    {
+      "id": "p150",
+      "phrase": "steep",
+      "meaning": "（値段や要求が）高すぎる／きつい",
+      "scene": "金額や負担が重いと感じたとき",
+      "example1": "That’s a bit steep for me.",
+      "example2": "The fee is pretty steep.",
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E05",
+      "usage": "日常的"
+    },
+    {
+      "id": "p151",
+      "phrase": "all cried out",
+      "meaning": "泣き尽くした／もう泣けない",
+      "scene": "感情を出し切ったとき",
+      "example1": "I’m all cried out.",
+      "example2": "She was all cried out after the argument.",
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E05",
+      "usage": "日常的"
+    },
+    {
+      "id": "p152",
+      "phrase": "cha-ching",
+      "meaning": "金の音→高い／儲かる感じ",
+      "scene": "お金が絡む話を軽く言うとき",
+      "example1": "Cha-ching! That’s a big sale.",
+      "example2": "That car is pretty cha-ching.",
+      "type": "idiom",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S02E05",
+      "usage": "日常的"
+    },
+    {
+      "id": "p153",
+      "phrase": "(go) out the window",
+      "meaning": "台無しになる／吹き飛ぶ",
+      "scene": "計画や希望が崩れたとき",
+      "example1": "My plans went out the window.",
+      "example2": "There goes our idea—out the window.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E06",
+      "usage": "日常的"
+    },
+    {
+      "id": "p154",
+      "phrase": "lather, rinse, repeat",
+      "meaning": "同じことの繰り返し",
+      "scene": "単調なルーティンを表すとき",
+      "example1": "It’s just lather, rinse, repeat every day.",
+      "example2": "Work, eat, sleep—lather, rinse, repeat.",
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E06",
+      "usage": "日常的"
+    },
+    {
+      "id": "p155",
+      "phrase": "get the ball rolling",
+      "meaning": "物事を始める／きっかけを作る",
+      "scene": "最初の一歩を踏み出すとき",
+      "example1": "Let’s get the ball rolling.",
+      "example2": "I’ll send the first message to get the ball rolling.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E06",
+      "usage": "日常的"
+    },
+    {
+      "id": "p156",
+      "phrase": "put out",
+      "meaning": "（性的に）応じる／体を許す",
+      "scene": "恋愛の進展や下ネタの会話",
+      "example1": "He won’t put out.",
+      "example2": "She finally put out.",
+      "type": "idiom",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S02E07",
+      "usage": "日常的"
+    },
+    {
+      "id": "p157",
+      "phrase": "Nope, zilch, nothin’, huh-uh",
+      "meaning": "全くない／ゼロ",
+      "scene": "強めに何もないと否定するとき",
+      "example1": "Nope, nothing.",
+      "example2": "Zilch. I got nothing.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E07",
+      "usage": "日常的"
+    },
+    {
+      "id": "p158",
+      "phrase": "Oh, look at me",
+      "meaning": "何やってんねん自分（自虐・皮肉）",
+      "scene": "自分の発言や行動にツッコミ入れるとき",
+      "example1": "Oh, look at me, I did it again.",
+      "example2": "Look at me, talking too much.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E07",
+      "usage": "日常的"
+    },
+    {
+      "id": "p159",
+      "phrase": "whatever it takes",
+      "meaning": "何をしてでも",
+      "scene": "強い決意を示すとき",
+      "example1": "I’ll do whatever it takes.",
+      "example2": "Whatever it takes to win.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E07",
+      "usage": "日常的"
+    },
+    {
+      "id": "p160",
+      "phrase": "take / follow someone’s advice",
+      "meaning": "アドバイスに従う",
+      "scene": "助言を実際に行動に移したとき",
+      "example1": "I took your advice.",
+      "example2": "I followed his advice.",
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E07",
+      "usage": "日常的"
+    },
+    {
+      "id": "p161",
+      "phrase": "This ship has sailed",
+      "meaning": "もう手遅れ",
+      "scene": "チャンスが過ぎたとき",
+      "example1": "That ship has sailed.",
+      "example2": "Sorry, it’s too late. That ship has sailed.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E07",
+      "usage": "日常的"
+    },
+    {
+      "id": "p163",
+      "phrase": "cut someone some slack",
+      "meaning": "大目に見る",
+      "scene": "誰かをかばう・責めすぎを止めるとき",
+      "example1": "Cut him some slack.",
+      "example2": "Cut me some slack.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E08",
+      "usage": "日常的"
+    },
+    {
+      "id": "p164",
+      "phrase": "let up on ~",
+      "meaning": "圧や攻撃を弱める",
+      "scene": "責めすぎてる状況を止めるとき",
+      "example1": "Let up on him.",
+      "example2": "The rain finally let up.",
+      "type": "phrasal verb",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E08",
+      "usage": "日常的"
+    },
+    {
+      "id": "p165",
+      "phrase": "get some perspective",
+      "meaning": "冷静に考える／客観視する",
+      "scene": "感情的になっているとき",
+      "example1": "Let’s get some perspective.",
+      "example2": "You need to get some perspective.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E08",
+      "usage": "日常的"
+    },
+    {
+      "id": "p166",
+      "phrase": "simmer down",
+      "meaning": "落ち着け／静かにしろ",
+      "scene": "感情が高ぶっているとき",
+      "example1": "Hey, simmer down.",
+      "example2": "Simmer down, guys.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E08",
+      "usage": "日常的"
+    },
+    {
+      "id": "p167",
+      "phrase": "put something into perspective",
+      "meaning": "見方を整理する／客観的に捉え直す",
+      "scene": "経験で考え方が変わるとき",
+      "example1": "That trip put things into perspective.",
+      "example2": "It really put things into perspective.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E08",
+      "usage": "日常的"
+    },
+    {
+      "id": "p168",
+      "phrase": "limerick",
+      "meaning": "5行の短いジョーク詩（くだらないオチ付き）",
+      "scene": "軽い冗談やナンセンスな話をするとき",
+      "example1": "He told me a limerick out of nowhere.",
+      "example2": "That sounds like a bad limerick.",
+      "type": "word",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S02E09",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p169",
+      "phrase": "bite me",
+      "meaning": "うるさい／勝手にしろ（軽い反発）",
+      "scene": "イラっとして相手を突き放すとき",
+      "example1": "Oh, bite me. I don’t care.",
+      "example2": "You think you’re better than me? Bite me.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E09",
+      "usage": "やや古め"
+    },
+    {
+      "id": "p170",
+      "phrase": "all ears",
+      "meaning": "ちゃんと聞くよ／聞く準備できてる",
+      "scene": "相手の話を積極的に聞く姿勢を見せるとき",
+      "example1": "Go ahead, I’m all ears.",
+      "example2": "Tell me everything. I’m all ears.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E09",
+      "usage": "日常的"
+    },
+    {
+      "id": "p171",
+      "phrase": "seize the day",
+      "meaning": "今を生きろ／チャンスを逃すな",
+      "scene": "前向きに行動を促すとき",
+      "example1": "You should just do it—seize the day.",
+      "example2": "For once, I’m gonna seize the day.",
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E09",
+      "usage": "日常的"
+    },
+    {
+      "id": "p172",
+      "phrase": "toy with ~",
+      "meaning": "（人を）もてあそぶ／（考えを）軽く考える",
+      "scene": "感情を軽く扱う・アイデアを軽く検討するとき",
+      "example1": "Don’t toy with my feelings.",
+      "example2": "I’m toying with the idea of quitting.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E10",
+      "usage": "日常的"
+    },
+    {
+      "id": "p173",
+      "phrase": "come on to ~",
+      "meaning": "（人に）言い寄る／迫る",
+      "scene": "恋愛的に距離を詰めてくるとき",
+      "example1": "He was totally coming on to her.",
+      "example2": "I think she’s coming on to me.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E10",
+      "usage": "日常的"
+    },
+    {
+      "id": "p174",
+      "phrase": "keep ~ at bay",
+      "meaning": "近づけないようにする／抑える",
+      "scene": "人や問題をコントロールするとき",
+      "example1": "He kept the reporters at bay.",
+      "example2": "I’m trying to keep stress at bay.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E10",
+      "usage": "日常的"
+    },
+    {
+      "id": "p175",
+      "phrase": "You could not be more wrong",
+      "meaning": "完全に間違ってる",
+      "scene": "相手の発言を強く否定するとき",
+      "example1": "You could not be more wrong about that.",
+      "example2": "Trust me, you couldn’t be more wrong.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E10",
+      "usage": "日常的"
+    },
+    {
+      "id": "p176",
+      "phrase": "fall off the wagon",
+      "meaning": "禁○○を破る／またやってしまう",
+      "scene": "やめていた習慣に戻ってしまったとき",
+      "example1": "I fell off the wagon and ate junk food.",
+      "example2": "He fell off the wagon again.",
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E10",
+      "usage": "日常的"
+    },
+    {
+      "id": "p177",
+      "phrase": "Worth a shot, huh?",
+      "meaning": "やってみる価値あるよな？（ダメ元で）",
+      "scene": "成功確率は低いけど試してみようとするとき",
+      "example1": "It might not work, but it’s worth a shot.",
+      "example2": "I’ll ask him. Worth a shot, right?",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E11",
+      "usage": "日常的"
+    },
+    {
+      "id": "p178",
+      "phrase": "you of all people",
+      "meaning": "他でもなく、あなたなら（こそ）",
+      "scene": "期待・驚き・軽い非難を込めて言うとき",
+      "example1": "You of all people should understand this.",
+      "example2": "I can’t believe you of all people said that.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E11",
+      "usage": "日常的"
+    },
+    {
+      "id": "p179",
+      "phrase": "get the monkey off your back",
+      "meaning": "重荷や悩みから解放される",
+      "scene": "長く抱えていた問題やプレッシャーが消えたとき",
+      "example1": "I finally got the monkey off my back.",
+      "example2": "He can’t get that mistake off his back.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E12",
+      "usage": "日常的"
+    },
+    {
+      "id": "p180",
+      "phrase": "whack-job",
+      "meaning": "頭おかしいやつ／変人",
+      "scene": "軽くディスる・冗談っぽく言うとき",
+      "example1": "That guy is a total whack-job.",
+      "example2": "She sounds like a whack-job.",
+      "type": "word",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S02E12",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p181",
+      "phrase": "What are you looking at me for?",
+      "meaning": "なんで俺を見るの？（俺関係ないやろ）",
+      "scene": "話を振られてツッコむとき",
+      "example1": "Don’t look at me. What are you looking at me for?",
+      "example2": "Why are you looking at me for this?",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E12",
+      "usage": "日常的"
+    },
+    {
+      "id": "p182",
+      "phrase": "devil-may-care",
+      "meaning": "どうでもいいやって感じの／開き直った",
+      "scene": "無責任・気にしない態度を表すとき",
+      "example1": "He has a devil-may-care attitude.",
+      "example2": "She gave me a devil-may-care shrug.",
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E12",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p183",
+      "phrase": "Who am I to question ~",
+      "meaning": "私なんかが〜に口出しする立場じゃない",
+      "scene": "謙遜や皮肉で引くとき",
+      "example1": "Who am I to question your decision?",
+      "example2": "Who am I to judge?",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E12",
+      "usage": "日常的"
+    },
+    {
+      "id": "p184",
+      "phrase": "word on the street",
+      "meaning": "噂によると／聞いた話では",
+      "scene": "非公式な情報を共有するとき",
+      "example1": "Word on the street is he’s leaving.",
+      "example2": "Word on the street, they broke up.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E12",
+      "usage": "日常的"
+    },
+    {
+      "id": "p185",
+      "phrase": "(hear it through) the grapevine",
+      "meaning": "人づてに聞く／噂で聞く",
+      "scene": "情報源がはっきりしないとき",
+      "example1": "I heard it through the grapevine.",
+      "example2": "She heard about it through the grapevine.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E12",
+      "usage": "日常的"
+    },
+    {
+      "id": "p186",
+      "phrase": "there goes ~",
+      "meaning": "はい終わり／ダメになった",
+      "scene": "計画や前提が崩れたとき",
+      "example1": "There goes my plan.",
+      "example2": "There goes my weekend.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E12",
+      "usage": "日常的"
+    },
+    {
+      "id": "p187",
+      "phrase": "What are you getting at?",
+      "meaning": "結局何が言いたいの？",
+      "scene": "回りくどい発言の意図を問うとき",
+      "example1": "What are you getting at here?",
+      "example2": "I don’t get it. What are you getting at?",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E12",
+      "usage": "日常的"
+    },
+    {
+      "id": "p188",
+      "phrase": "shoulder (a burden/responsibility)",
+      "meaning": "責任や負担を背負う／引き受ける",
+      "scene": "自分が何かを引き受けるとき",
+      "example1": "He had to shoulder the responsibility.",
+      "example2": "She’s been shouldering all the work.",
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E12",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p189",
+      "phrase": "sell someone out",
+      "meaning": "裏切る／密告する",
+      "scene": "仲間を裏切ったとき",
+      "example1": "He sold me out to the boss.",
+      "example2": "I can’t believe you sold him out like that.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "usage": "日常的"
+    },
+    {
+      "id": "p190",
+      "phrase": "tag along",
+      "meaning": "ついていく／便乗する",
+      "scene": "誰かの予定に一緒に行くとき",
+      "example1": "Can I tag along with you guys?",
+      "example2": "She tagged along to the party.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "usage": "日常的"
+    },
+    {
+      "id": "p191",
+      "phrase": "I gotta admit",
+      "meaning": "正直言うと／認めざるを得ないけど",
+      "scene": "本音や意外なことを言う前",
+      "example1": "I gotta admit, that was impressive.",
+      "example2": "I gotta admit, I was wrong.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "usage": "日常的"
+    },
+    {
+      "id": "p192",
+      "phrase": "get heat from ~",
+      "meaning": "～から責められる／怒られる",
+      "scene": "誰かに非難されているとき",
+      "example1": "I got heat from my boss.",
+      "example2": "He’s getting heat from everyone.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "usage": "日常的"
+    },
+    {
+      "id": "p194",
+      "phrase": "your call",
+      "meaning": "君が決めていいよ",
+      "scene": "判断を相手に委ねるとき",
+      "example1": "It’s your call.",
+      "example2": "Your call, I’m fine either way.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "usage": "日常的"
+    },
+    {
+      "id": "p195",
+      "phrase": "hang in there",
+      "meaning": "頑張れ／踏ん張れ",
+      "scene": "落ち込んでいる人を励ますとき",
+      "example1": "Hang in there, it’ll get better.",
+      "example2": "Just hang in there.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "usage": "日常的"
+    },
+    {
+      "id": "p196",
+      "phrase": "(he’s/she’s) going somewhere",
+      "meaning": "何か意図がありそう／話に意味がありそう",
+      "scene": "相手の話を見守るとき",
+      "example1": "I don’t get it, but she’s going somewhere.",
+      "example2": "Let him talk, he’s going somewhere.",
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "usage": "日常的"
+    },
+    {
+      "id": "p197",
+      "phrase": "Oh, God forbid",
+      "meaning": "まさかそんなことありえないよね（皮肉）",
+      "scene": "皮肉や呆れを言うとき",
+      "example1": "Oh, God forbid I make a mistake.",
+      "example2": "God forbid you help me for once.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "usage": "日常的"
+    },
+    {
+      "id": "p198",
+      "phrase": "fall for ~",
+      "meaning": "～に恋する／騙される",
+      "scene": "恋愛や詐欺の話で",
+      "example1": "I fell for her instantly.",
+      "example2": "He fell for the scam.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "usage": "日常的"
+    },
+    {
+      "id": "p199",
+      "phrase": "get clobbered",
+      "meaning": "ひどくやられる／ボコボコにされる",
+      "scene": "物理的・比喩的に打撃を受けるとき",
+      "example1": "He got clobbered in the fight.",
+      "example2": "The team got clobbered last night.",
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p201",
+      "phrase": "You are so smitten",
+      "meaning": "ベタ惚れやん／完全に惚れてる",
+      "scene": "誰かが明らかに恋に夢中なとき",
+      "example1": "You’re so smitten with her.",
+      "example2": "Look at you, you’re totally smitten.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E15",
+      "usage": "日常的"
+    },
+    {
+      "id": "p202",
+      "phrase": "I’m feeling too self-conscious",
+      "meaning": "気にしすぎて無理／人目が気になる",
+      "scene": "恥ずかしさや緊張で行動しづらいとき",
+      "example1": "I’m too self-conscious to dance.",
+      "example2": "I feel self-conscious about my voice.",
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E15",
+      "usage": "日常的"
+    },
+    {
+      "id": "p203",
+      "phrase": "You’re so full of yourself",
+      "meaning": "自分に酔いすぎ／調子乗ってる",
+      "scene": "相手がナルシストっぽいときに非難",
+      "example1": "You’re so full of yourself lately.",
+      "example2": "Stop being so full of yourself.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E15",
+      "usage": "日常的"
+    },
+    {
+      "id": "p204",
+      "phrase": "It wouldn’t kill you to say it once in a while",
+      "meaning": "たまには言ってくれてもいいやん",
+      "scene": "軽く不満を言いつつお願いするとき",
+      "example1": "It wouldn’t kill you to text me.",
+      "example2": "It wouldn’t kill you to help out.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E16",
+      "usage": "日常的"
+    },
+    {
+      "id": "p205",
+      "phrase": "What are you getting so bent out of shape for",
+      "meaning": "なんでそんなムキになってんの",
+      "scene": "相手が過剰に怒ってるとき",
+      "example1": "Why are you so bent out of shape?",
+      "example2": "Don’t get bent out of shape over that.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E16",
+      "usage": "日常的"
+    },
+    {
+      "id": "p206",
+      "phrase": "something of an item",
+      "meaning": "ちょっと付き合ってるっぽい関係",
+      "scene": "恋愛関係をぼかして言うとき",
+      "example1": "They’re something of an item.",
+      "example2": "Are you two something of an item?",
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E16",
+      "usage": "やや古め"
+    },
+    {
+      "id": "p207",
+      "phrase": "Really? You don’t say",
+      "meaning": "へえそうなん（←知ってるけど）",
+      "scene": "obviousなことに皮肉で返すとき",
+      "example1": "Really? You don’t say.",
+      "example2": "Oh, you don’t say.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E16",
+      "usage": "日常的"
+    },
+    {
+      "id": "p208",
+      "phrase": "Now you’re talking",
+      "meaning": "そうそうそれや／それでこそ",
+      "scene": "相手の提案に強く賛成するとき",
+      "example1": "Pizza? Now you’re talking.",
+      "example2": "Now you’re talking, that’s a great idea.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E16",
+      "usage": "日常的"
+    },
+    {
+      "id": "p209",
+      "phrase": "Tell me about it",
+      "meaning": "ほんまそれ／分かるわ",
+      "scene": "共感や同意をするとき",
+      "example1": "This job is exhausting. – Tell me about it.",
+      "example2": "It’s so hot today. – Tell me about it.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E16",
+      "usage": "日常的"
+    },
+    {
+      "id": "p210",
+      "phrase": "leave you high and dry",
+      "meaning": "見捨てる／放置する",
+      "scene": "困ってる相手を助けないとき",
+      "example1": "He left me high and dry.",
+      "example2": "Don’t leave me high and dry.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E16",
+      "usage": "日常的"
+    },
+    {
+      "id": "p211",
+      "phrase": "What a load of crap",
+      "meaning": "くだらん／嘘くさい",
+      "scene": "相手の話を否定・軽蔑するとき",
+      "example1": "That’s a load of crap.",
+      "example2": "What a load of crap.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E16",
+      "usage": "日常的"
+    },
+    {
+      "id": "p212",
+      "phrase": "You know what they say",
+      "meaning": "よく言うやん／こういう時ってさ",
+      "scene": "ことわざや一般論を言う前の前フリ",
+      "example1": "You know what they say, time is money.",
+      "example2": "You know what they say, everything happens for a reason.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E17",
+      "usage": "日常的"
+    },
+    {
+      "id": "p213",
+      "phrase": "I’m having a ball",
+      "meaning": "めっちゃ楽しんでる",
+      "scene": "本当に楽しい時や皮肉で言う時",
+      "example1": "I’m having a ball at this party.",
+      "example2": "Yeah, I’m having a ball…",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E17",
+      "usage": "やや古め"
+    },
+    {
+      "id": "p214",
+      "phrase": "toss it out",
+      "meaning": "捨てる／ポイっと処分する",
+      "scene": "いらないものをラフに捨てる時",
+      "example1": "Just toss it out if you don’t need it.",
+      "example2": "I should toss these old papers out.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E17",
+      "usage": "日常的"
+    },
+    {
+      "id": "p215",
+      "phrase": "I hated your guts",
+      "meaning": "大っ嫌いやった／ほんま無理やった",
+      "scene": "強い嫌悪感をぶっちゃける時",
+      "example1": "I hated his guts back then.",
+      "example2": "She said she hated my guts.",
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E17",
+      "usage": "日常的"
+    },
+    {
+      "id": "p216",
+      "phrase": "That has so many levels",
+      "meaning": "奥深い／いろんな意味がある",
+      "scene": "話や作品が多層的な時",
+      "example1": "This movie has so many levels.",
+      "example2": "His joke works on so many levels.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E17",
+      "usage": "日常的"
+    },
+    {
+      "id": "p218",
+      "phrase": "insult my intelligence",
+      "meaning": "バカにするな／なめるな",
+      "scene": "見え透いた嘘や言い訳に対して",
+      "example1": "Don’t insult my intelligence.",
+      "example2": "You’re insulting my intelligence with that excuse.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E18",
+      "usage": "日常的"
+    },
+    {
+      "id": "p219",
+      "phrase": "(in the) ballpark",
+      "meaning": "だいたい／ざっくりその辺",
+      "scene": "大まかな数や範囲を言う時",
+      "example1": "Just give me a ballpark figure.",
+      "example2": "That estimate is in the ballpark.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E18",
+      "usage": "日常的"
+    },
+    {
+      "id": "p220",
+      "phrase": "sow your wild oats",
+      "meaning": "若いうちに遊びまくる／恋愛経験を積む",
+      "scene": "若い頃の奔放な行動や恋愛について",
+      "example1": "He wants to sow his wild oats before settling down.",
+      "example2": "You should sow your wild oats while you’re young.",
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E18",
+      "usage": "やや古め"
+    },
+    {
+      "id": "p221",
+      "phrase": "jaunty",
+      "meaning": "軽やかで陽気（ちょっと気取っててオシャレ）",
+      "scene": "見た目や雰囲気が軽快でいい感じなとき",
+      "example1": "That hat is kind of jaunty.",
+      "example2": "He walked in with a jaunty step.",
+      "type": "word",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S02E19",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p222",
+      "phrase": "suck it up",
+      "meaning": "我慢しろ／文句言うな",
+      "scene": "弱音を吐いている相手に現実を受け入れさせるとき",
+      "example1": "Just suck it up and finish it.",
+      "example2": "You gotta suck it up sometimes.",
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E19",
+      "usage": "日常的"
+    },
+    {
+      "id": "p223",
+      "phrase": "out of the blue",
+      "meaning": "突然／前触れなく",
+      "scene": "予想外の出来事や発言",
+      "example1": "He called me out of the blue.",
+      "example2": "That question was out of the blue.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E19",
+      "usage": "日常的"
+    },
+    {
+      "id": "p224",
+      "phrase": "just so you know",
+      "meaning": "一応言っとくけど／念のため",
+      "scene": "情報共有や軽い前置き",
+      "example1": "Just so you know, I already emailed them.",
+      "example2": "Just so you know, this might take a while.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E19",
+      "usage": "日常的"
+    },
+    {
+      "id": "p225",
+      "phrase": "tacky",
+      "meaning": "ダサい／安っぽい",
+      "scene": "センスが悪い見た目や装飾",
+      "example1": "That outfit looks tacky.",
+      "example2": "It’s a bit tacky, don’t you think?",
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E19",
+      "usage": "日常的"
+    },
+    {
+      "id": "p226",
+      "phrase": "once in a blue moon",
+      "meaning": "めったにない",
+      "scene": "超低頻度の出来事",
+      "example1": "I eat fast food once in a blue moon.",
+      "example2": "He visits us once in a blue moon.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E19",
+      "usage": "日常的"
+    },
+    {
+      "id": "p227",
+      "phrase": "feel blue",
+      "meaning": "落ち込む／憂鬱",
+      "scene": "気分が沈んでいるとき",
+      "example1": "I’ve been feeling blue lately.",
+      "example2": "She felt blue after the breakup.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E19",
+      "usage": "日常的"
+    },
+    {
+      "id": "p228",
+      "phrase": "blue blood",
+      "meaning": "名門／貴族階級",
+      "scene": "家柄や育ちの話",
+      "example1": "He comes from a blue-blood family.",
+      "example2": "She married into blue blood.",
+      "type": "idiom",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S02E19",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p229",
+      "phrase": "scream blue murder",
+      "meaning": "大騒ぎする／激しく抗議する",
+      "scene": "大げさに怒る・騒ぐとき",
+      "example1": "She screamed blue murder when she saw it.",
+      "example2": "He’ll scream blue murder if he finds out.",
+      "type": "idiom",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S02E19",
+      "usage": "やや古め"
+    },
+    {
+      "id": "p230",
+      "phrase": "true blue",
+      "meaning": "忠実な／本物の",
+      "scene": "信頼できる人や本物を強調",
+      "example1": "He’s a true blue friend.",
+      "example2": "She’s true blue, you can trust her.",
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E19",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p231",
+      "phrase": "I’m so beat",
+      "meaning": "めっちゃ疲れた",
+      "scene": "仕事終わりや運動後など",
+      "example1": "I’m so beat after work.",
+      "example2": "I was totally beat after the game.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E21",
+      "usage": "日常的"
+    },
+    {
+      "id": "p232",
+      "phrase": "Kudos on ~",
+      "meaning": "〜よくやったね／ナイス",
+      "scene": "軽く褒めるとき（時に皮肉）",
+      "example1": "Kudos on your presentation.",
+      "example2": "Kudos on that joke.",
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E21",
+      "usage": "日常的"
+    },
+    {
+      "id": "p233",
+      "phrase": "Let me get this straight",
+      "meaning": "ちょっと整理させて／確認させて",
+      "scene": "ツッコミや半信半疑のとき",
+      "example1": "Let me get this straight—you quit your job?",
+      "example2": "Let me get this straight. You forgot again?",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E21",
+      "usage": "日常的"
+    },
+    {
+      "id": "p234",
+      "phrase": "on the same page",
+      "meaning": "認識が一致している",
+      "scene": "確認やすり合わせのとき",
+      "example1": "Are we on the same page?",
+      "example2": "Let’s make sure we’re on the same page.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E21",
+      "usage": "日常的"
+    },
+    {
+      "id": "p235",
+      "phrase": "in the same boat",
+      "meaning": "同じ状況や立場",
+      "scene": "共感や励ましのとき",
+      "example1": "We’re in the same boat.",
+      "example2": "We’re all in the same boat.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E21",
+      "usage": "日常的"
+    },
+    {
+      "id": "p236",
+      "phrase": "You don’t know the first thing about ~",
+      "meaning": "〜の基本すら知らない",
+      "scene": "強めの否定や口論で",
+      "example1": "You don’t know the first thing about cooking.",
+      "example2": "He doesn’t know the first thing about business.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E21",
+      "usage": "日常的"
+    },
+    {
+      "id": "p237",
+      "phrase": "buy（＝信じる）",
+      "meaning": "話や言い訳を信じる",
+      "scene": "疑いやツッコミのとき",
+      "example1": "I don’t buy it.",
+      "example2": "He bought her story.",
+      "type": "word",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E22",
+      "usage": "日常的"
+    },
+    {
+      "id": "p238",
+      "phrase": "shush ~",
+      "meaning": "シーって静かにさせる",
+      "scene": "軽く黙らせるとき",
+      "example1": "She shushed the kids.",
+      "example2": "He shushed me during the movie.",
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E22",
+      "usage": "日常的"
+    },
+    {
+      "id": "p239",
+      "phrase": "look at/on the bright side",
+      "meaning": "いい面を見る",
+      "scene": "励ましや自己納得のとき",
+      "example1": "Look on the bright side.",
+      "example2": "I’m trying to look at the bright side.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E22",
+      "usage": "日常的"
+    },
+    {
+      "id": "p240",
+      "phrase": "a pain / a pain in the neck",
+      "meaning": "面倒な人／うっとうしい",
+      "scene": "クッション表現や愚痴",
+      "example1": "Sorry to be a pain, but ~",
+      "example2": "He’s a pain in the neck.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E22",
+      "usage": "日常的"
+    },
+    {
+      "id": "p241",
+      "phrase": "create a diversion",
+      "meaning": "気を逸らす（行動をする）",
+      "scene": "作戦やコント的状況",
+      "example1": "I’ll create a diversion.",
+      "example2": "We need a diversion.",
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E22",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p242",
+      "phrase": "It never occurred to ~",
+      "meaning": "〜なんて思いもしなかった",
+      "scene": "後から気づくとき",
+      "example1": "It never occurred to me.",
+      "example2": "It never occurred to me to call him.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E22",
+      "usage": "日常的"
+    },
+    {
+      "id": "p243",
+      "phrase": "the chances are ~",
+      "meaning": "たぶん〜だろう",
+      "scene": "可能性が高いことを予測するとき",
+      "example1": "The chances are he forgot.",
+      "example2": "The chances are it’ll rain later.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E23",
+      "usage": "日常的"
+    },
+    {
+      "id": "p244",
+      "phrase": "feel left out",
+      "meaning": "仲間外れにされた感じがする",
+      "scene": "自分だけ除け者っぽく感じたとき",
+      "example1": "I felt left out at the party.",
+      "example2": "Don’t make him feel left out.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E23",
+      "usage": "日常的"
+    },
+    {
+      "id": "p245",
+      "phrase": "ease you in",
+      "meaning": "徐々に慣れさせる",
+      "scene": "新しい環境や状況にゆっくり適応させるとき",
+      "example1": "I’ll ease you in on your first day.",
+      "example2": "They eased me in slowly.",
+      "type": "phrasal verb",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E23",
+      "usage": "日常的"
+    },
+    {
+      "id": "p246",
+      "phrase": "for God’s sake",
+      "meaning": "いい加減にしてよ／頼むから",
+      "scene": "イライラや呆れを強調するとき",
+      "example1": "For God’s sake, stop it.",
+      "example2": "For God’s sake, just listen.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E23",
+      "usage": "日常的"
+    },
+    {
+      "id": "p247",
+      "phrase": "hideous",
+      "meaning": "ひどい／醜い",
+      "scene": "見た目や状況を強く否定するとき",
+      "example1": "That outfit is hideous.",
+      "example2": "The weather was hideous.",
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E23",
+      "usage": "日常的"
+    },
+    {
+      "id": "p248",
+      "phrase": "make a day of it",
+      "meaning": "一日がかりで楽しむ",
+      "scene": "予定を拡張してしっかり楽しむとき",
+      "example1": "Let’s make a day of it.",
+      "example2": "We made a day of the trip.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E23",
+      "usage": "日常的"
+    },
+    {
+      "id": "p249",
+      "phrase": "call you on it",
+      "meaning": "（嘘やごまかしを）指摘する",
+      "scene": "相手の言動を見抜いて突っ込むとき",
+      "example1": "I’ll call you on it.",
+      "example2": "She called him on his lie.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E23",
+      "usage": "日常的"
+    },
+    {
+      "id": "p250",
+      "phrase": "I don’t come off well",
+      "meaning": "印象がよくない",
+      "scene": "自分の言動が悪く受け取られそうなとき",
+      "example1": "I didn’t come off well there.",
+      "example2": "He comes off as rude sometimes.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E23",
+      "usage": "日常的"
+    },
+    {
+      "id": "p251",
+      "phrase": "drop the ball",
+      "meaning": "ミスする／やるべきことを怠る",
+      "scene": "責任あることを失敗したとき",
+      "example1": "I dropped the ball on that project.",
+      "example2": "Don’t drop the ball this time.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E23",
+      "usage": "日常的"
+    },
+    {
+      "id": "p252",
+      "phrase": "brown-nosing / suck-up",
+      "meaning": "ごますり／おべっか使い",
+      "scene": "上の人に媚びる人を言うとき",
+      "example1": "He’s such a suck-up.",
+      "example2": "Stop brown-nosing the boss.",
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E23",
+      "usage": "日常的"
+    },
+    {
+      "id": "p253",
+      "phrase": "Over my dead body",
+      "meaning": "絶対に許さない",
+      "scene": "強く拒否するとき",
+      "example1": "Over my dead body you’re going.",
+      "example2": "Over my dead body that happens.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E24",
+      "usage": "日常的"
+    },
+    {
+      "id": "p254",
+      "phrase": "live in the moment",
+      "meaning": "今を大切にして生きる",
+      "scene": "先のことを考えすぎず楽しむとき",
+      "example1": "I try to live in the moment.",
+      "example2": "Just live in the moment.",
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E24",
+      "usage": "日常的"
+    },
+    {
+      "id": "p255",
+      "phrase": "up and about",
+      "meaning": "元気に動き回れる状態",
+      "scene": "病み上がりなどで回復したとき",
+      "example1": "He’s up and about again.",
+      "example2": "Glad to see you up and about.",
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E24",
+      "usage": "日常的"
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d11",
+      "season": "Season 2",
+      "title": "仕事①（プロジェクトの立て直し）",
+      "lines": [
+        [
+          "A",
+          "Can you give me the situation in a nutshell?",
+          "状況を手短に説明してくれる？"
+        ],
+        [
+          "B",
+          "We’re behind schedule, but the new system is finally starting to pay off.",
+          "予定より遅れてるけど、新しいシステムはようやく効果が出始めてる。"
+        ],
+        [
+          "A",
+          "Okay. Then let’s get the ball rolling on the next phase.",
+          "わかった。じゃあ次の段階を動かし始めよう。"
+        ],
+        [
+          "B",
+          "Before we do, I want to make sure we’re all on the same page.",
+          "その前に、全員の認識が揃ってるか確認したい。"
+        ],
+        [
+          "A",
+          "Fair. Do you want to delay the launch?",
+          "もっともやな。公開を延期したい？"
+        ],
+        [
+          "B",
+          "Your call. I can work with either option.",
+          "任せる。どっちでも対応できるよ。"
+        ],
+        [
+          "A",
+          "Let’s keep the date. We can’t afford to drop the ball now.",
+          "予定通りにしよう。ここでミスるわけにはいかない。"
+        ],
+        [
+          "B",
+          "Agreed. I’ll send everyone an updated plan.",
+          "了解。全員に更新版の計画を送る。"
+        ],
+        [
+          "A",
+          "Kudos on keeping this together, by the way.",
+          "そういえば、ここまでまとめてくれてお見事。"
+        ],
+        [
+          "B",
+          "Thanks. Ask me again after launch day.",
+          "ありがとう。公開日が終わってからもう一回言って。"
+        ],
+        [
+          "A",
+          "Deal.",
+          "了解。"
+        ]
+      ],
+      "phraseLinks": [
+        "p146",
+        "p149",
+        "p155",
+        "p234",
+        "p194",
+        "p251",
+        "p232"
+      ]
+    },
+    {
+      "id": "d12",
+      "season": "Season 2",
+      "title": "日常①（疲労・体調）",
+      "lines": [
+        [
+          "A",
+          "You look wiped out.",
+          "めちゃくちゃ疲れてるやん。"
+        ],
+        [
+          "B",
+          "I am. And now I’ve got a cramp in my leg.",
+          "うん。しかも脚までつってきた。"
+        ],
+        [
+          "A",
+          "You’ve been working too much. Cut yourself some slack.",
+          "働きすぎやって。もう少し自分に甘くしていいよ。"
+        ],
+        [
+          "B",
+          "Tell that to my boss. He never lets up on us.",
+          "上司に言ってよ。全然容赦してくれへんから。"
+        ],
+        [
+          "A",
+          "Hang in there. You’ve only got two days left.",
+          "もうちょっと頑張って。あと2日だけやろ。"
+        ],
+        [
+          "B",
+          "Two very long days.",
+          "めちゃくちゃ長い2日やけどな。"
+        ],
+        [
+          "A",
+          "Look on the bright side: after that, you’re off for a week.",
+          "いい方に考えよう。そのあと1週間休みやん。"
+        ],
+        [
+          "B",
+          "If I’m still up and about by then.",
+          "その頃まで普通に動けてたらな。"
+        ],
+        [
+          "A",
+          "You will be. Go home early tonight.",
+          "大丈夫やって。今日は早く帰り。"
+        ],
+        [
+          "B",
+          "I might actually take your advice for once.",
+          "今回は珍しくそのアドバイス聞くかも。"
+        ],
+        [
+          "A",
+          "Please do.",
+          "ぜひそうして。"
+        ]
+      ],
+      "phraseLinks": [
+        "p145",
+        "p129",
+        "p163",
+        "p164",
+        "p195",
+        "p239",
+        "p255",
+        "p160"
+      ]
+    },
+    {
+      "id": "d13",
+      "season": "Season 2",
+      "title": "仕事②（噂と事実確認）",
+      "lines": [
+        [
+          "A",
+          "Word on the street is that our department is being reorganized.",
+          "うちの部署が再編されるって噂やで。"
+        ],
+        [
+          "B",
+          "Where did you hear that?",
+          "どこで聞いたん？"
+        ],
+        [
+          "A",
+          "Through the grapevine.",
+          "人づてに。"
+        ],
+        [
+          "B",
+          "What are you getting at? You think our jobs are in danger?",
+          "何が言いたいん？仕事が危ないと思ってる？"
+        ],
+        [
+          "A",
+          "Just so you know, I’m not saying I buy the rumor.",
+          "念のため言っとくけど、その噂を信じてるってわけじゃないよ。"
+        ],
+        [
+          "B",
+          "Good, because the numbers don’t support it.",
+          "よかった。数字を見る限りそんな話にはならんから。"
+        ],
+        [
+          "A",
+          "If I repeat it as fact, you can call me on it.",
+          "もし私が事実みたいに言い出したら、その場で指摘して。"
+        ],
+        [
+          "B",
+          "I will. Don’t insult my intelligence with 'everyone says so.'",
+          "そうする。「みんな言ってる」でごまかさんといてな。"
+        ],
+        [
+          "A",
+          "Fair enough. I’ll ask someone who actually knows.",
+          "ごもっとも。ちゃんと知ってる人に確認する。"
+        ],
+        [
+          "B",
+          "Now that I’d trust.",
+          "それなら信用する。"
+        ],
+        [
+          "A",
+          "Same.",
+          "私も。"
+        ]
+      ],
+      "phraseLinks": [
+        "p184",
+        "p185",
+        "p187",
+        "p224",
+        "p237",
+        "p249",
+        "p218"
+      ]
+    },
+    {
+      "id": "d14",
+      "season": "Season 2",
+      "title": "日常②（休日の小旅行）",
+      "lines": [
+        [
+          "A",
+          "We’re thinking of taking the train to the coast Saturday.",
+          "土曜に電車で海の方まで行こうと思ってる。"
+        ],
+        [
+          "B",
+          "Mind if I tag along?",
+          "ついて行ってもいい？"
+        ],
+        [
+          "A",
+          "Not at all. The tickets are a little steep, though.",
+          "もちろん。ただ切符がちょっと高いけど。"
+        ],
+        [
+          "B",
+          "Still sounds worth a shot.",
+          "それでも行ってみる価値ありそう。"
+        ],
+        [
+          "A",
+          "We could make a day of it and stay for dinner.",
+          "せっかくやし一日楽しんで、晩ごはんまで食べて帰ろう。"
+        ],
+        [
+          "B",
+          "Absolutely. I get out of town once in a blue moon.",
+          "ぜひ。街を離れるなんてめったにないし。"
+        ],
+        [
+          "A",
+          "Then seize the day.",
+          "じゃあ今を楽しもう。"
+        ],
+        [
+          "B",
+          "Exactly. I’m trying to live in the moment more.",
+          "そうそう。もっと今を楽しむようにしてるねん。"
+        ],
+        [
+          "A",
+          "I’ll send you the train time tonight.",
+          "今夜電車の時間送るわ。"
+        ],
+        [
+          "B",
+          "Perfect.",
+          "完璧。"
+        ],
+        [
+          "A",
+          "Saturday it is.",
+          "土曜で決まり。"
+        ]
+      ],
+      "phraseLinks": [
+        "p190",
+        "p150",
+        "p177",
+        "p248",
+        "p226",
+        "p171",
+        "p254"
+      ]
+    },
+    {
+      "id": "d15",
+      "season": "Season 2",
+      "title": "仕事③（責任とプレッシャー）",
+      "lines": [
+        [
+          "A",
+          "I’m getting a lot of heat from management over this mistake.",
+          "このミスのことで上からかなり責められてる。"
+        ],
+        [
+          "B",
+          "But it wasn’t just your mistake.",
+          "でも君だけのミスじゃないやろ。"
+        ],
+        [
+          "A",
+          "I’m leading the project. I have to shoulder some of the responsibility.",
+          "プロジェクトを率いてる以上、責任の一部は背負わないと。"
+        ],
+        [
+          "B",
+          "Sure, but the rest of us aren’t going to leave you high and dry.",
+          "それはそうやけど、こっちも君を見捨てたりせんよ。"
+        ],
+        [
+          "A",
+          "I appreciate that.",
+          "ありがたい。"
+        ],
+        [
+          "B",
+          "We’re all in the same boat here.",
+          "みんな同じ立場やから。"
+        ],
+        [
+          "A",
+          "I just don’t want anyone to think I sold them out.",
+          "誰かを売ったと思われたくないだけ。"
+        ],
+        [
+          "B",
+          "Then don’t. Tell them exactly what happened.",
+          "じゃあそうせんかったらいい。何が起きたかそのまま話そう。"
+        ],
+        [
+          "A",
+          "And if management gets angry?",
+          "上が怒ったら？"
+        ],
+        [
+          "B",
+          "We suck it up and deal with it together.",
+          "みんなで腹くくって対処する。"
+        ],
+        [
+          "A",
+          "Okay. Together.",
+          "わかった。一緒に。"
+        ]
+      ],
+      "phraseLinks": [
+        "p192",
+        "p188",
+        "p210",
+        "p235",
+        "p189",
+        "p222"
+      ]
+    },
+    {
+      "id": "d16",
+      "season": "Season 2",
+      "title": "相談①（失敗を引きずっている友人）",
+      "lines": [
+        [
+          "A",
+          "I still can’t believe I messed up that interview.",
+          "あの面接失敗したのまだ信じられへん。"
+        ],
+        [
+          "B",
+          "Try to get some perspective. It was one interview.",
+          "ちょっと冷静に見よう。面接一回やで。"
+        ],
+        [
+          "A",
+          "It felt like rock bottom.",
+          "どん底まで落ちた気分やった。"
+        ],
+        [
+          "B",
+          "And the silver lining is you know exactly what to work on now.",
+          "でもいい面を見れば、次に何を改善すべきかははっきりしたやん。"
+        ],
+        [
+          "A",
+          "You really think so?",
+          "ほんまにそう思う？"
+        ],
+        [
+          "B",
+          "Yeah. The chances are you’ll do much better next time.",
+          "うん。次はずっと上手くいく可能性高いよ。"
+        ],
+        [
+          "A",
+          "I guess I need to get this monkey off my back and apply again.",
+          "この重荷を振り払って、また応募せなあかんな。"
+        ],
+        [
+          "B",
+          "Exactly. And your answers were at least in the ballpark.",
+          "そう。しかも答えも大きく外れてたわけじゃない。"
+        ],
+        [
+          "A",
+          "That actually helps.",
+          "それ聞くとちょっと楽になる。"
+        ],
+        [
+          "B",
+          "Good. Send another application tomorrow.",
+          "よし。明日また応募しよ。"
+        ],
+        [
+          "A",
+          "I will.",
+          "そうする。"
+        ]
+      ],
+      "phraseLinks": [
+        "p165",
+        "p135",
+        "p131",
+        "p243",
+        "p179",
+        "p219"
+      ]
+    },
+    {
+      "id": "d17",
+      "season": "Season 2",
+      "title": "人間関係①（新しいグループに入る）",
+      "lines": [
+        [
+          "A",
+          "You were really quiet at dinner. Everything okay?",
+          "晩ごはんのときかなり静かやったけど、大丈夫？"
+        ],
+        [
+          "B",
+          "I felt a little left out. Everyone already knew each other.",
+          "ちょっと仲間外れみたいに感じて。みんなもう知り合いやったから。"
+        ],
+        [
+          "A",
+          "I should’ve eased you in instead of disappearing into another conversation.",
+          "ほったらかしで別の話に行かず、もっと入りやすくしてあげればよかった。"
+        ],
+        [
+          "B",
+          "It’s okay. I was feeling too self-conscious anyway.",
+          "大丈夫。私も意識しすぎてたし。"
+        ],
+        [
+          "A",
+          "I didn’t mean to catch you off guard with that many people.",
+          "あんな大人数でびっくりさせるつもりじゃなかった。"
+        ],
+        [
+          "B",
+          "Next time, just warn me.",
+          "次から先に言って。"
+        ],
+        [
+          "A",
+          "Deal. And if you want to talk about it, I’m all ears.",
+          "了解。話したければ何でも聞くよ。"
+        ],
+        [
+          "B",
+          "Thanks. I was worried I didn’t come off well.",
+          "ありがとう。印象悪かったんちゃうかって気になってた。"
+        ],
+        [
+          "A",
+          "You were fine. They liked you.",
+          "大丈夫やったよ。みんな気に入ってた。"
+        ],
+        [
+          "B",
+          "Okay, that helps.",
+          "それなら安心した。"
+        ],
+        [
+          "A",
+          "Next dinner will be easier.",
+          "次はもっと楽やって。"
+        ]
+      ],
+      "phraseLinks": [
+        "p244",
+        "p245",
+        "p202",
+        "p147",
+        "p170",
+        "p250"
+      ]
+    },
+    {
+      "id": "d18",
+      "season": "Season 2",
+      "title": "日常③（買い物の失敗）",
+      "lines": [
+        [
+          "A",
+          "Let me get this straight. You paid that much for this lamp?",
+          "確認させて。そのランプにそんな払ったん？"
+        ],
+        [
+          "B",
+          "It looked better online.",
+          "ネットではもっと良く見えた。"
+        ],
+        [
+          "A",
+          "It’s kind of tacky.",
+          "ちょっと悪趣味やな。"
+        ],
+        [
+          "B",
+          "Kind of? It’s hideous.",
+          "ちょっと？めちゃくちゃひどいやろ。"
+        ],
+        [
+          "A",
+          "Can you return it?",
+          "返品できる？"
+        ],
+        [
+          "B",
+          "Nope. Final sale.",
+          "無理。最終セール品。"
+        ],
+        [
+          "A",
+          "Well, there goes your decorating budget.",
+          "じゃあインテリア予算は消えたな。"
+        ],
+        [
+          "B",
+          "Pretty much. Cha-ching.",
+          "ほぼな。チャリーンって感じ。"
+        ],
+        [
+          "A",
+          "And now you have to look at it every day.",
+          "しかも毎日見ることになる。"
+        ],
+        [
+          "B",
+          "Don’t remind me. It’s already a pain in the neck.",
+          "言わんといて。もうすでに厄介者や。"
+        ],
+        [
+          "A",
+          "At least it’s memorable.",
+          "まあ、忘れられへん見た目ではある。"
+        ]
+      ],
+      "phraseLinks": [
+        "p233",
+        "p225",
+        "p247",
+        "p157",
+        "p186",
+        "p152",
+        "p240"
+      ]
+    },
+    {
+      "id": "d19",
+      "season": "Season 2",
+      "title": "仕事④（同僚への不満）",
+      "lines": [
+        [
+          "A",
+          "He took credit for the whole presentation again.",
+          "あの人またプレゼン全部自分の手柄みたいに言ってた。"
+        ],
+        [
+          "B",
+          "You of all people should call him out. You did most of the work.",
+          "君こそ指摘するべきやろ。ほとんど君がやったんやから。"
+        ],
+        [
+          "A",
+          "He’s so full of himself, he probably wouldn’t listen.",
+          "あの人自信過剰すぎて、たぶん聞かへん。"
+        ],
+        [
+          "B",
+          "And the brown-nosing isn’t helping.",
+          "あのゴマすりもひどいしな。"
+        ],
+        [
+          "A",
+          "He has the nerve to tell me I need to be more of a team player.",
+          "しかも私に「もっとチームプレーしろ」って言う度胸まである。"
+        ],
+        [
+          "B",
+          "What are you getting so bent out of shape for? Talk to him.",
+          "そんなにカッカせんと、本人に言えばいいやん。"
+        ],
+        [
+          "A",
+          "Because he doesn’t know the first thing about teamwork.",
+          "だってあの人、チームワークのことなんか何もわかってない。"
+        ],
+        [
+          "B",
+          "Tell me about it.",
+          "ほんまそれ。"
+        ],
+        [
+          "A",
+          "I’ll talk to him tomorrow when I’m calmer.",
+          "明日落ち着いてから話す。"
+        ],
+        [
+          "B",
+          "Good plan.",
+          "それがいい。"
+        ],
+        [
+          "A",
+          "And I’m taking my name off his slides.",
+          "あと、あいつのスライドから私の名前外す。"
+        ]
+      ],
+      "phraseLinks": [
+        "p178",
+        "p203",
+        "p252",
+        "p148",
+        "p205",
+        "p236",
+        "p209"
+      ]
+    },
+    {
+      "id": "d20",
+      "season": "Season 2",
+      "title": "日常④（予定変更と代案）",
+      "lines": [
+        [
+          "A",
+          "The concert sold out this morning.",
+          "コンサート今朝売り切れたって。"
+        ],
+        [
+          "B",
+          "Seriously? I was going to buy tickets tonight.",
+          "ほんまに？今夜買うつもりやったのに。"
+        ],
+        [
+          "A",
+          "That ship has sailed.",
+          "もう手遅れやな。"
+        ],
+        [
+          "B",
+          "Well, there goes Friday night.",
+          "じゃあ金曜の夜の予定なくなった。"
+        ],
+        [
+          "A",
+          "Not necessarily. We could do something else.",
+          "そうとは限らん。別のことすればいいやん。"
+        ],
+        [
+          "B",
+          "Like what?",
+          "例えば？"
+        ],
+        [
+          "A",
+          "There’s an outdoor movie that came up out of the blue.",
+          "急に屋外映画のイベントが出てきた。"
+        ],
+        [
+          "B",
+          "I’m in. I’ll do whatever it takes not to spend Friday on my couch.",
+          "行く。金曜をソファで過ごさずに済むなら何でもする。"
+        ],
+        [
+          "A",
+          "Nope, zilch, nothin’ wrong with a night on the couch.",
+          "いやいや、ソファで過ごす夜も全然悪くないけどな。"
+        ],
+        [
+          "B",
+          "Not this Friday.",
+          "今週の金曜は嫌。"
+        ],
+        [
+          "A",
+          "Outdoor movie it is.",
+          "じゃあ屋外映画で決まり。"
+        ]
+      ],
+      "phraseLinks": [
+        "p161",
+        "p186",
+        "p223",
+        "p159",
+        "p157"
+      ]
+    },
+    {
+      "id": "d21",
+      "season": "Season 2",
+      "title": "日常⑤（習慣を立て直す）",
+      "lines": [
+        [
+          "A",
+          "How’s the no-sugar thing going?",
+          "砂糖抜き生活どう？"
+        ],
+        [
+          "B",
+          "I fell off the wagon yesterday.",
+          "昨日また食べてもうた。"
+        ],
+        [
+          "A",
+          "One dessert doesn’t erase two good weeks.",
+          "デザート一個で2週間の努力が消えるわけちゃうよ。"
+        ],
+        [
+          "B",
+          "I know, but once I start, it’s hard to keep cravings at bay.",
+          "わかってるけど、一回始めると食べたい気持ちを抑えるの難しくて。"
+        ],
+        [
+          "A",
+          "Then don’t turn it into a big drama. Lather, rinse, repeat: start again today.",
+          "大げさに考えんでいい。洗って、流して、また繰り返し。今日からまた始めればいい。"
+        ],
+        [
+          "B",
+          "You make it sound easy.",
+          "簡単そうに言うなあ。"
+        ],
+        [
+          "A",
+          "I’m not trying to spare your feelings. It’s hard.",
+          "気を遣って楽なふりしてるわけじゃない。難しいよ。"
+        ],
+        [
+          "B",
+          "I’m just tired of starting over.",
+          "何回もやり直すのに疲れた。"
+        ],
+        [
+          "A",
+          "Then give yourself a break, but don’t quit.",
+          "じゃあ少し休んで。でもやめんとこ。"
+        ],
+        [
+          "B",
+          "Okay. Back at it tomorrow.",
+          "わかった。明日またやる。"
+        ],
+        [
+          "A",
+          "That’s the idea.",
+          "それでいい。"
+        ]
+      ],
+      "phraseLinks": [
+        "p176",
+        "p174",
+        "p154",
+        "p132"
+      ]
+    },
+    {
+      "id": "d22",
+      "season": "Season 2",
+      "title": "雑談①（話を聞く・本音を言う）",
+      "lines": [
+        [
+          "A",
+          "Can I bore you with my apartment drama for five minutes?",
+          "5分だけ部屋のトラブル話で退屈させてもいい？"
+        ],
+        [
+          "B",
+          "Go ahead. I’m all ears.",
+          "どうぞ。ちゃんと聞くよ。"
+        ],
+        [
+          "A",
+          "In a nutshell, the upstairs neighbor flooded my bathroom.",
+          "要するに、上の階の人のせいで浴室が水浸し。"
+        ],
+        [
+          "B",
+          "Again?",
+          "また？"
+        ],
+        [
+          "A",
+          "I’ve had my share of bad neighbors, but this is impressive.",
+          "変な隣人にはそれなりに当たってきたけど、これはすごい。"
+        ],
+        [
+          "B",
+          "If I had a nickel for every apartment problem you’ve had…",
+          "君の部屋トラブル一回につき5セントもらえてたらなあ……。"
+        ],
+        [
+          "A",
+          "I gotta admit, my luck is terrible.",
+          "認めるけど、ほんま運悪い。"
+        ],
+        [
+          "B",
+          "Really? You don’t say.",
+          "へえ？それは初耳やな。"
+        ],
+        [
+          "A",
+          "Very funny.",
+          "はいはい、おもしろい。"
+        ],
+        [
+          "B",
+          "So what are you going to do?",
+          "で、どうするん？"
+        ],
+        [
+          "A",
+          "Call the landlord and hope for the best.",
+          "大家に電話して、あとは祈る。"
+        ]
+      ],
+      "phraseLinks": [
+        "p137",
+        "p170",
+        "p146",
+        "p136",
+        "p134",
+        "p191",
+        "p207"
+      ]
+    },
+    {
+      "id": "d23",
+      "season": "Season 2",
+      "title": "恋愛①（好意と距離感）",
+      "lines": [
+        [
+          "A",
+          "You are so smitten with her.",
+          "君、完全に彼女に夢中やな。"
+        ],
+        [
+          "B",
+          "I am not.",
+          "違うって。"
+        ],
+        [
+          "A",
+          "Please. She came on to you, and you’ve been smiling ever since.",
+          "いやいや。彼女に言い寄られてからずっとニヤけてるやん。"
+        ],
+        [
+          "B",
+          "I just like talking to her.",
+          "話すのが好きなだけ。"
+        ],
+        [
+          "A",
+          "Word is you two are something of an item now.",
+          "二人ちょっといい仲らしいって噂やで。"
+        ],
+        [
+          "B",
+          "That is way ahead of reality.",
+          "それは話が先に行きすぎ。"
+        ],
+        [
+          "A",
+          "So don’t toy with her if you’re not interested.",
+          "興味ないなら彼女の気持ちでもてあそばんとき。"
+        ],
+        [
+          "B",
+          "I’m not. I think I’m actually falling for her.",
+          "してない。むしろ本気で好きになりかけてるかも。"
+        ],
+        [
+          "A",
+          "Now you’re talking.",
+          "やっと認めたな。"
+        ],
+        [
+          "B",
+          "Just don’t tell anyone yet.",
+          "まだ誰にも言わんといて。"
+        ],
+        [
+          "A",
+          "My lips are sealed.",
+          "了解。"
+        ]
+      ],
+      "phraseLinks": [
+        "p201",
+        "p173",
+        "p206",
+        "p172",
+        "p198",
+        "p208"
+      ]
+    },
+    {
+      "id": "d24",
+      "season": "Season 2",
+      "title": "日常⑥（イベントの片付け）",
+      "lines": [
+        [
+          "A",
+          "So, did you enjoy the party?",
+          "で、パーティー楽しんだ？"
+        ],
+        [
+          "B",
+          "I’m having a ball—well, I was until everyone left me with the cleanup.",
+          "めっちゃ楽しんでるよ……みんなが片付けを私に残して帰るまではね。"
+        ],
+        [
+          "A",
+          "I can help.",
+          "手伝うよ。"
+        ],
+        [
+          "B",
+          "Thank you. Toss those paper decorations out first.",
+          "ありがとう。まずその紙の飾り捨てて。"
+        ],
+        [
+          "A",
+          "Even the jaunty little hats?",
+          "あの陽気な小さい帽子も？"
+        ],
+        [
+          "B",
+          "Especially those.",
+          "特にそれ。"
+        ],
+        [
+          "A",
+          "What about this poem someone wrote on the board?",
+          "黒板に誰かが書いたこの詩は？"
+        ],
+        [
+          "B",
+          "It’s a limerick. Take a picture if you want, then erase it.",
+          "リメリックやね。欲しければ写真撮って、そのあと消して。"
+        ],
+        [
+          "A",
+          "You’re very efficient after midnight.",
+          "夜中になるとめっちゃ効率いいな。"
+        ],
+        [
+          "B",
+          "I want to be in bed before anybody starts screaming blue murder about the noise.",
+          "騒音で誰かが大騒ぎし始める前に寝たいねん。"
+        ],
+        [
+          "A",
+          "Fair enough.",
+          "ごもっとも。"
+        ]
+      ],
+      "phraseLinks": [
+        "p213",
+        "p214",
+        "p221",
+        "p168",
+        "p229"
+      ]
+    },
+    {
+      "id": "d57",
+      "season": "Season 2",
+      "title": "仕事⑤（プレッシャーに負けそうなとき）",
+      "lines": [
+        [
+          "A",
+          "You’ve barely said a word all morning.",
+          "今朝ほとんど喋ってないやん。"
+        ],
+        [
+          "B",
+          "I’m getting psyched out about the presentation.",
+          "プレゼンのことでプレッシャーにやられてる。"
+        ],
+        [
+          "A",
+          "You’ve done this a dozen times.",
+          "何回もやってるやろ。"
+        ],
+        [
+          "B",
+          "Not in front of this many executives.",
+          "こんなに役員がいる前ではやったことない。"
+        ],
+        [
+          "A",
+          "Don’t cave in now. You know the material.",
+          "ここで折れたらあかん。内容はちゃんとわかってる。"
+        ],
+        [
+          "B",
+          "If I freeze up, I’m going to get clobbered in the Q&A.",
+          "固まったら質疑応答でボコボコにされそう。"
+        ],
+        [
+          "A",
+          "You won’t. And even if one question catches you off guard, take a second and think.",
+          "大丈夫。それに一問不意を突かれても、少し考えればいい。"
+        ],
+        [
+          "B",
+          "I hate feeling this nervous.",
+          "こんな緊張するの嫌や。"
+        ],
+        [
+          "A",
+          "It wouldn’t kill you to admit you’re nervous once in a while.",
+          "たまには緊張してるって認めても死にはせんよ。"
+        ],
+        [
+          "B",
+          "Fine. I’m nervous.",
+          "わかった。緊張してる。"
+        ],
+        [
+          "A",
+          "Good. Now go nail it.",
+          "よし。じゃあ決めてこい。"
+        ]
+      ],
+      "phraseLinks": [
+        "p142",
+        "p140",
+        "p199",
+        "p147",
+        "p204"
+      ]
+    },
+    {
+      "id": "d58",
+      "season": "Season 2",
+      "title": "日常⑦（突然の頼み事）",
+      "lines": [
+        [
+          "A",
+          "Can I ask you a huge favor?",
+          "めちゃくちゃ大きなお願いしていい？"
+        ],
+        [
+          "B",
+          "That depends. What is it?",
+          "内容による。何？"
+        ],
+        [
+          "A",
+          "My sister showed up out of the blue and needs somewhere to stay tonight.",
+          "妹が突然来て、今夜泊まる場所が必要で。"
+        ],
+        [
+          "B",
+          "And what are you looking at me for?",
+          "で、なんで私を見るん？"
+        ],
+        [
+          "A",
+          "You have a spare room.",
+          "空き部屋あるやん。"
+        ],
+        [
+          "B",
+          "It never occurred to you to ask me before promising her?",
+          "先に妹に約束する前に私に聞こうとは思わんかった？"
+        ],
+        [
+          "A",
+          "I know. I dropped the ball.",
+          "わかってる。私がミスった。"
+        ],
+        [
+          "B",
+          "For God’s sake, you really did.",
+          "ほんまにもう、やらかしたな。"
+        ],
+        [
+          "A",
+          "So… is that a no?",
+          "で……ダメ？"
+        ],
+        [
+          "B",
+          "No. She can stay. But just so you know, you owe me one.",
+          "いや、泊まっていいよ。ただし言っとくけど、貸し一個な。"
+        ],
+        [
+          "A",
+          "Absolutely. Thank you.",
+          "もちろん。ありがとう。"
+        ]
+      ],
+      "phraseLinks": [
+        "p223",
+        "p181",
+        "p242",
+        "p251",
+        "p246",
+        "p224"
+      ]
+    }
+  ]
+}
