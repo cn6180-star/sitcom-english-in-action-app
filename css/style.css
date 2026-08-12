@@ -159,6 +159,9 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 .example-translation{color:var(--muted);font-size:12px}
 .speaker-button{flex:0 0 42px;width:42px;height:42px;display:grid;place-items:center;border-radius:50%;background:var(--surface-2);border:1px solid var(--border);font-size:18px}
 .speaker-button:hover,.speaker-button:focus-visible{border-color:#6d4dae;background:var(--purple-soft)}
+.dialogue-line{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.dialogue-line-copy{min-width:0;flex:1}
+.dialogue-line-text{overflow-wrap:anywhere}
 .related-dialogues{display:grid;gap:7px}
 .related-dialogue{width:100%;min-height:46px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 13px;text-align:left;color:var(--text);background:#0c1020;border:1px solid var(--border);border-radius:13px}
 .related-dialogue span:first-child{color:#ddd6fe;font-weight:800}
