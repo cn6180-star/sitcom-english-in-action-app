@@ -150,9 +150,13 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 .today-stat:focus-visible,.phrase-card:focus-visible,.dialogue-card:focus-visible{outline:2px solid var(--purple-2);outline-offset:2px}
 .detail-section{margin-top:22px}
 .detail-section>.section-title{margin-bottom:10px}
+.examples-section-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}
+.examples-section-head>.section-title{margin:0}
 .example-row{margin-top:9px}
 .example-row .example{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:0}
-.example-row .example span{min-width:0;line-height:1.55}
+.example-copy{min-width:0;display:flex;flex-direction:column;gap:5px}
+.example-text,.example-translation{display:block;line-height:1.55}
+.example-translation{color:var(--muted);font-size:12px}
 .speaker-button{flex:0 0 42px;width:42px;height:42px;display:grid;place-items:center;border-radius:50%;background:var(--surface-2);border:1px solid var(--border);font-size:18px}
 .speaker-button:hover,.speaker-button:focus-visible{border-color:#6d4dae;background:var(--purple-soft)}
 .related-dialogues{display:grid;gap:7px}
@@ -164,6 +168,7 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 .streak-modal .modal-heading{text-align:left}
 .streak-emoji{font-size:38px;line-height:1;margin:8px 0}
 .streak-days{display:block;font-size:24px;color:#ddd6fe}
+@media (max-width:1000px){.examples-section-head{align-items:stretch;flex-direction:column}.examples-section-head .translation-toggle{width:100%}}
 
 /* v3.0 phase 1: user-managed learned phrase state. */
 .detail-actions{display:flex;align-items:center;justify-content:flex-end;gap:8px;margin:0 0 14px}
