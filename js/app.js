@@ -1,5 +1,8 @@
 "use strict";
 
+const isIPadOS=/\biPad\b/i.test(navigator.userAgent)||(navigator.maxTouchPoints>1&&/\bMac(?:intosh|Intel)\b/i.test(`${navigator.userAgent} ${navigator.platform}`));
+document.documentElement.classList.toggle("ipad-window-ui",isIPadOS);
+
 const DATA_FILES = Array.from({length:9},(_,i)=>`data/season${i+1}.json`);
 const SERIES = [{id:"friends",name:"Friends",available:true},{id:"tbbt",name:"The Big Bang Theory",available:false}];
 const LEGACY = {phraseBookmarks:"friendsBookmarks_phrase",dialogueBookmarks:"friendsBookmarks_dialogue",weak:"friendsWeakStats"};
