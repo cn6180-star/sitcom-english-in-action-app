@@ -61,6 +61,7 @@ function lineIcon(name,className=""){
     menu:'<path d="M4 7h16M4 12h16M4 17h16"/>',
     search:'<circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/>',
     settings:'<circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.88l.06.06-2.83 2.83-.06-.06a1.7 1.7 0 0 0-1.88-.34 1.7 1.7 0 0 0-1.03 1.56V21h-4v-.08A1.7 1.7 0 0 0 8.97 19.4a1.7 1.7 0 0 0-1.88.34l-.06.06-2.83-2.83.06-.06A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-1.52-1.03H3v-4h.08A1.7 1.7 0 0 0 4.6 8.94a1.7 1.7 0 0 0-.34-1.88L4.2 7l2.83-2.83.06.06a1.7 1.7 0 0 0 1.88.34A1.7 1.7 0 0 0 10 3.05V3h4v.05a1.7 1.7 0 0 0 1.03 1.52 1.7 1.7 0 0 0 1.88-.34l.06-.06L19.8 7l-.06.06a1.7 1.7 0 0 0-.34 1.88A1.7 1.7 0 0 0 20.92 10H21v4h-.08A1.7 1.7 0 0 0 19.4 15Z"/>',
+    help:'<circle cx="12" cy="12" r="9"/><path d="M9.7 9a2.5 2.5 0 1 1 3.3 2.37c-.72.29-1 .76-1 1.63v.3"/><path d="M12 17.3h.01"/>',
     info:'<circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7h.01"/>',
     progress:'<path d="M4 19V9M10 19V5M16 19v-7M22 19V3"/><path d="M3 19h20"/>',
     circleCheck:'<circle cx="12" cy="12" r="9"/><path d="m8.2 12.2 2.5 2.5 5.2-5.4"/>'
@@ -68,12 +69,12 @@ function lineIcon(name,className=""){
   return `<svg class="line-icon ${className}" viewBox="0 0 24 24" aria-hidden="true" focusable="false">${paths[name]||""}</svg>`;
 }
 function renderNav(){
-  const items=[['home','home','Home'],['phrases','phrases','Phrases'],['dialogues','dialogues','Dialogues'],['quiz','quiz','Quiz'],['bookmarks','bookmark','Bookmarks']];
+  const items=[['home','home','Home'],['dialogues','dialogues','Dialogues'],['quiz','quiz','Quiz'],['phrases','phrases','Phrases'],['bookmarks','bookmark','Bookmarks']];
   const navButton=([id,icon,label])=>`<button class="nav-button ${activeNav()===id?'active':''}" onclick="navTo('${id}')" aria-current="${activeNav()===id?'page':'false'}"><span class="nav-icon">${lineIcon(icon)}</span><span>${label}</span></button>`;
   const mobileHtml=items.map(navButton).join("");
   const sidebarHtml=[...items,['progress','progress','Progress']].map(navButton).join("");
   document.getElementById("bottomNav").innerHTML=mobileHtml;
-  document.getElementById("sidebar").innerHTML=`<div class="sidebar-brand">Sitcom<span>English in Action</span></div><div class="sidebar-primary">${sidebarHtml}<button class="nav-button" type="button" onclick="openSearch()"><span class="nav-icon">${lineIcon("search")}</span><span>Search</span></button></div><div class="sidebar-secondary">${soundSettingMarkup("sidebar-sound-setting")}<button class="nav-button" type="button" onclick="openAbout()"><span class="nav-icon">${lineIcon("info")}</span><span>About</span></button></div>`;
+  document.getElementById("sidebar").innerHTML=`<div class="sidebar-brand">Sitcom<span>English in Action</span></div><div class="sidebar-primary">${sidebarHtml}<button class="nav-button" type="button" onclick="openSearch()"><span class="nav-icon">${lineIcon("search")}</span><span>Search</span></button></div><div class="sidebar-secondary"><button class="nav-button" type="button" onclick="openHelp()"><span class="nav-icon">${lineIcon("help")}</span><span>Help</span></button>${soundSettingMarkup("sidebar-sound-setting")}<button class="nav-button" type="button" onclick="openAbout()"><span class="nav-icon">${lineIcon("info")}</span><span>About</span></button></div>`;
   const onHome=route.name==="home"&&!historyStack.length;
   backButton.disabled=false;backButton.classList.toggle("home-menu-button",onHome);backButton.setAttribute("aria-label",onHome?"Menu":"Back");backButton.innerHTML=onHome?lineIcon("menu"):"←";
   desktopContextBar.hidden=onHome;desktopBackButton.disabled=onHome;
@@ -136,9 +137,9 @@ function setContinue(value){writeJSON(STORE.continue,{series:"friends",timestamp
 function getContinue(){const value=readJSON(STORE.continue,null);if(!value)return null;if(value.kind==="phrase"&&!PHRASES.some(x=>x.id===value.id))return null;if(value.kind==="dialogue"&&!DIALOGUES.some(x=>x.id===value.id))return null;return value;}
 function continueLearning(){const value=getContinue();if(!value)return navigate("series");if(value.kind==="phrase")navigate("phraseDetail",{id:value.id,from:"continue"});else navigate("dialogueDetail",{id:value.id,from:"continue"});}
 
-function closeModal(){document.getElementById("modalRoot").innerHTML=""}
+function closeModal(){document.getElementById("modalRoot").innerHTML="";document.body.classList.remove("modal-open")}
 function openHomeMenu(){
-  document.getElementById("modalRoot").innerHTML=`<div class="drawer-backdrop" onclick="closeModal()"><aside class="home-drawer" role="dialog" aria-modal="true" aria-labelledby="menuTitle" onclick="event.stopPropagation()"><div class="drawer-heading"><h2 id="menuTitle">Menu</h2><button class="icon-button modal-close" type="button" onclick="closeModal()" aria-label="Close">×</button></div><nav class="drawer-nav" aria-label="Menu">${soundSettingMarkup("drawer-sound-setting")}<button class="drawer-row" type="button" onclick="openAbout()"><span class="drawer-icon">${lineIcon("info")}</span><span>About</span></button></nav></aside></div>`;
+  document.getElementById("modalRoot").innerHTML=`<div class="drawer-backdrop" onclick="closeModal()"><aside class="home-drawer" role="dialog" aria-modal="true" aria-labelledby="menuTitle" onclick="event.stopPropagation()"><div class="drawer-heading"><h2 id="menuTitle">Menu</h2><button class="icon-button modal-close" type="button" onclick="closeModal()" aria-label="Close">×</button></div><nav class="drawer-nav" aria-label="Menu"><button class="drawer-row" type="button" onclick="closeModal();navTo('progress')"><span class="drawer-icon">${lineIcon("progress")}</span><span>Progress</span></button><div class="drawer-divider"></div><button class="drawer-row" type="button" onclick="openHelp()"><span class="drawer-icon">${lineIcon("help")}</span><span>Help</span></button>${soundSettingMarkup("drawer-sound-setting")}<button class="drawer-row" type="button" onclick="openAbout()"><span class="drawer-icon">${lineIcon("info")}</span><span>About</span></button></nav></aside></div>`;
 }
 function targetButton(value,current){return `<button class="chip ${current===value?'selected':''}" type="button" aria-pressed="${current===value}" onclick="setDailyTarget(${value})">${value}</button>`}
 function openTarget(showCustom=false,error=""){
@@ -151,6 +152,23 @@ function openStreak(){const days=activityStats().streak,message=days===0?"Start 
 function openWeakReview(){reviewPhraseSnapshot={...filters.phrase};filters.phrase=withPhraseScope({...filters.phrase,season:"ALL",episode:"ALL"},"weak");historyStack=[];route={name:"phrases",params:{reviewMode:true}};render()}
 function openAbout(){
   document.getElementById("modalRoot").innerHTML=`<div class="modal-backdrop"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="aboutTitle"><div class="modal-heading"><h2 id="aboutTitle">About</h2><button class="icon-button modal-close" type="button" onclick="closeModal()" aria-label="Close">×</button></div><div class="about-brand">Sitcom English in Action</div><p class="muted">Version 4.2</p><div class="about-series"><strong>Friends</strong><span>S1–S9</span><span>${PHRASES.length} phrases</span><span>${DIALOGUES.length} dialogues</span><span class="about-secondary">Season 10 Coming Soon</span></div><div class="about-series"><strong>The Big Bang Theory</strong><span>Coming Soon</span></div></div></div>`;
+}
+function helpFaq(question,answer){return `<details class="help-faq"><summary>${question}</summary><div>${answer}</div></details>`}
+function openHelp(){
+  const faqs=[
+    ["「覚えた」とBookmarkは何が違う？",`<p>「覚えた」は学習進捗を記録する機能です。Bookmarkは、あとで見返したい・気に入ったPhrase / Dialogueを保存する機能です。両者は独立しています。</p>`],
+    ["Weakって何？",`<p>Quizで間違えたPhraseなど、苦手なPhraseを追跡・復習するための状態です。Weakだけに絞って復習できます。</p>`],
+    ["Progressの数字は何？",`<p><strong>253 / 1063 learned</strong>なら、253は「覚えた」にしたPhrase数、1063は収録Phrase総数です。Season別も、そのSeasonで覚えた数 / 総Phrase数を表します。</p>`],
+    ["COMPLETE Badgeはどうしたら付く？",`<p>そのSeasonの全Phraseを「覚えた」にすると、ProgressページにCOMPLETE Badgeが表示されます。</p>`],
+    ["Hide A / Hide Bって何？",`<p>選んだ話者の英語を隠します。日本語訳ONなら日本語をヒントに英語を思い出す練習、OFFなら完全暗唱ができます。Play Dialogueでは表示側をアプリが読み上げ、ユーザーが隠した側を担当します。</p>`],
+    ["Tap to revealって？",`<p>Hide A / Hide Bで隠した英文を表示して答え合わせする機能です。Play Dialogue中に押しても、会話再生は継続します。</p>`],
+    ["日本語訳は消せる？",`<p>Phrase Examples / Dialoguesとも、日本語訳の表示 / 非表示を切り替えられます。</p>`],
+    ["🔊とPlay Dialogueの違いは？",`<p><strong>🔊</strong>は、その例文またはセリフだけを読み上げます。<strong>Play Dialogue</strong>は、Dialogue全体を順番に再生します。</p>`],
+    ["SoundとTTSは同じ？",`<p>別機能です。SoundはQuiz正誤やLearned等の効果音、TTSは英語の例文やDialogueを読み上げる音声です。</p>`],
+    ["学習データはどこに保存される？",`<p>学習データと設定は、この端末・ブラウザのlocalStorageに保存されます。アカウント同期型ではないため、端末やブラウザ間で自動同期されません。ブラウザデータを削除すると、履歴が失われる可能性があります。</p>`]
+  ];
+  document.getElementById("modalRoot").innerHTML=`<div class="modal-backdrop help-backdrop" onclick="closeModal()"><section class="modal help-modal" role="dialog" aria-modal="true" aria-labelledby="helpTitle" onclick="event.stopPropagation()"><div class="modal-heading"><h2 id="helpTitle">Help</h2><button class="icon-button modal-close" type="button" onclick="closeModal()" aria-label="Close">×</button></div><div class="help-content"><section class="help-intro"><div class="eyebrow">Getting Started</div><h3>どこから始めてもOK！</h3><p>全部を最初から順番に覚える必要はありません。気になる入口から始めて、分からない表現だけ詳しく見ていきましょう。</p></section><div class="help-paths"><section class="help-path"><h3>会話から覚えたい → Dialogues</h3><ul><li>会話の流れを読み、日本語訳をON / OFF</li><li>Hide A / Hide Bで片方を隠して発話練習</li><li>慣れたら訳OFFで暗唱</li><li>Play Dialogueでアプリを相手役にロールプレイ</li></ul></section><section class="help-path"><h3>ゲーム感覚で試したい → Quiz</h3><ul><li>まずQuizを解いてみる</li><li>間違えたPhraseはResultからDetailへ移動</li><li>分からなかった表現だけ詳しく復習</li></ul></section><section class="help-path"><h3>じっくり覚えたい → Phrases</h3><ul><li>意味・場面・Examples・日本語訳・TTSを確認</li><li>Weakや未習得などで絞り込み</li><li>習得したら「覚えた」にする</li></ul></section></div><section class="help-faqs"><h3>FAQ</h3>${faqs.map(([question,answer])=>helpFaq(question,answer)).join("")}</section></div></section></div>`;
+  document.body.classList.add("modal-open");
 }
 
 function pageHeader(eyebrow,title,subtitle=""){return `<header class="page-header"><div class="eyebrow">${esc(eyebrow)}</div><h1 class="page-title">${esc(title)}</h1>${subtitle?`<p class="page-subtitle">${esc(subtitle)}</p>`:""}</header>`}
