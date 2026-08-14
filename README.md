@@ -1,108 +1,92 @@
-# Sitcom English in Action v4.2
+# Sitcom English in Action v4.3
 
 GitHub Pages / PWAで動作する、海外ドラマ英語の学習アプリです。
+
+海外ドラマで出会った英語を「分かる」で終わらせず、DialogueやQuizを入口に、聞く・話す・覚えるを行き来しながら「使える」表現へ育てることを目指しています。
 
 ## 収録データ
 
 - Friends Season 1–9
 - 1063 phrases
 - 167 dialogues
-- Season 10 Coming Soon
+- 2126 examples
+- Friends Season 10 Coming Soon
 - The Big Bang Theory Coming Soon
 
 ## 起動方法
 
-GitHub Pagesの公開URLから利用できます。
-
-PWA対応済みのため、対応ブラウザではホーム画面やデスクトップへインストールして、standaloneアプリとして起動できます。
+GitHub Pagesの公開URLから利用できます。PWA対応ブラウザではホーム画面やデスクトップへインストールし、standaloneアプリとして起動できます。
 
 ローカルで確認する場合は、`index.html`をローカルHTTPサーバーから開いてください。
 
-## 主な学習機能
+## Phrases
 
-- Phrase / Dialogue閲覧
-- Phrase DetailのPrevious / Nextナビゲーション
-- Learned（覚えた）
-- Bookmark / Weak管理
-- Daily Quiz / Quiz Resume
-- Progress / Season COMPLETE badge
-- Streak / Target / Continue Learning
-- Search / Usageフィルター
-- 日本語訳の表示 / 非表示
-- TTS / Dialogue会話練習
-- Web Audio APIによる効果音
+Phrase一覧から、意味・場面・Examplesを収録したPhrase Detailを開けます。
 
-## Phrase学習
-
-Phrase DetailからLearnedとBookmarkを切り替えられます。学習状態はPhrase ID単位でseries別に保存されます。
-
-Phrasesでは未習得・重要・Weak・保存済みなどの絞り込みを利用できます。Phrase DetailのPrevious / Nextは、一覧を開いた時点の表示対象と順番を維持します。Detail内でLearnedやBookmarkを変更しても移動順は変わらず、Backでは元の一覧とフィルター状態へ戻ります。
-
-Examplesでは英語例文を常時表示し、日本語訳だけを表示 / 非表示できます。各例文のスピーカーボタンでは英語だけを個別に読み上げます。
-
-## Quiz
-
-Quizは1回最大10問です。途中で離れてもResumeできます。
-
-入力問題では、Phrase末尾の`~`は省略しても正解として扱います。Quiz結果画面では、今回間違えたPhrase一覧から各Phrase Detailへ直接移動できます。Phrase Detailを確認してBackすると、Score / Mistakes / Weak等のQuiz Result状態を維持したまま結果画面へ戻れます。
-
-## Progress
-
-Progressページでは、Friends全体とSeason別のLearned進捗を表示します。
-
-集計値は読み込み済みPhrase dataとLearned stateから毎回計算され、Progress専用の保存データは作成しません。Season内の全PhraseをLearnedにすると、そのSeasonカードに`🏆 COMPLETE`バッジが表示されます。
-
-「学習進捗をリセット」では、確認後にFriendsのLearned stateだけを全解除します。Bookmark、Weak、Quiz履歴などの保存データは変更しません。
-
-## Home
-
-HomeのTodayカードにはStreak、Target、Friends全体のLearned進捗を表示します。Progressの数値はProgressページと同じ集計を再利用しています。
-
-Continue Learningから直近の学習位置へ戻れます。
+- Examplesの日本語訳を表示 / 非表示
+- 🔊から英語例文を個別に音声読み上げ
+- Learned（覚えた）とBookmark
+- 重要・苦手・未習得・習得済み・使用感などの学習フィルター
+- 一覧の表示対象と順番を維持したPrevious / Next
 
 ## Dialogues / 会話練習
 
-Dialogue Detailでは、日本語訳の表示 / 非表示と以下のモードを独立して利用できます。
+Dialogue Detailでは、日本語訳と次のモードを独立して利用できます。
 
 - Normal：A / Bの全セリフを表示
-- Hide A：Aを隠し、ユーザーがA役を担当
-- Hide B：Bを隠し、ユーザーがB役を担当
+- Hide A / Hide B：選んだ側の英語を隠して発話練習
+- 日本語訳ON：隠した側の日本語訳をヒントとして表示
+- 日本語訳OFF：日本語訳なしで完全暗唱
+- Tap to reveal：隠した英文を表示して答え合わせ
+- 🔊：各セリフを個別に音声読み上げ
+- Play Dialogue：Dialogue全体を順番に音声再生
 
-各英語セリフはスピーカーボタンから個別に読み上げられます。Play DialogueではDialogue全体を上から順番に再生し、利用できる英語voiceが複数ある場合はA / Bに異なるvoiceを使用します。
+Hide A / Hide BとPlay Dialogueを組み合わせると、アプリが表示側を読み上げ、ユーザーが隠した側を担当する片役ロールプレイができます。ユーザーのターンには英文の長さに応じた待ち時間が入り、待機中にTap to revealを押しても会話再生は継続します。
 
-Hide A / Hide Bの通し再生では、隠した側をTTSで読まず、ユーザーが発話する待ち時間を入れます。待ち時間は英文の長さに応じて調整されます。待機中でもTap to revealで答えを確認でき、進行中のDialogue再生や待機時間はそのまま継続します。
+Stop、モード変更、Previous / Next / Back、個別音声の開始時には通し再生を停止します。タブやPWAがバックグラウンドへ移行した場合も、音声と待機処理を停止し、復帰後に自動再開しません。
 
-Stop、モード変更、Previous / Next / Back、個別TTS開始時には通し再生を停止します。タブやPWAがバックグラウンドへ移行した場合も、音声・待機timer・古い再生sequenceをcleanupし、復帰後に自動再開しません。
+## Quiz
 
-## Search
+学習対象をSeason、重要、苦手、習得済み、Bookmarkなどで絞り込み、1回最大10問のQuizに挑戦できます。
 
-Phrase / Meaning / Example / Dialogueを検索でき、検索結果から各Detailへ直接移動できます。
+- 途中状態を保存してResume
+- Resultから間違えたPhrase Detailへ直接移動
+- 間違えたPhraseを自動で「苦手」に分類
+- Resultから苦手な表現をまとめて復習
 
-## Sound
+## Progress / Home
 
-Web Audio APIによる効果音を実装しています。
+ProgressではFriends全体とSeason別のLearned進捗を、読み込み済みPhrase dataとLearned stateから毎回集計します。Season内の全PhraseをLearnedにすると、そのSeasonカードに`🏆 COMPLETE`バッジが表示されます。
 
-- Quiz正解 / 不正解
-- Learned ON
-- Season COMPLETE
-- その日の初回起動ジングル
+HomeにはStreak、Daily Target、Friends全体のLearned進捗、Continue Learningを表示します。
 
-Sound設定はSidebar（Desktop / Tablet）またはハンバーガーメニュー（Mobile）からON / OFFを切り替えられます。設定は再読み込み後も維持され、OFF時はすべての効果音を再生しません。
+## Search / Bookmarks
 
-## PWA
+SearchではPhrase、Meaning、Example、Dialogueを横断検索し、結果から各Detailへ直接移動できます。
 
-- ホーム画面 / デスクトップへインストール可能
-- standalone表示
-- Android / iPhone / iPad / Desktop対応
-- Manifest / Service Worker対応
+Bookmarksでは、あとで見返したいPhraseとDialogueをそれぞれ保存・確認できます。Learnedとは独立した機能です。
+
+## Sound / Help
+
+Web Audio APIによるQuiz正誤、「覚えた」、Season達成、当日初回起動の効果音があります。Sound設定はSidebar（Desktop / Tablet）またはMobileメニューからON / OFFを切り替えられ、再読み込み後も維持されます。英文の音声読み上げとは別機能です。
+
+Sidebar / MobileメニューのHelpでは、Dialogues・Quiz・Phrasesからのおすすめの始め方と、学習機能のFAQを確認できます。
+
+## PWA / 対応環境
+
+- Desktop / Tablet / Mobile
+- Android / iPhone / iPad
+- PWA standalone
+- Manifest / Service Worker
+- `env(safe-area-inset-*)`を利用したiPhone / iPad Safe Area対応
 
 通常のブラウザ版もそのまま利用できます。
 
-## 既存バージョンとの互換性
+## 保存データと互換性
 
-既存のPhrase ID / Dialogue IDとlocalStorage保存キーを維持しています。データ更新時も既存のBookmarks、Weak、Learned、Quiz等の状態を引き継げます。
+学習データと設定はブラウザのlocalStorageに保存されます。アカウント同期型ではないため別端末へ自動同期されず、ブラウザデータを削除すると履歴が失われる可能性があります。
 
-現在使用している保存キー：
+既存のPhrase ID / Dialogue IDと次のlocalStorage keyを維持しているため、従来のBookmarks、苦手、Learned、Quizなどの状態を引き継げます。
 
 - `friendsBookmarks_phrase`
 - `friendsBookmarks_dialogue`
@@ -117,11 +101,4 @@ Sound設定はSidebar（Desktop / Tablet）またはハンバーガーメニュ�
 - `sitcomEnglish_soundEnabled`
 - `sitcomEnglish_lastJingleDate`
 
-## 対応環境
-
-- Desktop
-- Tablet
-- Mobile
-- PWA standalone
-
-レスポンシブUIに対応しています。
+Phrase / Dialogue JSON、ID、保存キーの形式はv4.3でも変更していません。
