@@ -119,6 +119,7 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 .series-name{font-size:clamp(14px,4.4vw,20px)}
 .series-state{color:#e2e8f0;font-size:10px;margin-top:4px}
 .today-icon{display:flex;align-items:center;justify-content:center;min-height:30px;font-size:25px;line-height:1;margin-bottom:0}.today-label{margin-top:5px}.today-icon.review-icon{color:inherit}
+.streak-fire{transition:filter .18s ease,opacity .18s ease}.streak-stat.not-studied-today .streak-fire{filter:grayscale(1);opacity:.58}.streak-today-status{display:block;max-width:112px;min-height:22px;margin:5px auto 0;color:var(--muted);font-size:9px;font-weight:700;line-height:1.25}.streak-stat.studied-today .streak-today-status{color:#c4b5fd;font-weight:850}
 .home-menu-button .line-icon{width:22px;height:22px}
 .weak-filter{width:100%;margin:0 0 9px;min-height:40px;padding:7px 11px}
 .dialogue-card{display:block;grid-template-columns:none;gap:0}
