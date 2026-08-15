@@ -78,6 +78,7 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 
 /* v2.0 shared UI refinement 3: detail rhythm, shared search cards and episode rows. */
 .detail-page{padding-top:2px}
+.detail-page.detail-swipe-transition{pointer-events:none;will-change:transform,opacity}
 .detail-page .detail-card{margin-top:0}
 .detail-page .detail-title{margin-top:5px;margin-bottom:7px}
 .detail-page .meta-line{margin-top:8px}
