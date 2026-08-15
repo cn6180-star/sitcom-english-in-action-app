@@ -3,6 +3,21 @@
 // Explicit fallback matches for linked phrases that the shared matcher cannot locate.
 // Keys are stable Dialogue ID + Phrase ID pairs. candidateLineIndex is zero-based.
 const DIALOGUE_EXPLICIT_MATCH_HINTS=Object.freeze({
+  "d1|p10":Object.freeze({"dialogueId":"d1","phraseId":"p10","candidateLineIndex":4,"highlightRanges":[{"matchText":"is"},{"matchText":"on the table"}],"overrideMatcher":true}),
+  "d2|p93":Object.freeze({"dialogueId":"d2","phraseId":"p93","candidateLineIndex":0,"highlightRanges":[{"matchText":"run"},{"matchText":"by"}]}),
+  "d18|p157":Object.freeze({"dialogueId":"d18","phraseId":"p157","candidateLineIndex":5,"highlightRanges":[{"matchText":"Nope"}]}),
+  "d20|p157":Object.freeze({"dialogueId":"d20","phraseId":"p157","candidateLineIndex":8,"highlightRanges":[{"matchText":"Nope, zilch,"}]}),
+  "d57|p204":Object.freeze({"dialogueId":"d57","phraseId":"p204","candidateLineIndex":8,"highlightRanges":[{"matchText":"It wouldn’t kill you to"}]}),
+  "d25|p295":Object.freeze({"dialogueId":"d25","phraseId":"p295","candidateLineIndex":1,"highlightRanges":[{"matchText":"prepped"},{"matchText":"for"}]}),
+  "d27|p271":Object.freeze({"dialogueId":"d27","phraseId":"p271","candidateLineIndex":5,"highlightRanges":[{"matchText":"blow"}]}),
+  "d41|p384":Object.freeze({"dialogueId":"d41","phraseId":"p384","candidateLineIndex":4,"highlightRanges":[{"matchText":"line"}]}),
+  "d48|p439":Object.freeze({"dialogueId":"d48","phraseId":"p439","candidateLineIndex":6,"highlightRanges":[{"matchText":"out of my hair"}]}),
+  "d67|p550":Object.freeze({"dialogueId":"d67","phraseId":"p550","candidateLineIndex":9,"highlightRanges":[{"matchText":"can’t help"}]}),
+  "d74|p525":Object.freeze({"dialogueId":"d74","phraseId":"p525","candidateLineIndex":8,"highlightRanges":[{"matchText":"fire"}]}),
+  "d106|p756":Object.freeze({"dialogueId":"d106","phraseId":"p756","candidateLineIndex":0,"highlightRanges":[{"matchText":"up in the air"}]}),
+  "d132|p959":Object.freeze({"dialogueId":"d132","phraseId":"p959","candidateLineIndex":4,"highlightRanges":[{"matchText":"has the dirt"}]}),
+  "d144|p911":Object.freeze({"dialogueId":"d144","phraseId":"p911","candidateLineIndex":3,"highlightRanges":[{"matchText":"in a pickle"}]}),
+  "d147|p914":Object.freeze({"dialogueId":"d147","phraseId":"p914","candidateLineIndex":2,"highlightRanges":[{"matchText":"pull"},{"matchText":"out of"}]}),
   "d6|p102":Object.freeze({"dialogueId":"d6","phraseId":"p102","candidateLineIndex":5,"matchText":"a little shy of convinced"}),
   "d6|p95":Object.freeze({"dialogueId":"d6","phraseId":"p95","candidateLineIndex":9,"matchText":"flip you for the coffee"}),
   "d8|p43":Object.freeze({"dialogueId":"d8","phraseId":"p43","candidateLineIndex":9,"matchText":"get behind"}),
@@ -138,4 +153,3 @@ const DIALOGUE_EXPLICIT_MATCH_HINTS=Object.freeze({
   "d160|p1046":Object.freeze({"dialogueId":"d160","phraseId":"p1046","candidateLineIndex":6,"matchText":"It’s not my place to tell her how to run her career"}),
   "d161|p1039":Object.freeze({"dialogueId":"d161","phraseId":"p1039","candidateLineIndex":8,"matchText":"you’re up for it"})
 });
-
