@@ -205,9 +205,9 @@ function renderHome(){
 function renderSeriesHome(){
   const bCount=bookmarks("phrase").length+bookmarks("dialogue").length,overall=progressFor();
   app.innerHTML=`${pageHeader("Series","Friends",`${overall.learned} / ${overall.total} learned · ${DIALOGUES.length} dialogues`)}<section class="section"><div class="section-head"><h2 class="section-title">Study by Mode</h2></div><div class="list-rows">
-    <button class="list-row" onclick="navigate('phrases')"><strong>Phrases</strong><span class="row-end"><span class="row-meta">${overall.learned} / ${overall.total} learned</span>›</span></button>
     <button class="list-row" onclick="navigate('dialogues')"><strong>Dialogues</strong><span class="row-end"><span class="row-meta">${DIALOGUES.length} dialogues</span>›</span></button>
     <button class="list-row" onclick="navigate('quiz')"><strong>Quiz</strong><span class="row-end"><span class="row-meta">Daily Quiz</span>›</span></button>
+    <button class="list-row" onclick="navigate('phrases')"><strong>Phrases</strong><span class="row-end"><span class="row-meta">${overall.learned} / ${overall.total} learned</span>›</span></button>
     <button class="list-row" onclick="navigate('bookmarks')"><strong>Bookmarks</strong><span class="row-end"><span class="row-meta">${bCount} items</span>›</span></button>
     <button class="list-row progress-mode-row" onclick="navigate('progress')"><strong>Progress</strong><span class="row-end"><span class="row-meta">${overall.percent}% complete</span>›</span></button></div></section>
     <section class="section"><div class="section-head"><h2 class="section-title">Browse by Season</h2></div>${chips(["ALL",...SEASONS],"ALL","browseSeason",'S')}</section>
