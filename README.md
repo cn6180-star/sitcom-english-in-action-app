@@ -1,4 +1,4 @@
-# Sitcom English in Action v4.3
+# Sitcom English in Action v4.6
 
 GitHub Pages / PWAで動作する、海外ドラマ英語の学習アプリです。
 
@@ -12,6 +12,11 @@ GitHub Pages / PWAで動作する、海外ドラマ英語の学習アプリで�
 - 2126 examples
 - Friends Season 10 Coming Soon
 - The Big Bang Theory Coming Soon
+
+## v4.6 Updates
+
+- Dialogue Phrase Highlighting：共通matcherとexplicit match hintsにより、全918 linked entriesの本文位置を特定。必要なケースでは複数range・部分ハイライトにも対応し、関連Phraseの表示順にも同じmatch結果を利用
+- Fuzzy Phrase Search：Phrase名を対象に、語順を問わない複数キーワードのAND検索、単語境界、基本的な動詞活用、apostrophe・括弧・空白などの表記差へ対応
 
 ## 起動方法
 
@@ -28,6 +33,7 @@ Phrase一覧から、意味・場面・Examplesを収録したPhrase Detailを�
 - Learned（覚えた）とBookmark
 - 重要・苦手・未習得・習得済み・使用感などの学習フィルター
 - 一覧の表示対象と順番を維持したPrevious / Next
+- 左右スワイプによるPrevious / Next移動
 
 ## Dialogues / 会話練習
 
@@ -40,6 +46,9 @@ Dialogue Detailでは、日本語訳と次のモードを独立して利用で�
 - Tap to reveal：隠した英文を表示して答え合わせ
 - 🔊：各セリフを個別に音声読み上げ
 - Play Dialogue：Dialogue全体を順番に音声再生
+- 左右スワイプによるPrevious / Next移動
+
+Dialogue内のlinked Phraseは、共通matcherとexplicit match hintsで本文位置を特定してハイライトします。分離した表現などでは複数range・部分ハイライトを利用し、右側の学習Phraseも同じmatch結果による本文登場順で表示します。
 
 Hide A / Hide BとPlay Dialogueを組み合わせると、アプリが表示側を読み上げ、ユーザーが隠した側を担当する片役ロールプレイができます。ユーザーのターンには英文の長さに応じた待ち時間が入り、待機中にTap to revealを押しても会話再生は継続します。
 
@@ -62,7 +71,7 @@ HomeにはStreak、Daily Target、Friends全体のLearned進捗、Continue Learn
 
 ## Search / Bookmarks
 
-SearchではPhrase、Meaning、Example、Dialogueを横断検索し、結果から各Detailへ直接移動できます。
+Phrase検索はPhrase名だけを対象に、スペース区切りの複数キーワードをAND条件で検索します。キーワードの語順は問わず、単語境界を考慮するため、`all`から`call`・`hardball`・`technically`のような別語は拾いません。`go`から`going`・`goes`などの基本的な動詞活用を検索できますが、`got`・`wagon`は対象外です。`got`から`gotta`を検索でき、apostrophe・半角 / 全角括弧・空白・hyphen等の表記差も正規化します。Dialogue検索は従来どおり利用できます。
 
 Bookmarksでは、あとで見返したいPhraseとDialogueをそれぞれ保存・確認できます。Learnedとは独立した機能です。
 
@@ -70,7 +79,7 @@ Bookmarksでは、あとで見返したいPhraseとDialogueをそれぞれ保存
 
 Web Audio APIによるQuiz正誤、「覚えた」、Season達成、当日初回起動の効果音があります。Sound設定はSidebar（Desktop / Tablet）またはMobileメニューからON / OFFを切り替えられ、再読み込み後も維持されます。英文の音声読み上げとは別機能です。
 
-Sidebar / MobileメニューのHelpでは、Dialogues・Quiz・Phrasesからのおすすめの始め方と、学習機能のFAQを確認できます。
+Sidebar / MobileメニューのHelpでは、Dialogues・Quiz・Phrasesからのおすすめの始め方、Detail画面の左右スワイプ操作、学習機能のFAQを確認できます。
 
 ## PWA / 対応環境
 
@@ -101,4 +110,4 @@ Sidebar / MobileメニューのHelpでは、Dialogues・Quiz・Phrasesからの�
 - `sitcomEnglish_soundEnabled`
 - `sitcomEnglish_lastJingleDate`
 
-Phrase / Dialogue JSON、ID、保存キーの形式はv4.3でも変更していません。
+Phrase / Dialogue JSON、ID、保存キーの形式はv4.6でも変更していません。
