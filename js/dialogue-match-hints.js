@@ -150,7 +150,7 @@ const DIALOGUE_EXPLICIT_MATCH_HINTS=Object.freeze({
   "d158|p1019":Object.freeze({"dialogueId":"d158","phraseId":"p1019","candidateLineIndex":4,"highlightRanges":[{"matchText":"You’re entitled to"}],"overrideMatcher":true}),
   "d159|p1059":Object.freeze({"dialogueId":"d159","phraseId":"p1059","candidateLineIndex":5,"highlightRanges":[{"matchText":"inclined to"}],"overrideMatcher":true}),
   "d160|p1042":Object.freeze({"dialogueId":"d160","phraseId":"p1042","candidateLineIndex":2,"highlightRanges":[{"matchText":"rubbed her face in"}],"overrideMatcher":true}),
-  "d160|p1046":Object.freeze({"dialogueId":"d160","phraseId":"p1046","candidateLineIndex":6,"matchText":"It’s not my place to tell her how to run her career"}),
+  "d160|p1046":Object.freeze({"dialogueId":"d160","phraseId":"p1046","candidateLineIndex":6,"highlightRanges":[{"matchText":"It’s not my place to"}],"overrideMatcher":true}),
   "d161|p1039":Object.freeze({"dialogueId":"d161","phraseId":"p1039","candidateLineIndex":8,"matchText":"you’re up for it"}),
   "d54|p126":Object.freeze({"dialogueId":"d54","phraseId":"p126","candidateLineIndex":3,"highlightRanges":[{"matchText":"pegged me as"}],"overrideMatcher":true}),
   "d15|p192":Object.freeze({"dialogueId":"d15","phraseId":"p192","candidateLineIndex":0,"highlightRanges":[{"matchText":"getting a lot of heat from"}],"overrideMatcher":true}),
