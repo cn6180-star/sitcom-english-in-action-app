@@ -158,7 +158,7 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 @media (min-width:760px){.help-paths{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media (min-width:760px){.sidebar{overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#4b4168 transparent}.sidebar-brand,.sidebar-primary,.sidebar-secondary{flex-shrink:0}.sidebar::-webkit-scrollbar{width:6px}.sidebar::-webkit-scrollbar-track{background:transparent}.sidebar::-webkit-scrollbar-thumb{background:#4b4168;border-radius:999px}}
 @media (max-width:759px){.help-backdrop,.about-backdrop{padding:calc(12px + env(safe-area-inset-top)) 10px calc(12px + env(safe-area-inset-bottom))}.help-modal,.about-modal{width:100%;max-height:calc(100dvh - 24px - env(safe-area-inset-top) - env(safe-area-inset-bottom));padding:16px}.help-intro h3{font-size:20px}}
-@media (max-width:759px){.home-view .dashboard>.brand-visual{display:block;width:100%;max-width:100%;margin:0 auto 2px;border-radius:14px}.home-view .brand-visual>img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1600/640;object-fit:contain}.series-overlay{padding:9px}}
+@media (max-width:759px){.home-view .dashboard>.brand-visual{display:block;width:100%;max-width:100%;margin:0 auto 2px;border-radius:14px}.home-view .brand-visual>picture{display:block;width:100%;max-width:100%}.home-view .brand-visual>picture>img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1600/640;object-fit:contain}.series-overlay{padding:9px}}
 @media (min-width:760px){.home-menu-button{opacity:0;pointer-events:none}.brand-visual{border-radius:20px}.series-overlay{padding:13px}.series-state{font-size:11px}}
 
 /* v2.0.7: restored detail navigation and interactive progress. */
