@@ -23,7 +23,7 @@ const DIALOGUE_EXPLICIT_MATCH_HINTS=Object.freeze({
   "d8|p43":Object.freeze({"dialogueId":"d8","phraseId":"p43","candidateLineIndex":9,"matchText":"get behind"}),
   "d53|p65":Object.freeze({"dialogueId":"d53","phraseId":"p65","candidateLineIndex":1,"matchText":"plunk it down"}),
   "d54|p55":Object.freeze({"dialogueId":"d54","phraseId":"p55","candidateLineIndex":1,"matchText":"came out of my shell"}),
-  "d54|p118":Object.freeze({"dialogueId":"d54","phraseId":"p118","candidateLineIndex":4,"matchText":"more of a listener"}),
+  "d54|p118":Object.freeze({"dialogueId":"d54","phraseId":"p118","candidateLineIndex":4,"highlightRanges":[{"matchText":"more of a"}],"overrideMatcher":true}),
   "d56|p119":Object.freeze({"dialogueId":"d56","phraseId":"p119","candidateLineIndex":1,"matchText":"cooked up a story"}),
   "d56|p101":Object.freeze({"dialogueId":"d56","phraseId":"p101","candidateLineIndex":5,"matchText":"is full of it"}),
   "d13|p237":Object.freeze({"dialogueId":"d13","phraseId":"p237","candidateLineIndex":4,"matchText":"buy the rumor"}),
