@@ -9,7 +9,11 @@ const storageStart=source.indexOf("function showStorageWarningOnce");
 const storageEnd=source.indexOf("const seasonNum=");
 const quizStart=source.indexOf("const QUIZ_SESSION_VERSIONS=");
 const quizEnd=source.indexOf("function returnToQuizHome");
-assert.ok(storageStart>=0&&storageEnd>storageStart&&quizStart>=0&&quizEnd>quizStart);
+const filterStart=source.indexOf("function sanitizeSavedQuizFilters");
+const filterEnd=source.indexOf("async function loadData");
+const selectionStart=source.indexOf("function shuffle");
+const selectionEnd=source.indexOf("function beginQuizSession");
+assert.ok(storageStart>=0&&storageEnd>storageStart&&quizStart>=0&&quizEnd>quizStart&&filterStart>=0&&filterEnd>filterStart&&selectionStart>=0&&selectionEnd>selectionStart);
 
 const storageContext={
   Map,
@@ -71,5 +75,29 @@ assert.equal(quizContext.api.getQuizSession(),null);
 assert.equal(removeAttempts,1);
 rawQuiz=JSON.stringify(validSession);
 assert.ok(quizContext.api.getQuizSession());
+
+const filterContext={Set,Number,SEASONS:[1,2,3,4,5,6,7,8,9]};
+vm.runInNewContext(`${source.slice(filterStart,filterEnd)};globalThis.sanitize=sanitizeSavedQuizFilters`,filterContext);
+const plain=value=>JSON.parse(JSON.stringify(value));
+assert.deepEqual(plain(filterContext.sanitize({quizMode:"broken",quizSeason:"99",quizScope:"mistakes",quizQuestionType:"mixed",quizQuestionCount:1063})),{quizMode:"test",quizSeason:"ALL",quizScope:"random",quizQuestionType:"mc",quizQuestionCount:10});
+assert.deepEqual(plain(filterContext.sanitize({quizMode:"practice",quizSeason:"8",quizScope:"weak",quizQuestionType:"fill",quizQuestionCount:15})),{quizMode:"practice",quizSeason:"8",quizScope:"weak",quizQuestionType:"fill",quizQuestionCount:15});
+
+const selectionPhrases=Array.from({length:30},(_,index)=>({id:`p${index+1}`,meaning:`Meaning ${index+1}`}));
+const selectionContext={Set,Map,Array,Math,Number,PHRASES:selectionPhrases};
+vm.runInNewContext(`${source.slice(selectionStart,selectionEnd)};globalThis.api={selectQuizPhrases,createQuestions}`,selectionContext);
+let previousIds=[];
+for(let round=0;round<100;round++){
+  const selected=selectionContext.api.selectQuizPhrases(selectionPhrases,10,previousIds);
+  assert.equal(selected.length,10);
+  assert.equal(new Set(selected.map(item=>item.id)).size,10);
+  if(previousIds.length)assert.equal(selected.some(item=>previousIds.includes(item.id)),false);
+  const questions=selectionContext.api.createQuestions(selectionPhrases,10,"mixed",previousIds);
+  assert.equal(questions.length,10);
+  assert.equal(new Set(questions.map(item=>item.id)).size,10);
+  previousIds=questions.map(item=>item.id);
+}
+const smallPool=selectionPhrases.slice(0,8),smallPrevious=smallPool.slice(0,5).map(item=>item.id),smallNext=selectionContext.api.selectQuizPhrases(smallPool,5,smallPrevious);
+assert.equal(smallNext.filter(item=>!smallPrevious.includes(item.id)).length,3);
+assert.equal(smallNext.filter(item=>smallPrevious.includes(item.id)).length,2);
 
 console.log("quiz resilience tests passed");
