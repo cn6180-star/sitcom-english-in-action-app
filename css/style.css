@@ -44,8 +44,9 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 @media (max-width:1000px){.dialogue-controls{grid-template-columns:1fr}.translation-toggle,.dialogue-play-button{min-height:42px;width:100%}}
 .dialogue-controls .segmented{grid-template-columns:repeat(4,1fr)}
 .blank-mode-hint{margin:8px 2px 0;font-size:12px;line-height:1.4}
-.dialogue-blank{display:inline-block;vertical-align:baseline;min-width:3.2em;height:1.05em;margin:0 2px;padding:0;border:0;border-bottom:2px solid var(--purple-2);border-radius:5px 5px 2px 2px;background:rgba(139,92,246,.2);cursor:pointer}
+.dialogue-blank{color:transparent;background:rgba(139,92,246,.2);border-bottom:2px solid var(--purple-2);border-radius:5px 5px 2px 2px;cursor:pointer;box-decoration-break:clone;-webkit-box-decoration-break:clone;user-select:none;-webkit-user-select:none}
 .dialogue-blank:hover,.dialogue-blank:focus-visible{background:rgba(139,92,246,.34);outline:2px solid rgba(167,139,250,.45);outline-offset:2px}
+.dialogue-blank-text{color:inherit}.translation-concealed{visibility:hidden;pointer-events:none;user-select:none;-webkit-user-select:none}
 /* v2.0 shared UI refinement: unified line icons and one-step denser layout. */
 .line-icon{width:22px;height:22px;display:block;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .nav-button{padding:6px 2px;gap:3px}.nav-button .nav-icon{font-size:inherit;line-height:1}.nav-button .line-icon{width:21px;height:21px}
