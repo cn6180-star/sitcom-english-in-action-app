@@ -40,6 +40,7 @@ assert.doesNotMatch(styles,/\.dialogue-blank\{[^}]*min-width:3\.2em/);
 assert.match(styles,/\.translation-concealed\{visibility:hidden;pointer-events:none;user-select:none/);
 assert.match(styles,/\.hidden-dialogue-text\{[^}]*color:transparent/);
 assert.match(styles,/\.hidden-dialogue-text\{[^}]*box-decoration-break:clone/);
+assert.match(styles,/\.hidden-dialogue-text \.highlight-phrase\{color:transparent\}/);
 assert.match(styles,/\.hidden-speaker-control\{visibility:hidden;pointer-events:none/);
 assert.match(styles,/\.reveal-hint-concealed\{visibility:hidden;pointer-events:none;user-select:none/);
 

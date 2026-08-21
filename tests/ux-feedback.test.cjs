@@ -24,6 +24,6 @@ assert.match(source,/replaceBackupStorage\(restoreData\);[\s\S]*?if\(successSoun
 assert.match(source,/解決しないときは？/);
 assert.match(source,/https:\/\/discord\.gg\/aRZYaGHgdG/);
 assert.match(source,/target="_blank" rel="noopener noreferrer"/);
-assert.match(source,/Version 5\.1/);
+assert.match(source,/Version 5\.2/);
 
 console.log("UX feedback tests passed");
