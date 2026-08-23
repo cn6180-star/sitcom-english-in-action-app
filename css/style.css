@@ -181,7 +181,7 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 .speaker-button:hover,.speaker-button:focus-visible{border-color:#6d4dae;background:var(--purple-soft)}
 .dialogue-line{display:flex;align-items:center;justify-content:space-between;gap:10px}
 .dialogue-line-copy{min-width:0;flex:1}
-.dialogue-line-text{overflow-wrap:anywhere}
+.dialogue-line-text{overflow-wrap:anywhere;border-bottom:2px solid transparent}
 .related-dialogues{display:grid;gap:7px}
 .related-dialogue{width:100%;min-height:46px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 13px;text-align:left;color:var(--text);background:#0c1020;border:1px solid var(--border);border-radius:13px}
 .related-dialogue span:first-child{color:#ddd6fe;font-weight:800}
@@ -247,3 +247,11 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 @keyframes achievement-toast-life{0%{opacity:0;transform:translate(-50%,-8px) scale(.98)}10%,82%{opacity:1;transform:translate(-50%,0) scale(1)}100%{opacity:0;transform:translate(-50%,-4px) scale(.99)}}
 @media (max-width:520px){.quiz-result-actions{grid-template-columns:repeat(2,minmax(0,1fr))}.quiz-result-actions .primary-button:last-child{grid-column:1/-1}.achievement-toast{top:calc(var(--topbar) + var(--mobile-top-inset) + 18px);width:calc(100vw - 28px);padding:14px 15px}}
 @media (prefers-reduced-motion:reduce){.achievement-toast{animation:achievement-toast-fade 2.9s linear both}@keyframes achievement-toast-fade{0%,100%{opacity:0}8%,90%{opacity:1}}}
+
+/* v5.3: keep mobile learning layouts stable while content visibility changes. */
+.filter-slot-concealed{visibility:hidden;pointer-events:none;user-select:none;-webkit-user-select:none}
+.bookmarks-filter-layout>.filter-panel{min-height:336px}
+.example-translation-concealed{visibility:hidden;pointer-events:none;user-select:none;-webkit-user-select:none}
+.dialogue-line{min-height:42px}
+.dialogue-side{touch-action:pan-y}
+@media (max-width:759px){.bookmarks-filter-layout>.filter-panel{min-height:296px}}
