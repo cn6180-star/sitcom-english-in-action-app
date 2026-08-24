@@ -23,5 +23,12 @@ assert.match(source,/day\.studied\?'🔥':'·'/);
 assert.match(styles,/\.streak-week\{[^}]*grid-template-columns:repeat\(7,minmax\(0,1fr\)\)/);
 assert.match(styles,/\.streak-week-day\.today/);
 assert.doesNotMatch(styles,/streak-week[^}]*animation/);
+assert.match(source,/if\(before===0\)streakStampPending=true/);
+assert.match(source,/animateToday=streakStampPending&&recent\.at\(-1\)\?\.studied/);
+assert.match(source,/if\(animateToday\)streakStampPending=false/);
+assert.match(source,/day\.today&&animateToday\?'streak-fire-stamp':''/);
+assert.match(styles,/\.streak-fire-stamp\{animation:streak-fire-stamp \.38s/);
+assert.match(styles,/@keyframes streak-fire-stamp\{0%\{transform:scale\(\.65\)\}65%\{transform:scale\(1\.15\)\}100%\{transform:scale\(1\)\}\}/);
+assert.match(styles,/@media \(prefers-reduced-motion:reduce\)\{\.streak-fire-stamp\{animation:none\}\}/);
 
 console.log("streak week tests passed");

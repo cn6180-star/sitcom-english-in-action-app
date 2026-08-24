@@ -200,6 +200,9 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 .streak-week-day span{display:block;color:var(--muted);font-size:10px;font-weight:800;line-height:1.2}
 .streak-week-day strong{display:grid;place-items:center;min-height:25px;margin-top:3px;color:#3d4254;font-size:18px;line-height:1}
 .streak-week-day.today{border-color:#7053b5;background:#17142a}.streak-week-day.today span{color:#ddd6fe}
+.streak-fire-stamp{animation:streak-fire-stamp .38s cubic-bezier(.2,.85,.35,1.2) both;transform-origin:center}
+@keyframes streak-fire-stamp{0%{transform:scale(.65)}65%{transform:scale(1.15)}100%{transform:scale(1)}}
+@media (prefers-reduced-motion:reduce){.streak-fire-stamp{animation:none}}
 @media (max-width:1000px){.examples-section-head{align-items:stretch;flex-direction:column}.examples-section-head .translation-toggle{width:100%}}
 
 /* v3.0 phase 1: user-managed learned phrase state. */
