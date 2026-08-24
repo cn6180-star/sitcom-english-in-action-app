@@ -43,8 +43,12 @@ assert.match(source,/perfect=r\.score===r\.total/);
 assert.match(source,/perfect\?' <span class="perfect-crown"/);
 assert.match(source,/celebrate=perfect&&!celebratedQuizResults\.has\(resultKey\)/);
 assert.match(source,/Array\.from\(\{length:16\}/);
+assert.match(source,/--confetti-left:/);
+assert.match(source,/--confetti-delay:/);
+assert.match(source,/--confetti-drift:/);
 assert.match(styles,/\.perfect-confetti\{[^}]*pointer-events:none/);
 assert.match(styles,/perfect-confetti-fall 1\.65s/);
+assert.doesNotMatch(styles,/var\(--piece\).*\*/);
 assert.match(styles,/@media \(prefers-reduced-motion:reduce\)\{\.perfect-confetti\{display:none\}\}/);
 
 console.log("v5.3 UI tests passed");
