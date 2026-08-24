@@ -8,8 +8,8 @@ const root=path.join(__dirname,"..");
 const source=fs.readFileSync(path.join(root,"js","app.js"),"utf8");
 const styles=fs.readFileSync(path.join(root,"css","style.css"),"utf8");
 
-assert.match(source,/episode-filter-slot\$\{episodeConcealed\?' filter-slot-concealed':''\}/);
-assert.match(styles,/\.filter-slot-concealed\{visibility:hidden;pointer-events:none;user-select:none/);
+assert.equal((source.match(/class="filter-group episode-filter-slot"/g)||[]).length,2);
+assert.doesNotMatch(source,/episodeConcealed/);
 assert.match(source,/classList\.add\("bookmarks-filter-layout"\)/);
 assert.match(styles,/\.bookmarks-filter-layout>\.filter-panel\{min-height:336px\}/);
 assert.match(styles,/@media \(max-width:759px\)\{\.bookmarks-filter-layout>\.filter-panel\{min-height:296px\}\}/);

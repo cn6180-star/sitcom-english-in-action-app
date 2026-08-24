@@ -36,8 +36,9 @@ for(const removed of["Bookmarks","Progress","Browse by Season","How to use"]){
   assert.doesNotMatch(seriesHome,new RegExp(removed));
 }
 
-assert.equal((source.match(/episodeConcealed=f\.season==="ALL"/g)||[]).length,2);
-assert.match(source,/function dialogueFilterPanel\(bookmarkedOnly=false\).*episode-filter-slot\$\{episodeConcealed/);
+assert.equal((source.match(/class="filter-group episode-filter-slot"/g)||[]).length,2);
+assert.match(source,/function dialogueFilterPanel\(bookmarkedOnly=false\).*'S','全て'.*'E','全て'.*全てのカテゴリー/);
+assert.doesNotMatch(source,/All categories|<span>Bookmarked<\/span>/);
 
 assert.match(source,/perfect=r\.score===r\.total/);
 assert.match(source,/perfect\?' <span class="perfect-crown"/);
