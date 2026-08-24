@@ -26,4 +26,15 @@ for(const asset of["series-friends-v53.webp","series-tbbt-v53.webp"]){
 assert.match(styles,/series-friends-v53\.webp/);
 assert.match(styles,/series-tbbt-v53\.webp/);
 
+assert.equal((source.match(/episodeConcealed=f\.season==="ALL"/g)||[]).length,2);
+assert.match(source,/function dialogueFilterPanel\(bookmarkedOnly=false\).*episode-filter-slot\$\{episodeConcealed/);
+
+assert.match(source,/perfect=r\.score===r\.total/);
+assert.match(source,/perfect\?' <span class="perfect-crown"/);
+assert.match(source,/celebrate=perfect&&!celebratedQuizResults\.has\(resultKey\)/);
+assert.match(source,/Array\.from\(\{length:16\}/);
+assert.match(styles,/\.perfect-confetti\{[^}]*pointer-events:none/);
+assert.match(styles,/perfect-confetti-fall 1\.65s/);
+assert.match(styles,/@media \(prefers-reduced-motion:reduce\)\{\.perfect-confetti\{display:none\}\}/);
+
 console.log("v5.3 UI tests passed");

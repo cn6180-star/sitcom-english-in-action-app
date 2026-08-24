@@ -255,3 +255,12 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 .dialogue-line{min-height:42px}
 .dialogue-side{touch-action:pan-y}
 @media (max-width:759px){.bookmarks-filter-layout>.filter-panel{min-height:296px}}
+
+/* v5.3: lightweight Perfect result celebration. */
+.perfect-crown{display:inline-block;margin-left:.12em;font-size:.58em;vertical-align:.14em;letter-spacing:0}
+.perfect-confetti{position:fixed;z-index:70;inset:0;overflow:hidden;pointer-events:none}
+.perfect-confetti i{position:absolute;top:10vh;left:calc(6% + var(--piece) * 5.8%);width:7px;height:13px;border-radius:2px;background:hsl(calc(var(--piece) * 47deg) 82% 67%);opacity:0;animation:perfect-confetti-fall 1.65s cubic-bezier(.18,.72,.28,1) calc(var(--piece) * 18ms) both}
+.perfect-confetti i:nth-child(3n){width:10px;height:7px;border-radius:50%}
+.perfect-confetti i:nth-child(4n){background:#fbbf24}
+@keyframes perfect-confetti-fall{0%{opacity:0;transform:translate3d(0,-18px,0) rotate(0)}12%{opacity:1}100%{opacity:0;transform:translate3d(calc((var(--piece) - 8) * 8px),52vh,0) rotate(420deg)}}
+@media (prefers-reduced-motion:reduce){.perfect-confetti{display:none}}
