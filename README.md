@@ -1,4 +1,4 @@
-# Sitcom English in Action v4.6
+# Sitcom English in Action v5.3
 
 GitHub Pages / PWAで動作する、海外ドラマ英語の学習アプリです。
 
@@ -6,17 +6,19 @@ GitHub Pages / PWAで動作する、海外ドラマ英語の学習アプリで�
 
 ## 収録データ
 
-- Friends Season 1–9
+- Friends Season 1–9 available — For Everyday English
 - 1063 phrases
 - 167 dialogues
 - 2126 examples
 - Friends Season 10 Coming Soon
-- The Big Bang Theory Coming Soon
+- The Big Bang Theory — For Advanced English（Coming Soon）
 
-## v4.6 Updates
+## v5.3 Updates
 
-- Dialogue Phrase Highlighting：共通matcherとexplicit match hintsにより、全918 linked entriesの本文位置を特定。必要なケースでは複数range・部分ハイライトにも対応し、関連Phraseの表示順にも同じmatch結果を利用
-- Fuzzy Phrase Search：Phrase名を対象に、語順を問わない複数キーワードのAND検索、単語境界、基本的な動詞活用、apostrophe・括弧・空白などの表記差へ対応
+- Quiz Test / Practice、Homeから本番10問Mixへすぐ挑戦できるQuick Challenge、Review mistakes / Next Roundを含むResult UXを整備
+- DialogueのNormal / Blank / Hide A / Hide B、Play Dialogue、TTS、左右スワイプ操作を改善
+- Home / SeriesをFriends「For Everyday English」、The Big Bang Theory「For Advanced English」の役割が分かる構成へ整理
+- Daily Target、直近7日間の学習履歴付きStreak、Achievement Toast、Backup / Restore、Sound Feedbackを搭載
 
 ## 起動方法
 
@@ -40,13 +42,16 @@ Phrase一覧から、意味・場面・Examplesを収録したPhrase Detailを�
 Dialogue Detailでは、日本語訳と次のモードを独立して利用できます。
 
 - Normal：A / Bの全セリフを表示
+- Blank：Human Reviewed Highlight Rangeを隠して個別に答え合わせ
 - Hide A / Hide B：選んだ側の英語を隠して発話練習
 - 日本語訳ON：隠した側の日本語訳をヒントとして表示
 - 日本語訳OFF：日本語訳なしで完全暗唱
 - Tap to reveal：隠した英文を表示して答え合わせ
 - 🔊：各セリフを個別に音声読み上げ
 - Play Dialogue：Dialogue全体を順番に音声再生
-- 左右スワイプによるPrevious / Next移動
+- Play Dialogue再生中も、日本語訳の表示 / 非表示を切り替えて再生を継続
+- 会話本文と「このダイアログの学習フレーズ」からの左右スワイプによるPrevious / Next移動
+- 学習PhraseからPhrase Detailへ移動
 
 Dialogue内のlinked Phraseは、共通matcherとexplicit match hintsで本文位置を特定してハイライトします。分離した表現などでは複数range・部分ハイライトを利用し、右側の学習Phraseも同じmatch結果による本文登場順で表示します。
 
@@ -56,24 +61,35 @@ Stop、モード変更、Previous / Next / Back、個別音声の開始時には
 
 ## Quiz
 
-学習対象をSeason、重要、苦手、習得済み、Bookmarkなどで絞り込み、1回最大10問のQuizに挑戦できます。
+Test（本番）とPractice（練習）を利用できます。Practiceでは4択・入力・正誤、5・10・15問、Seasonや学習状態などを選択できます。
 
+- HomeのQuick Challengeから、本番10問Mixへ設定画面を経由せず挑戦
 - 途中状態を保存してResume
-- Resultから間違えたPhrase Detailへ直接移動
+- PracticeのReview mistakesでは選択したquestion typeを維持
+- コンパクトな出題画面と、score / status / actionを整理したResult
+- Result上部にReview mistakes / Next Round / Doneを3カラム表示
+- Perfect時はscoreに👑を表示
+- Resultから各Phrase Detailへ直接移動
 - 間違えたPhraseを自動で「苦手」に分類
-- Resultから苦手な表現をまとめて復習
+- Weak / Graduated / MistakesをResultへ反映
 
 ## Progress / Home
 
 ProgressではFriends全体とSeason別のLearned進捗を、読み込み済みPhrase dataとLearned stateから毎回集計します。Season内の全PhraseをLearnedにすると、そのSeasonカードに`🏆 COMPLETE`バッジが表示されます。
 
-HomeにはStreak、Daily Target、Friends全体のLearned進捗、Continue Learningを表示します。
+HomeにはQuick Challenge、Continue Learning、Today / Daily Target、Streak、Friends全体のLearned進捗を表示します。SeriesページはDialogues・Quiz・Phrasesの学習モード入口を中心に構成しています。
+
+Streakモーダルでは今日を右端とした直近7日間を表示し、学習日は🔥、Todayは紫枠と拡大表示で強調します。Reduced Motionが無効でTodayが学習済みの場合のみ、Todayの🔥が軽くアニメーションします。
 
 ## Search / Bookmarks
 
 Phrase検索はPhrase名だけを対象に、スペース区切りの複数キーワードをAND条件で検索します。キーワードの語順は問わず、単語境界を考慮するため、`all`から`call`・`hardball`・`technically`のような別語は拾いません。`go`から`going`・`goes`などの基本的な動詞活用を検索できますが、`got`・`wagon`は対象外です。`got`から`gotta`を検索でき、apostrophe・半角 / 全角括弧・空白・hyphen等の表記差も正規化します。Dialogue検索は従来どおり利用できます。
 
 Bookmarksでは、あとで見返したいPhraseとDialogueをそれぞれ保存・確認できます。Learnedとは独立した機能です。
+
+## Backup / Restore
+
+学習データと設定をBackupファイルとして書き出し、別のブラウザや端末でRestoreできます。Restoreではvalidation、Safety Backup、保存失敗時のrollbackを行い、不完全な復元を成功扱いにしません。
 
 ## Sound / Help
 
@@ -110,4 +126,4 @@ Sidebar / MobileメニューのHelpでは、Dialogues・Quiz・Phrasesからの�
 - `sitcomEnglish_soundEnabled`
 - `sitcomEnglish_lastJingleDate`
 
-Phrase / Dialogue JSON、ID、保存キーの形式はv4.6でも変更していません。
+Phrase / Dialogue JSON、ID、既存localStorage keyとの互換性はv5.3でも維持しています。
