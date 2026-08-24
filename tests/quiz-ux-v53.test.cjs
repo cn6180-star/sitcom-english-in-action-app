@@ -40,7 +40,13 @@ assert.doesNotMatch(result,/pageHeader\(/);
 assert.doesNotMatch(result,/今回の問題/);
 assert.match(result,/<section class="card quiz-result-card"><div class="result-score">/);
 assert.match(result,/mistake-list quiz-result-list/);
+assert.ok(result.indexOf("quiz-result-actions section")<result.indexOf("mistake-list quiz-result-list"));
+assert.equal((result.match(/class="secondary-button"/g)||[]).length,3);
+assert.match(result,/Review mistakes<\/button><button class="secondary-button"/);
+assert.match(result,/mistakes\.length\?'onclick="reviewMistakes\(\)"':'disabled'/);
 assert.match(styles,/\.quiz-result-card \.result-score\{[^}]*font-size:44px/);
+assert.match(styles,/\.quiz-result-actions\{[^}]*grid-template-columns:repeat\(3,minmax\(0,1fr\)\)/);
+assert.match(styles,/\.quiz-result-actions \.secondary-button:disabled\{[^}]*pointer-events:none/);
 
 const review=source.slice(source.indexOf("function reviewMistakes"),source.indexOf("function normalizePhraseSearch"));
 assert.match(review,/r\.quizMode==="practice"\?\(r\.nextRound\?\.questionType\|\|"mixed"\):"mixed"/);
