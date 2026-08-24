@@ -48,7 +48,12 @@ assert.match(source,/--confetti-delay:/);
 assert.match(source,/--confetti-drift:/);
 assert.match(styles,/\.perfect-confetti\{[^}]*pointer-events:none/);
 assert.match(styles,/perfect-confetti-fall 1\.65s/);
+assert.match(styles,/\.perfect-confetti\.is-active i/);
+assert.match(styles,/\.perfect-confetti\{[^}]*z-index:90/);
 assert.doesNotMatch(styles,/var\(--piece\).*\*/);
 assert.match(styles,/@media \(prefers-reduced-motion:reduce\)\{\.perfect-confetti\{display:none\}\}/);
+assert.match(source,/body>\.perfect-confetti/);
+assert.match(source,/requestAnimationFrame\(\(\)=>requestAnimationFrame/);
+assert.match(source,/overlay\.classList\.add\("is-active"\)/);
 
 console.log("v5.3 UI tests passed");

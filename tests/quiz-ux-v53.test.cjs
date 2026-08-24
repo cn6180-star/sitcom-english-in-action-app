@@ -37,7 +37,9 @@ assert.match(source,/Today<\/span><strong>\$\{today\} Qs<\/strong>/);
 
 const result=source.slice(source.indexOf("function renderQuizResult"),source.indexOf("function nextQuizRound"));
 assert.doesNotMatch(result,/pageHeader\(/);
+assert.doesNotMatch(result,/今回の問題/);
 assert.match(result,/<section class="card quiz-result-card"><div class="result-score">/);
+assert.match(result,/mistake-list quiz-result-list/);
 assert.match(styles,/\.quiz-result-card \.result-score\{[^}]*font-size:44px/);
 
 const review=source.slice(source.indexOf("function reviewMistakes"),source.indexOf("function normalizePhraseSearch"));
