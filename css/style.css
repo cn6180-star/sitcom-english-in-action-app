@@ -165,7 +165,7 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 @media (min-width:760px){.help-paths{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media (min-width:760px){.sidebar{overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#4b4168 transparent}.sidebar-brand,.sidebar-primary,.sidebar-secondary{flex-shrink:0}.sidebar::-webkit-scrollbar{width:6px}.sidebar::-webkit-scrollbar-track{background:transparent}.sidebar::-webkit-scrollbar-thumb{background:#4b4168;border-radius:999px}}
 @media (max-width:759px){.help-backdrop,.about-backdrop{padding:calc(12px + env(safe-area-inset-top)) 10px calc(12px + env(safe-area-inset-bottom))}.help-modal,.about-modal{width:100%;max-height:calc(100dvh - 24px - env(safe-area-inset-top) - env(safe-area-inset-bottom));padding:16px}.help-intro h3{font-size:20px}}
-@media (max-width:759px){.home-view .dashboard>.brand-visual{display:block;width:100%;max-width:100%;margin:0 auto 2px;border-radius:14px}.home-view .brand-visual>picture{display:block;width:100%;max-width:100%}.home-view .brand-visual>picture>img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1600/640;object-fit:cover}.home-view .home-quiz-card{display:none}.series-overlay{padding:9px}}
+@media (max-width:759px){.home-view .dashboard>.brand-visual{display:block;width:100%;max-width:100%;margin:0 auto 2px;border-radius:14px}.home-view .brand-visual>picture{display:block;width:100%;max-width:100%}.home-view .brand-visual>picture>img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:1600/640;object-fit:cover}.home-view .home-quiz-card{min-height:0;padding:14px}.series-overlay{padding:9px}}
 @media (min-width:760px){.home-menu-button{opacity:0;pointer-events:none}.brand-visual{border-radius:20px}.series-overlay{padding:13px}.series-state{font-size:11px}}
 
 /* v2.0.7: restored detail navigation and interactive progress. */
@@ -259,6 +259,16 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 .dialogue-line{min-height:42px}
 .dialogue-side{touch-action:pan-y}
 @media (max-width:759px){.bookmarks-filter-layout>.filter-panel{min-height:296px}}
+
+/* v5.3: compact Quiz play screen and readable primary prompt. */
+.quiz-play-header{margin:2px 0 7px}
+.quiz-question-count{margin:0;color:var(--muted);font-size:13px;font-weight:650;line-height:1.3;letter-spacing:.01em}
+.quiz-play-card{margin:10px 0;padding:14px}
+.quiz-play-card .quiz-question{margin:0 0 12px;color:#eef2ff;font-size:19px;font-weight:700;line-height:1.45}
+.quiz-prompt,.quiz-statement{display:block;color:#eef2ff}
+.quiz-statement{margin-top:6px}
+.quiz-play-card .answer-list{gap:7px}
+.quiz-play-card .feedback{margin:11px 0;padding:12px}
 
 /* v5.3: lightweight Perfect result celebration. */
 .perfect-crown{display:inline-block;margin-left:.12em;font-size:.58em;vertical-align:.14em;letter-spacing:0}

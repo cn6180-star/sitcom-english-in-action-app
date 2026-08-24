@@ -16,7 +16,7 @@ assert.match(source,/class="filter-label">エピソード</);
 
 assert.match(source,/compact-card home-quiz-card/);
 assert.match(styles,/@media \(max-width:759px\)/);
-assert.match(styles,/\.home-view \.home-quiz-card\{display:none\}/);
+assert.match(styles,/\.home-view \.home-quiz-card\{min-height:0;padding:14px\}/);
 
 for(const asset of["series-friends-v53.webp","series-tbbt-v53.png"]){
   const file=path.join(root,"assets",asset);
