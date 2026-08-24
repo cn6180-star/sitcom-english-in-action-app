@@ -199,8 +199,8 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 .streak-week-day{min-width:0;padding:7px 2px;border:1px solid transparent;border-radius:10px;background:#0c1020}
 .streak-week-day span{display:block;color:var(--muted);font-size:10px;font-weight:800;line-height:1.2}
 .streak-week-day strong{display:grid;place-items:center;min-height:25px;margin-top:3px;color:#3d4254;font-size:18px;line-height:1}
-.streak-week-day.today{border-color:#7053b5;background:#17142a}.streak-week-day.today span{color:#ddd6fe}
-.streak-fire-today{font-size:23px}.streak-week-day strong i{display:inline-block;font:inherit;font-style:normal;line-height:inherit}.streak-fire-flicker{animation:streak-fire-flicker 1.1s ease-in-out infinite;transform-origin:bottom center}
+.streak-week-day.today{position:relative;z-index:1;border-color:#7053b5;background:#17142a;transform:scale(1.08);transform-origin:center center}.streak-week-day.today span{color:#ddd6fe}
+.streak-week-day strong i{display:inline-block;font:inherit;font-style:normal;line-height:inherit}.streak-fire-flicker{animation:streak-fire-flicker 1.1s ease-in-out infinite;transform-origin:bottom center}
 @keyframes streak-fire-flicker{0%,100%{transform:rotate(0deg) scale(1)}20%{transform:rotate(-5deg) scale(1.1)}45%{transform:rotate(5deg) scale(1)}68%{transform:rotate(-4deg) scale(1.11)}86%{transform:rotate(4deg) scale(1.03)}}
 @media (prefers-reduced-motion:reduce){.streak-fire-flicker{animation:none}}
 @media (max-width:1000px){.examples-section-head{align-items:stretch;flex-direction:column}.examples-section-head .translation-toggle{width:100%}}
