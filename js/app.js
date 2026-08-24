@@ -4,7 +4,10 @@ const isIPadOS=/\biPad\b/i.test(navigator.userAgent)||(navigator.maxTouchPoints>
 document.documentElement.classList.toggle("ipad-window-ui",isIPadOS);
 
 const DATA_FILES = Array.from({length:9},(_,i)=>`data/season${i+1}.json`);
-const SERIES = [{id:"friends",name:"Friends",available:true},{id:"tbbt",name:"The Big Bang Theory",available:false}];
+const SERIES = [
+  {id:"friends",name:"Friends",role:"For Everyday English",description:"自然な日常会話やリアクション、句動詞、そのまま使える会話表現を学ぶシリーズです。",available:true},
+  {id:"tbbt",name:"The Big Bang Theory",role:"For Advanced English",description:"高度な語彙や知的な表現、専門的・学術的な表現を通して、日常英語より一段上の英語を学ぶシリーズです。",available:false}
+];
 const LEGACY = {phraseBookmarks:"friendsBookmarks_phrase",dialogueBookmarks:"friendsBookmarks_dialogue",weak:"friendsWeakStats"};
 const STORE = {state:"sitcomEnglish_v2_state",continue:"sitcomEnglish_v2_continue",activity:"sitcomEnglish_v2_activity",quiz:"sitcomEnglish_v2_quizInProgress",history:"sitcomEnglish_v2_quizHistory",dailyTarget:"sitcomEnglish_v2_dailyTarget",learned:"sitcomEnglish_learnedPhrases",sound:"sitcomEnglish_soundEnabled",achievementSound:"sitcomEnglish_v2_achievementSoundState"};
 const APP_VERSION="5.3",BACKUP_SCHEMA_VERSION=1,BACKUP_APP="Sitcom English in Action";
@@ -281,22 +284,18 @@ function renderHome(){
     <section class="brand-visual"><h1 class="sr-only">Sitcom English in Action</h1><picture><source media="(max-width: 759.98px)" srcset="assets/app-brand-mobile.jpg"><img src="assets/app-brand.webp" alt="Sitcom English in Action — 海外ドラマで楽しく英語を学ぼう" width="1600" height="640"></picture></section>
     <section class="card"><div class="section-head"><h2 class="section-title">Today</h2></div><div class="today-grid"><button class="today-stat streak-stat ${studiedToday?'studied-today':'not-studied-today'}" type="button" onclick="openStreak()" aria-label="Streak: ${streakDaysLabel}. ${streakStatus}"><span class="today-icon streak-fire" aria-hidden="true">🔥</span><span class="today-label">Streak</span><strong class="today-value">${streakDaysLabel}</strong><span class="today-status">${streakStatus}</span></button><button class="today-stat" type="button" onclick="openTarget()"><span class="today-icon">🎯</span><span class="today-label">Target</span><strong class="today-value">${a.today} / ${a.target}</strong><span class="today-status">So far</span></button><button class="today-stat" type="button" onclick="navigate('progress')"><span class="today-icon">📈</span><span class="today-label">Progress</span><strong class="today-value">${overall.learned} / ${overall.total}</strong><span class="today-status">Overall</span></button></div></section>
     <section class="card continue-card"><div><div class="continue-kicker">Continue Learning</div><h2 class="continue-title">${esc(continueTitle)}</h2><div class="continue-meta">${esc(continueMeta)}${cont?`<br>Last studied: ${localDate(new Date(cont.timestamp))===localDate()?'Today':localDate(new Date(cont.timestamp))}`:""}</div></div><button class="primary-button" onclick="continueLearning()">Continue →</button></section>
-    <section class="card series-section"><div class="section-head"><h2 class="section-title">Series</h2></div><div class="series-grid">${SERIES.map(s=>`<button class="series-card series-${s.id} ${s.available?'':'disabled'}" ${s.available?'onclick="navigate(\'series\')"':'disabled'}><span class="series-overlay"><span class="series-name">${esc(s.name)}</span><span class="series-state">${s.available?'S1–S9 available':'Coming Soon'}</span></span></button>`).join("")}</div></section>
+    <section class="card series-section"><div class="section-head"><h2 class="section-title">Series</h2></div><div class="series-grid">${SERIES.map(s=>`<button class="series-card series-${s.id} ${s.available?'':'disabled'}" ${s.available?'onclick="navigate(\'series\')"':'disabled'}><span class="series-overlay"><span class="series-name">${esc(s.name)}</span><span class="series-role">${esc(s.role)}</span><span class="series-state">${s.available?'S1–S9 available':'Coming Soon'}</span></span></button>`).join("")}</div></section>
     <section class="card compact-card home-quiz-card"><div><h2 class="section-title">Daily Quiz</h2><p class="page-subtitle">10 questions. See what sticks.</p><div class="desktop-only section">${quizStatsMarkup()}</div></div><button class="primary-button" onclick="navigate('quiz')">Start →</button></section>
   </div>`;
   queueHomeAchievementSound();
 }
 
-function renderSeriesHome(){
-  const bCount=bookmarks("phrase").length+bookmarks("dialogue").length,overall=progressFor();
-  app.innerHTML=`${pageHeader("Series","Friends",`${overall.learned} / ${overall.total} learned · ${DIALOGUES.length} dialogues`)}<section class="section"><div class="section-head"><h2 class="section-title">Study by Mode</h2></div><div class="list-rows">
-    <button class="list-row" onclick="navigate('dialogues')"><strong>Dialogues</strong><span class="row-end"><span class="row-meta">${DIALOGUES.length} dialogues</span>›</span></button>
-    <button class="list-row" onclick="navigate('quiz')"><strong>Quiz</strong><span class="row-end"><span class="row-meta">Daily Quiz</span>›</span></button>
-    <button class="list-row" onclick="navigate('phrases')"><strong>Phrases</strong><span class="row-end"><span class="row-meta">${overall.learned} / ${overall.total} learned</span>›</span></button>
-    <button class="list-row" onclick="navigate('bookmarks')"><strong>Bookmarks</strong><span class="row-end"><span class="row-meta">${bCount} items</span>›</span></button>
-    <button class="list-row progress-mode-row" onclick="navigate('progress')"><strong>Progress</strong><span class="row-end"><span class="row-meta">${overall.percent}% complete</span>›</span></button></div></section>
-    <section class="section"><div class="section-head"><h2 class="section-title">Browse by Season</h2></div>${chips(["ALL",...SEASONS],"ALL","browseSeason",'S')}</section>
-    <section class="card section"><div class="section-head"><h2 class="section-title">How to use</h2></div><div class="how-list"><div class="how-item"><span class="how-icon">⌕</span><div><strong>Find what you need</strong><span>Filter by Phrases or choose a Season.</span></div></div><div class="how-item"><span class="how-icon">→</span><div><strong>Study by Episode</strong><span>Pick an episode and start learning.</span></div></div></div></section>`;
+function renderSeriesHome(seriesId="friends"){
+  const series=SERIES.find(item=>item.id===seriesId)||SERIES[0];
+  app.innerHTML=`${pageHeader("Series",series.name,series.role)}<p class="series-description">${esc(series.description)}</p><section class="section series-modes"><div class="section-head"><h2 class="section-title">Choose a Mode</h2></div><div class="list-rows">
+    <button class="list-row" onclick="navigate('dialogues')"><span><strong>Dialogues</strong><small>Learn expressions in context.</small></span><span class="row-end">›</span></button>
+    <button class="list-row" onclick="navigate('quiz')"><span><strong>Quiz</strong><small>Test what you remember.</small></span><span class="row-end">›</span></button>
+    <button class="list-row" onclick="navigate('phrases')"><span><strong>Phrases</strong><small>Browse and study useful expressions.</small></span><span class="row-end">›</span></button></div></section>`;
 }
 function progressBarMarkup(progress,label){return `<div class="progress-track" role="progressbar" aria-label="${esc(label)}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${progress.percent}"><span style="width:${progress.percent}%"></span></div>`}
 function renderProgress(){
