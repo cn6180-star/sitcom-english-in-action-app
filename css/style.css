@@ -261,6 +261,7 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 @media (max-width:759px){.bookmarks-filter-layout>.filter-panel{min-height:296px}}
 
 /* v5.3: compact Quiz play screen and readable primary prompt. */
+.quiz-start-area{min-height:52px;margin:0 0 12px;display:flex;align-items:center;justify-content:space-between;gap:10px}.quiz-start-area>.quiz-start-button{width:min(360px,100%)}.quiz-start-area>.button-row{margin:0}.quiz-settings-panel{margin-bottom:12px}.quiz-stats-card{margin-bottom:12px}.quiz-mode-note{margin-top:0;margin-bottom:16px}.quiz-result-card{margin-top:0}.quiz-result-card .result-score{font-size:44px;line-height:1.05;margin-top:0}
 .quiz-play-header{margin:2px 0 7px}
 .quiz-question-count{margin:0;color:var(--muted);font-size:13px;font-weight:650;line-height:1.3;letter-spacing:.01em}
 .quiz-play-card{margin:10px 0;padding:14px}
@@ -269,6 +270,7 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 .quiz-statement{margin-top:6px}
 .quiz-play-card .answer-list{gap:7px}
 .quiz-play-card .feedback{margin:11px 0;padding:12px}
+@media (max-width:759px){.quiz-start-area{min-height:48px}.quiz-start-area>.quiz-start-button{width:100%}.quiz-result-card .result-score{font-size:40px}}
 
 /* v5.3: lightweight Perfect result celebration. */
 .perfect-crown{display:inline-block;margin-left:.12em;font-size:.58em;vertical-align:.14em;letter-spacing:0}

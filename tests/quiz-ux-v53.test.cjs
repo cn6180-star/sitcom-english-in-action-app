@@ -27,6 +27,19 @@ assert.match(source,/10 mixed questions\. Ready when you are\./);
 assert.match(source,/onclick="startQuickChallenge\(\)"/);
 assert.doesNotMatch(styles,/\.home-view \.home-quiz-card\{display:none\}/);
 
+const quizHome=source.slice(source.indexOf("function renderQuizHome"),source.indexOf("function shuffle"));
+assert.match(quizHome,/const settings=practice\?`\$\{typeGroup\}\$\{countGroup\}\$\{scopeGroup\}\$\{seasonGroup\}`:seasonGroup/);
+assert.match(quizHome,/\$\{startArea\}<section class="card filter-panel quiz-settings-panel">\$\{settings\}/);
+assert.match(quizHome,/\$\{practice\?'':`<section class="card quiz-stats-card">/);
+assert.match(quizHome,/practice\?'Start Practice':'Start Quiz'/);
+assert.doesNotMatch(quizHome,/Start Daily Quiz/);
+assert.match(source,/Today<\/span><strong>\$\{today\} Qs<\/strong>/);
+
+const result=source.slice(source.indexOf("function renderQuizResult"),source.indexOf("function nextQuizRound"));
+assert.doesNotMatch(result,/pageHeader\(/);
+assert.match(result,/<section class="card quiz-result-card"><div class="result-score">/);
+assert.match(styles,/\.quiz-result-card \.result-score\{[^}]*font-size:44px/);
+
 const review=source.slice(source.indexOf("function reviewMistakes"),source.indexOf("function normalizePhraseSearch"));
 assert.match(review,/r\.quizMode==="practice"\?\(r\.nextRound\?\.questionType\|\|"mixed"\):"mixed"/);
 assert.match(review,/createQuestions\(pool,questionCount,questionType\)/);

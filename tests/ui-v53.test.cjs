@@ -8,7 +8,7 @@ const root=path.join(__dirname,"..");
 const source=fs.readFileSync(path.join(root,"js","app.js"),"utf8");
 const styles=fs.readFileSync(path.join(root,"css","style.css"),"utf8");
 
-assert.match(source,/function renderQuizHome\(\).*listPageHeader\("Quiz"\)/);
+assert.match(source,/function renderQuizHome\(\)[\s\S]*?listPageHeader\("Quiz"\)/);
 assert.doesNotMatch(source,/pageHeader\("Friends · Quiz","Daily Quiz"\)/);
 assert.match(source,/class="filter-label">シーズン</);
 assert.match(source,/class="filter-label" for="categoryFilter">カテゴリー</);
