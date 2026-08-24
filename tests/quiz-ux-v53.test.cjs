@@ -9,9 +9,9 @@ const root=path.join(__dirname,"..");
 const source=fs.readFileSync(path.join(root,"js","app.js"),"utf8");
 const styles=fs.readFileSync(path.join(root,"css","style.css"),"utf8");
 
-assert.match(source,/>4択<\/button>/);
-assert.doesNotMatch(source,/>3択<\/button>/);
-assert.match(source,/sampleValues\(PHRASES,3,[^)]+\)/);
+assert.match(source,/>日→英<\/button>.*>英→日<\/button>.*>入力<\/button>/);
+assert.doesNotMatch(source,/>4択<\/button>|>正誤<\/button>/);
+assert.match(source,/pattern=\["mc","enmc","fill"\]/);
 
 const play=source.slice(source.indexOf("function renderQuizPlay"),source.indexOf("function answerQuiz"));
 assert.doesNotMatch(play,/Friends · Daily Quiz/);
@@ -52,7 +52,7 @@ const review=source.slice(source.indexOf("function reviewMistakes"),source.index
 assert.match(review,/r\.quizMode==="practice"\?\(r\.nextRound\?\.questionType\|\|"mixed"\):"mixed"/);
 assert.match(review,/createQuestions\(pool,questionCount,questionType\)/);
 
-for(const [quizMode,selectedType,expectedType] of [["practice","mc","mc"],["practice","fill","fill"],["practice","tf","tf"],["test","fill","mixed"]]){
+for(const [quizMode,selectedType,expectedType] of [["practice","mc","mc"],["practice","enmc","enmc"],["practice","fill","fill"],["test","fill","mixed"]]){
   let started=null;
   const context={route:{params:{result:{quizMode,mistakes:["p1"],nextRound:{questionType:selectedType}}}},PHRASES:[{id:"p1"}],createQuestions:(_pool,_count,type)=>[{id:"p1",type}],beginQuizSession:session=>{started=session},Date};
   vm.runInNewContext(`${review};reviewMistakes()`,context);

@@ -11,7 +11,7 @@ const quizStart=source.indexOf("const QUIZ_SESSION_VERSIONS=");
 const quizEnd=source.indexOf("function returnToQuizHome");
 const filterStart=source.indexOf("function sanitizeSavedQuizFilters");
 const filterEnd=source.indexOf("async function loadData");
-const selectionStart=source.indexOf("function shuffle");
+const selectionStart=source.indexOf("function quizChoiceIds");
 const selectionEnd=source.indexOf("function beginQuizSession");
 assert.ok(storageStart>=0&&storageEnd>storageStart&&quizStart>=0&&quizEnd>quizStart&&filterStart>=0&&filterEnd>filterStart&&selectionStart>=0&&selectionEnd>selectionStart);
 
@@ -34,17 +34,27 @@ const phraseIds=["p1","p2","p3","p4"];
 const quizContext={
   Set,
   Map,
+  Array,
+  Math,
   Number,
   JSON,
-  PHRASES:phraseIds.map(id=>({id})),
+  normalize:value=>String(value||"").toLowerCase(),
+  sampleValues:(values,count)=>values.slice(0,count),
+  shuffle:values=>[...values],
+  PHRASES:phraseIds.map((id,index)=>({id,phrase:`Phrase ${index+1}`,meaning:`Meaning ${index+1}`})),
   SEASONS:[1,2,3,4,5,6,7,8,9],
   STORE:{quiz:"quiz"},
   safeGetItem:()=>null,
   safeRemoveItem:()=>true
 };
 vm.runInNewContext(`${source.slice(quizStart,quizEnd)};globalThis.api={validateQuizSession,validateQuizQuestion,getQuizSession}`,quizContext);
-const validSession={version:3,series:"friends",quizMode:"test",season:"ALL",scope:"random",questionType:"mixed",questionCount:3,questions:[{id:"p1",type:"mc",choices:["p1","p2"]},{id:"p2",type:"fill"},{id:"p3",type:"tf",presentedMeaning:"Meaning",trueAnswer:true}],index:0,responses:[],score:0,added:0,graduated:0,mistakes:[]};
+const validSession={version:3,series:"friends",quizMode:"test",season:"ALL",scope:"random",questionType:"mixed",questionCount:3,questions:[{id:"p1",type:"mc",choices:["p1","p2","p3","p4"]},{id:"p2",type:"fill"},{id:"p3",type:"enmc",choices:["p1","p2","p3","p4"]}],index:0,responses:[],score:0,added:0,graduated:0,mistakes:[]};
 assert.ok(quizContext.api.validateQuizSession(validSession));
+const legacyTrueFalse={...validSession,questionType:"tf",questions:[{id:"p1",type:"tf",presentedMeaning:"Meaning 1",trueAnswer:true}],questionCount:1};
+const normalizedTrueFalse=quizContext.api.validateQuizSession(legacyTrueFalse);
+assert.equal(normalizedTrueFalse.questionType,"enmc");
+assert.equal(normalizedTrueFalse.questions[0].type,"enmc");
+assert.equal(normalizedTrueFalse.questions[0].choices.length,4);
 const legacy={...validSession,version:2};delete legacy.quizMode;delete legacy.questionType;delete legacy.questionCount;
 const normalizedLegacy=quizContext.api.validateQuizSession(legacy);
 assert.equal(normalizedLegacy.quizMode,"test");
@@ -62,7 +72,7 @@ const invalidCases=[
   {...validSession,index:3},
   {...validSession,questionType:"unknown"},
   {...validSession,questions:[{id:"missing",type:"fill"}]},
-  {...validSession,questions:[{id:"p1",type:"mc",choices:["p2","missing"]}]},
+  {...validSession,questions:[{id:"p1",type:"mc",choices:["p1","p2","p3","missing"]}]},
   {...validSession,quizMode:"unknown"},
   {...validSession,scope:"unknown"}
 ];
@@ -81,9 +91,10 @@ vm.runInNewContext(`${source.slice(filterStart,filterEnd)};globalThis.sanitize=s
 const plain=value=>JSON.parse(JSON.stringify(value));
 assert.deepEqual(plain(filterContext.sanitize({quizMode:"broken",quizSeason:"99",quizScope:"mistakes",quizQuestionType:"mixed",quizQuestionCount:1063})),{quizMode:"test",quizSeason:"ALL",quizScope:"random",quizQuestionType:"mc",quizQuestionCount:10});
 assert.deepEqual(plain(filterContext.sanitize({quizMode:"practice",quizSeason:"8",quizScope:"weak",quizQuestionType:"fill",quizQuestionCount:15})),{quizMode:"practice",quizSeason:"8",quizScope:"weak",quizQuestionType:"fill",quizQuestionCount:15});
+assert.equal(filterContext.sanitize({quizQuestionType:"tf"}).quizQuestionType,"enmc");
 
-const selectionPhrases=Array.from({length:30},(_,index)=>({id:`p${index+1}`,meaning:`Meaning ${index+1}`}));
-const selectionContext={Set,Map,Array,Math,Number,PHRASES:selectionPhrases};
+const selectionPhrases=Array.from({length:30},(_,index)=>({id:`p${index+1}`,phrase:`Phrase ${index+1}`,meaning:`Meaning ${index+1}`}));
+const selectionContext={Set,Map,Array,Math,Number,PHRASES:selectionPhrases,normalize:value=>String(value||"").toLowerCase(),normalizeQuizQuestionType:type=>type==="tf"?"enmc":type};
 vm.runInNewContext(`${source.slice(selectionStart,selectionEnd)};globalThis.api={selectQuizPhrases,createQuestions}`,selectionContext);
 let previousIds=[];
 for(let round=0;round<100;round++){

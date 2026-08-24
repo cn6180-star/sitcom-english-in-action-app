@@ -61,7 +61,7 @@ Stop、モード変更、Previous / Next / Back、個別音声の開始時には
 
 ## Quiz
 
-Test（本番）とPractice（練習）を利用できます。Practiceでは4択・入力・正誤、5・10・15問、Seasonや学習状態などを選択できます。
+Test（本番）とPractice（練習）を利用できます。Practiceでは日→英・英→日・入力、5・10・15問、Seasonや学習状態などを選択できます。
 
 - HomeのQuick Challengeから、本番10問Mixへ設定画面を経由せず挑戦
 - 途中状態を保存してResume
@@ -93,7 +93,7 @@ Bookmarksでは、あとで見返したいPhraseとDialogueをそれぞれ保存
 
 ## Sound / Help
 
-Web Audio APIによるQuiz正誤、「覚えた」、Season達成、当日初回起動の効果音があります。Sound設定はSidebar（Desktop / Tablet）またはMobileメニューからON / OFFを切り替えられ、再読み込み後も維持されます。英文の音声読み上げとは別機能です。
+Web Audio APIによるQuiz回答、「覚えた」、Season達成、当日初回起動の効果音があります。Sound設定はSidebar（Desktop / Tablet）またはMobileメニューからON / OFFを切り替えられ、再読み込み後も維持されます。英文の音声読み上げとは別機能です。
 
 Sidebar / MobileメニューのHelpでは、Dialogues・Quiz・Phrasesからのおすすめの始め方、Detail画面の左右スワイプ操作、学習機能のFAQを確認できます。
 
