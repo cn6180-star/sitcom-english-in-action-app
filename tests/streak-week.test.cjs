@@ -25,9 +25,10 @@ assert.match(styles,/\.streak-week-day\.today/);
 assert.doesNotMatch(styles,/streak-week[^}]*animation/);
 assert.doesNotMatch(source,/streakStampPending/);
 assert.match(source,/animateToday=Boolean\(recent\.at\(-1\)\?\.studied\)/);
-assert.match(source,/day\.today&&animateToday\?'streak-fire-stamp':''/);
-assert.match(styles,/\.streak-fire-stamp\{animation:streak-fire-stamp \.38s/);
-assert.match(styles,/@keyframes streak-fire-stamp\{0%\{transform:scale\(\.65\)\}65%\{transform:scale\(1\.15\)\}100%\{transform:scale\(1\)\}\}/);
-assert.match(styles,/@media \(prefers-reduced-motion:reduce\)\{\.streak-fire-stamp\{animation:none\}\}/);
+assert.match(source,/day\.today&&animateToday\?'streak-fire-flicker':''/);
+assert.match(styles,/\.streak-fire-flicker\{animation:streak-fire-flicker 1\.4s ease-in-out infinite;transform-origin:bottom center\}/);
+assert.match(styles,/@keyframes streak-fire-flicker\{[^}]*transform:rotate\(0deg\) scale\(1\)/);
+assert.match(styles,/@media \(prefers-reduced-motion:reduce\)\{\.streak-fire-flicker\{animation:none\}\}/);
+assert.doesNotMatch(styles,/streak-fire-stamp/);
 
 console.log("streak week tests passed");
