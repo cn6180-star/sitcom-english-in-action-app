@@ -22,11 +22,11 @@ assert.match(source,/\["all","全て"\],\["unlearned","未習得"\],\["learned",
 assert.match(source,/scope!=="unlearned"\|\|!isDialogueLearned\(d\.id\)/);
 assert.match(source,/scope!=="learned"\|\|isDialogueLearned\(d\.id\)/);
 assert.match(source,/scope==="saved"\)\|\|bookmarked\("dialogue",d\.id\)/);
-assert.match(source,/dialogueLearnedButton\(route\.params\.id\)/);
+assert.match(source,/dialogueLearnedButton\(dialogue\.id\)/);
 assert.match(source,/listPageHeader\("Progress"/);
 assert.match(source,/>フレーズ<\/button>.*>ダイアログ<\/button>/);
 assert.match(styles,/\.progress-mode-tabs/);
-assert.match(styles,/\.dialogue-detail-page \.detail-page-header\{padding-right:190px\}/);
+assert.match(styles,/\.dialogue-main-card \.detail-page-header\{padding-right:0/);
 
 const learnedStart=source.indexOf("function dialogueLearnedState");
 const learnedEnd=source.indexOf("function getWeakStats");

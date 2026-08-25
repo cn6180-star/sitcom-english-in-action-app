@@ -30,6 +30,11 @@ assert.match(source,/speaker\.classList\.remove\("hidden-speaker-control"\)/);
 assert.doesNotMatch(source,/target\.outerHTML=dialogueLineMarkup/);
 assert.match(source,/hint\.textContent="Tap to reveal"/);
 assert.match(source,/hint\.classList\.toggle\("reveal-hint-concealed",!showRevealHint\)/);
+assert.match(source,/eyebrow\.textContent=seasonCode\(seasonNum\(dialogue\.season\)\)/);
+assert.match(source,/mainCard\.classList\.add\("card","dialogue-main-card"\)/);
+assert.match(source,/mainCard\.prepend\(header\)/);
+assert.match(source,/header\.insertAdjacentHTML\("afterbegin",`<div class="detail-actions dialogue-detail-actions">/);
+assert.match(source,/header\.querySelector\("\.dialogue-detail-actions"\)\?\.append\(bookmark\)/);
 
 assert.match(styles,/\.dialogue-blank\{[^}]*color:transparent/);
 assert.match(styles,/box-decoration-break:clone/);
@@ -43,5 +48,8 @@ assert.match(styles,/\.hidden-dialogue-text\{[^}]*box-decoration-break:clone/);
 assert.match(styles,/\.hidden-dialogue-text \.highlight-phrase\{color:transparent\}/);
 assert.match(styles,/\.hidden-speaker-control\{visibility:hidden;pointer-events:none/);
 assert.match(styles,/\.reveal-hint-concealed\{visibility:hidden;pointer-events:none;user-select:none/);
+assert.match(styles,/\.dialogue-layout>\.dialogue-main-card\{min-width:0\}/);
+assert.match(styles,/\.dialogue-main-card \.conversation\{margin-bottom:0\}/);
+assert.match(styles,/@media \(min-width:760px\) and \(max-width:1000px\)\{\.dialogue-layout\{grid-template-columns:minmax\(0,1fr\)\}/);
 
 console.log("dialogue layout stability tests passed");
