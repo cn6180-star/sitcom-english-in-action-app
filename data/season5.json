@@ -2241,7 +2241,8 @@
     {
       "id": "d64",
       "season": "Season 5",
-      "title": "仕事①（プロジェクトの締め）",
+      "title": "プロジェクトの締め",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2307,7 +2308,8 @@
     {
       "id": "d65",
       "season": "Season 5",
-      "title": "日常①（急な引っ越し手伝い）",
+      "title": "急な引っ越し手伝い",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2368,7 +2370,8 @@
     {
       "id": "d66",
       "season": "Season 5",
-      "title": "仕事②（細かすぎる上司）",
+      "title": "細かすぎる上司",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2429,7 +2432,8 @@
     {
       "id": "d67",
       "season": "Season 5",
-      "title": "日常②（新しい友達ができる）",
+      "title": "新しい友達ができる",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2494,7 +2498,8 @@
     {
       "id": "d68",
       "season": "Season 5",
-      "title": "相談①（ストレスが限界）",
+      "title": "ストレスが限界",
+      "category": "相談",
       "lines": [
         [
           "A",
@@ -2559,7 +2564,8 @@
     {
       "id": "d69",
       "season": "Season 5",
-      "title": "仕事③（プレゼンを磨く）",
+      "title": "プレゼンを磨く",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2620,7 +2626,8 @@
     {
       "id": "d70",
       "season": "Season 5",
-      "title": "相談②（大きな買い物を決める）",
+      "title": "大きな買い物を決める",
+      "category": "相談",
       "lines": [
         [
           "A",
@@ -2685,7 +2692,8 @@
     {
       "id": "d71",
       "season": "Season 5",
-      "title": "人間関係①（友達とのケンカ）",
+      "title": "友達とのケンカ",
+      "category": "人間関係",
       "lines": [
         [
           "A",
@@ -2746,7 +2754,8 @@
     {
       "id": "d72",
       "season": "Season 5",
-      "title": "日常③（トラブルから復旧）",
+      "title": "トラブルから復旧",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2812,7 +2821,8 @@
     {
       "id": "d73",
       "season": "Season 5",
-      "title": "仕事④（社内政治に巻き込まれる）",
+      "title": "社内政治に巻き込まれる",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2878,7 +2888,8 @@
     {
       "id": "d74",
       "season": "Season 5",
-      "title": "仕事⑤（締切が重なる日）",
+      "title": "締切が重なる日",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2943,7 +2954,8 @@
     {
       "id": "d75",
       "season": "Season 5",
-      "title": "日常④（DIYを始める）",
+      "title": "DIYを始める",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -3004,7 +3016,8 @@
     {
       "id": "d76",
       "season": "Season 5",
-      "title": "仕事⑥（提案を急ぎすぎるチーム）",
+      "title": "提案を急ぎすぎるチーム",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -3074,7 +3087,8 @@
     {
       "id": "d77",
       "season": "Season 5",
-      "title": "日常⑤（うますぎる話を疑う）",
+      "title": "うますぎる話を疑う",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -3140,7 +3154,8 @@
     {
       "id": "d78",
       "season": "Season 5",
-      "title": "日常⑥（家の修理費）",
+      "title": "家の修理費",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -3199,7 +3214,8 @@
     {
       "id": "d79",
       "season": "Season 5",
-      "title": "恋愛①（付き合い始めの境界線）",
+      "title": "付き合い始めの境界線",
+      "category": "恋愛",
       "lines": [
         [
           "A",
@@ -3264,7 +3280,8 @@
     {
       "id": "d80",
       "season": "Season 5",
-      "title": "仕事⑦（評価面談）",
+      "title": "評価面談",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -3329,7 +3346,8 @@
     {
       "id": "d81",
       "season": "Season 5",
-      "title": "日常⑦（イベントの企画）",
+      "title": "イベントの企画",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -3388,7 +3406,8 @@
     {
       "id": "d82",
       "season": "Season 5",
-      "title": "人間関係②（心配しすぎる家族）",
+      "title": "心配しすぎる家族",
+      "category": "人間関係",
       "lines": [
         [
           "A",
@@ -3454,7 +3473,8 @@
     {
       "id": "d83",
       "season": "Season 5",
-      "title": "仕事⑧（大胆な企画を検討する）",
+      "title": "大胆な企画を検討する",
+      "category": "仕事",
       "lines": [
         [
           "A",

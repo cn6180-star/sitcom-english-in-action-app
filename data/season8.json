@@ -1791,7 +1791,8 @@
     {
       "id": "d128",
       "season": "Season 8",
-      "title": "仕事①（締切が重なる日）",
+      "title": "締切が重なる日",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -1842,7 +1843,8 @@
     {
       "id": "d129",
       "season": "Season 8",
-      "title": "相談①（気まずい話を切り出す）",
+      "title": "気まずい話を切り出す",
+      "category": "相談",
       "lines": [
         [
           "A",
@@ -1891,7 +1893,8 @@
     {
       "id": "d130",
       "season": "Season 8",
-      "title": "日常①（急な予定変更）",
+      "title": "急な予定変更",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -1941,7 +1944,8 @@
     {
       "id": "d131",
       "season": "Season 8",
-      "title": "仕事②（細かすぎるマネージャー）",
+      "title": "細かすぎるマネージャー",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -1995,7 +1999,8 @@
     {
       "id": "d132",
       "season": "Season 8",
-      "title": "日常②（人の秘密を探らない）",
+      "title": "人の秘密を探らない",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2049,7 +2054,8 @@
     {
       "id": "d133",
       "season": "Season 8",
-      "title": "仕事③（面接の準備）",
+      "title": "面接の準備",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2098,7 +2104,8 @@
     {
       "id": "d134",
       "season": "Season 8",
-      "title": "人間関係①（苦情を言われる）",
+      "title": "苦情を言われる",
+      "category": "人間関係",
       "lines": [
         [
           "A",
@@ -2152,7 +2159,8 @@
     {
       "id": "d135",
       "season": "Season 8",
-      "title": "恋愛①（相性が合わない）",
+      "title": "相性が合わない",
+      "category": "恋愛",
       "lines": [
         [
           "A",
@@ -2211,7 +2219,8 @@
     {
       "id": "d136",
       "season": "Season 8",
-      "title": "日常③（妊娠の知らせ）",
+      "title": "妊娠の知らせ",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2265,7 +2274,8 @@
     {
       "id": "d137",
       "season": "Season 8",
-      "title": "日常④（壊れた棚を直す）",
+      "title": "壊れた棚を直す",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2319,7 +2329,8 @@
     {
       "id": "d138",
       "season": "Season 8",
-      "title": "人間関係②（家族の口論）",
+      "title": "家族の口論",
+      "category": "人間関係",
       "lines": [
         [
           "A",
@@ -2368,7 +2379,8 @@
     {
       "id": "d139",
       "season": "Season 8",
-      "title": "相談②（健康習慣を立て直す）",
+      "title": "健康習慣を立て直す",
+      "category": "相談",
       "lines": [
         [
           "A",
@@ -2417,7 +2429,8 @@
     {
       "id": "d140",
       "season": "Season 8",
-      "title": "仕事④（エンタメ企画の会議）",
+      "title": "エンタメ企画の会議",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2471,7 +2484,8 @@
     {
       "id": "d141",
       "season": "Season 8",
-      "title": "日常⑤（送別のちょっとした贈り物）",
+      "title": "送別のちょっとした贈り物",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2525,7 +2539,8 @@
     {
       "id": "d142",
       "season": "Season 8",
-      "title": "仕事⑤（上司へのゴマすり）",
+      "title": "上司へのゴマすり",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2579,7 +2594,8 @@
     {
       "id": "d143",
       "season": "Season 8",
-      "title": "人間関係③（言い合いのあと）",
+      "title": "言い合いのあと",
+      "category": "人間関係",
       "lines": [
         [
           "A",
@@ -2628,7 +2644,8 @@
     {
       "id": "d144",
       "season": "Season 8",
-      "title": "日常⑥（怪しいセールス）",
+      "title": "怪しいセールス",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2682,7 +2699,8 @@
     {
       "id": "d145",
       "season": "Season 8",
-      "title": "日常⑦（ホテルでのんびりする）",
+      "title": "ホテルでのんびりする",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2731,7 +2749,8 @@
     {
       "id": "d146",
       "season": "Season 8",
-      "title": "日常⑧（知らない人を思い出す）",
+      "title": "知らない人を思い出す",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2784,7 +2803,8 @@
     {
       "id": "d147",
       "season": "Season 8",
-      "title": "仕事⑥（データの解釈）",
+      "title": "データの解釈",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2828,7 +2848,8 @@
     {
       "id": "d148",
       "season": "Season 8",
-      "title": "相談③（失敗を引きずらない）",
+      "title": "失敗を引きずらない",
+      "category": "相談",
       "lines": [
         [
           "A",
@@ -2880,7 +2901,8 @@
     {
       "id": "d149",
       "season": "Season 8",
-      "title": "仕事⑦（評価を受け止める）",
+      "title": "評価を受け止める",
+      "category": "仕事",
       "lines": [
         [
           "A",

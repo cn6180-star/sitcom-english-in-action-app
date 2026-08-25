@@ -1551,7 +1551,8 @@
     {
       "id": "d106",
       "season": "Season 7",
-      "title": "仕事①（会議前の最終調整）",
+      "title": "会議前の最終調整",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -1601,7 +1602,8 @@
     {
       "id": "d107",
       "season": "Season 7",
-      "title": "日常①（しつこい誘いを断る）",
+      "title": "しつこい誘いを断る",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -1655,7 +1657,8 @@
     {
       "id": "d108",
       "season": "Season 7",
-      "title": "仕事②（細かく指図する上司）",
+      "title": "細かく指図する上司",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -1705,7 +1708,8 @@
     {
       "id": "d109",
       "season": "Season 7",
-      "title": "日常②（旅行の予定変更）",
+      "title": "旅行の予定変更",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -1754,7 +1758,8 @@
     {
       "id": "d110",
       "season": "Season 7",
-      "title": "相談①（転職を迷う）",
+      "title": "転職を迷う",
+      "category": "相談",
       "lines": [
         [
           "A",
@@ -1812,7 +1817,8 @@
     {
       "id": "d111",
       "season": "Season 7",
-      "title": "仕事③（社内の噂を扱う）",
+      "title": "社内の噂を扱う",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -1866,7 +1872,8 @@
     {
       "id": "d112",
       "season": "Season 7",
-      "title": "日常③（ダイエットの話）",
+      "title": "ダイエットの話",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -1915,7 +1922,8 @@
     {
       "id": "d113",
       "season": "Season 7",
-      "title": "人間関係①（友達への不満）",
+      "title": "友達への不満",
+      "category": "人間関係",
       "lines": [
         [
           "A",
@@ -1969,7 +1977,8 @@
     {
       "id": "d114",
       "season": "Season 7",
-      "title": "仕事④（後任者を探す）",
+      "title": "後任者を探す",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2016,7 +2025,8 @@
     {
       "id": "d115",
       "season": "Season 7",
-      "title": "日常④（いたずらがバレる）",
+      "title": "いたずらがバレる",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2074,7 +2084,8 @@
     {
       "id": "d116",
       "season": "Season 7",
-      "title": "仕事⑤（現場が混乱する）",
+      "title": "現場が混乱する",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2122,7 +2133,8 @@
     {
       "id": "d117",
       "season": "Season 7",
-      "title": "相談②（友達と疎遠になる）",
+      "title": "友達と疎遠になる",
+      "category": "相談",
       "lines": [
         [
           "A",
@@ -2174,7 +2186,8 @@
     {
       "id": "d118",
       "season": "Season 7",
-      "title": "日常⑤（友人のピンチを助ける）",
+      "title": "友人のピンチを助ける",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2226,7 +2239,8 @@
     {
       "id": "d119",
       "season": "Season 7",
-      "title": "仕事⑥（プレゼンのつなぎ）",
+      "title": "プレゼンのつなぎ",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2278,7 +2292,8 @@
     {
       "id": "d120",
       "season": "Season 7",
-      "title": "日常⑥（昔の友達の結婚式）",
+      "title": "昔の友達の結婚式",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2330,7 +2345,8 @@
     {
       "id": "d121",
       "season": "Season 7",
-      "title": "人間関係②（秘密を守る）",
+      "title": "秘密を守る",
+      "category": "人間関係",
       "lines": [
         [
           "A",
@@ -2382,7 +2398,8 @@
     {
       "id": "d122",
       "season": "Season 7",
-      "title": "恋愛①（相性を見極める）",
+      "title": "相性を見極める",
+      "category": "恋愛",
       "lines": [
         [
           "A",
@@ -2433,7 +2450,8 @@
     {
       "id": "d123",
       "season": "Season 7",
-      "title": "日常⑦（騒がしい集まり）",
+      "title": "騒がしい集まり",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2486,7 +2504,8 @@
     {
       "id": "d124",
       "season": "Season 7",
-      "title": "仕事⑦（リスクのある提案）",
+      "title": "リスクのある提案",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2539,7 +2558,8 @@
     {
       "id": "d125",
       "season": "Season 7",
-      "title": "日常⑧（思い切って予定を変える）",
+      "title": "思い切って予定を変える",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2587,7 +2607,8 @@
     {
       "id": "d126",
       "season": "Season 7",
-      "title": "仕事⑧（強引な取引先）",
+      "title": "強引な取引先",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2635,7 +2656,8 @@
     {
       "id": "d127",
       "season": "Season 7",
-      "title": "日常⑨（副業を始める）",
+      "title": "副業を始める",
+      "category": "日常",
       "lines": [
         [
           "A",

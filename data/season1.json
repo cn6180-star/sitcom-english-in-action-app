@@ -1761,7 +1761,8 @@
     {
       "id": "d1",
       "season": "Season 1",
-      "title": "日常①（予定変更・立て直し）",
+      "title": "予定変更・立て直し",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -1832,7 +1833,8 @@
     {
       "id": "d2",
       "season": "Season 1",
-      "title": "仕事①（提案・意思決定）",
+      "title": "提案・意思決定",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -1904,7 +1906,8 @@
     {
       "id": "d3",
       "season": "Season 1",
-      "title": "日常②（体調・近況）",
+      "title": "体調・近況",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -1976,7 +1979,8 @@
     {
       "id": "d4",
       "season": "Season 1",
-      "title": "仕事②（ミスの報告）",
+      "title": "ミスの報告",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2045,7 +2049,8 @@
     {
       "id": "d5",
       "season": "Season 1",
-      "title": "メンタル①（落ち込みから立て直す）",
+      "title": "落ち込みから立て直す",
+      "category": "メンタル",
       "lines": [
         [
           "A",
@@ -2117,7 +2122,8 @@
     {
       "id": "d6",
       "season": "Season 1",
-      "title": "日常③（頼み事・貸し借り）",
+      "title": "頼み事・貸し借り",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2187,7 +2193,7 @@
     {
       "id": "d7",
       "season": "Season 1",
-      "title": "ケンカ①（感情的になったとき）",
+      "title": "感情的になったとき",
       "category": "人間関係",
       "lines": [
         [
@@ -2260,7 +2266,8 @@
     {
       "id": "d8",
       "season": "Season 1",
-      "title": "仕事③（意見の食い違い）",
+      "title": "意見の食い違い",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2332,7 +2339,8 @@
     {
       "id": "d9",
       "season": "Season 1",
-      "title": "日常④（店選び・外出）",
+      "title": "店選び・外出",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2403,7 +2411,8 @@
     {
       "id": "d10",
       "season": "Season 1",
-      "title": "仕事④（スキル・仕事ぶり）",
+      "title": "スキル・仕事ぶり",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2474,7 +2483,8 @@
     {
       "id": "d53",
       "season": "Season 1",
-      "title": "日常⑤（引っ越し・家具の配置）",
+      "title": "引っ越し・家具の配置",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2546,7 +2556,8 @@
     {
       "id": "d54",
       "season": "Season 1",
-      "title": "メンタル②（新しい環境に慣れる）",
+      "title": "新しい環境に慣れる",
+      "category": "メンタル",
       "lines": [
         [
           "A",
@@ -2617,7 +2628,8 @@
     {
       "id": "d55",
       "season": "Season 1",
-      "title": "恋愛①（友達との境界線）",
+      "title": "友達との境界線",
+      "category": "恋愛",
       "lines": [
         [
           "A",
@@ -2687,7 +2699,8 @@
     {
       "id": "d56",
       "season": "Season 1",
-      "title": "仕事⑤（噂・責任の押し付け）",
+      "title": "噂・責任の押し付け",
+      "category": "仕事",
       "lines": [
         [
           "A",

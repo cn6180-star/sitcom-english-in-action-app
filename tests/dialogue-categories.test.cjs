@@ -15,9 +15,13 @@ const dialogueEpisodes=dialogue=>[...new Set((dialogue.phraseLinks||[]).map(id=>
 
 assert.equal(dialogues.length,167);
 assert.equal(new Set(dialogues.map(dialogue=>dialogue.id)).size,167);
+assert.equal(dialogues.filter(dialogue=>!Object.prototype.hasOwnProperty.call(dialogue,"category")).length,0);
+assert.equal(dialogues.filter(dialogue=>typeof dialogue.category!=="string"||!dialogue.category.trim()).length,0);
 assert.equal(dialogues.filter(dialogue=>!category(dialogue)).length,0);
 assert.deepEqual([...new Set(dialogues.map(category))].sort((a,b)=>a.localeCompare(b,"ja")),[...allowed].sort((a,b)=>a.localeCompare(b,"ja")));
 assert.equal(dialogues.filter(dialogue=>category(dialogue)==="ケンカ").length,0);
+assert.equal(dialogues.filter(dialogue=>!dialogue.title.trim()).length,0);
+assert.equal(dialogues.filter(dialogue=>/^(日常|仕事|相談|人間関係|恋愛|トラブル|メンタル|雑談|ケンカ)[①②③④⑤⑥⑦⑧⑨⑩]（.+）$/.test(dialogue.title)).length,0);
 
 const counts=new Map(allowed.map(name=>[name,dialogues.filter(dialogue=>category(dialogue)===name).length]));
 assert.deepEqual(Object.fromEntries(counts),{"日常":63,"仕事":56,"相談":15,"人間関係":18,"恋愛":8,"トラブル":3,"メンタル":2,"雑談":2});
@@ -31,7 +35,11 @@ const expectedS9={
   "面接前":"仕事","雑音の多い職場":"仕事"
 };
 for(const [title,expected] of Object.entries(expectedS9))assert.equal(category(dialogues.find(dialogue=>dialogue.title===title)),expected,title);
-assert.equal(category(dialogues.find(dialogue=>dialogue.title==="ケンカ①（感情的になったとき）")),"人間関係");
+assert.equal(category(dialogues.find(dialogue=>dialogue.id==="d7")),"人間関係");
+assert.equal(dialogues.find(dialogue=>dialogue.id==="d7").title,"感情的になったとき");
+
+const duplicateTitles=[...new Set(dialogues.map(dialogue=>dialogue.title))].filter(title=>dialogues.filter(dialogue=>dialogue.title===title).length>1).sort((a,b)=>a.localeCompare(b,"ja"));
+assert.deepEqual(duplicateTitles,["締切が重なる日","転職を迷う","評価面談","副業を始める"].sort((a,b)=>a.localeCompare(b,"ja")));
 
 const season9Work=dialogues.filter(dialogue=>seasonNumber(dialogue.season)===9&&category(dialogue)==="仕事");
 assert.equal(season9Work.length,5);

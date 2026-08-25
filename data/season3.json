@@ -1311,7 +1311,8 @@
     {
       "id": "d25",
       "season": "Season 3",
-      "title": "仕事①（新しい担当を引き継ぐ）",
+      "title": "新しい担当を引き継ぐ",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -1381,7 +1382,8 @@
     {
       "id": "d26",
       "season": "Season 3",
-      "title": "日常①（スマホをやめたい）",
+      "title": "スマホをやめたい",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -1451,7 +1453,8 @@
     {
       "id": "d27",
       "season": "Season 3",
-      "title": "仕事②（ミスとリカバリー）",
+      "title": "ミスとリカバリー",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -1521,7 +1524,8 @@
     {
       "id": "d28",
       "season": "Season 3",
-      "title": "日常②（料理をちょっと変える）",
+      "title": "料理をちょっと変える",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -1591,7 +1595,8 @@
     {
       "id": "d29",
       "season": "Season 3",
-      "title": "仕事③（同僚への不満を伝える）",
+      "title": "同僚への不満を伝える",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -1660,7 +1665,8 @@
     {
       "id": "d30",
       "season": "Season 3",
-      "title": "トラブル①（秘密をばらされた）",
+      "title": "秘密をばらされた",
+      "category": "トラブル",
       "lines": [
         [
           "A",
@@ -1729,7 +1735,8 @@
     {
       "id": "d31",
       "season": "Season 3",
-      "title": "日常③（予定を断る）",
+      "title": "予定を断る",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -1797,7 +1804,8 @@
     {
       "id": "d32",
       "season": "Season 3",
-      "title": "相談①（転職を迷う）",
+      "title": "転職を迷う",
+      "category": "相談",
       "lines": [
         [
           "A",
@@ -1867,7 +1875,8 @@
     {
       "id": "d33",
       "season": "Season 3",
-      "title": "人間関係①（言い方を謝る）",
+      "title": "言い方を謝る",
+      "category": "人間関係",
       "lines": [
         [
           "A",
@@ -1938,7 +1947,8 @@
     {
       "id": "d34",
       "season": "Season 3",
-      "title": "仕事④（アイデアを提案する）",
+      "title": "アイデアを提案する",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2008,7 +2018,8 @@
     {
       "id": "d35",
       "season": "Season 3",
-      "title": "日常④（初対面の人と打ち解ける）",
+      "title": "初対面の人と打ち解ける",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2076,7 +2087,8 @@
     {
       "id": "d36",
       "season": "Season 3",
-      "title": "トラブル②（ルール違反）",
+      "title": "ルール違反",
+      "category": "トラブル",
       "lines": [
         [
           "A",
@@ -2144,7 +2156,8 @@
     {
       "id": "d37",
       "season": "Season 3",
-      "title": "恋愛①（誘う前に様子を見る）",
+      "title": "誘う前に様子を見る",
+      "category": "恋愛",
       "lines": [
         [
           "A",
@@ -2213,7 +2226,8 @@
     {
       "id": "d38",
       "season": "Season 3",
-      "title": "日常⑤（道具の名前が出てこない）",
+      "title": "道具の名前が出てこない",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2282,7 +2296,8 @@
     {
       "id": "d59",
       "season": "Season 3",
-      "title": "相談②（人前で挑戦する）",
+      "title": "人前で挑戦する",
+      "category": "相談",
       "lines": [
         [
           "A",

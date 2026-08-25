@@ -1791,7 +1791,8 @@
     {
       "id": "d11",
       "season": "Season 2",
-      "title": "仕事①（プロジェクトの立て直し）",
+      "title": "プロジェクトの立て直し",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -1862,7 +1863,8 @@
     {
       "id": "d12",
       "season": "Season 2",
-      "title": "日常①（疲労・体調）",
+      "title": "疲労・体調",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -1934,7 +1936,8 @@
     {
       "id": "d13",
       "season": "Season 2",
-      "title": "仕事②（噂と事実確認）",
+      "title": "噂と事実確認",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2005,7 +2008,8 @@
     {
       "id": "d14",
       "season": "Season 2",
-      "title": "日常②（休日の小旅行）",
+      "title": "休日の小旅行",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2076,7 +2080,8 @@
     {
       "id": "d15",
       "season": "Season 2",
-      "title": "仕事③（責任とプレッシャー）",
+      "title": "責任とプレッシャー",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2146,7 +2151,8 @@
     {
       "id": "d16",
       "season": "Season 2",
-      "title": "相談①（失敗を引きずっている友人）",
+      "title": "失敗を引きずっている友人",
+      "category": "相談",
       "lines": [
         [
           "A",
@@ -2216,7 +2222,8 @@
     {
       "id": "d17",
       "season": "Season 2",
-      "title": "人間関係①（新しいグループに入る）",
+      "title": "新しいグループに入る",
+      "category": "人間関係",
       "lines": [
         [
           "A",
@@ -2286,7 +2293,8 @@
     {
       "id": "d18",
       "season": "Season 2",
-      "title": "日常③（買い物の失敗）",
+      "title": "買い物の失敗",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2357,7 +2365,8 @@
     {
       "id": "d19",
       "season": "Season 2",
-      "title": "仕事④（同僚への不満）",
+      "title": "同僚への不満",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2428,7 +2437,8 @@
     {
       "id": "d20",
       "season": "Season 2",
-      "title": "日常④（予定変更と代案）",
+      "title": "予定変更と代案",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2497,7 +2507,8 @@
     {
       "id": "d21",
       "season": "Season 2",
-      "title": "日常⑤（習慣を立て直す）",
+      "title": "習慣を立て直す",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2565,7 +2576,8 @@
     {
       "id": "d22",
       "season": "Season 2",
-      "title": "雑談①（話を聞く・本音を言う）",
+      "title": "話を聞く・本音を言う",
+      "category": "雑談",
       "lines": [
         [
           "A",
@@ -2636,7 +2648,8 @@
     {
       "id": "d23",
       "season": "Season 2",
-      "title": "恋愛①（好意と距離感）",
+      "title": "好意と距離感",
+      "category": "恋愛",
       "lines": [
         [
           "A",
@@ -2706,7 +2719,8 @@
     {
       "id": "d24",
       "season": "Season 2",
-      "title": "日常⑥（イベントの片付け）",
+      "title": "イベントの片付け",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2775,7 +2789,8 @@
     {
       "id": "d57",
       "season": "Season 2",
-      "title": "仕事⑤（プレッシャーに負けそうなとき）",
+      "title": "プレッシャーに負けそうなとき",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2844,7 +2859,8 @@
     {
       "id": "d58",
       "season": "Season 2",
-      "title": "日常⑦（突然の頼み事）",
+      "title": "突然の頼み事",
+      "category": "日常",
       "lines": [
         [
           "A",

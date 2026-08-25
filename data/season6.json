@@ -2001,7 +2001,8 @@
     {
       "id": "d84",
       "season": "Season 6",
-      "title": "仕事①（忙しい日の立て直し）",
+      "title": "忙しい日の立て直し",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2061,7 +2062,8 @@
     {
       "id": "d85",
       "season": "Season 6",
-      "title": "日常①（気まずさを解消する）",
+      "title": "気まずさを解消する",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2116,7 +2118,8 @@
     {
       "id": "d86",
       "season": "Season 6",
-      "title": "仕事②（評価面談）",
+      "title": "評価面談",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2179,7 +2182,8 @@
     {
       "id": "d87",
       "season": "Season 6",
-      "title": "相談①（失敗を引きずる友人）",
+      "title": "失敗を引きずる友人",
+      "category": "相談",
       "lines": [
         [
           "A",
@@ -2234,7 +2238,8 @@
     {
       "id": "d88",
       "season": "Season 6",
-      "title": "日常②（子どもの世話を頼まれる）",
+      "title": "子どもの世話を頼まれる",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2290,7 +2295,8 @@
     {
       "id": "d89",
       "season": "Season 6",
-      "title": "仕事③（噂に振り回されない）",
+      "title": "噂に振り回されない",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2345,7 +2351,8 @@
     {
       "id": "d90",
       "season": "Season 6",
-      "title": "日常③（食事会の予定を決める）",
+      "title": "食事会の予定を決める",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2399,7 +2406,8 @@
     {
       "id": "d91",
       "season": "Season 6",
-      "title": "人間関係①（干渉しすぎる友人）",
+      "title": "干渉しすぎる友人",
+      "category": "人間関係",
       "lines": [
         [
           "A",
@@ -2456,7 +2464,8 @@
     {
       "id": "d92",
       "season": "Season 6",
-      "title": "仕事④（新しい案を売り込む）",
+      "title": "新しい案を売り込む",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2515,7 +2524,8 @@
     {
       "id": "d93",
       "season": "Season 6",
-      "title": "日常④（妙な勧誘を疑う）",
+      "title": "妙な勧誘を疑う",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2570,7 +2580,8 @@
     {
       "id": "d94",
       "season": "Season 6",
-      "title": "相談②（別れを引きずる友人）",
+      "title": "別れを引きずる友人",
+      "category": "相談",
       "lines": [
         [
           "A",
@@ -2628,7 +2639,8 @@
     {
       "id": "d95",
       "season": "Season 6",
-      "title": "仕事⑤（責任の押し付け合いを止める）",
+      "title": "責任の押し付け合いを止める",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2683,7 +2695,8 @@
     {
       "id": "d96",
       "season": "Season 6",
-      "title": "日常⑤（図々しい知人に線を引く）",
+      "title": "図々しい知人に線を引く",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2738,7 +2751,8 @@
     {
       "id": "d97",
       "season": "Season 6",
-      "title": "仕事⑥（難題への対応）",
+      "title": "難題への対応",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2801,7 +2815,8 @@
     {
       "id": "d98",
       "season": "Season 6",
-      "title": "日常⑥（ホームパーティー）",
+      "title": "ホームパーティー",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2860,7 +2875,8 @@
     {
       "id": "d99",
       "season": "Season 6",
-      "title": "人間関係②（仲直りを決める）",
+      "title": "仲直りを決める",
+      "category": "人間関係",
       "lines": [
         [
           "A",
@@ -2920,7 +2936,8 @@
     {
       "id": "d100",
       "season": "Season 6",
-      "title": "日常⑦（新しい趣味を始める）",
+      "title": "新しい趣味を始める",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2974,7 +2991,8 @@
     {
       "id": "d101",
       "season": "Season 6",
-      "title": "恋愛①（相手に本音を伝える）",
+      "title": "相手に本音を伝える",
+      "category": "恋愛",
       "lines": [
         [
           "A",
@@ -3032,7 +3050,8 @@
     {
       "id": "d102",
       "season": "Season 6",
-      "title": "日常⑧（古い車がまた故障）",
+      "title": "古い車がまた故障",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -3092,7 +3111,8 @@
     {
       "id": "d103",
       "season": "Season 6",
-      "title": "人間関係③（約束を守らない友人）",
+      "title": "約束を守らない友人",
+      "category": "人間関係",
       "lines": [
         [
           "A",
@@ -3148,7 +3168,8 @@
     {
       "id": "d104",
       "season": "Season 6",
-      "title": "日常⑨（気楽な集まりのはずが）",
+      "title": "気楽な集まりのはずが",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -3202,7 +3223,8 @@
     {
       "id": "d105",
       "season": "Season 6",
-      "title": "仕事⑦（突然の方針変更）",
+      "title": "突然の方針変更",
+      "category": "仕事",
       "lines": [
         [
           "A",

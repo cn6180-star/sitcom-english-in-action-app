@@ -1807,7 +1807,8 @@
     {
       "id": "d39",
       "season": "Season 4",
-      "title": "仕事①（プレゼン前の緊張）",
+      "title": "プレゼン前の緊張",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -1878,7 +1879,8 @@
     {
       "id": "d40",
       "season": "Season 4",
-      "title": "日常①（話が長すぎる友人）",
+      "title": "話が長すぎる友人",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -1943,7 +1945,8 @@
     {
       "id": "d41",
       "season": "Season 4",
-      "title": "仕事②（同僚のミスを指摘する）",
+      "title": "同僚のミスを指摘する",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2013,7 +2016,8 @@
     {
       "id": "d42",
       "season": "Season 4",
-      "title": "相談①（新しい環境になじめない）",
+      "title": "新しい環境になじめない",
+      "category": "相談",
       "lines": [
         [
           "A",
@@ -2083,7 +2087,8 @@
     {
       "id": "d43",
       "season": "Season 4",
-      "title": "仕事③（交渉と妥協）",
+      "title": "交渉と妥協",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2149,7 +2154,8 @@
     {
       "id": "d44",
       "season": "Season 4",
-      "title": "日常②（旅行の段取り）",
+      "title": "旅行の段取り",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2219,7 +2225,8 @@
     {
       "id": "d45",
       "season": "Season 4",
-      "title": "トラブル①（誰が悪いかでもめる）",
+      "title": "誰が悪いかでもめる",
+      "category": "トラブル",
       "lines": [
         [
           "A",
@@ -2289,7 +2296,8 @@
     {
       "id": "d46",
       "season": "Season 4",
-      "title": "仕事④（提案が通るか探る）",
+      "title": "提案が通るか探る",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2354,7 +2362,8 @@
     {
       "id": "d47",
       "season": "Season 4",
-      "title": "日常③（風邪をひいた友人）",
+      "title": "風邪をひいた友人",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2418,7 +2427,8 @@
     {
       "id": "d48",
       "season": "Season 4",
-      "title": "仕事⑤（苦手な上司への対応）",
+      "title": "苦手な上司への対応",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2488,7 +2498,8 @@
     {
       "id": "d49",
       "season": "Season 4",
-      "title": "日常④（怖い映画を見る）",
+      "title": "怖い映画を見る",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2553,7 +2564,8 @@
     {
       "id": "d50",
       "season": "Season 4",
-      "title": "人間関係①（友達をかばう）",
+      "title": "友達をかばう",
+      "category": "人間関係",
       "lines": [
         [
           "A",
@@ -2618,7 +2630,8 @@
     {
       "id": "d51",
       "season": "Season 4",
-      "title": "仕事⑥（情報を言えない立場）",
+      "title": "情報を言えない立場",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2681,7 +2694,8 @@
     {
       "id": "d52",
       "season": "Season 4",
-      "title": "日常⑤（口論がヒートアップする）",
+      "title": "口論がヒートアップする",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2745,7 +2759,8 @@
     {
       "id": "d60",
       "season": "Season 4",
-      "title": "仕事⑦（難しい課題に取り組む）",
+      "title": "難しい課題に取り組む",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2810,7 +2825,8 @@
     {
       "id": "d61",
       "season": "Season 4",
-      "title": "恋愛①（関係を進めるか迷う）",
+      "title": "関係を進めるか迷う",
+      "category": "恋愛",
       "lines": [
         [
           "A",
@@ -2874,7 +2890,8 @@
     {
       "id": "d62",
       "season": "Season 4",
-      "title": "日常⑥（賭けと罰ゲーム）",
+      "title": "賭けと罰ゲーム",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2943,7 +2960,8 @@
     {
       "id": "d63",
       "season": "Season 4",
-      "title": "雑談①（苦手な人の話）",
+      "title": "苦手な人の話",
+      "category": "雑談",
       "lines": [
         [
           "A",
