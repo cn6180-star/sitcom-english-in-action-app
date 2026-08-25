@@ -265,7 +265,7 @@ function openAbout(){
 function helpFaq(question,answer){return `<details class="help-faq"><summary>${question}</summary><div>${answer}</div></details>`}
 function openHelp(){
   const faqs=[
-    ["Progressの数字は何？",`<p><strong>253 / 1063 learned</strong>なら、253は「覚えた」にしたPhrase数、1063は収録Phrase総数です。Season別も、そのSeasonで「覚えた」にしたPhrase数 / そのSeasonの総Phrase数を表します。</p>`],
+    ["Progressの数字は何？",`<p>Phrases / Dialoguesそれぞれで、「覚えた」にした数 / 収録総数を表示します。Season別も、そのSeasonで「覚えた」にした数 / 収録総数を表示します。</p>`],
     ["Soundって何の音？",`<p>Quizの正解 / 不正解、「覚えた」を押した時、起動時などの効果音です。英文の音声読み上げとは別の機能です。</p>`],
     ["「覚えた」とBookmarkは何が違う？",`<p>「覚えた」は学習進捗を記録する機能です。Bookmarkは、あとで見返したいPhrase / Dialogueを保存する機能です。両者は独立しています。</p>`],
     ["「習得済み」って何？",`<p>「覚えた」を押したPhraseのことです。PhrasesやQuizで、習得済みPhraseを対象に含めたり絞り込んだりできます。</p>`],
