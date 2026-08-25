@@ -1748,6 +1748,7 @@
       "series": "Friends",
       "season": "Season 9",
       "title": "予約の取れないレストラン",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -1819,6 +1820,7 @@
       "series": "Friends",
       "season": "Season 9",
       "title": "転職するか迷う",
+      "category": "相談",
       "lines": [
         [
           "A",
@@ -1890,6 +1892,7 @@
       "series": "Friends",
       "season": "Season 9",
       "title": "友達の恋愛相談",
+      "category": "相談",
       "lines": [
         [
           "A",
@@ -1961,6 +1964,7 @@
       "series": "Friends",
       "season": "Season 9",
       "title": "引っ越し先探し",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2032,6 +2036,7 @@
       "series": "Friends",
       "season": "Season 9",
       "title": "仕事を抱えすぎ",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2102,6 +2107,7 @@
       "series": "Friends",
       "season": "Season 9",
       "title": "新しいプロジェクト",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2173,6 +2179,7 @@
       "series": "Friends",
       "season": "Season 9",
       "title": "パーティーの翌朝",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2243,6 +2250,7 @@
       "series": "Friends",
       "season": "Season 9",
       "title": "旅行の準備",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2312,6 +2320,7 @@
       "series": "Friends",
       "season": "Season 9",
       "title": "同僚との境界線",
+      "category": "人間関係",
       "lines": [
         [
           "A",
@@ -2380,6 +2389,7 @@
       "series": "Friends",
       "season": "Season 9",
       "title": "会社の建前",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2449,6 +2459,7 @@
       "series": "Friends",
       "season": "Season 9",
       "title": "友達に言いすぎた",
+      "category": "人間関係",
       "lines": [
         [
           "A",
@@ -2519,6 +2530,7 @@
       "series": "Friends",
       "season": "Season 9",
       "title": "チームの空気が悪い",
+      "category": "人間関係",
       "lines": [
         [
           "A",
@@ -2590,6 +2602,7 @@
       "series": "Friends",
       "season": "Season 9",
       "title": "久しぶりに遊びに行く",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2660,6 +2673,7 @@
       "series": "Friends",
       "season": "Season 9",
       "title": "副業を始める",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2730,6 +2744,7 @@
       "series": "Friends",
       "season": "Season 9",
       "title": "みんなでプレゼント",
+      "category": "日常",
       "lines": [
         [
           "A",
@@ -2800,6 +2815,7 @@
       "series": "Friends",
       "season": "Season 9",
       "title": "詮索しすぎ",
+      "category": "人間関係",
       "lines": [
         [
           "A",
@@ -2870,6 +2886,7 @@
       "series": "Friends",
       "season": "Season 9",
       "title": "面接前",
+      "category": "仕事",
       "lines": [
         [
           "A",
@@ -2939,6 +2956,7 @@
       "series": "Friends",
       "season": "Season 9",
       "title": "雑音の多い職場",
+      "category": "仕事",
       "lines": [
         [
           "A",
