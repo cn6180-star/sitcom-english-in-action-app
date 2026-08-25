@@ -24,7 +24,8 @@ assert.match(source,/scope!=="learned"\|\|isDialogueLearned\(d\.id\)/);
 assert.match(source,/scope==="saved"\)\|\|bookmarked\("dialogue",d\.id\)/);
 assert.match(source,/dialogueLearnedButton\(dialogue\.id\)/);
 assert.match(source,/listPageHeader\("Progress"/);
-assert.match(source,/>フレーズ<\/button>.*>ダイアログ<\/button>/);
+assert.match(source,/>Phrases<\/button>.*>Dialogues<\/button>/);
+assert.match(source,/<div class="eyebrow">Overall Progress<\/div><h2>Friends<\/h2>/);
 assert.match(styles,/\.progress-mode-tabs/);
 assert.match(styles,/\.dialogue-main-card \.detail-page-header\{padding-right:0/);
 
