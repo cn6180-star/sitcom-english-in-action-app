@@ -26,6 +26,10 @@ assert.match(source,/dialogueLearnedButton\(dialogue\.id\)/);
 assert.match(source,/listPageHeader\("Progress"/);
 assert.match(source,/>Phrases<\/button>.*>Dialogues<\/button>/);
 assert.match(source,/<div class="eyebrow">Overall Progress<\/div><h2>Friends<\/h2>/);
+assert.match(source,/<\/section><section class="progress-reset-section"><button class="progress-reset-button" type="button" onclick="confirmResetLearned\(\)">学習進捗をリセット<\/button><\/section>/);
+assert.match(source,/label=dialogueMode\?"ダイアログ":"フレーズ"/);
+assert.match(source,/\$\{label\}の進捗状況をリセットしますか？/);
+assert.match(source,/if\(scope==="dialogue"\)\{const state=dialogueLearnedState\(\);state\.friends=\[\];writeJSON\(STORE\.dialogueLearned,state\)\}else\{const state=learnedState\(\);state\.friends=\[\];pendingSeasonComplete=null;writeJSON\(STORE\.learned,state\)\}/);
 assert.match(styles,/\.progress-mode-tabs/);
 assert.match(styles,/\.dialogue-main-card \.detail-page-header\{padding-right:0/);
 
