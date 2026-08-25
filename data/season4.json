@@ -273,7 +273,7 @@
     },
     {
       "id": "p365",
-      "phrase": "swing（都合つける）",
+      "phrase": "swing (make it work)",
       "meaning": "なんとかやりくりする",
       "scene": "お金や予定を無理して調整するとき",
       "example1": "I can swing 20 bucks.",
@@ -303,7 +303,7 @@
     },
     {
       "id": "p367",
-      "phrase": "generous / stingy（比喩）",
+      "phrase": "generous / stingy (figurative)",
       "meaning": "気前よく出す／出し渋る",
       "scene": "情報や対応の量を表すとき",
       "example1": "He was generous with details.",
@@ -1159,7 +1159,7 @@
     },
     {
       "id": "p428",
-      "phrase": "-wise（meat-wiseなど）",
+      "phrase": "-wise (e.g. meat-wise)",
       "meaning": "〜の観点では／〜的に言うと",
       "scene": "特定の観点で話すとき",
       "example1": "Money-wise, I’m fine.",

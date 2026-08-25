@@ -9,7 +9,7 @@ const root=path.join(__dirname,"..");
 const source=fs.readFileSync(path.join(root,"js","app.js"),"utf8");
 const styles=fs.readFileSync(path.join(root,"css","style.css"),"utf8");
 
-assert.match(source,/>日→英<\/button>.*>英→日<\/button>.*>入力<\/button>/);
+assert.match(source,/>英→日<\/button>.*>日→英<\/button>.*>入力<\/button>/);
 assert.doesNotMatch(source,/>4択<\/button>|>正誤<\/button>/);
 assert.match(source,/pattern=\["mc","enmc","fill"\]/);
 
