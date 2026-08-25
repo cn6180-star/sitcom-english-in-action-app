@@ -208,6 +208,7 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 /* v3.0 phase 1: user-managed learned phrase state. */
 .detail-actions{display:flex;align-items:center;justify-content:flex-end;gap:8px;margin:0 0 14px}
 .detail-actions .bookmark-button{position:static;flex:0 0 42px}
+.dialogue-detail-page .detail-page-header{padding-right:190px}.dialogue-detail-actions{position:absolute;top:10px;right:0;margin:0}.dialogue-detail-actions .learned-button{min-height:42px}.dialogue-detail-actions .bookmark-button{top:auto}
 .learned-button{min-height:42px;display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:8px 12px;border:1px solid var(--border);border-radius:999px;background:var(--surface-2);color:var(--muted);font-size:13px;font-weight:800;cursor:pointer}
 .learned-button .learned-icon{width:18px;height:18px;flex:0 0 auto}
 .learned-button:not(.on){border-color:var(--border);box-shadow:none;background:var(--surface-2);color:var(--muted)}
@@ -219,6 +220,7 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 .learned-badge{display:inline-flex;align-items:center;gap:4px;padding:4px 7px;border:1px solid #604790;border-radius:999px;background:var(--purple-soft);color:#ddd6fe;font-size:10px;font-weight:800;line-height:1}
 .learned-badge .learned-icon{width:13px;height:13px;flex:0 0 auto;stroke:#c4b5fd}
 @media (max-width:420px){.detail-actions{flex-wrap:wrap}.detail-title{margin-right:0}}
+@media (max-width:600px){.dialogue-detail-page .detail-page-header{padding-right:0}.dialogue-detail-actions{position:static;justify-content:flex-start;margin-top:12px}}
 
 /* v3.0 phase 2: compact single-select learning filters. */
 .scope-filter-group{margin-bottom:8px}
@@ -229,6 +231,7 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 .phrase-select-grid .select{min-width:0;min-height:36px;padding:5px 24px 5px 8px;font-size:11.5px;line-height:1.25}
 .quiz-empty{margin-top:14px;padding:13px}
 .quiz-mode-tabs{grid-template-columns:repeat(2,minmax(0,1fr));width:min(360px,100%);margin:0 0 14px}.quiz-mode-tabs .seg-button{min-height:40px;font-size:13px}.filter-panel:has(>.quiz-mode-note){display:flex;flex-direction:column}.quiz-mode-note{display:grid;order:-1;gap:4px;margin:0 0 12px;padding:11px 12px;border:1px solid var(--border);border-radius:13px;background:rgba(12,16,32,.72)}.quiz-mode-note strong{color:#ddd6fe;font-size:13px}.quiz-mode-note span{color:var(--muted);font-size:11.5px;line-height:1.5}.quiz-setting-chips{mask-image:none;padding-right:0}
+.progress-mode-tabs{grid-template-columns:repeat(2,minmax(0,1fr));width:min(360px,100%);margin:0 0 14px}.progress-mode-tabs .seg-button{min-height:40px;font-size:13px}
 @media (min-width:760px){.scope-chips{flex-wrap:wrap;overflow:visible}.scope-chips .chip{flex:0 0 auto}}
 
 /* v3.0 phase 3: learned progress overview and responsive filter polish. */
