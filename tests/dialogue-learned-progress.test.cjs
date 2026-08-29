@@ -37,6 +37,7 @@ const learnedStart=source.indexOf("function dialogueLearnedState");
 const learnedEnd=source.indexOf("function getWeakStats");
 assert.ok(learnedStart>=0&&learnedEnd>learnedStart);
 let dialogueRaw={friends:[]},phraseRaw={friends:["p1"]};
+let learnedSoundCount=0,soundOn=true;
 const learnedContext={
   Set,Math,
   STORE:{dialogueLearned:"dialogue",learned:"phrase"},
@@ -45,16 +46,22 @@ const learnedContext={
   writeJSON:(key,value)=>{if(key==="dialogue")dialogueRaw=JSON.parse(JSON.stringify(value));else phraseRaw=JSON.parse(JSON.stringify(value))},
   getCompletionPercent:(learned,total)=>total?Math.round(learned/total*1000)/10:0,
   lineIcon:()=>"",
-  updateLearnedButton:()=>{}
+  updateLearnedButton:()=>{},
+  playLearnedSound:()=>{if(soundOn)learnedSoundCount++}
 };
 vm.runInNewContext(`${source.slice(learnedStart,learnedEnd)};globalThis.api={toggleDialogueLearned,isDialogueLearned,dialogueProgressFor}`,learnedContext);
 learnedContext.api.toggleDialogueLearned("d1");
 assert.equal(learnedContext.api.isDialogueLearned("d1"),true);
+assert.equal(learnedSoundCount,1,"learning a dialogue should reuse the learned sound");
 assert.deepEqual(phraseRaw,{friends:["p1"]});
 assert.deepEqual(JSON.parse(JSON.stringify(learnedContext.api.dialogueProgressFor())),{learned:1,total:3,remaining:2,percent:33.3});
 learnedContext.api.toggleDialogueLearned("d1");
 assert.equal(learnedContext.api.isDialogueLearned("d1"),false);
+assert.equal(learnedSoundCount,1,"unlearning a dialogue should stay silent");
 assert.deepEqual(phraseRaw,{friends:["p1"]});
+soundOn=false;
+learnedContext.api.toggleDialogueLearned("d2");
+assert.equal(learnedSoundCount,1,"Sound OFF should suppress the dialogue learned sound");
 
 const scopeMatch=source.match(/function dialogueScopeFrom[\s\S]*?(?=function setDialogueFilter)/);
 const filteredMatch=source.match(/function filteredDialogues[\s\S]*?(?=function dialogueCard)/);

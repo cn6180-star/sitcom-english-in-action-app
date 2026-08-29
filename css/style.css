@@ -207,10 +207,10 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 @media (max-width:1000px){.examples-section-head{align-items:stretch;flex-direction:column}.examples-section-head .translation-toggle{width:100%}.examples-section-head .detail-recording-actions{width:100%}}
 
 /* Recording v1: fixed, route-scoped practice controller. */
-#recordingControllerRoot{position:fixed;z-index:70;top:clamp(132px,22vh,190px);right:max(16px,env(safe-area-inset-right,0px));max-width:calc(100vw - 32px);pointer-events:none}
+#recordingControllerRoot{position:fixed;z-index:70;top:0;left:0;max-width:calc(100vw - 32px);pointer-events:none}
 .recording-controller{min-height:48px;display:flex;align-items:center;gap:6px;padding:7px;border:1px solid #4a4164;border-radius:16px;background:rgba(12,16,32,.97);box-shadow:0 14px 38px rgba(0,0,0,.42);color:#fff;white-space:nowrap;pointer-events:auto;backdrop-filter:blur(14px)}
 .recording-controller>span{padding:0 8px;font-size:13px;font-weight:800}.recording-controller button{min-height:36px;padding:7px 10px;border:1px solid #3b435d;border-radius:11px;background:#171c30;color:#fff;font-size:13px;font-weight:800;cursor:pointer;white-space:nowrap}.recording-controller button:hover{border-color:#7053b5;background:#251d46}.recording-controller button:focus-visible{outline:2px solid var(--purple-2);outline-offset:2px}.recording-time{display:inline-flex;align-items:center;gap:5px}.recording-time i{color:#ef4444;font-style:normal;font-size:17px;line-height:1}.recording-time b{font:inherit}.recording-controller.ready{display:grid;grid-template-columns:repeat(3,auto)}
-@media (max-width:759px){#recordingControllerRoot{top:calc(var(--topbar) + var(--mobile-top-inset) + 120px);right:max(12px,env(safe-area-inset-right,0px));max-width:calc(100vw - 24px)}.recording-controller{min-height:46px}.recording-controller button{min-height:36px;padding:7px 9px}}
+@media (max-width:759px){#recordingControllerRoot{max-width:calc(100vw - 24px)}.recording-controller{min-height:46px}.recording-controller button{min-height:36px;padding:7px 9px}}
 
 /* v3.0 phase 1: user-managed learned phrase state. */
 .detail-actions{display:flex;align-items:center;justify-content:flex-end;gap:8px;margin:0 0 14px}

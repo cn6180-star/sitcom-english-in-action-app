@@ -8,6 +8,8 @@ const vm=require("node:vm");
 const root=path.join(__dirname,"..");
 const source=fs.readFileSync(path.join(root,"js","app.js"),"utf8");
 const styles=fs.readFileSync(path.join(root,"css","style.css"),"utf8");
+assert.ok(fs.existsSync(path.join(root,"assets","sounds","decision34.mp3")));
+assert.ok(fs.existsSync(path.join(root,"assets","sounds","decision35.mp3")));
 const recordingSourceStart=source.indexOf("function createEmptyRecordingSession");
 const end=source.indexOf("function bookmarks");
 assert.ok(recordingSourceStart>=0&&end>recordingSourceStart);
@@ -124,12 +126,15 @@ async function start(type="phrase",id="p1"){
   context.api.setRoute("phraseDetail","p1");
 
   soundOn=false;
+  const audioCountBeforeSilentStart=audios.length;
   await start();
+  assert.equal(audios.length,audioCountBeforeSilentStart,"Sound OFF must skip the recording start cue");
   const stopRecorder=context.api.state().recorder;
   assert.equal(context.api.stopRecording(),true);
   assert.equal(context.api.state().phase,"ready");
   assert.equal(context.api.state().blob.size,5);
   assert.ok(context.api.state().objectUrl);
+  assert.equal(audios.length,audioCountBeforeSilentStart,"Sound OFF must skip the recording stop cue");
   assert.equal(stopRecorder.stream.track.stopped,true);
   assert.equal(context.api.stopRecording(),false,"double stop must be harmless");
 
@@ -204,6 +209,9 @@ async function start(type="phrase",id="p1"){
   assert.match(source,/detail-recording-actions/);
   assert.match(source,/dialogue-recording-actions/);
   assert.match(styles,/#recordingControllerRoot\{[^}]*position:fixed[^}]*z-index:70/);
+  assert.match(source,/function positionRecordingController\(\).*buttonRect\.top-controllerRect\.height-10/);
+  assert.match(source,/root\.style\.right=`max\([^`]+env\(safe-area-inset-right/);
+  assert.match(source,/addEventListener\("resize",positionRecordingController\)/);
   assert.match(styles,/\.dialogue-recording-actions,\.detail-recording-actions\{[^}]*repeat\(2/);
   assert.match(styles,/\.dialogue-play-button\{[^}]*width:100%/);
   assert.match(styles,/safe-area-inset-right/);
