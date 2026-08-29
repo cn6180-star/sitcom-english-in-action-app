@@ -20,7 +20,7 @@ assert.match(styles,/\.example-translation-concealed\{visibility:hidden;pointer-
 
 assert.match(styles,/\.dialogue-line\{min-height:42px\}/);
 assert.match(styles,/\.dialogue-side\{touch-action:pan-y\}/);
-assert.match(styles,/\.dialogue-play-button\{[^}]*width:150px[^}]*height:46px/);
+assert.match(styles,/\.dialogue-play-button\{[^}]*width:100%[^}]*height:46px/);
 assert.match(source,/interactive\.classList\.contains\("learning-item"\)/);
 assert.match(source,/absX>=DETAIL_SWIPE_MIN_X&&absX>=absY\*DETAIL_SWIPE_AXIS_RATIO/);
 assert.match(source,/detailSwipeSuppressClickUntil=Date\.now\(\)\+600/);
