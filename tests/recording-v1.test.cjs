@@ -209,9 +209,12 @@ async function start(type="phrase",id="p1"){
   assert.match(source,/detail-recording-actions/);
   assert.match(source,/dialogue-recording-actions/);
   assert.match(styles,/#recordingControllerRoot\{[^}]*position:fixed[^}]*z-index:70/);
-  assert.match(source,/function positionRecordingController\(\).*buttonRect\.top-controllerRect\.height-10/);
+  assert.match(source,/controllerPosition:null/);
+  assert.match(source,/function positionRecordingController\(recalculate=false\).*if\(!position\|\|recalculate\).*buttonRect\.top-controllerRect\.height-10/);
   assert.match(source,/root\.style\.right=`max\([^`]+env\(safe-area-inset-right/);
-  assert.match(source,/addEventListener\("resize",positionRecordingController\)/);
+  assert.match(source,/retryRecording\(\).*controllerPosition=recordingSession\.controllerPosition.*startRecording\(owner\.type,owner\.id,controllerPosition\)/);
+  assert.match(source,/addEventListener\("resize",\(\)=>positionRecordingController\(true\)\)/);
+  assert.doesNotMatch(source,/addEventListener\("scroll"[^\n]*positionRecordingController/);
   assert.match(styles,/\.dialogue-recording-actions,\.detail-recording-actions\{[^}]*repeat\(2/);
   assert.match(styles,/\.dialogue-play-button\{[^}]*width:100%/);
   assert.match(styles,/safe-area-inset-right/);
