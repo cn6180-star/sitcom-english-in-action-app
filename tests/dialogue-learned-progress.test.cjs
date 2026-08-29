@@ -16,7 +16,7 @@ assert.match(source,/key!==STORE\.dialogueLearned&&!Object\.prototype\.hasOwnPro
 assert.match(source,/key===STORE\.dialogueLearned\)data\[key\]=validateLearned\(item,dialogueIds,warnings\)/);
 assert.match(source,/Phrase \/ Dialogue Learned/);
 assert.equal((source.match(/backupSchemaVersion:BACKUP_SCHEMA_VERSION/g)||[]).length,1);
-assert.match(source,/const APP_VERSION="5\.3",BACKUP_SCHEMA_VERSION=1/);
+assert.match(source,/const APP_VERSION="5\.4",BACKUP_SCHEMA_VERSION=1/);
 
 assert.match(source,/\["all","全て"\],\["unlearned","未習得"\],\["learned","習得済み"\].*\["saved","保存"\]/);
 assert.match(source,/scope!=="unlearned"\|\|!isDialogueLearned\(d\.id\)/);

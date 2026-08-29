@@ -1,4 +1,4 @@
-# Sitcom English in Action v5.3
+# Sitcom English in Action v5.4
 
 GitHub Pages / PWAで動作する、海外ドラマ英語の学習アプリです。
 
@@ -13,8 +13,9 @@ GitHub Pages / PWAで動作する、海外ドラマ英語の学習アプリで�
 - Friends Season 10 Coming Soon
 - The Big Bang Theory — For Advanced English（Coming Soon）
 
-## v5.3 Updates
+## v5.4 Updates
 
+- Phrase / Dialogue Detailに最大60秒のRecordingを追加。録音後のPlay / Stop、Retry、Close、60秒での自動停止に対応
 - Quiz Test / Practice、Homeから本番10問Mixへすぐ挑戦できるQuick Challenge、Review mistakes / Next Roundを含むResult UXを整備
 - DialogueのNormal / Blank / Hide A / Hide B、Play Dialogue、TTS、左右スワイプ操作を改善
 - Home / SeriesをFriends「For Everyday English」、The Big Bang Theory「For Advanced English」の役割が分かる構成へ整理
@@ -58,6 +59,14 @@ Dialogue内のlinked Phraseは、共通matcherとexplicit match hintsで本文�
 Hide A / Hide BとPlay Dialogueを組み合わせると、アプリが表示側を読み上げ、ユーザーが隠した側を担当する片役ロールプレイができます。ユーザーのターンには英文の長さに応じた待ち時間が入り、待機中にTap to revealを押しても会話再生は継続します。
 
 Stop、モード変更、Previous / Next / Back、個別音声の開始時には通し再生を停止します。タブやPWAがバックグラウンドへ移行した場合も、音声と待機処理を停止し、復帰後に自動再開しません。
+
+## Recording
+
+Phrase / Dialogue Detailから自分の声を最大60秒まで録音できます。60秒に達すると自動停止し、録音後はPlayで聞き返し、Retryですぐに録り直せます。
+
+PhraseではExample TTSをお手本にした発音練習、DialogueではHide A / Hide Bなどと組み合わせたセリフ・会話テンポの練習に利用できます。録音中もTTSやPlay Dialogueを利用できますが、TTS音声が録音に入るかどうかは端末・ブラウザ環境によって異なります。
+
+録音データは一時利用のみで永続保存されません。Closeまたは別ページへの移動で破棄され、初回利用時にはマイクへのアクセス許可が必要です。
 
 ## Quiz
 
@@ -126,4 +135,4 @@ Sidebar / MobileメニューのHelpでは、Dialogues・Quiz・Phrasesからの�
 - `sitcomEnglish_soundEnabled`
 - `sitcomEnglish_lastJingleDate`
 
-Phrase / Dialogue JSON、ID、既存localStorage keyとの互換性はv5.3でも維持しています。
+Phrase / Dialogue JSON、ID、既存localStorage keyとの互換性はv5.4でも維持しています。

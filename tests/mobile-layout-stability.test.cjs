@@ -31,7 +31,7 @@ assert.match(translationToggle,/querySelectorAll\("\.translation"\)/);
 assert.match(translationToggle,/classList\.toggle\("translation-concealed",!showDialogueTranslations\)/);
 assert.match(translationToggle,/aria-pressed/);
 
-assert.match(source,/const APP_VERSION="5\.3"/);
-assert.match(source,/Version 5\.3/);
+assert.match(source,/const APP_VERSION="5\.4"/);
+assert.match(source,/Version 5\.4/);
 
 console.log("mobile layout stability tests passed");
