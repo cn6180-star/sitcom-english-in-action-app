@@ -23,8 +23,11 @@
       "scene": "ざっくり理解を言うとき",
       "example1": "That’s the gist of it.",
       "example2": "I got the gist.",
-      "exampleTranslations": ["要するにそういうことだ。", "だいたいの内容は分かった。"],
-      "type": "noun",
+      "exampleTranslations": [
+        "要するにそういうことだ。",
+        "だいたいの内容は分かった。"
+      ],
+      "type": "word",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -38,8 +41,11 @@
       "scene": "発表や演技のとき",
       "example1": "I got stage fright.",
       "example2": "I have stage fright.",
-      "exampleTranslations": ["舞台で緊張してしまった。", "人前に出ると緊張する。"],
-      "type": "noun",
+      "exampleTranslations": [
+        "舞台で緊張してしまった。",
+        "人前に出ると緊張する。"
+      ],
+      "type": "word",
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
@@ -49,12 +55,15 @@
     {
       "id": "p350",
       "phrase": "flight risk",
-      "meaning": "逃げそうなやつ（比喩）",
+      "meaning": "逃亡のおそれがある人",
       "scene": "冗談や大げさ表現で言うとき",
       "example1": "He’s a flight risk.",
       "example2": "Don’t let him leave, he’s a flight risk.",
-      "exampleTranslations": ["彼には逃亡の恐れがある。", "彼を帰すな。逃亡する恐れがある。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "彼には逃亡の恐れがある。",
+        "彼を帰すな。逃亡する恐れがある。"
+      ],
+      "type": "word",
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
@@ -78,12 +87,15 @@
     },
     {
       "id": "p352",
-      "phrase": "give yourself credit",
+      "phrase": "give oneself credit",
       "meaning": "自分をちゃんと評価する",
       "scene": "自信を持たせるとき",
       "example1": "Give yourself some credit.",
       "example2": "You don’t give yourself enough credit.",
-      "exampleTranslations": ["もっと自分を評価してあげて。", "あなたは自分を過小評価しすぎだよ。"],
+      "exampleTranslations": [
+        "もっと自分を評価してあげて。",
+        "あなたは自分を過小評価しすぎだよ。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -153,28 +165,35 @@
     },
     {
       "id": "p357",
-      "phrase": "I’m set / I’m all set",
-      "meaning": "もう大丈夫／足りてる",
+      "phrase": "I’m all set",
+      "meaning": "大丈夫です／準備できています／もう結構です",
       "scene": "丁寧に断るとき",
       "example1": "I’m all set, thanks.",
       "example2": "I’m set for now.",
-      "exampleTranslations": ["もう大丈夫です、ありがとう。", "今のところ間に合っています。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "もう大丈夫です、ありがとう。",
+        "今のところ間に合っています。"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
       "episode": "S04E02",
-      "usage": "日常的"
+      "usage": "日常的",
+      "note": "I’m setという形も使える。"
     },
     {
       "id": "p358",
-      "phrase": "enough is enough",
+      "phrase": "Enough is enough",
       "meaning": "もう限界／いい加減にしろ",
       "scene": "我慢の限界に達したとき",
       "example1": "Enough is enough.",
       "example2": "I’m done, enough is enough.",
-      "exampleTranslations": ["もうたくさんだ。", "もうやめる。いい加減にして。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "もうたくさんだ。",
+        "もうやめる。いい加減にして。"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -228,13 +247,16 @@
     },
     {
       "id": "p362",
-      "phrase": "rave (about ~)",
+      "phrase": "rave about ~",
       "meaning": "大絶賛する",
       "scene": "テンション高く褒めるとき",
       "example1": "Everyone is raving about that movie.",
       "example2": "She raved about the restaurant.",
-      "exampleTranslations": ["みんながあの映画を絶賛している。", "彼女はそのレストランを大絶賛していた。"],
-      "type": "verb",
+      "exampleTranslations": [
+        "みんながあの映画を絶賛している。",
+        "彼女はそのレストランを大絶賛していた。"
+      ],
+      "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -243,13 +265,16 @@
     },
     {
       "id": "p363",
-      "phrase": "pull a 人名",
-      "meaning": "その人らしいことをやる",
+      "phrase": "pull a [name]",
+      "meaning": "[name]らしいことをする／[name]がよくやるようなことをする",
       "scene": "お決まりの行動をいじるとき",
       "example1": "Don’t pull a Ross.",
       "example2": "He totally pulled a Chandler.",
-      "exampleTranslations": ["ロスみたいなことはするなよ。", "彼は完全にチャンドラーみたいなことをした。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "ロスみたいなことはするなよ。",
+        "彼は完全にチャンドラーみたいなことをした。"
+      ],
+      "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -273,13 +298,16 @@
     },
     {
       "id": "p365",
-      "phrase": "swing (make it work)",
-      "meaning": "なんとかやりくりする",
+      "phrase": "swing",
+      "meaning": "都合をつける／なんとか実現する",
       "scene": "お金や予定を無理して調整するとき",
       "example1": "I can swing 20 bucks.",
       "example2": "I can’t swing it tonight.",
-      "exampleTranslations": ["20ドルなら何とか出せる。", "今夜は都合をつけられない。"],
-      "type": "verb",
+      "exampleTranslations": [
+        "20ドルなら何とか出せる。",
+        "今夜は都合をつけられない。"
+      ],
+      "type": "word",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -293,8 +321,11 @@
       "scene": "全体像を理解したとき",
       "example1": "Okay, I get the picture.",
       "example2": "I get the picture now.",
-      "exampleTranslations": ["分かった、状況は理解した。", "今はもう状況が分かったよ。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "分かった、状況は理解した。",
+        "今はもう状況が分かったよ。"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -303,12 +334,33 @@
     },
     {
       "id": "p367",
-      "phrase": "generous / stingy (figurative)",
-      "meaning": "気前よく出す／出し渋る",
+      "phrase": "generous",
+      "meaning": "気前がいい／惜しみなく与える",
       "scene": "情報や対応の量を表すとき",
       "example1": "He was generous with details.",
-      "example2": "She was stingy with information.",
-      "exampleTranslations": ["彼は細かいところまで惜しみなく話した。", "彼女は情報をほとんど教えてくれなかった。"],
+      "example2": "That’s generous of you.",
+      "exampleTranslations": [
+        "彼は細かいところまで惜しみなく話した。",
+        "気前がいいね。"
+      ],
+      "type": "word",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E03",
+      "usage": "日常的"
+    },
+    {
+      "id": "p1094",
+      "phrase": "stingy",
+      "meaning": "けちな／出し惜しみする",
+      "scene": "情報や対応の量を表すとき",
+      "example1": "She was stingy with information.",
+      "example2": "He’s stingy with money.",
+      "exampleTranslations": [
+        "彼女は情報をほとんど教えてくれなかった。",
+        "彼はお金にけちだ。"
+      ],
       "type": "word",
       "priorityText": "★★★",
       "priority": 3,
@@ -332,29 +384,17 @@
       "usage": "日常的"
     },
     {
-      "id": "p369",
-      "phrase": "easy for you to say",
-      "meaning": "そりゃあんたはそう言える",
-      "scene": "立場の違いに不満を言うとき",
-      "example1": "That’s easy for you to say.",
-      "example2": "Easy for you to say, you’re not involved.",
-      "exampleTranslations": ["あなたには簡単に言えるよね。", "関わっていないあなたには簡単に言えるよね。"],
-      "type": "idiom",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S04E04",
-      "usage": "日常的"
-    },
-    {
       "id": "p370",
       "phrase": "the other way around",
       "meaning": "逆に／反対に",
       "scene": "順序や関係が逆のとき",
       "example1": "You got it the other way around.",
       "example2": "I thought it was the other way around.",
-      "exampleTranslations": ["逆に覚えてるよ。", "逆だと思っていた。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "逆に覚えてるよ。",
+        "逆だと思っていた。"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -363,13 +403,16 @@
     },
     {
       "id": "p371",
-      "phrase": "We’re doomed",
-      "meaning": "もう終わりだ",
+      "phrase": "doomed",
+      "meaning": "破滅する運命にある／もうだめな",
       "scene": "絶望的な状況で",
       "example1": "We’re doomed if they find out.",
       "example2": "This is bad… we’re doomed.",
-      "exampleTranslations": ["彼らにバレたら、私たちはおしまいだ。", "これはまずい……もうおしまいだ。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "彼らにバレたら、私たちはおしまいだ。",
+        "これはまずい……もうおしまいだ。"
+      ],
+      "type": "word",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -379,12 +422,15 @@
     {
       "id": "p372",
       "phrase": "get something over with",
-      "meaning": "さっさと終わらせる",
+      "meaning": "嫌なことを早く済ませる",
       "scene": "嫌なことを片付けるとき",
       "example1": "Let’s get this over with.",
       "example2": "I just want to get it over with.",
-      "exampleTranslations": ["さっさと終わらせよう。", "ただ早く終わらせたい。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "さっさと終わらせよう。",
+        "ただ早く終わらせたい。"
+      ],
+      "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -393,12 +439,15 @@
     },
     {
       "id": "p374",
-      "phrase": "put your foot in your mouth",
+      "phrase": "put one’s foot in one’s mouth",
       "meaning": "失言する／余計なことを言う",
       "scene": "気まずい発言をしてしまったとき",
       "example1": "I really put my foot in my mouth.",
       "example2": "He always puts his foot in his mouth.",
-      "exampleTranslations": ["本当に余計なことを言ってしまった。", "彼はいつも失言する。"],
+      "exampleTranslations": [
+        "本当に余計なことを言ってしまった。",
+        "彼はいつも失言する。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -413,8 +462,11 @@
       "scene": "真面目すぎて面白みがない人を言うとき",
       "example1": "Don’t be such a square.",
       "example2": "I don’t want to sound like a square, but…",
-      "exampleTranslations": ["そんな堅物になるなよ。", "堅い人みたいに聞こえたくないけど……。"],
-      "type": "slang",
+      "exampleTranslations": [
+        "そんな堅物になるなよ。",
+        "堅い人みたいに聞こえたくないけど……。"
+      ],
+      "type": "word",
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
@@ -423,13 +475,16 @@
     },
     {
       "id": "p376",
-      "phrase": "don’t take this the wrong way",
+      "phrase": "Don’t take this the wrong way",
       "meaning": "悪く受け取らないでほしい",
       "scene": "失礼になりそうな発言の前置き",
       "example1": "Don’t take this the wrong way, but you look tired.",
       "example2": "Don’t take this the wrong way, but that’s not a good idea.",
-      "exampleTranslations": ["悪く取らないでほしいんだけど、疲れて見えるよ。", "悪く取らないでほしいんだけど、それは良い案じゃない。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "悪く取らないでほしいんだけど、疲れて見えるよ。",
+        "悪く取らないでほしいんだけど、それは良い案じゃない。"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -443,8 +498,11 @@
       "scene": "カジュアルに失礼なことを言う前の前置き",
       "example1": "No offense, but that’s kind of weird.",
       "example2": "No offense, but I don’t agree.",
-      "exampleTranslations": ["悪気はないけど、それちょっと変だよ。", "気を悪くしないでほしいけど、私は賛成できない。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "悪気はないけど、それちょっと変だよ。",
+        "気を悪くしないでほしいけど、私は賛成できない。"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -469,12 +527,15 @@
     {
       "id": "p379",
       "phrase": "granted",
-      "meaning": "まあ確かに（でも）",
+      "meaning": "確かに／なるほど（ただし）",
       "scene": "相手の意見を一旦認めてから言い返すとき",
       "example1": "Granted, it’s expensive, but it’s worth it.",
       "example2": "Granted, I was late, but it wasn’t my fault.",
-      "exampleTranslations": ["確かに高いけど、それだけの価値はある。", "確かに遅刻したけど、私のせいじゃなかった。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "確かに高いけど、それだけの価値はある。",
+        "確かに遅刻したけど、私のせいじゃなかった。"
+      ],
+      "type": "word",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -498,12 +559,15 @@
     },
     {
       "id": "p381",
-      "phrase": "have your work cut out for you",
+      "phrase": "have one’s work cut out",
       "meaning": "大変なことになる／骨が折れる",
       "scene": "これからやることが多くて大変なとき",
       "example1": "Good luck, you’ve got your work cut out for you.",
       "example2": "This project is huge—you have your work cut out for you.",
-      "exampleTranslations": ["頑張って。大変な仕事が待ってるよ。", "このプロジェクトは大規模だ。かなり苦労するよ。"],
+      "exampleTranslations": [
+        "頑張って。大変な仕事が待ってるよ。",
+        "このプロジェクトは大規模だ。かなり苦労するよ。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -513,13 +577,16 @@
     },
     {
       "id": "p382",
-      "phrase": "one thing led to another",
+      "phrase": "One thing led to another",
       "meaning": "なんやかんやあって",
       "scene": "詳しい説明をぼかしたいとき",
       "example1": "We started talking, and one thing led to another.",
       "example2": "I went out for a drink, and one thing led to another.",
-      "exampleTranslations": ["話をしているうちに、成り行きでそうなった。", "一杯飲みに出たら、成り行きでいろいろあってね。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "話をしているうちに、成り行きでそうなった。",
+        "一杯飲みに出たら、成り行きでいろいろあってね。"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -543,12 +610,15 @@
     },
     {
       "id": "p384",
-      "phrase": "over the line",
+      "phrase": "be over the line",
       "meaning": "一線を越えている／やりすぎ",
       "scene": "言いすぎ・やりすぎを指摘するとき",
       "example1": "That joke was over the line.",
       "example2": "You really went over the line this time.",
-      "exampleTranslations": ["その冗談は一線を越えていた。", "今回は本当にやりすぎたよ。"],
+      "exampleTranslations": [
+        "その冗談は一線を越えていた。",
+        "今回は本当にやりすぎたよ。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -558,13 +628,16 @@
     },
     {
       "id": "p385",
-      "phrase": "for the best",
-      "meaning": "結果的にこれでよかった",
+      "phrase": "be for the best",
+      "meaning": "結果的に最善である／これでよかった",
       "scene": "微妙な結果を前向きに捉えるとき",
       "example1": "Maybe it’s for the best.",
       "example2": "It all worked out for the best.",
-      "exampleTranslations": ["たぶん、そのほうがいいんだよ。", "結局すべて一番良い形に収まった。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "たぶん、そのほうがいいんだよ。",
+        "結局すべて一番良い形に収まった。"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -587,29 +660,17 @@
       "usage": "日常的"
     },
     {
-      "id": "p387",
-      "phrase": "I’m beat",
-      "meaning": "めっちゃ疲れた",
-      "scene": "カジュアルに疲労を言うとき",
-      "example1": "I’m beat. I’m going home.",
-      "example2": "I’m kind of beat tonight.",
-      "exampleTranslations": ["へとへとだ。家に帰るよ。", "今夜はちょっと疲れてる。"],
-      "type": "idiom",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S04E09",
-      "usage": "日常的"
-    },
-    {
       "id": "p388",
-      "phrase": "next thing you know",
-      "meaning": "気づいたら〜してた",
+      "phrase": "next thing you know, ~",
+      "meaning": "次に気づいたときには〜／いつの間にか〜ということになる",
       "scene": "流れで状況が変わったとき",
       "example1": "Next thing you know, we were dating.",
       "example2": "Next thing you know, it’s midnight.",
-      "exampleTranslations": ["気づいたら、私たちは付き合っていた。", "気づけば真夜中だよ。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "気づいたら、私たちは付き合っていた。",
+        "気づけば真夜中だよ。"
+      ],
+      "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -618,12 +679,15 @@
     },
     {
       "id": "p389",
-      "phrase": "go out of my way to ~",
+      "phrase": "go out of one’s way to ~",
       "meaning": "わざわざ〜する",
       "scene": "意識的に手間をかけるとき",
       "example1": "I went out of my way to help him.",
       "example2": "You don’t have to go out of your way.",
-      "exampleTranslations": ["彼を助けるために、わざわざ手間をかけた。", "わざわざ無理をしなくていいよ。"],
+      "exampleTranslations": [
+        "彼を助けるために、わざわざ手間をかけた。",
+        "わざわざ無理をしなくていいよ。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -638,8 +702,11 @@
       "scene": "物事が前に進んでいるとき",
       "example1": "We’re finally making headway.",
       "example2": "I’m not making any headway.",
-      "exampleTranslations": ["ようやく進展している。", "全然進展していない。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "ようやく進展している。",
+        "全然進展していない。"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -648,12 +715,15 @@
     },
     {
       "id": "p391",
-      "phrase": "be picked on",
+      "phrase": "pick on someone",
       "meaning": "いじめられる／からかわれる",
       "scene": "ターゲットにされているとき",
       "example1": "Why are you picking on me?",
       "example2": "He gets picked on a lot.",
-      "exampleTranslations": ["なんで私ばかりいじめるの？", "彼はよくからかわれる。"],
+      "exampleTranslations": [
+        "なんで私ばかりいじめるの？",
+        "彼はよくからかわれる。"
+      ],
       "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
@@ -683,13 +753,17 @@
       "scene": "行動や性格が似ているとき",
       "example1": "He acts just like his dad—like father, like son.",
       "example2": "Well, like father, like son.",
-      "exampleTranslations": ["彼は父親そっくりに振る舞う。まさにこの父にしてこの子ありだ。", "まあ、この父にしてこの子ありだね。"],
-      "type": "proverb",
+      "exampleTranslations": [
+        "彼は父親そっくりに振る舞う。まさにこの父にしてこの子ありだ。",
+        "まあ、この父にしてこの子ありだね。"
+      ],
+      "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
       "episode": "S04E10",
-      "usage": "日常的"
+      "usage": "日常的",
+      "note": "「この親にしてこの子あり」ということわざ。"
     },
     {
       "id": "p394",
@@ -723,13 +797,16 @@
     },
     {
       "id": "p396",
-      "phrase": "I’m torn",
+      "phrase": "torn",
       "meaning": "決められない／気持ちが揺れてる",
       "scene": "選択で迷っているとき",
       "example1": "I’m torn between the two options.",
       "example2": "I’m still torn.",
-      "exampleTranslations": ["二つの選択肢の間で迷っている。", "まだ決めかねている。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "二つの選択肢の間で迷っている。",
+        "まだ決めかねている。"
+      ],
+      "type": "word",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -759,8 +836,11 @@
       "note": "肯定形でも『何も知らない』。don’t know squat も同じ意味。",
       "example1": "I don’t know squat about cars.",
       "example2": "He knows squat about cooking.",
-      "exampleTranslations": ["車のことは何も知らない。", "彼は料理のことを何も知らない。"],
-      "type": "slang",
+      "exampleTranslations": [
+        "車のことは何も知らない。",
+        "彼は料理のことを何も知らない。"
+      ],
+      "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -769,13 +849,16 @@
     },
     {
       "id": "p399",
-      "phrase": "Ten bucks says ~",
+      "phrase": "ten bucks says ~",
       "meaning": "絶対〜だと思う／〜に賭ける",
       "scene": "軽い賭けや自信ある予想",
       "example1": "Ten bucks says he’s late again.",
       "example2": "Five bucks says she forgot.",
-      "exampleTranslations": ["10ドル賭けてもいい、彼はまた遅刻だよ。", "5ドル賭けてもいい、彼女は忘れてるよ。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "10ドル賭けてもいい、彼はまた遅刻だよ。",
+        "5ドル賭けてもいい、彼女は忘れてるよ。"
+      ],
+      "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -784,12 +867,33 @@
     },
     {
       "id": "p400",
-      "phrase": "Challenge extended / accepted",
-      "meaning": "挑戦を出す／受けて立つ",
+      "phrase": "Challenge extended",
+      "meaning": "挑戦状を出した／勝負を申し込んだ",
       "scene": "ノリで勝負が始まるとき",
       "example1": "Challenge extended.",
-      "example2": "Challenge accepted.",
-      "exampleTranslations": ["挑戦を申し込む。", "その挑戦、受けて立つ。"],
+      "example2": "Consider the challenge extended.",
+      "exampleTranslations": [
+        "挑戦を申し込む。",
+        "挑戦状を出したと思って。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E12",
+      "usage": "日常的"
+    },
+    {
+      "id": "p1095",
+      "phrase": "Challenge accepted",
+      "meaning": "その勝負、受けて立つ",
+      "scene": "ノリで勝負が始まるとき",
+      "example1": "Challenge accepted.",
+      "example2": "Challenge accepted. Let’s do it.",
+      "exampleTranslations": [
+        "その挑戦、受けて立つ。",
+        "その勝負、受けて立つ。やろう。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -799,13 +903,34 @@
     },
     {
       "id": "p401",
-      "phrase": "fork it over / cough it up",
-      "meaning": "さっさと払え／出せ",
+      "phrase": "fork something over",
+      "meaning": "しぶしぶ差し出す／金などを払う",
       "scene": "お金や物を強めに要求するとき",
       "example1": "Fork it over.",
-      "example2": "Come on, cough it up.",
-      "exampleTranslations": ["さっさと渡して。", "ほら、さっさと出して。"],
-      "type": "idiom",
+      "example2": "He forked the money over.",
+      "exampleTranslations": [
+        "さっさと渡して。",
+        "彼はしぶしぶその金を払った。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E12",
+      "usage": "知っておきたい"
+    },
+    {
+      "id": "p1096",
+      "phrase": "cough something up",
+      "meaning": "しぶしぶ差し出す／金などを払う",
+      "scene": "お金や物を強めに要求するとき",
+      "example1": "Come on, cough it up.",
+      "example2": "I’ll cough it up fair and square.",
+      "exampleTranslations": [
+        "ほら、さっさと出して。",
+        "正々堂々、しぶしぶでも払うよ。"
+      ],
+      "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -829,12 +954,15 @@
     },
     {
       "id": "p403",
-      "phrase": "scare the bejesus out of ~",
+      "phrase": "scare the bejesus out of someone",
       "meaning": "めちゃくちゃ怖がらせる",
       "scene": "強い恐怖を表すとき",
       "example1": "That noise scared the bejesus out of me.",
       "example2": "He scared the bejesus out of everyone.",
-      "exampleTranslations": ["あの音には心底びっくりした。", "彼はみんなを死ぬほど驚かせた。"],
+      "exampleTranslations": [
+        "あの音には心底びっくりした。",
+        "彼はみんなを死ぬほど驚かせた。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -844,13 +972,16 @@
     },
     {
       "id": "p404",
-      "phrase": "pet peeves",
+      "phrase": "pet peeve",
       "meaning": "個人的にイラッとすること",
       "scene": "嫌いなことを話すとき",
       "example1": "What’s your biggest pet peeve?",
       "example2": "One of my pet peeves is loud chewing.",
-      "exampleTranslations": ["一番イラッとすることは何？", "音を立てて食べることが、私の嫌いなことの一つだ。"],
-      "type": "noun",
+      "exampleTranslations": [
+        "一番イラッとすることは何？",
+        "音を立てて食べることが、私の嫌いなことの一つだ。"
+      ],
+      "type": "word",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -859,13 +990,16 @@
     },
     {
       "id": "p405",
-      "phrase": "in favor of",
-      "meaning": "〜に有利／〜に賛成",
+      "phrase": "in favor of ~",
+      "meaning": "〜に賛成して／〜を選んで・優先して",
       "scene": "意見やスコアを言うとき",
       "example1": "It’s 3–2 in favor of our team.",
       "example2": "I’m in favor of the plan.",
-      "exampleTranslations": ["3対2で私たちのチームが優勢だ。", "私はその計画に賛成だ。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "3対2で私たちのチームが優勢だ。",
+        "私はその計画に賛成だ。"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -874,13 +1008,16 @@
     },
     {
       "id": "p407",
-      "phrase": "get someone all riled up",
+      "phrase": "rile someone up",
       "meaning": "人をムキにさせる／感情を煽る",
       "scene": "相手を興奮・イライラさせるとき",
       "example1": "Don’t get him all riled up.",
       "example2": "She got everyone all riled up.",
-      "exampleTranslations": ["彼をそんなに興奮させないで。", "彼女はみんなをすっかり興奮させた。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "彼をそんなに興奮させないで。",
+        "彼女はみんなをすっかり興奮させた。"
+      ],
+      "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -889,28 +1026,35 @@
     },
     {
       "id": "p408",
-      "phrase": "shotgun rules / call it",
-      "meaning": "先に宣言したもん勝ち",
+      "phrase": "call shotgun",
+      "meaning": "（本来は車の助手席などを）先に取ると宣言する",
       "scene": "取り合いで権利を主張するとき",
       "example1": "Shotgun! I called it.",
       "example2": "Sorry, I called it first.",
-      "exampleTranslations": ["助手席！先に言ったからね。", "ごめん、私が先に取ったって言ったよ。"],
-      "type": "slang",
+      "exampleTranslations": [
+        "助手席！先に言ったからね。",
+        "ごめん、私が先に取ったって言ったよ。"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
       "episode": "S04E12",
-      "usage": "日常的"
+      "usage": "日常的",
+      "note": "Shotgun!／call shotgunは車の助手席を先に取る宣言。作中ではJoeyが「I call Monica’s room!」と言った後、「standard shotgun rules, I’m in sight of the room and I called it」という趣旨で、部屋取りに勝手に応用するジョークとして使っている。"
     },
     {
       "id": "p409",
       "phrase": "come down with something",
-      "meaning": "体調を崩しかける",
+      "meaning": "病気にかかる／発症する",
       "scene": "風邪などの初期症状を言うとき",
       "example1": "I think I’m coming down with something.",
       "example2": "He came down with the flu.",
-      "exampleTranslations": ["何か風邪でもひきかけている気がする。", "彼はインフルエンザにかかった。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "何か風邪でもひきかけている気がする。",
+        "彼はインフルエンザにかかった。"
+      ],
+      "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -924,8 +1068,11 @@
       "scene": "人や関係の相性を語るとき",
       "example1": "They have great chemistry.",
       "example2": "There’s no chemistry between them.",
-      "exampleTranslations": ["二人は相性がとてもいい。", "二人の間には全く相性の良さがない。"],
-      "type": "noun",
+      "exampleTranslations": [
+        "二人は相性がとてもいい。",
+        "二人の間には全く相性の良さがない。"
+      ],
+      "type": "word",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -969,8 +1116,11 @@
       "scene": "好みや魅力を語るとき",
       "example1": "Confidence is a turn-on.",
       "example2": "That’s a huge turn-on for me.",
-      "exampleTranslations": ["自信がある人には魅力を感じる。", "それは私にはものすごく魅力的だ。"],
-      "type": "noun",
+      "exampleTranslations": [
+        "自信がある人には魅力を感じる。",
+        "それは私にはものすごく魅力的だ。"
+      ],
+      "type": "word",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -1029,8 +1179,11 @@
       "scene": "相手より先に動くとき",
       "example1": "I apologized first as a preemptive strike.",
       "example2": "I texted her first—preemptive strike.",
-      "exampleTranslations": ["先手を打って、私から先に謝った。", "先手を打って、私から彼女にメッセージした。"],
-      "type": "phrase",
+      "exampleTranslations": [
+        "先手を打って、私から先に謝った。",
+        "先手を打って、私から彼女にメッセージした。"
+      ],
+      "type": "word",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -1059,8 +1212,11 @@
       "scene": "相手のせいで選べなかったとき",
       "example1": "You didn’t leave me much choice.",
       "example2": "They gave us no choice.",
-      "exampleTranslations": ["あなたのせいで、私にはほとんど選択肢がなかった。", "彼らは私たちに選択の余地を与えなかった。"],
-      "type": "phrase",
+      "exampleTranslations": [
+        "あなたのせいで、私にはほとんど選択肢がなかった。",
+        "彼らは私たちに選択の余地を与えなかった。"
+      ],
+      "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -1084,43 +1240,73 @@
     },
     {
       "id": "p423",
-      "phrase": "(no) piece of cake",
-      "meaning": "（全然）簡単じゃない／楽勝だ",
+      "phrase": "a piece of cake",
+      "meaning": "簡単なこと／朝飯前",
       "scene": "難易度を言うとき",
       "example1": "This test is a piece of cake.",
       "example2": "This is no piece of cake.",
-      "exampleTranslations": ["このテストは楽勝だ。", "これは決して簡単じゃない。"],
+      "exampleTranslations": [
+        "このテストは楽勝だ。",
+        "これは決して簡単じゃない。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
       "episode": "S04E16",
-      "usage": "日常的"
+      "usage": "日常的",
+      "note": "作中では「being pregnant is no piece of cake」の形で使われ、通常のnot a piece of cakeより「全然簡単ではない／決して楽ではない」という強い否定を表している。"
     },
     {
       "id": "p424",
-      "phrase": "crave / cravings",
-      "meaning": "強く欲する／強い欲求",
+      "phrase": "craving",
+      "meaning": "強い欲求／無性に食べたくなる気持ち",
       "scene": "食べ物などを無性に欲するとき",
-      "example1": "I’m craving chocolate.",
-      "example2": "I have a craving for sweets.",
-      "exampleTranslations": ["チョコレートが無性に食べたい。", "甘いものが無性に食べたい。"],
+      "example1": "I have a craving for sweets.",
+      "example2": "Pregnancy cravings can be intense.",
+      "exampleTranslations": [
+        "甘いものが無性に食べたい。",
+        "妊娠中の強い食欲は激しいことがある。"
+      ],
       "type": "word",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
       "episode": "S04E16",
-      "usage": "日常的"
+      "usage": "日常的",
+      "note": "作中では複数形のcravingsで登場。"
+    },
+    {
+      "id": "p1097",
+      "phrase": "crave",
+      "meaning": "強く欲しがる／無性に〜したくなる",
+      "scene": "食べ物などを無性に欲するとき",
+      "example1": "I’m craving chocolate.",
+      "example2": "I’m craving it.",
+      "exampleTranslations": [
+        "チョコレートが無性に食べたい。",
+        "それが無性に欲しい。"
+      ],
+      "type": "word",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S04E16",
+      "usage": "日常的",
+      "note": "作中ではI’m craving itの形で登場。"
     },
     {
       "id": "p425",
-      "phrase": "trick ~",
-      "meaning": "だましてそう思わせる",
+      "phrase": "trick someone",
+      "meaning": "someoneをだます",
       "scene": "相手をごまかすとき",
       "example1": "I tried to trick him.",
       "example2": "I tricked it into thinking it was meat.",
-      "exampleTranslations": ["彼をだまそうとした。", "それに肉だと思い込ませた。"],
-      "type": "verb",
+      "exampleTranslations": [
+        "彼をだまそうとした。",
+        "それに肉だと思い込ませた。"
+      ],
+      "type": "word",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -1149,23 +1335,11 @@
       "scene": "不公平を調整するとき",
       "example1": "Let’s even things out.",
       "example2": "That should even things out.",
-      "exampleTranslations": ["これで釣り合いを取ろう。", "それでバランスが取れるはずだ。"],
-      "type": "idiom",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S04E16",
-      "usage": "日常的"
-    },
-    {
-      "id": "p428",
-      "phrase": "-wise (e.g. meat-wise)",
-      "meaning": "〜の観点では／〜的に言うと",
-      "scene": "特定の観点で話すとき",
-      "example1": "Money-wise, I’m fine.",
-      "example2": "Meat-wise, it works.",
-      "exampleTranslations": ["お金の面では大丈夫だ。", "肉に関しては、それで問題ない。"],
-      "type": "suffix",
+      "exampleTranslations": [
+        "これで釣り合いを取ろう。",
+        "それでバランスが取れるはずだ。"
+      ],
+      "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -1209,8 +1383,11 @@
       "scene": "ちょっと変な例えや表現をやわらかく言うとき",
       "example1": "It’s like a mental shield, if you will.",
       "example2": "A battle of egos, if you will.",
-      "exampleTranslations": ["言ってみれば、心の盾のようなものだ。", "言ってみれば、自尊心同士の戦いだ。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "言ってみれば、心の盾のようなものだ。",
+        "言ってみれば、自尊心同士の戦いだ。"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -1264,13 +1441,16 @@
     },
     {
       "id": "p435",
-      "phrase": "come out and say it",
-      "meaning": "はっきり言う／思い切って言う",
+      "phrase": "Come out and say it",
+      "meaning": "はっきり言いなよ／遠回しにせず言って",
       "scene": "遠回しをやめてストレートに言うとき",
       "example1": "I’m gonna come out and say it—I don’t like him.",
       "example2": "Let me just come out and say this.",
-      "exampleTranslations": ["はっきり言うけど、彼のことが好きじゃない。", "率直に言わせて。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "はっきり言うけど、彼のことが好きじゃない。",
+        "率直に言わせて。"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -1284,8 +1464,11 @@
       "scene": "不満や愚痴がたまってる話題のとき",
       "example1": "Don’t get me started on my boss.",
       "example2": "Oh, don’t even get me started.",
-      "exampleTranslations": ["上司の話は始めたら止まらないよ。", "ああ、その話はさせないで。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "上司の話は始めたら止まらないよ。",
+        "ああ、その話はさせないで。"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -1314,8 +1497,11 @@
       "scene": "軽く話題を変えるとき（ちょいユーモラス）",
       "example1": "By the by, did you call her?",
       "example2": "Uh, by the by, I forgot something.",
-      "exampleTranslations": ["ところで、彼女に電話した？", "あ、そういえば、忘れ物をした。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "ところで、彼女に電話した？",
+        "あ、そういえば、忘れ物をした。"
+      ],
+      "type": "phrase",
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
@@ -1324,12 +1510,15 @@
     },
     {
       "id": "p439",
-      "phrase": "be out of your hair",
+      "phrase": "be out of someone’s hair",
       "meaning": "邪魔をしない／すぐどく",
       "scene": "相手に気を遣って離れるとき",
       "example1": "I’ll be out of your hair in a minute.",
       "example2": "Let me finish this and I’ll be out of your hair.",
-      "exampleTranslations": ["あと少しで邪魔にならないようにするよ。", "これを終えたら、もう邪魔しないよ。"],
+      "exampleTranslations": [
+        "あと少しで邪魔にならないようにするよ。",
+        "これを終えたら、もう邪魔しないよ。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -1369,13 +1558,16 @@
     },
     {
       "id": "p442",
-      "phrase": "(This place is a) hole",
+      "phrase": "hole",
       "meaning": "ボロくて最悪な場所、しょぼい店",
       "scene": "汚い・狭い・居心地の悪い場所を雑にディスる時",
       "example1": "This bar is a hole.",
       "example2": "We can’t stay in this hole all night.",
-      "exampleTranslations": ["このバーはひどいボロ店だ。", "こんなボロ店に一晩中はいられない。"],
-      "type": "slang",
+      "exampleTranslations": [
+        "このバーはひどいボロ店だ。",
+        "こんなボロ店に一晩中はいられない。"
+      ],
+      "type": "word",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -1404,8 +1596,11 @@
       "scene": "予想外の展開や発言に驚いた時",
       "example1": "Wow, I didn’t see that coming.",
       "example2": "Nobody saw it coming.",
-      "exampleTranslations": ["うわ、それは予想してなかった。", "誰もそんな展開を予想していなかった。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "うわ、それは予想してなかった。",
+        "誰もそんな展開を予想していなかった。"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -1414,13 +1609,16 @@
     },
     {
       "id": "p445",
-      "phrase": "that’s what counts",
+      "phrase": "That’s what counts",
       "meaning": "大事なのはそこ、それが一番重要",
       "scene": "結果より気持ちや本質を重視する時",
       "example1": "You tried your best, and that’s what counts.",
       "example2": "It’s the effort that counts.",
-      "exampleTranslations": ["全力を尽くした。それが大事なんだ。", "大切なのは努力したことだ。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "全力を尽くした。それが大事なんだ。",
+        "大切なのは努力したことだ。"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -1429,18 +1627,22 @@
     },
     {
       "id": "p446",
-      "phrase": "rule / rule all",
-      "meaning": "最高だ、最強だ",
+      "phrase": "rule",
+      "meaning": "最高だ／めっちゃイケてる",
       "scene": "何かをノリよく褒める時",
       "example1": "This song rules.",
       "example2": "Dude, you rule.",
-      "exampleTranslations": ["この曲、最高。", "お前、最高だよ。"],
-      "type": "slang",
+      "exampleTranslations": [
+        "この曲、最高。",
+        "お前、最高だよ。"
+      ],
+      "type": "word",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
       "episode": "S04E19",
-      "usage": "やや古め"
+      "usage": "やや古め",
+      "note": "作中では「The Knicks rule all.」の形で、「ニックス最高！／ニックス最強！」くらいの砕けた意味で使われている。"
     },
     {
       "id": "p447",
@@ -1494,8 +1696,11 @@
       "scene": "相手を強く非難する時",
       "example1": "Shame on you for lying to her.",
       "example2": "Shame on you! That was cruel.",
-      "exampleTranslations": ["彼女に嘘をつくなんて恥を知りなさい。", "恥を知りなさい！ひどいことをしたね。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "彼女に嘘をつくなんて恥を知りなさい。",
+        "恥を知りなさい！ひどいことをしたね。"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -1504,28 +1709,35 @@
     },
     {
       "id": "p453",
-      "phrase": "What a shame / That’s a shame",
-      "meaning": "それは残念",
+      "phrase": "shame about ~",
+      "meaning": "〜のことは残念だ／〜は気の毒だ",
       "scene": "相手の不運や残念な出来事に反応する時",
       "example1": "You can’t come? That’s a shame.",
       "example2": "What a shame we missed the concert.",
-      "exampleTranslations": ["来られないの？それは残念だ。", "コンサートを見逃したなんて残念だ。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "来られないの？それは残念だ。",
+        "コンサートを見逃したなんて残念だ。"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
       "episode": "S04E22",
-      "usage": "日常的"
+      "usage": "日常的",
+      "note": "作中ではJoeyがChandlerに「Shame about you, man.」と、軽いからかい・勝ち誇ったニュアンスで使っている。"
     },
     {
       "id": "p454",
-      "phrase": "No shame in ~",
+      "phrase": "there’s no shame in ~",
       "meaning": "〜するのは恥じゃない",
       "scene": "誰かを励ましたり安心させたりする時",
       "example1": "There’s no shame in asking for help.",
       "example2": "No shame in taking a break sometimes.",
-      "exampleTranslations": ["助けを求めるのは恥ずかしいことじゃない。", "たまに休んだって恥ずかしいことじゃない。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "助けを求めるのは恥ずかしいことじゃない。",
+        "たまに休んだって恥ずかしいことじゃない。"
+      ],
+      "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -1554,8 +1766,11 @@
       "scene": "過去シーンを振り返るドラマ回について話す時",
       "example1": "This episode was basically a clip show.",
       "example2": "Sitcoms used to do clip shows a lot.",
-      "exampleTranslations": ["この回はほとんど総集編だった。", "昔のシットコムはよく総集編をやっていた。"],
-      "type": "media term",
+      "exampleTranslations": [
+        "この回はほとんど総集編だった。",
+        "昔のシットコムはよく総集編をやっていた。"
+      ],
+      "type": "word",
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
@@ -1569,8 +1784,11 @@
       "scene": "ストーリーや過去展開を整理する回について話す時",
       "example1": "It felt more like a recap episode.",
       "example2": "The recap episode helped me remember the story.",
-      "exampleTranslations": ["総集編のような回だった。", "総集編のおかげで物語を思い出せた。"],
-      "type": "media term",
+      "exampleTranslations": [
+        "総集編のような回だった。",
+        "総集編のおかげで物語を思い出せた。"
+      ],
+      "type": "word",
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
@@ -1584,8 +1802,11 @@
       "scene": "過去シーンが多いエピソードについて話す時",
       "example1": "There were so many flashbacks in this episode.",
       "example2": "I love flashback episodes.",
-      "exampleTranslations": ["この回は回想シーンがとても多かった。", "回想エピソードが大好きだ。"],
-      "type": "media term",
+      "exampleTranslations": [
+        "この回は回想シーンがとても多かった。",
+        "回想エピソードが大好きだ。"
+      ],
+      "type": "word",
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
@@ -1624,13 +1845,16 @@
     },
     {
       "id": "p462",
-      "phrase": "be bummed",
+      "phrase": "bummed",
       "meaning": "がっかりする、落ち込む",
       "scene": "残念な気持ちやモヤモヤを表すとき",
       "example1": "I was really bummed about the cancellation.",
       "example2": "She’s still bummed out about what happened.",
-      "exampleTranslations": ["中止になって本当にがっかりした。", "彼女は起きたことをまだ引きずって落ち込んでいる。"],
-      "type": "phrase",
+      "exampleTranslations": [
+        "中止になって本当にがっかりした。",
+        "彼女は起きたことをまだ引きずって落ち込んでいる。"
+      ],
+      "type": "word",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -1659,8 +1883,11 @@
       "scene": "最後のチャンスや大きな決断のとき",
       "example1": "If you’re gonna tell her, it’s now or never.",
       "example2": "Come on, now or never!",
-      "exampleTranslations": ["彼女に言うなら、今しかない。", "ほら、やるなら今しかないよ！"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "彼女に言うなら、今しかない。",
+        "ほら、やるなら今しかないよ！"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -1674,8 +1901,11 @@
       "scene": "自分の立場や本音を明確にしたいとき",
       "example1": "For the record, I never agreed to this.",
       "example2": "Just for the record, that wasn’t my idea.",
-      "exampleTranslations": ["念のため言っておくけど、私はこれに同意していない。", "念のため言っておくけど、それは私の案じゃなかった。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "念のため言っておくけど、私はこれに同意していない。",
+        "念のため言っておくけど、それは私の案じゃなかった。"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -1684,18 +1914,22 @@
     },
     {
       "id": "p466",
-      "phrase": "in a pickle / here’s a pickle",
-      "meaning": "困った状況で、ややこしい問題がある",
+      "phrase": "Here’s a pickle",
+      "meaning": "これは困ったことになった／ややこしい問題だ",
       "scene": "面倒な状況を軽く表現するとき",
       "example1": "We’re in a bit of a pickle now.",
       "example2": "Well, here’s a pickle.",
-      "exampleTranslations": ["今ちょっと困った状況になった。", "さて、困ったことになった。"],
-      "type": "idiom",
+      "exampleTranslations": [
+        "今ちょっと困った状況になった。",
+        "さて、困ったことになった。"
+      ],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
       "episode": "S04E23",
-      "usage": "やや古め"
+      "usage": "やや古め",
+      "note": "pickleには「困った状況」という意味があり、一般的にはin a pickleという言い方もある。作中ではRossが「Here’s a pickle」と使っている。"
     },
     {
       "id": "p467",
@@ -1704,8 +1938,11 @@
       "scene": "情報を明かせないときのフォーマルな表現",
       "example1": "I’m not at liberty to discuss that matter.",
       "example2": "I’m afraid I’m not at liberty to say more.",
-      "exampleTranslations": ["その件について話すことは許されていません。", "申し訳ありませんが、これ以上申し上げることはできません。"],
-      "type": "phrase",
+      "exampleTranslations": [
+        "その件について話すことは許されていません。",
+        "申し訳ありませんが、これ以上申し上げることはできません。"
+      ],
+      "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -1729,12 +1966,15 @@
     },
     {
       "id": "p469",
-      "phrase": "Don’t take that tone with me.",
+      "phrase": "Don’t take that tone with me",
       "meaning": "その口の利き方はやめなさい",
       "scene": "相手の態度や口調を咎めるとき",
       "example1": "Don’t take that tone with me, young man.",
       "example2": "I don’t appreciate you taking that tone with me.",
-      "exampleTranslations": ["私にそんな口の利き方をするな、若者。", "私にそんな口の利き方をされるのは不愉快です。"],
+      "exampleTranslations": [
+        "私にそんな口の利き方をするな、若者。",
+        "私にそんな口の利き方をされるのは不愉快です。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -1759,12 +1999,15 @@
     },
     {
       "id": "p471",
-      "phrase": "No good can come of this.",
+      "phrase": "No good can come of this",
       "meaning": "ろくなことにならない",
       "scene": "悪い予感がするとき",
       "example1": "No good can come of lying to your friends.",
       "example2": "I have a bad feeling. No good can come of this.",
-      "exampleTranslations": ["友達に嘘をついても、良いことなんて何もない。", "嫌な予感がする。こんなことをしても良い結果にはならない。"],
+      "exampleTranslations": [
+        "友達に嘘をついても、良いことなんて何もない。",
+        "嫌な予感がする。こんなことをしても良い結果にはならない。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -1789,12 +2032,15 @@
     },
     {
       "id": "p473",
-      "phrase": "You want a piece of me?",
+      "phrase": "You want a piece of me",
       "meaning": "やんのか？、喧嘩売ってるの？",
       "scene": "挑発的に相手へ言い返すとき",
       "example1": "You got a problem? You want a piece of me?",
       "example2": "Hey! You want a piece of me?",
-      "exampleTranslations": ["文句あるのか？俺とやる気か？", "おい！俺とやる気か？"],
+      "exampleTranslations": [
+        "文句あるのか？俺とやる気か？",
+        "おい！俺とやる気か？"
+      ],
       "type": "idiom",
       "priorityText": "★★☆",
       "priority": 2,
