@@ -34,7 +34,7 @@ Phrase一覧から、意味・場面・Examplesを収録したPhrase Detailを�
 - Examplesの日本語訳を表示 / 非表示
 - 🔊から英語例文を個別に音声読み上げ
 - Learned（覚えた）とBookmark
-- 重要・苦手・未習得・習得済み・使用感などの学習フィルター
+- 重要・苦手・未習得・習得済み・頻度・口調などの学習フィルター
 - 一覧の表示対象と順番を維持したPrevious / Next
 - 左右スワイプによるPrevious / Next移動
 
