@@ -17,7 +17,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E11",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -34,7 +33,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E11",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -51,7 +49,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E10",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -71,7 +68,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E12",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "casual"
     },
@@ -88,7 +84,6 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S05E15",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -108,7 +103,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E07",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -125,7 +119,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E02",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -146,7 +139,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E12",
-      "usage": "やや古め",
       "frequency": "general",
       "register": "slang"
     },
@@ -163,7 +155,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E14",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -180,7 +171,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E08",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -197,7 +187,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E06",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -214,7 +203,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E07",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -231,7 +219,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E01",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -248,7 +235,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E10",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -268,7 +254,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E07",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -288,7 +273,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E01",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -308,7 +292,6 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S05E03",
-      "usage": "やや古め",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -328,7 +311,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E11",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -348,7 +330,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E13",
-      "usage": "日常的",
       "frequency": "general",
       "register": "slang",
       "note": "be pissed at someoneで「someoneに腹を立てている」という用法。くだけた強い表現。"
@@ -366,7 +347,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E03",
-      "usage": "知っておきたい",
       "frequency": "general",
       "register": "neutral"
     },
@@ -386,7 +366,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E15",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -403,7 +382,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E02",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -423,7 +401,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E06",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -440,7 +417,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E04",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -460,7 +436,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E14",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -477,7 +452,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E06",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -497,7 +471,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E11",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -514,7 +487,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E13",
-      "usage": "日常的",
       "frequency": "general",
       "register": "casual"
     },
@@ -531,7 +503,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E01",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -548,7 +519,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E03",
-      "usage": "日常的",
       "frequency": "general",
       "register": "casual"
     },
@@ -569,7 +539,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E06",
-      "usage": "やや古め",
       "frequency": "general",
       "register": "casual"
     },
@@ -586,7 +555,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E06",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -603,7 +571,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E10",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -623,7 +590,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E05",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -640,7 +606,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E05",
-      "usage": "知っておきたい",
       "frequency": "general",
       "register": "neutral"
     },
@@ -660,7 +625,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E03",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -677,7 +641,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E01",
-      "usage": "知っておきたい",
       "frequency": "general",
       "register": "neutral"
     },
@@ -694,7 +657,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E03",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -711,7 +673,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E03",
-      "usage": "日常的",
       "frequency": "general",
       "register": "casual"
     },
@@ -731,7 +692,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E02",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -751,7 +711,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E03",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -768,7 +727,6 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S05E13",
-      "usage": "日常的",
       "frequency": "general",
       "register": "casual"
     },
@@ -785,7 +743,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E07",
-      "usage": "知っておきたい",
       "frequency": "general",
       "register": "neutral"
     },
@@ -802,7 +759,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E02",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -819,7 +775,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E12",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -836,7 +791,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E02",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -853,7 +807,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E12",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -870,7 +823,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E04",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -890,7 +842,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E08",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -907,7 +858,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E03",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -927,7 +877,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E10",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -944,7 +893,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E11",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -964,7 +912,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E06",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -981,7 +928,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E14",
-      "usage": "知っておきたい",
       "frequency": "general",
       "register": "neutral"
     },
@@ -998,7 +944,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E07",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1015,7 +960,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E10",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1035,7 +979,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E04",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "casual"
     },
@@ -1052,7 +995,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E06",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -1072,7 +1014,6 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S05E13",
-      "usage": "やや古め",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -1089,7 +1030,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E07",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1106,7 +1046,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E12",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -1126,7 +1065,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E02",
-      "usage": "日常的",
       "frequency": "general",
       "register": "casual"
     },
@@ -1143,7 +1081,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E05",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1160,7 +1097,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E02",
-      "usage": "日常的",
       "frequency": "general",
       "register": "slang"
     },
@@ -1177,7 +1113,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E12",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1194,7 +1129,6 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S05E10",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -1211,7 +1145,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E06",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -1231,7 +1164,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E10",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1248,7 +1180,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E05",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1265,7 +1196,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E12",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1285,7 +1215,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E09",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -1302,7 +1231,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E04",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1322,7 +1250,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E01",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1339,7 +1266,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E09",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1356,7 +1282,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E14",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -1376,7 +1301,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E14",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1393,7 +1317,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E02",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1410,7 +1333,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E05",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1427,7 +1349,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E02",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1444,7 +1365,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E09",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1461,7 +1381,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E05",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1481,7 +1400,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E10",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1498,7 +1416,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E06",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "casual"
     },
@@ -1515,7 +1432,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E07",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1532,7 +1448,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E10",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1552,7 +1467,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E14",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -1572,7 +1486,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E14",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1589,7 +1502,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E14",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1609,7 +1521,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E04",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1629,7 +1540,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E16",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral",
       "note": "作中ではソファの向きを変える場面で使われる。関連語pivotalは「極めて重要な／転換点となる」という意味。"
@@ -1650,7 +1560,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E20",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1667,7 +1576,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E19",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1684,7 +1592,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E20",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1704,7 +1611,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E20",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1724,7 +1630,6 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S05E21",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -1741,7 +1646,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E23",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1758,7 +1662,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E22",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1778,7 +1681,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E21",
-      "usage": "日常的",
       "frequency": "general",
       "register": "casual",
       "note": "jinxは「悪い運を招く／縁起を悪くする」という動詞。"
@@ -1799,7 +1701,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E21",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1816,7 +1717,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E23",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1833,7 +1733,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E21",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1853,7 +1752,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E19",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1873,7 +1771,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E22",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1893,7 +1790,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E18",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1913,7 +1809,6 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S05E21",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -1930,7 +1825,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E22",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1947,7 +1841,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E20",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1967,7 +1860,6 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S05E16",
-      "usage": "やや古め",
       "frequency": "limited",
       "register": "casual",
       "note": "元の語をshm-/schm-系でもじって繰り返す、口語的でユーモラスな語形成パターン。Friends S5では「Closeness-schmoseness!」の形で登場し、S10にはblueprint → schmooprintのような例もある。"
@@ -1985,7 +1877,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E16",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -2005,7 +1896,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E15",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -2022,7 +1912,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E16",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2039,7 +1928,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E18",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -2059,7 +1947,6 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S05E18",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "slang"
     },
@@ -2079,7 +1966,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E17",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -2099,7 +1985,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E22",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral",
       "note": "作中では「There’s a chance this may have been a dream.」の形で登場。may have + past participleは、過去について「〜した／〜だったかもしれない」と推量する形。"
@@ -2120,7 +2005,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E20",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -2137,7 +2021,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E22",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2157,7 +2040,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E17",
-      "usage": "日常的",
       "frequency": "general",
       "register": "casual"
     },
@@ -2174,7 +2056,6 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S05E18",
-      "usage": "やや古め",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -2191,7 +2072,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E16",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2211,7 +2091,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E24",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -2231,7 +2110,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E23",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -2251,7 +2129,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E20",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -2271,7 +2148,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E23",
-      "usage": "やや古め",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -2288,7 +2164,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E18",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -2308,7 +2183,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E23",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2328,7 +2202,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E23",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral",
       "note": "作中では「He just doesn’t want us to go through any trouble.」の形で登場。一般的にはgo to the trouble of ~ingという言い方もよく使う。"
@@ -2349,7 +2222,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E18",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -2366,7 +2238,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E15",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2386,7 +2257,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E23",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2403,7 +2273,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E23",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2423,7 +2292,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E23",
-      "usage": "日常的",
       "frequency": "general",
       "register": "slang"
     },
@@ -2443,7 +2311,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E20",
-      "usage": "やや古め",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -2463,7 +2330,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E22",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -2483,7 +2349,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E22",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -2503,7 +2368,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E20",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -2520,7 +2384,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E19",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2540,7 +2403,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E22",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2557,7 +2419,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E18",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -2577,7 +2438,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E17",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -2597,7 +2457,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E22",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2614,7 +2473,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E22",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2634,7 +2492,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E20",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -2654,7 +2511,6 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S05E16",
-      "usage": "やや古め",
       "frequency": "limited",
       "register": "slang"
     },
@@ -2671,7 +2527,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E19",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -2692,7 +2547,6 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S05E17",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -2709,7 +2563,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E16",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -2729,7 +2582,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S05E17",
-      "usage": "やや古め",
       "frequency": "limited",
       "register": "casual"
     }

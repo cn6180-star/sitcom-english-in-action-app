@@ -107,7 +107,7 @@ const LEGACY={phraseBookmarks:"phraseBookmarks",dialogueBookmarks:"dialogueBookm
 const BACKUP_KEYS=[LEGACY.phraseBookmarks,LEGACY.dialogueBookmarks,LEGACY.weak,STORE.state,STORE.continue,STORE.activity,STORE.history,STORE.dailyTarget,STORE.learned,STORE.dialogueLearned,STORE.sound];
 const backupContext={
   Set,Object,Array,Number,String,Date,JSON,Map,
-  PHRASES:[{id:"p1",type:"word",usage:"daily"}],DIALOGUES:[{id:"d1",title:"Work①"}],SEASONS:[1],
+  PHRASES:[{id:"p1",type:"word"}],DIALOGUES:[{id:"d1",title:"Work①"}],SEASONS:[1],
   STORE,LEGACY,BACKUP_KEYS,BACKUP_JSON_KEYS:new Set([LEGACY.phraseBookmarks,LEGACY.dialogueBookmarks,LEGACY.weak,STORE.state,STORE.continue,STORE.activity,STORE.history,STORE.learned,STORE.dialogueLearned]),
   BACKUP_APP:"Sitcom English in Action",BACKUP_SCHEMA_VERSION:1,APP_VERSION:"5.3",
   isPlainObject:value=>Boolean(value&&typeof value==="object"&&!Array.isArray(value)),

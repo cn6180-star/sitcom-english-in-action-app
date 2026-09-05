@@ -16,13 +16,13 @@ assert.equal(new Set(phrases.map(phrase=>phrase.id)).size,1056);
 
 const frequencies=new Set(["frequent","general","limited"]);
 const registers=new Set(["casual","neutral","polite","formal","slang"]);
-const usages=new Set(["日常的","知っておきたい","やや古め"]);
 for(const phrase of phrases){
+  assert.equal(Object.prototype.hasOwnProperty.call(phrase,"usage"),false,`${phrase.id} still has legacy usage`);
   assert.ok(frequencies.has(phrase.frequency),`${phrase.id} has invalid frequency`);
   assert.ok(registers.has(phrase.register),`${phrase.id} has invalid register`);
-  assert.ok(usages.has(phrase.usage),`${phrase.id} has invalid usage`);
-  const fields=Object.keys(phrase),usageIndex=fields.indexOf("usage");
-  assert.deepEqual(fields.slice(usageIndex,usageIndex+3),["usage","frequency","register"],`${phrase.id} field order mismatch`);
+  const fields=Object.keys(phrase),frequencyIndex=fields.indexOf("frequency");
+  assert.ok(frequencyIndex>=0,`${phrase.id} is missing frequency`);
+  assert.equal(fields[frequencyIndex+1],"register",`${phrase.id} field order mismatch`);
 }
 
 const expected={

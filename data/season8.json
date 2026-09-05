@@ -14,7 +14,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E03",
-      "usage": "やや古め",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -31,7 +30,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E01",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -48,7 +46,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E02",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -65,7 +62,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E01",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -82,7 +78,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E03",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -99,7 +94,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E04",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -116,7 +110,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E04",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -133,7 +126,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E02",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -150,7 +142,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E01",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -167,7 +158,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E04",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -185,7 +175,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E02",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -202,7 +191,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E03",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -219,7 +207,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E03",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -236,7 +223,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E02",
-      "usage": "やや古め",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -253,7 +239,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E03",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -271,7 +256,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E01",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -289,7 +273,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E01",
-      "usage": "日常的",
       "frequency": "general",
       "register": "slang"
     },
@@ -306,7 +289,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E05",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -324,7 +306,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E06",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -341,7 +322,6 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S08E03",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -358,7 +338,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E04",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -375,7 +354,6 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S08E03",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -393,7 +371,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E05",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -410,7 +387,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E05",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -428,7 +404,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E06",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -445,7 +420,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E05",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -462,7 +436,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E04",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -479,7 +452,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E06",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -496,7 +468,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E05",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -513,7 +484,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E06",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -530,7 +500,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E03",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -547,7 +516,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E04",
-      "usage": "やや古め",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -564,7 +532,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E07",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -581,7 +548,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E07",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -598,7 +564,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E07",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -615,7 +580,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E08",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -632,7 +596,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E09",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -650,7 +613,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E09",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -667,7 +629,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E07",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "formal"
     },
@@ -684,7 +645,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E09",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -701,7 +661,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E07",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -718,7 +677,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E09",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -735,7 +693,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E09",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -752,7 +709,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E07",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -769,7 +725,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E09",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -786,7 +741,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E10",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -803,7 +757,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E07",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -820,7 +773,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E08",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -837,7 +789,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E11",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -854,7 +805,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E13",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -871,7 +821,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E14",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -889,7 +838,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E11",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -907,7 +855,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E10",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -925,7 +872,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E13",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -942,7 +888,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E13",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -959,7 +904,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E13",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -976,7 +920,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E13",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -994,7 +937,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E11",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "casual"
     },
@@ -1012,7 +954,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E14",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -1029,7 +970,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E12",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1046,7 +986,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E12",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1064,7 +1003,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E17",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1081,7 +1019,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E14",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1098,7 +1035,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E14",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -1115,7 +1051,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E12",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1132,7 +1067,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E13",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1150,7 +1084,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E15",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1167,7 +1100,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E16",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1184,7 +1116,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E16",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1201,7 +1132,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E18",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1219,7 +1149,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E18",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -1236,7 +1165,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E17",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1253,7 +1181,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E17",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1271,7 +1198,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E15",
-      "usage": "日常的",
       "frequency": "general",
       "register": "slang"
     },
@@ -1288,7 +1214,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E18",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1305,7 +1230,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E15",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1322,7 +1246,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E15",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -1339,7 +1262,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E15",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1356,7 +1278,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E15",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1373,7 +1294,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E15",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1390,7 +1310,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E15",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1408,7 +1327,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E17",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "casual"
     },
@@ -1425,7 +1343,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E17",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1442,7 +1359,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E16",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1459,7 +1375,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E15",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1476,7 +1391,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E19",
-      "usage": "日常的",
       "frequency": "general",
       "register": "formal"
     },
@@ -1493,7 +1407,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E18",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -1510,7 +1423,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E20",
-      "usage": "日常的",
       "frequency": "general",
       "register": "casual"
     },
@@ -1527,7 +1439,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E20",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1544,7 +1455,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E21",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1562,7 +1472,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E21",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1579,7 +1488,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E22",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -1596,7 +1504,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E19",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -1613,7 +1520,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E20",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1630,7 +1536,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E19",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1647,7 +1552,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E20",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1664,7 +1568,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E21",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1681,7 +1584,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E20",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1698,7 +1600,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E17",
-      "usage": "知っておきたい",
       "frequency": "general",
       "register": "formal"
     },
@@ -1715,7 +1616,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E19",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1732,7 +1632,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E21",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1750,7 +1649,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E19",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1767,7 +1665,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E20",
-      "usage": "知っておきたい",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1784,7 +1681,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E22",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "neutral"
     },
@@ -1801,7 +1697,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E22",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1819,7 +1714,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E23",
-      "usage": "知っておきたい",
       "frequency": "limited",
       "register": "slang"
     },
@@ -1836,7 +1730,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E22",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1853,7 +1746,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E23",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1870,7 +1762,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E22",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1887,7 +1778,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E23",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1904,7 +1794,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S08E23",
-      "usage": "日常的",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1921,7 +1810,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E23",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1938,7 +1826,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E24",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1955,7 +1842,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E24",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1973,7 +1859,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E23",
-      "usage": "日常的",
       "frequency": "general",
       "register": "slang"
     },
@@ -1990,7 +1875,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E22",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -2007,7 +1891,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E23",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     },
@@ -2024,7 +1907,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S08E22",
-      "usage": "日常的",
       "frequency": "general",
       "register": "neutral"
     }
