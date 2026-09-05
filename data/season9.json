@@ -14,7 +14,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E01",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p979",
@@ -29,7 +31,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E01",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p980",
@@ -44,7 +48,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E01",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p981",
@@ -59,7 +65,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E01",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p982",
@@ -74,7 +82,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E02",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p983",
@@ -89,7 +99,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E02",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p984",
@@ -104,7 +116,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E01",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p985",
@@ -119,7 +133,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E02",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p986",
@@ -134,7 +150,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E01",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p987",
@@ -149,7 +167,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E02",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p988",
@@ -164,7 +184,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E02",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p989",
@@ -179,7 +201,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E03",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p990",
@@ -195,7 +219,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E04",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p991",
@@ -210,7 +236,9 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S09E04",
-      "usage": "やや古め"
+      "usage": "やや古め",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p992",
@@ -225,7 +253,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E04",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p993",
@@ -240,7 +270,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E04",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p994",
@@ -256,7 +288,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E03",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p995",
@@ -271,7 +305,9 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S09E04",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "formal"
     },
     {
       "id": "p996",
@@ -286,7 +322,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E03",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p997",
@@ -301,7 +339,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E04",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p998",
@@ -317,7 +357,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E03",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p999",
@@ -332,7 +374,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E04",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1000",
@@ -347,7 +391,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E05",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1001",
@@ -362,7 +408,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E05",
-      "usage": "やや古め"
+      "usage": "やや古め",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1002",
@@ -377,7 +425,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E05",
-      "usage": "やや古め"
+      "usage": "やや古め",
+      "frequency": "limited",
+      "register": "casual"
     },
     {
       "id": "p1003",
@@ -392,7 +442,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E06",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1004",
@@ -407,7 +459,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E06",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1005",
@@ -422,7 +476,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E05",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1006",
@@ -437,7 +493,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E05",
-      "usage": "やや古め"
+      "usage": "やや古め",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1007",
@@ -452,7 +510,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E05",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1008",
@@ -468,7 +528,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E08",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1009",
@@ -483,7 +545,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E08",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1010",
@@ -498,7 +562,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E08",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1011",
@@ -513,7 +579,9 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S09E07",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1012",
@@ -528,7 +596,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E08",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1013",
@@ -543,7 +613,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E08",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1014",
@@ -558,7 +630,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E07",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1015",
@@ -573,7 +647,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E08",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1016",
@@ -588,7 +664,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E08",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1017",
@@ -603,7 +681,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E10",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1018",
@@ -619,7 +699,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E09",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "general",
+      "register": "slang"
     },
     {
       "id": "p1019",
@@ -634,7 +716,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E10",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1020",
@@ -649,7 +733,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E09",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1021",
@@ -664,7 +750,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E09",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1022",
@@ -679,7 +767,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E09",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1023",
@@ -694,7 +784,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E10",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1024",
@@ -709,7 +801,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E09",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1025",
@@ -725,7 +819,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E12",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1026",
@@ -740,7 +836,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E12",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1027",
@@ -755,7 +853,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E11",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1028",
@@ -770,7 +870,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E11",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1029",
@@ -785,7 +887,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E11",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1030",
@@ -800,7 +904,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E11",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1031",
@@ -816,7 +922,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E11",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1032",
@@ -831,7 +939,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E12",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1033",
@@ -846,7 +956,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E12",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1034",
@@ -861,7 +973,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E11",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1035",
@@ -876,7 +990,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E11",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1036",
@@ -892,7 +1008,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E11",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1037",
@@ -908,7 +1026,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E12",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1038",
@@ -924,7 +1044,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E14",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1039",
@@ -939,7 +1061,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E13",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1040",
@@ -954,7 +1078,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E13",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1041",
@@ -969,7 +1095,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E13",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1042",
@@ -984,7 +1112,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E13",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1043",
@@ -999,7 +1129,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E14",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "slang"
     },
     {
       "id": "p1044",
@@ -1014,7 +1146,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E13",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1045",
@@ -1029,7 +1163,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E13",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1046",
@@ -1044,7 +1180,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E13",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1047",
@@ -1059,7 +1197,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E13",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1048",
@@ -1074,7 +1214,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E14",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1049",
@@ -1089,7 +1231,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E13",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1050",
@@ -1104,7 +1248,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E13",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1052",
@@ -1119,7 +1265,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E13",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1053",
@@ -1134,7 +1282,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E13",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1054",
@@ -1149,7 +1299,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E15",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1055",
@@ -1164,7 +1316,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E15",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1056",
@@ -1180,7 +1334,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E15",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1057",
@@ -1195,7 +1351,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E16",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1058",
@@ -1210,7 +1368,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E15",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1059",
@@ -1225,7 +1385,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E16",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "general",
+      "register": "formal"
     },
     {
       "id": "p1060",
@@ -1240,7 +1402,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E15",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1061",
@@ -1256,7 +1420,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E16",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "formal"
     },
     {
       "id": "p1062",
@@ -1271,7 +1437,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E18",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1063",
@@ -1286,7 +1454,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E18",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1064",
@@ -1301,7 +1471,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E17",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1065",
@@ -1316,7 +1488,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E17",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1066",
@@ -1331,7 +1505,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E18",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1067",
@@ -1346,7 +1522,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E18",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1068",
@@ -1361,7 +1539,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E18",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1069",
@@ -1377,7 +1557,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E18",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1070",
@@ -1392,7 +1574,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E19",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1071",
@@ -1407,7 +1591,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E19",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1072",
@@ -1422,7 +1608,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E20",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "casual"
     },
     {
       "id": "p1073",
@@ -1437,7 +1625,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E20",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1074",
@@ -1452,7 +1642,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E20",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1075",
@@ -1468,7 +1660,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E19",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1076",
@@ -1483,7 +1677,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E19",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1077",
@@ -1498,7 +1694,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E19",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1078",
@@ -1513,7 +1711,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E19",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "slang"
     },
     {
       "id": "p1079",
@@ -1529,7 +1729,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E20",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1080",
@@ -1544,7 +1746,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E20",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1081",
@@ -1559,7 +1763,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E21",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1082",
@@ -1574,7 +1780,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E22",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1083",
@@ -1589,7 +1797,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E21",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1084",
@@ -1604,7 +1814,9 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S09E21",
-      "usage": "やや古め"
+      "usage": "やや古め",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p1085",
@@ -1619,7 +1831,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E21",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1086",
@@ -1634,7 +1848,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E21",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1087",
@@ -1649,7 +1865,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E22",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1088",
@@ -1664,7 +1882,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E24",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p1089",
@@ -1679,7 +1899,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E23",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1090",
@@ -1694,7 +1916,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E23",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1091",
@@ -1709,7 +1933,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E24",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1092",
@@ -1724,7 +1950,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S09E24",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "casual"
     },
     {
       "id": "p1093",
@@ -1740,7 +1968,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E23",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     }
   ],
   "dialogues": [

@@ -17,7 +17,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E01",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p624",
@@ -35,7 +37,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E01",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p626",
@@ -53,7 +57,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E05",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p627",
@@ -71,7 +77,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E05",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p628",
@@ -86,7 +94,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E06",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p629",
@@ -101,7 +111,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E07",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p630",
@@ -116,7 +128,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E04",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p631",
@@ -134,7 +148,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E05",
-      "usage": "やや古め"
+      "usage": "やや古め",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p632",
@@ -152,7 +168,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E05",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "slang"
     },
     {
       "id": "p633",
@@ -170,7 +188,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E07",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p634",
@@ -188,7 +208,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E02",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p635",
@@ -206,7 +228,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E07",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p636",
@@ -221,7 +245,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E03",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p637",
@@ -239,7 +265,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E04",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p638",
@@ -257,7 +285,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E04",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p639",
@@ -275,7 +305,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E05",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p640",
@@ -290,7 +322,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E06",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p641",
@@ -308,7 +342,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E02",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p642",
@@ -323,7 +359,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E07",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p643",
@@ -341,7 +379,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E04",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p644",
@@ -356,7 +396,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E02",
-      "usage": "やや古め"
+      "usage": "やや古め",
+      "frequency": "limited",
+      "register": "casual"
     },
     {
       "id": "p645",
@@ -371,7 +413,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E05",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p646",
@@ -386,7 +430,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E07",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p647",
@@ -404,7 +450,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E02",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p649",
@@ -422,7 +470,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E05",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p650",
@@ -437,7 +487,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E07",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p651",
@@ -455,7 +507,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E02",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p652",
@@ -473,7 +527,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E01",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p653",
@@ -491,7 +547,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E03",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p654",
@@ -506,7 +564,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E01",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p655",
@@ -521,7 +581,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E08",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p656",
@@ -539,7 +601,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E03",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "casual"
     },
     {
       "id": "p657",
@@ -554,7 +618,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E03",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p658",
@@ -569,7 +635,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E01",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p659",
@@ -587,7 +655,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E01",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p660",
@@ -605,7 +675,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E05",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "formal"
     },
     {
       "id": "p661",
@@ -623,7 +695,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E04",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p662",
@@ -641,7 +715,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E06",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p663",
@@ -659,7 +735,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E05",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "casual"
     },
     {
       "id": "p664",
@@ -678,6 +756,8 @@
       "source": "Friends",
       "episode": "S06E06",
       "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral",
       "note": "作中では「try to make some of it back」の形で、失った金の一部を取り戻す意味で登場。"
     },
     {
@@ -685,6 +765,7 @@
       "phrase": "anal",
       "meaning": "過度に細かい／几帳面すぎる",
       "scene": "こだわりが強すぎる人をくだけて表す時",
+      "note": "「細かすぎる／几帳面すぎる」という俗語用法で、potentially offensive。",
       "example1": "He’s anal about organizing files.",
       "example2": "Monica is anal about cleanliness.",
       "exampleTranslations": [
@@ -696,7 +777,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E07",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "slang"
     },
     {
       "id": "p666",
@@ -714,7 +797,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E01",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p667",
@@ -732,7 +817,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E06",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p668",
@@ -750,7 +837,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E04",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "slang"
     },
     {
       "id": "p669",
@@ -768,7 +857,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E15",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p670",
@@ -786,7 +877,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E10",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p671",
@@ -801,7 +894,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E15",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p672",
@@ -819,7 +914,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E09",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p673",
@@ -834,7 +931,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E11",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p674",
@@ -852,7 +951,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E11",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p675",
@@ -870,7 +971,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E12",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p676",
@@ -885,7 +988,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E06",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p677",
@@ -900,7 +1005,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E14",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p678",
@@ -918,7 +1025,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E09",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p1098",
@@ -936,7 +1045,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E09",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p679",
@@ -954,7 +1065,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E09",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p680",
@@ -969,7 +1082,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E14",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p681",
@@ -984,7 +1099,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E10",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p682",
@@ -1002,7 +1119,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E07",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p683",
@@ -1017,7 +1136,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E09",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p684",
@@ -1035,7 +1156,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E08",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p685",
@@ -1050,7 +1173,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E14",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p686",
@@ -1065,7 +1190,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E16",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p687",
@@ -1083,7 +1210,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E12",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p688",
@@ -1098,7 +1227,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E11",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p689",
@@ -1113,7 +1244,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E12",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p690",
@@ -1131,7 +1264,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E09",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p691",
@@ -1149,13 +1284,16 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E10",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p692",
       "phrase": "jalopy",
       "meaning": "オンボロ車／ポンコツ車",
       "scene": "古くて壊れそうな車をコミカルに言う時",
+      "note": "古めでユーモラスな「オンボロ車」という表現。",
       "example1": "He still drives that old jalopy.",
       "example2": "My first car was a total jalopy.",
       "exampleTranslations": ["彼はまだあの古いポンコツ車に乗っている。", "初めての車は完全なポンコツだった。"],
@@ -1164,7 +1302,9 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S06E15",
-      "usage": "やや古め"
+      "usage": "やや古め",
+      "frequency": "limited",
+      "register": "casual"
     },
     {
       "id": "p693",
@@ -1182,7 +1322,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E16",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "slang"
     },
     {
       "id": "p694",
@@ -1200,7 +1342,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E10",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p695",
@@ -1218,13 +1362,16 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E15",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p696",
       "phrase": "take a hike",
       "meaning": "あっちへ行け／失せろ",
       "scene": "相手をくだけた言い方で追い払う時",
+      "note": "rudeな「あっち行け／失せろ」という表現だが、slang扱いまではしない。",
       "example1": "If you don’t like it, take a hike.",
       "example2": "He told me to take a hike.",
       "exampleTranslations": ["気に入らないなら、出ていけ。", "彼にあっちへ行けと言われた。"],
@@ -1233,7 +1380,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E10",
-      "usage": "やや古め"
+      "usage": "やや古め",
+      "frequency": "general",
+      "register": "casual"
     },
     {
       "id": "p697",
@@ -1251,7 +1400,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E14",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p698",
@@ -1266,7 +1417,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E08",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p699",
@@ -1284,7 +1437,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E12",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p700",
@@ -1302,7 +1457,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E16",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p701",
@@ -1317,7 +1474,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E14",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p702",
@@ -1335,7 +1494,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E14",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p703",
@@ -1353,7 +1514,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E12",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p704",
@@ -1371,7 +1534,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E12",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p705",
@@ -1389,7 +1554,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E12",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p706",
@@ -1404,7 +1571,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E14",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p707",
@@ -1419,7 +1588,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E12",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p708",
@@ -1438,6 +1609,8 @@
       "source": "Friends",
       "episode": "S06E12",
       "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral",
       "note": "inflict A upon Bとも言える。"
     },
     {
@@ -1453,7 +1626,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E13",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p710",
@@ -1471,7 +1646,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E09",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p711",
@@ -1489,7 +1666,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E14",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p712",
@@ -1507,7 +1686,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E12",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p713",
@@ -1525,7 +1706,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E12",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p714",
@@ -1540,7 +1723,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E15",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p715",
@@ -1558,7 +1743,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E12",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p716",
@@ -1573,7 +1760,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E18",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p717",
@@ -1591,7 +1780,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E19",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p718",
@@ -1609,7 +1800,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E22",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p719",
@@ -1627,7 +1820,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E24",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p720",
@@ -1645,7 +1840,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E21",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p721",
@@ -1663,7 +1860,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E20",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p722",
@@ -1681,7 +1880,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E22",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p723",
@@ -1699,7 +1900,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E21",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p724",
@@ -1717,7 +1920,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E18",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p725",
@@ -1735,7 +1940,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E23",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p726",
@@ -1750,7 +1957,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E19",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p727",
@@ -1768,7 +1977,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E17",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p728",
@@ -1786,7 +1997,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E21",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p729",
@@ -1804,7 +2017,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E19",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p730",
@@ -1822,7 +2037,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E19",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p731",
@@ -1840,7 +2057,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E19",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p732",
@@ -1855,7 +2074,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E23",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p733",
@@ -1873,7 +2094,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E24",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p734",
@@ -1888,7 +2111,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E25",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p735",
@@ -1907,6 +2132,8 @@
       "source": "Friends",
       "episode": "S06E21",
       "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral",
       "note": "get acquainted with someone/somethingの形で、someoneと知り合う、またはsomethingに慣れる／詳しくなる、という使い方もできる。作中では単にget acquaintedの形で登場。"
     },
     {
@@ -1926,6 +2153,8 @@
       "source": "Friends",
       "episode": "S06E23",
       "usage": "日常的",
+      "frequency": "general",
+      "register": "slang",
       "note": "mooch off of someoneという形も使われる。"
     },
     {
@@ -1944,7 +2173,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E21",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "slang"
     },
     {
       "id": "p738",
@@ -1962,7 +2193,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E21",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p739",
@@ -1980,7 +2213,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E18",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p740",
@@ -1995,7 +2230,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E23",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p741",
@@ -2013,7 +2250,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E17",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p742",
@@ -2031,7 +2270,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E18",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p743",
@@ -2046,7 +2287,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E18",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p744",
@@ -2064,7 +2307,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E18",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p745",
@@ -2083,6 +2328,8 @@
       "source": "Friends",
       "episode": "S06E24",
       "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral",
       "note": "作中では「It got me thinking.」の形で登場。"
     },
     {
@@ -2101,13 +2348,16 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E17",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p747",
       "phrase": "come traipsing in",
       "meaning": "のこのこ現れる／ふらっとやって来る",
       "scene": "遠慮なく、または遅れて気軽に入ってくる人を非難する時",
+      "note": "非難・呆れを込めて「のこのこ入ってくる」というニュアンス。",
       "example1": "He came traipsing into my office without knocking.",
       "example2": "She came traipsing in an hour late.",
       "exampleTranslations": ["彼はノックもせず、のこのこと私のオフィスに入ってきた。", "彼女は1時間遅れて、のこのこと入ってきた。"],
@@ -2116,7 +2366,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E19",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "general",
+      "register": "casual"
     },
     {
       "id": "p748",
@@ -2131,7 +2383,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E19",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p749",
@@ -2146,7 +2400,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E17",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "formal"
     },
     {
       "id": "p750",
@@ -2164,7 +2420,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E21",
-      "usage": "やや古め"
+      "usage": "やや古め",
+      "frequency": "limited",
+      "register": "casual"
     },
     {
       "id": "p751",
@@ -2182,7 +2440,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E19",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "slang"
     },
     {
       "id": "p752",
@@ -2200,7 +2460,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S06E17",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p753",
@@ -2215,7 +2477,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E19",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p754",
@@ -2233,7 +2497,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S06E21",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     }
   ],
   "dialogues": [

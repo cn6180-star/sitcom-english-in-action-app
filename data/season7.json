@@ -14,7 +14,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E01",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p758",
@@ -29,7 +31,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E01",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p759",
@@ -44,7 +48,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E02",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p760",
@@ -59,7 +65,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E01",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p761",
@@ -74,7 +82,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E02",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p762",
@@ -89,7 +99,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E02",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p763",
@@ -104,7 +116,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E01",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p764",
@@ -120,7 +134,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E03",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p765",
@@ -135,7 +151,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E03",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p767",
@@ -150,7 +168,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E04",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p768",
@@ -165,7 +185,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E03",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p769",
@@ -180,7 +202,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E03",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p770",
@@ -196,7 +220,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E03",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p771",
@@ -211,7 +237,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E03",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p772",
@@ -226,7 +254,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E03",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p773",
@@ -241,7 +271,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E03",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p774",
@@ -256,7 +288,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E03",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p775",
@@ -271,7 +305,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E03",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p776",
@@ -286,7 +322,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E04",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p777",
@@ -301,7 +339,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E03",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p778",
@@ -317,7 +357,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E03",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p779",
@@ -332,7 +374,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E08",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p780",
@@ -347,7 +391,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E05",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p781",
@@ -362,7 +408,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E08",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p782",
@@ -377,7 +425,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E09",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p783",
@@ -392,7 +442,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E07",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p784",
@@ -407,7 +459,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E10",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p785",
@@ -422,7 +476,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E09",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p786",
@@ -437,7 +493,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E05",
-      "usage": "やや古め"
+      "usage": "やや古め",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p787",
@@ -452,7 +510,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E10",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p788",
@@ -468,7 +528,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E06",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p789",
@@ -483,7 +545,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E06",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p790",
@@ -498,7 +562,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E06",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p791",
@@ -513,7 +579,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E09",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p792",
@@ -528,7 +596,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E05",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p793",
@@ -543,7 +613,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E05",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p794",
@@ -558,7 +630,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E09",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p795",
@@ -573,7 +647,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E12",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p796",
@@ -588,7 +664,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E13",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p797",
@@ -603,7 +681,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E12",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p798",
@@ -618,7 +698,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E11",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p799",
@@ -633,7 +715,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E13",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "casual"
     },
     {
       "id": "p800",
@@ -648,7 +732,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E12",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p801",
@@ -663,7 +749,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E13",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p802",
@@ -678,7 +766,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E11",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p803",
@@ -693,7 +783,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E13",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p804",
@@ -708,7 +800,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E11",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p805",
@@ -723,7 +817,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E13",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p806",
@@ -738,7 +834,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E14",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p807",
@@ -753,7 +851,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E13",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p808",
@@ -768,7 +868,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E13",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p809",
@@ -783,7 +885,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E13",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p810",
@@ -799,7 +903,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E14",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "casual"
     },
     {
       "id": "p811",
@@ -814,7 +920,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E11",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p812",
@@ -829,7 +937,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E11",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p813",
@@ -844,7 +954,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E14",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p814",
@@ -859,7 +971,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E15",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p815",
@@ -875,7 +989,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E15",
-      "usage": "やや古め"
+      "usage": "やや古め",
+      "frequency": "limited",
+      "register": "casual"
     },
     {
       "id": "p816",
@@ -890,7 +1006,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E15",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p817",
@@ -905,7 +1023,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E16",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p818",
@@ -921,7 +1041,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E15",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p819",
@@ -936,7 +1058,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E15",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p820",
@@ -951,7 +1075,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E16",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p821",
@@ -966,7 +1092,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E15",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p822",
@@ -981,7 +1109,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E15",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p823",
@@ -996,7 +1126,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E15",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p824",
@@ -1011,7 +1143,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E16",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p825",
@@ -1027,7 +1161,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E15",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p826",
@@ -1042,7 +1178,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E16",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p827",
@@ -1057,7 +1195,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E18",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p828",
@@ -1072,7 +1212,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E18",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p829",
@@ -1087,7 +1229,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E17",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p830",
@@ -1103,7 +1247,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E18",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p831",
@@ -1118,7 +1264,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E17",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p832",
@@ -1133,7 +1281,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E17",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p833",
@@ -1148,7 +1298,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E18",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p834",
@@ -1163,7 +1315,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E18",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p835",
@@ -1178,7 +1332,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E17",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p836",
@@ -1193,7 +1349,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E18",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "casual"
     },
     {
       "id": "p837",
@@ -1208,7 +1366,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E18",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p838",
@@ -1223,7 +1383,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E18",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "casual"
     },
     {
       "id": "p839",
@@ -1238,7 +1400,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E21",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "casual"
     },
     {
       "id": "p840",
@@ -1253,7 +1417,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E24",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p841",
@@ -1268,7 +1434,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E19",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p842",
@@ -1283,7 +1451,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E20",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p843",
@@ -1298,7 +1468,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E23",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p844",
@@ -1313,7 +1485,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E19",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p845",
@@ -1328,7 +1502,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E23",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p846",
@@ -1343,7 +1519,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E24",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p847",
@@ -1358,7 +1536,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E19",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p848",
@@ -1373,7 +1553,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E19",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p849",
@@ -1388,7 +1570,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E19",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p850",
@@ -1403,7 +1587,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E19",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "casual"
     },
     {
       "id": "p851",
@@ -1419,7 +1605,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E20",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p852",
@@ -1434,7 +1622,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E22",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p853",
@@ -1449,7 +1639,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E20",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p854",
@@ -1464,7 +1656,9 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E21",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "frequent",
+      "register": "neutral"
     },
     {
       "id": "p855",
@@ -1479,7 +1673,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E19",
-      "usage": "知っておきたい"
+      "usage": "知っておきたい",
+      "frequency": "limited",
+      "register": "neutral"
     },
     {
       "id": "p856",
@@ -1494,7 +1690,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E22",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p857",
@@ -1510,7 +1708,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E24",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     },
     {
       "id": "p858",
@@ -1525,7 +1725,9 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E24",
-      "usage": "日常的"
+      "usage": "日常的",
+      "frequency": "general",
+      "register": "neutral"
     }
   ],
   "dialogues": [
