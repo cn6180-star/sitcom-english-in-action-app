@@ -24,7 +24,7 @@ const context={
 vm.createContext(context);
 vm.runInContext(`${labels}${helpers}${sanitizer}${filtered}${backupState};this.api={phraseFrequencyLabel,phraseRegisterLabel,sanitizeSavedPhraseFilters,filteredPhrases,safeBackupState};`,context);
 
-for(const [value,label] of Object.entries({frequent:"頻出",general:"一般",limited:"限定"}))assert.equal(context.api.phraseFrequencyLabel(value),label);
+for(const [value,label] of Object.entries({frequent:"頻繁",general:"時々",limited:"まれ"}))assert.equal(context.api.phraseFrequencyLabel(value),label);
 for(const [value,label] of Object.entries({casual:"砕けた",neutral:"普通",polite:"丁寧",formal:"硬め",slang:"俗語"}))assert.equal(context.api.phraseRegisterLabel(value),label);
 assert.equal(context.api.phraseFrequencyLabel("unknown"),"unknown");
 assert.equal(context.api.phraseRegisterLabel("unknown"),"unknown");
@@ -71,6 +71,13 @@ assert.equal(restoredNew.filters.phrase.register,"formal");
 
 assert.match(source,/for="frequencyFilter">頻度/);
 assert.match(source,/for="registerFilter">口調/);
+assert.match(source,/const TYPE_FILTER_ORDER=\["phrase","idiom","word","phrasal verb","pattern","grammar"\]/);
+assert.match(source,/const FREQUENCY_FILTER_ORDER=\["frequent","general","limited"\]/);
+assert.match(source,/const REGISTER_FILTER_ORDER=\["neutral","casual","slang","formal","polite"\]/);
+assert.match(source,/\['important','★★★'\]/);
+assert.doesNotMatch(source,/\['important','重要'\]/);
+assert.doesNotMatch(source,/頻度：\$\{esc\(phraseFrequencyLabel\(p\.frequency\)\)\}/);
+assert.doesNotMatch(source,/口調：\$\{esc\(phraseRegisterLabel\(p\.register\)\)\}/);
 assert.doesNotMatch(source,/for="usageFilter">使用感/);
 assert.doesNotMatch(source,/esc\(p\.usage\)/);
 
