@@ -66,22 +66,6 @@
       "register": "neutral"
     },
     {
-      "id": "p982",
-      "phrase": "put something aside",
-      "meaning": "（問題・感情などを）ひとまず脇に置く",
-      "scene": "問題や感情、意見の違いをひとまず脇に置いて先へ進むとき",
-      "example1": "Let's put our differences aside.",
-      "example2": "Can we put that aside for now?",
-      "exampleTranslations": ["意見の違いはひとまず脇に置こう。", "今はその話を脇に置いておけない？"],
-      "type": "phrasal verb",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S09E02",
-      "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
       "id": "p983",
       "phrase": "I’ve got news for you",
       "meaning": "言っとくけどね、残念ながら現実はね……",
@@ -240,22 +224,6 @@
       "source": "Friends",
       "episode": "S09E04",
       "frequency": "limited",
-      "register": "neutral"
-    },
-    {
-      "id": "p993",
-      "phrase": "on top of that",
-      "meaning": "そのうえ／さらに／おまけに",
-      "scene": "すでにある問題に、さらに別の問題が重なった時",
-      "example1": "I was late, and on top of that, I forgot my phone.",
-      "example2": "The room was tiny, and on top of that, it was noisy.",
-      "exampleTranslations": ["遅刻したうえに、携帯まで忘れた。", "部屋は狭く、そのうえ騒がしかった。"],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S09E04",
-      "frequency": "frequent",
       "register": "neutral"
     },
     {
@@ -824,22 +792,6 @@
       "register": "neutral"
     },
     {
-      "id": "p1029",
-      "phrase": "Let me put it this way",
-      "meaning": "こう言えば分かりやすいかな。別の言い方をすると。",
-      "scene": "言い換えや例え話で説明するとき",
-      "example1": "Let me put it this way: It wasn't a success.",
-      "example2": "Let me put it this way—you won't like the answer.",
-      "exampleTranslations": ["こう言っておこう。成功とは言えなかった。", "こう言えば分かるかな。その答えは気に入らないと思うよ。"],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S09E11",
-      "frequency": "general",
-      "register": "neutral"
-    },
-    {
       "id": "p1030",
       "phrase": "cheeky",
       "meaning": "生意気な、図々しい（少し憎めないニュアンス）",
@@ -984,22 +936,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E14",
-      "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
-      "id": "p1039",
-      "phrase": "be up for it",
-      "meaning": "それをする気がある、乗り気である",
-      "scene": "誘いや提案に対して、気力や興味があるか尋ねるとき",
-      "example1": "We’re going out for dinner if you’re up for it.",
-      "example2": "I’m not really up for a party tonight.",
-      "exampleTranslations": ["その気があるなら、夕食を食べに行こう。", "今夜はあまりパーティーの気分じゃない。"],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S09E13",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1342,22 +1278,6 @@
       "register": "formal"
     },
     {
-      "id": "p1062",
-      "phrase": "have something to do with ~",
-      "meaning": "～と何らかの関係がある、～に多少関与している",
-      "scene": "出来事の原因や成功に、自分や何かが少し関係していると言うとき",
-      "example1": "I think stress had something to do with it.",
-      "example2": "I’d like to think I had something to do with her success.",
-      "exampleTranslations": ["ストレスが何か関係していたと思う。", "彼女の成功に私も少しは関わっていたと思いたい。"],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S09E18",
-      "frequency": "general",
-      "register": "neutral"
-    },
-    {
       "id": "p1063",
       "phrase": "skittish",
       "meaning": "神経質な、警戒してビクビクした",
@@ -1568,22 +1488,6 @@
       "register": "neutral"
     },
     {
-      "id": "p1076",
-      "phrase": "be wound up",
-      "meaning": "緊張している、神経が高ぶっている、ピリピリしている",
-      "scene": "緊張・不安・興奮で神経が高ぶっているとき",
-      "example1": "I’ve been really wound up lately.",
-      "example2": "He’s a little wound up about the interview.",
-      "exampleTranslations": ["最近ずっとかなり張り詰めている。", "彼は面接のことで少し緊張している。"],
-      "type": "phrase",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S09E19",
-      "frequency": "general",
-      "register": "neutral"
-    },
-    {
       "id": "p1077",
       "phrase": "be booked solid",
       "meaning": "予約・予定がびっしり埋まっている",
@@ -1677,22 +1581,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S09E22",
-      "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
-      "id": "p1083",
-      "phrase": "end up ~ing",
-      "meaning": "結局〜することになる／最終的に〜してしまう",
-      "scene": "当初の予定や予想とは違う結果になったとき",
-      "example1": "We ended up talking until midnight.",
-      "example2": "I went in just to look, but I ended up buying it.",
-      "exampleTranslations": ["結局、真夜中まで話していた。", "見るだけのつもりで入ったのに、結局買ってしまった。"],
-      "type": "phrasal verb",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S09E21",
       "frequency": "frequent",
       "register": "neutral"
     },

@@ -1331,22 +1331,6 @@
       "register": "neutral"
     },
     {
-      "id": "p698",
-      "phrase": "come clean",
-      "meaning": "白状する／正直に話す",
-      "scene": "隠し事や嘘を認める時",
-      "example1": "He finally came clean about the mistake.",
-      "example2": "Just come clean and tell me the truth.",
-      "exampleTranslations": ["彼はついにそのミスについて正直に白状した。", "正直に全部話して、本当のことを教えて。"],
-      "type": "phrasal verb",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S06E08",
-      "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
       "id": "p699",
       "phrase": "A smile goes a long way",
       "meaning": "笑顔は意外と大きな効果がある",
@@ -1910,25 +1894,6 @@
       "type": "phrase",
       "priorityText": "★★☆",
       "priority": 2,
-      "source": "Friends",
-      "episode": "S06E19",
-      "frequency": "general",
-      "register": "neutral"
-    },
-    {
-      "id": "p730",
-      "phrase": "in the middle of something",
-      "meaning": "取り込み中／何かの途中",
-      "scene": "今は別の作業中で対応できない時",
-      "example1": "Sorry, I’m in the middle of something.",
-      "example2": "Can I call you back? I’m in the middle of a meeting.",
-      "exampleTranslations": [
-        "ごめん、今ちょっと手が離せない。",
-        "あとでかけ直していい？今、会議の途中なんだ。"
-      ],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
       "source": "Friends",
       "episode": "S06E19",
       "frequency": "general",

@@ -258,25 +258,6 @@
       "register": "neutral"
     },
     {
-      "id": "p489",
-      "phrase": "for all I know",
-      "meaning": "ひょっとしたら〜かもしれない／私には分からないが",
-      "scene": "実際は分からないけど推測する時",
-      "example1": "For all I know, he already left.",
-      "example2": "For all I know, they’re dating now.",
-      "exampleTranslations": [
-        "ひょっとしたら、彼はもう帰ったかもしれない。",
-        "私の知らないところで、今は二人が付き合ってるかもしれない。"
-      ],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S05E01",
-      "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
       "id": "p490",
       "phrase": "newfangled",
       "meaning": "今どきの妙に新しい、ハイテクな",
@@ -1235,25 +1216,6 @@
       "register": "neutral"
     },
     {
-      "id": "p547",
-      "phrase": "have a point",
-      "meaning": "一理ある",
-      "scene": "相手の意見に部分的に納得した時",
-      "example1": "You’ve got a point.",
-      "example2": "She may have a point.",
-      "exampleTranslations": [
-        "一理あるね。",
-        "彼女の言うことにも一理あるかもしれない。"
-      ],
-      "type": "phrase",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S05E01",
-      "frequency": "general",
-      "register": "neutral"
-    },
-    {
       "id": "p548",
       "phrase": "come out of the closet",
       "meaning": "カミングアウトする（特に性的指向について）",
@@ -1916,22 +1878,6 @@
       "register": "neutral"
     },
     {
-      "id": "p586",
-      "phrase": "step aside",
-      "meaning": "身を引く／譲る",
-      "scene": "主導権や立場を譲る時",
-      "example1": "I’ll step aside.",
-      "example2": "It’s time to step aside.",
-      "exampleTranslations": ["私は身を引くよ。", "そろそろ身を引く時だ。"],
-      "type": "phrasal verb",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S05E18",
-      "frequency": "general",
-      "register": "neutral"
-    },
-    {
       "id": "p587",
       "phrase": "bum something",
       "meaning": "1個もらう／タダでもらう",
@@ -1988,25 +1934,6 @@
       "frequency": "general",
       "register": "neutral",
       "note": "作中では「There’s a chance this may have been a dream.」の形で登場。may have + past participleは、過去について「〜した／〜だったかもしれない」と推量する形。"
-    },
-    {
-      "id": "p590",
-      "phrase": "what this is all about",
-      "meaning": "本当の目的、核心、裏の理由",
-      "scene": "相手の真意に気付いた時",
-      "example1": "So that’s what this is all about.",
-      "example2": "Is that what this has been all about?",
-      "exampleTranslations": [
-        "つまり、そういうことだったのか。",
-        "ずっとそのことが原因だったの？"
-      ],
-      "type": "phrase",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S05E20",
-      "frequency": "general",
-      "register": "neutral"
     },
     {
       "id": "p591",
@@ -2261,22 +2188,6 @@
       "register": "neutral"
     },
     {
-      "id": "p605",
-      "phrase": "think something through",
-      "meaning": "〜を最後までよく考える、検討する",
-      "scene": "重要な決断、人生相談、計画",
-      "example1": "I need time to think this through.",
-      "example2": "Have you really thought it through?",
-      "exampleTranslations": ["これをよく考える時間が必要だ。", "本当に最後までよく考えた？"],
-      "type": "phrasal verb",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S05E23",
-      "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
       "id": "p606",
       "phrase": "ditch someone",
       "meaning": "（人を）置き去りにする、見捨てる、約束をすっぽかす",
@@ -2404,22 +2315,6 @@
       "source": "Friends",
       "episode": "S05E22",
       "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
-      "id": "p613",
-      "phrase": "be in charge of ~",
-      "meaning": "～担当である／任されている",
-      "scene": "役割分担・責任の説明",
-      "example1": "I’m in charge of drinks.",
-      "example2": "Who’s in charge here?",
-      "exampleTranslations": ["飲み物は私の担当です。", "ここの責任者は誰ですか？"],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S05E18",
-      "frequency": "general",
       "register": "neutral"
     },
     {

@@ -131,22 +131,6 @@
       "register": "slang"
     },
     {
-      "id": "p140",
-      "phrase": "cave (in)",
-      "meaning": "折れる／屈する",
-      "scene": "最初は抵抗してたのに結局譲ったとき",
-      "example1": "He finally caved in to pressure.",
-      "example2": "I didn’t want to, but I caved.",
-      "exampleTranslations": ["彼はついにプレッシャーに屈した。", "嫌だったけど、折れてしまった。"],
-      "type": "phrasal verb",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S02E03",
-      "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
       "id": "p141",
       "phrase": "hang someone up",
       "meaning": "（人を）引っかからせる／前に進めなくする",
@@ -1144,22 +1128,6 @@
       "register": "neutral"
     },
     {
-      "id": "p207",
-      "phrase": "Really? You don’t say",
-      "meaning": "へえそうなん（←知ってるけど）",
-      "scene": "obviousなことに皮肉で返すとき",
-      "example1": "Really? You don’t say.",
-      "example2": "Oh, you don’t say.",
-      "exampleTranslations": ["へえ、そうなんだ。", "へえ、そうなの。"],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S02E16",
-      "frequency": "frequent",
-      "register": "casual"
-    },
-    {
       "id": "p208",
       "phrase": "Now you’re talking",
       "meaning": "そうそうそれや／それでこそ",
@@ -1687,22 +1655,6 @@
       "source": "Friends",
       "episode": "S02E22",
       "frequency": "limited",
-      "register": "neutral"
-    },
-    {
-      "id": "p242",
-      "phrase": "it never occurred to someone to ~",
-      "meaning": "someoneには〜しようと思いもつかない",
-      "scene": "後から気づくとき",
-      "example1": "It never occurred to me.",
-      "example2": "It never occurred to me to call him.",
-      "exampleTranslations": ["そんなこと思いつきもしなかった。", "彼に電話するなんて思いつきもしなかった。"],
-      "type": "pattern",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S02E22",
-      "frequency": "general",
       "register": "neutral"
     },
     {

@@ -50,22 +50,6 @@
       "register": "neutral"
     },
     {
-      "id": "p260",
-      "phrase": "freak someone out",
-      "meaning": "ビビらせる／ゾワッとさせる",
-      "scene": "不安や気味悪さを感じたとき",
-      "example1": "That noise freaked me out.",
-      "example2": "You’re freaking me out.",
-      "exampleTranslations": ["あの音にはびっくりした。", "あなたのせいで怖くなってきた。"],
-      "type": "phrasal verb",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S03E01",
-      "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
       "id": "p261",
       "phrase": "just out of curiosity",
       "meaning": "ちょっと気になっただけ",
@@ -74,22 +58,6 @@
       "example2": "Just out of curiosity, why did you quit?",
       "exampleTranslations": ["ただの好奇心だけど、何歳なの？", "ちょっと気になったんだけど、どうして辞めたの？"],
       "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S03E02",
-      "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
-      "id": "p262",
-      "phrase": "way to ~",
-      "meaning": "よくやった／よくも〜してくれた（文脈により称賛・皮肉）",
-      "scene": "相手が台無しにしたとき",
-      "example1": "Way to mess it up.",
-      "example2": "Way to ruin it.",
-      "exampleTranslations": ["見事に台無しにしてくれたね。", "よくも台無しにしてくれたね。"],
-      "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -128,22 +96,6 @@
       "episode": "S03E03",
       "frequency": "frequent",
       "register": "casual"
-    },
-    {
-      "id": "p265",
-      "phrase": "get carried away",
-      "meaning": "調子に乗りすぎる／やりすぎる",
-      "scene": "テンションが上がってやりすぎたとき",
-      "example1": "Sorry, I got carried away.",
-      "example2": "I got a little carried away and bought too much.",
-      "exampleTranslations": ["ごめん、つい夢中になっちゃった。", "ちょっと調子に乗って、買いすぎた。"],
-      "type": "phrasal verb",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S03E03",
-      "frequency": "frequent",
-      "register": "neutral"
     },
     {
       "id": "p266",
@@ -226,38 +178,6 @@
       "register": "slang"
     },
     {
-      "id": "p272",
-      "phrase": "blow it",
-      "meaning": "やらかす／チャンスを逃す",
-      "scene": "ミスして後悔するとき",
-      "example1": "I blew it.",
-      "example2": "Don’t blow it this time.",
-      "exampleTranslations": ["しくじった。", "今度はしくじらないで。"],
-      "type": "idiom",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S03E05",
-      "frequency": "frequent",
-      "register": "slang"
-    },
-    {
-      "id": "p273",
-      "phrase": "blow off",
-      "meaning": "すっぽかす／無視する",
-      "scene": "約束や人を軽く扱うとき",
-      "example1": "He blew me off.",
-      "example2": "She blew off the meeting.",
-      "exampleTranslations": ["彼は私を相手にしなかった。", "彼女は会議をすっぽかした。"],
-      "type": "phrasal verb",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S03E05",
-      "frequency": "frequent",
-      "register": "slang"
-    },
-    {
       "id": "p274",
       "phrase": "blow away",
       "meaning": "圧倒する／感動させる",
@@ -287,22 +207,6 @@
       "source": "Friends",
       "episode": "S03E05",
       "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
-      "id": "p277",
-      "phrase": "be out of someone’s league",
-      "meaning": "自分には釣り合わない（レベルが上すぎる）",
-      "scene": "恋愛や能力の差を軽く言うとき",
-      "example1": "She’s out of my league.",
-      "example2": "That job is way out of his league.",
-      "exampleTranslations": ["彼女は私には高嶺の花だ。", "その仕事は彼の手には到底負えない。"],
-      "type": "idiom",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S03E05",
-      "frequency": "general",
       "register": "neutral"
     },
     {
@@ -578,22 +482,6 @@
       "register": "neutral"
     },
     {
-      "id": "p297",
-      "phrase": "hit on someone",
-      "meaning": "ナンパする／口説く",
-      "scene": "初対面で軽くアプローチするとき",
-      "example1": "He hit on her at the bar.",
-      "example2": "Don’t hit on her right away.",
-      "exampleTranslations": ["彼はバーで彼女をナンパした。", "いきなり彼女を口説かないで。"],
-      "type": "phrasal verb",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S03E12",
-      "frequency": "frequent",
-      "register": "slang"
-    },
-    {
       "id": "p298",
       "phrase": "to top it off",
       "meaning": "そのうえ／最後の追加として／さらに追い打ちで",
@@ -810,22 +698,6 @@
       "example1": "You helped me, so it’s only fair I help you.",
       "example2": "They waited longer, so it’s only fair they go first.",
       "exampleTranslations": ["あなたが助けてくれたんだから、私が助けるのが当然だ。", "彼らのほうが長く待ったんだから、先に行くのが公平だ。"],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S03E17",
-      "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
-      "id": "p312",
-      "phrase": "in the first place",
-      "meaning": "そもそも／最初から",
-      "scene": "理由や出発点を説明するとき",
-      "example1": "Why did you do that in the first place?",
-      "example2": "That’s why I came here in the first place.",
-      "exampleTranslations": ["そもそも、どうしてそんなことをしたの？", "そもそも、それが理由でここに来たんだ。"],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -1219,22 +1091,6 @@
       "episode": "S03E24",
       "frequency": "frequent",
       "register": "neutral"
-    },
-    {
-      "id": "p337",
-      "phrase": "Don’t get me wrong",
-      "meaning": "誤解しないでほしいけど",
-      "scene": "意見を和らげる前置き",
-      "example1": "Don’t get me wrong, I like him.",
-      "example2": "Don’t get me wrong, but this isn’t a good idea.",
-      "exampleTranslations": ["誤解しないで、彼のことは好きだよ。", "誤解しないでほしいけど、これは良い案じゃない。"],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S03E24",
-      "frequency": "frequent",
-      "register": "casual"
     },
     {
       "id": "p338",
@@ -2293,7 +2149,7 @@
       "phraseLinks": [
         "p341",
         "p261",
-        "p297",
+        "p69",
         "p296",
         "p260"
       ]

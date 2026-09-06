@@ -162,23 +162,6 @@
       "register": "neutral"
     },
     {
-      "id": "p869",
-      "phrase": "call out to someone",
-      "meaning": "someoneに呼びかける／人や物が魅力的に感じられる",
-      "note": "無生物がcall out to someoneの形を取ると、「魅力的に感じられる／誘惑するように感じられる」という擬人的用法になる。",
-      "scene": "誰かを呼ぶ時や、物に抗えない時の冗談として",
-      "example1": "I heard someone calling out to me.",
-      "example2": "Those cookies were calling out to me.",
-      "exampleTranslations": ["誰かが私を呼ぶ声が聞こえた。", "あのクッキーが私を呼んでたんだよ。"],
-      "type": "phrasal verb",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S08E02",
-      "frequency": "general",
-      "register": "neutral"
-    },
-    {
       "id": "p870",
       "phrase": "get an earful",
       "meaning": "散々文句を言われる／長々と聞かされる",
@@ -1492,38 +1475,6 @@
       "register": "neutral"
     },
     {
-      "id": "p952",
-      "phrase": "kill someone off",
-      "meaning": "ドラマなどで登場人物を退場・死亡させる",
-      "scene": "作品のストーリー展開について話す時",
-      "example1": "They killed my favorite character off.",
-      "example2": "I can’t believe they killed him off.",
-      "exampleTranslations": ["私の好きな登場人物が劇中で殺された。", "彼を退場させたなんて信じられない。"],
-      "type": "phrasal verb",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S08E19",
-      "frequency": "limited",
-      "register": "neutral"
-    },
-    {
-      "id": "p953",
-      "phrase": "tell someone off",
-      "meaning": "きつく叱る／言い返す",
-      "scene": "失礼な相手や間違った行動を厳しく注意する時",
-      "example1": "She told him off.",
-      "example2": "My boss told me off for being late.",
-      "exampleTranslations": ["彼女は彼をきつく叱った。", "遅刻して上司に叱られた。"],
-      "type": "phrasal verb",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S08E20",
-      "frequency": "general",
-      "register": "neutral"
-    },
-    {
       "id": "p954",
       "phrase": "keep something in check",
       "meaning": "感情・行動・状況などを抑える／コントロールする",
@@ -1602,22 +1553,6 @@
       "episode": "S08E17",
       "frequency": "general",
       "register": "formal"
-    },
-    {
-      "id": "p959",
-      "phrase": "give someone the dirt",
-      "meaning": "ゴシップや裏話を教える",
-      "scene": "噂話や内幕を知っている人に話してほしい時",
-      "example1": "Come on, give me the dirt.",
-      "example2": "She knows all the dirt about the office.",
-      "exampleTranslations": ["ねえ、裏話を教えてよ。", "彼女は職場の裏話を全部知っている。"],
-      "type": "idiom",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S08E19",
-      "frequency": "general",
-      "register": "neutral"
     },
     {
       "id": "p960",

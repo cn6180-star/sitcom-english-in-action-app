@@ -502,25 +502,6 @@
       "register": "neutral"
     },
     {
-      "id": "p376",
-      "phrase": "Don’t take this the wrong way",
-      "meaning": "悪く受け取らないでほしい",
-      "scene": "失礼になりそうな発言の前置き",
-      "example1": "Don’t take this the wrong way, but you look tired.",
-      "example2": "Don’t take this the wrong way, but that’s not a good idea.",
-      "exampleTranslations": [
-        "悪く取らないでほしいんだけど、疲れて見えるよ。",
-        "悪く取らないでほしいんだけど、それは良い案じゃない。"
-      ],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S04E06",
-      "frequency": "general",
-      "register": "casual"
-    },
-    {
       "id": "p377",
       "phrase": "no offense",
       "meaning": "悪気はないけど／気を悪くしないで",
@@ -629,22 +610,6 @@
       "register": "neutral"
     },
     {
-      "id": "p383",
-      "phrase": "go behind someone’s back",
-      "meaning": "本人に内緒で勝手にやる",
-      "scene": "裏でコソコソ行動されたとき",
-      "example1": "Why did you go behind my back?",
-      "example2": "He went behind her back and told the boss.",
-      "exampleTranslations": ["どうして私に隠れてそんなことをしたの？", "彼は彼女に内緒で上司に話した。"],
-      "type": "idiom",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S04E08",
-      "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
       "id": "p384",
       "phrase": "be over the line",
       "meaning": "一線を越えている／やりすぎ",
@@ -656,25 +621,6 @@
         "今回は本当にやりすぎたよ。"
       ],
       "type": "idiom",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S04E08",
-      "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
-      "id": "p385",
-      "phrase": "be for the best",
-      "meaning": "結果的に最善である／これでよかった",
-      "scene": "微妙な結果を前向きに捉えるとき",
-      "example1": "Maybe it’s for the best.",
-      "example2": "It all worked out for the best.",
-      "exampleTranslations": [
-        "たぶん、そのほうがいいんだよ。",
-        "結局すべて一番良い形に収まった。"
-      ],
-      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
@@ -697,25 +643,6 @@
       "episode": "S04E09",
       "frequency": "frequent",
       "register": "neutral"
-    },
-    {
-      "id": "p388",
-      "phrase": "next thing you know, ~",
-      "meaning": "次に気づいたときには〜／いつの間にか〜ということになる",
-      "scene": "流れで状況が変わったとき",
-      "example1": "Next thing you know, we were dating.",
-      "example2": "Next thing you know, it’s midnight.",
-      "exampleTranslations": [
-        "気づいたら、私たちは付き合っていた。",
-        "気づけば真夜中だよ。"
-      ],
-      "type": "pattern",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S04E09",
-      "frequency": "general",
-      "register": "casual"
     },
     {
       "id": "p389",
@@ -753,25 +680,6 @@
       "source": "Friends",
       "episode": "S04E09",
       "frequency": "general",
-      "register": "neutral"
-    },
-    {
-      "id": "p391",
-      "phrase": "pick on someone",
-      "meaning": "いじめられる／からかわれる",
-      "scene": "ターゲットにされているとき",
-      "example1": "Why are you picking on me?",
-      "example2": "He gets picked on a lot.",
-      "exampleTranslations": [
-        "なんで私ばかりいじめるの？",
-        "彼はよくからかわれる。"
-      ],
-      "type": "phrasal verb",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S04E10",
-      "frequency": "frequent",
       "register": "neutral"
     },
     {
@@ -1293,22 +1201,6 @@
       "source": "Friends",
       "episode": "S04E15",
       "frequency": "general",
-      "register": "neutral"
-    },
-    {
-      "id": "p422",
-      "phrase": "bring someone down",
-      "meaning": "気分を下げる／テンションを落とす",
-      "scene": "出来事や発言で気分が沈むとき",
-      "example1": "Don’t bring me down.",
-      "example2": "That news really brought me down.",
-      "exampleTranslations": ["私を落ち込ませないで。", "その知らせで本当に落ち込んだ。"],
-      "type": "phrasal verb",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S04E15",
-      "frequency": "frequent",
       "register": "neutral"
     },
     {
@@ -1971,22 +1863,6 @@
       "episode": "S04E23",
       "frequency": "frequent",
       "register": "neutral"
-    },
-    {
-      "id": "p463",
-      "phrase": "don’t be so hard on yourself",
-      "meaning": "自分を責めすぎないで",
-      "scene": "落ち込んでいる人を慰めるとき",
-      "example1": "You made one mistake. Don’t be so hard on yourself.",
-      "example2": "Try to relax and stop being so hard on yourself.",
-      "exampleTranslations": ["ミスは一つだけだよ。そんなに自分を責めないで。", "少し力を抜いて、自分に厳しくしすぎないで。"],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S04E23",
-      "frequency": "general",
-      "register": "casual"
     },
     {
       "id": "p464",

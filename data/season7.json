@@ -131,22 +131,6 @@
       "register": "neutral"
     },
     {
-      "id": "p765",
-      "phrase": "calm down",
-      "meaning": "落ち着く",
-      "scene": "怒り・不安・興奮で取り乱している人をなだめる時",
-      "example1": "Calm down and tell me what happened.",
-      "example2": "Everybody needs to calm down.",
-      "exampleTranslations": ["落ち着いて、何があったか話して。", "みんな落ち着く必要がある。"],
-      "type": "phrasal verb",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S07E03",
-      "frequency": "general",
-      "register": "neutral"
-    },
-    {
       "id": "p767",
       "phrase": "give someone/something a wide berth",
       "meaning": "人や物を大きく避ける／十分な距離を置く",
@@ -550,22 +534,6 @@
       "register": "neutral"
     },
     {
-      "id": "p792",
-      "phrase": "be better off ~",
-      "meaning": "〜した方がいい／〜の方がましだ／〜の方が良い状態だ",
-      "scene": "長い目で見てどちらが得か・良いかを助言する時",
-      "example1": "We’re better off without them.",
-      "example2": "You’d be better off waiting a few days.",
-      "exampleTranslations": ["彼らがいないほうが私たちにはいい。", "数日待ったほうがいいよ。"],
-      "type": "pattern",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S07E05",
-      "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
       "id": "p793",
       "phrase": "divert someone",
       "meaning": "人や物の方向を変える／注意を別の方向へそらす",
@@ -722,22 +690,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S07E11",
-      "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
-      "id": "p803",
-      "phrase": "move on",
-      "meaning": "気持ちを切り替える／前に進む／吹っ切れる",
-      "scene": "失恋・失敗・悲しい出来事のあとに次へ進む時",
-      "example1": "It’s time to move on.",
-      "example2": "She finally moved on after the breakup.",
-      "exampleTranslations": ["そろそろ前に進む時だ。", "彼女は別れたあと、ようやく気持ちを切り替えた。"],
-      "type": "phrasal verb",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S07E13",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1195,22 +1147,6 @@
       "register": "neutral"
     },
     {
-      "id": "p832",
-      "phrase": "fan out",
-      "meaning": "散らばる／手分けして広がる",
-      "scene": "捜索や作業のため各方向へ分かれる時",
-      "example1": "When the doors open, fan out.",
-      "example2": "Let’s fan out and search the area.",
-      "exampleTranslations": ["ドアが開いたら、散らばって。", "手分けしてこの辺りを探そう。"],
-      "type": "phrasal verb",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S07E17",
-      "frequency": "general",
-      "register": "neutral"
-    },
-    {
       "id": "p833",
       "phrase": "pull a stunt",
       "meaning": "バカな真似をする／突飛な行動をする",
@@ -1416,22 +1352,6 @@
       "source": "Friends",
       "episode": "S07E23",
       "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
-      "id": "p846",
-      "phrase": "drift apart",
-      "meaning": "疎遠になる／自然と離れていく",
-      "scene": "親しかった人と時間とともに少しずつ距離ができる時",
-      "example1": "We just drifted apart.",
-      "example2": "Old friends sometimes drift apart.",
-      "exampleTranslations": ["私たちは自然と疎遠になった。", "昔の友達同士でも、時には疎遠になる。"],
-      "type": "phrasal verb",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S07E24",
-      "frequency": "general",
       "register": "neutral"
     },
     {
