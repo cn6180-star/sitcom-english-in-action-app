@@ -28,9 +28,6 @@ const brokenLinks=dialogues.flatMap(dialogue=>(dialogue.phraseLinks||[])
   .filter(id=>!phraseIds.has(id))
   .map(id=>`${dialogue.id}:${id}`)
 ).sort();
-assert.deepEqual(brokenLinks,[
-  "d102:p625","d103:p755","d124:p766","d125:p757","d39:p369",
-  "d44:p428","d47:p369","d82:p540","d94:p648"
-]);
+assert.deepEqual(brokenLinks,[]);
 
-console.log("duplicate Phrase cleanup tests passed");
+console.log("duplicate Phrase cleanup and Dialogue link tests passed");

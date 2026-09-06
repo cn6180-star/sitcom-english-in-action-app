@@ -66,7 +66,7 @@ assert.equal(dialogueById.get("d37").phraseLinks.includes("p297"),false);
 assert.equal(dialogueById.get("d37").phraseLinks.includes("p69"),true);
 assert.equal(
   crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),
-  "c43748a8735d9cb99d5b28382b0a24ee2778d553e3b50965715d22ffd9973a59"
+  "c04798a87427a0463104859e3fa3353284912d7648a96bc0e0f563d06931075d"
 );
 
 console.log("Season 1 Phrase expansion tests passed");
