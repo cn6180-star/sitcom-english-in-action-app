@@ -81,4 +81,29 @@ assert.doesNotMatch(source,/口調：\$\{esc\(phraseRegisterLabel\(p\.register\)
 assert.doesNotMatch(source,/for="usageFilter">使用感/);
 assert.doesNotMatch(source,/esc\(p\.usage\)/);
 
+const scrollSource=source.slice(source.indexOf("function phraseFilterScrollPosition"),source.indexOf("function phraseFilterPanel"));
+const scrollElements={season:{scrollLeft:120},episode:{scrollLeft:480}};
+const scrollContext={
+  document:{querySelector:selector=>selector.includes('"season"')?scrollElements.season:selector.includes('"episode"')?scrollElements.episode:null},
+  route:{name:"phrases"},filters:{phrase:{season:"1",episode:"24"}},
+  saveAppState:()=>{},renderBookmarks:()=>{},
+  renderPhrasePage:()=>{scrollElements.season.scrollLeft=0;scrollElements.episode.scrollLeft=0},
+  setPhraseScope:()=>{}
+};
+vm.runInNewContext(`${scrollSource};globalThis.setPhraseFilter=setPhraseFilter`,scrollContext);
+scrollContext.setPhraseFilter("episode","23");
+assert.equal(scrollContext.filters.phrase.episode,"23");
+assert.equal(scrollElements.season.scrollLeft,120);
+assert.equal(scrollElements.episode.scrollLeft,480);
+
+scrollElements.season.scrollLeft=84;
+scrollElements.episode.scrollLeft=360;
+scrollContext.setPhraseFilter("season","2");
+assert.equal(scrollContext.filters.phrase.season,"2");
+assert.equal(scrollContext.filters.phrase.episode,"ALL");
+assert.equal(scrollElements.season.scrollLeft,84);
+assert.equal(scrollElements.episode.scrollLeft,0);
+assert.match(source,/phraseFilterChips\("season"/);
+assert.match(source,/phraseFilterChips\("episode"/);
+
 console.log("phrase frequency/register UI and filter tests passed");

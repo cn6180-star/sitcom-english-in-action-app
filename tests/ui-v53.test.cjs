@@ -38,12 +38,14 @@ for(const removed of["Bookmarks","Progress","Browse by Season","How to use"]){
 
 const help=source.slice(source.indexOf("function openHelp"),source.indexOf("function pageHeader"));
 assert.match(help,/このアプリ内で学習しやすくするための独自分類/);
-for(const type of["word","phrase","idiom","phrasal verb","pattern","grammar"]){
+for(const type of["単語","フレーズ","イディオム","句動詞","型","文法"]){
   assert.match(help,new RegExp(`<strong>${type}<\\/strong>`));
 }
-assert.match(help,/frequent \/ general \/ limited/);
+assert.match(help,/頻繁 \/ 時々 \/ まれ/);
 assert.match(help,/★☆☆ \/ ★★☆ \/ ★★★/);
-assert.match(help,/FrequencyとPriority（★）は別の軸/);
+assert.match(help,/頻度とPriority（★）は別の軸/);
+assert.match(help,/砕けた・普通・丁寧・硬め・俗語/);
+assert.doesNotMatch(help,/<strong>(?:word|phrase|idiom|phrasal verb|pattern|grammar)<\/strong>/);
 assert.match(help,/頻出＝必ず★★★ではありません/);
 assert.match(source,/Version 5\.4/);
 
