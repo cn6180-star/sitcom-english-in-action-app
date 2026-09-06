@@ -14,8 +14,8 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const dialogueById=new Map(dialogues.map(dialogue=>[dialogue.id,dialogue]));
 
-assert.equal(phrases.length,1512);
-assert.equal(new Set(phrases.map(phrase=>phrase.id)).size,1512);
+assert.equal(phrases.length,1511);
+assert.equal(new Set(phrases.map(phrase=>phrase.id)).size,1511);
 assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),1559);
 assert.equal(byId.has("p297"),false);
 assert.equal(byId.has("p69"),true);
@@ -66,7 +66,7 @@ assert.equal(dialogueById.get("d37").phraseLinks.includes("p297"),false);
 assert.equal(dialogueById.get("d37").phraseLinks.includes("p69"),true);
 assert.equal(
   crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),
-  "c04798a87427a0463104859e3fa3353284912d7648a96bc0e0f563d06931075d"
+  "fc1087f5d916efabb5c1a93591f629102283d89663afe71e3da88397df99eb90"
 );
 
 console.log("Season 1 Phrase expansion tests passed");

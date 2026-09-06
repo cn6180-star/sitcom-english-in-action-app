@@ -1774,22 +1774,6 @@
       "register": "neutral"
     },
     {
-      "id": "p121",
-      "phrase": "How’s it going",
-      "meaning": "調子どう？／最近どう？",
-      "scene": "カジュアルな挨拶",
-      "example1": "Hey, how’s it going?",
-      "example2": "How’s it going at your new job?",
-      "exampleTranslations": ["やあ、調子どう？", "新しい仕事はどう？"],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S01E24",
-      "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
       "id": "p122",
       "phrase": "How’re you holding up",
       "meaning": "大丈夫？／耐えられてる？",
@@ -9381,7 +9365,7 @@
         ]
       ],
       "phraseLinks": [
-        "p121",
+        "p1148",
         "p4",
         "p9",
         "p10",
