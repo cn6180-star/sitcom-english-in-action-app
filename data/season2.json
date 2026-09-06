@@ -1658,22 +1658,6 @@
       "register": "neutral"
     },
     {
-      "id": "p243",
-      "phrase": "chances are ~",
-      "meaning": "たぶん〜だろう",
-      "scene": "可能性が高いことを予測するとき",
-      "example1": "The chances are he forgot.",
-      "example2": "The chances are it’ll rain later.",
-      "exampleTranslations": ["たぶん彼は忘れたんだろう。", "あとで雨が降る可能性が高い。"],
-      "type": "pattern",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S02E23",
-      "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
       "id": "p244",
       "phrase": "feel left out",
       "meaning": "仲間外れにされた感じがする",
@@ -1732,22 +1716,6 @@
       "type": "word",
       "priorityText": "★★☆",
       "priority": 2,
-      "source": "Friends",
-      "episode": "S02E23",
-      "frequency": "general",
-      "register": "neutral"
-    },
-    {
-      "id": "p248",
-      "phrase": "make a day of it",
-      "meaning": "一日がかりで楽しむ",
-      "scene": "予定を拡張してしっかり楽しむとき",
-      "example1": "Let’s make a day of it.",
-      "example2": "We made a day of the trip.",
-      "exampleTranslations": ["一日たっぷり楽しもう。", "その旅行を一日がかりで楽しんだ。"],
-      "type": "idiom",
-      "priorityText": "★★★",
-      "priority": 3,
       "source": "Friends",
       "episode": "S02E23",
       "frequency": "general",
@@ -2151,7 +2119,7 @@
         "p190",
         "p150",
         "p177",
-        "p248",
+        "p38",
         "p226",
         "p171",
         "p254"
@@ -2294,7 +2262,7 @@
         "p165",
         "p135",
         "p131",
-        "p243",
+        "p12",
         "p179",
         "p219"
       ]

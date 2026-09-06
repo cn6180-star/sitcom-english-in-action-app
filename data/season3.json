@@ -723,22 +723,6 @@
       "register": "neutral"
     },
     {
-      "id": "p314",
-      "phrase": "your call",
-      "meaning": "君の判断で",
-      "scene": "判断を相手に委ねるとき",
-      "example1": "It’s your call.",
-      "example2": "Totally your call.",
-      "exampleTranslations": ["あなたが決めて。", "完全にあなた次第だよ。"],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S03E17",
-      "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
       "id": "p315",
       "phrase": "be civil",
       "meaning": "礼儀正しく振る舞う／礼儀を守る",
@@ -1306,7 +1290,7 @@
         "p295",
         "p264",
         "p296",
-        "p314",
+        "p194",
         "p304"
       ]
     },

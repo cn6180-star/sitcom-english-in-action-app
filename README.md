@@ -7,9 +7,9 @@ GitHub Pages / PWAで動作する、海外ドラマ英語の学習アプリで�
 ## 収録データ
 
 - Friends Season 1–9 available — For Everyday English
-- 1398 phrases
+- 1395 phrases
 - 167 dialogues
-- 2796 examples
+- 2790 examples
 - Friends Season 10 Coming Soon
 - The Big Bang Theory — For Advanced English（Coming Soon）
 
