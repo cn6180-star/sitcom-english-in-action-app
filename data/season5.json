@@ -1699,25 +1699,6 @@
       "register": "neutral"
     },
     {
-      "id": "p576",
-      "phrase": "get into ~",
-      "meaning": "詳しく話し始める、掘り下げる",
-      "scene": "面倒な説明や長い話になりそうな時",
-      "example1": "I don’t want to get into it right now.",
-      "example2": "Do you really want me to get into the details?",
-      "exampleTranslations": [
-        "今はその話を詳しくしたくない。",
-        "本当に私に細かい話までしてほしいの？"
-      ],
-      "type": "phrasal verb",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S05E19",
-      "frequency": "general",
-      "register": "neutral"
-    },
-    {
       "id": "p577",
       "phrase": "furious",
       "meaning": "激怒している／ひどく腹を立てている",

@@ -498,22 +498,6 @@
       "register": "neutral"
     },
     {
-      "id": "p299",
-      "phrase": "run into ~",
-      "meaning": "ばったり会う（偶然）",
-      "scene": "予想外に誰かと会ったとき",
-      "example1": "I ran into Tom at the mall.",
-      "example2": "Guess who I ran into yesterday!",
-      "exampleTranslations": ["ショッピングモールでトムに偶然会った。", "昨日誰にばったり会ったと思う？"],
-      "type": "phrasal verb",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S03E13",
-      "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
       "id": "p300",
       "phrase": "Let this be a lesson",
       "meaning": "これを教訓にしろ",
@@ -1170,22 +1154,6 @@
       "source": "Friends",
       "episode": "S03E25",
       "frequency": "limited",
-      "register": "neutral"
-    },
-    {
-      "id": "p344",
-      "phrase": "either that or ~",
-      "meaning": "それか／もしくは〜",
-      "scene": "軽く2択を出すとき",
-      "example1": "Either that or he forgot.",
-      "example2": "Either that or she’s lying.",
-      "exampleTranslations": ["そうでなければ、彼が忘れたんだ。", "そうでなければ、彼女が嘘をついている。"],
-      "type": "pattern",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S03E25",
-      "frequency": "frequent",
       "register": "neutral"
     },
     {

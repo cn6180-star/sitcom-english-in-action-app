@@ -721,26 +721,6 @@
       "note": "作中では「try to make some of it back」の形で、失った金の一部を取り戻す意味で登場。"
     },
     {
-      "id": "p665",
-      "phrase": "anal",
-      "meaning": "過度に細かい／几帳面すぎる",
-      "scene": "こだわりが強すぎる人をくだけて表す時",
-      "note": "「細かすぎる／几帳面すぎる」という俗語用法で、potentially offensive。",
-      "example1": "He’s anal about organizing files.",
-      "example2": "Monica is anal about cleanliness.",
-      "exampleTranslations": [
-        "彼はファイル整理に異常なほど細かい。",
-        "モニカは清潔さにものすごく神経質だ。"
-      ],
-      "type": "word",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S06E07",
-      "frequency": "general",
-      "register": "slang"
-    },
-    {
       "id": "p666",
       "phrase": "make it up to someone",
       "meaning": "埋め合わせをする／お詫びする",

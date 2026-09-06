@@ -591,25 +591,6 @@
       "register": "neutral"
     },
     {
-      "id": "p382",
-      "phrase": "One thing led to another",
-      "meaning": "なんやかんやあって",
-      "scene": "詳しい説明をぼかしたいとき",
-      "example1": "We started talking, and one thing led to another.",
-      "example2": "I went out for a drink, and one thing led to another.",
-      "exampleTranslations": [
-        "話をしているうちに、成り行きでそうなった。",
-        "一杯飲みに出たら、成り行きでいろいろあってね。"
-      ],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S04E08",
-      "frequency": "general",
-      "register": "neutral"
-    },
-    {
       "id": "p384",
       "phrase": "be over the line",
       "meaning": "一線を越えている／やりすぎ",
@@ -732,22 +713,6 @@
       "source": "Friends",
       "episode": "S04E10",
       "frequency": "general",
-      "register": "neutral"
-    },
-    {
-      "id": "p395",
-      "phrase": "fit in",
-      "meaning": "馴染む",
-      "scene": "周囲に溶け込めるか話すとき",
-      "example1": "I want to fit in.",
-      "example2": "I don’t fit in here.",
-      "exampleTranslations": ["周りになじみたい。", "ここにはなじめない。"],
-      "type": "phrasal verb",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S04E10",
-      "frequency": "frequent",
       "register": "neutral"
     },
     {
@@ -1169,22 +1134,6 @@
       "register": "formal"
     },
     {
-      "id": "p420",
-      "phrase": "meant to be",
-      "meaning": "運命だ／なるべくしてなった",
-      "scene": "偶然が重なったときや皮肉で",
-      "example1": "I guess it was meant to be.",
-      "example2": "Talk about meant to be.",
-      "exampleTranslations": ["きっとそうなる運命だったんだ。", "まさに運命ってこういうことだね。"],
-      "type": "idiom",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S04E15",
-      "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
       "id": "p421",
       "phrase": "not leave someone much choice",
       "meaning": "ほとんど選択肢がない状態にする",
@@ -1350,25 +1299,6 @@
       "register": "neutral"
     },
     {
-      "id": "p431",
-      "phrase": "if you will",
-      "meaning": "言ってみれば／あえて言うなら",
-      "scene": "ちょっと変な例えや表現をやわらかく言うとき",
-      "example1": "It’s like a mental shield, if you will.",
-      "example2": "A battle of egos, if you will.",
-      "exampleTranslations": [
-        "言ってみれば、心の盾のようなものだ。",
-        "言ってみれば、自尊心同士の戦いだ。"
-      ],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S04E17",
-      "frequency": "general",
-      "register": "polite"
-    },
-    {
       "id": "p432",
       "phrase": "bring something up with someone",
       "meaning": "（人に）話を切り出す",
@@ -1434,25 +1364,6 @@
       "episode": "S04E17",
       "frequency": "general",
       "register": "neutral"
-    },
-    {
-      "id": "p436",
-      "phrase": "Don’t get me started",
-      "meaning": "その話はやめて／語り出したら止まらん",
-      "scene": "不満や愚痴がたまってる話題のとき",
-      "example1": "Don’t get me started on my boss.",
-      "example2": "Oh, don’t even get me started.",
-      "exampleTranslations": [
-        "上司の話は始めたら止まらないよ。",
-        "ああ、その話はさせないで。"
-      ],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S04E18",
-      "frequency": "frequent",
-      "register": "casual"
     },
     {
       "id": "p437",

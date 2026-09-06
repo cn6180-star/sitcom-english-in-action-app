@@ -1727,23 +1727,6 @@
       "episode": "S09E24",
       "frequency": "general",
       "register": "casual"
-    },
-    {
-      "id": "p1093",
-      "phrase": "be hung up on ~",
-      "meaning": "〜に未練がある／〜にこだわりすぎている",
-      "note": "人に対しては「未練がある／引きずっている」、物事に対しては「こだわりすぎる／気にしすぎる」の意味になる。",
-      "scene": "過去の恋愛をまだ引きずっていて、相手への未練が残っていると話す場面",
-      "example1": "She's still hung up on her ex.",
-      "example2": "Don't get too hung up on the details.",
-      "exampleTranslations": ["彼女はまだ元彼に未練がある。", "細かいことにこだわりすぎないで。"],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S09E23",
-      "frequency": "general",
-      "register": "neutral"
     }
   ],
   "dialogues": [

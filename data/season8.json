@@ -941,22 +941,6 @@
       "register": "neutral"
     },
     {
-      "id": "p918",
-      "phrase": "It’s not like ~",
-      "meaning": "別に～ってわけじゃない",
-      "scene": "相手の大げさな評価や決めつけを弱める時",
-      "example1": "It’s not like it’s a masterpiece.",
-      "example2": "It’s not like it’s rocket science.",
-      "exampleTranslations": ["別に傑作ってわけじゃない。", "別にそんなに難しいことじゃない。"],
-      "type": "pattern",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S08E12",
-      "frequency": "general",
-      "register": "neutral"
-    },
-    {
       "id": "p919",
       "phrase": "hog something",
       "meaning": "～を独り占めする／占領する",

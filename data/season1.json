@@ -4925,7 +4925,8 @@
       "source": "Friends",
       "episode": "S01E08",
       "frequency": "frequent",
-      "register": "casual"
+      "register": "casual",
+      "note": "`Wait a second.`, `Wait a minute.`も自然なvariation。`minute`は実際の1分を意味せず、驚いて話を止めるときにもよく使う。S02E03では `Wait a minute.` が使われている。"
     },
     {
       "id": "p1214",

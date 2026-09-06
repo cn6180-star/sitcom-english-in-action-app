@@ -34,22 +34,6 @@
       "register": "neutral"
     },
     {
-      "id": "p759",
-      "phrase": "stand one’s ground",
-      "meaning": "自分の立場を守る／譲らない",
-      "scene": "圧力を受けても自分の意見や立場を変えない時",
-      "example1": "You need to stand your ground.",
-      "example2": "She stood her ground during the argument.",
-      "exampleTranslations": ["自分の立場を貫かないと。", "彼女は口論の間も一歩も引かなかった。"],
-      "type": "idiom",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S07E02",
-      "frequency": "general",
-      "register": "neutral"
-    },
-    {
       "id": "p760",
       "phrase": "Let’s just say ~",
       "meaning": "まあ〜ってことにしておこう／〜とだけ言っておこう",
@@ -790,23 +774,6 @@
       "register": "neutral"
     },
     {
-      "id": "p810",
-      "phrase": "freaked out",
-      "meaning": "動揺した／パニックになった",
-      "note": "freaked outは、freak outの過去分詞形が形容詞的に使われた表現。",
-      "scene": "ショック・恐怖・不安で取り乱した時",
-      "example1": "I was totally freaked out.",
-      "example2": "She was freaked out when she saw the bill.",
-      "exampleTranslations": ["完全にびびっていた。", "彼女は請求書を見て取り乱した。"],
-      "type": "word",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S07E14",
-      "frequency": "frequent",
-      "register": "casual"
-    },
-    {
       "id": "p811",
       "phrase": "I have a confession to make",
       "meaning": "白状することがある",
@@ -1131,22 +1098,6 @@
       "register": "neutral"
     },
     {
-      "id": "p831",
-      "phrase": "doofus",
-      "meaning": "マヌケ／おバカさん",
-      "scene": "愛嬌のある失敗をした人を軽くからかう時",
-      "example1": "You doofus! You forgot your keys.",
-      "example2": "That doofus is going to lose.",
-      "exampleTranslations": ["この間抜け！鍵を忘れたでしょ。", "あの間抜けは負けるよ。"],
-      "type": "word",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S07E17",
-      "frequency": "general",
-      "register": "neutral"
-    },
-    {
       "id": "p833",
       "phrase": "pull a stunt",
       "meaning": "バカな真似をする／突飛な行動をする",
@@ -1239,22 +1190,6 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S07E18",
-      "frequency": "general",
-      "register": "casual"
-    },
-    {
-      "id": "p839",
-      "phrase": "mess with someone",
-      "meaning": "人をからかう／ちょっかいを出す／翻弄する",
-      "scene": "冗談半分で相手を困らせたり反応を楽しんだりする時",
-      "example1": "Are you messing with me?",
-      "example2": "They love messing with each other.",
-      "exampleTranslations": ["私をからかってるの？", "二人はお互いをからかうのが大好きだ。"],
-      "type": "phrasal verb",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S07E21",
       "frequency": "general",
       "register": "casual"
     },
