@@ -14,8 +14,8 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,1513);
-assert.equal(phraseIds.size,1513);
+assert.equal(phrases.length,1512);
+assert.equal(phraseIds.size,1512);
 assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),1559);
 
 const newIds=Array.from({length:118},(_,index)=>`p${1442+index}`);
@@ -77,7 +77,7 @@ assert.equal(byId.get("p1093").note,"人に対する `be hung up on` は「未�
 assert.equal(byId.get("p153").note,"`be out the window`は成立しなくなった状態、`go out the window`は成立しなくなる変化を表す。Friendsの実使用は `I guess that’s out the window.`。");
 assert.equal(byId.get("p1213").note,"`Wait a second.`, `Wait a minute.`も自然なvariation。`minute`は実際の1分を意味せず、驚いて話を止めるときにもよく使う。S02E03では `Wait a minute.` が使われている。");
 
-for(const id of["p243","p248","p314"])assert.equal(phraseIds.has(id),false,`${id} was restored`);
+for(const id of["p167","p243","p248","p314"])assert.equal(phraseIds.has(id),false,`${id} was restored`);
 for(const id of["p12","p38","p194","p1106","p364"])assert.equal(phraseIds.has(id),true,`${id} is missing`);
 
 const duplicateHeadlines=Object.fromEntries(

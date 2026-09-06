@@ -522,22 +522,6 @@
       "register": "neutral"
     },
     {
-      "id": "p167",
-      "phrase": "put something into perspective",
-      "meaning": "見方を整理する／客観的に捉え直す",
-      "scene": "経験で考え方が変わるとき",
-      "example1": "That trip put things into perspective.",
-      "example2": "It really put things into perspective.",
-      "exampleTranslations": ["あの旅で物事を客観的に見られるようになった。", "そのおかげで本当に物事を冷静に捉えられた。"],
-      "type": "idiom",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S02E08",
-      "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
       "id": "p168",
       "phrase": "limerick",
       "meaning": "5行の短いジョーク詩（くだらないオチ付き）",
