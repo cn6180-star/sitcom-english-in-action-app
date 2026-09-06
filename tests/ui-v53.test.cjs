@@ -36,6 +36,17 @@ for(const removed of["Bookmarks","Progress","Browse by Season","How to use"]){
   assert.doesNotMatch(seriesHome,new RegExp(removed));
 }
 
+const help=source.slice(source.indexOf("function openHelp"),source.indexOf("function pageHeader"));
+assert.match(help,/このアプリ内で学習しやすくするための独自分類/);
+for(const type of["word","phrase","idiom","phrasal verb","pattern","grammar"]){
+  assert.match(help,new RegExp(`<strong>${type}<\\/strong>`));
+}
+assert.match(help,/frequent \/ general \/ limited/);
+assert.match(help,/★☆☆ \/ ★★☆ \/ ★★★/);
+assert.match(help,/FrequencyとPriority（★）は別の軸/);
+assert.match(help,/頻出＝必ず★★★ではありません/);
+assert.match(source,/Version 5\.4/);
+
 assert.equal((source.match(/class="filter-group episode-filter-slot"/g)||[]).length,2);
 assert.match(source,/function dialogueFilterPanel\(bookmarkedOnly=false\).*'S','全て'.*'E','全て'.*全てのカテゴリー/);
 assert.doesNotMatch(source,/All categories|<span>Bookmarked<\/span>/);
