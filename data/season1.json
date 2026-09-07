@@ -69,7 +69,7 @@
       "id": "p5",
       "phrase": "what’s with ~",
       "meaning": "～どうしたの？／～なんなの？",
-      "scene": "軽くツッコむとき",
+      "scene": "相手の様子や気になる物事について、理由や事情を尋ねるとき",
       "example1": "What's with you today?",
       "example2": "What's with that noise?",
       "exampleTranslations": ["今日どうしたの？", "あの音、何なの？"],
@@ -80,7 +80,7 @@
       "episode": "S01E01",
       "frequency": "frequent",
       "register": "casual",
-      "note": "What’s up with ~?というvariationもある。"
+      "note": "What’s up with ~?というvariationもある。言い方によっては、相手を責めたり不満を示したりしているように聞こえることがある。"
     },
     {
       "id": "p6",
@@ -973,7 +973,7 @@
       "id": "p69",
       "phrase": "hit on someone",
       "meaning": "ナンパする／言い寄る",
-      "scene": "結婚式当日に逃げてきたレイチェルを口説こうとするジョーイに、モニカがやめるようたしなめる場面",
+      "scene": "人をナンパしたり、恋愛的に言い寄ったりするとき",
       "example1": "He hit on me at the bar.",
       "example2": "Stop hitting on her.",
       "exampleTranslations": [
@@ -1168,7 +1168,7 @@
       "id": "p81",
       "phrase": "bail",
       "meaning": "急に帰る／予定や責任を放り出す",
-      "scene": "モニカがレストランの仕事中に、ウェイトレスのウェンディが急に辞めて人手不足だと仲間に話す場面",
+      "scene": "急に帰る、または予定や責任を放り出すとき",
       "example1": "I’m exhausted, so I’m going to bail.",
       "example2": "Don’t bail on me this time.",
       "exampleTranslations": [
@@ -1236,7 +1236,7 @@
       "id": "p85",
       "phrase": "screw up",
       "meaning": "やらかす／失敗する",
-      "scene": "ジョーイが父の不倫を母に知らせたあと、母が「これで全部めちゃくちゃになった」と息子を責める場面",
+      "scene": "やらかす、または失敗するとき",
       "example1": "I really screwed it up with her.",
       "example2": "Don’t screw this up.",
       "exampleTranslations": [
@@ -1901,7 +1901,7 @@
       "id": "p385",
       "phrase": "for the best",
       "meaning": "結果的に最善である／これでよかった",
-      "scene": "レイチェルが婚約を破棄して実家から独立した話をし、モニカが本人に「結果的にはその方がよかった」と励ます場面",
+      "scene": "望ましくない結果でも、長い目では最善だったと受け止めるとき",
       "example1": "Maybe it’s for the best.",
       "example2": "It all worked out for the best.",
       "exampleTranslations": [
@@ -1920,7 +1920,7 @@
       "id": "p590",
       "phrase": "what this is all about",
       "meaning": "本当の目的、核心、裏の理由",
-      "scene": "レイチェルがバリーの留守電に別れの理由を説明し、「本当は自分自身の問題だった」と伝える場面",
+      "scene": "出来事の本当の目的や理由を説明するとき",
       "example1": "So that’s what this is all about.",
       "example2": "Is that what this has been all about?",
       "exampleTranslations": [
@@ -1939,7 +1939,7 @@
       "id": "p846",
       "phrase": "drift apart",
       "meaning": "少しずつ疎遠になる",
-      "scene": "レイチェルがモニカに、高校時代のあと自然と疎遠になったが、街で頼れるのはモニカだけだと話す場面",
+      "scene": "友人や恋人と、時間とともに自然と疎遠になったとき",
       "example1": "We drifted apart after college.",
       "example2": "They did not fight; they just drifted apart.",
       "exampleTranslations": [
@@ -1958,7 +1958,7 @@
       "id": "p959",
       "phrase": "give someone the dirt",
       "meaning": "ゴシップや裏話を教える",
-      "scene": "セントラル・パークで再会した昔の友人たちに、レイチェルが近況や裏話を全部聞かせてと頼む場面",
+      "scene": "ゴシップや内情を詳しく教えてほしいと頼むとき",
       "example1": "Come on, give me the dirt.",
       "example2": "She knows all the dirt about the office.",
       "exampleTranslations": [
@@ -1977,7 +1977,7 @@
       "id": "p422",
       "phrase": "bring someone down",
       "meaning": "気分を下げる／テンションを落とす",
-      "scene": "将来への不安を打ち明けて空気を重くしたレイチェルが、モニカとフィービーに落ち込ませてごめんと謝る場面",
+      "scene": "発言や態度で人の気分を落ち込ませるとき",
       "example1": "Don’t bring me down.",
       "example2": "That news really brought me down.",
       "exampleTranslations": [
@@ -1996,7 +1996,8 @@
       "id": "p207",
       "phrase": "Really? You don’t say",
       "meaning": "へえそうなん（←知ってるけど）",
-      "scene": "胸元が強調される服を着ていると言うアンジェラに、ジョーイが見れば分かると皮肉っぽく返す場面",
+      "scene": "相手が分かりきったことを言ったとき、皮肉を込めて返すとき",
+      "note": "多くの場合、相手が分かりきったことを言った際に皮肉として使う。純粋な驚きとしては通常使わない。",
       "example1": "Really? You don’t say.",
       "example2": "Oh, you don’t say.",
       "exampleTranslations": [
@@ -2015,7 +2016,7 @@
       "id": "p605",
       "phrase": "think something through",
       "meaning": "〜を最後までよく考える、検討する",
-      "scene": "レイチェルと二人で洗濯へ行くつもりのロスに、チャンドラーが本当にそこまで考え抜いたのかと確認する場面",
+      "scene": "判断する前に、問題を最後までよく考えるとき",
       "example1": "I need time to think this through.",
       "example2": "Have you really thought it through?",
       "exampleTranslations": [
@@ -2034,7 +2035,7 @@
       "id": "p489",
       "phrase": "for all we know",
       "meaning": "ひょっとすると～かもしれない／私たちには分からないが",
-      "scene": "ボブをまだ見ていないモニカが、もしかするとひどく魅力的かもしれないとジョーイに推測する場面",
+      "scene": "真相が分からないため、別の可能性もあると示すとき",
       "example1": "For all we know, he may already be there.",
       "example2": "For all we know, they could be dating.",
       "exampleTranslations": [
@@ -2054,7 +2055,7 @@
       "id": "p273",
       "phrase": "blow off",
       "meaning": "～をサボる／放り出す",
-      "scene": "写真撮影の仕上がりが悪かったジャニスが、その日の残りの仕事を放り出して買い物へ行ったと話す場面",
+      "scene": "予定や責任を無視したり、仕事を放り出したりするとき",
       "example1": "I blew off work and went to the beach.",
       "example2": "She blew off the rest of the afternoon.",
       "exampleTranslations": [
@@ -2074,7 +2075,7 @@
       "id": "p1076",
       "phrase": "be wound up",
       "meaning": "緊張している、神経が高ぶっている、ピリピリしている",
-      "scene": "別れを告げられたジャニスが感情的に取り乱し、自分を落ち着かせようとする場面",
+      "scene": "緊張や興奮で神経が高ぶっている状態を表すとき",
       "example1": "I’ve been really wound up lately.",
       "example2": "He’s a little wound up about the interview.",
       "exampleTranslations": [
@@ -2093,7 +2094,7 @@
       "id": "p277",
       "phrase": "be out of someone’s league",
       "meaning": "自分には釣り合わない（レベルが上すぎる）",
-      "scene": "美しいオーロラを見たチャンドラーが、自分には高嶺の花だとジョーイに話す場面",
+      "scene": "相手が自分には釣り合わないほど魅力的・優秀だと感じるとき",
       "example1": "She’s out of my league.",
       "example2": "That job is way out of his league.",
       "exampleTranslations": [
@@ -2112,7 +2113,7 @@
       "id": "p832",
       "phrase": "fan out",
       "meaning": "散らばる／手分けして広がる",
-      "scene": "モニカの部屋で雑誌をきれいに並べる話になり、チャンドラーが扇状に広げるしぐさを交えて冗談を言う場面",
+      "scene": "複数の人が手分けして広がったり、物を扇状に広げたりするとき",
       "example1": "When the doors open, fan out.",
       "example2": "Let’s fan out and search the area.",
       "exampleTranslations": [
@@ -2131,7 +2132,7 @@
       "id": "p272",
       "phrase": "blow it",
       "meaning": "やらかす／チャンスを逃す",
-      "scene": "アル・パチーノ映画の代役を降ろされたジョーイが、せっかくのチャンスをしくじったと仲間に話す場面",
+      "scene": "大切な機会を失敗で逃したことを話すとき",
       "example1": "I blew it.",
       "example2": "Don’t blow it this time.",
       "exampleTranslations": [
@@ -2150,7 +2151,7 @@
       "id": "p1083",
       "phrase": "end up ~ing",
       "meaning": "結局〜することになる／最終的に〜してしまう",
-      "scene": "ロスがレイチェルに気持ちを伝えないままだと、ずっと友達の立場に取り残されるとジョーイが忠告する場面",
+      "scene": "予想外または望まない最終結果になったことを話すとき",
       "example1": "We ended up talking until midnight.",
       "example2": "I went in just to look, but I ended up buying it.",
       "exampleTranslations": [
@@ -2169,7 +2170,7 @@
       "id": "p391",
       "phrase": "pick on someone",
       "meaning": "いじめられる／からかわれる",
-      "scene": "葬儀で母の批判に耐えかねたモニカが、祖母から細部をいちいち責められた経験を母に思い出させる場面",
+      "scene": "特定の人を繰り返しからかったり、意地悪したりするとき",
       "example1": "Why are you picking on me?",
       "example2": "He gets picked on a lot.",
       "exampleTranslations": [
@@ -2188,7 +2189,7 @@
       "id": "p613",
       "phrase": "be in charge of ~",
       "meaning": "～担当である／任されている",
-      "scene": "感謝祭の夕食を開くモニカが、仲間の希望を聞きながら料理全体を担当して準備を進める場面",
+      "scene": "仕事や活動の担当・責任者であることを伝えるとき",
       "example1": "I’m in charge of drinks.",
       "example2": "Who’s in charge here?",
       "exampleTranslations": [
@@ -2207,7 +2208,7 @@
       "id": "p265",
       "phrase": "get carried away",
       "meaning": "調子に乗りすぎる／やりすぎる",
-      "scene": "仲間全員の希望に応えようとしたモニカが、感謝祭に三種類のポテトを作ることになり、やりすぎてしまう場面",
+      "scene": "夢中になって、ついやりすぎたことを話すとき",
       "example1": "Sorry, I got carried away.",
       "example2": "I got a little carried away and bought too much.",
       "exampleTranslations": [
@@ -2226,7 +2227,7 @@
       "id": "p1062",
       "phrase": "have something to do with ~",
       "meaning": "～と何らかの関係がある、～に多少関与している",
-      "scene": "仕事で遅く帰ったロスが、マルセルとの気まずさは自分の生活態度と関係があると仲間に話す場面",
+      "scene": "出来事や問題との関連・原因について話すとき",
       "example1": "I think stress had something to do with it.",
       "example2": "I’d like to think I had something to do with her success.",
       "exampleTranslations": [
@@ -2245,7 +2246,7 @@
       "id": "p388",
       "phrase": "next thing you know, ~",
       "meaning": "次に気づいたときには〜／いつの間にか〜ということになる",
-      "scene": "空港でけんかに巻き込まれたレイチェルが、気づけば相手の女性に髪を引っ張られていたと仲間に説明する場面",
+      "scene": "出来事が急展開し、気づけば別の状況になっていたと話すとき",
       "example1": "Next thing you know, we were dating.",
       "example2": "Next thing you know, it’s midnight.",
       "exampleTranslations": [
@@ -2265,7 +2266,7 @@
       "id": "p376",
       "phrase": "Don’t take this wrong",
       "meaning": "悪く受け取らないでほしい",
-      "scene": "母ノラへの印象を聞かれたジェイ・レノが、悪く取らないでと前置きして「母親には見えない」と答える場面",
+      "scene": "誤解されたり気分を害されたりしそうな意見を切り出すとき",
       "example1": "Don’t take this wrong, but you look tired.",
       "example2": "Don’t take this the wrong way, but that’s not a good idea.",
       "exampleTranslations": [
@@ -2285,7 +2286,7 @@
       "id": "p952",
       "phrase": "kill someone off",
       "meaning": "ドラマなどで登場人物を退場・死亡させる",
-      "scene": "ノラがロスの恋愛を小説の筋書きにたとえ、パオロは物語から退場させる脇役だと説明する場面",
+      "scene": "物語上の登場人物を死亡・退場させるとき",
       "example1": "They killed my favorite character off.",
       "example2": "I can’t believe they killed him off.",
       "exampleTranslations": [
@@ -2304,7 +2305,7 @@
       "id": "p953",
       "phrase": "tell someone off",
       "meaning": "～を叱りつける",
-      "scene": "ロスの代わりにチャンドラーがノラへ苦情を言ったあと、ジョーイがロスに「チャンドラーが彼女を叱った」と報告する場面",
+      "scene": "人の行動を強い言葉で叱りつけるとき",
       "example1": "My mom told me off for lying.",
       "example2": "She told him off in front of everyone.",
       "exampleTranslations": [
@@ -2323,7 +2324,7 @@
       "id": "p792",
       "phrase": "be better off ~",
       "meaning": "〜した方がいい／〜の方がましだ／〜の方が良い状態だ",
-      "scene": "ジョーイの父が、フェリーで通うよりジョーイの部屋に泊まる方が楽だと息子に話す場面",
+      "scene": "別の選択をしたほうが、より良い状態になると伝えるとき",
       "example1": "We’re better off without them.",
       "example2": "You’d be better off waiting a few days.",
       "exampleTranslations": [
@@ -2342,7 +2343,7 @@
       "id": "p1039",
       "phrase": "be up for it",
       "meaning": "それをする気がある、乗り気である",
-      "scene": "ジョーイの父とロニーをめぐって気まずくなった部屋で、チャンドラーがゲームをする気のある人を尋ねる場面",
+      "scene": "誘いや活動をする気があるか確認するとき",
       "example1": "We’re going out for dinner if you’re up for it.",
       "example2": "I’m not really up for a party tonight.",
       "exampleTranslations": [
@@ -2362,7 +2363,7 @@
       "id": "p698",
       "phrase": "come clean",
       "meaning": "白状する／正直に話す",
-      "scene": "父の不倫を知ったジョーイが、母親にすべて正直に話すべきだと父に迫る場面",
+      "scene": "隠していた事実を白状し、正直に話すとき",
       "example1": "He finally came clean about the mistake.",
       "example2": "Just come clean and tell me the truth.",
       "exampleTranslations": [
@@ -2382,7 +2383,7 @@
       "id": "p140",
       "phrase": "cave (in)",
       "meaning": "折れる／屈する",
-      "scene": "家業に入るよう家族から迫られた経験について、チャンドラーがジョーイに結局折れたのかと尋ねる場面",
+      "scene": "折れる、または屈するとき",
       "example1": "He finally caved in to pressure.",
       "example2": "The fifth dentist finally caved.",
       "exampleTranslations": [
@@ -2402,7 +2403,7 @@
       "id": "p260",
       "phrase": "freak someone out",
       "meaning": "ビビらせる／ゾワッとさせる",
-      "scene": "仲間がロジャーを嫌うと知ったフィービーが、彼の鋭い分析に怖気づいただけではと皆に尋ねる場面",
+      "scene": "人を驚かせたり、不安・不快な気持ちにさせたりするとき",
       "example1": "That noise freaked me out.",
       "example2": "You’re freaking me out.",
       "exampleTranslations": [
@@ -2421,7 +2422,7 @@
       "id": "p262",
       "phrase": "Way to go!",
       "meaning": "よくやった！／その調子！",
-      "scene": "ロスが隣人クリステンとのデートを取りつけ、チャンドラーが本人に「よくやった」と祝う場面",
+      "scene": "相手の成功や行動を「よくやった」と褒めるとき",
       "example1": "Way to go! You nailed the presentation.",
       "example2": "You finished ahead of schedule—way to go!",
       "exampleTranslations": [
@@ -2440,7 +2441,7 @@
       "id": "p312",
       "phrase": "in the first place",
       "meaning": "そもそも／最初から",
-      "scene": "儀式用の精子が善人のものなら、そもそも儀式は不要だとレイチェルが女性たちに言う場面",
+      "scene": "理由や前提をさかのぼって「そもそも」と指摘するとき",
       "example1": "Why did you do that in the first place?",
       "example2": "That’s why I came here in the first place.",
       "exampleTranslations": [
@@ -2460,7 +2461,7 @@
       "phrase": "call out to someone",
       "meaning": "someoneに呼びかける／人や物が魅力的に感じられる",
       "note": "無生物がcall out to someoneの形を取ると、「魅力的に感じられる／誘惑するように感じられる」という擬人的用法になる。",
-      "scene": "別れたジャニスがチャンドラーに、魂の一部が霧笛のように彼へ呼びかけていると語る場面",
+      "scene": "人に声をかけたり、何かに強く引きつけられたりするとき",
       "example1": "I heard someone calling out to me.",
       "example2": "Those cookies were calling out to me.",
       "exampleTranslations": [
@@ -2479,7 +2480,7 @@
       "id": "p982",
       "phrase": "put something aside",
       "meaning": "（問題・感情などを）ひとまず脇に置く",
-      "scene": "キャロルとの初めての記念日をやり直そうとするロスが、ひとまず同性関係の話題を脇に置こうと彼女に提案する場面",
+      "scene": "問題や感情をいったん脇に置いて、別のことを優先するとき",
       "example1": "Let's put our differences aside.",
       "example2": "Can we put that aside for now?",
       "exampleTranslations": [
@@ -2498,7 +2499,7 @@
       "id": "p993",
       "phrase": "on top of that",
       "meaning": "そのうえ／さらに／おまけに",
-      "scene": "チャンドラーが元の仕事への復帰を断ろうとする中、上司が年次ボーナスも追加すると条件を重ねる場面",
+      "scene": "すでに述べたことへ、別の情報を付け加えるとき",
       "example1": "I was late, and on top of that, I forgot my phone.",
       "example2": "The room was tiny, and on top of that, it was noisy.",
       "exampleTranslations": [
@@ -2518,7 +2519,7 @@
       "id": "p1029",
       "phrase": "Let me put it this way",
       "meaning": "こう言えば分かりやすいかな。別の言い方をすると。",
-      "scene": "誕生日プレゼントの希望を聞かれたレイチェルが、別の言い方として特定の店の商品なら何でもよいと説明する場面",
+      "scene": "相手に伝わりやすいよう、別の言い方で説明するとき",
       "example1": "Let me put it this way: It wasn't a success.",
       "example2": "Let me put it this way—you won't like the answer.",
       "exampleTranslations": [
@@ -2537,7 +2538,7 @@
       "id": "p242",
       "phrase": "occur to someone",
       "meaning": "～の頭に浮かぶ／～が思いつく",
-      "scene": "父親になる実感に動揺するロスへ、レイチェルが今になってようやく思いついたのかと問い返す場面",
+      "scene": "考えや可能性が頭に浮かんだことを表すとき",
       "example1": "That possibility never occurred to me.",
       "example2": "It never occurred to me to call him.",
       "exampleTranslations": [
@@ -2557,7 +2558,7 @@
       "id": "p730",
       "phrase": "in the middle of something",
       "meaning": "取り込み中／何かの途中",
-      "scene": "逃げたマルセルを探す途中で女性たちに気を取られたチャンドラーに、ジョーイが今は捜索の途中だと念を押す場面",
+      "scene": "何かをしている途中で、今は手が離せないと伝えるとき",
       "example1": "Sorry, I’m in the middle of something.",
       "example2": "Can I call you back? I’m in the middle of a meeting.",
       "exampleTranslations": [
@@ -2576,7 +2577,7 @@
       "id": "p586",
       "phrase": "step aside",
       "meaning": "身を引く／譲る",
-      "scene": "地下室でマルセルを見つけたモニカとフィービーに、動物管理局のルイーザがどくよう命じる場面",
+      "scene": "場所や役割をほかの人に譲るとき",
       "example1": "I’ll step aside.",
       "example2": "It’s time to step aside.",
       "exampleTranslations": [
@@ -2595,7 +2596,7 @@
       "id": "p463",
       "phrase": "be hard on someone",
       "meaning": "～に厳しくする／つらく当たる",
-      "scene": "マルセルを逃がしたレイチェルを強く責めたロスが、見つかったあと本人に厳しく当たりすぎたと謝る場面",
+      "scene": "人に厳しくしすぎたり、自分を責めすぎたりするとき",
       "example1": "Don’t be so hard on him.",
       "example2": "You’re being too hard on yourself.",
       "exampleTranslations": [
@@ -2615,7 +2616,7 @@
       "id": "p383",
       "phrase": "go behind someone’s back",
       "meaning": "本人に内緒で勝手にやる",
-      "scene": "バリーがレイチェルとミンディの双方に隠れて関係を続けていたことを、二人が打ち明け合う場面",
+      "scene": "本人に隠れて、許可なく物事を進めるとき",
       "example1": "Why did you go behind my back?",
       "example2": "He went behind her back and told the boss.",
       "exampleTranslations": [
@@ -2634,7 +2635,7 @@
       "id": "p765",
       "phrase": "calm down",
       "meaning": "落ち着く",
-      "scene": "カードの不正使用額に動揺するモニカへ、レイチェルがカード会社の説明を伝えながら落ち着くよう促す場面",
+      "scene": "興奮・不安・怒りを抑えて落ち着くよう促すとき",
       "example1": "Calm down and tell me what happened.",
       "example2": "Everybody needs to calm down.",
       "exampleTranslations": [
@@ -2653,7 +2654,7 @@
       "id": "p547",
       "phrase": "have a point",
       "meaning": "一理ある",
-      "scene": "好意を持つ女性に精子提供の話をしないというジョーイの説明を聞き、モニカが彼にも一理あると認める場面",
+      "scene": "相手の意見にも納得できる点があると認めるとき",
       "example1": "You’ve got a point.",
       "example2": "She may have a point.",
       "exampleTranslations": [
@@ -2672,7 +2673,7 @@
       "id": "p803",
       "phrase": "move on",
       "meaning": "気持ちを切り替える／前に進む／吹っ切れる",
-      "scene": "レイチェルへの片思いを引きずるロスに、ジョーイが忘れて中国へ行けと励ます場面",
+      "scene": "過去を引きずらず、気持ちを切り替えて前へ進むとき",
       "example1": "It’s time to move on.",
       "example2": "She finally moved on after the breakup.",
       "exampleTranslations": [
@@ -2691,7 +2692,7 @@
       "id": "p337",
       "phrase": "Don’t get me wrong",
       "meaning": "誤解しないでほしいけど",
-      "scene": "環境問題に反対ではないと断りつつ、カールが電気自動車の広告に出る俳優への不満をレイチェルに話す場面",
+      "scene": "誤解を避けながら、反対意見や本音を伝えるとき",
       "example1": "Don’t get me wrong, I like him.",
       "example2": "Don’t get me wrong, but this isn’t a good idea.",
       "exampleTranslations": [
@@ -2710,7 +2711,7 @@
       "id": "p1099",
       "phrase": "go through ~",
       "meaning": "～を経験する／乗り越える",
-      "scene": "ロスが離婚というつらい経験について仲間に話す場面",
+      "scene": "困難な経験や手続きなどを経験しているとき",
       "example1": "I know you are going through a lot right now.",
       "example2": "She went through a difficult breakup last year.",
       "exampleTranslations": [
@@ -2729,7 +2730,7 @@
       "id": "p1100",
       "phrase": "take ~ well",
       "meaning": "～をうまく受け止める",
-      "scene": "ロスの離婚の知らせを周囲がどう受け止めるかを話す場面",
+      "scene": "知らせや批判などをどう受け止めたか話すとき",
       "example1": "He did not take the news very well.",
       "example2": "I hope she takes it well.",
       "exampleTranslations": [
@@ -2748,7 +2749,7 @@
       "id": "p1101",
       "phrase": "be turned on by ~",
       "meaning": "～に性的に興奮する",
-      "scene": "ポールが自分の性的な悩みを打ち明ける場面",
+      "scene": "人や物に性的な魅力や興奮を感じるとき",
       "example1": "He is turned on by confidence.",
       "example2": "That kind of talk does not turn me on.",
       "exampleTranslations": [
@@ -2768,7 +2769,7 @@
       "id": "p1102",
       "phrase": "ask someone out",
       "meaning": "～をデートに誘う",
-      "scene": "仲間たちがロスの恋愛やデートについて話す場面",
+      "scene": "人をデートに誘うとき",
       "example1": "Why don’t you ask her out?",
       "example2": "He finally asked me out for dinner.",
       "exampleTranslations": [
@@ -2787,7 +2788,7 @@
       "id": "p1103",
       "phrase": "all of a sudden",
       "meaning": "突然",
-      "scene": "レイチェルが突然状況が変わったことを話す場面",
+      "scene": "状況が突然変化したことを話すとき",
       "example1": "All of a sudden, the lights went out.",
       "example2": "She started laughing all of a sudden.",
       "exampleTranslations": [
@@ -2806,7 +2807,7 @@
       "id": "p1104",
       "phrase": "have no idea",
       "meaning": "全く分からない",
-      "scene": "レイチェルが新しい生活について分からないと話す場面",
+      "scene": "答えや事情がまったく分からないと伝えるとき",
       "example1": "I have no idea where he went.",
       "example2": "She had no idea it was your birthday.",
       "exampleTranslations": [
@@ -2825,7 +2826,7 @@
       "id": "p1105",
       "phrase": "hang out",
       "meaning": "一緒にぶらぶら過ごす",
-      "scene": "仲間たちがいつものように集まって過ごす場面",
+      "scene": "仲間たちがいつものように集まって過ごすとき",
       "example1": "Do you want to hang out after work?",
       "example2": "We usually hang out at her place.",
       "exampleTranslations": [
@@ -2844,7 +2845,7 @@
       "id": "p1106",
       "phrase": "catch on",
       "meaning": "理解する／気づく",
-      "scene": "会話の意味や周囲の状況に誰かが気づく場面",
+      "scene": "会話の意味や周囲の状況に誰かが気づくとき",
       "example1": "It took me a minute to catch on.",
       "example2": "Did you catch on to what she meant?",
       "exampleTranslations": [
@@ -2864,7 +2865,7 @@
       "id": "p1107",
       "phrase": "Here’s the thing.",
       "meaning": "要するにね／問題はね",
-      "scene": "話の要点を切り出して説明する場面",
+      "scene": "話の要点を切り出して説明するとき",
       "example1": "Here’s the thing: I can’t stay late.",
       "example2": "Here’s the thing, we need a better plan.",
       "exampleTranslations": [
@@ -2883,7 +2884,7 @@
       "id": "p1108",
       "phrase": "go out with someone",
       "meaning": "～とデートする／付き合う",
-      "scene": "恋愛相手との関係について仲間が話す場面",
+      "scene": "恋愛相手との関係について仲間が話すとき",
       "example1": "Are you going out with him?",
       "example2": "She has been going out with Maya for months.",
       "exampleTranslations": [
@@ -2902,7 +2903,7 @@
       "id": "p1109",
       "phrase": "be supposed to ~",
       "meaning": "～することになっている／～のはずだ",
-      "scene": "予定や当然期待されることを話す場面",
+      "scene": "予定や当然期待されることを話すとき",
       "example1": "You are supposed to call me tonight.",
       "example2": "The package is supposed to arrive tomorrow.",
       "exampleTranslations": [
@@ -2921,7 +2922,7 @@
       "id": "p1110",
       "phrase": "shut up",
       "meaning": "黙って／うそでしょ",
-      "scene": "仲間が驚きやいら立ちを強く表す場面",
+      "scene": "驚きや呆れを強く表したり、相手に黙るよう言ったりするとき",
       "example1": "Shut up, you did not win the lottery!",
       "example2": "Will you shut up for a second?",
       "exampleTranslations": [
@@ -2941,7 +2942,7 @@
       "id": "p1111",
       "phrase": "what the hell",
       "meaning": "一体何なの／なんてことだ",
-      "scene": "状況への強い驚きや困惑を表す場面",
+      "scene": "強い驚き・困惑・怒りを表すとき",
       "example1": "What the hell is going on?",
       "example2": "What the hell were you thinking?",
       "exampleTranslations": [
@@ -2961,7 +2962,7 @@
       "id": "p1112",
       "phrase": "not feel like ~ing",
       "meaning": "～する気がしない",
-      "scene": "気分が乗らず何かをしたくないと話す場面",
+      "scene": "何かをする気分ではないと伝えるとき",
       "example1": "I don’t feel like cooking tonight.",
       "example2": "She did not feel like talking about it.",
       "exampleTranslations": [
@@ -2980,7 +2981,7 @@
       "id": "p1113",
       "phrase": "have a crush on someone",
       "meaning": "～に片思いしている",
-      "scene": "誰かへの恋心について仲間が話す場面",
+      "scene": "誰かに片思いしていることを話すとき",
       "example1": "I had a crush on him in high school.",
       "example2": "She has a crush on her coworker.",
       "exampleTranslations": [
@@ -2999,7 +3000,7 @@
       "id": "p1114",
       "phrase": "leave someone alone",
       "meaning": "～を放っておく",
-      "scene": "誰かを一人にしてあげるよう求める場面",
+      "scene": "誰かを一人にしてあげるよう求めるとき",
       "example1": "Leave him alone; he needs some space.",
       "example2": "Please leave me alone for a minute.",
       "exampleTranslations": [
@@ -3018,7 +3019,7 @@
       "id": "p1115",
       "phrase": "come on",
       "meaning": "ほら／いい加減にして／まさか",
-      "scene": "相手を促したり反応したりする場面",
+      "scene": "相手を促したり反応したりするとき",
       "example1": "Come on, we are going to be late.",
       "example2": "Oh, come on. That is not fair.",
       "exampleTranslations": [
@@ -3038,7 +3039,7 @@
       "id": "p1116",
       "phrase": "split it",
       "meaning": "それを分ける／割り勘にする",
-      "scene": "最後の食べ物を仲間で分けようとする場面",
+      "scene": "最後の食べ物を仲間で分けようとするとき",
       "example1": "Let’s split it fifty-fifty.",
       "example2": "We can split the bill.",
       "exampleTranslations": [
@@ -3057,7 +3058,7 @@
       "id": "p1117",
       "phrase": "be right back",
       "meaning": "すぐ戻る",
-      "scene": "モニカが少し席を外してすぐ戻ると伝える場面",
+      "scene": "少しその場を離れ、すぐ戻ると伝えるとき",
       "example1": "I’ll be right back.",
       "example2": "She will be right back after her call.",
       "exampleTranslations": [
@@ -3076,7 +3077,7 @@
       "id": "p1118",
       "phrase": "give someone ammunition",
       "meaning": "～に攻撃材料を与える",
-      "scene": "言い争いで相手につけ込む材料を与えないよう話す場面",
+      "scene": "言い争いで相手につけ込む材料を与えないよう話すとき",
       "example1": "Do not give him any ammunition.",
       "example2": "That comment gave her ammunition to complain.",
       "exampleTranslations": [
@@ -3095,7 +3096,7 @@
       "id": "p1119",
       "phrase": "take the heat off someone",
       "meaning": "～への非難やプレッシャーを和らげる",
-      "scene": "責任を一人に負わせないよう話す場面",
+      "scene": "責任を一人に負わせないよう話すとき",
       "example1": "I spoke up to take the heat off her.",
       "example2": "The apology took some heat off him.",
       "exampleTranslations": [
@@ -3114,7 +3115,7 @@
       "id": "p1120",
       "phrase": "leave someone at the altar",
       "meaning": "結婚式で相手を置き去りにする",
-      "scene": "レイチェルが結婚式から逃げ出したことを話す場面",
+      "scene": "結婚式の直前や当日に、結婚相手を置いて去るとき",
       "example1": "He left her at the altar.",
       "example2": "She almost left him at the altar.",
       "exampleTranslations": [
@@ -3133,7 +3134,7 @@
       "id": "p1121",
       "phrase": "shoot for the stars",
       "meaning": "大きな目標を目指す",
-      "scene": "将来の目標を励ますように話す場面",
+      "scene": "将来の目標を励ますように話すとき",
       "example1": "If you want it, shoot for the stars.",
       "example2": "She has always shot for the stars.",
       "exampleTranslations": [
@@ -3152,7 +3153,7 @@
       "id": "p1122",
       "phrase": "What have you been up to?",
       "meaning": "最近どうしてたの？",
-      "scene": "久しぶりに会った相手の近況を尋ねる場面",
+      "scene": "久しぶりに会った相手の近況を尋ねるとき",
       "example1": "Hey, what have you been up to?",
       "example2": "What have you been up to lately?",
       "exampleTranslations": [
@@ -3171,7 +3172,7 @@
       "id": "p1123",
       "phrase": "have a thing for someone",
       "meaning": "～に気がある／惹かれている",
-      "scene": "誰かへの好意について話す場面",
+      "scene": "誰かへの好意について話すとき",
       "example1": "I think he has a thing for you.",
       "example2": "She has always had a thing for musicians.",
       "exampleTranslations": [
@@ -3190,7 +3191,7 @@
       "id": "p1124",
       "phrase": "here’s the deal",
       "meaning": "話はこうだ／条件はこう",
-      "scene": "状況や条件を端的に説明する場面",
+      "scene": "状況や条件を端的に説明するとき",
       "example1": "Here’s the deal: you drive, I pay.",
       "example2": "Here’s the deal—we need to leave now.",
       "exampleTranslations": [
@@ -3209,7 +3210,7 @@
       "id": "p1125",
       "phrase": "get one’s way",
       "meaning": "思いどおりにする",
-      "scene": "自分の希望を通そうとする場面",
+      "scene": "自分の希望を通そうとするとき",
       "example1": "He always wants to get his way.",
       "example2": "She did not get her way this time.",
       "exampleTranslations": [
@@ -3228,7 +3229,7 @@
       "id": "p1126",
       "phrase": "border on ~",
       "meaning": "～に近い／ほとんど～だ",
-      "scene": "行き過ぎた状態を説明する場面",
+      "scene": "行き過ぎた状態を説明するとき",
       "example1": "That joke borders on rude.",
       "example2": "His confidence borders on arrogance.",
       "exampleTranslations": [
@@ -3247,7 +3248,7 @@
       "id": "p1127",
       "phrase": "pretty much",
       "meaning": "ほとんど／だいたい",
-      "scene": "状況を大まかにまとめる場面",
+      "scene": "状況を大まかにまとめるとき",
       "example1": "That is pretty much the whole story.",
       "example2": "I pretty much agree with you.",
       "exampleTranslations": [
@@ -3266,7 +3267,7 @@
       "id": "p1128",
       "phrase": "work out",
       "meaning": "うまくいく／解決する",
-      "scene": "関係や計画がうまくいくかを話す場面",
+      "scene": "関係や計画がうまくいくかを話すとき",
       "example1": "I hope everything works out.",
       "example2": "I am sure things will work out somehow.",
       "exampleTranslations": [
@@ -3286,7 +3287,7 @@
       "id": "p1129",
       "phrase": "be stuck ~",
       "meaning": "～で行き詰まっている／動けない",
-      "scene": "身動きが取れない状況を話す場面",
+      "scene": "身動きが取れない状況を話すとき",
       "example1": "I am stuck in traffic.",
       "example2": "We are stuck with this old computer.",
       "exampleTranslations": [
@@ -3305,7 +3306,7 @@
       "id": "p1130",
       "phrase": "take your time",
       "meaning": "ゆっくりでいいよ",
-      "scene": "急がなくてよいと相手に伝える場面",
+      "scene": "急がなくてよいと相手に伝えるとき",
       "example1": "Take your time. I can wait.",
       "example2": "Take your time choosing.",
       "exampleTranslations": [
@@ -3324,7 +3325,7 @@
       "id": "p1131",
       "phrase": "catch up with someone later",
       "meaning": "後で～と話す／会う",
-      "scene": "その場を離れる前に後で連絡すると伝える場面",
+      "scene": "その場を離れる前に後で連絡すると伝えるとき",
       "example1": "I will catch up with you later.",
       "example2": "Let’s catch up later this week.",
       "exampleTranslations": [
@@ -3343,7 +3344,7 @@
       "id": "p1132",
       "phrase": "fall in love with someone",
       "meaning": "～に恋をする",
-      "scene": "恋愛感情が生まれることを話す場面",
+      "scene": "恋愛感情が生まれることを話すとき",
       "example1": "They fell in love in college.",
       "example2": "I did not expect to fall in love with her.",
       "exampleTranslations": [
@@ -3363,7 +3364,7 @@
       "id": "p1133",
       "phrase": "have issues",
       "meaning": "問題や心のわだかまりがある",
-      "scene": "人間関係や気持ちに問題があると話す場面",
+      "scene": "人間関係や気持ちに問題があると話すとき",
       "example1": "We all have issues.",
       "example2": "He has some trust issues.",
       "exampleTranslations": [
@@ -3382,7 +3383,7 @@
       "id": "p1134",
       "phrase": "be mad at someone",
       "meaning": "～に腹を立てている",
-      "scene": "誰かへの怒りを説明する場面",
+      "scene": "誰かへの怒りを説明するとき",
       "example1": "Are you still mad at me?",
       "example2": "She was mad at him for lying.",
       "exampleTranslations": [
@@ -3401,7 +3402,7 @@
       "id": "p1135",
       "phrase": "agree on ~",
       "meaning": "～について合意する",
-      "scene": "赤ちゃんの名前について意見を一致させる場面",
+      "scene": "何かについて意見を一致させるとき",
       "example1": "We finally agreed on a name.",
       "example2": "They cannot agree on where to eat.",
       "exampleTranslations": [
@@ -3420,7 +3421,7 @@
       "id": "p1136",
       "phrase": "look out for someone",
       "meaning": "～の面倒を見る／気にかける",
-      "scene": "仲間が相手を守ったり気遣ったりする場面",
+      "scene": "人を守ったり、普段から気にかけたりするとき",
       "example1": "Thanks for looking out for me.",
       "example2": "I will look out for your sister.",
       "exampleTranslations": [
@@ -3439,7 +3440,7 @@
       "id": "p1137",
       "phrase": "more than one’s fair share of ~",
       "meaning": "～を人並み以上にたくさん",
-      "scene": "ポーラが苦い経験をたくさんしてきたと話す場面",
+      "scene": "苦労や問題を人並み以上に経験してきたと伝えるとき",
       "example1": "She has had more than her fair share of bad dates.",
       "example2": "We have had more than our fair share of problems.",
       "exampleTranslations": [
@@ -3458,7 +3459,7 @@
       "id": "p1138",
       "phrase": "show someone a thing or two",
       "meaning": "～に一泡吹かせる／実力を見せる",
-      "scene": "誰かに自分の力を見せてやろうと話す場面",
+      "scene": "誰かに自分の力を見せてやろうと話すとき",
       "example1": "I will show him a thing or two.",
       "example2": "She showed them a thing or two at the game.",
       "exampleTranslations": [
@@ -3477,7 +3478,7 @@
       "id": "p1139",
       "phrase": "let it go",
       "meaning": "もう気にしない／手放す",
-      "scene": "過去のことを引きずらないよう促す場面",
+      "scene": "過去のことを引きずらないよう促すとき",
       "example1": "It happened years ago. Let it go.",
       "example2": "You need to let it go and move on.",
       "exampleTranslations": [
@@ -3497,7 +3498,7 @@
       "id": "p1140",
       "phrase": "cut it out",
       "meaning": "やめて／いい加減にして",
-      "scene": "ふざけたり迷惑なことをする相手を止める場面",
+      "scene": "ふざけたり迷惑なことをする相手を止めるとき",
       "example1": "Cut it out. You are distracting me.",
       "example2": "Hey, cut it out!",
       "exampleTranslations": [
@@ -3516,7 +3517,7 @@
       "id": "p1141",
       "phrase": "Big deal!",
       "meaning": "だから何？／大したことじゃない",
-      "scene": "相手が大げさに言うことを軽く退ける場面",
+      "scene": "相手が重要視することを「大したことではない」と退けるとき",
       "example1": "Big deal. Everybody makes mistakes.",
       "example2": "You got a new phone? Big deal.",
       "exampleTranslations": [
@@ -3536,7 +3537,7 @@
       "id": "p1142",
       "phrase": "get over it",
       "meaning": "もう引きずらない／乗り越える",
-      "scene": "過去の出来事を気にし続ける相手に言う場面",
+      "scene": "過去の出来事を気にし続ける相手に言うとき",
       "example1": "You need to get over it.",
       "example2": "He still has not gotten over it.",
       "exampleTranslations": [
@@ -3556,7 +3557,7 @@
       "id": "p1143",
       "phrase": "let your guard down",
       "meaning": "警戒を緩める／心を許す",
-      "scene": "普段は用心深い人が気を許すことを話す場面",
+      "scene": "普段は用心深い人が気を許すことを話すとき",
       "example1": "It took her a while to let her guard down.",
       "example2": "Do not let your guard down too soon.",
       "exampleTranslations": [
@@ -3575,7 +3576,7 @@
       "id": "p1144",
       "phrase": "just like that",
       "meaning": "あっという間に／いとも簡単に",
-      "scene": "状況が急に変わることに驚く場面",
+      "scene": "状況が急に変わることに驚くとき",
       "example1": "Just like that, he was gone.",
       "example2": "You cannot fix everything just like that.",
       "exampleTranslations": [
@@ -3594,7 +3595,7 @@
       "id": "p1145",
       "phrase": "break up with someone",
       "meaning": "～と別れる",
-      "scene": "モニカがアランとの関係を終える場面",
+      "scene": "恋愛関係を終わらせたことを話すとき",
       "example1": "I think I am going to break up with him.",
       "example2": "They broke up last month.",
       "exampleTranslations": [
@@ -3613,7 +3614,7 @@
       "id": "p1146",
       "phrase": "How did it go?",
       "meaning": "どうだった？",
-      "scene": "相手が終えた出来事の結果を尋ねる場面",
+      "scene": "相手が終えた出来事の結果や感想を尋ねるとき",
       "example1": "How did it go with your interview?",
       "example2": "So, how did it go?",
       "exampleTranslations": [
@@ -3632,7 +3633,7 @@
       "id": "p1147",
       "phrase": "be on one’s way over",
       "meaning": "そっちへ向かっている途中だ",
-      "scene": "フィービーがモニカたちの部屋へ向かう途中の出来事を話す場面",
+      "scene": "相手のいる場所へ向かっている途中だと伝えるとき",
       "example1": "I am on my way over now.",
       "example2": "She was on her way over when I called.",
       "exampleTranslations": [
@@ -3651,7 +3652,7 @@
       "id": "p1148",
       "phrase": "How’s it going?",
       "meaning": "調子どう？／どうなってる？",
-      "scene": "レイチェルがモニカにアランとの関係の様子を尋ねる場面",
+      "scene": "挨拶したり、物事の進み具合を尋ねたりするとき",
       "example1": "Hey, how’s it going?",
       "example2": "How’s it going with the new job?",
       "exampleTranslations": [
@@ -3670,7 +3671,7 @@
       "id": "p1149",
       "phrase": "hold on",
       "meaning": "ちょっと待って",
-      "scene": "ロスが話を止めて皆に待つよう促す場面",
+      "scene": "相手に少し待つよう伝えるとき",
       "example1": "Hold on a second.",
       "example2": "Hold on, I am almost ready.",
       "exampleTranslations": [
@@ -3689,7 +3690,7 @@
       "id": "p1150",
       "phrase": "figure something out",
       "meaning": "～を考えて答えを出す",
-      "scene": "モニカが自分の気持ちを整理する時間がほしいと話す場面",
+      "scene": "問題を考えて答えや方法を見つけるとき",
       "example1": "I need time to figure this out.",
       "example2": "We will figure it out together.",
       "exampleTranslations": [
@@ -3708,7 +3709,7 @@
       "id": "p1151",
       "phrase": "can’t stand ~",
       "meaning": "～に耐えられない／大嫌いだ",
-      "scene": "アランがモニカの友人たちに耐えられないと打ち明ける場面",
+      "scene": "人や物事に耐えられないほど嫌だと伝えるとき",
       "example1": "I cannot stand this noise.",
       "example2": "She cannot stand waiting in line.",
       "exampleTranslations": [
@@ -3727,7 +3728,7 @@
       "id": "p1152",
       "phrase": "That’s it!",
       "meaning": "もういい／これで決まり",
-      "scene": "チャンドラーが限界だと感じて席を立つ場面",
+      "scene": "限界に達して物事を打ち切ったり、決定を示したりするとき",
       "example1": "That’s it. I am going home.",
       "example2": "Okay, that’s it—we are done.",
       "exampleTranslations": [
@@ -3746,7 +3747,7 @@
       "id": "p1153",
       "phrase": "get to ~",
       "meaning": "～する機会を得る／～できる",
-      "scene": "ジョーイがモニカの恋人にいつ会えるのか尋ねる場面",
+      "scene": "何かをする機会を得たことを話すとき",
       "example1": "When do I get to meet her?",
       "example2": "I finally got to see the show.",
       "exampleTranslations": [
@@ -3765,7 +3766,7 @@
       "id": "p1154",
       "phrase": "nod off",
       "meaning": "うとうと眠る",
-      "scene": "仲間が疲れて思わず眠りかける場面",
+      "scene": "疲れて、思わずうとうと眠ってしまうとき",
       "example1": "I nodded off during the movie.",
       "example2": "He keeps nodding off at his desk.",
       "exampleTranslations": [
@@ -3784,7 +3785,7 @@
       "id": "p1155",
       "phrase": "take one’s mind off ~",
       "meaning": "～を忘れさせる／気を紛らわせる",
-      "scene": "悩みを忘れるために別のことをしようと話す場面",
+      "scene": "悩みを忘れるために別のことをしようと話すとき",
       "example1": "A walk will take your mind off work.",
       "example2": "This game took my mind off the pain.",
       "exampleTranslations": [
@@ -3803,7 +3804,7 @@
       "id": "p1156",
       "phrase": "stay over",
       "meaning": "泊まる",
-      "scene": "夜遅くなり誰かの家に泊まることを話す場面",
+      "scene": "夜遅くなり誰かの家に泊まることを話すとき",
       "example1": "You can stay over if it gets late.",
       "example2": "She stayed over at my place.",
       "exampleTranslations": [
@@ -3822,7 +3823,7 @@
       "id": "p1157",
       "phrase": "come together",
       "meaning": "まとまる／協力する",
-      "scene": "仲間たちが一つになって対応する場面",
+      "scene": "仲間たちが一つになって対応するとき",
       "example1": "The team came together when it mattered.",
       "example2": "Everything came together at the last minute.",
       "exampleTranslations": [
@@ -3841,7 +3842,7 @@
       "id": "p1158",
       "phrase": "wait your turn",
       "meaning": "順番を待つ",
-      "scene": "順番を守るよう相手に言う場面",
+      "scene": "順番を守るよう相手に言うとき",
       "example1": "Wait your turn, please.",
       "example2": "Everyone had to wait their turn.",
       "exampleTranslations": [
@@ -3860,7 +3861,7 @@
       "id": "p1159",
       "phrase": "any minute now",
       "meaning": "今にも／もうすぐ",
-      "scene": "何かがすぐ起こると待っている場面",
+      "scene": "何かがすぐ起こると待っているとき",
       "example1": "The cab should be here any minute now.",
       "example2": "She is due any minute now.",
       "exampleTranslations": [
@@ -3879,7 +3880,7 @@
       "id": "p1160",
       "phrase": "take someone by surprise",
       "meaning": "～を驚かせる／不意を突く",
-      "scene": "予想外の出来事に誰かが驚く場面",
+      "scene": "予想外の出来事に誰かが驚くとき",
       "example1": "The question took me by surprise.",
       "example2": "His visit took her by surprise.",
       "exampleTranslations": [
@@ -3898,7 +3899,7 @@
       "id": "p1161",
       "phrase": "draw someone out",
       "meaning": "～に話をさせる／打ち解けさせる",
-      "scene": "口数の少ない相手から話を引き出そうとする場面",
+      "scene": "口数の少ない相手から話を引き出そうとするとき",
       "example1": "She is shy, but music draws her out.",
       "example2": "He tried to draw her out at dinner.",
       "exampleTranslations": [
@@ -3917,7 +3918,7 @@
       "id": "p1162",
       "phrase": "so what?",
       "meaning": "だから何？／それがどうしたの？",
-      "scene": "相手の言葉を気にしないよう言う場面",
+      "scene": "相手の指摘を重要ではないとして退けるとき",
       "example1": "So what if I made a mistake?",
       "example2": "You are late. So what?",
       "exampleTranslations": [
@@ -3937,7 +3938,7 @@
       "id": "p1163",
       "phrase": "be worth it",
       "meaning": "その価値がある",
-      "scene": "大変でも結果には価値があると話す場面",
+      "scene": "大変でも結果には価値があると話すとき",
       "example1": "The trip was expensive, but it was worth it.",
       "example2": "Is this upgrade worth it?",
       "exampleTranslations": [
@@ -3956,7 +3957,7 @@
       "id": "p1164",
       "phrase": "check it out",
       "meaning": "見てみる／確かめてみる",
-      "scene": "面白いものを相手に見せようとする場面",
+      "scene": "面白いものを相手に見せようとするとき",
       "example1": "Check it out—there is a new café nearby.",
       "example2": "I checked out that book you recommended.",
       "exampleTranslations": [
@@ -3975,7 +3976,7 @@
       "id": "p1165",
       "phrase": "give someone/something up",
       "meaning": "～を手放す／諦める",
-      "scene": "レイチェルが婚約者や以前の生活を手放したと話す場面",
+      "scene": "習慣・物・関係などを手放したり諦めたりするとき",
       "example1": "She gave up her old job.",
       "example2": "He gave up coffee for a month.",
       "exampleTranslations": [
@@ -3995,7 +3996,7 @@
       "id": "p1166",
       "phrase": "get up the courage to ~",
       "meaning": "勇気を振り絞って～する",
-      "scene": "ロスがレイチェルに声をかける勇気について話す場面",
+      "scene": "怖さを乗り越え、勇気を振り絞って行動するとき",
       "example1": "I finally got up the courage to call her.",
       "example2": "He could not get up the courage to quit.",
       "exampleTranslations": [
@@ -4014,7 +4015,7 @@
       "id": "p1167",
       "phrase": "gang up on someone",
       "meaning": "集団で～を責める／いじめる",
-      "scene": "複数の人が一人を責めている場面",
+      "scene": "複数の人が一人を責めているとき",
       "example1": "Do not gang up on him.",
       "example2": "They all ganged up on me.",
       "exampleTranslations": [
@@ -4033,7 +4034,7 @@
       "id": "p1168",
       "phrase": "make it on one’s own",
       "meaning": "自力でやっていく",
-      "scene": "レイチェルが一人で生活できるか不安を話す場面",
+      "scene": "他人に頼らず、自力で生活や仕事を成り立たせるとき",
       "example1": "She wants to make it on her own.",
       "example2": "I was not sure I could make it on my own.",
       "exampleTranslations": [
@@ -4052,7 +4053,7 @@
       "id": "p1169",
       "phrase": "mix and match",
       "meaning": "組み合わせを変える",
-      "scene": "服や物の組み合わせを試す場面",
+      "scene": "服や物の組み合わせを試すとき",
       "example1": "You can mix and match these colors.",
       "example2": "We mixed and matched the chairs.",
       "exampleTranslations": [
@@ -4071,7 +4072,7 @@
       "id": "p1170",
       "phrase": "Coming through!",
       "meaning": "通ります！",
-      "scene": "人混みを通り抜けながら注意を促す場面",
+      "scene": "人混みを通り抜けながら注意を促すとき",
       "example1": "Coming through! Hot coffee.",
       "example2": "Coming through—watch your feet.",
       "exampleTranslations": [
@@ -4090,7 +4091,7 @@
       "id": "p1171",
       "phrase": "send something back",
       "meaning": "～を返品する／送り返す",
-      "scene": "届いた物や料理を返すことを話す場面",
+      "scene": "届いた物や料理を返すことを話すとき",
       "example1": "I sent the shoes back because they did not fit.",
       "example2": "Send it back if it is damaged.",
       "exampleTranslations": [
@@ -4109,7 +4110,7 @@
       "id": "p1172",
       "phrase": "a judgment call",
       "meaning": "状況を見てする判断",
-      "scene": "正解が一つではない判断について話す場面",
+      "scene": "正解が一つではない判断について話すとき",
       "example1": "It was a judgment call.",
       "example2": "Hiring her is a judgment call.",
       "exampleTranslations": [
@@ -4128,7 +4129,7 @@
       "id": "p1173",
       "phrase": "put our heads together",
       "meaning": "知恵を出し合う",
-      "scene": "問題を解くため仲間で相談する場面",
+      "scene": "問題を解くため仲間で相談するとき",
       "example1": "Let’s put our heads together and solve this.",
       "example2": "We put our heads together for an hour.",
       "exampleTranslations": [
@@ -4147,7 +4148,7 @@
       "id": "p1174",
       "phrase": "make eyes at someone",
       "meaning": "～に色目を使う",
-      "scene": "誰かが相手に好意を示すような視線を送る場面",
+      "scene": "人に好意を示すような視線を送るとき",
       "example1": "He kept making eyes at her.",
       "example2": "Was she making eyes at you?",
       "exampleTranslations": [
@@ -4166,7 +4167,7 @@
       "id": "p1175",
       "phrase": "get out of my way",
       "meaning": "どいて／邪魔しないで",
-      "scene": "モニカが作業中に邪魔をしないよう求める場面",
+      "scene": "相手に道を空けたり、邪魔をやめたりしてほしいとき",
       "example1": "Get out of my way. I am late.",
       "example2": "Please get out of my way for a second.",
       "exampleTranslations": [
@@ -4185,7 +4186,7 @@
       "id": "p1176",
       "phrase": "make up rules",
       "meaning": "勝手にルールを作る",
-      "scene": "誰かが都合よく決まりを作ることを責める場面",
+      "scene": "自分に都合よくルールを作っていると人を批判するとき",
       "example1": "You cannot just make up rules.",
       "example2": "He makes up rules as he goes.",
       "exampleTranslations": [
@@ -4204,7 +4205,7 @@
       "id": "p1177",
       "phrase": "There you go.",
       "meaning": "それでいい／ほらね",
-      "scene": "ロスが洗濯の準備を変えるとチャンドラーが肯定する場面",
+      "scene": "相手のやり方を肯定したり、物を渡したりするとき",
       "example1": "There you go. That looks much better.",
       "example2": "There you go—you figured it out.",
       "exampleTranslations": [
@@ -4224,7 +4225,7 @@
       "id": "p1178",
       "phrase": "back someone up",
       "meaning": "～を支える／裏付ける",
-      "scene": "仲間の説明や主張を支持する場面",
+      "scene": "人の説明や主張を支持し、裏付けるとき",
       "example1": "Thanks for backing me up.",
       "example2": "Do you have facts to back that up?",
       "exampleTranslations": [
@@ -4243,7 +4244,7 @@
       "id": "p1179",
       "phrase": "in a million years",
       "meaning": "絶対に～ない／どれだけ時間があっても",
-      "scene": "あり得ないことを強く否定する場面",
+      "scene": "あり得ないことを強く否定するとき",
       "example1": "I would not do that in a million years.",
       "example2": "Never in a million years did I expect this.",
       "exampleTranslations": [
@@ -4262,7 +4263,7 @@
       "id": "p1180",
       "phrase": "Here goes.",
       "meaning": "よし、いくよ",
-      "scene": "何かを始める直前に自分を奮い立たせる場面",
+      "scene": "何かを始める直前に自分を奮い立たせるとき",
       "example1": "Okay, here goes.",
       "example2": "Here goes nothing.",
       "exampleTranslations": [
@@ -4281,7 +4282,7 @@
       "id": "p1181",
       "phrase": "just for the hell of it",
       "meaning": "ただ何となく／面白半分で",
-      "scene": "特別な理由なくやったことを話す場面",
+      "scene": "特別な理由なくやったことを話すとき",
       "example1": "I called him just for the hell of it.",
       "example2": "We tried it just for the hell of it.",
       "exampleTranslations": [
@@ -4301,7 +4302,7 @@
       "id": "p1182",
       "phrase": "get involved with someone",
       "meaning": "～と恋愛関係になる",
-      "scene": "相手と深い関係にならないよう話す場面",
+      "scene": "相手と深い関係にならないよう話すとき",
       "example1": "I do not want to get involved with him.",
       "example2": "She got involved with a coworker.",
       "exampleTranslations": [
@@ -4321,7 +4322,7 @@
       "id": "p1183",
       "phrase": "the way I/we look at it",
       "meaning": "私の考えでは～だ",
-      "scene": "自分の見方を前置きして意見を述べる場面",
+      "scene": "自分の見方を前置きして意見を述べるとき",
       "example1": "The way I look at it is, we have time.",
       "example2": "The way I look at it is, honesty matters.",
       "exampleTranslations": [
@@ -4340,7 +4341,7 @@
       "id": "p1184",
       "phrase": "Good for you.",
       "meaning": "よかったね／えらいね",
-      "scene": "相手の前向きな行動をほめる場面",
+      "scene": "相手の前向きな行動や成功を褒めるとき",
       "example1": "You asked for help? Good for you.",
       "example2": "Good for you. I am proud of you.",
       "exampleTranslations": [
@@ -4359,7 +4360,7 @@
       "id": "p1185",
       "phrase": "put forth ~",
       "meaning": "～を出す／発揮する",
-      "scene": "努力や案を出すことを話す場面",
+      "scene": "努力や案を出すことを話すとき",
       "example1": "She put forth a strong argument.",
       "example2": "We need to put forth more effort.",
       "exampleTranslations": [
@@ -4378,7 +4379,7 @@
       "id": "p1186",
       "phrase": "a big break",
       "meaning": "大きなチャンス",
-      "scene": "仕事で飛躍する機会を話す場面",
+      "scene": "仕事で飛躍する機会を話すとき",
       "example1": "This audition could be my big break.",
       "example2": "She got her big break on that show.",
       "exampleTranslations": [
@@ -4397,7 +4398,7 @@
       "id": "p1187",
       "phrase": "change your mind",
       "meaning": "考えを変える",
-      "scene": "決めたことを変えるか尋ねる場面",
+      "scene": "決めたことを変えるか尋ねるとき",
       "example1": "You can still change your mind.",
       "example2": "She changed her mind about moving.",
       "exampleTranslations": [
@@ -4416,7 +4417,7 @@
       "id": "p1188",
       "phrase": "look at it this way",
       "meaning": "こう考えてみて",
-      "scene": "別の見方を示して相手を納得させる場面",
+      "scene": "別の見方を示して相手を納得させるとき",
       "example1": "Look at it this way: you learned something.",
       "example2": "Let’s look at it this way.",
       "exampleTranslations": [
@@ -4435,7 +4436,7 @@
       "id": "p1189",
       "phrase": "get one’s shot",
       "meaning": "チャンスを得る／挑戦の番が来る",
-      "scene": "自分にも機会が回ってくることを話す場面",
+      "scene": "自分にも機会が回ってくることを話すとき",
       "example1": "Everyone deserves to get a shot.",
       "example2": "This is your shot to prove yourself.",
       "exampleTranslations": [
@@ -4454,7 +4455,7 @@
       "id": "p1190",
       "phrase": "hard to tell",
       "meaning": "判断しにくい／よく分からない",
-      "scene": "状況からは結論を出しにくいと話す場面",
+      "scene": "状況からは結論を出しにくいと話すとき",
       "example1": "It is hard to tell from this photo.",
       "example2": "With him, it is hard to tell.",
       "exampleTranslations": [
@@ -4473,7 +4474,7 @@
       "id": "p1191",
       "phrase": "black out / be blacked out",
       "meaning": "意識を失う／記憶が飛ぶ",
-      "scene": "停電や強い衝撃で意識・記憶が途切れることを話す場面",
+      "scene": "停電や強い衝撃で意識・記憶が途切れることを話すとき",
       "example1": "I blacked out for a second.",
       "example2": "He was blacked out after the fall.",
       "exampleTranslations": [
@@ -4493,7 +4494,7 @@
       "id": "p1192",
       "phrase": "make contact",
       "meaning": "連絡を取る／接触する",
-      "scene": "誰かと連絡を取ろうとする場面",
+      "scene": "誰かと連絡を取ろうとするとき",
       "example1": "I finally made contact with her.",
       "example2": "Try to make contact before noon.",
       "exampleTranslations": [
@@ -4512,7 +4513,7 @@
       "id": "p1193",
       "phrase": "enter someone’s mind",
       "meaning": "～の頭に浮かぶ",
-      "scene": "ある考えが相手の頭に浮かぶことを話す場面",
+      "scene": "ある考えが相手の頭に浮かぶことを話すとき",
       "example1": "Did it ever enter your mind to call me?",
       "example2": "The idea never entered my mind.",
       "exampleTranslations": [
@@ -4531,7 +4532,7 @@
       "id": "p1194",
       "phrase": "hold someone up",
       "meaning": "～を遅らせる",
-      "scene": "相手を待たせたり進行を遅らせたりする場面",
+      "scene": "相手を待たせたり進行を遅らせたりするとき",
       "example1": "Sorry to hold you up.",
       "example2": "Traffic held us up.",
       "exampleTranslations": [
@@ -4551,7 +4552,7 @@
       "id": "p1195",
       "phrase": "be overrated",
       "meaning": "過大評価されている",
-      "scene": "人気のものを大したことないと評する場面",
+      "scene": "人気のものを大したことないと評するとき",
       "example1": "That restaurant is overrated.",
       "example2": "I think the movie was overrated.",
       "exampleTranslations": [
@@ -4570,7 +4571,7 @@
       "id": "p1196",
       "phrase": "burn out",
       "meaning": "燃え尽きる／疲れ果てる",
-      "scene": "無理を続けて疲弊することを話す場面",
+      "scene": "無理を続けて疲弊することを話すとき",
       "example1": "You will burn out if you never rest.",
       "example2": "She burned out after working nonstop.",
       "exampleTranslations": [
@@ -4589,7 +4590,7 @@
       "id": "p1197",
       "phrase": "miss out on ~",
       "meaning": "～を逃す／経験し損ねる",
-      "scene": "大事な経験や機会を逃すことを話す場面",
+      "scene": "大事な経験や機会を逃すことを話すとき",
       "example1": "Do not miss out on this chance.",
       "example2": "I missed out on the tickets.",
       "exampleTranslations": [
@@ -4608,7 +4609,7 @@
       "id": "p1198",
       "phrase": "make your move",
       "meaning": "行動を起こす／気持ちを伝える",
-      "scene": "ロスにレイチェルへ思いを伝えるよう促す場面",
+      "scene": "ためらっている人に、行動を起こすよう促すとき",
       "example1": "If you like her, make your move.",
       "example2": "Now is the time to make your move.",
       "exampleTranslations": [
@@ -4628,7 +4629,7 @@
       "id": "p1199",
       "phrase": "lay the groundwork",
       "meaning": "下準備をする／土台を作る",
-      "scene": "後の計画のために準備を進める場面",
+      "scene": "後の計画のために準備を進めるとき",
       "example1": "We need to lay the groundwork first.",
       "example2": "She laid the groundwork for the project.",
       "exampleTranslations": [
@@ -4647,7 +4648,7 @@
       "id": "p1200",
       "phrase": "mess someone up",
       "meaning": "～を傷つける／混乱させる",
-      "scene": "つらい出来事が人に影響することを話す場面",
+      "scene": "つらい出来事が人に影響することを話すとき",
       "example1": "That breakup really messed him up.",
       "example2": "Do not let one comment mess you up.",
       "exampleTranslations": [
@@ -4666,7 +4667,7 @@
       "id": "p1201",
       "phrase": "Mental note:",
       "meaning": "覚えておこう",
-      "scene": "自分への注意として心に留める場面",
+      "scene": "自分への注意として心に留めるとき",
       "example1": "Mental note: never lend him money.",
       "example2": "Mental note: bring an umbrella next time.",
       "exampleTranslations": [
@@ -4685,7 +4686,7 @@
       "id": "p1202",
       "phrase": "act surprised",
       "meaning": "驚いたふりをする",
-      "scene": "知っていたことに初めて聞いたような反応をする場面",
+      "scene": "知っていたことに初めて聞いたような反応をするとき",
       "example1": "Try to act surprised.",
       "example2": "She acted surprised when he proposed.",
       "exampleTranslations": [
@@ -4704,7 +4705,7 @@
       "id": "p1203",
       "phrase": "scared to death",
       "meaning": "死ぬほど怖い",
-      "scene": "怖い出来事に強くおびえる場面",
+      "scene": "怖い出来事に強くおびえるとき",
       "example1": "I was scared to death when I heard that noise.",
       "example2": "She is scared to death of flying.",
       "exampleTranslations": [
@@ -4724,7 +4725,7 @@
       "id": "p1204",
       "phrase": "the point is ~",
       "meaning": "要するに～だ／大事なのは～だ",
-      "scene": "話の結論を強調する場面",
+      "scene": "話の結論を強調するとき",
       "example1": "The point is, we need to leave.",
       "example2": "The point is that he tried.",
       "exampleTranslations": [
@@ -4743,7 +4744,7 @@
       "id": "p1205",
       "phrase": "turn out to be ~",
       "meaning": "結果的に～だと分かる",
-      "scene": "予想と違う結果になったことを話す場面",
+      "scene": "予想と違う結果になったことを話すとき",
       "example1": "The meeting turned out to be helpful.",
       "example2": "He turned out to be right.",
       "exampleTranslations": [
@@ -4762,7 +4763,7 @@
       "id": "p1206",
       "phrase": "go up to someone",
       "meaning": "～に近づいて話しかける",
-      "scene": "ジョーイがロスにレイチェルのところへ行くよう促す場面",
+      "scene": "人のところへ近づいて話しかけるとき",
       "example1": "Go up to her and say hello.",
       "example2": "He went up to me after class.",
       "exampleTranslations": [
@@ -4781,7 +4782,7 @@
       "id": "p1207",
       "phrase": "No way!",
       "meaning": "まさか！／あり得ない！",
-      "scene": "仲間が意外な話に驚いて反応する場面",
+      "scene": "意外な話に強く驚いたり、きっぱり否定したりするとき",
       "example1": "No way! That really happened?",
       "example2": "No way, I am not doing that.",
       "exampleTranslations": [
@@ -4800,7 +4801,7 @@
       "id": "p1208",
       "phrase": "a matter of hours",
       "meaning": "数時間の問題",
-      "scene": "結果が出るまであとわずかだと話す場面",
+      "scene": "結果が出るまであとわずかだと話すとき",
       "example1": "It is only a matter of hours now.",
       "example2": "The repair should take a matter of hours.",
       "exampleTranslations": [
@@ -4819,7 +4820,7 @@
       "id": "p1209",
       "phrase": "every now and then",
       "meaning": "時々／たまに",
-      "scene": "習慣や出来事がたまに起こると話す場面",
+      "scene": "習慣や出来事がたまに起こると話すとき",
       "example1": "I still call her every now and then.",
       "example2": "Every now and then, we eat out.",
       "exampleTranslations": [
@@ -4838,7 +4839,7 @@
       "id": "p1210",
       "phrase": "set someone up with someone",
       "meaning": "～を～と引き合わせる",
-      "scene": "友人同士をデートさせようとする場面",
+      "scene": "友人同士をデートさせようとするとき",
       "example1": "My sister set me up with her coworker.",
       "example2": "Do not set them up unless they agree.",
       "exampleTranslations": [
@@ -4857,7 +4858,7 @@
       "id": "p1211",
       "phrase": "It’s a shame ~",
       "meaning": "～なのは残念だ",
-      "scene": "期待どおりにならず残念だと話す場面",
+      "scene": "期待どおりにならず残念だと話すとき",
       "example1": "It is a shame you cannot come.",
       "example2": "It is a shame the store closed.",
       "exampleTranslations": [
@@ -4876,7 +4877,7 @@
       "id": "p1212",
       "phrase": "go with ~",
       "meaning": "～を選ぶ",
-      "scene": "選択肢の中から一つを選ぶ場面",
+      "scene": "選択肢の中から一つを選ぶとき",
       "example1": "Let’s go with the blue one.",
       "example2": "I went with the cheaper option.",
       "exampleTranslations": [
@@ -4896,7 +4897,7 @@
       "id": "p1213",
       "phrase": "wait a sec",
       "meaning": "ちょっと待って",
-      "scene": "話を止めて短く待つよう言う場面",
+      "scene": "話を止めて短く待つよう言うとき",
       "example1": "Wait a sec, I found it.",
       "example2": "Wait a sec—I need my keys.",
       "exampleTranslations": [
@@ -4916,7 +4917,7 @@
       "id": "p1214",
       "phrase": "Is everything all right?",
       "meaning": "大丈夫ですか？／何かありましたか？",
-      "scene": "相手の様子がおかしいため気遣って尋ねる場面",
+      "scene": "相手の様子を気遣い、問題がないか尋ねるとき",
       "example1": "Is everything all right over here?",
       "example2": "You look upset. Is everything all right?",
       "exampleTranslations": [
@@ -4935,7 +4936,7 @@
       "id": "p1215",
       "phrase": "all dressed up",
       "meaning": "きちんとおしゃれをして",
-      "scene": "普段より改まった服装をしている場面",
+      "scene": "普段より改まった服装をしているとき",
       "example1": "Why are you all dressed up?",
       "example2": "They got all dressed up for dinner.",
       "exampleTranslations": [
@@ -4954,7 +4955,7 @@
       "id": "p1216",
       "phrase": "pass out",
       "meaning": "気を失う",
-      "scene": "体調や衝撃で意識を失いそうな場面",
+      "scene": "体調や衝撃で意識を失いそうなとき",
       "example1": "I thought I was going to pass out.",
       "example2": "He passed out from the heat.",
       "exampleTranslations": [
@@ -4974,7 +4975,7 @@
       "id": "p1217",
       "phrase": "It doesn’t matter to me.",
       "meaning": "私はどちらでもいい",
-      "scene": "選択にこだわりがないと伝える場面",
+      "scene": "選択にこだわりがないと伝えるとき",
       "example1": "Either time works; it does not matter to me.",
       "example2": "It does not matter to me where we sit.",
       "exampleTranslations": [
@@ -4993,7 +4994,7 @@
       "id": "p1218",
       "phrase": "You don’t get it.",
       "meaning": "分かってないよ",
-      "scene": "相手が事情や気持ちを理解していないと訴える場面",
+      "scene": "相手が事情や気持ちを理解していないと訴えるとき",
       "example1": "You do not get it. This is serious.",
       "example2": "No, you do not get how hard this is.",
       "exampleTranslations": [
@@ -5012,7 +5013,7 @@
       "id": "p1219",
       "phrase": "what with ~",
       "meaning": "～やら何やらで",
-      "scene": "複数の事情が重なった理由を説明する場面",
+      "scene": "複数の事情が重なった理由を説明するとき",
       "example1": "What with work and school, I am exhausted.",
       "example2": "What with traffic, we got there late.",
       "exampleTranslations": [
@@ -5031,7 +5032,7 @@
       "id": "p1220",
       "phrase": "It’s a wonder ~",
       "meaning": "～なのが不思議だ",
-      "scene": "予想外の結果に驚く場面",
+      "scene": "予想外の結果に驚くとき",
       "example1": "It is a wonder nobody got hurt.",
       "example2": "It is a wonder he remembers anything.",
       "exampleTranslations": [
@@ -5050,7 +5051,7 @@
       "id": "p1221",
       "phrase": "do it all over again",
       "meaning": "最初からもう一度やる",
-      "scene": "同じことをやり直すかについて話す場面",
+      "scene": "同じことをやり直すかについて話すとき",
       "example1": "I would do it all over again.",
       "example2": "We had to do the test all over again.",
       "exampleTranslations": [
@@ -5069,7 +5070,7 @@
       "id": "p1222",
       "phrase": "get at ~",
       "meaning": "～を言おうとする／ほのめかす",
-      "scene": "相手の言いたいことを尋ねる場面",
+      "scene": "相手が何を言おうとしているのか尋ねるとき",
       "example1": "What are you getting at?",
       "example2": "I get what you are getting at.",
       "exampleTranslations": [
@@ -5088,7 +5089,7 @@
       "id": "p1223",
       "phrase": "get along",
       "meaning": "うまくやっていく／仲が良い",
-      "scene": "二人の相性や関係について話す場面",
+      "scene": "人同士が仲良く、うまく付き合えているか話すとき",
       "example1": "Do you two get along?",
       "example2": "We get along really well.",
       "exampleTranslations": [
@@ -5107,7 +5108,7 @@
       "id": "p1224",
       "phrase": "come by ~",
       "meaning": "～を手に入れる／見つける",
-      "scene": "手に入りにくい物について話す場面",
+      "scene": "手に入りにくい物について話すとき",
       "example1": "Good jobs do not come by easily.",
       "example2": "Tickets like that are hard to come by.",
       "exampleTranslations": [
@@ -5126,7 +5127,7 @@
       "id": "p1225",
       "phrase": "go overboard",
       "meaning": "やりすぎる",
-      "scene": "相手が必要以上に何かをしている場面",
+      "scene": "必要な範囲を超えて、何かをやりすぎたとき",
       "example1": "You went overboard with the decorations.",
       "example2": "Do not go overboard on gifts.",
       "exampleTranslations": [
@@ -5145,7 +5146,7 @@
       "id": "p1226",
       "phrase": "keep an eye on ~",
       "meaning": "～を見ていて／注意して見守る",
-      "scene": "誰かや何かを見守るよう頼む場面",
+      "scene": "誰かや何かを見守るよう頼むとき",
       "example1": "Can you keep an eye on my bag?",
       "example2": "Keep an eye on the soup.",
       "exampleTranslations": [
@@ -5164,7 +5165,7 @@
       "id": "p1227",
       "phrase": "make yourself at home",
       "meaning": "くつろいでね",
-      "scene": "家に来た相手に気楽にしてよいと伝える場面",
+      "scene": "家に来た相手に気楽にしてよいと伝えるとき",
       "example1": "Make yourself at home.",
       "example2": "Please make yourself at home while I cook.",
       "exampleTranslations": [
@@ -5183,7 +5184,7 @@
       "id": "p1228",
       "phrase": "help yourself",
       "meaning": "ご自由にどうぞ",
-      "scene": "食べ物などを遠慮なく取るよう促す場面",
+      "scene": "食べ物などを遠慮なく取るよう促すとき",
       "example1": "Help yourself to some coffee.",
       "example2": "Please help yourself.",
       "exampleTranslations": [
@@ -5202,7 +5203,7 @@
       "id": "p1229",
       "phrase": "be dying to ~",
       "meaning": "すごく～したい",
-      "scene": "ずっとしたかったことへの強い気持ちを話す場面",
+      "scene": "ずっとしたかったことへの強い気持ちを話すとき",
       "example1": "I am dying to see that movie.",
       "example2": "She is dying to tell you.",
       "exampleTranslations": [
@@ -5222,7 +5223,7 @@
       "id": "p1230",
       "phrase": "take care of ~",
       "meaning": "～の世話をする／処理する",
-      "scene": "必要な仕事や人の世話を引き受ける場面",
+      "scene": "必要な仕事や人の世話を引き受けるとき",
       "example1": "I will take care of the bill.",
       "example2": "She takes care of her grandfather.",
       "exampleTranslations": [
@@ -5241,7 +5242,7 @@
       "id": "p1231",
       "phrase": "give someone a hard time",
       "meaning": "～を困らせる／からかう",
-      "scene": "相手を責めたりからかったりする場面",
+      "scene": "相手を責めたりからかったりするとき",
       "example1": "My boss gives me a hard time sometimes.",
       "example2": "Do not give her a hard time about it.",
       "exampleTranslations": [
@@ -5260,7 +5261,7 @@
       "id": "p1232",
       "phrase": "for once",
       "meaning": "今回だけは／珍しく",
-      "scene": "いつもと違うことを強調する場面",
+      "scene": "いつもと違うことを強調するとき",
       "example1": "For once, he was on time.",
       "example2": "Can you listen to me for once?",
       "exampleTranslations": [
@@ -5279,7 +5280,7 @@
       "id": "p1233",
       "phrase": "make sense",
       "meaning": "筋が通る／納得できる",
-      "scene": "説明や考えが理解できるか話す場面",
+      "scene": "説明や考えが理解できるか話すとき",
       "example1": "That makes sense to me.",
       "example2": "Your plan does not make sense.",
       "exampleTranslations": [
@@ -5298,7 +5299,7 @@
       "id": "p1234",
       "phrase": "be with someone",
       "meaning": "相手の言うことを理解する／同意する",
-      "scene": "レイチェルが相手の言い分を理解していると返す場面",
+      "scene": "相手の説明を理解したり、意見に同意したりするとき",
       "example1": "I am with you on that.",
       "example2": "I hear you. I am with you.",
       "exampleTranslations": [
@@ -5318,7 +5319,7 @@
       "id": "p1235",
       "phrase": "first choice",
       "meaning": "第一希望",
-      "scene": "誰にとっても第一希望ではない選択を話す場面",
+      "scene": "誰にとっても第一希望ではない選択を話すとき",
       "example1": "Paris was my first choice.",
       "example2": "This was not our first choice.",
       "exampleTranslations": [
@@ -5337,7 +5338,7 @@
       "id": "p1236",
       "phrase": "make a pact",
       "meaning": "約束を交わす",
-      "scene": "仲間同士で取り決めをする場面",
+      "scene": "仲間同士で取り決めをするとき",
       "example1": "We made a pact not to tell anyone.",
       "example2": "They made a pact in college.",
       "exampleTranslations": [
@@ -5356,7 +5357,7 @@
       "id": "p1237",
       "phrase": "back by popular demand",
       "meaning": "要望に応えて再登場",
-      "scene": "人気があって再び行われることを話す場面",
+      "scene": "人気があって再び行われることを話すとき",
       "example1": "Back by popular demand, the special is back.",
       "example2": "The band is back by popular demand.",
       "exampleTranslations": [
@@ -5375,7 +5376,7 @@
       "id": "p1238",
       "phrase": "speak up",
       "meaning": "もっと大きな声で話す／発言する",
-      "scene": "声が小さい相手に聞こえるよう促す場面",
+      "scene": "声が小さい相手に聞こえるよう促すとき",
       "example1": "Please speak up; I cannot hear you.",
       "example2": "She finally spoke up at the meeting.",
       "exampleTranslations": [
@@ -5394,7 +5395,7 @@
       "id": "p1239",
       "phrase": "see where this is going",
       "meaning": "この先どうなるか分かる",
-      "scene": "話や関係の流れを察する場面",
+      "scene": "話や関係の流れを察するとき",
       "example1": "I can see where this is going.",
       "example2": "Let’s see where this is going.",
       "exampleTranslations": [
@@ -5413,7 +5414,7 @@
       "id": "p1240",
       "phrase": "handle the pressure",
       "meaning": "プレッシャーに対処する",
-      "scene": "緊張のかかる状況に耐えられるか話す場面",
+      "scene": "緊張のかかる状況に耐えられるか話すとき",
       "example1": "Can you handle the pressure?",
       "example2": "She handles pressure well.",
       "exampleTranslations": [
@@ -5432,7 +5433,7 @@
       "id": "p1241",
       "phrase": "look in on someone",
       "meaning": "～の様子を見に行く",
-      "scene": "心配な相手の様子を確認しに行く場面",
+      "scene": "心配な相手の様子を確認しに行くとき",
       "example1": "I will look in on Grandma later.",
       "example2": "Could you look in on him tomorrow?",
       "exampleTranslations": [
@@ -5451,7 +5452,7 @@
       "id": "p1242",
       "phrase": "nowhere near ~",
       "meaning": "～には全く及ばない／ほど遠い",
-      "scene": "期待や基準に届かないことを話す場面",
+      "scene": "期待や基準に届かないことを話すとき",
       "example1": "This is nowhere near finished.",
       "example2": "Her apartment is nowhere near as big as yours.",
       "exampleTranslations": [
@@ -5470,7 +5471,7 @@
       "id": "p1243",
       "phrase": "happen to know ~",
       "meaning": "たまたま～を知っている",
-      "scene": "偶然知っている情報を控えめに言う場面",
+      "scene": "偶然知っている情報を控えめに言うとき",
       "example1": "I happen to know a good dentist.",
       "example2": "Do you happen to know her number?",
       "exampleTranslations": [
@@ -5490,7 +5491,7 @@
       "id": "p1244",
       "phrase": "shut someone out",
       "meaning": "～を締め出す／心を閉ざす",
-      "scene": "誰かを仲間や気持ちから遠ざける場面",
+      "scene": "誰かを仲間や気持ちから遠ざけるとき",
       "example1": "Do not shut me out.",
       "example2": "He shut everyone out after the breakup.",
       "exampleTranslations": [
@@ -5509,7 +5510,7 @@
       "id": "p1245",
       "phrase": "have a blast",
       "meaning": "すごく楽しむ",
-      "scene": "楽しい時間を過ごしたことを話す場面",
+      "scene": "楽しい時間を過ごしたことを話すとき",
       "example1": "We had a blast at the concert.",
       "example2": "Have a blast on your trip.",
       "exampleTranslations": [
@@ -5528,7 +5529,7 @@
       "id": "p1246",
       "phrase": "pack one’s bags",
       "meaning": "荷造りする／出て行く準備をする",
-      "scene": "旅行や別れのため荷造りする場面",
+      "scene": "旅行や別れのため荷造りするとき",
       "example1": "I need to pack my bags tonight.",
       "example2": "He packed his bags and left.",
       "exampleTranslations": [
@@ -5547,7 +5548,7 @@
       "id": "p1247",
       "phrase": "make out with someone",
       "meaning": "～と濃厚にキスする",
-      "scene": "恋愛相手との親密な行為を話す場面",
+      "scene": "恋愛相手との親密な行為を話すとき",
       "example1": "They were making out in the hallway.",
       "example2": "I saw him make out with her.",
       "exampleTranslations": [
@@ -5567,7 +5568,7 @@
       "id": "p1248",
       "phrase": "show up",
       "meaning": "現れる／来る",
-      "scene": "来るはずの人が現れるかを話す場面",
+      "scene": "来るはずの人が現れるかを話すとき",
       "example1": "He did not show up for dinner.",
       "example2": "Just show up on time.",
       "exampleTranslations": [
@@ -5586,7 +5587,7 @@
       "id": "p1249",
       "phrase": "like nothing happened",
       "meaning": "何事もなかったかのように",
-      "scene": "問題の後に平然としている様子を話す場面",
+      "scene": "問題の後に平然としている様子を話すとき",
       "example1": "He walked in like nothing happened.",
       "example2": "She acted like nothing had happened.",
       "exampleTranslations": [
@@ -5605,7 +5606,7 @@
       "id": "p1250",
       "phrase": "check in",
       "meaning": "連絡する／到着手続きをする",
-      "scene": "相手の様子確認や到着時の手続きを話す場面",
+      "scene": "人の様子を確認したり、到着時の手続きをしたりするとき",
       "example1": "Check in when you get home.",
       "example2": "We need to check in at three.",
       "exampleTranslations": [
@@ -5625,7 +5626,7 @@
       "id": "p1251",
       "phrase": "blow something up",
       "meaning": "～を爆破する／大げさにする",
-      "scene": "物を爆破する話や問題を大きくする場面",
+      "scene": "物を爆破する話や問題を大きくするとき",
       "example1": "Do not blow this up into a huge fight.",
       "example2": "They blew up the old building.",
       "exampleTranslations": [
@@ -5645,7 +5646,7 @@
       "id": "p1252",
       "phrase": "one of these times",
       "meaning": "いつかそのうち",
-      "scene": "いつか起こることを話す場面",
+      "scene": "いつか起こることを話すとき",
       "example1": "One of these times, you will be right.",
       "example2": "One of these times, we should try that place.",
       "exampleTranslations": [
@@ -5664,7 +5665,7 @@
       "id": "p1253",
       "phrase": "have no choice",
       "meaning": "選択の余地がない",
-      "scene": "ほかに方法がなく決断する場面",
+      "scene": "ほかに方法がなく決断するとき",
       "example1": "I have no choice but to leave.",
       "example2": "We had no choice.",
       "exampleTranslations": [
@@ -5683,7 +5684,7 @@
       "id": "p1254",
       "phrase": "tear someone apart",
       "meaning": "～をひどく傷つける／激しく批判する",
-      "scene": "出来事や言葉が人を深く傷つける場面",
+      "scene": "出来事や言葉が人を深く傷つけるとき",
       "example1": "That loss tore her apart.",
       "example2": "The critics tore the movie apart.",
       "exampleTranslations": [
@@ -5703,7 +5704,7 @@
       "id": "p1255",
       "phrase": "get it on with someone",
       "meaning": "～と性的関係を持つ",
-      "scene": "恋愛相手との性的な関係をくだけて話す場面",
+      "scene": "同じ人や状況にうんざりしていると伝えるとき",
       "example1": "They got it on after the party.",
       "example2": "He only wants to get it on with her.",
       "exampleTranslations": [
@@ -5723,7 +5724,7 @@
       "id": "p1256",
       "phrase": "be sick of ~",
       "meaning": "～にうんざりしている",
-      "scene": "チャンドラーが年末の恋愛プレッシャーにうんざりだと言う場面",
+      "scene": "何かにうんざりしているとき",
       "example1": "I am sick of this weather.",
       "example2": "She is sick of being ignored.",
       "exampleTranslations": [
@@ -5742,7 +5743,7 @@
       "id": "p1257",
       "phrase": "happen to ~",
       "meaning": "たまたま～する",
-      "scene": "偶然そうであることを控えめに述べる場面",
+      "scene": "偶然そうであることを控えめに述べるとき",
       "example1": "I happen to agree with you.",
       "example2": "She happened to be there.",
       "exampleTranslations": [
@@ -5762,7 +5763,7 @@
       "id": "p1258",
       "phrase": "be cool",
       "meaning": "落ち着いて／平静を装って",
-      "scene": "チャンドラーが気まずい状況で平然としていようとする場面",
+      "scene": "緊張や気まずさがあっても、落ち着いて振る舞うとき",
       "example1": "Just be cool and act normal.",
       "example2": "Try to be cool about it.",
       "exampleTranslations": [
@@ -5782,7 +5783,7 @@
       "id": "p1259",
       "phrase": "pass something around",
       "meaning": "～を順番に回す",
-      "scene": "本や物を皆で回して見る場面",
+      "scene": "本や物を皆で回して見るとき",
       "example1": "Pass the photos around.",
       "example2": "She passed the snacks around.",
       "exampleTranslations": [
@@ -5801,7 +5802,7 @@
       "id": "p1260",
       "phrase": "find out",
       "meaning": "知る／突き止める",
-      "scene": "隠れていた事実を知る場面",
+      "scene": "隠れていた事実を知るとき",
       "example1": "I found out the truth yesterday.",
       "example2": "Let me find out what happened.",
       "exampleTranslations": [
@@ -5820,7 +5821,7 @@
       "id": "p1261",
       "phrase": "lose track of time",
       "meaning": "時間を忘れる",
-      "scene": "夢中になって時間が過ぎたことに気づかない場面",
+      "scene": "夢中になって時間が過ぎたことに気づかないとき",
       "example1": "I lost track of time talking to her.",
       "example2": "We lost track of time at the museum.",
       "exampleTranslations": [
@@ -5839,7 +5840,7 @@
       "id": "p1262",
       "phrase": "be supposed to be with someone",
       "meaning": "～と一緒にいる運命だ／～と付き合うことになっている",
-      "scene": "本来一緒になるべき相手について話す場面",
+      "scene": "本来一緒になるべき相手について話すとき",
       "example1": "Maybe they are supposed to be together.",
       "example2": "I thought I was supposed to be with him.",
       "exampleTranslations": [
@@ -5858,7 +5859,7 @@
       "id": "p1263",
       "phrase": "no big deal",
       "meaning": "大したことない",
-      "scene": "問題を軽く受け止めるよう言う場面",
+      "scene": "問題を軽く受け止めるよう言うとき",
       "example1": "It is no big deal.",
       "example2": "Missing one bus is no big deal.",
       "exampleTranslations": [
@@ -5878,7 +5879,7 @@
       "id": "p1264",
       "phrase": "break the code",
       "meaning": "暗号を解く／暗黙のルールを破る",
-      "scene": "秘密の決まりや暗号について話す場面",
+      "scene": "秘密の決まりや暗号について話すとき",
       "example1": "She finally broke the code.",
       "example2": "You do not break the code.",
       "exampleTranslations": [
@@ -5897,7 +5898,7 @@
       "id": "p1265",
       "phrase": "let something happen",
       "meaning": "～が起こるままにする",
-      "scene": "起きたことを無理に止めないよう話す場面",
+      "scene": "起きたことを無理に止めないよう話すとき",
       "example1": "Just let it happen naturally.",
       "example2": "I cannot let that happen again.",
       "exampleTranslations": [
@@ -5916,7 +5917,7 @@
       "id": "p1266",
       "phrase": "in one’s day",
       "meaning": "若いころに／昔は",
-      "scene": "昔の経験を振り返って話す場面",
+      "scene": "昔の経験を振り返って話すとき",
       "example1": "I had a few jobs in my day.",
       "example2": "She was quite a singer in her day.",
       "exampleTranslations": [
@@ -5935,7 +5936,7 @@
       "id": "p1267",
       "phrase": "stop by",
       "meaning": "ちょっと立ち寄る",
-      "scene": "短時間だけ訪ねる予定を話す場面",
+      "scene": "短時間だけ訪ねる予定を話すとき",
       "example1": "I will stop by after work.",
       "example2": "Stop by whenever you are nearby.",
       "exampleTranslations": [
@@ -5954,7 +5955,7 @@
       "id": "p1268",
       "phrase": "drop something off",
       "meaning": "～を届ける／置いていく",
-      "scene": "物を誰かの所へ届ける場面",
+      "scene": "物を誰かの所へ届けるとき",
       "example1": "Can you drop this off at my house?",
       "example2": "I dropped the keys off with her.",
       "exampleTranslations": [
@@ -5973,7 +5974,7 @@
       "id": "p1269",
       "phrase": "catch someone doing something",
       "meaning": "～が…しているところを見つける",
-      "scene": "誰かの行動を現場で見つける場面",
+      "scene": "人が何かをしているところを現場で見つけるとき",
       "example1": "I caught him reading my messages.",
       "example2": "She caught me trying to leave.",
       "exampleTranslations": [
@@ -5992,7 +5993,7 @@
       "id": "p1270",
       "phrase": "give it a shot",
       "meaning": "やってみる",
-      "scene": "不安でも試してみるよう促す場面",
+      "scene": "不安でも試してみるよう促すとき",
       "example1": "Give it a shot. You might like it.",
       "example2": "I gave it a shot, but it was not for me.",
       "exampleTranslations": [
@@ -6011,7 +6012,7 @@
       "id": "p1271",
       "phrase": "trust me",
       "meaning": "私を信じて",
-      "scene": "相手に強く安心させようとする場面",
+      "scene": "自分の言うことを信じてほしいと強く伝えるとき",
       "example1": "Trust me, this will work.",
       "example2": "Trust me—you do not want to know.",
       "exampleTranslations": [
@@ -6030,7 +6031,7 @@
       "id": "p1272",
       "phrase": "see you around",
       "meaning": "またそのうちね",
-      "scene": "別れ際にまた会う可能性を残して言う場面",
+      "scene": "別れ際にまた会う可能性を残して言うとき",
       "example1": "See you around.",
       "example2": "Okay, see you around sometime.",
       "exampleTranslations": [
@@ -6049,7 +6050,7 @@
       "id": "p1273",
       "phrase": "get nothing back",
       "meaning": "何も返ってこない",
-      "scene": "努力や気持ちに見返りがないと話す場面",
+      "scene": "努力や気持ちに見返りがないと話すとき",
       "example1": "I gave a lot and got nothing back.",
       "example2": "She gets nothing back from him.",
       "exampleTranslations": [
@@ -6068,7 +6069,7 @@
       "id": "p1274",
       "phrase": "come back with ~",
       "meaning": "～と言い返す／持ち帰る",
-      "scene": "相手の発言への返しをする場面",
+      "scene": "相手の発言に言い返したり、何かを持ち帰ったりするとき",
       "example1": "He came back with a joke.",
       "example2": "She came back with a better idea.",
       "exampleTranslations": [
@@ -6087,7 +6088,7 @@
       "id": "p1275",
       "phrase": "spell something out for someone",
       "meaning": "～を分かりやすく説明する",
-      "scene": "相手が理解できるよう細かく説明する場面",
+      "scene": "誤解がないよう、内容を一つずつ明確に説明するとき",
       "example1": "Do I have to spell it out for you?",
       "example2": "She spelled the plan out for us.",
       "exampleTranslations": [
@@ -6107,7 +6108,7 @@
       "id": "p1276",
       "phrase": "couldn’t have gone worse",
       "meaning": "これ以上悪くなりようがなかった",
-      "scene": "出来事が最悪だったと振り返る場面",
+      "scene": "出来事が最悪だったと振り返るとき",
       "example1": "The meeting could not have gone worse.",
       "example2": "My date could not have gone worse.",
       "exampleTranslations": [
@@ -6126,7 +6127,7 @@
       "id": "p1277",
       "phrase": "Won’t happen again.",
       "meaning": "もう二度としない／起こさない",
-      "scene": "チャンドラーの母親が同じことは繰り返さないと約束する場面",
+      "scene": "同じ失敗や問題を二度と起こさないと約束するとき",
       "example1": "I promise it will not happen again.",
       "example2": "It will not happen again.",
       "exampleTranslations": [
@@ -6146,7 +6147,7 @@
       "id": "p1278",
       "phrase": "I mean it.",
       "meaning": "本気で言ってる",
-      "scene": "レイチェルが心からそう思うと強調する場面",
+      "scene": "冗談ではなく、本気で言っていると強調するとき",
       "example1": "I mean it. You did a great job.",
       "example2": "Do not laugh—I mean it.",
       "exampleTranslations": [
@@ -6165,7 +6166,7 @@
       "id": "p1279",
       "phrase": "leave little to the imagination",
       "meaning": "露骨で想像の余地がない",
-      "scene": "服装や描写がかなり露骨なことを話す場面",
+      "scene": "服装や描写がかなり露骨なことを話すとき",
       "example1": "That dress leaves little to the imagination.",
       "example2": "The ad leaves little to the imagination.",
       "exampleTranslations": [
@@ -6184,7 +6185,7 @@
       "id": "p1280",
       "phrase": "run off and ~",
       "meaning": "どこかへ行って～する",
-      "scene": "急にどこかへ行く相手について話す場面",
+      "scene": "急にどこかへ行く相手について話すとき",
       "example1": "You cannot just run off and disappear.",
       "example2": "He ran off and got married.",
       "exampleTranslations": [
@@ -6203,7 +6204,7 @@
       "id": "p1281",
       "phrase": "get ugly",
       "meaning": "険悪になる／ひどい展開になる",
-      "scene": "状況が悪化しそうだと話す場面",
+      "scene": "状況が悪化しそうだと話すとき",
       "example1": "This could get ugly.",
       "example2": "The argument got ugly fast.",
       "exampleTranslations": [
@@ -6222,7 +6223,7 @@
       "id": "p1282",
       "phrase": "be pushed back to ~",
       "meaning": "～まで延期される",
-      "scene": "予定が後の日にずれる場面",
+      "scene": "予定が後の日にずれるとき",
       "example1": "The meeting was pushed back to Friday.",
       "example2": "Our flight got pushed back to noon.",
       "exampleTranslations": [
@@ -6241,7 +6242,7 @@
       "id": "p1283",
       "phrase": "get started",
       "meaning": "始める",
-      "scene": "何かを始めようと仲間に言う場面",
+      "scene": "何かを始めようと仲間に言うとき",
       "example1": "Let’s get started.",
       "example2": "I cannot wait to get started.",
       "exampleTranslations": [
@@ -6260,7 +6261,7 @@
       "id": "p1284",
       "phrase": "Heads up!",
       "meaning": "気をつけて！／注意して！",
-      "scene": "危険や近づく物を知らせる場面",
+      "scene": "危険や近づく物を知らせるとき",
       "example1": "Heads up! The ball is coming.",
       "example2": "Heads up, the boss is here.",
       "exampleTranslations": [
@@ -6279,7 +6280,7 @@
       "id": "p1285",
       "phrase": "kick someone’s butt",
       "meaning": "～をこてんぱんに負かす／叱る",
-      "scene": "勝負で相手に勝つことを話す場面",
+      "scene": "勝負で相手に勝つことを話すとき",
       "example1": "We are going to kick their butts.",
       "example2": "My trainer kicked my butt today.",
       "exampleTranslations": [
@@ -6299,7 +6300,7 @@
       "id": "p1286",
       "phrase": "pick up the pieces",
       "meaning": "立ち直る／後始末をする",
-      "scene": "傷ついたレイチェルを支えて立ち直らせる話をする場面",
+      "scene": "失敗や別れのあと、立ち直ったり後始末をしたりするとき",
       "example1": "It took her months to pick up the pieces.",
       "example2": "We helped him pick up the pieces.",
       "exampleTranslations": [
@@ -6318,7 +6319,7 @@
       "id": "p1287",
       "phrase": "I’ve been better.",
       "meaning": "あまり良くないかな",
-      "scene": "調子を尋ねられて、良くないと控えめに答える場面",
+      "scene": "調子を尋ねられて、良くないと控えめに答えるとき",
       "example1": "How are you? I have been better.",
       "example2": "Honestly, I have been better.",
       "exampleTranslations": [
@@ -6337,7 +6338,7 @@
       "id": "p1288",
       "phrase": "figure out what you want",
       "meaning": "自分が何を望むか分かる",
-      "scene": "レイチェルが自分の気持ちや望みを整理する場面",
+      "scene": "自分が本当に望んでいることを整理するとき",
       "example1": "Take time to figure out what you want.",
       "example2": "He still has to figure out what he wants.",
       "exampleTranslations": [
@@ -6356,7 +6357,7 @@
       "id": "p1289",
       "phrase": "be there for someone",
       "meaning": "～のそばにいて支える",
-      "scene": "チャンドラーがロスに傷ついたレイチェルを支えるべきだと言う場面",
+      "scene": "つらい状況の人に寄り添い、支えるとき",
       "example1": "I am here for you if you need me.",
       "example2": "She was there for me when I needed help.",
       "exampleTranslations": [
@@ -6376,7 +6377,7 @@
       "id": "p1290",
       "phrase": "No problem.",
       "meaning": "どういたしまして／問題ないよ",
-      "scene": "ロスが感謝や頼みに気軽に応じる場面",
+      "scene": "感謝や依頼に対して、気軽に「問題ない」と応じるとき",
       "example1": "No problem. I can help.",
       "example2": "Thanks. No problem.",
       "exampleTranslations": [
@@ -6395,7 +6396,7 @@
       "id": "p1291",
       "phrase": "change the subject",
       "meaning": "話題を変える",
-      "scene": "気まずい話から別の話題へ移ろうとする場面",
+      "scene": "気まずい話から別の話題へ移ろうとするとき",
       "example1": "Can we change the subject?",
       "example2": "She changed the subject quickly.",
       "exampleTranslations": [
@@ -6414,7 +6415,7 @@
       "id": "p1292",
       "phrase": "keep someone at a distance",
       "meaning": "～と距離を置く",
-      "scene": "人と親しくなりすぎないようにする場面",
+      "scene": "人と親しくなりすぎないようにするとき",
       "example1": "He keeps everyone at a distance.",
       "example2": "She kept him at a distance for years.",
       "exampleTranslations": [
@@ -6433,7 +6434,7 @@
       "id": "p1293",
       "phrase": "I don’t know you from Adam.",
       "meaning": "あなたのことを全く知らない",
-      "scene": "相手を知らないと強く言う場面",
+      "scene": "相手を知らないと強く言うとき",
       "example1": "I do not know him from Adam.",
       "example2": "She does not know you from Adam.",
       "exampleTranslations": [
@@ -6452,7 +6453,7 @@
       "id": "p1294",
       "phrase": "You’re one to talk.",
       "meaning": "よく言うよ／あなたに言われたくない",
-      "scene": "同じ欠点のある相手に言い返す場面",
+      "scene": "同じ欠点のある相手に言い返すとき",
       "example1": "You are one to talk. You are always late.",
       "example2": "You are one to talk about being messy.",
       "exampleTranslations": [
@@ -6471,7 +6472,7 @@
       "id": "p1295",
       "phrase": "lead a double life",
       "meaning": "二重生活を送る",
-      "scene": "表と裏で違う生活をしていることを話す場面",
+      "scene": "表と裏で違う生活をしていることを話すとき",
       "example1": "He was leading a double life.",
       "example2": "She felt like she led a double life.",
       "exampleTranslations": [
@@ -6490,7 +6491,7 @@
       "id": "p1296",
       "phrase": "on any level",
       "meaning": "どんな意味でも／少しでも",
-      "scene": "何らかの点で関係があるかを話す場面",
+      "scene": "何らかの点で関係があるかを話すとき",
       "example1": "I do not agree with that on any level.",
       "example2": "It does not make sense on any level.",
       "exampleTranslations": [
@@ -6509,7 +6510,7 @@
       "id": "p1297",
       "phrase": "suck up to someone",
       "meaning": "～にごますりする",
-      "scene": "気に入られようと媚びる相手を話す場面",
+      "scene": "気に入られようと媚びる相手を話すとき",
       "example1": "He is always sucking up to the boss.",
       "example2": "Do not suck up to her.",
       "exampleTranslations": [
@@ -6528,7 +6529,7 @@
       "id": "p1298",
       "phrase": "easy on ~",
       "meaning": "～は控えめに／ほどほどに",
-      "scene": "量や強さを抑えるよう相手に言う場面",
+      "scene": "量や強さを抑えるよう相手に言うとき",
       "example1": "Easy on the salt.",
       "example2": "Easy on those cookies.",
       "exampleTranslations": [
@@ -6547,7 +6548,7 @@
       "id": "p1299",
       "phrase": "pass on",
       "meaning": "亡くなる",
-      "scene": "ペットの死をやわらかく言う場面",
+      "scene": "ペットの死をやわらかく言うとき",
       "example1": "Her old dog passed on last year.",
       "example2": "I am sorry your cat passed on.",
       "exampleTranslations": [
@@ -6567,7 +6568,7 @@
       "id": "p1300",
       "phrase": "I’d better get going.",
       "meaning": "そろそろ行かなきゃ",
-      "scene": "帰る時間なので席を立つ場面",
+      "scene": "帰る時間なので席を立つとき",
       "example1": "I had better get going. It is late.",
       "example2": "I should get going before traffic gets worse.",
       "exampleTranslations": [
@@ -6586,7 +6587,7 @@
       "id": "p1301",
       "phrase": "under my roof",
       "meaning": "私の家にいる限り",
-      "scene": "親が家のルールを守らせようとする場面",
+      "scene": "親が家のルールを守らせようとするとき",
       "example1": "Not under my roof, you will not.",
       "example2": "As long as you are under my roof, be respectful.",
       "exampleTranslations": [
@@ -6605,7 +6606,7 @@
       "id": "p1302",
       "phrase": "live by someone’s rules",
       "meaning": "～のルールに従って暮らす",
-      "scene": "親や他人の決まりに従うことへの不満を話す場面",
+      "scene": "親や他人の決まりに従うことへの不満を話すとき",
       "example1": "I cannot live by your rules forever.",
       "example2": "They live by their own rules.",
       "exampleTranslations": [
@@ -6624,7 +6625,7 @@
       "id": "p1303",
       "phrase": "This has gone on long enough.",
       "meaning": "もう十分続いた／いい加減にして",
-      "scene": "長引いたことを終わらせようとする場面",
+      "scene": "長引いたことを終わらせようとするとき",
       "example1": "This has gone on long enough.",
       "example2": "The argument has gone on long enough.",
       "exampleTranslations": [
@@ -6643,7 +6644,7 @@
       "id": "p1304",
       "phrase": "break it off with someone",
       "meaning": "～と別れる／関係を終わらせる",
-      "scene": "恋愛関係を終わらせるべきだと話す場面",
+      "scene": "恋愛関係を終わらせるべきだと話すとき",
       "example1": "You should break it off with him.",
       "example2": "She broke it off before it got serious.",
       "exampleTranslations": [
@@ -6662,7 +6663,7 @@
       "id": "p1305",
       "phrase": "the right one comes along",
       "meaning": "運命の相手が現れる",
-      "scene": "いつか合う相手に出会えると励ます場面",
+      "scene": "いつか合う相手に出会えると励ますとき",
       "example1": "You will know when the right one comes along.",
       "example2": "The right one will come along someday.",
       "exampleTranslations": [
@@ -6681,7 +6682,7 @@
       "id": "p1306",
       "phrase": "have the courage/guts to ~",
       "meaning": "～する勇気がある",
-      "scene": "難しい行動をする勇気について話す場面",
+      "scene": "難しい行動をする勇気について話すとき",
       "example1": "Do you have the guts to ask her out?",
       "example2": "She had the courage to say no.",
       "exampleTranslations": [
@@ -6701,7 +6702,7 @@
       "id": "p1307",
       "phrase": "make things right",
       "meaning": "事態を正す／埋め合わせる",
-      "scene": "悪くなった関係や状況を修復しようとする場面",
+      "scene": "悪くなった関係や状況を修復しようとするとき",
       "example1": "I want to make things right with her.",
       "example2": "He tried to make things right.",
       "exampleTranslations": [
@@ -6720,7 +6721,7 @@
       "id": "p1308",
       "phrase": "in an ideal world",
       "meaning": "理想を言えば",
-      "scene": "現実とは違う理想的な状況を話す場面",
+      "scene": "現実とは違う理想的な状況を話すとき",
       "example1": "In an ideal world, everyone would agree.",
       "example2": "In an ideal world, we would have more time.",
       "exampleTranslations": [
@@ -6739,7 +6740,7 @@
       "id": "p1309",
       "phrase": "come along",
       "meaning": "一緒に来る",
-      "scene": "相手を誘って一緒に来るよう言う場面",
+      "scene": "相手を誘って一緒に来るよう言うとき",
       "example1": "Do you want to come along?",
       "example2": "She came along with us.",
       "exampleTranslations": [
@@ -6758,7 +6759,7 @@
       "id": "p1310",
       "phrase": "let someone make their own mistakes",
       "meaning": "～に自分で失敗させる",
-      "scene": "親が子どもを過度に守らず学ばせる場面",
+      "scene": "親が子どもを過度に守らず学ばせるとき",
       "example1": "You have to let him make his own mistakes.",
       "example2": "Let her make her own mistakes sometimes.",
       "exampleTranslations": [
@@ -6777,7 +6778,7 @@
       "id": "p1311",
       "phrase": "be right for someone",
       "meaning": "～に合っている／ふさわしい",
-      "scene": "恋愛相手として合うかを話す場面",
+      "scene": "恋愛相手として合うかを話すとき",
       "example1": "He is not right for her.",
       "example2": "Maybe this job is right for you.",
       "exampleTranslations": [
@@ -6796,7 +6797,7 @@
       "id": "p1312",
       "phrase": "have nothing to do with ~",
       "meaning": "～とは何の関係もない",
-      "scene": "ジョーイが話題と別の件は無関係だと説明する場面",
+      "scene": "ある物事が話題や問題と無関係だと説明するとき",
       "example1": "That has nothing to do with me.",
       "example2": "It has nothing to do with the price.",
       "exampleTranslations": [
@@ -6815,7 +6816,7 @@
       "id": "p1313",
       "phrase": "Might as well ~",
       "meaning": "どうせなら～した方がいい／～も同然だ",
-      "scene": "ロジャーが皮肉を交えて物事を言う場面",
+      "scene": "ほかに良い選択肢がないので、そうするのが妥当だと伝えるとき",
       "example1": "We might as well leave now.",
       "example2": "You might as well ask her directly.",
       "exampleTranslations": [
@@ -6834,7 +6835,7 @@
       "id": "p1314",
       "phrase": "get back in the game",
       "meaning": "再び恋愛や活動を始める",
-      "scene": "ロスがまた恋愛に前向きになることを話す場面",
+      "scene": "中断していた恋愛・活動・競争などへ再び戻るとき",
       "example1": "It is time to get back in the game.",
       "example2": "She got back in the game after a break.",
       "exampleTranslations": [
@@ -6853,7 +6854,7 @@
       "id": "p1315",
       "phrase": "make a break for it",
       "meaning": "逃げ出そうとする",
-      "scene": "誰かがその場から急いで逃げようとする場面",
+      "scene": "危険や気まずい状況から急いで逃げ出すとき",
       "example1": "When the door opened, he made a break for it.",
       "example2": "Let’s make a break for it before it rains.",
       "exampleTranslations": [
@@ -6872,7 +6873,7 @@
       "id": "p1316",
       "phrase": "end up with ~",
       "meaning": "結局～になる／手に入れる",
-      "scene": "予想と違う結果になることを話す場面",
+      "scene": "予想と違う結果になることを話すとき",
       "example1": "I ended up with the red one.",
       "example2": "She ended up with a great job.",
       "exampleTranslations": [
@@ -6891,7 +6892,7 @@
       "id": "p1317",
       "phrase": "to go",
       "meaning": "持ち帰りで",
-      "scene": "店で持ち帰りを注文する場面",
+      "scene": "店で持ち帰りを注文するとき",
       "example1": "Can I get this to go?",
       "example2": "We ordered two coffees to go.",
       "exampleTranslations": [
@@ -6910,7 +6911,7 @@
       "id": "p1318",
       "phrase": "Dinner’s on me.",
       "meaning": "夕食は私のおごり",
-      "scene": "食事代を払うと申し出る場面",
+      "scene": "食事代を払うと申し出るとき",
       "example1": "Dinner is on me tonight.",
       "example2": "You helped me, so lunch is on me.",
       "exampleTranslations": [
@@ -6929,7 +6930,7 @@
       "id": "p1319",
       "phrase": "get out of control",
       "meaning": "手に負えなくなる",
-      "scene": "状況が悪化して収拾がつかなくなる場面",
+      "scene": "状況が悪化して収拾がつかなくなるとき",
       "example1": "The party got out of control.",
       "example2": "Things got out of control quickly.",
       "exampleTranslations": [
@@ -6948,7 +6949,7 @@
       "id": "p1320",
       "phrase": "have something made",
       "meaning": "～を作ってもらう",
-      "scene": "服などを専門家に作ってもらう話をする場面",
+      "scene": "服などを専門家に作ってもらう話をするとき",
       "example1": "She had a dress made for the wedding.",
       "example2": "I had these shelves made locally.",
       "exampleTranslations": [
@@ -6968,7 +6969,7 @@
       "id": "p1321",
       "phrase": "ask yourself ~",
       "meaning": "自分に～と問いかける",
-      "scene": "自分の気持ちを考えるよう促す場面",
+      "scene": "自分の気持ちを考えるよう促すとき",
       "example1": "Ask yourself what you really want.",
       "example2": "I had to ask myself why I was upset.",
       "exampleTranslations": [
@@ -6987,7 +6988,7 @@
       "id": "p1322",
       "phrase": "give it another shot",
       "meaning": "もう一度やってみる",
-      "scene": "失敗したことに再挑戦するよう促す場面",
+      "scene": "失敗したことに再挑戦するよう促すとき",
       "example1": "Give it another shot tomorrow.",
       "example2": "I gave the recipe another shot.",
       "exampleTranslations": [
@@ -7006,7 +7007,7 @@
       "id": "p1323",
       "phrase": "You can’t deny it.",
       "meaning": "それは否定できない",
-      "scene": "明らかな事実を認めさせようとする場面",
+      "scene": "明らかな事実を認めさせようとするとき",
       "example1": "You cannot deny it—you like her.",
       "example2": "It is true, and you cannot deny it.",
       "exampleTranslations": [
@@ -7025,7 +7026,7 @@
       "id": "p1324",
       "phrase": "You’ll be set.",
       "meaning": "これで準備万端／困らないよ",
-      "scene": "必要な物がそろえば大丈夫だと伝える場面",
+      "scene": "必要な物がそろえば大丈夫だと伝えるとき",
       "example1": "Get a charger and you will be set.",
       "example2": "Once you learn that, you will be set.",
       "exampleTranslations": [
@@ -7044,7 +7045,7 @@
       "id": "p1325",
       "phrase": "pick someone up",
       "meaning": "～を迎えに行く",
-      "scene": "車で相手を迎えに行く予定を話す場面",
+      "scene": "車で相手を迎えに行く予定を話すとき",
       "example1": "I will pick you up at seven.",
       "example2": "Can you pick her up from the airport?",
       "exampleTranslations": [
@@ -7064,7 +7065,7 @@
       "id": "p1326",
       "phrase": "for a living",
       "meaning": "仕事として／生計を立てるために",
-      "scene": "ロスが相手に職業を尋ねる場面",
+      "scene": "職業や収入を得る手段について尋ねたり説明したりするとき",
       "example1": "What do you do for a living?",
       "example2": "She writes for a living.",
       "exampleTranslations": [
@@ -7083,7 +7084,7 @@
       "id": "p1327",
       "phrase": "see oneself ~ing",
       "meaning": "自分が～している姿を想像する",
-      "scene": "将来の自分をその仕事に重ねられるか考える場面",
+      "scene": "将来の自分をその仕事に重ねられるか考えるとき",
       "example1": "Can you see yourself living here?",
       "example2": "I cannot see myself doing that job.",
       "exampleTranslations": [
@@ -7102,7 +7103,7 @@
       "id": "p1328",
       "phrase": "bring someone back to one’s place",
       "meaning": "～を自宅に連れて帰る",
-      "scene": "デート相手を家へ連れて行くことを話す場面",
+      "scene": "デート相手を家へ連れて行くことを話すとき",
       "example1": "He brought her back to his place.",
       "example2": "I am not ready to bring anyone back to my place.",
       "exampleTranslations": [
@@ -7121,7 +7122,7 @@
       "id": "p1329",
       "phrase": "seal the deal",
       "meaning": "決め手になる／話をまとめる",
-      "scene": "最後の一押しで合意を決める場面",
+      "scene": "最後の一押しで合意を決めるとき",
       "example1": "That discount sealed the deal.",
       "example2": "A good offer could seal the deal.",
       "exampleTranslations": [
@@ -7140,7 +7141,7 @@
       "id": "p1330",
       "phrase": "keep something down",
       "meaning": "食べ物を吐かずに胃にとどめる",
-      "scene": "体調が悪く、食べ物を受け付けられるか話す場面",
+      "scene": "体調が悪く、食べ物を受け付けられるか話すとき",
       "example1": "I cannot keep anything down.",
       "example2": "She kept some soup down.",
       "exampleTranslations": [
@@ -7160,7 +7161,7 @@
       "id": "p1331",
       "phrase": "be suited for ~",
       "meaning": "～に向いている",
-      "scene": "仕事や役割への適性を話す場面",
+      "scene": "仕事や役割への適性を話すとき",
       "example1": "You are well suited for this job.",
       "example2": "That color is suited for you.",
       "exampleTranslations": [
@@ -7179,7 +7180,7 @@
       "id": "p1332",
       "phrase": "cheer someone up",
       "meaning": "～を元気づける",
-      "scene": "落ち込んだ仲間を励まそうとする場面",
+      "scene": "落ち込んだ仲間を励まそうとするとき",
       "example1": "I bought flowers to cheer her up.",
       "example2": "This song always cheers me up.",
       "exampleTranslations": [
@@ -7198,7 +7199,7 @@
       "id": "p1333",
       "phrase": "help someone out",
       "meaning": "～を助ける",
-      "scene": "困っている仲間に手を貸す場面",
+      "scene": "困っている仲間に手を貸すとき",
       "example1": "Can you help me out with this?",
       "example2": "She helped us out when we were stuck.",
       "exampleTranslations": [
@@ -7217,7 +7218,7 @@
       "id": "p1334",
       "phrase": "try something on someone",
       "meaning": "～を人に試す／仕掛ける",
-      "scene": "相手に言い訳や作戦を試すことを話す場面",
+      "scene": "相手に言い訳や作戦を試すことを話すとき",
       "example1": "Do not try that excuse on me.",
       "example2": "He tried a new joke on the audience.",
       "exampleTranslations": [
@@ -7236,7 +7237,7 @@
       "id": "p1335",
       "phrase": "get together",
       "meaning": "会う／付き合う",
-      "scene": "人と会うことや恋愛関係になることを話す場面",
+      "scene": "人と会うことや恋愛関係になることを話すとき",
       "example1": "Let’s get together this weekend.",
       "example2": "They got together after years of friendship.",
       "exampleTranslations": [
@@ -7256,7 +7257,7 @@
       "id": "p1336",
       "phrase": "be on top of ~",
       "meaning": "～をきちんと把握している／管理できている",
-      "scene": "仕事や複数のことをきちんと管理する場面",
+      "scene": "仕事や複数のことをきちんと管理するとき",
       "example1": "She is on top of the schedule.",
       "example2": "I need to get on top of these emails today.",
       "exampleTranslations": [
@@ -7276,7 +7277,7 @@
       "id": "p1337",
       "phrase": "have the wrong guy",
       "meaning": "人違いをしている",
-      "scene": "相手を取り違えていると説明する場面",
+      "scene": "相手を取り違えていると説明するとき",
       "example1": "You have the wrong guy.",
       "example2": "I think you have the wrong person.",
       "exampleTranslations": [
@@ -7295,7 +7296,7 @@
       "id": "p1338",
       "phrase": "put a roof over someone’s head",
       "meaning": "～に住む場所を与える",
-      "scene": "モニカがレイチェルを家に住まわせていると話す場面",
+      "scene": "人に住む場所を提供していることを話すとき",
       "example1": "They put a roof over my head.",
       "example2": "I need a job to put a roof over my kids’ heads.",
       "exampleTranslations": [
@@ -7314,7 +7315,7 @@
       "id": "p1339",
       "phrase": "be polite",
       "meaning": "礼儀正しくする",
-      "scene": "相手に失礼なく振る舞うよう言う場面",
+      "scene": "相手に失礼なく振る舞うよう言うとき",
       "example1": "Try to be polite to her.",
       "example2": "He was polite but distant.",
       "exampleTranslations": [
@@ -7333,7 +7334,7 @@
       "id": "p1340",
       "phrase": "spoil your appetite",
       "meaning": "食欲をなくす",
-      "scene": "食事前に食べて食欲をなくさないよう言う場面",
+      "scene": "食事前に食べて食欲をなくさないよう言うとき",
       "example1": "Do not spoil your appetite with candy.",
       "example2": "That snack spoiled my appetite.",
       "exampleTranslations": [
@@ -7352,7 +7353,7 @@
       "id": "p1341",
       "phrase": "work for someone",
       "meaning": "～にとって効果がある／合う",
-      "scene": "ある方法が人に合うかを話す場面",
+      "scene": "ある方法が人に合うかを話すとき",
       "example1": "That routine works for me.",
       "example2": "If it works for you, keep doing it.",
       "exampleTranslations": [
@@ -7371,7 +7372,7 @@
       "id": "p1342",
       "phrase": "fake it",
       "meaning": "できるふりをする／装う",
-      "scene": "自信や知識があるふりをする場面",
+      "scene": "自信や知識があるふりをするとき",
       "example1": "Just fake it until you learn.",
       "example2": "He faked it through the interview.",
       "exampleTranslations": [
@@ -7390,7 +7391,7 @@
       "id": "p1343",
       "phrase": "by the time ~",
       "meaning": "～するまでには",
-      "scene": "ある時点までに起こることを話す場面",
+      "scene": "ある時点までに起こることを話すとき",
       "example1": "By the time we arrived, it was dark.",
       "example2": "She will be home by the time you call.",
       "exampleTranslations": [
@@ -7409,7 +7410,7 @@
       "id": "p1344",
       "phrase": "catch a late movie",
       "meaning": "遅い時間の映画を見に行く",
-      "scene": "夜遅くに映画を見に行く予定を話す場面",
+      "scene": "夜遅くに映画を見に行く予定を話すとき",
       "example1": "Let’s catch a late movie.",
       "example2": "We caught a late movie after dinner.",
       "exampleTranslations": [
@@ -7428,7 +7429,7 @@
       "id": "p1345",
       "phrase": "work someone over",
       "meaning": "～をこてんぱんに痛めつける／強く追及する",
-      "scene": "フィービーがマッサージで相手を強くもみほぐす場面",
+      "scene": "人を痛めつけたり、厳しく追及したりするとき",
       "example1": "The coach worked him over in practice.",
       "example2": "The detective worked the suspect over.",
       "exampleTranslations": [
@@ -7442,13 +7443,13 @@
       "episode": "S01E15",
       "frequency": "limited",
       "register": "slang",
-      "note": "暴力的な意味や強い追及を表すことがある。"
+      "note": "暴力的な意味や強い追及を表すことがある。作中ではマッサージの「強くもみほぐす」にかけたジョークとして使われている。"
     },
     {
       "id": "p1346",
       "phrase": "Can we start over?",
       "meaning": "やり直せる？",
-      "scene": "気まずくなった会話を最初からやり直そうとする場面",
+      "scene": "気まずくなった会話を最初からやり直そうとするとき",
       "example1": "Can we start over? I said that badly.",
       "example2": "Let’s start over and try again.",
       "exampleTranslations": [
@@ -7467,7 +7468,7 @@
       "id": "p1347",
       "phrase": "act out",
       "meaning": "感情を問題行動で表す／演じる",
-      "scene": "抑えた感情を行動に出すことを話す場面",
+      "scene": "抑えた感情を行動に出すことを話すとき",
       "example1": "Kids sometimes act out when they are upset.",
       "example2": "He acted out the scene for us.",
       "exampleTranslations": [
@@ -7487,7 +7488,7 @@
       "id": "p1348",
       "phrase": "What else is new?",
       "meaning": "他に何か目新しいことでも？／いつものことだ",
-      "scene": "予想どおりの話に皮肉っぽく反応する場面",
+      "scene": "予想どおりの話に、驚きはないと皮肉っぽく反応するとき",
       "example1": "He is late again? What else is new?",
       "example2": "What else is new with you?",
       "exampleTranslations": [
@@ -7507,7 +7508,7 @@
       "id": "p1349",
       "phrase": "go over something",
       "meaning": "～を確認する／詳しく検討する",
-      "scene": "内容を一緒に見直す場面",
+      "scene": "内容を一緒に見直すとき",
       "example1": "Let’s go over the plan once more.",
       "example2": "Can we go over your notes?",
       "exampleTranslations": [
@@ -7527,7 +7528,7 @@
       "id": "p1350",
       "phrase": "out of whack",
       "meaning": "調子が狂って／正常でなくて",
-      "scene": "生活や体のバランスが崩れていることを話す場面",
+      "scene": "生活や体のバランスが崩れていることを話すとき",
       "example1": "My sleep schedule is out of whack.",
       "example2": "Everything feels out of whack today.",
       "exampleTranslations": [
@@ -7546,7 +7547,7 @@
       "id": "p1351",
       "phrase": "grow apart",
       "meaning": "成長するうちに疎遠になる",
-      "scene": "関係が少しずつ離れていくことを話す場面",
+      "scene": "関係が少しずつ離れていくことを話すとき",
       "example1": "We grew apart after college.",
       "example2": "They did not fight; they just grew apart.",
       "exampleTranslations": [
@@ -7565,7 +7566,7 @@
       "id": "p1352",
       "phrase": "lay someone off",
       "meaning": "～を一時解雇する",
-      "scene": "会社が人員削減をすることを話す場面",
+      "scene": "会社が人員削減をすることを話すとき",
       "example1": "The company laid off fifty workers.",
       "example2": "She was laid off last month.",
       "exampleTranslations": [
@@ -7584,7 +7585,7 @@
       "id": "p1353",
       "phrase": "How bad could it be?",
       "meaning": "どれほど悪いことになる？／大したことないでしょ",
-      "scene": "悪い結果を軽く見て挑戦しようとする場面",
+      "scene": "悪い結果の可能性を軽く見て、試してみようとするとき",
       "example1": "How bad could it be? Let’s try it.",
       "example2": "I thought, how bad could it be?",
       "exampleTranslations": [
@@ -7603,7 +7604,7 @@
       "id": "p1354",
       "phrase": "find the right moment",
       "meaning": "適切なタイミングを見つける",
-      "scene": "大切な話を切り出す機会を待つ場面",
+      "scene": "大切な話を切り出す機会を待つとき",
       "example1": "I need to find the right moment to tell her.",
       "example2": "He never found the right moment.",
       "exampleTranslations": [
@@ -7623,7 +7624,7 @@
       "id": "p1355",
       "phrase": "take the news badly",
       "meaning": "知らせを悪く受け止める",
-      "scene": "相手がつらい知らせにどう反応するかを話す場面",
+      "scene": "つらい知らせに強く動揺したことを話すとき",
       "example1": "She took the news badly.",
       "example2": "I knew he would take it badly.",
       "exampleTranslations": [
@@ -7642,7 +7643,7 @@
       "id": "p1356",
       "phrase": "Do you have a sec?",
       "meaning": "ちょっと時間ある？",
-      "scene": "短く話したいので相手に時間があるか尋ねる場面",
+      "scene": "短く話したいので相手に時間があるか尋ねるとき",
       "example1": "Do you have a sec? I need your opinion.",
       "example2": "Hey, do you have a second?",
       "exampleTranslations": [
@@ -7661,7 +7662,7 @@
       "id": "p1357",
       "phrase": "keep it down",
       "meaning": "静かにして／音を抑える",
-      "scene": "大きな音を出す相手を静かにさせる場面",
+      "scene": "大きな音を出す相手を静かにさせるとき",
       "example1": "Keep it down. The baby is asleep.",
       "example2": "Could you keep it down tonight?",
       "exampleTranslations": [
@@ -7681,7 +7682,7 @@
       "id": "p1358",
       "phrase": "fill something out",
       "meaning": "～に記入する",
-      "scene": "用紙に必要事項を書く場面",
+      "scene": "用紙に必要事項を書くとき",
       "example1": "Please fill out this form.",
       "example2": "I filled it out online.",
       "exampleTranslations": [
@@ -7700,7 +7701,7 @@
       "id": "p1359",
       "phrase": "in case of emergency",
       "meaning": "緊急の場合は",
-      "scene": "緊急時の連絡先などを記入する場面",
+      "scene": "緊急時の連絡先などを記入するとき",
       "example1": "Call this number in case of emergency.",
       "example2": "Keep these instructions in case of emergency.",
       "exampleTranslations": [
@@ -7719,7 +7720,7 @@
       "id": "p1360",
       "phrase": "There’s not much we can do.",
       "meaning": "私たちにできることはあまりない",
-      "scene": "状況を変えられず受け入れるしかない場面",
+      "scene": "状況を変えられず受け入れるしかないとき",
       "example1": "There is not much we can do now.",
       "example2": "I am sorry, but there is not much we can do.",
       "exampleTranslations": [
@@ -7738,7 +7739,7 @@
       "id": "p1361",
       "phrase": "make all the difference",
       "meaning": "大きな違いを生む／決定的な差になる",
-      "scene": "小さなことが結果を左右すると話す場面",
+      "scene": "小さなことが結果を左右すると話すとき",
       "example1": "A little rest can make all the difference.",
       "example2": "Your advice made all the difference.",
       "exampleTranslations": [
@@ -7757,7 +7758,7 @@
       "id": "p1362",
       "phrase": "scare the crap out of someone",
       "meaning": "～をものすごく怖がらせる",
-      "scene": "突然の出来事が誰かをひどく驚かせる場面",
+      "scene": "突然の出来事が誰かをひどく驚かせるとき",
       "example1": "You scared the crap out of me.",
       "example2": "That noise scared the crap out of her.",
       "exampleTranslations": [
@@ -7777,7 +7778,7 @@
       "id": "p1363",
       "phrase": "make up for ~",
       "meaning": "～を埋め合わせる",
-      "scene": "失敗や不足を補おうとする場面",
+      "scene": "失敗や不足を補おうとするとき",
       "example1": "I will make up for being late.",
       "example2": "Nothing can make up for that loss.",
       "exampleTranslations": [
@@ -7796,7 +7797,7 @@
       "id": "p1364",
       "phrase": "stand someone up",
       "meaning": "～をデートで待ちぼうけにする",
-      "scene": "約束した相手が現れず待たされる場面",
+      "scene": "約束した相手が現れず待たされるとき",
       "example1": "He stood me up last night.",
       "example2": "Do not stand her up again.",
       "exampleTranslations": [
@@ -7816,7 +7817,7 @@
       "id": "p1365",
       "phrase": "What’s the deal with ~?",
       "meaning": "～はどうなってるの？／～は何なの？",
-      "scene": "気になる人や状況について尋ねる場面",
+      "scene": "気になる人や状況について尋ねるとき",
       "example1": "What is the deal with him?",
       "example2": "What is the deal with this rule?",
       "exampleTranslations": [
@@ -7835,7 +7836,7 @@
       "id": "p1366",
       "phrase": "be nuts about someone",
       "meaning": "～に夢中だ",
-      "scene": "誰かに強く夢中なことを話す場面",
+      "scene": "人に強く夢中であることを話すとき",
       "example1": "He is nuts about her.",
       "example2": "She is nuts about that band.",
       "exampleTranslations": [
@@ -7854,7 +7855,7 @@
       "id": "p1367",
       "phrase": "have a heart",
       "meaning": "情けをかけて／少しは思いやって",
-      "scene": "ロスがマルセルを助けるよう相手に訴える場面",
+      "scene": "相手に思いやりや情けを求めるとき",
       "example1": "Have a heart and give him a chance.",
       "example2": "Come on, have a heart.",
       "exampleTranslations": [
@@ -7873,7 +7874,7 @@
       "id": "p1368",
       "phrase": "come through",
       "meaning": "約束どおり助ける／成功する",
-      "scene": "期待された場面で助けや結果を出すことを話す場面",
+      "scene": "必要なときに期待どおり助けたり、結果を出したりするとき",
       "example1": "I knew you would come through for me.",
       "example2": "The plan came through in the end.",
       "exampleTranslations": [
@@ -7892,7 +7893,7 @@
       "id": "p1369",
       "phrase": "get over someone",
       "meaning": "～を忘れて立ち直る",
-      "scene": "別れた相手を忘れられないことを話す場面",
+      "scene": "別れた相手を忘れられないことを話すとき",
       "example1": "It took her months to get over him.",
       "example2": "He is still getting over his ex.",
       "exampleTranslations": [
@@ -7912,7 +7913,7 @@
       "id": "p1370",
       "phrase": "blow someone off",
       "meaning": "～を無視する／すっぽかす",
-      "scene": "約束や連絡を無視した相手について話す場面",
+      "scene": "約束や連絡を無視した相手について話すとき",
       "example1": "He blew me off again.",
       "example2": "Do not blow her off without calling.",
       "exampleTranslations": [
@@ -7932,7 +7933,7 @@
       "id": "p1371",
       "phrase": "You got me.",
       "meaning": "さあね／分からない",
-      "scene": "フィービーが理由を聞かれて分からないと答える場面",
+      "scene": "質問の答えが分からないとカジュアルに伝えるとき",
       "example1": "Why did he leave? You got me.",
       "example2": "You got me—I have no clue.",
       "exampleTranslations": [
@@ -7952,7 +7953,7 @@
       "id": "p1372",
       "phrase": "take a look at ~",
       "meaning": "～を見てみる／診る",
-      "scene": "医師がマルセルを診てみると申し出る場面",
+      "scene": "物や状況を確認したり、人を診察したりするとき",
       "example1": "Can you take a look at this?",
       "example2": "The doctor took a look at him.",
       "exampleTranslations": [
@@ -7971,7 +7972,7 @@
       "id": "p1373",
       "phrase": "run low on ~",
       "meaning": "～が残り少なくなる",
-      "scene": "ポーカーを続けながら、手元の物が足りなくなりそうなことを話す場面",
+      "scene": "必要な物の残量が少なくなってきたとき",
       "example1": "We are running low on coffee.",
       "example2": "My phone is running low on battery.",
       "exampleTranslations": [
@@ -7990,7 +7991,7 @@
       "id": "p1374",
       "phrase": "go for anything",
       "meaning": "何でもいい／特にこだわりはない",
-      "scene": "ポーカーに参加する女性の話で、男性陣が相手の条件を話す場面",
+      "scene": "相手や選択肢への条件が厳しくなく、何でも受け入れるとき",
       "example1": "I am not going for anything fancy tonight.",
       "example2": "She will go for anything with chocolate.",
       "exampleTranslations": [
@@ -8009,7 +8010,7 @@
       "id": "p1375",
       "phrase": "get someone’s heart pounding",
       "meaning": "～をどきどきさせる",
-      "scene": "ロスが、心を高鳴らせる相手を求めていると話す場面",
+      "scene": "人や出来事で強くどきどきしたことを表すとき",
       "example1": "That song gets my heart pounding.",
       "example2": "The roller coaster got his heart pounding.",
       "exampleTranslations": [
@@ -8028,7 +8029,7 @@
       "id": "p1376",
       "phrase": "such a lame excuse",
       "meaning": "なんて見え透いた言い訳",
-      "scene": "女性をポーカーに入れない男性陣の言い分をモニカが批判する場面",
+      "scene": "相手の説明がひどい言い訳だと批判するとき",
       "example1": "That is such a lame excuse.",
       "example2": "Being tired is a lame excuse for skipping practice.",
       "exampleTranslations": [
@@ -8048,7 +8049,7 @@
       "id": "p1377",
       "phrase": "play for real",
       "meaning": "本気で勝負する／実際に賭けてやる",
-      "scene": "ポーカーを教わった女性陣が本気の勝負を始めようとする場面",
+      "scene": "練習ではなく、本番として真剣に行うとき",
       "example1": "Now that we know the rules, let’s play for real.",
       "example2": "They stopped practicing and started playing for real.",
       "exampleTranslations": [
@@ -8067,7 +8068,7 @@
       "id": "p1378",
       "phrase": "high stakes",
       "meaning": "大きなものがかかった／高いリスク",
-      "scene": "女性陣がポーカーを本気の高額勝負にしようと言う場面",
+      "scene": "大きな損失や利益がかかった重要な状況を表すとき",
       "example1": "It was a high-stakes decision.",
       "example2": "High-stakes games make me nervous.",
       "exampleTranslations": [
@@ -8087,7 +8088,7 @@
       "id": "p1379",
       "phrase": "could use ~",
       "meaning": "～があると助かる／～が欲しいところだ",
-      "scene": "再戦を申し込まれたロスが、賞金があれば助かると言う場面",
+      "scene": "何かがあれば助かる、欲しいところだと伝えるとき",
       "example1": "I could use a cup of coffee.",
       "example2": "We could use some extra help today.",
       "exampleTranslations": [
@@ -8107,7 +8108,7 @@
       "id": "p1380",
       "phrase": "be way off",
       "meaning": "大きく外れている／見当違いだ",
-      "scene": "ジョーイに恋心を指摘されたロスが、見当違いだと反論する場面",
+      "scene": "予測・理解・答えが大きく外れていると指摘するとき",
       "example1": "Your estimate is way off.",
       "example2": "I thought it was Friday, but I was way off.",
       "exampleTranslations": [
@@ -8126,7 +8127,7 @@
       "id": "p1381",
       "phrase": "have the same taste in ~",
       "meaning": "～の好みが同じ",
-      "scene": "レイチェルが面接相手と服の好みまで合ったと喜ぶ場面",
+      "scene": "人と特定の物事の好みが同じだと話すとき",
       "example1": "We have the same taste in music.",
       "example2": "They found out they had the same taste in movies.",
       "exampleTranslations": [
@@ -8145,7 +8146,7 @@
       "id": "p1382",
       "phrase": "give it a go",
       "meaning": "やってみる",
-      "scene": "レイチェルが自分でカードを切ってみると申し出る場面",
+      "scene": "ためらっていることを試しにやってみるとき",
       "example1": "I have never tried sushi, but I will give it a go.",
       "example2": "Give it a go and see what happens.",
       "exampleTranslations": [
@@ -8164,7 +8165,7 @@
       "id": "p1383",
       "phrase": "see who has the last laugh",
       "meaning": "最後に誰が笑うか見ていよう",
-      "scene": "女性陣がポーカーで男性陣を見返すと言い返す場面",
+      "scene": "最後には自分が正しかったと証明されるだろうと伝えるとき",
       "example1": "Just wait and see who has the last laugh.",
       "example2": "They laughed at her idea, but she had the last laugh.",
       "exampleTranslations": [
@@ -8183,7 +8184,7 @@
       "id": "p1384",
       "phrase": "hold someone over",
       "meaning": "次の食事まで空腹をしのがせる",
-      "scene": "食事まで待つジョーイが、ティックタックで空腹をしのぐと言う場面",
+      "scene": "次の食事や予定まで、一時的なものでしのぐとき",
       "example1": "A snack will hold me over until dinner.",
       "example2": "This sandwich should hold you over for a few hours.",
       "exampleTranslations": [
@@ -8202,7 +8203,7 @@
       "id": "p1385",
       "phrase": "open up",
       "meaning": "空きが出る／機会が生まれる",
-      "scene": "仕事を逃したレイチェルが、別の求人が出たら知らせてほしいと頼む場面",
+      "scene": "予定・仕事・席などに空きや機会が生じるとき",
       "example1": "Let me know if a spot opens up.",
       "example2": "A table opened up near the window.",
       "exampleTranslations": [
@@ -8222,7 +8223,7 @@
       "id": "p1386",
       "phrase": "make someone’s toes curl",
       "meaning": "～をぞくぞくさせる／強くときめかせる",
-      "scene": "レイチェルが、親友のようでいて心も高鳴らせる相手を語る場面",
+      "scene": "人を強く興奮させたり、ときめかせたりするとき",
       "example1": "That compliment made her toes curl.",
       "example2": "The romantic scene made his toes curl.",
       "exampleTranslations": [
@@ -8242,7 +8243,7 @@
       "id": "p1387",
       "phrase": "start someone off with ~",
       "meaning": "最初に～を与える／～から始めさせる",
-      "scene": "ロスがレイチェルに猿の世話を頼んだことを、最初から難しすぎたと振り返る場面",
+      "scene": "初心者に最初の課題や選択肢を与えるとき",
       "example1": "Start him off with an easy task.",
       "example2": "The teacher started us off with a short quiz.",
       "exampleTranslations": [
@@ -8261,7 +8262,7 @@
       "id": "p1388",
       "phrase": "for old times’ sake",
       "meaning": "昔を思って／昔のよしみで",
-      "scene": "モニカが高校時代の同級生ルイーザに、昔のよしみで助けてと頼む場面",
+      "scene": "昔の思い出や付き合いを理由に頼み事をするとき",
       "example1": "Let’s have lunch for old times’ sake.",
       "example2": "For old times’ sake, I watched our favorite movie.",
       "exampleTranslations": [
@@ -8280,7 +8281,7 @@
       "id": "p1389",
       "phrase": "brush up against ~",
       "meaning": "～に軽く触れる／かする",
-      "scene": "地下を探すフィービーが、何かが脚に触れたと感じる場面",
+      "scene": "人や物が何かに軽く触れたり、かすったりするとき",
       "example1": "Someone brushed up against me on the train.",
       "example2": "My bag brushed up against the wall.",
       "exampleTranslations": [
@@ -8299,7 +8300,7 @@
       "id": "p1390",
       "phrase": "take something up with someone",
       "meaning": "～について人に直接話をつける",
-      "scene": "マルセルの所有権の争いを、動物管理局員が裁判官と話すよう告げる場面",
+      "scene": "問題について、担当者や当事者に直接話をつけるとき",
       "example1": "You should take that up with your manager.",
       "example2": "If you disagree, take it up with the landlord.",
       "exampleTranslations": [
@@ -8318,7 +8319,7 @@
       "id": "p1391",
       "phrase": "be the bigger person",
       "meaning": "大人の対応をする／度量を見せる",
-      "scene": "レイチェルがルイーザに、恨みよりマルセルを助けることを選んでほしいと頼む場面",
+      "scene": "争いで感情的にならず、大人の対応を選ぶとき",
       "example1": "Be the bigger person and apologize first.",
       "example2": "She was the bigger person and let it go.",
       "exampleTranslations": [
@@ -8337,7 +8338,7 @@
       "id": "p1392",
       "phrase": "be in the mood for ~",
       "meaning": "～する気分だ／～が欲しい気分だ",
-      "scene": "マルセルを取り戻した後、ロスがレイチェルにワインを飲む気分か尋ねる場面",
+      "scene": "食べ物・活動・会話などをしたい気分だと伝えるとき",
       "example1": "I am in the mood for pizza tonight.",
       "example2": "Are you in the mood for a movie?",
       "exampleTranslations": [
@@ -8356,7 +8357,7 @@
       "id": "p1393",
       "phrase": "name someone after someone",
       "meaning": "～にちなんで人に名前を付ける",
-      "scene": "フィービーが、マルセルはロスの叔父にちなんだ名前なのか尋ねる場面",
+      "scene": "人に、別の人にちなんだ名前を付けるとき",
       "example1": "They named their daughter after her grandmother.",
       "example2": "He was named after his father.",
       "exampleTranslations": [
@@ -8376,7 +8377,7 @@
       "id": "p1394",
       "phrase": "Don’t mess with ~",
       "meaning": "～を甘く見ないほうがいい／手を出さないほうがいい",
-      "scene": "ナッツ菓子の強さを冗談で語り、相手に手を出すなと言う場面",
+      "scene": "危険・強さ・重要性を強調して、手を出さないよう警告するとき",
       "example1": "Do not mess with my little sister.",
       "example2": "You do not want to mess with that dog.",
       "exampleTranslations": [
@@ -8396,7 +8397,7 @@
       "id": "p1395",
       "phrase": "let someone dangle",
       "meaning": "相手をじらす／返事を待たせる",
-      "scene": "チャンドラーのデート後、ジョーイとロスがすぐ電話せず相手を待たせろと助言する場面",
+      "scene": "すぐ返事をせず、相手を待たせてじらすとき",
       "example1": "Do not let her dangle for days.",
       "example2": "He let them dangle before giving an answer.",
       "exampleTranslations": [
@@ -8415,7 +8416,7 @@
       "id": "p1396",
       "phrase": "Don’t everybody look at once.",
       "meaning": "みんな一斉に見ないで",
-      "scene": "レイチェルとバリーを見つけたモニカが、目立たないよう皆に声をかける場面",
+      "scene": "周囲に気づかれないよう、全員へ一斉に見ないよう頼むとき",
       "example1": "Do not everybody turn around at once.",
       "example2": "Do not all look at once, but the cake is here.",
       "exampleTranslations": [
@@ -8435,7 +8436,7 @@
       "id": "p1397",
       "phrase": "can’t help oneself",
       "meaning": "つい～してしまう／我慢できない",
-      "scene": "恋愛や好みに対して、思わずしてしまう行動を話す場面",
+      "scene": "恋愛や好みに対して、思わずしてしまう行動を話すとき",
       "example1": "I cannot help myself when there is cake.",
       "example2": "She could not help laughing.",
       "exampleTranslations": [
@@ -8455,7 +8456,7 @@
       "id": "p1398",
       "phrase": "pick someone out of a lineup",
       "meaning": "面通しで～を選び出す",
-      "scene": "バリーをめぐる話の中で、人混みや面通しから相手を特定することを話す場面",
+      "scene": "複数の候補から特定の人を見分けるとき",
       "example1": "Could you pick him out of a lineup?",
       "example2": "The witness picked the suspect out of a lineup.",
       "exampleTranslations": [
@@ -8474,7 +8475,7 @@
       "id": "p1399",
       "phrase": "hog the ball",
       "meaning": "ボールを独り占めする",
-      "scene": "スポーツで自分ばかりプレーする人をたとえて話す場面",
+      "scene": "スポーツで自分ばかりプレーする人をたとえて話すとき",
       "example1": "Stop hogging the ball and pass it.",
       "example2": "He always hogs the ball during games.",
       "exampleTranslations": [
@@ -8494,7 +8495,7 @@
       "id": "p1400",
       "phrase": "run out on someone",
       "meaning": "～を置いて逃げる／見捨てる",
-      "scene": "レイチェルが結婚式でバリーのもとから逃げ出したことを振り返る場面",
+      "scene": "責任や関係を放棄し、人を置き去りにするとき",
       "example1": "He ran out on his family.",
       "example2": "Do not run out on me when things get hard.",
       "exampleTranslations": [
@@ -8514,7 +8515,7 @@
       "id": "p1401",
       "phrase": "make the right choice",
       "meaning": "正しい選択をする",
-      "scene": "バリーと再会したレイチェルが、結婚式から逃げた判断は正しかったと確信する場面",
+      "scene": "判断や選択が正しかったと話すとき",
       "example1": "You made the right choice.",
       "example2": "I hope I am making the right choice.",
       "exampleTranslations": [
@@ -8533,7 +8534,7 @@
       "id": "p1402",
       "phrase": "get a hold of ~",
       "meaning": "～を手に入れる／入手する",
-      "scene": "モニカが、誰かが自分のクレジットカード番号をどう入手したのか不思議がる場面",
+      "scene": "手に入りにくい物や情報を入手するとき",
       "example1": "How did you get a hold of my number?",
       "example2": "I finally got a hold of the report.",
       "exampleTranslations": [
@@ -8553,7 +8554,7 @@
       "id": "p1403",
       "phrase": "just a phase",
       "meaning": "一時的な時期／そのうち過ぎるもの",
-      "scene": "マルセルの行動を、ロスが一時的なものだと軽く受け止める場面",
+      "scene": "行動や状態が一時的で、そのうち収まると考えるとき",
       "example1": "It is just a phase; she will grow out of it.",
       "example2": "I hope this is just a phase.",
       "exampleTranslations": [
@@ -8572,7 +8573,7 @@
       "id": "p1404",
       "phrase": "no longer ~",
       "meaning": "もはや～ではない／もう～しない",
-      "scene": "マルセルのいたずらの後、レイチェルが人形はもう以前の状態ではないと冗談を言う場面",
+      "scene": "以前は当てはまった状態や行動が、今は続いていないと伝えるとき",
       "example1": "This store is no longer open.",
       "example2": "He no longer works here.",
       "exampleTranslations": [
@@ -8592,7 +8593,7 @@
       "id": "p1405",
       "phrase": "be intimidated by someone",
       "meaning": "～に気後れする／圧倒される",
-      "scene": "モニカが、おしゃれな店の店員に気後れして店に入れないと話す場面",
+      "scene": "人の地位・態度・能力などに圧倒されて気後れするとき",
       "example1": "I am intimidated by people who know everything.",
       "example2": "She was intimidated by her new boss.",
       "exampleTranslations": [
@@ -8611,7 +8612,7 @@
       "id": "p1406",
       "phrase": "ring a bell",
       "meaning": "聞き覚えがある／心当たりがある",
-      "scene": "ジョーイが聞いた名前に覚えがあるか考える場面",
+      "scene": "名前や話に聞き覚え・心当たりがあるか確認するとき",
       "example1": "Does that name ring a bell?",
       "example2": "The address rings a bell, but I cannot place it.",
       "exampleTranslations": [
@@ -8631,7 +8632,7 @@
       "id": "p1407",
       "phrase": "be losing it",
       "meaning": "正気を失いかけている／取り乱している",
-      "scene": "偽のモニカに執着するモニカを、レイチェルが取り乱していると心配する場面",
+      "scene": "自分や人が正気・冷静さを失いかけていると感じるとき",
       "example1": "You are losing it—take a break.",
       "example2": "I thought I was losing it for a second.",
       "exampleTranslations": [
@@ -8650,7 +8651,7 @@
       "id": "p1408",
       "phrase": "as time goes on",
       "meaning": "時がたつにつれて",
-      "scene": "ロスが、マルセルは時間とともに攻撃的になると説明する場面",
+      "scene": "時間の経過に伴う変化を説明するとき",
       "example1": "As time goes on, it gets easier.",
       "example2": "Things changed as time went on.",
       "exampleTranslations": [
@@ -8669,7 +8670,7 @@
       "id": "p1409",
       "phrase": "pipe dream",
       "meaning": "実現しそうにない夢／絵空事",
-      "scene": "ロスが遠方の大きな動物園にマルセルを預ける案は難しいかもしれないと言う場面",
+      "scene": "実現する可能性が低い夢や計画について話すとき",
       "example1": "Owning a beach house is a pipe dream for me.",
       "example2": "It sounded like a pipe dream at first.",
       "exampleTranslations": [
@@ -8688,7 +8689,7 @@
       "id": "p1410",
       "phrase": "Don’t wait up.",
       "meaning": "起きて待っていなくていいよ",
-      "scene": "レイチェルが仕事へ向かい、遅くなるかもしれないから待たなくていいと言う場面",
+      "scene": "帰りが遅くなるため、起きて待たなくてよいと伝えるとき",
       "example1": "I will be home late, so do not wait up.",
       "example2": "Do not wait up for me tonight.",
       "exampleTranslations": [
@@ -8707,7 +8708,7 @@
       "id": "p1411",
       "phrase": "show up for work",
       "meaning": "仕事に現れる／出勤する",
-      "scene": "偽のモニカの行動を追う中で、仕事に出ることを話す場面",
+      "scene": "仕事へ出勤したか、出勤する必要があるか話すとき",
       "example1": "He did not show up for work today.",
       "example2": "She always shows up for work early.",
       "exampleTranslations": [
@@ -8726,7 +8727,7 @@
       "id": "p1412",
       "phrase": "turn someone in",
       "meaning": "～を通報する／引き渡す",
-      "scene": "クレジットカードを使った偽のモニカを、警察などに通報する可能性を話す場面",
+      "scene": "違反や犯罪をした人を警察・当局へ通報するとき",
       "example1": "You should turn him in to the police.",
       "example2": "She turned the thief in.",
       "exampleTranslations": [
@@ -8745,7 +8746,7 @@
       "id": "p1413",
       "phrase": "take a moment",
       "meaning": "少し時間を取る",
-      "scene": "マルセルとの別れを前に、ロスが二人きりの時間を少しほしいと頼む場面",
+      "scene": "考えたり気持ちを整えたりするため、少し時間を取るとき",
       "example1": "Take a moment to think about it.",
       "example2": "Can I take a moment with him?",
       "exampleTranslations": [
@@ -8764,7 +8765,7 @@
       "id": "p1414",
       "phrase": "know one’s way around ~",
       "meaning": "～の扱い方・勝手をよく知っている",
-      "scene": "レイチェルが、昨夜のロスはテーブルの扱いに慣れていたとからかう場面",
+      "scene": "場所・道具・分野の扱い方をよく知っていると伝えるとき",
       "example1": "She knows her way around a kitchen.",
       "example2": "He really knows his way around this software.",
       "exampleTranslations": [
@@ -8783,7 +8784,7 @@
       "id": "p1415",
       "phrase": "be someone’s kind of thing",
       "meaning": "～の好み／その人に合うもの",
-      "scene": "モニカと年下のイーサンの関係について、相手の好みかどうかを話す場面",
+      "scene": "物や活動が、その人の好み・適性に合うか話すとき",
       "example1": "Camping is not really my kind of thing.",
       "example2": "Is this your kind of thing?",
       "exampleTranslations": [
@@ -8803,7 +8804,7 @@
       "id": "p1416",
       "phrase": "pass for ~",
       "meaning": "～として通用する／～に見なされる",
-      "scene": "年齢を偽ったモニカが、22歳に見えないのかと尋ねる場面",
+      "scene": "人や物が別の年齢・種類・立場として通用するとき",
       "example1": "He could pass for a college student.",
       "example2": "This could pass for real leather.",
       "exampleTranslations": [
@@ -8822,7 +8823,7 @@
       "id": "p1417",
       "phrase": "in a strictly technical sense",
       "meaning": "厳密に言えば",
-      "scene": "イーサンが自分の経験について、厳密には違うと遠回しに説明する場面",
+      "scene": "厳密な定義ではどうなるかを限定して説明するとき",
       "example1": "In a strictly technical sense, that is true.",
       "example2": "It is correct in a strictly technical sense.",
       "exampleTranslations": [
@@ -8842,7 +8843,7 @@
       "id": "p1418",
       "phrase": "wait for the right person",
       "meaning": "運命の相手／本当に合う相手を待つ",
-      "scene": "恋愛経験について、無理をせず本当に合う相手を待つ話をする場面",
+      "scene": "恋愛経験について、無理をせず本当に合う相手を待つ話をするとき",
       "example1": "You do not have to settle; wait for the right person.",
       "example2": "She decided to wait for the right person.",
       "exampleTranslations": [
@@ -8861,7 +8862,7 @@
       "id": "p1419",
       "phrase": "fall out of love with someone",
       "meaning": "～への恋心が冷める",
-      "scene": "恋愛や年齢差について、好きだった気持ちが変わることを話す場面",
+      "scene": "恋愛や年齢差について、好きだった気持ちが変わることを話すとき",
       "example1": "People can fall out of love over time.",
       "example2": "He fell out of love with her years ago.",
       "exampleTranslations": [
@@ -8881,7 +8882,7 @@
       "id": "p1420",
       "phrase": "drop it",
       "meaning": "その話をやめる／もう蒸し返さない",
-      "scene": "モニカが年齢のことでからかわれ、もうその話をやめてと言う場面",
+      "scene": "同じ話題をやめ、これ以上蒸し返さないよう求めるとき",
       "example1": "Drop it. I do not want to talk about it.",
       "example2": "Can we drop it and move on?",
       "exampleTranslations": [
@@ -8901,7 +8902,7 @@
       "id": "p1421",
       "phrase": "head rush",
       "meaning": "立ちくらみ／頭がくらっとする感覚",
-      "scene": "立ち上がったフィービーが、頭がくらっとしたと楽しそうに言う場面",
+      "scene": "急に立ったときなどの立ちくらみについて話すとき",
       "example1": "I got a head rush when I stood up.",
       "example2": "Stand up slowly so you do not get a head rush.",
       "exampleTranslations": [
@@ -8920,7 +8921,7 @@
       "id": "p1422",
       "phrase": "face it",
       "meaning": "現実を認める／認めよう",
-      "scene": "フィービーがチャンドラーに、部下とは友達ではない現実を認めるよう言う場面",
+      "scene": "避けていた現実を認めるよう促すとき",
       "example1": "Face it, we need more time.",
       "example2": "You have to face it and make a decision.",
       "exampleTranslations": [
@@ -8940,7 +8941,7 @@
       "id": "p1423",
       "phrase": "pick your moments",
       "meaning": "言うタイミングを選ぶ",
-      "scene": "レイチェルの発言に対し、チャンドラーが場に合うタイミングを選べと言う場面",
+      "scene": "発言や行動に適したタイミングを選ぶよう助言するとき",
       "example1": "You need to pick your moments.",
       "example2": "He picked the wrong moment to joke.",
       "exampleTranslations": [
@@ -8959,7 +8960,7 @@
       "id": "p1424",
       "phrase": "Right this way.",
       "meaning": "こちらへどうぞ",
-      "scene": "出産中の女性を病室へ案内するジョーイが、道を示す場面",
+      "scene": "人を目的の場所へ丁寧に案内するとき",
       "example1": "Right this way, please.",
       "example2": "The receptionist said, “Right this way.”",
       "exampleTranslations": [
@@ -8978,7 +8979,7 @@
       "id": "p1425",
       "phrase": "No fair.",
       "meaning": "ずるい／不公平だ",
-      "scene": "双子を見たモニカが、自分には一人もいないのにと不満を言う場面",
+      "scene": "扱いや結果が不公平だとカジュアルに抗議するとき",
       "example1": "No fair—you got the last cookie.",
       "example2": "That is no fair at all.",
       "exampleTranslations": [
@@ -8997,7 +8998,7 @@
       "id": "p1426",
       "phrase": "be in for ~",
       "meaning": "～を経験することになりそうだ",
-      "scene": "出産を待つ人たちが、これから長い時間や大変な出来事になりそうだと話す場面",
+      "scene": "出産を待つ人たちが、これから長い時間や大変な出来事になりそうだと話すとき",
       "example1": "We are in for a long night.",
       "example2": "You are in for a surprise.",
       "exampleTranslations": [
@@ -9016,7 +9017,7 @@
       "id": "p1427",
       "phrase": "pull yourself together",
       "meaning": "気を取り直す／しっかりする",
-      "scene": "出産を前に動揺する相手に、落ち着くよう促す場面",
+      "scene": "出産を前に動揺する相手に、落ち着くよう促すとき",
       "example1": "Pull yourself together—we need to leave now.",
       "example2": "She took a minute to pull herself together.",
       "exampleTranslations": [
@@ -9036,7 +9037,7 @@
       "id": "p1428",
       "phrase": "take it easy",
       "meaning": "無理しないで／落ち着いて",
-      "scene": "出産を控えた人に、焦らず落ち着くよう声をかける場面",
+      "scene": "出産を控えた人に、焦らず落ち着くよう声をかけるとき",
       "example1": "Take it easy and get some rest.",
       "example2": "Hey, take it easy. It was an accident.",
       "exampleTranslations": [
@@ -9055,7 +9056,7 @@
       "id": "p1429",
       "phrase": "look forward to ~",
       "meaning": "～を楽しみにする",
-      "scene": "赤ちゃんの誕生を待つ中で、これから起こることを楽しみに話す場面",
+      "scene": "赤ちゃんの誕生を待つ中で、これから起こることを楽しみに話すとき",
       "example1": "I am looking forward to the weekend.",
       "example2": "She is looking forward to meeting you.",
       "exampleTranslations": [
@@ -9075,7 +9076,7 @@
       "id": "p1430",
       "phrase": "get in the way",
       "meaning": "邪魔になる／妨げになる",
-      "scene": "出産や人間関係の話で、別の事情が進行を妨げることを話す場面",
+      "scene": "出産や人間関係の話で、別の事情が進行を妨げることを話すとき",
       "example1": "Do not let fear get in the way.",
       "example2": "My schedule got in the way of the trip.",
       "exampleTranslations": [
@@ -9094,7 +9095,7 @@
       "id": "p1431",
       "phrase": "pay someone back",
       "meaning": "～にお金を返す／借りを返す",
-      "scene": "ジョーイがチャンドラーから借りたお金を返すと約束する場面",
+      "scene": "借りたお金を返したり、受けた行為へ仕返し・恩返しをしたりするとき",
       "example1": "I will pay you back on Friday.",
       "example2": "Thanks for lunch. I will pay you back.",
       "exampleTranslations": [
@@ -9113,7 +9114,7 @@
       "id": "p1432",
       "phrase": "every other day",
       "meaning": "一日おきに",
-      "scene": "ジョーイが研究プログラムへ一日おきに通っていると話す場面",
+      "scene": "一日おきなど、一つおきの頻度を説明するとき",
       "example1": "I go for a run every other day.",
       "example2": "She waters the plants every other day.",
       "exampleTranslations": [
@@ -9132,7 +9133,7 @@
       "id": "p1433",
       "phrase": "make a contribution to ~",
       "meaning": "～に貢献する／寄与する",
-      "scene": "ジョーイが研究プロジェクトに協力していると説明する場面",
+      "scene": "活動・組織・研究などへ貢献したことを話すとき",
       "example1": "Everyone can make a contribution to the project.",
       "example2": "Her work made a real contribution to the team.",
       "exampleTranslations": [
@@ -9151,7 +9152,7 @@
       "id": "p1434",
       "phrase": "have a week left",
       "meaning": "あと一週間残っている",
-      "scene": "ジョーイが報酬のためのプログラムはあと一週間だと話す場面",
+      "scene": "期限まであと一週間残っていると伝えるとき",
       "example1": "I have one week left before vacation.",
       "example2": "We only have a few days left.",
       "exampleTranslations": [
@@ -9170,7 +9171,7 @@
       "id": "p1435",
       "phrase": "show interest in ~",
       "meaning": "～に関心を示す",
-      "scene": "恋愛や贈り物について、相手が関心を示しているかを話す場面",
+      "scene": "恋愛や贈り物について、相手が関心を示しているかを話すとき",
       "example1": "He showed interest in the job.",
       "example2": "She did not show much interest in sports.",
       "exampleTranslations": [
@@ -9189,7 +9190,7 @@
       "id": "p1436",
       "phrase": "walk by ~",
       "meaning": "～のそばを通り過ぎる",
-      "scene": "レイチェルがロスと昔通りかかった骨董品店の思い出を話す場面",
+      "scene": "人や場所のそばを歩いて通り過ぎるとき",
       "example1": "I walked by your house yesterday.",
       "example2": "She walked by the store and saw the sign.",
       "exampleTranslations": [
@@ -9208,7 +9209,7 @@
       "id": "p1437",
       "phrase": "all this time",
       "meaning": "ずっとこの間／今までずっと",
-      "scene": "ロスの長年の思いを知ったレイチェルが、ずっとそうだったのかと驚く場面",
+      "scene": "過去から現在まで、ずっと続いていたことを強調するとき",
       "example1": "Were you worried all this time?",
       "example2": "All this time, I thought you were busy.",
       "exampleTranslations": [
@@ -9228,7 +9229,7 @@
       "id": "p1438",
       "phrase": "go for it",
       "meaning": "やってみなよ／いけ！",
-      "scene": "レイチェルがロスとの関係を進めるか迷い、友人たちが背中を押す場面",
+      "scene": "迷っている人に、思い切って挑戦するよう促すとき",
       "example1": "You want to apply? Go for it.",
       "example2": "If it feels right, go for it.",
       "exampleTranslations": [
@@ -9247,7 +9248,7 @@
       "id": "p1439",
       "phrase": "gut feeling",
       "meaning": "直感／なんとなくの確信",
-      "scene": "レイチェルがロスとの関係について、最初の直感を話す場面",
+      "scene": "理由を説明しにくい直感や確信について話すとき",
       "example1": "My gut feeling says we should wait.",
       "example2": "I had a gut feeling that he would call.",
       "exampleTranslations": [
@@ -9266,7 +9267,7 @@
       "id": "p1440",
       "phrase": "stick with ~",
       "meaning": "～を続ける／～を選び続ける",
-      "scene": "ジョーイが恋人のために頑張る方針を続けるのかとチャンドラーに聞かれる場面",
+      "scene": "選んだ方法・人・計画を変えずに続けるとき",
       "example1": "Stick with the plan for now.",
       "example2": "She decided to stick with her first choice.",
       "exampleTranslations": [
@@ -9285,7 +9286,7 @@
       "id": "p1441",
       "phrase": "be attracted to someone",
       "meaning": "～に惹かれている",
-      "scene": "ロスがレイチェルに、自分を恋愛対象として見られるか尋ねる場面",
+      "scene": "人に恋愛的・身体的な魅力を感じるとき",
       "example1": "I am attracted to her confidence.",
       "example2": "He is attracted to people who make him laugh.",
       "exampleTranslations": [
