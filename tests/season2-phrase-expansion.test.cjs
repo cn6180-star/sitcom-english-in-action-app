@@ -14,9 +14,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,1637);
-assert.equal(phraseIds.size,1637);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),1685);
+assert.equal(phrases.length,1720);
+assert.equal(phraseIds.size,1720);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),1768);
 
 const newIds=Array.from({length:118},(_,index)=>`p${1442+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
@@ -90,7 +90,7 @@ assert.deepEqual(duplicateHeadlines,{
   "out there":["p1487","p608"],
   "be with someone":["p1234","p1500"],
   "make it":["p1502","p1557","p514"],
-  "go through ~":["p1099","p1546"],
+  "go through ~":["p1099","p1546","p1708"],
   "pick someone up":["p1325","p1551"],
   "work out":["p1128","p1584"],
   "come through":["p1368","p1645"]
