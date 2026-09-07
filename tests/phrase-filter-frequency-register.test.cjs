@@ -11,9 +11,10 @@ const labels=[pick(/const FREQUENCY_LABELS=\{[^;]+\};/),pick(/const REGISTER_LAB
 const helpers=[pick(/function phraseFrequencyLabel\(frequency\)\{[^}]+\}/),pick(/function phraseRegisterLabel\(register\)\{[^}]+\}/)].join("");
 const sanitizer=pick(/function sanitizeSavedPhraseFilters\(value=\{\}\)\{[^\n]+\}/);
 const filtered=pick(/function filteredPhrases\(bookmarkedOnly=false\)\{[^\n]+\}/);
+const sorted=pick(/function sortedPhrasesForDisplay\(items\)\{[^\n]+\}/);
 const backupState=pick(/function safeBackupState\(value,warnings\)\{[^\n]+\}/);
 
-assert.ok(labels&&helpers&&sanitizer&&filtered&&backupState);
+assert.ok(labels&&helpers&&sanitizer&&filtered&&sorted&&backupState);
 
 const context={
   filters:{phrase:{season:"ALL",episode:"ALL",scope:"all",priority:"all",type:"all",frequency:"all",register:"all",bookmarked:false,weak:false}},
@@ -22,7 +23,7 @@ const context={
   bookmarked:()=>false,isWeak:()=>false,isLearned:()=>false,dialogueCategory:()=>"日常",isPlainObject:value=>Boolean(value)&&typeof value==="object"&&!Array.isArray(value)
 };
 vm.createContext(context);
-vm.runInContext(`${labels}${helpers}${sanitizer}${filtered}${backupState};this.api={phraseFrequencyLabel,phraseRegisterLabel,sanitizeSavedPhraseFilters,filteredPhrases,safeBackupState};`,context);
+vm.runInContext(`${labels}${helpers}${sanitizer}${filtered}${sorted}${backupState};this.api={phraseFrequencyLabel,phraseRegisterLabel,sanitizeSavedPhraseFilters,filteredPhrases,sortedPhrasesForDisplay,safeBackupState};`,context);
 
 for(const [value,label] of Object.entries({frequent:"頻繁",general:"時々",limited:"まれ"}))assert.equal(context.api.phraseFrequencyLabel(value),label);
 for(const [value,label] of Object.entries({casual:"砕けた",neutral:"普通",polite:"丁寧",formal:"硬め",slang:"俗語"}))assert.equal(context.api.phraseRegisterLabel(value),label);
@@ -68,6 +69,26 @@ const newBackup={version:2,currentSeries:"friends",filters:{phrase:{frequency:"l
 const restoredNew=context.api.safeBackupState(newBackup,[]);
 assert.equal(restoredNew.filters.phrase.frequency,"limited");
 assert.equal(restoredNew.filters.phrase.register,"formal");
+
+context.PHRASES=[
+  {id:"p24-first",episode:"S01E24",priority:3,type:"phrase",frequency:"frequent",register:"neutral"},
+  {id:"p1500",episode:"S01E01",priority:3,type:"phrase",frequency:"frequent",register:"neutral"},
+  {id:"p2",episode:"S01E01",priority:3,type:"phrase",frequency:"frequent",register:"neutral"},
+  {id:"p200",episode:"S02E01",priority:3,type:"phrase",frequency:"frequent",register:"neutral"},
+  {id:"p10",episode:"S01E10",priority:3,type:"phrase",frequency:"frequent",register:"neutral"},
+  {id:"p24-second",episode:"S01E24",priority:3,type:"phrase",frequency:"general",register:"neutral"}
+];
+const displayedIds=()=>context.api.sortedPhrasesForDisplay(context.api.filteredPhrases()).map(item=>item.id);
+context.filters.phrase={season:"ALL",episode:"ALL",scope:"all",type:"all",frequency:"all",register:"all"};
+assert.deepEqual(displayedIds(),["p1500","p2","p10","p24-first","p24-second","p200"]);
+context.filters.phrase.season="1";
+assert.deepEqual(displayedIds(),["p1500","p2","p10","p24-first","p24-second"]);
+context.filters.phrase.episode="24";
+assert.deepEqual(displayedIds(),["p24-first","p24-second"]);
+context.filters.phrase={...context.filters.phrase,episode:"ALL",frequency:"general"};
+assert.deepEqual(displayedIds(),["p24-second"]);
+assert.deepEqual(context.PHRASES.map(item=>item.id),["p24-first","p1500","p2","p200","p10","p24-second"]);
+assert.match(source,/const list=sortedPhrasesForDisplay\(filteredPhrases\(bookmarkedOnly\)\)/);
 
 assert.match(source,/for="frequencyFilter">頻度/);
 assert.match(source,/for="registerFilter">口調/);
