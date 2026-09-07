@@ -14,9 +14,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,1720);
-assert.equal(phraseIds.size,1720);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),1768);
+assert.equal(phrases.length,1855);
+assert.equal(phraseIds.size,1855);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),1903);
 
 const newIds=Array.from({length:83},(_,index)=>`p${1686+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
@@ -90,6 +90,7 @@ assert.deepEqual(exactDuplicates,{
   "catch on":["p1106","p364"],
   "come through":["p1368","p1645"],
   "go through ~":["p1099","p1546","p1708"],
+  "go with ~":["p1212","p1776"],
   "make it":["p1502","p1557","p514"],
   "out there":["p1487","p608"],
   "pick someone up":["p1325","p1551"],

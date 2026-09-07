@@ -975,7 +975,7 @@
     },
     {
       "id": "p197",
-      "phrase": "Oh, God forbid",
+      "phrase": "God forbid ~",
       "meaning": "まさかそんなことありえないよね（皮肉）",
       "scene": "皮肉や呆れを言うとき",
       "example1": "Oh, God forbid I make a mistake.",
@@ -987,7 +987,8 @@
       "source": "Friends",
       "episode": "S02E14",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "note": "`Oh, God forbid.`のように単独で、皮肉を込めた反応として使うこともある。"
     },
     {
       "id": "p198",
@@ -2346,7 +2347,7 @@
       "episode": "S02E01",
       "frequency": "frequent",
       "register": "neutral",
-      "note": "文脈により「向かっている途中」と「出発する・立ち去る」の両方で使う。p1147 `be on one’s way over`より広い基本形。"
+      "note": "文脈により「向かっている途中」と「出発する・立ち去る」の両方で使う。p1147 `be on one’s way over`より広い基本形。人だけでなく、注文した物や配達などが向かっているときにも使える。"
     },
     {
       "id": "p1453",
@@ -8456,6 +8457,2596 @@
       "frequency": "frequent",
       "register": "casual",
       "note": "`none of your business`と相手に直接言うと、強く失礼に響くことがある。"
+    },
+    {
+      "id": "p1769",
+      "phrase": "all I can think about is ~",
+      "meaning": "頭にあるのは～のことばかりだ",
+      "scene": "一つのことが頭から離れないと伝えるとき",
+      "example1": "All I can think about is the interview.",
+      "example2": "Right now, all I can think about is sleep.",
+      "exampleTranslations": [
+        "面接のことばかり考えている。",
+        "今は眠ることしか考えられない。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E01",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1770",
+      "phrase": "Why don’t you ~?",
+      "meaning": "～したらどう？／～しない？",
+      "scene": "提案や誘いを自然に伝えるとき",
+      "example1": "Why don’t you take a break?",
+      "example2": "Why don’t we meet after work?",
+      "exampleTranslations": [
+        "少し休んだらどう？",
+        "仕事のあとに会わない？"
+      ],
+      "type": "pattern",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E01",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1771",
+      "phrase": "Are you sure?",
+      "meaning": "本当にいいの？／確か？",
+      "scene": "相手の判断や情報をもう一度確認するとき",
+      "example1": "Are you sure you don’t need help?",
+      "example2": "Are you sure this is the right address?",
+      "exampleTranslations": [
+        "本当に手伝わなくていい？",
+        "ここが正しい住所で確か？"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E01",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1772",
+      "phrase": "Come on in.",
+      "meaning": "どうぞ入って",
+      "scene": "人を部屋や建物の中へ招き入れるとき",
+      "example1": "The door’s open—come on in.",
+      "example2": "Come on in and have a seat.",
+      "exampleTranslations": [
+        "開いてるよ。どうぞ入って。",
+        "入って座って。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E01",
+      "frequency": "frequent",
+      "register": "casual"
+    },
+    {
+      "id": "p1773",
+      "phrase": "get out of here",
+      "meaning": "ここを出る／立ち去る",
+      "scene": "その場を急いで離れたい、または相手に離れてほしいとき",
+      "example1": "We need to get out of here now.",
+      "example2": "Let’s get out of here before it rains.",
+      "exampleTranslations": [
+        "今すぐここを出ないと。",
+        "雨が降る前にここを出よう。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E01",
+      "frequency": "frequent",
+      "register": "casual",
+      "note": "ここでは文字どおり「立ち去る」。驚きを表す既存の`Get out of here!`とは別義。"
+    },
+    {
+      "id": "p1774",
+      "phrase": "Have you ever + past participle ...?",
+      "meaning": "これまでに～したことはある？",
+      "scene": "過去から現在までの経験を尋ねるとき",
+      "example1": "Have you ever tried sushi?",
+      "example2": "Have you ever been to Canada?",
+      "exampleTranslations": [
+        "寿司を食べたことはある？",
+        "カナダに行ったことはある？"
+      ],
+      "type": "grammar",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E03",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1775",
+      "phrase": "have got to ~",
+      "meaning": "～しなければならない／ぜひ～すべきだ",
+      "scene": "強い必要性や勧めを会話で伝えるとき",
+      "example1": "I’ve got to leave by six.",
+      "example2": "You have got to see this movie.",
+      "exampleTranslations": [
+        "6時までに出なければならない。",
+        "この映画は絶対に観たほうがいい。"
+      ],
+      "type": "grammar",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E03",
+      "frequency": "frequent",
+      "register": "casual",
+      "note": "会話では`have got to`が`have gotta`や`gotta`のように発音されることが多い。"
+    },
+    {
+      "id": "p1776",
+      "phrase": "go with ~",
+      "meaning": "～と合う／調和する",
+      "scene": "服・色・家具などの組み合わせが合うとき",
+      "example1": "This shirt goes with your jeans.",
+      "example2": "Does this rug go with the sofa?",
+      "exampleTranslations": [
+        "このシャツはそのジーンズに合う。",
+        "このラグはソファに合う？"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E03",
+      "frequency": "frequent",
+      "register": "neutral",
+      "note": "ここでは「調和する」。既存の「選ぶ」「同行する」とは別義。"
+    },
+    {
+      "id": "p1777",
+      "phrase": "Absolutely.",
+      "meaning": "もちろん／間違いなく",
+      "scene": "強く同意したり、はっきり肯定したりするとき",
+      "example1": "Can you come tomorrow? Absolutely.",
+      "example2": "I absolutely agree with you.",
+      "exampleTranslations": [
+        "明日来られる？ もちろん。",
+        "あなたに全面的に賛成だ。"
+      ],
+      "type": "word",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E04",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1778",
+      "phrase": "I don’t know what to say.",
+      "meaning": "何と言えばいいか分からない",
+      "scene": "驚き・感動・困惑で言葉が見つからないとき",
+      "example1": "This is so generous. I don’t know what to say.",
+      "example2": "I don’t know what to say to make this better.",
+      "exampleTranslations": [
+        "こんなにしてくれるなんて。何と言えばいいか分からない。",
+        "状況を良くするために何と言えばいいか分からない。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E04",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1779",
+      "phrase": "feel better",
+      "meaning": "気分・体調が良くなる",
+      "scene": "心身の調子が改善したか話すとき",
+      "example1": "Are you feeling better today?",
+      "example2": "A short walk might help you feel better.",
+      "exampleTranslations": [
+        "今日は少し具合が良い？",
+        "少し歩けば気分が良くなるかもしれない。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E04",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1780",
+      "phrase": "used to + base verb",
+      "meaning": "以前は～していた",
+      "scene": "過去の習慣や、今とは違う以前の状態を話すとき",
+      "example1": "I used to live near here.",
+      "example2": "She used to drink coffee every morning.",
+      "exampleTranslations": [
+        "以前はこの近くに住んでいた。",
+        "彼女は以前、毎朝コーヒーを飲んでいた。"
+      ],
+      "type": "grammar",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E05",
+      "frequency": "frequent",
+      "register": "neutral",
+      "note": "後ろには動詞の原形を置く。`be used to ~ing`（～に慣れている）とは別構文。"
+    },
+    {
+      "id": "p1781",
+      "phrase": "It’s nice to see ~",
+      "meaning": "～に会えてうれしい／～を見るとうれしい",
+      "scene": "人との再会や好ましい変化を喜ぶとき",
+      "example1": "It’s nice to see you again.",
+      "example2": "It’s nice to see everyone smiling.",
+      "exampleTranslations": [
+        "また会えてうれしい。",
+        "みんなが笑っているのを見るとうれしい。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E05",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1782",
+      "phrase": "There we go.",
+      "meaning": "よし、できた／これで大丈夫",
+      "scene": "作業がうまく完了したときや状態を整えたとき",
+      "example1": "There we go—the shelf is level now.",
+      "example2": "There we go. Your account is ready.",
+      "exampleTranslations": [
+        "よし、棚が水平になった。",
+        "できました。アカウントの準備が整いました。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E06",
+      "frequency": "frequent",
+      "register": "casual",
+      "note": "相手に示す`There you go.`とは視点や機能が少し異なる。"
+    },
+    {
+      "id": "p1783",
+      "phrase": "get all + adjective",
+      "meaning": "急にひどく～なった様子を見せる",
+      "scene": "人が感情的・大げさな状態になることをくだけて表すとき",
+      "example1": "Don’t get all defensive.",
+      "example2": "He got all quiet when I asked about it.",
+      "exampleTranslations": [
+        "そんなにムキにならないで。",
+        "そのことを聞いたら、彼は急に黙り込んだ。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E07",
+      "frequency": "general",
+      "register": "casual",
+      "note": "`all`が後ろの形容詞を口語的に強調する。"
+    },
+    {
+      "id": "p1784",
+      "phrase": "turn A into B",
+      "meaning": "AをBに変える",
+      "scene": "物・場所・状況を別の状態や用途へ変えるとき",
+      "example1": "We turned the spare room into an office.",
+      "example2": "She turned a hobby into a business.",
+      "exampleTranslations": [
+        "空き部屋を仕事部屋に変えた。",
+        "彼女は趣味を仕事に変えた。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E09",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1785",
+      "phrase": "quit ~ing",
+      "meaning": "～するのをやめる",
+      "scene": "習慣や継続中の行動をやめると伝えるとき",
+      "example1": "I’m trying to quit smoking.",
+      "example2": "Quit making excuses and help me.",
+      "exampleTranslations": [
+        "禁煙しようとしている。",
+        "言い訳はやめて手伝って。"
+      ],
+      "type": "grammar",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E10",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1786",
+      "phrase": "get ~ back",
+      "meaning": "～を取り戻す／返してもらう",
+      "scene": "失った物や貸した物を再び自分のもとへ戻すとき",
+      "example1": "Can I get my book back?",
+      "example2": "She finally got her deposit back.",
+      "exampleTranslations": [
+        "本を返してもらえる？",
+        "彼女はようやく保証金を取り戻した。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E12",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1787",
+      "phrase": "back up",
+      "meaning": "後ろへ下がる",
+      "scene": "人や物に距離を取って後退してほしいとき",
+      "example1": "Back up a little so I can open the door.",
+      "example2": "The truck slowly backed up.",
+      "exampleTranslations": [
+        "ドアを開けられるよう少し下がって。",
+        "トラックはゆっくり後退した。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "frequent",
+      "register": "neutral",
+      "note": "ここでは後退する意味。`back someone up`（人を支える）とは別義。"
+    },
+    {
+      "id": "p1788",
+      "phrase": "Burn!",
+      "meaning": "今のは効いたね／うまい皮肉だ",
+      "scene": "鋭い冗談や言い返しが相手に決まったと反応するとき",
+      "example1": "She called his haircut a science project. Burn!",
+      "example2": "Burn! You really got him with that one.",
+      "exampleTranslations": [
+        "彼女、彼の髪型を科学工作って言ったよ。今のは効いたね。",
+        "今のは効いたね。本当にうまく言い返した。"
+      ],
+      "type": "phrase",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "limited",
+      "register": "slang",
+      "note": "人を傷つける冗談を面白がる表現なので、相手との関係に注意。"
+    },
+    {
+      "id": "p1789",
+      "phrase": "Don’t take it personally.",
+      "meaning": "悪く受け取らないで／自分への攻撃だと思わないで",
+      "scene": "批判や拒否が相手個人へのものではないと伝えるとき",
+      "example1": "Don’t take it personally—she’s stressed today.",
+      "example2": "I hope you don’t take this personally.",
+      "exampleTranslations": [
+        "悪く受け取らないで。今日は彼女、余裕がないんだ。",
+        "これを個人攻撃だと思わないでほしい。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1790",
+      "phrase": "be under pressure",
+      "meaning": "プレッシャーがかかっている",
+      "scene": "重い期待や期限で精神的な負担を感じているとき",
+      "example1": "I’m under a lot of pressure at work.",
+      "example2": "She performs well under pressure.",
+      "exampleTranslations": [
+        "仕事で大きなプレッシャーがかかっている。",
+        "彼女はプレッシャーの中でも力を発揮する。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1791",
+      "phrase": "get away from ~",
+      "meaning": "～から離れる／逃れる",
+      "scene": "場所・人・問題から距離を取るとき",
+      "example1": "I need to get away from the city for a while.",
+      "example2": "Get away from the edge.",
+      "exampleTranslations": [
+        "しばらく都会を離れたい。",
+        "端から離れて。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1792",
+      "phrase": "We’ve got a problem.",
+      "meaning": "問題が起きた／困ったことになった",
+      "scene": "対応が必要な問題を相手に知らせるとき",
+      "example1": "We’ve got a problem with the order.",
+      "example2": "I think we’ve got a problem.",
+      "exampleTranslations": [
+        "注文に問題がある。",
+        "問題が起きたみたい。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1793",
+      "phrase": "refuse to acknowledge ~",
+      "meaning": "～を認めようとしない",
+      "scene": "明らかな事実や問題を人が受け入れないとき",
+      "example1": "He refuses to acknowledge the mistake.",
+      "example2": "She refused to acknowledge that anything was wrong.",
+      "exampleTranslations": [
+        "彼はそのミスを認めようとしない。",
+        "彼女は何かがおかしいとは認めなかった。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1794",
+      "phrase": "back then",
+      "meaning": "当時は／あの頃は",
+      "scene": "現在とは違う過去の時期を振り返るとき",
+      "example1": "Things were different back then.",
+      "example2": "I didn’t have a car back then.",
+      "exampleTranslations": [
+        "当時は事情が違った。",
+        "あの頃は車を持っていなかった。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1795",
+      "phrase": "Thank God ~",
+      "meaning": "～で本当によかった／助かった",
+      "scene": "悪い事態を免れた安堵や感謝を強く表すとき",
+      "example1": "Thank God you’re okay.",
+      "example2": "Thank God we caught the last train.",
+      "exampleTranslations": [
+        "無事で本当によかった。",
+        "終電に間に合って本当によかった。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "frequent",
+      "register": "casual",
+      "note": "宗教的な意味に限らず、強い安堵を表す日常表現として使われる。"
+    },
+    {
+      "id": "p1796",
+      "phrase": "be any good",
+      "meaning": "役に立つ／出来がよい",
+      "scene": "人の能力や物の品質が十分か尋ねたり評価したりするとき",
+      "example1": "Is that restaurant any good?",
+      "example2": "I’m not any good at drawing.",
+      "exampleTranslations": [
+        "あのレストラン、おいしい？",
+        "絵は全然得意じゃない。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1797",
+      "phrase": "What’s the worst that could happen?",
+      "meaning": "最悪でも何が起きるというの？",
+      "scene": "行動をためらう相手に、危険は大きくないと促すとき",
+      "example1": "Just ask her. What’s the worst that could happen?",
+      "example2": "Let’s try it—what’s the worst that could happen?",
+      "exampleTranslations": [
+        "彼女に聞いてみなよ。最悪でも何が起きるっていうの？",
+        "やってみよう。最悪でも大したことはないよ。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1798",
+      "phrase": "Don’t you dare.",
+      "meaning": "絶対にやめて／そんなことしたら許さない",
+      "scene": "相手がしようとしていることを強く制止するとき",
+      "example1": "Don’t you dare tell anyone.",
+      "example2": "Don’t you dare touch that button.",
+      "exampleTranslations": [
+        "絶対に誰にも言わないで。",
+        "そのボタンには絶対触らないで。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "casual",
+      "note": "強い命令で、怒りや警告の響きがある。"
+    },
+    {
+      "id": "p1799",
+      "phrase": "This is going to sound ~, but ...",
+      "meaning": "～に聞こえるだろうけど…",
+      "scene": "奇妙・失礼・大げさに聞こえそうな話を切り出すとき",
+      "example1": "This is going to sound strange, but I know you.",
+      "example2": "This may sound silly, but I’m nervous.",
+      "exampleTranslations": [
+        "変に聞こえるだろうけど、あなたを知っている。",
+        "ばかげて聞こえるかもしれないけど、緊張している。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1800",
+      "phrase": "get off track",
+      "meaning": "話や計画が本筋からそれる",
+      "scene": "会話・作業・計画が本来の方向から外れたとき",
+      "example1": "We’re getting off track.",
+      "example2": "The discussion got off track quickly.",
+      "exampleTranslations": [
+        "話がそれてきている。",
+        "議論はすぐ本筋から外れた。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1801",
+      "phrase": "get caught ~ing",
+      "meaning": "～しているところを見つかる",
+      "scene": "隠していた行動の最中に見つかったとき",
+      "example1": "He got caught cheating on the test.",
+      "example2": "I got caught checking my phone at work.",
+      "exampleTranslations": [
+        "彼は試験でカンニングしているところを見つかった。",
+        "仕事中に携帯を見ているところを見つかった。"
+      ],
+      "type": "grammar",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1802",
+      "phrase": "How many times do I have to ~?",
+      "meaning": "何回～すれば分かるの？",
+      "scene": "同じ要求や説明を繰り返している苛立ちを表すとき",
+      "example1": "How many times do I have to tell you?",
+      "example2": "How many times do I have to ask?",
+      "exampleTranslations": [
+        "何回言えば分かるの？",
+        "何回頼めばいいの？"
+      ],
+      "type": "pattern",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1803",
+      "phrase": "if things go well",
+      "meaning": "うまくいけば／順調にいけば",
+      "scene": "計画や関係が順調に進んだ場合の見通しを話すとき",
+      "example1": "If things go well, we’ll finish by Friday.",
+      "example2": "We might travel together if things go well.",
+      "exampleTranslations": [
+        "順調なら金曜までに終わる。",
+        "うまくいけば、一緒に旅行するかもしれない。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1804",
+      "phrase": "What a jerk.",
+      "meaning": "なんて嫌なやつだ",
+      "scene": "失礼・自分勝手な人への怒りや呆れを表すとき",
+      "example1": "He left without saying anything. What a jerk.",
+      "example2": "What a jerk—he took all the credit.",
+      "exampleTranslations": [
+        "何も言わずに帰ったよ。嫌なやつ。",
+        "嫌なやつだ。手柄を全部自分のものにした。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1805",
+      "phrase": "Thanks anyway.",
+      "meaning": "ともかくありがとう／でもありがとう",
+      "scene": "相手の助けや提案が役立たなくても感謝を示すとき",
+      "example1": "It didn’t work, but thanks anyway.",
+      "example2": "I found another ride. Thanks anyway.",
+      "exampleTranslations": [
+        "うまくいかなかったけど、ともかくありがとう。",
+        "別の車が見つかったよ。でもありがとう。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1806",
+      "phrase": "reschedule ~ for ...",
+      "meaning": "～を…に変更する／予定を組み直す",
+      "scene": "約束や予定を別の日時に変更するとき",
+      "example1": "Can we reschedule the meeting for Friday?",
+      "example2": "They rescheduled my appointment for two.",
+      "exampleTranslations": [
+        "会議を金曜に変更できる？",
+        "予約は2時に変更された。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1807",
+      "phrase": "stick a fork in me, I’m done",
+      "meaning": "もう完全に終わりだ／限界だ",
+      "scene": "疲れ切ったり完敗したりして、もう続けられないと表すとき",
+      "example1": "Stick a fork in me, I’m done for the day.",
+      "example2": "After that workout, stick a fork in me—I’m done.",
+      "exampleTranslations": [
+        "今日はもう完全に終わり。",
+        "あの運動のあとじゃ、もう限界だ。"
+      ],
+      "type": "idiom",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "limited",
+      "register": "casual",
+      "note": "料理ができたかフォークを刺して確かめることに由来する、誇張したユーモア表現。"
+    },
+    {
+      "id": "p1808",
+      "phrase": "fool around (with someone)",
+      "meaning": "ふざける／人と性的にいちゃつく",
+      "scene": "ふざけて時間を過ごすことや、軽い性的関係を話すとき",
+      "example1": "Stop fooling around and get to work.",
+      "example2": "He was fooling around with someone from work.",
+      "exampleTranslations": [
+        "ふざけてないで仕事をして。",
+        "彼は職場の人といちゃついていた。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "casual",
+      "note": "`with someone`が付くと恋愛・性的な意味になることが多い。"
+    },
+    {
+      "id": "p1809",
+      "phrase": "one’s exact words were ~",
+      "meaning": "実際に言った言葉は～だった",
+      "scene": "発言を正確に引用・再現するとき",
+      "example1": "Her exact words were, “Don’t call me.”",
+      "example2": "I believe his exact words were “not a chance.”",
+      "exampleTranslations": [
+        "彼女が実際に言ったのは「電話しないで」だった。",
+        "彼の正確な言葉は「絶対無理」だったと思う。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1810",
+      "phrase": "have a reservation",
+      "meaning": "予約している",
+      "scene": "レストランやホテルなどで予約済みだと伝えるとき",
+      "example1": "We have a reservation for seven.",
+      "example2": "Do you have a reservation under Lee?",
+      "exampleTranslations": [
+        "7時に予約しています。",
+        "リーの名前で予約がありますか。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1811",
+      "phrase": "~ tops",
+      "meaning": "多くても～／せいぜい～",
+      "scene": "時間・金額・数量の上限をくだけて示すとき",
+      "example1": "It’ll take ten minutes, tops.",
+      "example2": "I can spend fifty dollars, tops.",
+      "exampleTranslations": [
+        "かかっても10分だよ。",
+        "出せてもせいぜい50ドルだ。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1812",
+      "phrase": "Here’s an idea.",
+      "meaning": "こういうのはどう？",
+      "scene": "新しい提案や解決策を切り出すとき",
+      "example1": "Here’s an idea: let’s order in.",
+      "example2": "Here’s an idea—why don’t we ask her?",
+      "exampleTranslations": [
+        "こうしない？ 出前を頼もう。",
+        "こういうのはどう？ 彼女に聞いてみよう。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1813",
+      "phrase": "give someone the green light",
+      "meaning": "人に許可を出す／ゴーサインを出す",
+      "scene": "計画や行動を進めてよいと正式・明確に認めるとき",
+      "example1": "My boss gave me the green light.",
+      "example2": "They gave us the green light to start.",
+      "exampleTranslations": [
+        "上司からゴーサインが出た。",
+        "開始してよいと許可をもらった。"
+      ],
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1814",
+      "phrase": "Would you let me ~?",
+      "meaning": "～させてもらえる？",
+      "scene": "相手に自分の行動を認めてもらうよう頼むとき",
+      "example1": "Would you let me finish?",
+      "example2": "Would you let me explain first?",
+      "exampleTranslations": [
+        "最後まで話させてもらえる？",
+        "まず説明させてもらえる？"
+      ],
+      "type": "pattern",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1815",
+      "phrase": "call someone up",
+      "meaning": "人に電話する",
+      "scene": "人へ電話をかけることをくだけて話すとき",
+      "example1": "I’ll call you up later.",
+      "example2": "She called me up out of nowhere.",
+      "exampleTranslations": [
+        "あとで電話するよ。",
+        "彼女が突然電話してきた。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1816",
+      "phrase": "Forget about it.",
+      "meaning": "気にしないで／どういたしまして",
+      "scene": "謝罪や感謝に対して、問題にしなくてよいと返すとき",
+      "example1": "Sorry about the mess. Forget about it.",
+      "example2": "Thanks for helping. Forget about it.",
+      "exampleTranslations": [
+        "散らかしてごめん。気にしないで。",
+        "手伝ってくれてありがとう。いいって。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "casual",
+      "note": "ここでは「気にしないで」。`Forget it.`の「もういい／諦めて」とは別の会話機能。"
+    },
+    {
+      "id": "p1817",
+      "phrase": "a ton of ~",
+      "meaning": "大量の～／たくさんの～",
+      "scene": "数や量がとても多いことをくだけて強調するとき",
+      "example1": "I have a ton of work today.",
+      "example2": "We took a ton of pictures.",
+      "exampleTranslations": [
+        "今日は仕事が山ほどある。",
+        "写真をものすごくたくさん撮った。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "frequent",
+      "register": "casual"
+    },
+    {
+      "id": "p1818",
+      "phrase": "right here, right now",
+      "meaning": "まさにここで、今すぐ",
+      "scene": "場所と時点を強く限定・強調するとき",
+      "example1": "I need an answer right here, right now.",
+      "example2": "Let’s settle this right here and now.",
+      "exampleTranslations": [
+        "今この場で答えが必要だ。",
+        "今ここで決着をつけよう。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1819",
+      "phrase": "nothing but ~",
+      "meaning": "～だけ／～にすぎない",
+      "scene": "ほかのものを除外し、一つだけだと強調するとき",
+      "example1": "He eats nothing but pasta.",
+      "example2": "The box contained nothing but old photos.",
+      "exampleTranslations": [
+        "彼はパスタしか食べない。",
+        "箱には古い写真しか入っていなかった。"
+      ],
+      "type": "grammar",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1820",
+      "phrase": "be too chicken to ~",
+      "meaning": "怖くて～できない",
+      "scene": "勇気がなく行動できないことをくだけて表すとき",
+      "example1": "I was too chicken to ask.",
+      "example2": "He’s too chicken to go alone.",
+      "exampleTranslations": [
+        "怖くて聞けなかった。",
+        "彼は怖くて一人では行けない。"
+      ],
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "casual",
+      "note": "人を`chicken`と呼ぶと「臆病者」とからかう響きがある。"
+    },
+    {
+      "id": "p1821",
+      "phrase": "not exactly",
+      "meaning": "必ずしもそうではない／正確には違う",
+      "scene": "相手の表現をやわらかく訂正したり否定したりするとき",
+      "example1": "Are you two dating? Not exactly.",
+      "example2": "It wasn’t exactly a relaxing trip.",
+      "exampleTranslations": [
+        "二人は付き合ってるの？ そういうわけでもない。",
+        "くつろげる旅行とは言いにくかった。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1822",
+      "phrase": "try ~ out",
+      "meaning": "～を試してみる",
+      "scene": "物・方法・活動が合うか実際に試すとき",
+      "example1": "Can I try this chair out?",
+      "example2": "We tried out a new recipe last night.",
+      "exampleTranslations": [
+        "この椅子を試してもいい？",
+        "昨夜、新しいレシピを試した。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1823",
+      "phrase": "be almost done with ~",
+      "meaning": "～がもうすぐ終わる",
+      "scene": "作業・使用・食事などが完了間近だと伝えるとき",
+      "example1": "I’m almost done with this report.",
+      "example2": "Are you almost done with the bathroom?",
+      "exampleTranslations": [
+        "この報告書はもうすぐ終わる。",
+        "洗面所、もうすぐ使い終わる？"
+      ],
+      "type": "pattern",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1824",
+      "phrase": "call in sick",
+      "meaning": "病欠の連絡をする",
+      "scene": "体調不良で仕事や学校を休むと連絡するとき",
+      "example1": "I had to call in sick today.",
+      "example2": "She called in sick with the flu.",
+      "exampleTranslations": [
+        "今日は病欠の連絡をしなければならなかった。",
+        "彼女はインフルエンザで病欠の連絡をした。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1825",
+      "phrase": "That’s the way it goes.",
+      "meaning": "そういうものだ／仕方がない",
+      "scene": "残念でも変えられない結果を受け入れるとき",
+      "example1": "Sometimes plans fail. That’s the way it goes.",
+      "example2": "I didn’t get the job, but that’s the way it goes.",
+      "exampleTranslations": [
+        "計画が失敗することもある。そういうものだ。",
+        "仕事は得られなかったけど、仕方がない。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E13",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1826",
+      "phrase": "put ~ on",
+      "meaning": "～を身につける／つける",
+      "scene": "服・靴・アクセサリーなどを身につけるとき",
+      "example1": "Put your coat on before you go out.",
+      "example2": "She put on her glasses.",
+      "exampleTranslations": [
+        "出かける前にコートを着て。",
+        "彼女は眼鏡をかけた。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1827",
+      "phrase": "save ~ for a special occasion",
+      "meaning": "～を特別な日のために取っておく",
+      "scene": "大切な物や飲食物を特別な機会まで使わずにおくとき",
+      "example1": "I’m saving this wine for a special occasion.",
+      "example2": "She saved the dress for a special occasion.",
+      "exampleTranslations": [
+        "このワインは特別な日のために取ってある。",
+        "彼女はそのドレスを特別な日のために取っておいた。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1828",
+      "phrase": "be good to go",
+      "meaning": "準備万端である／すぐ始められる",
+      "scene": "必要な準備が整い、行動を始められるとき",
+      "example1": "Once the update finishes, we’re good to go.",
+      "example2": "I packed everything, so I’m good to go.",
+      "exampleTranslations": [
+        "更新が終われば準備完了だ。",
+        "全部荷造りしたから、もう出られる。"
+      ],
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "frequent",
+      "register": "casual"
+    },
+    {
+      "id": "p1829",
+      "phrase": "be back on track",
+      "meaning": "再び順調に進んでいる",
+      "scene": "遅れや問題のあと、計画や生活が本来の流れに戻ったとき",
+      "example1": "The project is back on track.",
+      "example2": "I’m finally back on track with my workouts.",
+      "exampleTranslations": [
+        "プロジェクトは再び順調に進んでいる。",
+        "運動習慣がようやく元に戻った。"
+      ],
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1830",
+      "phrase": "You got it.",
+      "meaning": "了解／任せて",
+      "scene": "依頼を引き受け、そうすると短く返すとき",
+      "example1": "Two coffees, please. You got it.",
+      "example2": "Can you send this today? You got it.",
+      "exampleTranslations": [
+        "コーヒーを二つお願いします。承知しました。",
+        "今日これを送ってくれる？ 任せて。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "frequent",
+      "register": "casual",
+      "note": "依頼への「承知しました」。理解を示す`Got it.`や、自分が担当すると申し出る`I got it.`とは機能が異なる。"
+    },
+    {
+      "id": "p1831",
+      "phrase": "go bad",
+      "meaning": "腐る／悪くなる",
+      "scene": "食べ物が傷んだり、状況や計画が悪化したりしたとき",
+      "example1": "The milk has gone bad.",
+      "example2": "Things went bad after the argument.",
+      "exampleTranslations": [
+        "牛乳が腐っている。",
+        "口論のあと状況が悪化した。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1832",
+      "phrase": "Can I take a message?",
+      "meaning": "伝言を承りましょうか",
+      "scene": "電話で相手が不在のとき伝言の有無を尋ねるとき",
+      "example1": "She’s away from her desk. Can I take a message?",
+      "example2": "He can’t come to the phone. May I take a message?",
+      "exampleTranslations": [
+        "彼女は席を外しています。伝言を承りましょうか。",
+        "彼は電話に出られません。伝言を承りましょうか。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "polite"
+    },
+    {
+      "id": "p1833",
+      "phrase": "mate for life",
+      "meaning": "生涯同じ相手とつがう",
+      "scene": "動物や人の関係が一生続くことを話すとき",
+      "example1": "Some birds mate for life.",
+      "example2": "People often assume swans mate for life.",
+      "exampleTranslations": [
+        "一生同じ相手とつがう鳥もいる。",
+        "白鳥は生涯同じ相手とつがうと思われがちだ。"
+      ],
+      "type": "phrase",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "limited",
+      "register": "neutral"
+    },
+    {
+      "id": "p1834",
+      "phrase": "lend someone money",
+      "meaning": "人にお金を貸す",
+      "scene": "返してもらう前提で人にお金を渡すとき",
+      "example1": "Could you lend me some money?",
+      "example2": "I don’t lend friends money.",
+      "exampleTranslations": [
+        "少しお金を貸してくれる？",
+        "友達にはお金を貸さない。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "frequent",
+      "register": "neutral",
+      "note": "`borrow`は借りる側から使う。"
+    },
+    {
+      "id": "p1835",
+      "phrase": "flashy",
+      "meaning": "派手で目立つ",
+      "scene": "服・装飾・見せ方が派手すぎると感じるとき",
+      "example1": "That watch is a little flashy for me.",
+      "example2": "He arrived in a flashy sports car.",
+      "exampleTranslations": [
+        "その時計は私には少し派手だ。",
+        "彼は派手なスポーツカーで来た。"
+      ],
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1836",
+      "phrase": "sharp",
+      "meaning": "おしゃれで格好いい",
+      "scene": "人の服装や見た目が洗練されていると褒めるとき",
+      "example1": "You look sharp in that suit.",
+      "example2": "That’s a sharp jacket.",
+      "exampleTranslations": [
+        "そのスーツ、格好いいね。",
+        "おしゃれなジャケットだね。"
+      ],
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "casual",
+      "note": "服装を褒める意味。やや昔風に聞こえることもある。"
+    },
+    {
+      "id": "p1837",
+      "phrase": "have a surprise for someone",
+      "meaning": "人に見せたい驚きのものがある",
+      "scene": "贈り物や知らせを秘密にして相手を驚かせたいとき",
+      "example1": "I have a surprise for you.",
+      "example2": "We had a surprise for the kids.",
+      "exampleTranslations": [
+        "君にサプライズがある。",
+        "子どもたちに驚きのものを用意していた。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1838",
+      "phrase": "be sorry to hear about ~",
+      "meaning": "～を聞いて残念に思う／気の毒に思う",
+      "scene": "相手の不幸や悪い知らせに思いやりを示すとき",
+      "example1": "I’m sorry to hear about your job.",
+      "example2": "We were sorry to hear about the accident.",
+      "exampleTranslations": [
+        "仕事のこと、残念だったね。",
+        "事故のことを聞いて気の毒に思いました。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1839",
+      "phrase": "split up",
+      "meaning": "別れる／別々になる",
+      "scene": "恋人・夫婦が関係を終えたことを話すとき",
+      "example1": "They split up last month.",
+      "example2": "Why did you two split up?",
+      "exampleTranslations": [
+        "二人は先月別れた。",
+        "どうして二人は別れたの？"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1840",
+      "phrase": "I can’t say I’m surprised.",
+      "meaning": "驚いたとは言えない／やっぱりね",
+      "scene": "予想どおりの結果で驚いていないと伝えるとき",
+      "example1": "He canceled again. I can’t say I’m surprised.",
+      "example2": "I can’t say I’m surprised by the decision.",
+      "exampleTranslations": [
+        "彼はまたキャンセルした。やっぱりね。",
+        "その決定には驚いたとは言えない。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1841",
+      "phrase": "must be thinking of someone else",
+      "meaning": "きっと別の人と勘違いしている",
+      "scene": "相手の情報や記憶が自分には当てはまらないと訂正するとき",
+      "example1": "You must be thinking of someone else.",
+      "example2": "I think you’re thinking of a different person.",
+      "exampleTranslations": [
+        "きっと別の人と勘違いしているよ。",
+        "別の人のことを考えていると思う。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1842",
+      "phrase": "Do you want a refill?",
+      "meaning": "おかわりはいかが？",
+      "scene": "飲み物をもう一杯欲しいか尋ねるとき",
+      "example1": "Do you want a refill on your coffee?",
+      "example2": "Would you like a refill?",
+      "exampleTranslations": [
+        "コーヒーのおかわりはいる？",
+        "おかわりはいかがですか。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1843",
+      "phrase": "Give me a second.",
+      "meaning": "ちょっと待って／少し時間をちょうだい",
+      "scene": "短い時間待ってほしいとき",
+      "example1": "Give me a second—I’m almost ready.",
+      "example2": "Can you give me a second to think?",
+      "exampleTranslations": [
+        "ちょっと待って。もうすぐ準備できる。",
+        "少し考える時間をくれる？"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "frequent",
+      "register": "casual"
+    },
+    {
+      "id": "p1844",
+      "phrase": "get ~ just right",
+      "meaning": "～をちょうどよく仕上げる",
+      "scene": "細部を調整して理想どおりの状態にするとき",
+      "example1": "I’m trying to get the lighting just right.",
+      "example2": "It took a while to get the sauce just right.",
+      "exampleTranslations": [
+        "照明をちょうどよくしようとしている。",
+        "ソースをちょうどよく仕上げるのに時間がかかった。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1845",
+      "phrase": "check someone out",
+      "meaning": "人を魅力的かどうか眺める",
+      "scene": "興味や性的魅力を感じて人を見るとき",
+      "example1": "That guy is checking you out.",
+      "example2": "Were you checking her out?",
+      "exampleTranslations": [
+        "あの人、君のことを見てるよ。",
+        "彼女に見とれてたの？"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "casual",
+      "note": "人を品定めするように聞こえることがある。`check it out`（見てみる）とは別義。"
+    },
+    {
+      "id": "p1846",
+      "phrase": "Nice meeting you.",
+      "meaning": "お会いできてよかったです",
+      "scene": "初対面の人との会話を終えるとき",
+      "example1": "It was nice meeting you.",
+      "example2": "Nice meeting you—have a safe trip home.",
+      "exampleTranslations": [
+        "お会いできてよかったです。",
+        "お会いできてよかったです。気をつけて帰ってください。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "frequent",
+      "register": "neutral",
+      "note": "通常は別れ際に使う。初対面の挨拶では`Nice to meet you.`が一般的。"
+    },
+    {
+      "id": "p1847",
+      "phrase": "eyesore",
+      "meaning": "目障りなもの／景観を損ねるもの",
+      "scene": "見た目がひどく周囲から浮く物を批判するとき",
+      "example1": "That empty building is an eyesore.",
+      "example2": "The wires are a real eyesore.",
+      "exampleTranslations": [
+        "あの空きビルは目障りだ。",
+        "その配線は本当に見苦しい。"
+      ],
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1848",
+      "phrase": "won’t budge",
+      "meaning": "びくともしない／考えを変えない",
+      "scene": "物が動かない、または人が立場を変えないとき",
+      "example1": "This lid won’t budge.",
+      "example2": "She won’t budge on the price.",
+      "exampleTranslations": [
+        "このふたはびくともしない。",
+        "彼女は価格について譲らない。"
+      ],
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1849",
+      "phrase": "from where I’m sitting",
+      "meaning": "私の立場から見ると",
+      "scene": "自分の視点や判断を示すとき",
+      "example1": "From where I’m sitting, the plan looks risky.",
+      "example2": "You seem fine from where I’m sitting.",
+      "exampleTranslations": [
+        "私の立場から見ると、その計画は危険そうだ。",
+        "私には君は大丈夫そうに見える。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1850",
+      "phrase": "not yours to ~",
+      "meaning": "あなたが～するものではない／権限はない",
+      "scene": "相手の所有・責任・判断の範囲ではないと伝えるとき",
+      "example1": "That story isn’t yours to tell.",
+      "example2": "This decision is not yours to make.",
+      "exampleTranslations": [
+        "その話はあなたが話すものではない。",
+        "この決定はあなたが下すものではない。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1851",
+      "phrase": "There is no us.",
+      "meaning": "私たちは付き合っていない／二人の関係はない",
+      "scene": "恋愛関係の存在や可能性をはっきり否定するとき",
+      "example1": "Stop saying “we.” There is no us.",
+      "example2": "I’m sorry, but there is no us anymore.",
+      "exampleTranslations": [
+        "「私たち」って言うのはやめて。二人の関係はない。",
+        "ごめん、もう私たちという関係はない。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1852",
+      "phrase": "That’s my bad.",
+      "meaning": "それは私のミスだ／ごめん",
+      "scene": "自分の軽いミスや責任をくだけて認めるとき",
+      "example1": "I sent the wrong file. That’s my bad.",
+      "example2": "That was my bad—I misunderstood you.",
+      "exampleTranslations": [
+        "違うファイルを送った。私のミスだ。",
+        "それは私のミス。君の話を誤解した。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "frequent",
+      "register": "casual"
+    },
+    {
+      "id": "p1853",
+      "phrase": "say something about ~",
+      "meaning": "～について何かを物語る／示す",
+      "scene": "行動や事実から性格・関係・状況が読み取れると述べるとき",
+      "example1": "That says something about his character.",
+      "example2": "The empty seats say something about the event.",
+      "exampleTranslations": [
+        "それは彼の人柄を物語っている。",
+        "空席の多さがその催しについて何かを物語っている。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1854",
+      "phrase": "make fun of someone",
+      "meaning": "人をからかう／笑いものにする",
+      "scene": "人の特徴や失敗を冗談の対象にするとき",
+      "example1": "Don’t make fun of his accent.",
+      "example2": "They made fun of me at school.",
+      "exampleTranslations": [
+        "彼のなまりをからかわないで。",
+        "学校でからかわれた。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1855",
+      "phrase": "focus on ~",
+      "meaning": "～に集中する／注目する",
+      "scene": "注意や努力を一つのことへ向けるとき",
+      "example1": "Let’s focus on the main problem.",
+      "example2": "Try to focus on what you can control.",
+      "exampleTranslations": [
+        "一番の問題に集中しよう。",
+        "自分で変えられることに集中してみて。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1856",
+      "phrase": "dip into one’s savings",
+      "meaning": "貯金に手をつける",
+      "scene": "必要な支出のため貯めていたお金を使うとき",
+      "example1": "I had to dip into my savings.",
+      "example2": "We don’t want to dip into our savings for this.",
+      "exampleTranslations": [
+        "貯金に手をつけなければならなかった。",
+        "これに貯金を使いたくはない。"
+      ],
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1857",
+      "phrase": "you know where to find me",
+      "meaning": "必要ならいつでも連絡して／居場所は分かるよね",
+      "scene": "助けや話し合いが必要なら連絡してよいと伝えるとき",
+      "example1": "If you need anything, you know where to find me.",
+      "example2": "You know where to find me when you’re ready.",
+      "exampleTranslations": [
+        "何か必要なら、いつでも連絡して。",
+        "話す準備ができたら、どこにいるか分かるよね。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1858",
+      "phrase": "Would you stop already?",
+      "meaning": "もうやめてくれない？",
+      "scene": "繰り返される迷惑な言動を苛立って止めるとき",
+      "example1": "Would you stop already? I’m trying to sleep.",
+      "example2": "Oh, would you stop already?",
+      "exampleTranslations": [
+        "もうやめてくれない？ 寝ようとしてるんだ。",
+        "もういい加減にやめてよ。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1859",
+      "phrase": "to begin with",
+      "meaning": "そもそも／初めから",
+      "scene": "理由や問題の出発点を示すとき",
+      "example1": "I never wanted to go to begin with.",
+      "example2": "Why did you buy it to begin with?",
+      "exampleTranslations": [
+        "そもそも行きたくなかった。",
+        "そもそもなぜそれを買ったの？"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1860",
+      "phrase": "bring on ~",
+      "meaning": "～をどんどん持ってこい／～を受けて立つ",
+      "scene": "出来事や挑戦を歓迎し、準備ができていると示すとき",
+      "example1": "Bring on the weekend.",
+      "example2": "If that’s the challenge, bring it on.",
+      "exampleTranslations": [
+        "週末よ、早く来い。",
+        "それが挑戦なら、受けて立つ。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1861",
+      "phrase": "be about more than just ~",
+      "meaning": "単なる～以上の意味がある",
+      "scene": "物事に表面以上の重要な意味があると説明するとき",
+      "example1": "This is about more than just money.",
+      "example2": "The trip was about more than just sightseeing.",
+      "exampleTranslations": [
+        "これは単にお金の問題ではない。",
+        "その旅には観光以上の意味があった。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1862",
+      "phrase": "What’s wrong with that?",
+      "meaning": "それの何が悪いの？",
+      "scene": "批判された選択や行動に問題はないと反論するとき",
+      "example1": "I like eating alone. What’s wrong with that?",
+      "example2": "What’s wrong with asking for help?",
+      "exampleTranslations": [
+        "一人で食べるのが好き。それの何が悪いの？",
+        "助けを求めることの何が悪いの？"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "frequent",
+      "register": "casual"
+    },
+    {
+      "id": "p1863",
+      "phrase": "get ready for ~",
+      "meaning": "～の準備をする",
+      "scene": "これから起こる予定や出来事に備えるとき",
+      "example1": "I need to get ready for work.",
+      "example2": "Get ready for some good news.",
+      "exampleTranslations": [
+        "仕事の準備をしないと。",
+        "いい知らせを聞く準備をして。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1864",
+      "phrase": "Looking good.",
+      "meaning": "いい感じ／似合っている",
+      "scene": "人の見た目や物事の進み具合を褒めるとき",
+      "example1": "New haircut? Looking good.",
+      "example2": "The project is looking good so far.",
+      "exampleTranslations": [
+        "新しい髪型？ いい感じ。",
+        "プロジェクトは今のところ順調そうだ。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "frequent",
+      "register": "casual"
+    },
+    {
+      "id": "p1865",
+      "phrase": "take a chill pill",
+      "meaning": "落ち着いて／頭を冷やして",
+      "scene": "興奮・怒り・心配が強い相手に落ち着くよう言うとき",
+      "example1": "Take a chill pill—it’s not a big deal.",
+      "example2": "You need to take a chill pill and listen.",
+      "exampleTranslations": [
+        "落ち着いて。大したことじゃないよ。",
+        "頭を冷やして話を聞いたほうがいい。"
+      ],
+      "type": "idiom",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "limited",
+      "register": "slang",
+      "note": "軽く挑発的で、今ではやや古めに聞こえることがある。"
+    },
+    {
+      "id": "p1866",
+      "phrase": "Doubtful.",
+      "meaning": "たぶん無理／可能性は低い",
+      "scene": "質問や予想に対して、実現しそうにないと短く答えるとき",
+      "example1": "Will he apologize? Doubtful.",
+      "example2": "Can we finish by noon? Doubtful.",
+      "exampleTranslations": [
+        "彼は謝るかな？ たぶん無理。",
+        "正午までに終わる？ 可能性は低いね。"
+      ],
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1867",
+      "phrase": "Atta boy!",
+      "meaning": "よくやった／その調子",
+      "scene": "男性や男の子の行動をくだけて褒めたり励ましたりするとき",
+      "example1": "You fixed it—atta boy!",
+      "example2": "Atta boy! Keep going.",
+      "exampleTranslations": [
+        "直したんだ。よくやった！",
+        "その調子！ 続けて。"
+      ],
+      "type": "phrase",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "limited",
+      "register": "casual",
+      "note": "`That’s a boy`に由来するくだけた表現。上から目線に聞こえることがある。"
+    },
+    {
+      "id": "p1868",
+      "phrase": "have seen enough",
+      "meaning": "もう十分見た／これ以上見る必要はない",
+      "scene": "判断に十分なものを見た、または不快で見続けたくないとき",
+      "example1": "I’ve seen enough. Turn it off.",
+      "example2": "We’ve seen enough to make a decision.",
+      "exampleTranslations": [
+        "もう十分見た。消して。",
+        "判断するには十分見た。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1869",
+      "phrase": "ready or not",
+      "meaning": "準備ができていてもいなくても",
+      "scene": "相手の準備にかかわらず始めると告げるとき",
+      "example1": "Ready or not, here I come.",
+      "example2": "The changes are coming, ready or not.",
+      "exampleTranslations": [
+        "準備できててもできてなくても、行くよ。",
+        "準備ができていようがいまいが、変化はやって来る。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1870",
+      "phrase": "knight in shining armor",
+      "meaning": "白馬の王子様／救ってくれる理想の人",
+      "scene": "困ったときに救ってくれる理想的な恋人や人物を表すとき",
+      "example1": "She’s not waiting for a knight in shining armor.",
+      "example2": "He wanted to be her knight in shining armor.",
+      "exampleTranslations": [
+        "彼女は白馬の王子様を待っているわけではない。",
+        "彼は彼女を救う理想の人になりたかった。"
+      ],
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1871",
+      "phrase": "be no slouch",
+      "meaning": "決して下手ではない／かなりできる",
+      "scene": "能力や実力が低くないことを控えめに強調するとき",
+      "example1": "She’s no slouch in the kitchen.",
+      "example2": "I’m no slouch when it comes to math.",
+      "exampleTranslations": [
+        "彼女は料理がかなりできる。",
+        "数学なら私もかなりできる。"
+      ],
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E14",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1872",
+      "phrase": "No peeking.",
+      "meaning": "のぞかないで／見ちゃだめ",
+      "scene": "サプライズや秘密を見ないよう相手に言うとき",
+      "example1": "Close your eyes—no peeking.",
+      "example2": "No peeking at your presents.",
+      "exampleTranslations": [
+        "目を閉じて。のぞかないで。",
+        "プレゼントを見ちゃだめ。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1873",
+      "phrase": "You’d better be ~ing",
+      "meaning": "ちゃんと～しているんでしょうね",
+      "scene": "期待どおりの行動をしているよう強く念を押すとき",
+      "example1": "You’d better be telling the truth.",
+      "example2": "You’d better be wearing a helmet.",
+      "exampleTranslations": [
+        "本当のことを言っているんでしょうね。",
+        "ちゃんとヘルメットをかぶっているんでしょうね。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "casual",
+      "note": "警告や強い期待の響きがあり、言い方によっては威圧的。"
+    },
+    {
+      "id": "p1874",
+      "phrase": "whichever ~ you want",
+      "meaning": "好きなほうをどちらでも",
+      "scene": "複数の選択肢から相手が自由に選べると伝えるとき",
+      "example1": "Take whichever seat you want.",
+      "example2": "Choose whichever color you want.",
+      "exampleTranslations": [
+        "好きな席に座って。",
+        "好きな色を選んで。"
+      ],
+      "type": "grammar",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1875",
+      "phrase": "That’s the stuff.",
+      "meaning": "そう、それだ／いい感じ",
+      "scene": "求めていた物や望ましい状態を得て満足を示すとき",
+      "example1": "That’s the stuff—just a little more.",
+      "example2": "Now that’s the stuff I was looking for.",
+      "exampleTranslations": [
+        "そう、それだ。もう少しだけ。",
+        "そう、こういうのを探していた。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1876",
+      "phrase": "Do we dare?",
+      "meaning": "やってみる勇気ある？／思い切ってやる？",
+      "scene": "少し危険・大胆・ぜいたくな行動を遊び心を込めて提案するとき",
+      "example1": "One more dessert—do we dare?",
+      "example2": "Do we dare ask for another day off?",
+      "exampleTranslations": [
+        "デザートをもう一つ。思い切って頼む？",
+        "もう一日休みを頼んでみる？"
+      ],
+      "type": "phrase",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "limited",
+      "register": "casual"
+    },
+    {
+      "id": "p1877",
+      "phrase": "make the ultimate sacrifice",
+      "meaning": "最大の犠牲を払う",
+      "scene": "何かのために最も大きな犠牲を払うことを強調するとき",
+      "example1": "She made the ultimate sacrifice for her family.",
+      "example2": "I made the ultimate sacrifice and gave up my seat.",
+      "exampleTranslations": [
+        "彼女は家族のために最大の犠牲を払った。",
+        "私は大きな犠牲を払い、席を譲った。"
+      ],
+      "type": "idiom",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "limited",
+      "register": "neutral",
+      "note": "本来は命を捧げるほどの重大な犠牲。日常では誇張や冗談にも使う。"
+    },
+    {
+      "id": "p1878",
+      "phrase": "How was your day?",
+      "meaning": "今日はどんな一日だった？",
+      "scene": "一日の終わりに相手の出来事や気分を尋ねるとき",
+      "example1": "How was your day at work?",
+      "example2": "Hey, how was your day?",
+      "exampleTranslations": [
+        "仕事の一日はどうだった？",
+        "ねえ、今日はどうだった？"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1879",
+      "phrase": "trigger anything for someone",
+      "meaning": "人に何かを思い出させる／反応を起こす",
+      "scene": "言葉や物が記憶・感情などを呼び起こすか尋ねるとき",
+      "example1": "Does this photo trigger anything for you?",
+      "example2": "That name didn’t trigger anything for me.",
+      "exampleTranslations": [
+        "この写真を見て何か思い出す？",
+        "その名前を聞いても何も思い出さなかった。"
+      ],
+      "type": "phrase",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "limited",
+      "register": "neutral"
+    },
+    {
+      "id": "p1880",
+      "phrase": "Nice to meet you.",
+      "meaning": "はじめまして／お会いできてうれしいです",
+      "scene": "初対面の人と挨拶するとき",
+      "example1": "Hi, I’m Ken. Nice to meet you.",
+      "example2": "It’s very nice to meet you at last.",
+      "exampleTranslations": [
+        "こんにちは、ケンです。はじめまして。",
+        "ようやくお会いできてうれしいです。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "frequent",
+      "register": "neutral",
+      "note": "通常は会ったときに使う。別れ際は`Nice meeting you.`が自然。"
+    },
+    {
+      "id": "p1881",
+      "phrase": "I’ll survive.",
+      "meaning": "何とかなるよ／大丈夫",
+      "scene": "残念・不便なことでも深刻ではないと軽く受け流すとき",
+      "example1": "The café is closed, but I’ll survive.",
+      "example2": "Don’t worry about me. I’ll survive.",
+      "exampleTranslations": [
+        "カフェは閉まっているけど、何とかなるよ。",
+        "私のことは心配しないで。大丈夫。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1882",
+      "phrase": "I’ll tell you what.",
+      "meaning": "こうしよう／いいことを教えるよ",
+      "scene": "提案・取引・重要な話を切り出すとき",
+      "example1": "I’ll tell you what—we can split the cost.",
+      "example2": "I’ll tell you what, call me tomorrow.",
+      "exampleTranslations": [
+        "こうしよう。費用を半分ずつ出そう。",
+        "いい？ 明日電話して。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1883",
+      "phrase": "be into each other",
+      "meaning": "互いに好意がある／惹かれ合っている",
+      "scene": "二人が恋愛的にお互いを気に入っていると話すとき",
+      "example1": "They’re clearly into each other.",
+      "example2": "Are you two into each other?",
+      "exampleTranslations": [
+        "二人は明らかに惹かれ合っている。",
+        "二人はお互いに気があるの？"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1884",
+      "phrase": "get one’s eyes checked",
+      "meaning": "目の検査を受ける",
+      "scene": "視力や目の状態を専門家に診てもらうとき",
+      "example1": "I need to get my eyes checked.",
+      "example2": "When did you last get your eyes checked?",
+      "exampleTranslations": [
+        "目の検査を受けないと。",
+        "最後に目の検査を受けたのはいつ？"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1885",
+      "phrase": "be hard to follow",
+      "meaning": "話や展開が理解しにくい",
+      "scene": "説明・映画・会話などが複雑で追いにくいとき",
+      "example1": "The instructions are hard to follow.",
+      "example2": "The movie was interesting but hard to follow.",
+      "exampleTranslations": [
+        "その説明は理解しにくい。",
+        "その映画は面白かったが、話を追いにくかった。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1886",
+      "phrase": "It would really help if ~",
+      "meaning": "～してくれると本当に助かる",
+      "scene": "相手にしてほしいことを理由とともにやわらかく頼むとき",
+      "example1": "It would really help if you arrived early.",
+      "example2": "It would help if you wrote that down.",
+      "exampleTranslations": [
+        "早く来てくれると本当に助かる。",
+        "それを書いてくれると助かる。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "polite"
+    },
+    {
+      "id": "p1887",
+      "phrase": "Just checking.",
+      "meaning": "確認しただけ／念のため",
+      "scene": "質問の目的が単なる確認だと軽く伝えるとき",
+      "example1": "Are we still meeting at six? Just checking.",
+      "example2": "You locked the door, right? Just checking.",
+      "exampleTranslations": [
+        "6時に会う予定のままだよね？ 確認しただけ。",
+        "ドアに鍵をかけたよね？ 念のため。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "frequent",
+      "register": "casual"
+    },
+    {
+      "id": "p1888",
+      "phrase": "cross that line",
+      "meaning": "一線を越える",
+      "scene": "関係・規則・道徳上の境界を越えることを話すとき",
+      "example1": "Once we cross that line, things will change.",
+      "example2": "I’m not willing to cross that line.",
+      "exampleTranslations": [
+        "その一線を越えたら、関係が変わる。",
+        "私はその一線を越えるつもりはない。"
+      ],
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1889",
+      "phrase": "The moment’s gone.",
+      "meaning": "もうタイミングを逃した",
+      "scene": "好機や雰囲気が失われ、今は行動しにくいとき",
+      "example1": "I was going to kiss her, but the moment’s gone.",
+      "example2": "Let’s talk later—the moment’s gone.",
+      "exampleTranslations": [
+        "彼女にキスするつもりだったけど、もうタイミングを逃した。",
+        "また後で話そう。もう雰囲気が変わった。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1890",
+      "phrase": "There’s no need to ~",
+      "meaning": "～する必要はない",
+      "scene": "相手の心配・謝罪・行動が不要だとやわらかく伝えるとき",
+      "example1": "There’s no need to apologize.",
+      "example2": "There’s no need to hurry.",
+      "exampleTranslations": [
+        "謝る必要はないよ。",
+        "急ぐ必要はない。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1891",
+      "phrase": "go back to someone’s place",
+      "meaning": "人の家へ一緒に戻る／行く",
+      "scene": "外出後に自分や相手の家へ行こうと誘うとき",
+      "example1": "Do you want to go back to my place?",
+      "example2": "We went back to her place for coffee.",
+      "exampleTranslations": [
+        "うちに来ない？",
+        "コーヒーを飲みに彼女の家へ行った。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "casual",
+      "note": "デートの文脈では、二人きりになろうという含みを持つことがある。"
+    },
+    {
+      "id": "p1892",
+      "phrase": "Thanks again.",
+      "meaning": "改めてありがとう",
+      "scene": "以前してもらったことにもう一度感謝を伝えるとき",
+      "example1": "Thanks again for the ride.",
+      "example2": "It was great seeing you. Thanks again.",
+      "exampleTranslations": [
+        "車で送ってくれて改めてありがとう。",
+        "会えてよかった。もう一度ありがとう。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1893",
+      "phrase": "be one of us",
+      "meaning": "私たちの仲間である",
+      "scene": "人が自分たちと同じ集団・立場になったと表すとき",
+      "example1": "Don’t worry, you’re one of us now.",
+      "example2": "He’ll always be one of us.",
+      "exampleTranslations": [
+        "心配しないで。もう私たちの仲間だよ。",
+        "彼はいつまでも私たちの仲間だ。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1894",
+      "phrase": "say goodnight",
+      "meaning": "おやすみを言う／別れの挨拶をする",
+      "scene": "夜に帰る前や寝る前に挨拶するとき",
+      "example1": "I came by to say goodnight.",
+      "example2": "Go say goodnight to your grandparents.",
+      "exampleTranslations": [
+        "おやすみを言いに寄った。",
+        "おじいちゃんとおばあちゃんにおやすみを言ってきて。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1895",
+      "phrase": "take longer than expected",
+      "meaning": "予想より時間がかかる",
+      "scene": "作業や出来事が見込みより長引いたとき",
+      "example1": "The repair took longer than expected.",
+      "example2": "This may take longer than we expected.",
+      "exampleTranslations": [
+        "修理は予想より時間がかかった。",
+        "これは予想より長くかかるかもしれない。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1896",
+      "phrase": "in all fairness",
+      "meaning": "公平に言えば／念のため公平な見方をすると",
+      "scene": "反対側に有利な事情も付け加えるとき",
+      "example1": "In all fairness, she warned us.",
+      "example2": "He was late, but in all fairness, the train stopped.",
+      "exampleTranslations": [
+        "公平に言えば、彼女は私たちに警告していた。",
+        "彼は遅れたが、公平に言えば電車が止まったんだ。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1897",
+      "phrase": "Are we nuts?",
+      "meaning": "私たち、どうかしてる？",
+      "scene": "自分たちの判断が無謀・ばかげていないか確かめるとき",
+      "example1": "Are we nuts to try this again?",
+      "example2": "We’re moving tomorrow—are we nuts?",
+      "exampleTranslations": [
+        "またこれを試すなんて、私たちどうかしてる？",
+        "明日引っ越すなんて、私たち正気かな？"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1898",
+      "phrase": "I didn’t need to know that.",
+      "meaning": "それは聞きたくなかった／知らなくてよかった",
+      "scene": "不快・私的・余計な情報を聞かされたと反応するとき",
+      "example1": "Your dad sent that text? I didn’t need to know that.",
+      "example2": "Okay, I really didn’t need to know that.",
+      "exampleTranslations": [
+        "お父さんがあのメッセージを送ったの？ それは知りたくなかった。",
+        "分かった、その情報は本当にいらなかった。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "casual"
+    },
+    {
+      "id": "p1899",
+      "phrase": "There’s no rush.",
+      "meaning": "急がなくていい／時間はある",
+      "scene": "相手に急ぐ必要がないと安心させるとき",
+      "example1": "Take your time—there’s no rush.",
+      "example2": "There’s no rush to decide today.",
+      "exampleTranslations": [
+        "ゆっくりでいいよ。急がなくていい。",
+        "今日決める必要はないよ。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "frequent",
+      "register": "neutral"
+    },
+    {
+      "id": "p1900",
+      "phrase": "be worth the wait",
+      "meaning": "待つ価値がある",
+      "scene": "時間がかかっても結果が満足できるものだと表すとき",
+      "example1": "The food was worth the wait.",
+      "example2": "Trust me, it’ll be worth the wait.",
+      "exampleTranslations": [
+        "その料理は待ったかいがあった。",
+        "信じて。待つ価値はあるよ。"
+      ],
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1901",
+      "phrase": "I don’t just mean ~",
+      "meaning": "～だけを言っているのではない",
+      "scene": "発言の意味が一つの対象・場面に限られないと明確にするとき",
+      "example1": "I don’t just mean money.",
+      "example2": "And I don’t just mean today.",
+      "exampleTranslations": [
+        "お金だけのことを言っているんじゃない。",
+        "今日だけの話じゃない。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1902",
+      "phrase": "wake up next to someone",
+      "meaning": "人の隣で目を覚ます",
+      "scene": "一緒に寝た相手の隣で朝を迎えることを話すとき",
+      "example1": "I love waking up next to you.",
+      "example2": "He woke up next to a stranger.",
+      "exampleTranslations": [
+        "君の隣で目を覚ますのが好きだ。",
+        "彼は知らない人の隣で目を覚ました。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "general",
+      "register": "neutral"
+    },
+    {
+      "id": "p1903",
+      "phrase": "still have time",
+      "meaning": "まだ時間がある／まだ間に合う",
+      "scene": "期限や開始まで余裕が残っていると伝えるとき",
+      "example1": "We still have time to change it.",
+      "example2": "Hurry, we still have time to catch the train.",
+      "exampleTranslations": [
+        "まだ変更する時間がある。",
+        "急いで。まだ電車に間に合う。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S02E15",
+      "frequency": "frequent",
+      "register": "neutral"
     }
   ],
   "dialogues": [

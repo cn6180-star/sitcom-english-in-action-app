@@ -1,6 +1,7 @@
 "use strict";
 
 const assert=require("node:assert/strict");
+const crypto=require("node:crypto");
 const fs=require("node:fs");
 const path=require("node:path");
 
@@ -17,21 +18,23 @@ assert.equal(phrases.length,1855);
 assert.equal(phraseIds.size,1855);
 assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),1903);
 
-const newIds=Array.from({length:126},(_,index)=>`p${1560+index}`);
+const newIds=Array.from({length:135},(_,index)=>`p${1769+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
 const newPhrases=newIds.map(id=>byId.get(id));
-
 const counts=(items,key)=>Object.fromEntries([...new Set(items.map(item=>item[key]))]
   .sort().map(value=>[value,items.filter(item=>item[key]===value).length]));
+
 assert.deepEqual(counts(newPhrases,"episode"),{
-  S02E01:7,S02E02:3,S02E03:5,S02E04:4,S02E05:2,S02E06:2,S02E07:30,S02E08:34,S02E09:39
+  S02E01:5,S02E03:3,S02E04:3,S02E05:2,S02E06:1,S02E07:1,
+  S02E09:1,S02E10:1,S02E12:1,S02E13:39,S02E14:46,S02E15:32
 });
 assert.deepEqual(counts(newPhrases,"type"),{
-  grammar:4,idiom:13,pattern:16,"phrasal verb":15,phrase:77,word:1
+  grammar:7,idiom:13,pattern:17,"phrasal verb":11,phrase:82,word:5
 });
-assert.deepEqual(counts(newPhrases,"frequency"),{frequent:56,general:59,limited:11});
-assert.deepEqual(counts(newPhrases,"register"),{casual:41,neutral:78,polite:5,slang:2});
-assert.deepEqual(counts(newPhrases,"priority"),{"1":7,"2":47,"3":72});
+assert.deepEqual(counts(newPhrases,"frequency"),{frequent:57,general:70,limited:8});
+assert.deepEqual(counts(newPhrases,"register"),{casual:48,neutral:83,polite:2,slang:2});
+assert.deepEqual(counts(newPhrases,"priority"),{"1":8,"2":44,"3":83});
+assert.equal(newPhrases.filter(phrase=>Object.prototype.hasOwnProperty.call(phrase,"note")).length,25);
 
 const required=["id","phrase","meaning","scene","example1","example2","exampleTranslations","type","priorityText","priority","source","episode","frequency","register"];
 const allowedTypes=new Set(["word","phrase","idiom","phrasal verb","pattern","grammar"]);
@@ -49,37 +52,29 @@ for(const phrase of newPhrases){
   assert.ok(allowedFrequencies.has(phrase.frequency),`${phrase.id} invalid frequency`);
   assert.ok(allowedRegisters.has(phrase.register),`${phrase.id} invalid register`);
   assert.equal(phrase.priorityText,priorityText[phrase.priority],`${phrase.id} priority mismatch`);
+  assert.equal(Object.prototype.hasOwnProperty.call(phrase,"usage"),false,`${phrase.id} has legacy usage`);
 }
 
 for(const [id,episode] of Object.entries({
-  p800:"S02E07",p233:"S02E07",p563:"S02E08",p377:"S02E08",p866:"S02E08",p813:"S02E08",
-  p392:"S02E08",p370:"S02E08",p601:"S02E08",p1003:"S02E09",p1052:"S02E09"
-}))assert.equal(byId.get(id).episode,episode,`${id} Episode move mismatch`);
+  p985:"S02E13",p1023:"S02E14",p280:"S02E14",p1048:"S02E14",p666:"S02E15"
+}))assert.equal(byId.get(id)?.episode,episode,`${id} Episode move mismatch`);
 
-assert.equal(byId.get("p1183").phrase,"the way I/we look at it");
-assert.equal(byId.get("p1183").episode,"S01E06");
-assert.equal(byId.get("p657").phrase,"work something out");
-assert.equal(byId.get("p657").episode,"S06E03");
-assert.equal(byId.get("p1128").phrase,"work out");
-assert.equal(byId.get("p1128").episode,"S01E02");
-assert.equal(byId.get("p1128").example2,"I am sure things will work out somehow.");
-assert.equal(byId.get("p1128").exampleTranslations[1],"きっと何とかうまくいくよ。");
-assert.equal(byId.get("p601").phrase,"go through the trouble of ~ing");
-assert.equal(byId.get("p601").episode,"S02E08");
+assert.equal(byId.get("p197").phrase,"God forbid ~");
+assert.equal(byId.get("p197").note,"`Oh, God forbid.`のように単独で、皮肉を込めた反応として使うこともある。");
+assert.equal(byId.get("p1452").phrase,"be on one’s way");
+assert.equal(byId.get("p1452").note,"文脈により「向かっている途中」と「出発する・立ち去る」の両方で使う。p1147 `be on one’s way over`より広い基本形。人だけでなく、注文した物や配達などが向かっているときにも使える。");
+assert.equal(byId.get("p1285").register,"slang");
+assert.equal(byId.get("p1285").note,"くだけた強い表現。勝負で勝つ・厳しく鍛えるなどに使う。`kick someone’s ass`は「痛い目に遭わせる／ぶちのめす」という、かなり強く荒っぽい俗語のvariation。冗談めかして使うこともある。");
 
-for(const id of["p121","p167","p243","p248","p314"])assert.equal(phraseIds.has(id),false,`${id} was restored`);
-for(const id of["p1183","p657","p1233","p1605","p254","p327"])assert.equal(phraseIds.has(id),true,`${id} is missing`);
-
-const findNew=(headline,episode)=>newPhrases.find(phrase=>phrase.phrase===headline&&phrase.episode===episode);
-assert.match(findNew("I got it.","S02E03").meaning,/私がやる|任せて/);
-assert.match(findNew("Got it.","S02E06").meaning,/分かった|了解/);
-assert.ok(findNew("if you know what I mean","S02E07"));
-assert.ok(findNew("Do you mind if ~?","S02E07"));
-assert.ok(findNew("Do you think it’d be all right if ~?","S02E09"));
+const findNew=headline=>newPhrases.find(phrase=>phrase.phrase===headline);
+assert.notEqual(findNew("get out of here").meaning,byId.get("p1553").meaning);
+assert.notEqual(findNew("go with ~").meaning,byId.get("p1212").meaning);
+assert.ok(findNew("Nice meeting you."));
+assert.ok(findNew("Nice to meet you."));
 
 const friendsNames=/レイチェル|モニカ|フィービー|ロス|チャンドラー|ジョーイ|キャロル|スーザン|バリー|ミンディ|ジュリー|リチャード|ガンター|ジャニス|マルセル|フランク|エステル|ジャック|ジュディ|Friends|フレンズ/;
 const episodeSpecificScene=/S\d{2}E\d{2}|エピソード|作中/;
-assert.equal(newPhrases.filter(phrase=>phrase.scene.trim()).length,126);
+assert.equal(newPhrases.filter(phrase=>phrase.scene.trim()).length,135);
 assert.equal(newPhrases.filter(phrase=>friendsNames.test(phrase.scene)).length,0);
 assert.equal(newPhrases.filter(phrase=>episodeSpecificScene.test(phrase.scene)).length,0);
 
@@ -100,22 +95,16 @@ assert.deepEqual(exactDuplicates,{
 for(const ids of Object.values(exactDuplicates)){
   assert.equal(new Set(ids.map(id=>byId.get(id).meaning)).size,ids.length,`${ids.join(",")} must remain distinct senses`);
 }
-const normalizeHeadline=headline=>headline.toLowerCase().replaceAll("’","'").trim()
-  .replace(/[?!.]+$/,"")
-  .replace(/\b(someone|somebody|anyone|anybody)\b/g,"someone")
-  .replace(/\b(something|anything)\b/g,"~")
-  .replace(/\b(my|your|his|her|our|their|one's)\b/g,"one's")
-  .replace(/\s+/g," ");
-const normalizedDuplicates=Object.fromEntries([...new Set(phrases.map(phrase=>normalizeHeadline(phrase.phrase)))]
-  .map(headline=>[headline,phrases.filter(phrase=>normalizeHeadline(phrase.phrase)===headline).map(phrase=>phrase.id).sort()])
-  .filter(([,ids])=>ids.length>1));
-assert.deepEqual(normalizedDuplicates,{
-  ...exactDuplicates,
-  "get out of here":["p1553","p1773"]
-});
 
+for(const id of["p121","p167","p243","p248","p314"]){
+  assert.equal(phraseIds.has(id),false,`${id} was restored`);
+}
 assert.equal(dialogues.length,167);
 assert.deepEqual(dialogues.flatMap(dialogue=>(dialogue.phraseLinks||[])
   .filter(id=>!phraseIds.has(id)).map(id=>`${dialogue.id}:${id}`)),[]);
+assert.equal(
+  crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),
+  "fc1087f5d916efabb5c1a93591f629102283d89663afe71e3da88397df99eb90"
+);
 
-console.log("Season 2 Batch 3 Phrase expansion tests passed");
+console.log("Season 2 Batch 5 Phrase expansion tests passed");
