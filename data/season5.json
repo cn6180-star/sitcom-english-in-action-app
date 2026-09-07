@@ -1482,7 +1482,7 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S05E04",
+      "episode": "S02E08",
       "frequency": "general",
       "register": "neutral"
     },
@@ -2096,7 +2096,7 @@
     },
     {
       "id": "p601",
-      "phrase": "go through any trouble",
+      "phrase": "go through the trouble of ~ing",
       "meaning": "わざわざ苦労する／手間をかける",
       "scene": "感謝・恐縮・「そこまでしなくてもよかったのに」",
       "example1": "Thanks for going through the trouble of helping me.",
@@ -2109,7 +2109,7 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S05E23",
+      "episode": "S02E08",
       "frequency": "limited",
       "register": "neutral",
       "note": "作中では「He just doesn’t want us to go through any trouble.」の形で登場。一般的にはgo to the trouble of ~ingという言い方もよく使う。"

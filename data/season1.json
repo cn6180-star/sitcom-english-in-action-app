@@ -3268,10 +3268,10 @@
       "meaning": "うまくいく／解決する",
       "scene": "関係や計画がうまくいくかを話す場面",
       "example1": "I hope everything works out.",
-      "example2": "We will work it out somehow.",
+      "example2": "I am sure things will work out somehow.",
       "exampleTranslations": [
         "全部うまくいくといいね。",
-        "何とか解決するよ。"
+        "きっと何とかうまくいくよ。"
       ],
       "type": "phrasal verb",
       "priorityText": "★★★",
@@ -4319,7 +4319,7 @@
     },
     {
       "id": "p1183",
-      "phrase": "the way I look at it is ~",
+      "phrase": "the way I/we look at it",
       "meaning": "私の考えでは～だ",
       "scene": "自分の見方を前置きして意見を述べる場面",
       "example1": "The way I look at it is, we have time.",
