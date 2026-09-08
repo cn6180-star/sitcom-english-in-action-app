@@ -14,9 +14,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const dialogueById=new Map(dialogues.map(dialogue=>[dialogue.id,dialogue]));
 
-assert.equal(phrases.length,2135);
-assert.equal(new Set(phrases.map(phrase=>phrase.id)).size,2135);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2183);
+assert.equal(phrases.length,2292);
+assert.equal(new Set(phrases.map(phrase=>phrase.id)).size,2292);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2340);
 assert.equal(byId.has("p297"),false);
 assert.equal(byId.has("p69"),true);
 
@@ -39,7 +39,7 @@ for(const [id,episode] of Object.entries({
 }))assert.equal(byId.get(id)?.episode,episode,`${id} Episode mismatch`);
 
 const headings={
-  p385:"for the best",p69:"hit on someone",p489:"for all we know",
+  p385:"for the best",p69:"hit on someone",p489:"for all I/we/you know",
   p376:"Don’t take this wrong",p262:"Way to go!",p81:"bail",
   p242:"occur to someone",p463:"be hard on someone",p119:"cook something up"
 };

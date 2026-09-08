@@ -1825,22 +1825,23 @@
     },
     {
       "id": "p584",
-      "phrase": "it’s time + past tense",
-      "meaning": "もう〜する頃だ、そろそろ〜しなよ",
-      "scene": "助言・催促・軽い注意",
+      "phrase": "It’s time (that) + clause",
+      "meaning": "もう～する時だ／そろそろ～したほうがいい",
+      "scene": "行動を始める時機だと伝えたり、相手を促したりするとき",
       "example1": "It’s time you went home.",
-      "example2": "It’s time you got serious.",
+      "example2": "I think it’s time that we made a decision.",
       "exampleTranslations": [
         "もう家に帰る時間だよ。",
-        "そろそろ本気になる時だよ。"
+        "そろそろ決断する時だと思う。"
       ],
       "type": "grammar",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S05E15",
+      "episode": "S02E03",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "note": "やや仮定的な響きで`that`節には過去形を使うのが標準的。会話では現在形が使われることもある。"
     },
     {
       "id": "p585",

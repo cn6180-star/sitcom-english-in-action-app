@@ -13,9 +13,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,2135);
-assert.equal(phraseIds.size,2135);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2183);
+assert.equal(phrases.length,2292);
+assert.equal(phraseIds.size,2292);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2340);
 
 const newIds=Array.from({length:126},(_,index)=>`p${1560+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
@@ -24,7 +24,8 @@ const newPhrases=newIds.map(id=>byId.get(id));
 const counts=(items,key)=>Object.fromEntries([...new Set(items.map(item=>item[key]))]
   .sort().map(value=>[value,items.filter(item=>item[key]===value).length]));
 assert.deepEqual(counts(newPhrases,"episode"),{
-  S02E01:7,S02E02:3,S02E03:5,S02E04:4,S02E05:2,S02E06:2,S02E07:30,S02E08:34,S02E09:39
+  S01E03:1,
+  S02E01:7,S02E02:3,S02E03:5,S02E04:4,S02E05:2,S02E06:2,S02E07:30,S02E08:33,S02E09:39
 });
 assert.deepEqual(counts(newPhrases,"type"),{
   grammar:4,idiom:13,pattern:16,"phrasal verb":15,phrase:77,word:1

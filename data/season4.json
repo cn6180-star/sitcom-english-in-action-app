@@ -402,7 +402,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S04E04",
+      "episode": "S02E23",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1810,9 +1810,9 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S04E23",
+      "episode": "S02E24",
       "frequency": "frequent",
-      "register": "formal"
+      "register": "neutral"
     },
     {
       "id": "p466",
