@@ -8356,14 +8356,14 @@
     },
     {
       "id": "p1393",
-      "phrase": "name someone after someone",
-      "meaning": "～にちなんで人に名前を付ける",
-      "scene": "人に、別の人にちなんだ名前を付けるとき",
+      "phrase": "name A after B",
+      "meaning": "AをBにちなんで名付ける",
+      "scene": "人・場所・物などに、別の人や物にちなんだ名前を付けるとき",
       "example1": "They named their daughter after her grandmother.",
-      "example2": "He was named after his father.",
+      "example2": "The street was named after a local writer.",
       "exampleTranslations": [
         "二人は娘に祖母にちなんだ名前を付けた。",
-        "彼は父親にちなんで名付けられた。"
+        "その通りは地元の作家にちなんで名付けられた。"
       ],
       "type": "phrase",
       "priorityText": "★★☆",
@@ -8372,7 +8372,7 @@
       "episode": "S01E19",
       "frequency": "general",
       "register": "neutral",
-      "note": "受動形のbe named after someoneもよく使う。"
+      "note": "受動形の`be named after ~`もよく使う。"
     },
     {
       "id": "p1394",

@@ -1030,19 +1030,20 @@
     },
     {
       "id": "p335",
-      "phrase": "not be cool with something",
-      "meaning": "somethingを受け入れられない／somethingに賛成できない",
-      "scene": "軽く拒否や不満を伝えるとき",
-      "example1": "I’m not cool with that.",
-      "example2": "She’s not cool with the plan.",
-      "exampleTranslations": ["私はそれには納得してない。", "彼女はその計画に納得していない。"],
+      "phrase": "be cool with ~",
+      "meaning": "～を受け入れられる／～で構わない",
+      "scene": "提案・状況・人の行動を受け入れられるか伝えるとき",
+      "example1": "I’m cool with either option.",
+      "example2": "I’m not cool with changing the plan without asking.",
+      "exampleTranslations": ["どちらの案でも構わないよ。", "相談なしに計画を変えるのには賛成できない。"],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S03E24",
+      "episode": "S02E16",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "note": "否定形`not be cool with ~`も「～には賛成できない／受け入れられない」の意味でよく使う。"
     },
     {
       "id": "p336",
