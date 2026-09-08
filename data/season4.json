@@ -1563,19 +1563,20 @@
     },
     {
       "id": "p448",
-      "phrase": "handle it well",
-      "meaning": "うまく対処する、乗り切る",
-      "scene": "ストレスやショックへの対応について話す時",
-      "example1": "She’s handling it pretty well.",
-      "example2": "I’m not handling the pressure very well.",
-      "exampleTranslations": ["彼女はかなりうまく対処している。", "そのプレッシャーにうまく対処できていない。"],
+      "phrase": "handle ~",
+      "meaning": "～に対処する／～をうまく扱う",
+      "scene": "問題・状況・仕事などに対処できるか話すとき",
+      "example1": "She handled the situation well.",
+      "example2": "Don’t worry—I can handle it.",
+      "exampleTranslations": ["彼女はその状況にうまく対処した。", "心配しないで。私が対処できる。"],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S04E20",
+      "episode": "S02E20",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "note": "`handle it well`や`handle the pressure well`のように、対処の仕方を`well`で評価できる。"
     },
     {
       "id": "p449",
@@ -1940,10 +1941,10 @@
     },
     {
       "id": "p473",
-      "phrase": "You want a piece of me",
+      "phrase": "want a piece of this/me?",
       "meaning": "やんのか？、喧嘩売ってるの？",
       "scene": "挑発的に相手へ言い返すとき",
-      "note": "threatening・confrontationalな、ケンカ腰の挑発。",
+      "note": "`this`または`me`を使う、threatening・confrontationalなケンカ腰の挑発。",
       "example1": "You got a problem? You want a piece of me?",
       "example2": "Hey! You want a piece of me?",
       "exampleTranslations": [
@@ -1954,7 +1955,7 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S04E24",
+      "episode": "S02E21",
       "frequency": "limited",
       "register": "slang"
     }

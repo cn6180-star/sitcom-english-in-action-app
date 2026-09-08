@@ -14,9 +14,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const dialogueById=new Map(dialogues.map(dialogue=>[dialogue.id,dialogue]));
 
-assert.equal(phrases.length,1996);
-assert.equal(new Set(phrases.map(phrase=>phrase.id)).size,1996);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2044);
+assert.equal(phrases.length,2135);
+assert.equal(new Set(phrases.map(phrase=>phrase.id)).size,2135);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2183);
 assert.equal(byId.has("p297"),false);
 assert.equal(byId.has("p69"),true);
 

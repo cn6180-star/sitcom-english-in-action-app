@@ -1342,7 +1342,7 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S05E05",
+      "episode": "S02E20",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1686,7 +1686,7 @@
       "id": "p575",
       "phrase": "pull off ~",
       "meaning": "（キャラ・服・言動などが）似合う、サマになる／うまくやる",
-      "scene": "「俺にはそんな甘い呼び方似合わんやろ」みたいな時",
+      "scene": "服装・役柄・難しいことなどをうまく成立させられるか話すとき",
       "example1": "I can’t pull off leather pants.",
       "example2": "She can pull off any hairstyle.",
       "exampleTranslations": ["私には革のパンツを着こなせない。", "彼女はどんな髪型でも似合う。"],
@@ -1694,7 +1694,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S05E21",
+      "episode": "S02E19",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1928,7 +1928,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S05E22",
+      "episode": "S02E21",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2183,7 +2183,7 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S05E23",
+      "episode": "S02E20",
       "frequency": "general",
       "register": "slang"
     },
