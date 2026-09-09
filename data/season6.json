@@ -2261,24 +2261,25 @@
       "frequency": "general",
       "register": "slang"
     },
-    {
+        {
       "id": "p752",
-      "phrase": "a whole nother story",
-      "meaning": "まったく別の話",
-      "scene": "前の話とは次元・問題が異なると言う時",
+      "phrase": "a whole nother + noun",
+      "meaning": "まったく別の～／次元の違う～",
+      "scene": "前に挙げた物事とは別のもの、または性質・規模の異なるものを強調するとき。",
       "example1": "Dating is one thing. Marriage is a whole nother story.",
       "example2": "That’s a whole nother problem.",
       "exampleTranslations": [
         "付き合うのと結婚するのは、まったく別の話だ。",
         "それはまったく別の問題だ。"
       ],
-      "type": "phrase",
+      "type": "pattern",
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S06E17",
+      "episode": "S01E05",
       "frequency": "general",
-      "register": "neutral"
+      "register": "casual",
+      "note": "くだけた非標準の口語形。改まった文章ではa whole otherやan entirely differentを使う。"
     },
     {
       "id": "p753",

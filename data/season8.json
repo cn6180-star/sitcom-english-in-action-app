@@ -33,21 +33,25 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p861",
-      "phrase": "rip the Band-Aid off",
+      "phrase": "pull off / rip off the Band-Aid",
       "meaning": "嫌なことを一気に済ませる",
       "scene": "痛い話や気まずいことを先延ばしにしない時",
-      "example1": "Let’s just rip the Band-Aid off.",
+      "example1": "Let’s just pull off the Band-Aid and tell them.",
       "example2": "It’s better to rip the Band-Aid off now.",
-      "exampleTranslations": ["もう一気に済ませよう。", "今すぐ一気に済ませたほうがいい。"],
+      "exampleTranslations": [
+        "もう一気に済ませよう。彼らに話そう。",
+        "今すぐ一気に済ませたほうがいい。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S08E02",
+      "episode": "S01E05",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "note": "絆創膏を一気にはがすことにたとえ、気まずいことを素早く済ませる。pull the Band-Aid off / rip the Band-Aid offの語順も使う。"
     },
     {
       "id": "p862",
@@ -518,19 +522,22 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p892",
       "phrase": "Sounds about right",
       "meaning": "だいたい合ってそう／まあそんな感じやろうね",
       "scene": "完全に確認していないが、感覚的に妥当だと思う時",
       "example1": "The meeting should take about an hour. — Sounds about right.",
       "example2": "He forgot his wallet again. — Sounds about right.",
-      "exampleTranslations": ["会議は1時間くらいかかるはず。— まあ、そんなところだね。", "彼、また財布を忘れたよ。— いかにも彼らしいね。"],
+      "exampleTranslations": [
+        "会議は1時間くらいかかるはず。— まあ、そんなところだね。",
+        "彼、また財布を忘れたよ。— いかにも彼らしいね。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S08E07",
+      "episode": "S01E04",
       "frequency": "frequent",
       "register": "neutral"
     },

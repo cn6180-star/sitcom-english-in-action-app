@@ -331,7 +331,7 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p494",
       "phrase": "get ahead of oneself",
       "meaning": "先走る／気が早すぎる",
@@ -346,7 +346,7 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S05E15",
+      "episode": "S01E01",
       "frequency": "general",
       "register": "neutral"
     },
@@ -401,7 +401,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p498",
       "phrase": "that whole ~ thing",
       "meaning": "あの〜の件、あの一連のアレ",
@@ -416,7 +416,7 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S05E14",
+      "episode": "S01E01",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1878,7 +1878,7 @@
       "frequency": "limited",
       "register": "slang"
     },
-    {
+        {
       "id": "p588",
       "phrase": "big time",
       "meaning": "めっちゃ／盛大に／かなり",
@@ -1893,7 +1893,7 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S05E17",
+      "episode": "S01E01",
       "frequency": "general",
       "register": "neutral"
     },
@@ -2299,24 +2299,25 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p614",
-      "phrase": "I know this may sound ~",
-      "meaning": "変に聞こえるかもしれないけど…",
-      "scene": "変わった意見や個人的な話を切り出す時",
-      "example1": "I know this may sound weird, but…",
-      "example2": "I know this may sound rude, but…",
+      "phrase": "I know this is going to sound ~, but ...",
+      "meaning": "～に聞こえるだろうけど、…",
+      "scene": "奇妙・失礼・大げさに聞こえそうな内容を、前置きして切り出すとき。",
+      "example1": "I know this is going to sound strange, but I’ve seen this place before.",
+      "example2": "I know this is going to sound rude, but I need some quiet.",
       "exampleTranslations": [
-        "ちょっと変に聞こえるかもしれないけど……。",
-        "失礼に聞こえるかもしれないけど……。"
+        "変に聞こえるだろうけど、以前この場所を見たことがある。",
+        "失礼に聞こえるだろうけど、少し静かにしてほしい。"
       ],
       "type": "pattern",
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S05E17",
+      "episode": "S01E02",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "note": "I know this may sound ~, but ... とも言える。mayは「そう聞こえるかもしれない」と可能性を控えめに示す。"
     },
     {
       "id": "p615",

@@ -14,9 +14,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,2292);
-assert.equal(phraseIds.size,2292);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2340);
+assert.equal(phrases.length,2485);
+assert.equal(phraseIds.size,2485);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2533);
 
 const newIds=Array.from({length:141},(_,index)=>`p${1904+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
@@ -25,9 +25,9 @@ const counts=(items,key)=>Object.fromEntries([...new Set(items.map(item=>item[ke
   .sort().map(value=>[value,items.filter(item=>item[key]===value).length]));
 
 assert.deepEqual(counts(newPhrases,"episode"),{
-  S02E01:4,S02E02:2,S02E03:6,S02E04:5,S02E05:5,S02E06:1,S02E07:1,
-  S02E08:1,S02E09:1,S02E10:3,S02E11:1,S02E12:1,S02E14:2,S02E15:1,
-  S02E16:35,S02E17:31,S02E18:41
+  S01E01:8,S01E02:6,S01E03:5,S01E04:2,S01E05:2,
+  S02E01:3,S02E02:1,S02E03:3,S02E04:4,S02E05:3,S02E08:1,
+  S02E09:1,S02E10:2,S02E12:1,S02E14:1,S02E16:34,S02E17:29,S02E18:35
 });
 assert.deepEqual(counts(newPhrases,"type"),{
   grammar:5,idiom:9,pattern:28,"phrasal verb":9,phrase:86,word:4
@@ -72,15 +72,19 @@ const exactDuplicates=Object.fromEntries([...new Set(phrases.map(phrase=>phrase.
   .map(headline=>[headline,phrases.filter(phrase=>phrase.phrase.toLowerCase()===headline).map(phrase=>phrase.id).sort()])
   .filter(([,ids])=>ids.length>1));
 assert.deepEqual(exactDuplicates,{
+  "be all over someone":["p1721","p2428"],
   "be with someone":["p1234","p1500"],
   "catch on":["p1106","p364"],
+  "clean up":["p2109","p2394"],
   "come through":["p1368","p1645"],
-  "go through ~":["p1099","p1546","p1708"],
+  "come up":["p1633","p2423"],
+  "go through ~":["p1099","p1546","p1708","p2429"],
   "go with ~":["p1212","p1776"],
   "make it":["p1502","p1557","p514"],
   "open up":["p1385","p2040"],
   "out there":["p1487","p608"],
   "pick someone up":["p1325","p1551"],
+  "that’s it.":["p1152","p2445"],
   "work out":["p1128","p1584"]
 });
 for(const ids of Object.values(exactDuplicates)){

@@ -14,9 +14,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,2292);
-assert.equal(phraseIds.size,2292);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2340);
+assert.equal(phrases.length,2485);
+assert.equal(phraseIds.size,2485);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2533);
 
 const newIds=Array.from({length:139},(_,index)=>`p${2045+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
@@ -25,16 +25,16 @@ const counts=(items,key)=>Object.fromEntries([...new Set(items.map(item=>item[ke
   .sort().map(value=>[value,items.filter(item=>item[key]===value).length]));
 
 assert.deepEqual(counts(newPhrases,"episode"),{
-  S01E01:2,S01E02:1,S01E03:4,S01E04:2,S01E05:1,S01E06:1,S01E08:3,
-  S01E09:1,S01E11:3,S01E12:1,S01E13:3,S01E15:3,S01E16:1,S01E18:2,
-  S01E19:2,S01E23:1,S02E11:1,S02E16:1,S02E17:1,S02E19:32,S02E20:38,S02E21:35
+  S01E01:4,S01E02:2,S01E03:5,S01E04:2,S01E05:1,S01E06:1,S01E08:2,
+  S01E09:1,S01E11:3,S01E12:1,S01E13:2,S01E15:3,S01E16:1,S01E18:2,
+  S01E19:2,S01E23:1,S02E11:1,S02E16:1,S02E17:1,S02E19:32,S02E20:37,S02E21:34
 });
 assert.deepEqual(counts(newPhrases,"type"),{
-  grammar:4,idiom:23,pattern:20,"phrasal verb":16,phrase:73,word:3
+  grammar:4,idiom:23,pattern:19,"phrasal verb":17,phrase:73,word:3
 });
-assert.deepEqual(counts(newPhrases,"frequency"),{frequent:51,general:77,limited:11});
-assert.deepEqual(counts(newPhrases,"register"),{casual:49,formal:1,neutral:82,polite:2,slang:5});
-assert.deepEqual(counts(newPhrases,"priority"),{"1":6,"2":60,"3":73});
+assert.deepEqual(counts(newPhrases,"frequency"),{frequent:52,general:76,limited:11});
+assert.deepEqual(counts(newPhrases,"register"),{casual:48,formal:1,neutral:83,polite:2,slang:5});
+assert.deepEqual(counts(newPhrases,"priority"),{"1":6,"2":59,"3":74});
 
 const required=["id","phrase","meaning","scene","example1","example2","exampleTranslations","type","priorityText","priority","source","episode","frequency","register"];
 const allowedTypes=new Set(["word","phrase","idiom","phrasal verb","pattern","grammar"]);

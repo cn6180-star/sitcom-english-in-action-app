@@ -13,9 +13,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,2292);
-assert.equal(phraseIds.size,2292);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2340);
+assert.equal(phrases.length,2485);
+assert.equal(phraseIds.size,2485);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2533);
 
 const newIds=Array.from({length:126},(_,index)=>`p${1560+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
@@ -24,8 +24,8 @@ const newPhrases=newIds.map(id=>byId.get(id));
 const counts=(items,key)=>Object.fromEntries([...new Set(items.map(item=>item[key]))]
   .sort().map(value=>[value,items.filter(item=>item[key]===value).length]));
 assert.deepEqual(counts(newPhrases,"episode"),{
-  S01E03:1,
-  S02E01:7,S02E02:3,S02E03:5,S02E04:4,S02E05:2,S02E06:2,S02E07:30,S02E08:33,S02E09:39
+  S01E01:13,S01E02:1,S01E03:3,S01E04:3,S01E05:2,S01E06:2,
+  S02E01:2,S02E02:2,S02E03:3,S02E04:2,S02E05:1,S02E07:28,S02E08:31,S02E09:33
 });
 assert.deepEqual(counts(newPhrases,"type"),{
   grammar:4,idiom:13,pattern:16,"phrasal verb":15,phrase:77,word:1
@@ -57,7 +57,7 @@ for(const [id,episode] of Object.entries({
   p392:"S02E08",p370:"S02E08",p601:"S02E08",p1003:"S02E09",p1052:"S02E09"
 }))assert.equal(byId.get(id).episode,episode,`${id} Episode move mismatch`);
 
-assert.equal(byId.get("p1183").phrase,"the way I/we look at it");
+assert.equal(byId.get("p1183").phrase,"the way I see it / the way I look at it");
 assert.equal(byId.get("p1183").episode,"S01E06");
 assert.equal(byId.get("p657").phrase,"work something out");
 assert.equal(byId.get("p657").episode,"S06E03");
@@ -73,7 +73,7 @@ for(const id of["p1183","p657","p1233","p1605","p254","p327"])assert.equal(phras
 
 const findNew=(headline,episode)=>newPhrases.find(phrase=>phrase.phrase===headline&&phrase.episode===episode);
 assert.match(findNew("I got it.","S02E03").meaning,/私がやる|任せて/);
-assert.match(findNew("Got it.","S02E06").meaning,/分かった|了解/);
+assert.match(findNew("Got it.","S01E03").meaning,/分かった|了解/);
 assert.ok(findNew("if you know what I mean","S02E07"));
 assert.ok(findNew("Do you mind if ~?","S02E07"));
 assert.ok(findNew("Do you think it’d be all right if ~?","S02E09"));
@@ -88,15 +88,19 @@ const exactDuplicates=Object.fromEntries([...new Set(phrases.map(phrase=>phrase.
   .map(headline=>[headline,phrases.filter(phrase=>phrase.phrase.toLowerCase()===headline).map(phrase=>phrase.id).sort()])
   .filter(([,ids])=>ids.length>1));
 assert.deepEqual(exactDuplicates,{
+  "be all over someone":["p1721","p2428"],
   "be with someone":["p1234","p1500"],
   "catch on":["p1106","p364"],
+  "clean up":["p2109","p2394"],
   "come through":["p1368","p1645"],
-  "go through ~":["p1099","p1546","p1708"],
+  "come up":["p1633","p2423"],
+  "go through ~":["p1099","p1546","p1708","p2429"],
   "go with ~":["p1212","p1776"],
   "make it":["p1502","p1557","p514"],
   "open up":["p1385","p2040"],
   "out there":["p1487","p608"],
   "pick someone up":["p1325","p1551"],
+  "that’s it.":["p1152","p2445"],
   "work out":["p1128","p1584"]
 });
 for(const ids of Object.values(exactDuplicates)){
@@ -112,9 +116,22 @@ const normalizedDuplicates=Object.fromEntries([...new Set(phrases.map(phrase=>no
   .map(headline=>[headline,phrases.filter(phrase=>normalizeHeadline(phrase.phrase)===headline).map(phrase=>phrase.id).sort()])
   .filter(([,ids])=>ids.length>1));
 assert.deepEqual(normalizedDuplicates,{
-  ...exactDuplicates,
+  "be all over someone":["p1721","p2428"],
+  "be with someone":["p1234","p1500"],
+  "catch on":["p1106","p364"],
+  "clean up":["p2109","p2394"],
+  "come through":["p1368","p1645"],
+  "come up":["p1633","p2423"],
   "get out of here":["p1553","p1773"],
-  "that's it":["p1152","p2038"]
+  "go for ~":["p1374","p2055"],
+  "go through ~":["p1099","p1546","p1708","p2429"],
+  "go with ~":["p1212","p1776"],
+  "make it":["p1502","p1557","p514"],
+  "open up":["p1385","p2040"],
+  "out there":["p1487","p608"],
+  "pick someone up":["p1325","p1551"],
+  "that's it":["p1152","p2038","p2445"],
+  "work out":["p1128","p1584"]
 });
 
 assert.equal(dialogues.length,167);

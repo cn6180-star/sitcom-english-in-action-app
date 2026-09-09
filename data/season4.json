@@ -520,19 +520,22 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p378",
       "phrase": "endearing",
       "meaning": "愛嬌がある／憎めない",
       "scene": "欠点込みで好感が持てるとき",
       "example1": "His awkwardness is endearing.",
       "example2": "She has an endearing smile.",
-      "exampleTranslations": ["彼の不器用さはどこか愛らしい。", "彼女には親しみを感じる笑顔がある。"],
+      "exampleTranslations": [
+        "彼の不器用さはどこか愛らしい。",
+        "彼女には親しみを感じる笑顔がある。"
+      ],
       "type": "word",
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S04E06",
+      "episode": "S01E03",
       "frequency": "general",
       "register": "neutral"
     },
@@ -1314,19 +1317,22 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p433",
       "phrase": "bring up",
       "meaning": "話題に出す／育てる",
       "scene": "会話で話題を出すとき、または人を育てた話をするとき",
       "example1": "Why did you bring that up?",
       "example2": "She was brought up in Osaka.",
-      "exampleTranslations": ["どうしてその話を持ち出したの？", "彼女は大阪で育てられた。"],
+      "exampleTranslations": [
+        "どうしてその話を持ち出したの？",
+        "彼女は大阪で育てられた。"
+      ],
       "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S04E17",
+      "episode": "S01E02",
       "frequency": "frequent",
       "register": "neutral"
     },

@@ -241,19 +241,22 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p281",
       "phrase": "Guess what",
       "meaning": "ちょっと聞いて！",
       "scene": "面白い話や驚きを切り出すとき",
       "example1": "Guess what? I got the job!",
       "example2": "Guess what? He called me.",
-      "exampleTranslations": ["聞いて！仕事が決まったよ！", "ねえ聞いて。彼から電話があったの。"],
+      "exampleTranslations": [
+        "聞いて！仕事が決まったよ！",
+        "ねえ聞いて。彼から電話があったの。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E12",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "casual"
     },
@@ -385,19 +388,22 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p291",
       "phrase": "cut someone off",
       "meaning": "供給や会話を断つ／止める",
       "scene": "お酒・お金・発言などをストップするとき",
       "example1": "The bartender cut him off.",
       "example2": "Don’t cut me off!",
-      "exampleTranslations": ["バーテンダーは彼への酒の提供を止めた。", "話を途中で遮らないで！"],
+      "exampleTranslations": [
+        "バーテンダーは彼への酒の提供を止めた。",
+        "話を途中で遮らないで！"
+      ],
       "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S03E10",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -916,19 +922,22 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p328",
       "phrase": "I would kill for ~",
       "meaning": "〜が死ぬほど欲しい／何でもするぐらい欲しい",
       "scene": "強い願望をカジュアルに言うとき",
       "example1": "I’d kill for a cup of coffee right now.",
       "example2": "She would kill for that opportunity.",
-      "exampleTranslations": ["今すぐコーヒーが飲めるなら何だってする。", "彼女はその機会を得るためなら何だってするだろう。"],
+      "exampleTranslations": [
+        "今すぐコーヒーが飲めるなら何だってする。",
+        "彼女はその機会を得るためなら何だってするだろう。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S03E21",
+      "episode": "S01E06",
       "frequency": "general",
       "register": "neutral"
     },

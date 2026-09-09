@@ -1846,7 +1846,7 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p299",
       "phrase": "run into ~",
       "meaning": "ばったり会う（偶然）",
@@ -1861,7 +1861,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E01",
+      "episode": "S01E02",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2038,7 +2038,7 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p810",
       "phrase": "freaked out",
       "meaning": "動揺した／パニックになった",
@@ -2054,7 +2054,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E02",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "casual"
     },
@@ -2310,22 +2310,22 @@
       "register": "neutral",
       "note": "`hang up on someone`は、相手が話している途中で一方的に電話を切るニュアンス。"
     },
-    {
+        {
       "id": "p1451",
-      "phrase": "deal with it",
-      "meaning": "その状況を受け入れて対処する",
-      "scene": "避けられない問題や状況を受け入れて対処するよう伝えるとき",
-      "example1": "The schedule changed, so we’ll deal with it.",
-      "example2": "I know it’s frustrating, but we have to deal with it.",
+      "phrase": "deal with someone/something",
+      "meaning": "人に対応する／問題や状況に対処する・受け入れる",
+      "scene": "人とのやり取りや、避けられない問題・状況への対応について話すとき。",
+      "example1": "I’ll deal with the supplier directly.",
+      "example2": "The schedule changed, so we’ll deal with it.",
       "exampleTranslations": [
-        "予定が変わったから、それに対処しよう。",
-        "いら立つのは分かるけど、受け入れて対処しないといけない。"
+        "私が仕入れ先に直接対応する。",
+        "予定が変わったから、それに対処しよう。"
       ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E01",
+      "episode": "S01E03",
       "frequency": "frequent",
       "register": "neutral",
       "note": "命令形で相手に言うと「文句を言わず受け入れろ」という強い響きになることがある。"
@@ -2509,24 +2509,25 @@
       "register": "neutral",
       "note": "`to`の後ろには名詞または動名詞を置く。"
     },
-    {
+        {
       "id": "p1461",
-      "phrase": "be fine with ~",
-      "meaning": "～で構わない／～を受け入れている",
-      "scene": "提案や状況を問題なく受け入れられると伝えるとき",
+      "phrase": "be fine with ~ / be okay with ~",
+      "meaning": "～で構わない／～を受け入れられる",
+      "scene": "提案や状況、人との関わりに抵抗がなく、受け入れられると伝えるとき。",
       "example1": "I’m fine with meeting at six.",
-      "example2": "Are you fine with this arrangement?",
+      "example2": "Are you okay with him joining us?",
       "exampleTranslations": [
         "6時に会うので構わないよ。",
-        "この取り決めで問題ない？"
+        "彼が参加しても大丈夫？"
       ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E02",
+      "episode": "S01E06",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "note": "fineとokayは、この用法ではどちらも許容・了承を表す。"
     },
     {
       "id": "p1462",
@@ -2625,7 +2626,7 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1467",
       "phrase": "What’s the big deal?",
       "meaning": "何がそんなに問題なの？",
@@ -2640,7 +2641,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E02",
+      "episode": "S01E04",
       "frequency": "frequent",
       "register": "casual",
       "note": "`Big deal!`や`no big deal`とは形と会話上の働きが異なる。"
@@ -2664,7 +2665,7 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1469",
       "phrase": "by the way",
       "meaning": "ところで／そういえば",
@@ -2679,7 +2680,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E02",
+      "episode": "S01E04",
       "frequency": "frequent",
       "register": "neutral",
       "note": "`by the by`よりはるかに一般的な現代英語。"
@@ -2704,7 +2705,7 @@
       "register": "casual",
       "note": "`How come`の後ろは疑問文語順にせず、通常の主語＋動詞の語順にする。"
     },
-    {
+        {
       "id": "p1471",
       "phrase": "There’s nothing wrong with ~",
       "meaning": "～には何も問題がない",
@@ -2719,11 +2720,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E02",
+      "episode": "S01E03",
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1472",
       "phrase": "give someone a chance",
       "meaning": "人を知る・試す機会を与える",
@@ -2738,27 +2739,27 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E02",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "neutral",
       "note": "`give someone another chance`は、一度失敗した相手に再び機会を与える意味。"
     },
-    {
+        {
       "id": "p1473",
-      "phrase": "not bad",
-      "meaning": "悪くない／なかなかいい",
-      "scene": "予想より良く、なかなか悪くないと評価するとき",
-      "example1": "This coffee is not bad.",
-      "example2": "Not bad for a first try.",
+      "phrase": "not bad / not that bad",
+      "meaning": "悪くない／それほど悪くない",
+      "scene": "出来を控えめに褒めたり、思われているほど悪くないと伝えたりするとき。",
+      "example1": "Your first try? Not bad.",
+      "example2": "The damage is not that bad.",
       "exampleTranslations": [
-        "このコーヒー、悪くないね。",
-        "初めてにしてはなかなかいい。"
+        "初めてやったの？ なかなかいいね。",
+        "被害はそれほどひどくない。"
       ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E02",
+      "episode": "S01E04",
       "frequency": "frequent",
       "register": "neutral",
       "note": "控えめな肯定評価。イントネーションによってはかなり好意的な意味にもなる。"
@@ -2782,7 +2783,7 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1475",
       "phrase": "You never know.",
       "meaning": "何が起こるか分からない／ひょっとするかもしれない",
@@ -2797,7 +2798,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E03",
+      "episode": "S01E02",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2878,7 +2879,7 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1480",
       "phrase": "think of A as B",
       "meaning": "AをBだと考える／捉える",
@@ -2893,11 +2894,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E03",
+      "episode": "S01E03",
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1481",
       "phrase": "Please tell me + clause",
       "meaning": "～だと言ってくれ／まさか～ではないよね",
@@ -2912,7 +2913,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E03",
+      "episode": "S01E04",
       "frequency": "frequent",
       "register": "neutral",
       "note": "悪い予感を打ち消したいときや、驚き・呆れを強く示すときに使う。"
@@ -3092,7 +3093,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1491",
       "phrase": "What were you thinking?",
       "meaning": "一体何を考えていたの？",
@@ -3107,7 +3108,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E04",
+      "episode": "S01E05",
       "frequency": "frequent",
       "register": "casual",
       "note": "相手の判断を責める響きが強い。純粋に考えを尋ねる質問とは異なる。"
@@ -3445,7 +3446,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1509",
       "phrase": "plan on ~ing",
       "meaning": "～するつもりである／予定している",
@@ -3460,7 +3461,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E04",
+      "episode": "S01E02",
       "frequency": "general",
       "register": "neutral",
       "note": "`plan on`の後ろには名詞または動名詞を置く。"
@@ -4245,7 +4246,7 @@
       "frequency": "frequent",
       "register": "polite"
     },
-    {
+        {
       "id": "p1550",
       "phrase": "let go of ~",
       "meaning": "～を放す／手放す",
@@ -4260,7 +4261,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E06",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "neutral",
       "note": "感情・過去・執着を「手放す」という比喩的な意味でも使う。"
@@ -4441,7 +4442,7 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1560",
       "phrase": "kind of / sort of",
       "meaning": "ちょっと／ある意味／なんとなく",
@@ -4456,12 +4457,12 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E01",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "casual",
       "note": "`kind of`と`sort of`はこの用法ではほぼ同じ。くだけた会話では`kinda`、`sorta`とも発音される。"
     },
-    {
+        {
       "id": "p1561",
       "phrase": "whatsoever",
       "meaning": "少しも／いかなる～も",
@@ -4476,12 +4477,12 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E01",
+      "episode": "S01E01",
       "frequency": "general",
       "register": "neutral",
       "note": "通常、`no`、`not`、`nothing`などの否定表現を強調する。"
     },
-    {
+        {
       "id": "p1562",
       "phrase": "call someone back",
       "meaning": "～に折り返し電話する",
@@ -4496,11 +4497,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E01",
+      "episode": "S01E04",
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1563",
       "phrase": "I gotta go.",
       "meaning": "もう行かなきゃ",
@@ -4515,7 +4516,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E01",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "casual",
       "note": "`gotta`は`have got to`の非常にカジュアルな発音・表記。"
@@ -4539,7 +4540,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1565",
       "phrase": "Excuse me.",
       "meaning": "すみません／失礼します",
@@ -4554,7 +4555,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E01",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "polite"
     },
@@ -4577,7 +4578,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1567",
       "phrase": "at first",
       "meaning": "最初は／初めのうちは",
@@ -4592,7 +4593,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E02",
+      "episode": "S01E06",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -4654,7 +4655,7 @@
       "frequency": "frequent",
       "register": "casual"
     },
-    {
+        {
       "id": "p1571",
       "phrase": "come over",
       "meaning": "家などへ遊びに来る／立ち寄る",
@@ -4669,7 +4670,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E03",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "casual"
     },
@@ -4712,7 +4713,7 @@
       "frequency": "frequent",
       "register": "casual"
     },
-    {
+        {
       "id": "p1574",
       "phrase": "That’s fine.",
       "meaning": "それでいい／構わない",
@@ -4727,7 +4728,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E03",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -4769,7 +4770,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1577",
       "phrase": "Let me see.",
       "meaning": "見せて／ちょっと確認させて",
@@ -4784,12 +4785,12 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E04",
+      "episode": "S01E04",
       "frequency": "frequent",
       "register": "neutral",
       "note": "後ろに目的語を置く用法と、考えながら「ええと」と言う用法がある。"
     },
-    {
+        {
       "id": "p1578",
       "phrase": "Never mind.",
       "meaning": "もういい／気にしないで",
@@ -4804,11 +4805,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E04",
+      "episode": "S01E04",
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1579",
       "phrase": "Don’t worry.",
       "meaning": "心配しないで",
@@ -4823,7 +4824,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E05",
+      "episode": "S01E05",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -4846,7 +4847,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1581",
       "phrase": "Come here.",
       "meaning": "こっちへ来て",
@@ -4861,11 +4862,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E06",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "casual"
     },
-    {
+        {
       "id": "p1582",
       "phrase": "Got it.",
       "meaning": "分かった／了解",
@@ -4880,7 +4881,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E06",
+      "episode": "S01E03",
       "frequency": "frequent",
       "register": "casual",
       "note": "`I got it.`は文脈によって「私がやる／任せて」という別の意味になる。"
@@ -5119,7 +5120,7 @@
       "register": "casual",
       "note": "冷たく突き放す響きが強い。"
     },
-    {
+        {
       "id": "p1595",
       "phrase": "figure (that) + clause",
       "meaning": "～だと思う／～だろうと見込む",
@@ -5134,7 +5135,7 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E07",
+      "episode": "S01E01",
       "frequency": "general",
       "register": "casual",
       "note": "`figure something out`「考えて答えを出す」とは構文が異なる。"
@@ -5275,22 +5276,22 @@
       "register": "polite",
       "note": "口語では`Do`を省いて`You mind if ...?`とも言う。"
     },
-    {
+        {
       "id": "p1603",
-      "phrase": "What’s going on?",
-      "meaning": "どうなっているの？／何が起きているの？",
-      "scene": "状況が分からず、説明を求めるとき",
-      "example1": "What’s going on in here?",
-      "example2": "You seem upset. What’s going on?",
+      "phrase": "What’s going on? / What’s going on with you?",
+      "meaning": "何が起きているの？／最近どうしているの？",
+      "scene": "状況を尋ねたり、相手の近況やいつもと違う様子について尋ねたりするとき。",
+      "example1": "What’s going on? Why is everyone outside?",
+      "example2": "What’s going on with you? You seem quiet.",
       "exampleTranslations": [
-        "ここで何が起きているの？",
-        "動揺しているみたいだね。どうしたの？"
+        "何があったの？ どうしてみんな外にいるの？",
+        "どうしたの？ 今日は静かだね。"
       ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E07",
+      "episode": "S01E02",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -5504,22 +5505,22 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1615",
-      "phrase": "a ... kind of thing",
-      "meaning": "～という感じのもの／～のようなこと",
-      "scene": "物事の種類や雰囲気をおおまかに説明するとき",
-      "example1": "It’s more of a weekend kind of thing.",
-      "example2": "Was it a serious talk kind of thing?",
+      "phrase": "a ... kind of + noun",
+      "meaning": "～という感じの…／～のような…",
+      "scene": "人や物事の種類や雰囲気を、おおまかなたとえで説明するとき。",
+      "example1": "It was a once-in-a-lifetime kind of opportunity.",
+      "example2": "I’m a learn-by-doing kind of person.",
       "exampleTranslations": [
-        "どちらかというと週末向けのものだ。",
-        "真剣な話をするような感じだった？"
+        "それは一生に一度という感じの機会だった。",
+        "私は実際にやって覚えるタイプの人間だ。"
       ],
       "type": "pattern",
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E08",
+      "episode": "S01E01",
       "frequency": "general",
       "register": "casual"
     },
@@ -5887,7 +5888,7 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1635",
       "phrase": "buzz someone in",
       "meaning": "ブザーを解除して人を建物に入れる",
@@ -5902,7 +5903,7 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E08",
+      "episode": "S01E01",
       "frequency": "general",
       "register": "casual"
     },
@@ -6330,7 +6331,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1658",
       "phrase": "Forget it.",
       "meaning": "もういい／やめて／諦めて",
@@ -6345,12 +6346,12 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E09",
+      "episode": "S01E05",
       "frequency": "frequent",
       "register": "casual",
       "note": "言い方によっては強く突き放す表現になる。"
     },
-    {
+        {
       "id": "p1659",
       "phrase": "not so good",
       "meaning": "あまりよくない／調子がよくない",
@@ -6365,7 +6366,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E09",
+      "episode": "S01E03",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -6446,7 +6447,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1664",
       "phrase": "Wish me luck.",
       "meaning": "うまくいくよう祈っていて",
@@ -6461,7 +6462,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E09",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "casual"
     },
@@ -6563,7 +6564,7 @@
       "register": "neutral",
       "note": "提案や依頼を「断る」という別義もある。"
     },
-    {
+        {
       "id": "p1670",
       "phrase": "put it back",
       "meaning": "元の場所・状態に戻す",
@@ -6578,11 +6579,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E09",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1671",
       "phrase": "Too bad.",
       "meaning": "残念だね／仕方ない",
@@ -6597,7 +6598,7 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E09",
+      "episode": "S01E06",
       "frequency": "frequent",
       "register": "casual",
       "note": "文脈・口調によっては同情ではなく「知ったことではない」という冷たい表現になる。"
@@ -6697,7 +6698,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1677",
       "phrase": "be ready to ~",
       "meaning": "～する準備・心構えができている",
@@ -6712,7 +6713,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E09",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -6887,7 +6888,7 @@
       "frequency": "frequent",
       "register": "casual"
     },
-    {
+        {
       "id": "p1687",
       "phrase": "know what one is doing",
       "meaning": "自分が何をしているか分かっている／やり方を心得ている",
@@ -6902,7 +6903,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E01",
+      "episode": "S01E02",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -6944,7 +6945,7 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1690",
       "phrase": "as in ~",
       "meaning": "つまり～の意味で／～ということ？",
@@ -6959,7 +6960,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E04",
+      "episode": "S01E02",
       "frequency": "general",
       "register": "neutral"
     },
@@ -7040,7 +7041,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1695",
       "phrase": "I can see that.",
       "meaning": "それは分かる／そう見える",
@@ -7055,7 +7056,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E07",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -7078,7 +7079,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1697",
       "phrase": "I don’t know what to do.",
       "meaning": "どうすればいいか分からない",
@@ -7093,7 +7094,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E08",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -7116,7 +7117,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1699",
       "phrase": "slow down",
       "meaning": "速度を落とす／落ち着いて進める",
@@ -7131,7 +7132,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E10",
+      "episode": "S01E02",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -7385,11 +7386,11 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1713",
       "phrase": "come close",
-      "meaning": "もう少しで実現する／かなり近づく",
-      "scene": "成功や実現まであと少しだったと話すとき",
+      "meaning": "かなり近づく／～に匹敵するほどになる",
+      "scene": "成功まであと少しだったときや、比較対象に匹敵するかを話すとき。",
       "example1": "We came close to winning.",
       "example2": "Nothing else comes close.",
       "exampleTranslations": [
@@ -7400,9 +7401,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E10",
+      "episode": "S01E05",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "note": "Nothing comes close.は「ほかに匹敵するものはない」。come close to doingは「もう少しで～する」。"
     },
     {
       "id": "p1714",
@@ -7518,7 +7520,7 @@
       "frequency": "general",
       "register": "casual"
     },
-    {
+        {
       "id": "p1720",
       "phrase": "see other people",
       "meaning": "ほかの人ともデートする",
@@ -7533,7 +7535,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E10",
+      "episode": "S01E03",
       "frequency": "general",
       "register": "neutral"
     },
@@ -7557,7 +7559,7 @@
       "register": "casual",
       "note": "文脈によっては不快な接触や過度な干渉を表す。"
     },
-    {
+        {
       "id": "p1722",
       "phrase": "dump someone",
       "meaning": "人を振る／一方的に別れる",
@@ -7572,7 +7574,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E10",
+      "episode": "S01E02",
       "frequency": "frequent",
       "register": "casual"
     },
@@ -7615,7 +7617,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1725",
       "phrase": "It hit someone that ~",
       "meaning": "～だと突然実感する／気づく",
@@ -7630,7 +7632,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E11",
+      "episode": "S01E01",
       "frequency": "general",
       "register": "neutral"
     },
@@ -7998,25 +8000,25 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1745",
-      "phrase": "The hell with ~.",
+      "phrase": "To hell with ~.",
       "meaning": "～なんて知るか／～はもうどうでもいい",
       "scene": "人や規則を強く切り捨てて無視するとき",
-      "example1": "The hell with the rules.",
-      "example2": "The hell with it—I’m going home.",
+      "example1": "To hell with the rules. I’m going to help.",
+      "example2": "To hell with it. Let’s start over.",
       "exampleTranslations": [
-        "規則なんて知るか。",
-        "もうどうでもいい。家に帰る。"
+        "規則なんて知るか。助けに行く。",
+        "もういい。最初からやり直そう。"
       ],
       "type": "idiom",
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E11",
+      "episode": "S01E01",
       "frequency": "general",
       "register": "slang",
-      "note": "怒りや反発の強い表現で、丁寧な場面には向かない。"
+      "note": "怒りや反発を表す粗い言い方。The hell with ~.という形もある。丁寧な場面には向かない。"
     },
     {
       "id": "p1746",
@@ -8419,7 +8421,7 @@
       "frequency": "general",
       "register": "casual"
     },
-    {
+        {
       "id": "p1767",
       "phrase": "it turns out (that) ~",
       "meaning": "実は～だと分かる／結果として～だと判明する",
@@ -8434,7 +8436,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E05",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "neutral",
       "note": "`that`は省略可能。`主語 + turn out to be + 補語`とは意味が近いが、後ろに節を続ける別構文。"
@@ -8497,7 +8499,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1771",
       "phrase": "Are you sure?",
       "meaning": "本当にいいの？／確か？",
@@ -8512,11 +8514,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E01",
+      "episode": "S01E02",
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1772",
       "phrase": "Come on in.",
       "meaning": "どうぞ入って",
@@ -8531,7 +8533,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E01",
+      "episode": "S01E02",
       "frequency": "frequent",
       "register": "casual"
     },
@@ -8574,7 +8576,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1775",
       "phrase": "have got to ~",
       "meaning": "～しなければならない／ぜひ～すべきだ",
@@ -8589,7 +8591,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E03",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "casual",
       "note": "会話では`have got to`が`have gotta`や`gotta`のように発音されることが多い。"
@@ -8614,7 +8616,7 @@
       "register": "neutral",
       "note": "ここでは「調和する」。既存の「選ぶ」「同行する」とは別義。"
     },
-    {
+        {
       "id": "p1777",
       "phrase": "Absolutely.",
       "meaning": "もちろん／間違いなく",
@@ -8629,7 +8631,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E04",
+      "episode": "S01E02",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -8652,7 +8654,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1779",
       "phrase": "feel better",
       "meaning": "気分・体調が良くなる",
@@ -8667,7 +8669,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E04",
+      "episode": "S01E02",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -8730,7 +8732,7 @@
       "register": "casual",
       "note": "相手に示す`There you go.`とは視点や機能が少し異なる。"
     },
-    {
+        {
       "id": "p1783",
       "phrase": "get all + adjective",
       "meaning": "急にひどく～なった様子を見せる",
@@ -8745,7 +8747,7 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E07",
+      "episode": "S01E02",
       "frequency": "general",
       "register": "casual",
       "note": "`all`が後ろの形容詞を口語的に強調する。"
@@ -8961,9 +8963,9 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1795",
-      "phrase": "Thank God ~",
+      "phrase": "Thank God (that) ~ / Thank God!",
       "meaning": "～で本当によかった／助かった",
       "scene": "悪い事態を免れた安堵や感謝を強く表すとき",
       "example1": "Thank God you’re okay.",
@@ -8976,10 +8978,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E13",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "casual",
-      "note": "宗教的な意味に限らず、強い安堵を表す日常表現として使われる。"
+      "note": "Thank God! だけで「よかった／助かった」という安堵も表せる。"
     },
     {
       "id": "p1796",
@@ -9384,13 +9386,13 @@
       "register": "casual",
       "note": "ここでは「気にしないで」。`Forget it.`の「もういい／諦めて」とは別の会話機能。"
     },
-    {
+        {
       "id": "p1817",
-      "phrase": "a ton of ~",
+      "phrase": "a ton of ~ / tons of ~",
       "meaning": "大量の～／たくさんの～",
       "scene": "数や量がとても多いことをくだけて強調するとき",
       "example1": "I have a ton of work today.",
-      "example2": "We took a ton of pictures.",
+      "example2": "We took tons of pictures.",
       "exampleTranslations": [
         "今日は仕事が山ほどある。",
         "写真をものすごくたくさん撮った。"
@@ -9399,7 +9401,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E13",
+      "episode": "S01E05",
       "frequency": "frequent",
       "register": "casual"
     },
@@ -9422,24 +9424,25 @@
       "frequency": "general",
       "register": "casual"
     },
-    {
+        {
       "id": "p1819",
-      "phrase": "nothing but ~",
+      "phrase": "nothing but ~ / do nothing but ~",
       "meaning": "～だけ／～にすぎない",
       "scene": "ほかのものを除外し、一つだけだと強調するとき",
-      "example1": "He eats nothing but pasta.",
+      "example1": "I’ve done nothing but answer emails today.",
       "example2": "The box contained nothing but old photos.",
       "exampleTranslations": [
-        "彼はパスタしか食べない。",
+        "今日はメールに返信してばかりだった。",
         "箱には古い写真しか入っていなかった。"
       ],
       "type": "grammar",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E13",
+      "episode": "S01E06",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "note": "do nothing butの後に動詞原形を置いて「～ばかりする」と表す。"
     },
     {
       "id": "p1820",
@@ -9632,7 +9635,7 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1830",
       "phrase": "You got it.",
       "meaning": "了解／任せて",
@@ -9647,7 +9650,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E14",
+      "episode": "S01E04",
       "frequency": "frequent",
       "register": "casual",
       "note": "依頼への「承知しました」。理解を示す`Got it.`や、自分が担当すると申し出る`I got it.`とは機能が異なる。"
@@ -10245,9 +10248,9 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1862",
-      "phrase": "What’s wrong with that?",
+      "phrase": "What’s wrong with ~?",
       "meaning": "それの何が悪いの？",
       "scene": "批判された選択や行動に問題はないと反論するとき",
       "example1": "I like eating alone. What’s wrong with that?",
@@ -10260,7 +10263,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E14",
+      "episode": "S01E02",
       "frequency": "frequent",
       "register": "casual"
     },
@@ -10283,22 +10286,22 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1864",
-      "phrase": "Looking good.",
+      "phrase": "You look good. / Looking good.",
       "meaning": "いい感じ／似合っている",
       "scene": "人の見た目や物事の進み具合を褒めるとき",
-      "example1": "New haircut? Looking good.",
+      "example1": "You look good. Is that a new jacket?",
       "example2": "The project is looking good so far.",
       "exampleTranslations": [
-        "新しい髪型？ いい感じ。",
+        "似合っているね。そのジャケットは新しいの？",
         "プロジェクトは今のところ順調そうだ。"
       ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E14",
+      "episode": "S01E02",
       "frequency": "frequent",
       "register": "casual"
     },
@@ -10916,22 +10919,22 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1897",
-      "phrase": "Are we nuts?",
-      "meaning": "私たち、どうかしてる？",
-      "scene": "自分たちの判断が無謀・ばかげていないか確かめるとき",
-      "example1": "Are we nuts to try this again?",
-      "example2": "We’re moving tomorrow—are we nuts?",
+      "phrase": "Are you nuts? / Are we nuts?",
+      "meaning": "正気？／どうかしているんじゃない？",
+      "scene": "相手や自分たちの判断が無謀だと驚いたり、疑問を呈したりするとき。",
+      "example1": "Are you nuts? That’s far too expensive.",
+      "example2": "Are we nuts to try this again?",
       "exampleTranslations": [
-        "またこれを試すなんて、私たちどうかしてる？",
-        "明日引っ越すなんて、私たち正気かな？"
+        "正気？ 高すぎるよ。",
+        "またこれを試すなんて、私たちどうかしてる？"
       ],
       "type": "phrase",
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E15",
+      "episode": "S01E04",
       "frequency": "general",
       "register": "casual"
     },
@@ -11068,7 +11071,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1905",
       "phrase": "I swear, ~",
       "meaning": "本当だよ／誓って～だ",
@@ -11083,7 +11086,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E01",
+      "episode": "S01E04",
       "frequency": "frequent",
       "register": "casual",
       "note": "強い断言。宗教的な誓いに限らず日常会話で使う。"
@@ -11126,7 +11129,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1908",
       "phrase": "keep ~ing",
       "meaning": "～し続ける",
@@ -11141,11 +11144,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E02",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1909",
       "phrase": "What if ~?",
       "meaning": "もし～だったらどうする？",
@@ -11160,11 +11163,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E03",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1910",
       "phrase": "Congratulations.",
       "meaning": "おめでとう",
@@ -11179,7 +11182,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E03",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11202,7 +11205,7 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1912",
       "phrase": "I can’t believe ~",
       "meaning": "～なんて信じられない",
@@ -11217,7 +11220,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E03",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11317,7 +11320,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1918",
       "phrase": "Remember when ~?",
       "meaning": "～したとき覚えてる？",
@@ -11332,7 +11335,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E04",
+      "episode": "S01E02",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11356,7 +11359,7 @@
       "register": "casual",
       "note": "含みを示す`if you know what I mean`とは会話機能が異なる。"
     },
-    {
+        {
       "id": "p1920",
       "phrase": "Anyway, ~",
       "meaning": "とにかく／それはさておき",
@@ -11371,11 +11374,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E05",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1921",
       "phrase": "apparently",
       "meaning": "どうやら／聞いたところでは",
@@ -11390,7 +11393,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E05",
+      "episode": "S01E02",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11432,7 +11435,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1924",
       "phrase": "I hope ~",
       "meaning": "～だといいな／～を願う",
@@ -11447,26 +11450,26 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E06",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1925",
-      "phrase": "for a little while",
-      "meaning": "少しの間",
-      "scene": "短い時間だけ続くことを表すとき",
-      "example1": "Can you stay for a little while?",
+      "phrase": "for a while / for a little while",
+      "meaning": "しばらくの間／少しの間",
+      "scene": "一定の時間続くことや、短い時間だけ続くことを表すとき。",
+      "example1": "Let’s leave it there for a while.",
       "example2": "I lived there for a little while.",
       "exampleTranslations": [
-        "少しの間いてくれる？",
+        "しばらくそこに置いておこう。",
         "そこに少しの間住んでいた。"
       ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E07",
+      "episode": "S01E03",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11527,7 +11530,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1929",
       "phrase": "be worried about someone",
       "meaning": "人のことを心配している",
@@ -11542,7 +11545,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E10",
+      "episode": "S01E03",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11565,7 +11568,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p1931",
       "phrase": "a bunch of ~",
       "meaning": "たくさんの～／ひとまとまりの～",
@@ -11580,7 +11583,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E11",
+      "episode": "S01E01",
       "frequency": "frequent",
       "register": "casual"
     },
@@ -11622,7 +11625,7 @@
       "frequency": "frequent",
       "register": "casual"
     },
-    {
+        {
       "id": "p1934",
       "phrase": "What are you going to do?",
       "meaning": "どうするつもり？／まあ仕方ない",
@@ -11637,11 +11640,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E14",
+      "episode": "S01E02",
       "frequency": "frequent",
       "register": "casual"
     },
-    {
+        {
       "id": "p1935",
       "phrase": "Here we go.",
       "meaning": "さあ始まるよ／よし、いこう",
@@ -11656,7 +11659,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E15",
+      "episode": "S01E05",
       "frequency": "frequent",
       "register": "casual",
       "note": "`Here we go again.`では、好ましくないことの繰り返しへの呆れも表す。"
@@ -12179,7 +12182,7 @@
       "register": "neutral",
       "note": "より一般的な形は`a dream come true`。作中では`a total fantasy come true`が使われている。"
     },
-    {
+        {
       "id": "p1963",
       "phrase": "Of course not.",
       "meaning": "もちろん違う／もちろんしない",
@@ -12194,7 +12197,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E16",
+      "episode": "S01E02",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12332,7 +12335,7 @@
       "frequency": "general",
       "register": "casual"
     },
-    {
+        {
       "id": "p1971",
       "phrase": "So what do you think?",
       "meaning": "それで、どう思う？",
@@ -12347,7 +12350,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E17",
+      "episode": "S01E02",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12888,7 +12891,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-    {
+        {
       "id": "p2000",
       "phrase": "What about you?",
       "meaning": "あなたはどう？",
@@ -12903,7 +12906,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E17",
+      "episode": "S01E04",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12964,7 +12967,7 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p2004",
       "phrase": "I’m sorry I’m late.",
       "meaning": "遅れてごめんなさい",
@@ -12979,7 +12982,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E18",
+      "episode": "S01E02",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13233,7 +13236,7 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p2018",
       "phrase": "rip someone’s heart out",
       "meaning": "人をひどく傷つける／胸をえぐる",
@@ -13248,7 +13251,7 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E18",
+      "episode": "S01E01",
       "frequency": "limited",
       "register": "casual"
     },
@@ -13366,12 +13369,12 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p2025",
-      "phrase": "That’s very sweet.",
+      "phrase": "That’s so sweet. / That’s very sweet.",
       "meaning": "とても優しいね／うれしい",
       "scene": "相手の思いやりのある言動に感謝して反応するとき",
-      "example1": "You saved me a seat? That’s very sweet.",
+      "example1": "You saved me a seat? That’s so sweet.",
       "example2": "That’s very sweet of you to offer.",
       "exampleTranslations": [
         "席を取っておいてくれたの？ とても優しいね。",
@@ -13381,7 +13384,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E18",
+      "episode": "S01E05",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13461,7 +13464,7 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p2030",
       "phrase": "How is that possible?",
       "meaning": "どうしてそんなことが可能なの？",
@@ -13476,7 +13479,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E18",
+      "episode": "S01E03",
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13616,7 +13619,7 @@
       "register": "neutral",
       "note": "単独の`Look out!`は緊急警告。`look out for ~`は「～に注意する／～を見守る」。"
     },
-    {
+        {
       "id": "p2038",
       "phrase": "That’s it?",
       "meaning": "それだけ？／これで全部？",
@@ -13631,7 +13634,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E18",
+      "episode": "S01E03",
       "frequency": "frequent",
       "register": "casual",
       "note": "既存の`That’s it!`（もういい／これで決まり）とはイントネーションと会話機能が異なる。"
@@ -13655,7 +13658,7 @@
       "frequency": "general",
       "register": "neutral"
     },
-    {
+        {
       "id": "p2040",
       "phrase": "open up",
       "meaning": "開ける／開く",
@@ -13670,7 +13673,7 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E18",
+      "episode": "S01E03",
       "frequency": "frequent",
       "register": "neutral",
       "note": "ここでは物理的に開ける意味。心を開く、空きが生じる意味の既存recordとは別義。"
@@ -14869,7 +14872,8 @@
       "register": "neutral",
       "id": "p2133"
     },
-    {
+        {
+      "id": "p2134",
       "phrase": "be right there",
       "meaning": "すぐそちらへ行く",
       "scene": "呼ばれた場所へ間もなく行くと伝えるとき",
@@ -14883,10 +14887,9 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E20",
+      "episode": "S01E02",
       "frequency": "frequent",
-      "register": "neutral",
-      "id": "p2134"
+      "register": "neutral"
     },
     {
       "phrase": "nerves of steel",
@@ -15677,24 +15680,24 @@
       "register": "neutral",
       "id": "p2175"
     },
-    {
-      "phrase": "That’ll work.",
+        {
+      "id": "p2176",
+      "phrase": "That would work. / That’ll work.",
       "meaning": "それで大丈夫／それでうまくいく",
       "scene": "提案された方法や選択肢で問題ないと答えるとき",
-      "example1": "We can meet at six. — That’ll work.",
+      "example1": "We could meet at six. — That would work.",
       "example2": "Use the smaller box. That’ll work.",
       "exampleTranslations": [
-        "「6時に会えるよ」「それで大丈夫」",
+        "「6時に会えるけど」「それなら大丈夫」",
         "小さい箱を使って。それでうまくいく。"
       ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E21",
+      "episode": "S01E06",
       "frequency": "frequent",
-      "register": "casual",
-      "id": "p2176"
+      "register": "casual"
     },
     {
       "phrase": "prove one’s point",
@@ -17524,24 +17527,24 @@
       "register": "neutral",
       "id": "p2302"
     },
-    {
-      "phrase": "I need your help.",
-      "meaning": "あなたの助けが必要です",
-      "scene": "相手にはっきり協力を求めるとき",
-      "example1": "I need your help with this box.",
-      "example2": "Can we talk? I really need your help.",
+        {
+      "id": "p2303",
+      "phrase": "I need help. / I need your help.",
+      "meaning": "助けが必要だ／あなたに手伝ってほしい",
+      "scene": "自分だけでは対処できないと認めたり、相手に具体的な協力を求めたりするとき。",
+      "example1": "I can’t manage this alone. I need help.",
+      "example2": "I need your help with this box.",
       "exampleTranslations": [
-        "この箱を運ぶのを手伝ってほしい。",
-        "話せる？ 本当に助けが必要なんだ。"
+        "一人では対処できない。助けが必要だ。",
+        "この箱を運ぶのを手伝ってほしい。"
       ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E24",
+      "episode": "S01E06",
       "frequency": "frequent",
-      "register": "neutral",
-      "id": "p2303"
+      "register": "neutral"
     },
     {
       "phrase": "tense up",
@@ -18156,7 +18159,8 @@
       "register": "casual",
       "id": "p2335"
     },
-    {
+        {
+      "id": "p2336",
       "phrase": "feel good about oneself",
       "meaning": "自分に満足する／自信を持つ",
       "scene": "自分の行動や存在を肯定的に感じるとき",
@@ -18170,10 +18174,9 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E24",
+      "episode": "S01E04",
       "frequency": "general",
-      "register": "neutral",
-      "id": "p2336"
+      "register": "neutral"
     },
     {
       "phrase": "It’s time.",

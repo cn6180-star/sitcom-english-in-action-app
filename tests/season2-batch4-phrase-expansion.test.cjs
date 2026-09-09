@@ -14,9 +14,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,2292);
-assert.equal(phraseIds.size,2292);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2340);
+assert.equal(phrases.length,2485);
+assert.equal(phraseIds.size,2485);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2533);
 
 const newIds=Array.from({length:83},(_,index)=>`p${1686+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
@@ -25,8 +25,9 @@ const counts=(items,key)=>Object.fromEntries([...new Set(items.map(item=>item[ke
   .sort().map(value=>[value,items.filter(item=>item[key]===value).length]));
 
 assert.deepEqual(counts(newPhrases,"episode"),{
-  S02E01:2,S02E02:1,S02E03:1,S02E04:3,S02E05:3,
-  S02E07:2,S02E08:2,S02E10:25,S02E11:24,S02E12:20
+  S01E01:5,S01E02:4,S01E03:1,S01E05:1,
+  S02E01:1,S02E02:1,S02E03:1,S02E04:2,S02E05:2,
+  S02E07:1,S02E08:1,S02E10:21,S02E11:22,S02E12:20
 });
 assert.equal(newPhrases.filter(phrase=>phrase.episode==="S02E06").length,0);
 assert.equal(newPhrases.filter(phrase=>phrase.episode==="S02E09").length,0);
@@ -36,7 +37,7 @@ assert.deepEqual(counts(newPhrases,"type"),{
 assert.deepEqual(counts(newPhrases,"frequency"),{frequent:32,general:47,limited:4});
 assert.deepEqual(counts(newPhrases,"register"),{casual:18,neutral:63,slang:2});
 assert.deepEqual(counts(newPhrases,"priority"),{"1":3,"2":24,"3":56});
-assert.equal(newPhrases.filter(phrase=>Object.prototype.hasOwnProperty.call(phrase,"note")).length,14);
+assert.equal(newPhrases.filter(phrase=>Object.prototype.hasOwnProperty.call(phrase,"note")).length,15);
 
 const required=["id","phrase","meaning","scene","example1","example2","exampleTranslations","type","priorityText","priority","source","episode","frequency","register"];
 const allowedTypes=new Set(["word","phrase","idiom","phrasal verb","pattern","grammar"]);
@@ -58,14 +59,14 @@ for(const phrase of newPhrases){
 
 for(const [id,episode] of Object.entries({
   p552:"S02E10",p715:"S02E10",p642:"S02E11",p288:"S02E11",
-  p317:"S02E11",p550:"S02E11",p281:"S02E12"
+  p317:"S02E11",p550:"S02E11",p281:"S01E01"
 }))assert.equal(byId.get(id)?.episode,episode,`${id} Episode move mismatch`);
 
 assert.equal(byId.get("p94").phrase,"you might wanna ~");
 assert.equal(byId.get("p94").note,"`might want to consider ~ing`は、「～することを検討したほうがいいかも」と、より控えめに提案するときに使える。");
 assert.deepEqual(
   {phrase:byId.get("p1767").phrase,episode:byId.get("p1767").episode,type:byId.get("p1767").type,frequency:byId.get("p1767").frequency,register:byId.get("p1767").register,priority:byId.get("p1767").priority},
-  {phrase:"it turns out (that) ~",episode:"S02E05",type:"pattern",frequency:"frequent",register:"neutral",priority:3}
+  {phrase:"it turns out (that) ~",episode:"S01E01",type:"pattern",frequency:"frequent",register:"neutral",priority:3}
 );
 assert.deepEqual(
   {phrase:byId.get("p1768").phrase,episode:byId.get("p1768").episode,type:byId.get("p1768").type,frequency:byId.get("p1768").frequency,register:byId.get("p1768").register,priority:byId.get("p1768").priority},
@@ -86,15 +87,19 @@ const exactDuplicates=Object.fromEntries([...new Set(phrases.map(phrase=>phrase.
   .map(headline=>[headline,phrases.filter(phrase=>phrase.phrase.toLowerCase()===headline).map(phrase=>phrase.id).sort()])
   .filter(([,ids])=>ids.length>1));
 assert.deepEqual(exactDuplicates,{
+  "be all over someone":["p1721","p2428"],
   "be with someone":["p1234","p1500"],
   "catch on":["p1106","p364"],
+  "clean up":["p2109","p2394"],
   "come through":["p1368","p1645"],
-  "go through ~":["p1099","p1546","p1708"],
+  "come up":["p1633","p2423"],
+  "go through ~":["p1099","p1546","p1708","p2429"],
   "go with ~":["p1212","p1776"],
   "make it":["p1502","p1557","p514"],
   "open up":["p1385","p2040"],
   "out there":["p1487","p608"],
   "pick someone up":["p1325","p1551"],
+  "that’s it.":["p1152","p2445"],
   "work out":["p1128","p1584"]
 });
 for(const ids of Object.values(exactDuplicates)){

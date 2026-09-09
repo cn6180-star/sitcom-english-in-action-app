@@ -14,9 +14,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,2292);
-assert.equal(phraseIds.size,2292);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2340);
+assert.equal(phrases.length,2485);
+assert.equal(phraseIds.size,2485);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2533);
 
 const newIds=Array.from({length:157},(_,index)=>`p${2184+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
@@ -25,10 +25,10 @@ const counts=(items,key)=>Object.fromEntries([...new Set(items.map(item=>item[ke
   .sort().map(value=>[value,items.filter(item=>item[key]===value).length]));
 
 assert.deepEqual(counts(newPhrases,"episode"),{
-  S01E01:4,S01E04:3,S01E06:1,S01E07:1,S01E08:3,S01E09:4,S01E10:1,
-  S01E11:1,S01E12:3,S01E13:2,S01E14:1,S01E15:1,S01E18:1,S01E20:1,
-  S01E21:1,S01E22:1,S01E24:2,S02E01:1,S02E02:1,S02E05:1,S02E06:1,
-  S02E07:1,S02E14:1,S02E15:1,S02E16:1,S02E20:1,S02E22:29,S02E23:44,S02E24:44
+  S01E01:5,S01E02:1,S01E04:4,S01E05:1,S01E06:2,S01E07:1,S01E08:3,
+  S01E09:3,S01E10:1,S01E11:1,S01E12:3,S01E13:2,S01E14:1,S01E15:1,
+  S01E18:1,S01E22:1,S01E24:2,S02E01:1,S02E02:1,S02E05:1,S02E06:1,
+  S02E07:1,S02E14:1,S02E15:1,S02E16:1,S02E20:1,S02E22:29,S02E23:44,S02E24:42
 });
 assert.deepEqual(counts(newPhrases,"type"),{
   grammar:5,idiom:18,pattern:26,"phrasal verb":21,phrase:82,word:5

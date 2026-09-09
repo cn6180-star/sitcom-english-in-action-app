@@ -14,9 +14,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,2292);
-assert.equal(phraseIds.size,2292);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2340);
+assert.equal(phrases.length,2485);
+assert.equal(phraseIds.size,2485);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2533);
 
 const newIds=Array.from({length:118},(_,index)=>`p${1442+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
@@ -29,7 +29,8 @@ function countsBy(field,values=[]){
 }
 
 assert.deepEqual(countsBy("episode"),{
-  S02E01:16,S02E02:16,S02E03:15,S02E04:23,S02E05:23,S02E06:25
+  S01E01:2,S01E02:2,S01E03:3,S01E04:4,S01E05:1,S01E06:1,
+  S02E01:15,S02E02:10,S02E03:12,S02E04:21,S02E05:23,S02E06:24
 });
 assert.deepEqual(countsBy("type"),{
   "phrasal verb":16,phrase:62,grammar:7,idiom:20,pattern:12,word:1
@@ -55,8 +56,8 @@ for(const phrase of newPhrases){
 }
 
 const episodeMoves={
-  p198:"S02E01",p299:"S02E01",p665:"S02E01",
-  p382:"S02E02",p215:"S02E02",p759:"S02E02",p810:"S02E02",p831:"S02E02",
+  p198:"S02E01",p299:"S01E02",p665:"S02E01",
+  p382:"S02E02",p215:"S02E02",p759:"S02E02",p810:"S01E01",p831:"S02E02",
   p225:"S02E03",p237:"S02E03",p240:"S02E03",p431:"S02E03",p436:"S02E03",p839:"S02E03",p918:"S02E03",p1093:"S02E03",
   p395:"S02E04",p420:"S02E05",p576:"S02E05",p224:"S02E05",p344:"S02E06",p169:"S02E06"
 };
@@ -86,16 +87,20 @@ const duplicateHeadlines=Object.fromEntries(
     .map(([headline,records])=>[headline,records.map(record=>record.id).sort()])
 );
 assert.deepEqual(duplicateHeadlines,{
+  "be all over someone":["p1721","p2428"],
   "catch on":["p1106","p364"],
+  "clean up":["p2109","p2394"],
+  "come up":["p1633","p2423"],
   "out there":["p1487","p608"],
   "be with someone":["p1234","p1500"],
   "make it":["p1502","p1557","p514"],
   "open up":["p1385","p2040"],
-  "go through ~":["p1099","p1546","p1708"],
+  "go through ~":["p1099","p1546","p1708","p2429"],
   "go with ~":["p1212","p1776"],
   "pick someone up":["p1325","p1551"],
   "work out":["p1128","p1584"],
-  "come through":["p1368","p1645"]
+  "come through":["p1368","p1645"],
+  "That’s it.":["p1152","p2445"]
 });
 for(const ids of Object.values(duplicateHeadlines)){
   assert.equal(new Set(ids.map(id=>byId.get(id).meaning)).size,ids.length,`${ids.join(",")} must remain distinct senses`);
