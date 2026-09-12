@@ -13,9 +13,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,2485);
-assert.equal(phraseIds.size,2485);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2533);
+assert.equal(phrases.length,2787);
+assert.equal(phraseIds.size,2787);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2835);
 
 const newIds=Array.from({length:126},(_,index)=>`p${1560+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
@@ -23,15 +23,10 @@ const newPhrases=newIds.map(id=>byId.get(id));
 
 const counts=(items,key)=>Object.fromEntries([...new Set(items.map(item=>item[key]))]
   .sort().map(value=>[value,items.filter(item=>item[key]===value).length]));
-assert.deepEqual(counts(newPhrases,"episode"),{
-  S01E01:13,S01E02:1,S01E03:3,S01E04:3,S01E05:2,S01E06:2,
-  S02E01:2,S02E02:2,S02E03:3,S02E04:2,S02E05:1,S02E07:28,S02E08:31,S02E09:33
-});
-assert.deepEqual(counts(newPhrases,"type"),{
-  grammar:4,idiom:13,pattern:16,"phrasal verb":15,phrase:77,word:1
-});
-assert.deepEqual(counts(newPhrases,"frequency"),{frequent:56,general:59,limited:11});
-assert.deepEqual(counts(newPhrases,"register"),{casual:41,neutral:78,polite:5,slang:2});
+assert.deepEqual(counts(newPhrases,"episode"),{"S01E01":13,"S01E02":1,"S01E03":3,"S01E04":3,"S01E05":2,"S01E06":2,"S01E07":5,"S01E08":1,"S01E09":1,"S01E10":1,"S01E11":1,"S01E12":2,"S01E13":1,"S01E14":1,"S01E15":1,"S02E01":1,"S02E02":1,"S02E03":1,"S02E04":1,"S02E05":1,"S02E07":28,"S02E08":27,"S02E09":28});
+assert.deepEqual(counts(newPhrases,"type"),{"grammar":4,"idiom":13,"pattern":17,"phrasal verb":15,"phrase":76,"word":1});
+assert.deepEqual(counts(newPhrases,"frequency"),{"frequent":56,"general":59,"limited":11});
+assert.deepEqual(counts(newPhrases,"register"),{"casual":41,"neutral":78,"polite":5,"slang":2});
 assert.deepEqual(counts(newPhrases,"priority"),{"1":7,"2":47,"3":72});
 
 const required=["id","phrase","meaning","scene","example1","example2","exampleTranslations","type","priorityText","priority","source","episode","frequency","register"];
@@ -88,6 +83,13 @@ const exactDuplicates=Object.fromEntries([...new Set(phrases.map(phrase=>phrase.
   .map(headline=>[headline,phrases.filter(phrase=>phrase.phrase.toLowerCase()===headline).map(phrase=>phrase.id).sort()])
   .filter(([,ids])=>ids.length>1));
 assert.deepEqual(exactDuplicates,{
+  "at the end of the day":["p110","p2811"],
+  "back up":["p1787","p2735"],
+  "burn out":["p1196","p2571"],
+  "come by":["p1596","p2607"],
+  "get out!":["p2528","p2612"],
+  "huge":["p125","p2827"],
+  "leave someone alone":["p1114","p2718"],
   "be all over someone":["p1721","p2428"],
   "be with someone":["p1234","p1500"],
   "catch on":["p1106","p364"],
@@ -116,6 +118,16 @@ const normalizedDuplicates=Object.fromEntries([...new Set(phrases.map(phrase=>no
   .map(headline=>[headline,phrases.filter(phrase=>normalizeHeadline(phrase.phrase)===headline).map(phrase=>phrase.id).sort()])
   .filter(([,ids])=>ids.length>1));
 assert.deepEqual(normalizedDuplicates,{
+  "at the end of the day":["p110","p2811"],
+  "back up":["p1787","p2735"],
+  "burn out":["p1196","p2571"],
+  "come by":["p1596","p2607"],
+  "get out":["p2528","p2612"],
+  "huge":["p125","p2827"],
+  "in the middle of ~":["p2546","p730"],
+  "leave someone alone":["p1114","p2718"],
+  "pick ~ up":["p2479","p2790"],
+  "score":["p1018","p2706"],
   "be all over someone":["p1721","p2428"],
   "be with someone":["p1234","p1500"],
   "catch on":["p1106","p364"],

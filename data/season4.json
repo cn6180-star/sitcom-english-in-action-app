@@ -356,7 +356,7 @@
       "id": "p367",
       "phrase": "generous",
       "meaning": "気前がいい／惜しみなく与える",
-      "scene": "情報や対応の量を表すとき",
+      "scene": "お金・時間・情報などを惜しまず与える人や申し出を評価するとき",
       "example1": "He was generous with details.",
       "example2": "That’s generous of you.",
       "exampleTranslations": [
@@ -367,9 +367,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S04E03",
+      "episode": "S01E15",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 33
     },
     {
       "id": "p1094",
@@ -1191,10 +1192,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S04E16",
+      "episode": "S01E11",
       "frequency": "frequent",
       "register": "neutral",
-      "note": "作中では複数形のcravingsで登場。"
+      "note": "a craving for ~で「～への強い欲求」。ここでは食べ物を無性に欲しがる意味。",
+      "sourceOrder": 11
     },
     {
       "id": "p1097",
@@ -1334,7 +1336,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 37,
+      "sourceOrder": 38,
       "frequency": "frequent",
       "register": "neutral"
     },

@@ -1764,9 +1764,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S06E21",
+      "episode": "S01E09",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 46
     },
     {
       "id": "p724",

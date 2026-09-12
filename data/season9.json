@@ -180,9 +180,9 @@
     {
       "id": "p990",
       "phrase": "bloated",
-      "meaning": "お腹が張った／膨満感のある",
+      "meaning": "お腹が張った／顔や体がむくんだ",
       "note": "feel bloated、be bloatedの形でよく使う。",
-      "scene": "食後や体調の変化で体が重く膨れたように感じる時",
+      "scene": "膨満感やむくみによる体の状態を説明するとき",
       "example1": "I always feel bloated after eating too much bread.",
       "example2": "My face looks bloated this morning.",
       "exampleTranslations": ["パンを食べすぎると、いつもお腹が張る。", "今朝は顔がむくんで見える。"],
@@ -190,9 +190,10 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S09E04",
+      "episode": "S01E10",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 54
     },
     {
       "id": "p991",
@@ -271,9 +272,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S09E03",
+      "episode": "S01E09",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 6
     },
     {
       "id": "p997",

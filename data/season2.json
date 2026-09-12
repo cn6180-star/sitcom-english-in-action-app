@@ -294,18 +294,20 @@
     {
       "id": "p152",
       "phrase": "cha-ching",
-      "meaning": "金の音→高い／儲かる感じ",
-      "scene": "お金が絡む話を軽く言うとき",
-      "example1": "Cha-ching! That’s a big sale.",
-      "example2": "That car is pretty cha-ching.",
-      "exampleTranslations": ["チャリーン！大きな売上だ。", "あの車、かなりお金がかかってそう。"],
+      "meaning": "チャリーン！／しめた、好都合だ",
+      "scene": "利益や好機を得た気分を冗談めかして表すとき",
+      "example1": "Cha-ching! We just made another sale.",
+      "example2": "They doubled the prize money. Cha-ching!",
+      "exampleTranslations": ["チャリーン！ また売れたよ。","賞金が倍になった。しめた！"],
       "type": "word",
       "priorityText": "★☆☆",
       "priority": 1,
       "source": "Friends",
-      "episode": "S02E05",
+      "episode": "S01E14",
       "frequency": "general",
-      "register": "neutral"
+      "register": "casual",
+      "note": "レジの音をまねた間投詞。E14では利益が出る感覚を恋愛上の好機に重ねており、文字どおり金銭を得る話ではない。",
+      "sourceOrder": 10
     },
     {
       "id": "p153",
@@ -1613,9 +1615,10 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E22",
+      "episode": "S01E07",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 40
     },
     {
       "id": "p239",
@@ -1713,9 +1716,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E23",
+      "episode": "S01E13",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 70
     },
     {
       "id": "p247",
@@ -1862,7 +1866,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 39,
+      "sourceOrder": 40,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2056,7 +2060,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 29,
+      "sourceOrder": 30,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -2113,9 +2117,10 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E03",
+      "episode": "S01E11",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 32
     },
     {
       "id": "p1093",
@@ -2215,23 +2220,21 @@
     },
     {
       "id": "p1446",
-      "phrase": "if it hadn’t been for ~",
-      "meaning": "もし～がなかったら",
-      "scene": "ある人や出来事がなければ結果が違ったと説明するとき",
-      "example1": "If it hadn’t been for you, I would have given up.",
-      "example2": "We would have missed the train if it hadn’t been for that taxi.",
-      "exampleTranslations": [
-        "君がいなかったら、私は諦めていた。",
-        "あのタクシーがなかったら、私たちは電車に乗り遅れていた。"
-      ],
+      "phrase": "if it wasn’t/weren’t for ~ / if it hadn’t been for ~",
+      "meaning": "もし～がなければ／もし～がなかったら",
+      "scene": "ある人や事情がなければ結果が違うと仮定するとき",
+      "example1": "If it weren’t for you, I would be lost.",
+      "example2": "If it hadn’t been for your call, I would have missed the meeting.",
+      "exampleTranslations": ["君がいなければ途方に暮れているよ。","君の電話がなかったら会議に出られなかった。"],
       "type": "grammar",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E01",
+      "episode": "S01E09",
       "frequency": "general",
       "register": "neutral",
-      "note": "過去の事実と反対の結果を想像する形。後ろには名詞または名詞句を置く。"
+      "note": "wasn’t/weren’tは現在の反実仮想に、hadn’t beenは過去の反実仮想に使う。仮定法ではweren’tが標準的で、会話ではwasn’tも使う。主節が表す時点も文脈で確認する。",
+      "sourceOrder": 49
     },
     {
       "id": "p1447",
@@ -2706,10 +2709,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E02",
+      "episode": "S01E12",
       "frequency": "frequent",
       "register": "casual",
-      "note": "`How come`の後ろは疑問文語順にせず、通常の主語＋動詞の語順にする。"
+      "note": "`How come`の後ろは疑問文語順にせず、通常の主語＋動詞の語順にする。",
+      "sourceOrder": 4
     },
         {
       "id": "p1471",
@@ -2747,7 +2751,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 77,
+      "sourceOrder": 82,
       "frequency": "frequent",
       "register": "neutral",
       "note": "`give someone another chance`は、一度失敗した相手に再び機会を与える意味。"
@@ -2847,9 +2851,10 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E03",
+      "episode": "S01E07",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 53
     },
     {
       "id": "p1478",
@@ -2984,10 +2989,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E03",
+      "episode": "S01E07",
       "frequency": "general",
       "register": "neutral",
-      "note": "`end up ~ing`や`end up with ~`とは異なり、後ろに形容詞を置いて最終状態を表す。"
+      "note": "`end up ~ing`や`end up with ~`とは異なり、後ろに形容詞を置いて最終状態を表す。",
+      "sourceOrder": 36
     },
     {
       "id": "p1485",
@@ -3088,7 +3094,7 @@
     },
     {
       "id": "p1490",
-      "phrase": "be in love with someone",
+      "phrase": "be in love (with someone)",
       "meaning": "人に恋をしている／人を愛している",
       "scene": "人を愛している、恋をしていると伝えるとき",
       "example1": "She’s in love with her best friend.",
@@ -3101,9 +3107,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E04",
+      "episode": "S01E13",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "note": "相手を明示しない場合はwith someoneを省ける。fall in loveは恋に落ちるという変化を表す。",
+      "sourceOrder": 20
     },
         {
       "id": "p1491",
@@ -3161,10 +3169,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E04",
+      "episode": "S01E13",
       "frequency": "frequent",
       "register": "neutral",
-      "note": "お礼への返答で「どういたしまして」を表す用法もあるが、ここでは否定の強調。"
+      "note": "お礼への返答で「どういたしまして」を表す用法もあるが、ここでは否定の強調。",
+      "sourceOrder": 83
     },
     {
       "id": "p1494",
@@ -3258,10 +3267,11 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E04",
+      "episode": "S01E10",
       "frequency": "general",
       "register": "neutral",
-      "note": "`FYI`は同じ表現の略形。言い方によっては相手を訂正する強い・防御的な響きになる。"
+      "note": "`FYI`は同じ表現の略形。言い方によっては相手を訂正する強い・防御的な響きになる。",
+      "sourceOrder": 7
     },
     {
       "id": "p1499",
@@ -3378,10 +3388,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E04",
+      "episode": "S01E07",
       "frequency": "frequent",
       "register": "casual",
-      "note": "挨拶の「最近どう？」と、異変を見て尋ねる「どうしたの？」の両方で使う。"
+      "note": "挨拶の「最近どう？」と、異変を見て尋ねる「どうしたの？」の両方で使う。",
+      "sourceOrder": 16
     },
     {
       "id": "p1505",
@@ -3475,7 +3486,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 36,
+      "sourceOrder": 37,
       "frequency": "general",
       "register": "neutral",
       "note": "`plan on`の後ろには名詞または動名詞を置く。"
@@ -3631,10 +3642,11 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E05",
+      "episode": "S01E09",
       "frequency": "general",
       "register": "neutral",
-      "note": "乾杯で祝う対象を `to` の後ろに置く。"
+      "note": "乾杯で祝う対象を `to` の後ろに置く。",
+      "sourceOrder": 58
     },
     {
       "id": "p1518",
@@ -3697,23 +3709,21 @@
     },
     {
       "id": "p1521",
-      "phrase": "not gonna happen",
-      "meaning": "絶対に無理／そうはならない",
-      "scene": "提案や可能性を、絶対に無理だときっぱり拒否するとき",
+      "phrase": "not gonna happen / never gonna happen",
+      "meaning": "絶対に無理／そうはならない／実現しない",
+      "scene": "期待が実現しないと強く予測したり、提案をきっぱり拒否したりするとき",
       "example1": "Working all weekend? Not gonna happen.",
-      "example2": "You want me to lie for you? That’s not gonna happen.",
-      "exampleTranslations": [
-        "週末ずっと働くって？ 絶対に無理。",
-        "君のためにうそをつけって？ それは無理だよ。"
-      ],
+      "example2": "It’s never gonna happen if we keep waiting.",
+      "exampleTranslations": ["週末ずっと働くって？ 絶対に無理。","待ってばかりでは絶対に実現しないよ。"],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E05",
+      "episode": "S01E07",
       "frequency": "frequent",
       "register": "casual",
-      "note": "`gonna`を使うくだけた強い拒否。"
+      "note": "gonnaはgoing toのくだけた発音表記。not/neverの差は否定の強調として同じrecordで扱う。",
+      "sourceOrder": 30
     },
     {
       "id": "p1522",
@@ -3807,9 +3817,10 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E05",
+      "episode": "S01E14",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 16
     },
     {
       "id": "p1527",
@@ -3852,9 +3863,9 @@
     },
     {
       "id": "p1529",
-      "phrase": "aside from that",
-      "meaning": "それ以外は／その点を除けば",
-      "scene": "一つの問題点を除いた、残りの部分について話すとき",
+      "phrase": "aside from ~",
+      "meaning": "～を除けば／～は別として",
+      "scene": "ある点をいったん除外して、ほかの事情や評価を述べるとき",
       "example1": "The room was small, but aside from that, it was perfect.",
       "example2": "Aside from that mistake, you did a great job.",
       "exampleTranslations": [
@@ -3865,9 +3876,10 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E05",
+      "episode": "S01E09",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 51
     },
     {
       "id": "p1530",
@@ -3891,23 +3903,21 @@
     },
     {
       "id": "p1531",
-      "phrase": "feel guilty about ~",
+      "phrase": "feel guilty about/for ~",
       "meaning": "～について罪悪感を抱く",
       "scene": "行動や状況について罪悪感を抱いていると話すとき",
-      "example1": "I feel guilty about missing her birthday.",
+      "example1": "I feel guilty for letting her down.",
       "example2": "Don’t feel guilty about taking a break.",
-      "exampleTranslations": [
-        "彼女の誕生日を忘れて罪悪感がある。",
-        "休むことに罪悪感を持たなくていいよ。"
-      ],
+      "exampleTranslations": ["彼女を失望させて罪悪感がある。","休むことに罪悪感を持たなくていいよ。"],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E05",
+      "episode": "S01E13",
       "frequency": "frequent",
       "register": "neutral",
-      "note": "`about`の後ろには名詞または動名詞を置く。"
+      "note": "about / forの後ろには名詞・動名詞を置く。forは罪悪感の理由・行為を示す。",
+      "sourceOrder": 36
     },
     {
       "id": "p1532",
@@ -4256,9 +4266,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E06",
+      "episode": "S01E15",
       "frequency": "frequent",
-      "register": "polite"
+      "register": "polite",
+      "sourceOrder": 48
     },
         {
       "id": "p1550",
@@ -4276,7 +4287,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 35,
+      "sourceOrder": 38,
       "frequency": "frequent",
       "register": "neutral",
       "note": "感情・過去・執着を「手放す」という比喩的な意味でも使う。"
@@ -4473,7 +4484,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 32,
+      "sourceOrder": 35,
       "frequency": "frequent",
       "register": "casual",
       "note": "`kind of`と`sort of`はこの用法ではほぼ同じ。くだけた会話では`kinda`、`sorta`とも発音される。"
@@ -4494,7 +4505,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 62,
+      "sourceOrder": 66,
       "frequency": "general",
       "register": "neutral",
       "note": "通常、`no`、`not`、`nothing`などの否定表現を強調する。"
@@ -4535,7 +4546,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 48,
+      "sourceOrder": 52,
       "frequency": "frequent",
       "register": "casual",
       "note": "`gotta`は`have got to`の非常にカジュアルな発音・表記。"
@@ -4555,9 +4566,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E01",
+      "episode": "S01E07",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 31
     },
         {
       "id": "p1565",
@@ -4575,7 +4587,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 123,
+      "sourceOrder": 130,
       "frequency": "frequent",
       "register": "polite"
     },
@@ -4652,10 +4664,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E02",
+      "episode": "S01E14",
       "frequency": "general",
       "register": "casual",
-      "note": "`What do you say to ~ing?`という形も使える。"
+      "note": "`What do you say to ~ing?`という形も使える。",
+      "sourceOrder": 51
     },
     {
       "id": "p1570",
@@ -4672,9 +4685,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E03",
+      "episode": "S01E15",
       "frequency": "frequent",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 37
     },
         {
       "id": "p1571",
@@ -4692,7 +4706,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 57,
+      "sourceOrder": 61,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -4731,9 +4745,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E03",
+      "episode": "S01E11",
       "frequency": "frequent",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 59
     },
         {
       "id": "p1574",
@@ -4751,7 +4766,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 43,
+      "sourceOrder": 47,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -4789,9 +4804,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E04",
+      "episode": "S01E08",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 26
     },
         {
       "id": "p1577",
@@ -4889,7 +4905,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 100,
+      "sourceOrder": 107,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -5164,7 +5180,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 11,
+      "sourceOrder": 12,
       "frequency": "general",
       "register": "casual",
       "note": "`figure something out`「考えて答えを出す」とは構文が異なる。"
@@ -5321,7 +5337,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 45,
+      "sourceOrder": 46,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -5551,7 +5567,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 83,
+      "sourceOrder": 88,
       "frequency": "general",
       "register": "casual"
     },
@@ -5630,28 +5646,26 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 69,
+      "sourceOrder": 70,
       "frequency": "frequent",
       "register": "neutral"
     },
     {
       "id": "p1620",
-      "phrase": "have a lot in common",
-      "meaning": "共通点が多い",
+      "phrase": "have something/nothing/a lot in common",
+      "meaning": "共通点がある／ない／多い",
       "scene": "人同士の趣味・経験・考えが似ていると話すとき",
-      "example1": "We have a lot in common.",
+      "example1": "We have nothing in common.",
       "example2": "They don’t seem to have much in common.",
-      "exampleTranslations": [
-        "私たちは共通点が多い。",
-        "二人にはあまり共通点がないようだ。"
-      ],
+      "exampleTranslations": ["私たちには共通点がない。","二人にはあまり共通点がないようだ。"],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E08",
+      "episode": "S01E07",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 72
     },
     {
       "id": "p1621",
@@ -5858,9 +5872,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E08",
+      "episode": "S01E07",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 46
     },
     {
       "id": "p1632",
@@ -5936,7 +5951,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 42,
+      "sourceOrder": 46,
       "frequency": "general",
       "register": "casual"
     },
@@ -5955,10 +5970,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E08",
+      "episode": "S01E13",
       "frequency": "frequent",
       "register": "neutral",
-      "note": "人が「立ち去る」ほか、痛みや問題が「なくなる」意味でも使う。"
+      "note": "人が「立ち去る」ほか、痛みや問題が「なくなる」意味でも使う。",
+      "sourceOrder": 4
     },
     {
       "id": "p1637",
@@ -6040,22 +6056,21 @@
     },
     {
       "id": "p1641",
-      "phrase": "I don’t think this is the best time.",
-      "meaning": "今は適切なタイミングではないと思う",
-      "scene": "話や行動を角を立てずに延期したいとき",
-      "example1": "I don’t think this is the best time to ask.",
-      "example2": "Can we talk later? This isn’t the best time.",
-      "exampleTranslations": [
-        "今それを頼むのは適切ではないと思う。",
-        "あとで話せる？ 今はいいタイミングではない。"
-      ],
-      "type": "phrase",
+      "phrase": "I don’t think this is the best time to ~ / This probably isn’t the best time to ~",
+      "meaning": "今は～するのにいいタイミングではないと思う",
+      "scene": "話や依頼を切り出す時機をためらったり、延期を提案したりするとき",
+      "example1": "I don’t think this is the best time to discuss money.",
+      "example2": "This probably isn’t the best time to ask for a favor.",
+      "exampleTranslations": ["今はお金の話をするのにいいタイミングではないと思う。","今はお願いをするのにいいタイミングではなさそうだ。"],
+      "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E08",
+      "episode": "S01E07",
       "frequency": "general",
-      "register": "polite"
+      "register": "polite",
+      "note": "I don’t thinkとprobably isn’tはいずれも断定を弱める言い方。",
+      "sourceOrder": 80
     },
     {
       "id": "p1642",
@@ -6207,9 +6222,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E09",
+      "episode": "S01E10",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 50
     },
     {
       "id": "p1650",
@@ -6420,9 +6436,10 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E09",
+      "episode": "S01E09",
       "frequency": "general",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 48
     },
     {
       "id": "p1661",
@@ -6478,9 +6495,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E09",
+      "episode": "S01E12",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 19
     },
         {
       "id": "p1664",
@@ -6498,7 +6516,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 96,
+      "sourceOrder": 102,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -6616,21 +6634,18 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 117,
+      "sourceOrder": 124,
       "frequency": "frequent",
       "register": "neutral"
     },
         {
       "id": "p1671",
-      "phrase": "Too bad.",
+      "phrase": "Too bad. / That’s too bad.",
       "meaning": "残念だね／仕方ない",
       "scene": "残念な出来事に反応したり、要求を突き放したりするとき",
-      "example1": "You missed the concert? Too bad.",
+      "example1": "Your train was canceled? That’s too bad.",
       "example2": "If he doesn’t like it, too bad.",
-      "exampleTranslations": [
-        "コンサートを見逃したの？ 残念だね。",
-        "彼が気に入らなくても、仕方ない。"
-      ],
+      "exampleTranslations": ["電車が運休になったの？ それは残念だね。","彼が気に入らなくても、仕方ない。"],
       "type": "phrase",
       "priorityText": "★★☆",
       "priority": 2,
@@ -6723,18 +6738,16 @@
       "meaning": "目標・場所・答えに近づく",
       "scene": "場所・目標・答えなどに近づいていることを表すとき",
       "example1": "We’re getting closer to a solution.",
-      "example2": "Come closer so I can hear you.",
-      "exampleTranslations": [
-        "解決に近づいている。",
-        "聞こえるようにもっと近くへ来て。"
-      ],
+      "example2": "We got closer to the station.",
+      "exampleTranslations": ["解決に近づいている。","私たちは駅に近づいた。"],
       "type": "phrase",
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E09",
+      "episode": "S01E07",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 35
     },
         {
       "id": "p1677",
@@ -6752,15 +6765,15 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 111,
+      "sourceOrder": 118,
       "frequency": "frequent",
       "register": "neutral"
     },
     {
       "id": "p1678",
-      "phrase": "take a big step",
-      "meaning": "大きな一歩を踏み出す",
-      "scene": "目標や心の回復に向けた重要な進展を評価するとき",
+      "phrase": "a big step / take a big step",
+      "meaning": "大きな一歩／重要な進展を遂げる",
+      "scene": "人生や関係が重要な段階に進むことを話すとき",
       "example1": "You took a big step by asking for help.",
       "example2": "Moving abroad was a big step for me.",
       "exampleTranslations": [
@@ -6771,9 +6784,10 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E09",
+      "episode": "S01E12",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 5
     },
     {
       "id": "p1679",
@@ -6923,9 +6937,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E01",
+      "episode": "S01E15",
       "frequency": "frequent",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 5
     },
         {
       "id": "p1687",
@@ -6943,7 +6958,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 47,
+      "sourceOrder": 48,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -6981,9 +6996,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E03",
+      "episode": "S01E08",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 15
     },
         {
       "id": "p1690",
@@ -7001,7 +7017,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 65,
+      "sourceOrder": 68,
       "frequency": "general",
       "register": "neutral"
     },
@@ -7039,9 +7055,10 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E04",
+      "episode": "S01E07",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 73
     },
     {
       "id": "p1693",
@@ -7098,7 +7115,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 93,
+      "sourceOrder": 99,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -7137,7 +7154,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 10,
+      "sourceOrder": 11,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -7413,11 +7430,11 @@
     },
     {
       "id": "p1712",
-      "phrase": "get off work",
+      "phrase": "get off (work)",
       "meaning": "仕事が終わる／退勤する",
       "scene": "仕事が終わる時間や退勤後の予定を話すとき",
       "example1": "What time do you get off work?",
-      "example2": "I get off work at six.",
+      "example2": "I get off at six.",
       "exampleTranslations": [
         "仕事は何時に終わる？",
         "6時に仕事が終わる。"
@@ -7426,9 +7443,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E10",
+      "episode": "S01E14",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "note": "勤務の話だと分かるときはworkを省き、get off at sixなどと言える。",
+      "sourceOrder": 58
     },
         {
       "id": "p1713",
@@ -7621,7 +7640,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 52,
+      "sourceOrder": 54,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -7680,7 +7699,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 30,
+      "sourceOrder": 31,
       "frequency": "general",
       "register": "neutral"
     },
@@ -7891,9 +7910,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E11",
+      "episode": "S01E10",
       "frequency": "general",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 17
     },
     {
       "id": "p1737",
@@ -8064,7 +8084,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 18,
+      "sourceOrder": 19,
       "frequency": "general",
       "register": "slang",
       "note": "怒りや反発を表す粗い言い方。The hell with ~.という形もある。丁寧な場面には向かない。"
@@ -8486,7 +8506,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 13,
+      "sourceOrder": 14,
       "frequency": "frequent",
       "register": "neutral",
       "note": "`that`は省略可能。`主語 + turn out to be + 補語`とは意味が近いが、後ろに節を続ける別構文。"
@@ -8532,22 +8552,20 @@
     },
     {
       "id": "p1770",
-      "phrase": "Why don’t you ~?",
+      "phrase": "Why don’t you/we ~?",
       "meaning": "～したらどう？／～しない？",
       "scene": "提案や誘いを自然に伝えるとき",
       "example1": "Why don’t you take a break?",
-      "example2": "Why don’t we meet after work?",
-      "exampleTranslations": [
-        "少し休んだらどう？",
-        "仕事のあとに会わない？"
-      ],
+      "example2": "Why don’t we take a break?",
+      "exampleTranslations": ["少し休んだらどう？","少し休憩しませんか。"],
       "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E01",
+      "episode": "S01E07",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 57
     },
         {
       "id": "p1771",
@@ -8565,7 +8583,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 63,
+      "sourceOrder": 66,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -8585,7 +8603,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 62,
+      "sourceOrder": 65,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -8644,7 +8662,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 49,
+      "sourceOrder": 53,
       "frequency": "frequent",
       "register": "casual",
       "note": "会話では`have got to`が`have gotta`や`gotta`のように発音されることが多い。"
@@ -8724,7 +8742,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 86,
+      "sourceOrder": 89,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -8743,10 +8761,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E05",
+      "episode": "S01E09",
       "frequency": "frequent",
       "register": "neutral",
-      "note": "後ろには動詞の原形を置く。`be used to ~ing`（～に慣れている）とは別構文。"
+      "note": "後ろには動詞の原形を置く。`be used to ~ing`（～に慣れている）とは別構文。",
+      "sourceOrder": 19
     },
     {
       "id": "p1781",
@@ -8945,22 +8964,20 @@
     },
     {
       "id": "p1791",
-      "phrase": "get away from ~",
-      "meaning": "～から離れる／逃れる",
+      "phrase": "get away (from ~)",
+      "meaning": "逃げる／逃げ出す／～から離れる",
       "scene": "場所・人・問題から距離を取るとき",
       "example1": "I need to get away from the city for a while.",
-      "example2": "Get away from the edge.",
-      "exampleTranslations": [
-        "しばらく都会を離れたい。",
-        "端から離れて。"
-      ],
+      "example2": "The bird got away.",
+      "exampleTranslations": ["しばらく都会を離れたい。","鳥は逃げてしまった。"],
       "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E13",
+      "episode": "S01E09",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 34
     },
     {
       "id": "p1792",
@@ -9035,7 +9052,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 26,
+      "sourceOrder": 27,
       "frequency": "frequent",
       "register": "casual",
       "note": "Thank God! だけで「よかった／助かった」という安堵も表せる。"
@@ -9093,10 +9110,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E13",
+      "episode": "S01E14",
       "frequency": "general",
       "register": "casual",
-      "note": "強い命令で、怒りや警告の響きがある。"
+      "note": "強い命令で、怒りや警告の響きがある。",
+      "sourceOrder": 6
     },
     {
       "id": "p1799",
@@ -9690,9 +9708,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E14",
+      "episode": "S01E07",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 69
     },
         {
       "id": "p1830",
@@ -10190,9 +10209,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E14",
+      "episode": "S01E07",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 10
     },
     {
       "id": "p1856",
@@ -10324,7 +10344,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 74,
+      "sourceOrder": 77,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -10658,10 +10678,10 @@
     },
     {
       "id": "p1880",
-      "phrase": "Nice to meet you.",
+      "phrase": "Nice to meet you. / Good to meet you.",
       "meaning": "はじめまして／お会いできてうれしいです",
       "scene": "初対面の人と挨拶するとき",
-      "example1": "Hi, I’m Ken. Nice to meet you.",
+      "example1": "Hi, I’m Ken. Good to meet you.",
       "example2": "It’s very nice to meet you at last.",
       "exampleTranslations": [
         "こんにちは、ケンです。はじめまして。",
@@ -10671,10 +10691,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E15",
+      "episode": "S01E13",
       "frequency": "frequent",
       "register": "neutral",
-      "note": "通常は会ったときに使う。別れ際は`Nice meeting you.`が自然。"
+      "note": "Nice / Goodは同じ初対面の挨拶で使える。別れ際にはNice meeting youも自然。",
+      "sourceOrder": 18
     },
     {
       "id": "p1881",
@@ -10710,9 +10731,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E15",
+      "episode": "S01E09",
       "frequency": "general",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 8
     },
     {
       "id": "p1883",
@@ -11130,9 +11152,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E01",
+      "episode": "S01E12",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 29
     },
         {
       "id": "p1905",
@@ -11170,9 +11193,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E01",
+      "episode": "S01E09",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 16
     },
     {
       "id": "p1907",
@@ -11209,7 +11233,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 19,
+      "sourceOrder": 20,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11229,7 +11253,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 36,
+      "sourceOrder": 39,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11249,7 +11273,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 88,
+      "sourceOrder": 94,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11288,7 +11312,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 101,
+      "sourceOrder": 108,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11346,9 +11370,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E04",
+      "episode": "S01E10",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 23
     },
     {
       "id": "p1916",
@@ -11384,9 +11409,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E04",
+      "episode": "S01E13",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 7
     },
         {
       "id": "p1918",
@@ -11404,7 +11430,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 55,
+      "sourceOrder": 58,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11444,7 +11470,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 31,
+      "sourceOrder": 34,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11522,7 +11548,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 17,
+      "sourceOrder": 18,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11619,7 +11645,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 53,
+      "sourceOrder": 54,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11658,7 +11684,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 61,
+      "sourceOrder": 65,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -11910,9 +11936,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E16",
+      "episode": "S01E09",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 12
     },
     {
       "id": "p1945",
@@ -12275,7 +12302,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 77,
+      "sourceOrder": 80,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12352,9 +12379,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E16",
+      "episode": "S01E12",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 20
     },
     {
       "id": "p1968",
@@ -12429,7 +12457,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 81,
+      "sourceOrder": 84,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12448,9 +12476,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E17",
+      "episode": "S01E15",
       "frequency": "frequent",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 29
     },
     {
       "id": "p1973",
@@ -12717,9 +12746,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E17",
+      "episode": "S01E10",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 73
     },
     {
       "id": "p1987",
@@ -13063,7 +13093,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 58,
+      "sourceOrder": 61,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13333,7 +13363,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 78,
+      "sourceOrder": 83,
       "frequency": "limited",
       "register": "casual"
     },
@@ -13409,9 +13439,10 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E18",
+      "episode": "S01E10",
       "frequency": "general",
-      "register": "formal"
+      "register": "formal",
+      "sourceOrder": 13
     },
     {
       "id": "p2023",
@@ -13698,10 +13729,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E18",
+      "episode": "S01E09",
       "frequency": "frequent",
       "register": "neutral",
-      "note": "単独の`Look out!`は緊急警告。`look out for ~`は「～に注意する／～を見守る」。"
+      "note": "単独の`Look out!`は緊急警告。`look out for ~`は「～に注意する／～を見守る」。",
+      "sourceOrder": 29
     },
         {
       "id": "p2038",
@@ -13719,7 +13751,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 65,
+      "sourceOrder": 66,
       "frequency": "frequent",
       "register": "casual",
       "note": "既存の`That’s it!`（もういい／これで決まり）とはイントネーションと会話機能が異なる。"
@@ -14856,10 +14888,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E20",
+      "episode": "S01E14",
       "frequency": "general",
       "register": "neutral",
-      "id": "p2128"
+      "id": "p2128",
+      "sourceOrder": 41
     },
     {
       "phrase": "Tough.",
@@ -14974,7 +15007,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 64,
+      "sourceOrder": 67,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -15904,7 +15937,7 @@
       "id": "p2182"
     },
     {
-      "phrase": "Are we okay here?",
+      "phrase": "Are we okay? / Are we okay now?",
       "meaning": "これで問題ない？／私たち大丈夫？",
       "scene": "問題が解決したか、または人間関係にわだかまりがないか確認するとき",
       "example1": "I’ve apologized. Are we okay here?",
@@ -15917,10 +15950,12 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E21",
+      "episode": "S01E11",
       "frequency": "general",
       "register": "casual",
-      "id": "p2183"
+      "id": "p2183",
+      "note": "けんかや気まずいやり取りの後、関係が大丈夫か確認する。Are we okay here?も同じ機能。",
+      "sourceOrder": 64
     },
     {
       "phrase": "deserve to ~",
@@ -16386,23 +16421,22 @@
       "id": "p2238"
     },
     {
-      "phrase": "I don’t mean to be a pain, but ~",
-      "meaning": "面倒を言うつもりはないけど～",
-      "scene": "相手に手間をかける依頼や指摘を控えめに切り出すとき",
-      "example1": "I don’t mean to be a pain, but could you check it again?",
-      "example2": "I don’t mean to be a pain, but this isn’t what I ordered.",
-      "exampleTranslations": [
-        "面倒を言うつもりはないけど、もう一度確認してくれる？",
-        "細かく言いたくないけど、これは注文したものと違います。"
-      ],
+      "phrase": "I don’t mean to be ~, but ...",
+      "meaning": "～なつもりはないけど／～するつもりはないけど",
+      "scene": "不快に聞こえそうな指摘や依頼を控えめに切り出すとき",
+      "example1": "I don’t mean to be rude, but could you lower your voice?",
+      "example2": "I don’t mean to be a pain, but could you check it again?",
+      "exampleTranslations": ["失礼なことを言うつもりはないけど、少し声を落としてくれますか。","面倒を言うつもりはないけど、もう一度確認してくれますか。"],
       "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E22",
+      "episode": "S01E13",
       "frequency": "general",
       "register": "polite",
-      "id": "p2239"
+      "id": "p2239",
+      "note": "beの後ろはrude / disrespectful / a painなど。断ってから言っても、内容や口調次第で失礼になる。",
+      "sourceOrder": 73
     },
     {
       "phrase": "get someone out",
@@ -17136,23 +17170,21 @@
       "id": "p2277"
     },
     {
-      "phrase": "Tell me the truth.",
-      "meaning": "本当のことを言って",
-      "scene": "相手に隠さず正直に話すよう求めるとき",
+      "phrase": "tell (someone) the truth",
+      "meaning": "（人に）本当のことを言う",
+      "scene": "相手に正直に話すよう求めたり、事実を隠さず話すことを説明したりするとき",
       "example1": "Tell me the truth—did you break it?",
-      "example2": "Please tell me the truth about what happened.",
-      "exampleTranslations": [
-        "本当のことを言って。壊したの？",
-        "何があったのか正直に話してください。"
-      ],
+      "example2": "She told the truth about what happened.",
+      "exampleTranslations": ["本当のことを言って。壊したの？","彼女は何があったのか正直に話した。"],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E23",
+      "episode": "S01E08",
       "frequency": "frequent",
       "register": "neutral",
-      "id": "p2278"
+      "id": "p2278",
+      "sourceOrder": 49
     },
     {
       "phrase": "get mixed up",
@@ -17347,7 +17379,7 @@
       "id": "p2288"
     },
     {
-      "phrase": "Pleasure.",
+      "phrase": "Pleasure. / My pleasure.",
       "meaning": "こちらこそ／どういたしまして",
       "scene": "紹介や感謝への短く丁寧な応答をするとき",
       "example1": "Nice to meet you. — Pleasure.",
@@ -17360,11 +17392,12 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S02E23",
+      "episode": "S01E11",
       "frequency": "general",
       "register": "polite",
       "note": "単独の`Pleasure.`は簡潔な言い方。`My pleasure.`のほうがより一般的。",
-      "id": "p2289"
+      "id": "p2289",
+      "sourceOrder": 54
     },
     {
       "phrase": "make ~ count",
@@ -17386,7 +17419,7 @@
       "id": "p2290"
     },
     {
-      "phrase": "look great on someone",
+      "phrase": "look good/great/lovely on someone",
       "meaning": "人によく似合う",
       "scene": "服・色・髪型などが人を魅力的に見せると伝えるとき",
       "example1": "That jacket looks great on you.",
@@ -17399,10 +17432,12 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E23",
+      "episode": "S01E08",
       "frequency": "frequent",
       "register": "neutral",
-      "id": "p2291"
+      "id": "p2291",
+      "note": "服や色などを主語にする。good/great/lovelyは褒め方のvariation。",
+      "sourceOrder": 52
     },
     {
       "phrase": "ironic considering ~",
@@ -17631,7 +17666,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 52,
+      "sourceOrder": 53,
       "frequency": "frequent",
       "register": "neutral"
     },

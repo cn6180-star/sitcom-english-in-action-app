@@ -1753,9 +1753,10 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S08E24",
+      "episode": "S01E13",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 60
     },
     {
       "id": "p973",

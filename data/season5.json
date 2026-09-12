@@ -202,9 +202,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S05E07",
+      "episode": "S01E09",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 18
     },
     {
       "id": "p486",
@@ -347,7 +348,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 95,
+      "sourceOrder": 101,
       "frequency": "general",
       "register": "neutral"
     },
@@ -418,7 +419,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 40,
+      "sourceOrder": 44,
       "frequency": "general",
       "register": "neutral"
     },
@@ -527,9 +528,9 @@
     },
     {
       "id": "p505",
-      "phrase": "know better than that",
+      "phrase": "know better (than that)",
       "meaning": "そんなことするほどバカじゃない、分別がある",
-      "scene": "呆れながら注意する時",
+      "scene": "軽率な行動を避けるだけの分別があると話したり、そうあるべきだと注意したりするとき",
       "example1": "You should know better than that.",
       "example2": "I thought he knew better by now.",
       "exampleTranslations": ["そんなことをするほど分別がないわけじゃないでしょ。", "今ごろは彼も分別がついていると思っていた。"],
@@ -537,9 +538,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S05E06",
+      "episode": "S01E13",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 89
     },
     {
       "id": "p506",
@@ -693,9 +695,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S05E03",
+      "episode": "S01E09",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 9
     },
     {
       "id": "p515",
@@ -741,9 +744,10 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S05E02",
+      "episode": "S01E12",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 16
     },
     {
       "id": "p518",
@@ -824,9 +828,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S05E08",
+      "episode": "S01E11",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 49
     },
     {
       "id": "p523",
@@ -1896,7 +1901,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 94,
+      "sourceOrder": 100,
       "frequency": "general",
       "register": "neutral"
     },
@@ -2318,7 +2323,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 35,
+      "sourceOrder": 36,
       "frequency": "general",
       "register": "neutral",
       "note": "I know this may sound ~, but ... とも言える。mayは「そう聞こえるかもしれない」と可能性を控えめに示す。"

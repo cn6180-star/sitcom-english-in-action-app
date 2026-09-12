@@ -45,9 +45,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S07E01",
+      "episode": "S01E12",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 17
     },
     {
       "id": "p761",
@@ -263,7 +264,7 @@
       "id": "p776",
       "phrase": "stay away from ~",
       "meaning": "～に近づかない",
-      "scene": "危険な人・場所・話題などを避ける時",
+      "scene": "人・場所・話題・食べ物などを避けると話すとき",
       "example1": "Stay away from that dog.",
       "example2": "I try to stay away from gossip.",
       "exampleTranslations": ["あの犬には近づかないで。", "噂話には近づかないようにしている。"],
@@ -271,9 +272,10 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S07E04",
+      "episode": "S01E07",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 43
     },
     {
       "id": "p777",

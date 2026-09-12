@@ -14,10 +14,10 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,2485);
-assert.equal(phraseIds.size,2485);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2533);
-assert.equal(phrases.filter(phrase=>phrase.episode.startsWith("S01E")).length,858);
+assert.equal(phrases.length,2787);
+assert.equal(phraseIds.size,2787);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2835);
+assert.equal(phrases.filter(phrase=>phrase.episode.startsWith("S01E")).length,1235);
 
 const e01e03Ids=Array.from({length:106},(_,index)=>`p${2341+index}`);
 const e04e06Ids=Array.from({length:87},(_,index)=>`p${2447+index}`);
@@ -26,10 +26,8 @@ assert.deepEqual(e04e06Ids.filter(id=>phraseIds.has(id)),e04e06Ids);
 
 const countByEpisode=ids=>Object.fromEntries([...new Set(ids.map(id=>byId.get(id).episode))]
   .sort().map(episode=>[episode,ids.filter(id=>byId.get(id).episode===episode).length]));
-assert.deepEqual(countByEpisode(e01e03Ids),{S01E01:46,S01E02:29,S01E03:31});
-assert.deepEqual(countByEpisode(e04e06Ids),{
-  S01E01:1,S01E02:4,S01E03:3,S01E04:24,S01E05:28,S01E06:27
-});
+assert.deepEqual(countByEpisode(e01e03Ids),{"S01E01":46,"S01E02":29,"S01E03":31});
+assert.deepEqual(countByEpisode(e04e06Ids),{"S01E01":1,"S01E02":4,"S01E03":3,"S01E04":24,"S01E05":28,"S01E06":27});
 
 const required=["id","phrase","meaning","scene","example1","example2","exampleTranslations","type","priorityText","priority","source","episode","frequency","register"];
 const priorityText={1:"★☆☆",2:"★★☆",3:"★★★"};

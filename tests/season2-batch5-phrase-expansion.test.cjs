@@ -14,9 +14,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,2485);
-assert.equal(phraseIds.size,2485);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2533);
+assert.equal(phrases.length,2787);
+assert.equal(phraseIds.size,2787);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2835);
 
 const newIds=Array.from({length:135},(_,index)=>`p${1769+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
@@ -24,16 +24,10 @@ const newPhrases=newIds.map(id=>byId.get(id));
 const counts=(items,key)=>Object.fromEntries([...new Set(items.map(item=>item[key]))]
   .sort().map(value=>[value,items.filter(item=>item[key]===value).length]));
 
-assert.deepEqual(counts(newPhrases,"episode"),{
-  S01E01:2,S01E02:7,S01E04:2,S01E05:1,S01E06:1,
-  S02E01:3,S02E03:2,S02E04:1,S02E05:2,S02E06:1,
-  S02E09:1,S02E10:1,S02E12:1,S02E13:36,S02E14:43,S02E15:31
-});
-assert.deepEqual(counts(newPhrases,"type"),{
-  grammar:7,idiom:13,pattern:17,"phrasal verb":11,phrase:82,word:5
-});
-assert.deepEqual(counts(newPhrases,"frequency"),{frequent:57,general:70,limited:8});
-assert.deepEqual(counts(newPhrases,"register"),{casual:48,neutral:83,polite:2,slang:2});
+assert.deepEqual(counts(newPhrases,"episode"),{"S01E01":2,"S01E02":7,"S01E04":2,"S01E05":1,"S01E06":1,"S01E07":3,"S01E09":3,"S01E13":1,"S01E14":1,"S02E01":2,"S02E03":2,"S02E04":1,"S02E05":1,"S02E06":1,"S02E09":1,"S02E10":1,"S02E12":1,"S02E13":34,"S02E14":41,"S02E15":29});
+assert.deepEqual(counts(newPhrases,"type"),{"grammar":7,"idiom":13,"pattern":17,"phrasal verb":11,"phrase":82,"word":5});
+assert.deepEqual(counts(newPhrases,"frequency"),{"frequent":57,"general":70,"limited":8});
+assert.deepEqual(counts(newPhrases,"register"),{"casual":48,"neutral":83,"polite":2,"slang":2});
 assert.deepEqual(counts(newPhrases,"priority"),{"1":8,"2":44,"3":83});
 assert.equal(newPhrases.filter(phrase=>Object.prototype.hasOwnProperty.call(phrase,"note")).length,26);
 
@@ -71,7 +65,7 @@ const findNew=headline=>newPhrases.find(phrase=>phrase.phrase===headline);
 assert.notEqual(findNew("get out of here").meaning,byId.get("p1553").meaning);
 assert.notEqual(findNew("go with ~").meaning,byId.get("p1212").meaning);
 assert.ok(findNew("Nice meeting you."));
-assert.ok(findNew("Nice to meet you."));
+assert.equal(findNew("Nice to meet you. / Good to meet you.")?.id,"p1880");
 
 const friendsNames=/レイチェル|モニカ|フィービー|ロス|チャンドラー|ジョーイ|キャロル|スーザン|バリー|ミンディ|ジュリー|リチャード|ガンター|ジャニス|マルセル|フランク|エステル|ジャック|ジュディ|Friends|フレンズ/;
 const episodeSpecificScene=/S\d{2}E\d{2}|エピソード|作中/;
@@ -83,6 +77,13 @@ const exactDuplicates=Object.fromEntries([...new Set(phrases.map(phrase=>phrase.
   .map(headline=>[headline,phrases.filter(phrase=>phrase.phrase.toLowerCase()===headline).map(phrase=>phrase.id).sort()])
   .filter(([,ids])=>ids.length>1));
 assert.deepEqual(exactDuplicates,{
+  "at the end of the day":["p110","p2811"],
+  "back up":["p1787","p2735"],
+  "burn out":["p1196","p2571"],
+  "come by":["p1596","p2607"],
+  "get out!":["p2528","p2612"],
+  "huge":["p125","p2827"],
+  "leave someone alone":["p1114","p2718"],
   "be all over someone":["p1721","p2428"],
   "be with someone":["p1234","p1500"],
   "catch on":["p1106","p364"],
