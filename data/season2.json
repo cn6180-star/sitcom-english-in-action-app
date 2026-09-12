@@ -1862,6 +1862,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 39,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2055,6 +2056,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 29,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -2326,6 +2328,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 19,
       "frequency": "frequent",
       "register": "neutral",
       "note": "命令形で相手に言うと「文句を言わず受け入れろ」という強い響きになることがある。"
@@ -2525,6 +2528,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 12,
       "frequency": "frequent",
       "register": "neutral",
       "note": "fineとokayは、この用法ではどちらも許容・了承を表す。"
@@ -2642,6 +2646,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 54,
       "frequency": "frequent",
       "register": "casual",
       "note": "`Big deal!`や`no big deal`とは形と会話上の働きが異なる。"
@@ -2681,6 +2686,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 21,
       "frequency": "frequent",
       "register": "neutral",
       "note": "`by the by`よりはるかに一般的な現代英語。"
@@ -2721,6 +2727,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 50,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2740,6 +2747,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 77,
       "frequency": "frequent",
       "register": "neutral",
       "note": "`give someone another chance`は、一度失敗した相手に再び機会を与える意味。"
@@ -2760,6 +2768,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 19,
       "frequency": "frequent",
       "register": "neutral",
       "note": "控えめな肯定評価。イントネーションによってはかなり好意的な意味にもなる。"
@@ -2799,6 +2808,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 13,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2895,6 +2905,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 12,
       "frequency": "general",
       "register": "neutral"
     },
@@ -2914,6 +2925,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 51,
       "frequency": "frequent",
       "register": "neutral",
       "note": "悪い予感を打ち消したいときや、驚き・呆れを強く示すときに使う。"
@@ -3109,6 +3121,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 49,
       "frequency": "frequent",
       "register": "casual",
       "note": "相手の判断を責める響きが強い。純粋に考えを尋ねる質問とは異なる。"
@@ -3462,6 +3475,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 36,
       "frequency": "general",
       "register": "neutral",
       "note": "`plan on`の後ろには名詞または動名詞を置く。"
@@ -4262,6 +4276,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 35,
       "frequency": "frequent",
       "register": "neutral",
       "note": "感情・過去・執着を「手放す」という比喩的な意味でも使う。"
@@ -4458,6 +4473,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 32,
       "frequency": "frequent",
       "register": "casual",
       "note": "`kind of`と`sort of`はこの用法ではほぼ同じ。くだけた会話では`kinda`、`sorta`とも発音される。"
@@ -4478,6 +4494,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 62,
       "frequency": "general",
       "register": "neutral",
       "note": "通常、`no`、`not`、`nothing`などの否定表現を強調する。"
@@ -4498,6 +4515,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 31,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -4517,6 +4535,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 48,
       "frequency": "frequent",
       "register": "casual",
       "note": "`gotta`は`have got to`の非常にカジュアルな発音・表記。"
@@ -4556,6 +4575,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 123,
       "frequency": "frequent",
       "register": "polite"
     },
@@ -4594,6 +4614,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 14,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -4671,6 +4692,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 57,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -4729,6 +4751,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 43,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -4786,6 +4809,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 50,
       "frequency": "frequent",
       "register": "neutral",
       "note": "後ろに目的語を置く用法と、考えながら「ええと」と言う用法がある。"
@@ -4806,6 +4830,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 60,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -4825,6 +4850,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 38,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -4863,6 +4889,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 100,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -4882,6 +4909,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 21,
       "frequency": "frequent",
       "register": "casual",
       "note": "`I got it.`は文脈によって「私がやる／任せて」という別の意味になる。"
@@ -5136,6 +5164,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 11,
       "frequency": "general",
       "register": "casual",
       "note": "`figure something out`「考えて答えを出す」とは構文が異なる。"
@@ -5292,6 +5321,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 45,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -5521,6 +5551,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 83,
       "frequency": "general",
       "register": "casual"
     },
@@ -5599,6 +5630,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 69,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -5904,6 +5936,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 42,
       "frequency": "general",
       "register": "casual"
     },
@@ -6347,6 +6380,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 16,
       "frequency": "frequent",
       "register": "casual",
       "note": "言い方によっては強く突き放す表現になる。"
@@ -6367,6 +6401,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 2,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -6463,6 +6498,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 96,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -6580,6 +6616,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 117,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -6599,6 +6636,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 32,
       "frequency": "frequent",
       "register": "casual",
       "note": "文脈・口調によっては同情ではなく「知ったことではない」という冷たい表現になる。"
@@ -6714,6 +6752,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 111,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -6904,6 +6943,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 47,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -6961,6 +7001,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 65,
       "frequency": "general",
       "register": "neutral"
     },
@@ -7057,6 +7098,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 93,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -7095,6 +7137,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 10,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -7133,6 +7176,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 15,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -7402,6 +7446,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 2,
       "frequency": "general",
       "register": "neutral",
       "note": "Nothing comes close.は「ほかに匹敵するものはない」。come close to doingは「もう少しで～する」。"
@@ -7536,6 +7581,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 7,
       "frequency": "general",
       "register": "neutral"
     },
@@ -7575,6 +7621,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 52,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -7633,6 +7680,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 30,
       "frequency": "general",
       "register": "neutral"
     },
@@ -8016,6 +8064,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 18,
       "frequency": "general",
       "register": "slang",
       "note": "怒りや反発を表す粗い言い方。The hell with ~.という形もある。丁寧な場面には向かない。"
@@ -8437,6 +8486,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 13,
       "frequency": "frequent",
       "register": "neutral",
       "note": "`that`は省略可能。`主語 + turn out to be + 補語`とは意味が近いが、後ろに節を続ける別構文。"
@@ -8515,6 +8565,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 63,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -8534,6 +8585,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 62,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -8592,6 +8644,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 49,
       "frequency": "frequent",
       "register": "casual",
       "note": "会話では`have got to`が`have gotta`や`gotta`のように発音されることが多い。"
@@ -8632,6 +8685,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 1,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -8670,6 +8724,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 86,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -8748,6 +8803,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 20,
       "frequency": "general",
       "register": "casual",
       "note": "`all`が後ろの形容詞を口語的に強調する。"
@@ -8979,6 +9035,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 26,
       "frequency": "frequent",
       "register": "casual",
       "note": "Thank God! だけで「よかった／助かった」という安堵も表せる。"
@@ -9402,6 +9459,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 20,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -9440,6 +9498,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 45,
       "frequency": "frequent",
       "register": "neutral",
       "note": "do nothing butの後に動詞原形を置いて「～ばかりする」と表す。"
@@ -9651,6 +9710,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 17,
       "frequency": "frequent",
       "register": "casual",
       "note": "依頼への「承知しました」。理解を示す`Got it.`や、自分が担当すると申し出る`I got it.`とは機能が異なる。"
@@ -10264,6 +10324,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 74,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -10302,6 +10363,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 11,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -10935,6 +10997,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 49,
       "frequency": "general",
       "register": "casual"
     },
@@ -11087,6 +11150,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 22,
       "frequency": "frequent",
       "register": "casual",
       "note": "強い断言。宗教的な誓いに限らず日常会話で使う。"
@@ -11145,6 +11209,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 19,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11164,6 +11229,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 36,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11183,6 +11249,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 88,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11221,6 +11288,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 101,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11336,6 +11404,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 55,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11375,6 +11444,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 31,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11394,6 +11464,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 23,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11451,6 +11522,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 17,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11470,6 +11542,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 36,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11546,6 +11619,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 53,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11584,6 +11658,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 61,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -11641,6 +11716,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 33,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -11660,6 +11736,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 27,
       "frequency": "frequent",
       "register": "casual",
       "note": "`Here we go again.`では、好ましくないことの繰り返しへの呆れも表す。"
@@ -12198,6 +12275,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 77,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12351,6 +12429,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 81,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12907,6 +12986,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 2,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12983,6 +13063,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 58,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13252,6 +13333,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 78,
       "frequency": "limited",
       "register": "casual"
     },
@@ -13385,6 +13467,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 30,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13480,6 +13563,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 38,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13635,6 +13719,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 65,
       "frequency": "frequent",
       "register": "casual",
       "note": "既存の`That’s it!`（もういい／これで決まり）とはイントネーションと会話機能が異なる。"
@@ -13674,6 +13759,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 17,
       "frequency": "frequent",
       "register": "neutral",
       "note": "ここでは物理的に開ける意味。心を開く、空きが生じる意味の既存recordとは別義。"
@@ -14888,6 +14974,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 64,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -15696,6 +15783,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 28,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -17543,6 +17631,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 52,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -18175,6 +18264,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 34,
       "frequency": "general",
       "register": "neutral"
     },

@@ -49,6 +49,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 45,
       "frequency": "frequent",
       "register": "neutral",
       "note": "絆創膏を一気にはがすことにたとえ、気まずいことを素早く済ませる。pull the Band-Aid off / rip the Band-Aid offの語順も使う。"
@@ -538,6 +539,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 47,
       "frequency": "frequent",
       "register": "neutral"
     },

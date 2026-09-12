@@ -14,6 +14,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 20,
       "frequency": "general",
       "register": "neutral"
     },
@@ -30,6 +31,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 86,
       "frequency": "general",
       "register": "neutral"
     },
@@ -46,6 +48,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 89,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -62,6 +65,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 114,
       "frequency": "frequent",
       "register": "slang"
     },
@@ -78,6 +82,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 120,
       "frequency": "frequent",
       "register": "casual",
       "note": "What’s up with ~?というvariationもある。言い方によっては、相手を責めたり不満を示したりしているように聞こえることがある。"
@@ -95,6 +100,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 30,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -111,6 +117,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 29,
       "frequency": "general",
       "register": "neutral"
     },
@@ -130,6 +137,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 73,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -146,6 +154,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 67,
       "frequency": "general",
       "register": "neutral"
     },
@@ -162,6 +171,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 68,
       "frequency": "general",
       "register": "neutral"
     },
@@ -178,6 +188,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 85,
       "frequency": "general",
       "register": "neutral"
     },
@@ -194,6 +205,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 53,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -210,6 +222,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 5,
       "frequency": "general",
       "register": "neutral"
     },
@@ -226,6 +239,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 8,
       "frequency": "frequent",
       "register": "slang"
     },
@@ -242,6 +256,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 42,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -258,6 +273,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 54,
       "frequency": "general",
       "register": "neutral"
     },
@@ -274,6 +290,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 55,
       "frequency": "general",
       "register": "neutral"
     },
@@ -290,6 +307,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 57,
       "frequency": "general",
       "register": "neutral"
     },
@@ -306,6 +324,7 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 1,
       "frequency": "limited",
       "register": "formal"
     },
@@ -325,6 +344,7 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 12,
       "frequency": "limited",
       "register": "formal",
       "note": "動詞の用法。形容詞consummate「完璧な／熟達した」とは別義。"
@@ -345,6 +365,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 30,
       "frequency": "limited",
       "register": "formal",
       "note": "電話応対でも `in reference to ~`（～の件で）を使える。"
@@ -362,6 +383,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 57,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -378,6 +400,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 1,
       "frequency": "general",
       "register": "neutral"
     },
@@ -394,6 +417,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 4,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -410,6 +434,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 10,
       "frequency": "limited",
       "register": "neutral"
     },
@@ -429,6 +454,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 13,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -445,6 +471,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 59,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -461,6 +488,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 1,
       "frequency": "general",
       "register": "neutral"
     },
@@ -477,6 +505,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 11,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -546,6 +575,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 54,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -998,6 +1028,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 41,
       "frequency": "frequent",
       "register": "slang"
     },
@@ -1752,6 +1783,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 82,
       "frequency": "general",
       "register": "neutral"
     },
@@ -1931,6 +1963,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 38,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1950,6 +1983,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 74,
       "frequency": "general",
       "register": "neutral"
     },
@@ -1969,6 +2003,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 33,
       "frequency": "general",
       "register": "neutral"
     },
@@ -1988,6 +2023,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 27,
       "frequency": "general",
       "register": "casual"
     },
@@ -2007,6 +2043,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 46,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2027,6 +2064,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 15,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -2046,6 +2084,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 22,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2065,6 +2104,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 26,
       "frequency": "frequent",
       "register": "neutral",
       "note": "`I`は話し手個人、`we`は話し手を含む複数、`you`は相手の知識の限界を示す。いずれも「実際は～かもしれない」の意味。"
@@ -2085,6 +2125,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 29,
       "frequency": "frequent",
       "register": "slang",
       "note": "ここでは仕事・授業・用事などを「サボる／放り出す」用法。`blow someone off`（人を無視する／すっぽかす）とは別Phrase。"
@@ -2124,6 +2165,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 2,
       "frequency": "general",
       "register": "neutral"
     },
@@ -2143,6 +2185,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 18,
       "frequency": "general",
       "register": "neutral",
       "note": "物を広げるときは他動詞。人々が分散するときは自動詞。"
@@ -2163,6 +2206,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 47,
       "frequency": "frequent",
       "register": "slang"
     },
@@ -2182,6 +2226,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 84,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2666,6 +2711,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 19,
       "frequency": "general",
       "register": "neutral"
     },
@@ -2742,6 +2788,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 6,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2761,6 +2808,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 23,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2780,6 +2828,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 28,
       "frequency": "general",
       "register": "casual",
       "note": "性的な意味で使う。"
@@ -2800,6 +2849,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 87,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -2819,6 +2869,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 9,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2838,6 +2889,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 64,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2857,6 +2909,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 59,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -2876,6 +2929,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 69,
       "frequency": "frequent",
       "register": "casual",
       "note": "ここでは「理解する／気づく」義。流行する意味とは別。"
@@ -2896,6 +2950,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 85,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -2915,6 +2970,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 3,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -2934,6 +2990,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 54,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2953,6 +3010,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 52,
       "frequency": "frequent",
       "register": "slang",
       "note": "親しい間柄では驚きにも使うが、相手に黙れと言う意味では強く失礼になりうる。"
@@ -2973,6 +3031,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 90,
       "frequency": "general",
       "register": "slang",
       "note": "強いくだけた言い方。相手や場面を選ぶ。"
@@ -2993,6 +3052,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 56,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3012,6 +3072,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 119,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3031,6 +3092,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 16,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3050,6 +3112,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 2,
       "frequency": "frequent",
       "register": "casual",
       "note": "促し・不満・信じられなさなど、文脈でニュアンスが変わる。"
@@ -3070,6 +3133,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 118,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3089,6 +3153,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 47,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3108,6 +3173,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 17,
       "frequency": "general",
       "register": "casual"
     },
@@ -3127,6 +3193,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 38,
       "frequency": "general",
       "register": "casual"
     },
@@ -3146,6 +3213,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 41,
       "frequency": "limited",
       "register": "neutral"
     },
@@ -3165,6 +3233,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 42,
       "frequency": "general",
       "register": "casual"
     },
@@ -3184,6 +3253,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 69,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3203,6 +3273,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 34,
       "frequency": "general",
       "register": "casual"
     },
@@ -3222,6 +3293,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 46,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3241,6 +3313,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 78,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3260,6 +3333,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 76,
       "frequency": "general",
       "register": "neutral"
     },
@@ -3279,6 +3353,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 2,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3298,6 +3373,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 83,
       "frequency": "frequent",
       "register": "casual",
       "note": "「運動する」など別の意味もある。ここでは「うまくいく／解決する」義。"
@@ -3318,6 +3394,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 59,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3337,6 +3414,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 48,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3356,6 +3434,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 10,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3375,6 +3454,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 56,
       "frequency": "frequent",
       "register": "neutral",
       "note": "反対の意味は fall out of love with someone。"
@@ -3395,6 +3475,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 8,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3414,6 +3495,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 27,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3433,6 +3515,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 66,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -3471,6 +3554,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 29,
       "frequency": "general",
       "register": "neutral"
     },
@@ -3490,6 +3574,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 40,
       "frequency": "general",
       "register": "casual"
     },
@@ -3509,6 +3594,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 31,
       "frequency": "frequent",
       "register": "casual",
       "note": "let something go も使う。命令形は相手によっては強く響く。"
@@ -3529,6 +3615,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 44,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3548,6 +3635,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 46,
       "frequency": "general",
       "register": "casual",
       "note": "no big deal とは別の表現。文脈によって皮肉に聞こえる。"
@@ -3568,6 +3656,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 52,
       "frequency": "frequent",
       "register": "casual",
       "note": "get over someone とは別。命令形は強く聞こえることがある。"
@@ -3588,6 +3677,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 68,
       "frequency": "general",
       "register": "neutral"
     },
@@ -3607,6 +3697,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 67,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3626,6 +3717,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 64,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3645,6 +3737,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 1,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3664,6 +3757,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 61,
       "frequency": "general",
       "register": "casual"
     },
@@ -3683,6 +3777,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 25,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3702,6 +3797,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 22,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3721,6 +3817,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 27,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3740,6 +3837,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 75,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3759,6 +3857,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 115,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3778,6 +3877,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 26,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3797,6 +3897,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 5,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3816,6 +3917,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 16,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -3835,6 +3937,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 29,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3854,6 +3957,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 39,
       "frequency": "general",
       "register": "neutral"
     },
@@ -3873,6 +3977,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 43,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3892,6 +3997,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 45,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3930,6 +4036,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 52,
       "frequency": "general",
       "register": "neutral"
     },
@@ -3949,6 +4056,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 36,
       "frequency": "frequent",
       "register": "casual",
       "note": "挑発的・突き放すように聞こえることがある。"
@@ -3969,6 +4077,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 18,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -3988,6 +4097,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 9,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -4007,6 +4117,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 35,
       "frequency": "frequent",
       "register": "neutral",
       "note": "ここでは目的語を伴う「手放す／やめる」義。"
@@ -4027,6 +4138,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 6,
       "frequency": "general",
       "register": "casual"
     },
@@ -4046,6 +4158,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 7,
       "frequency": "general",
       "register": "casual"
     },
@@ -4065,6 +4178,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 12,
       "frequency": "general",
       "register": "casual"
     },
@@ -4084,6 +4198,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 31,
       "frequency": "general",
       "register": "casual"
     },
@@ -4103,6 +4218,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 33,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -4122,6 +4238,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 36,
       "frequency": "general",
       "register": "casual"
     },
@@ -4141,6 +4258,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 40,
       "frequency": "general",
       "register": "neutral"
     },
@@ -4160,6 +4278,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 51,
       "frequency": "general",
       "register": "casual"
     },
@@ -4198,6 +4317,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 55,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -4217,6 +4337,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 56,
       "frequency": "general",
       "register": "casual"
     },
@@ -4236,6 +4357,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 25,
       "frequency": "frequent",
       "register": "casual",
       "note": "「はいどうぞ」「ほらね」「それでOK」など文脈で意味が変わる。"
@@ -4256,6 +4378,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 3,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -4275,6 +4398,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 4,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -4294,6 +4418,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 5,
       "frequency": "general",
       "register": "casual"
     },
@@ -4313,6 +4438,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 10,
       "frequency": "general",
       "register": "slang",
       "note": "くだけた表現。hellを含むため場面を選ぶ。"
@@ -4333,6 +4459,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 13,
       "frequency": "general",
       "register": "casual",
       "note": "ここでは恋愛関係になる義。一般的な「関与する」とは区別する。"
@@ -4353,6 +4480,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 15,
       "frequency": "general",
       "register": "casual"
     },
@@ -4372,6 +4500,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 15,
       "frequency": "frequent",
       "register": "casual",
       "note": "Good for me! は自己称賛。Good for you! は口調によって皮肉にもなる。"
@@ -4392,6 +4521,7 @@
       "priority": 1,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 16,
       "frequency": "limited",
       "register": "formal"
     },
@@ -4411,6 +4541,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 22,
       "frequency": "general",
       "register": "casual"
     },
@@ -4430,6 +4561,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 41,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -4449,6 +4581,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 42,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -4468,6 +4601,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 46,
       "frequency": "general",
       "register": "casual"
     },
@@ -4487,6 +4621,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 48,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -4852,6 +4987,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 56,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -5331,6 +5467,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 20,
       "frequency": "general",
       "register": "casual",
       "note": "ここでは「理解する／同意する」義。恋愛関係を表す義とは別。"
@@ -6120,6 +6257,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 81,
       "frequency": "general",
       "register": "casual",
       "note": "ここでは比喩的に「明示する」義。文字をつづる意味とは別。"
@@ -7714,6 +7852,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 40,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -9336,6 +9475,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 79,
       "frequency": "frequent",
       "register": "casual",
       "id": "p2045"
@@ -9355,6 +9495,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 50,
       "frequency": "general",
       "register": "casual",
       "id": "p2046"
@@ -9374,6 +9515,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 80,
       "frequency": "frequent",
       "register": "neutral",
       "id": "p2047"
@@ -9393,6 +9535,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 71,
       "frequency": "frequent",
       "register": "neutral",
       "id": "p2048"
@@ -9412,6 +9555,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 51,
       "frequency": "frequent",
       "register": "neutral",
       "note": "`get back to someone`には「あとで返事をする」という別の用法もある。",
@@ -9433,6 +9577,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 23,
       "frequency": "frequent",
       "register": "casual",
       "note": "具体的な内容を繰り返さずJust think about it.と言えば、「とにかく考えてみて」と検討を促せる。"
@@ -9452,6 +9597,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 60,
       "frequency": "frequent",
       "register": "casual",
       "id": "p2051"
@@ -9471,6 +9617,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 32,
       "frequency": "frequent",
       "register": "casual",
       "id": "p2052"
@@ -9490,6 +9637,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 10,
       "frequency": "general",
       "register": "neutral",
       "id": "p2053"
@@ -9509,6 +9657,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 9,
       "frequency": "frequent",
       "register": "neutral",
       "id": "p2054"
@@ -9529,6 +9678,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 72,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -9567,6 +9717,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 63,
       "frequency": "general",
       "register": "neutral"
     },
@@ -9740,6 +9891,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 13,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -9930,6 +10082,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 71,
       "frequency": "frequent",
       "register": "neutral",
       "note": "電話がつながる、仕事を終えるなどの用法もある。",
@@ -9950,6 +10103,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 25,
       "frequency": "frequent",
       "register": "neutral",
       "id": "p2185"
@@ -9969,6 +10123,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 44,
       "frequency": "frequent",
       "register": "casual",
       "id": "p2186"
@@ -9988,6 +10143,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 80,
       "frequency": "general",
       "register": "neutral",
       "id": "p2187"
@@ -10007,6 +10163,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 55,
       "frequency": "frequent",
       "register": "neutral",
       "note": "単に同じ場所で眠る意味にもなるため、文脈で判断する。",
@@ -10028,6 +10185,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 108,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -10046,6 +10204,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 3,
       "frequency": "general",
       "register": "neutral",
       "id": "p2190"
@@ -10065,6 +10224,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 35,
       "frequency": "frequent",
       "register": "casual",
       "id": "p2191"
@@ -10219,6 +10379,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 32,
       "frequency": "frequent",
       "register": "neutral",
       "note": "飲食物を目的語にすると、まだ飲食を続けているというくだけた意味になる。"
@@ -10430,6 +10591,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 70,
       "frequency": "general",
       "register": "neutral"
     },
@@ -10449,6 +10611,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 25,
       "frequency": "frequent",
       "register": "neutral",
       "note": "代名詞は`take it off`のように動詞と副詞の間に置く。`take off`には「立ち去る」という別義もある。"
@@ -10528,6 +10691,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 1,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -10547,6 +10711,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 4,
       "frequency": "frequent",
       "register": "neutral",
       "note": "gotta は got to の口語形。ここでは義務ではなく「そうに違いない」という強い推測を表す。"
@@ -10567,6 +10732,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 5,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -10586,6 +10752,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 7,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -10605,6 +10772,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 8,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -10624,6 +10792,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 12,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -10643,6 +10812,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 14,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -10662,6 +10832,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 21,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -10681,6 +10852,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 22,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -10700,6 +10872,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 24,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -10719,6 +10892,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 27,
       "frequency": "frequent",
       "register": "polite"
     },
@@ -10738,6 +10912,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 34,
       "frequency": "frequent",
       "register": "polite"
     },
@@ -10757,6 +10932,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 39,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -10776,6 +10952,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 46,
       "frequency": "frequent",
       "register": "polite"
     },
@@ -10795,6 +10972,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 51,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -10814,6 +10992,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 53,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -10833,6 +11012,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 55,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -10852,6 +11032,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 58,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -10871,6 +11052,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 60,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -10890,6 +11072,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 65,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -10909,6 +11092,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 66,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -10928,6 +11112,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 67,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -10947,6 +11132,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 70,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -10966,6 +11152,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 98,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -10985,6 +11172,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 99,
       "frequency": "general",
       "register": "casual"
     },
@@ -11004,6 +11192,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 103,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11023,6 +11212,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 104,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11042,6 +11232,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 105,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11061,6 +11252,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 107,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11080,6 +11272,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 106,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -11099,6 +11292,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 112,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11118,6 +11312,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 116,
       "frequency": "general",
       "register": "casual"
     },
@@ -11137,6 +11332,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 92,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11156,6 +11352,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 97,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -11175,6 +11372,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 122,
       "frequency": "frequent",
       "register": "polite"
     },
@@ -11194,6 +11392,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 3,
       "frequency": "general",
       "register": "neutral"
     },
@@ -11213,6 +11412,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 4,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11232,6 +11432,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 7,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11251,6 +11452,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 9,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11270,6 +11472,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 12,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -11289,6 +11492,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 14,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11308,6 +11512,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 16,
       "frequency": "general",
       "register": "neutral"
     },
@@ -11327,6 +11532,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 18,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -11346,6 +11552,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 21,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11365,6 +11572,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 22,
       "frequency": "general",
       "register": "neutral"
     },
@@ -11384,6 +11592,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 26,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11403,6 +11612,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 25,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11422,6 +11632,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 31,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11441,6 +11652,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 32,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11460,6 +11672,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 5,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11479,6 +11692,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 40,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11498,6 +11712,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 44,
       "frequency": "general",
       "register": "neutral"
     },
@@ -11517,6 +11732,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 49,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11536,6 +11752,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 50,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11555,6 +11772,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 51,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11574,6 +11792,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 60,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -11593,6 +11812,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 24,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11612,6 +11832,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 71,
       "frequency": "general",
       "register": "casual"
     },
@@ -11631,6 +11852,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 72,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11650,6 +11872,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 79,
       "frequency": "general",
       "register": "neutral",
       "note": "本当に感謝するときにも、聞きたくなかった話に皮肉で返すときにも使う。口調と文脈で判断する。"
@@ -11670,6 +11893,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 82,
       "frequency": "general",
       "register": "neutral"
     },
@@ -11689,6 +11913,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 4,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -11708,6 +11933,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 6,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -11727,6 +11953,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 3,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11746,6 +11973,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 9,
       "frequency": "general",
       "register": "neutral"
     },
@@ -11765,6 +11993,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 10,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11784,6 +12013,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 14,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11803,6 +12033,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 24,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11822,6 +12053,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 30,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11841,6 +12073,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 32,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11860,6 +12093,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 33,
       "frequency": "frequent",
       "register": "polite"
     },
@@ -11879,6 +12113,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 34,
       "frequency": "frequent",
       "register": "polite"
     },
@@ -11898,6 +12133,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 37,
       "frequency": "general",
       "register": "neutral"
     },
@@ -11917,6 +12153,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 39,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11936,6 +12173,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 41,
       "frequency": "general",
       "register": "neutral"
     },
@@ -11955,6 +12193,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 43,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11974,6 +12213,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 48,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -11993,6 +12233,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 58,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12012,6 +12253,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 59,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12031,6 +12273,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 62,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12050,6 +12293,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 63,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12069,6 +12313,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 66,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12088,6 +12333,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 72,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12107,6 +12353,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 73,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -12126,6 +12373,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 74,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12145,6 +12393,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 76,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12164,6 +12413,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 77,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -12183,6 +12433,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 28,
       "frequency": "general",
       "register": "casual",
       "note": "この用法は批判だけに限らず、相手に集中的に関わること。別の文脈では、熱心に言い寄る・身体を密着させる意味にもなる。"
@@ -12203,6 +12454,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 16,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12222,6 +12474,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 70,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12241,6 +12494,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 76,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12260,6 +12514,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 15,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12279,6 +12534,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 84,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12298,6 +12554,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 61,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12317,6 +12574,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 6,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12336,6 +12594,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 45,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12355,6 +12614,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 124,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12374,6 +12634,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 91,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12393,6 +12654,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 110,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12412,6 +12674,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 68,
       "frequency": "general",
       "register": "slang",
       "note": "粗い口語表現。ここでは性的な意味ではなく、不当な扱いで損をする意味。"
@@ -12432,6 +12695,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 113,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12451,6 +12715,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 121,
       "frequency": "general",
       "register": "casual",
       "note": "噛みつかれても気づかない、という誇張。相手を侮辱する響きがある。someoneの位置には主語に対応する目的格を置く。"
@@ -12471,6 +12736,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 57,
       "frequency": "frequent",
       "register": "casual",
       "note": "主にくだけたアメリカ英語。Me neither.も使う。肯定への同意にはMe too.を使う。"
@@ -12491,6 +12757,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 35,
       "frequency": "general",
       "register": "casual",
       "note": "ここでは言葉による攻撃の比喩。文脈によっては最初の射撃やシュートを指す。"
@@ -12511,6 +12778,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 37,
       "frequency": "frequent",
       "register": "casual",
       "note": "「これで終わり」という終了の用法とは別に、動作が正しいことを伝える用法。"
@@ -12531,6 +12799,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 11,
       "frequency": "general",
       "register": "casual",
       "note": "単独の応答や程度の調整に使う用法。「AというよりB」を表すnot so much A as Bとは構文が異なる。"
@@ -12551,6 +12820,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 4,
       "frequency": "frequent",
       "register": "casual",
       "note": "依頼というより、驚きや感心を共有する呼びかけ。"
@@ -12571,6 +12841,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 6,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12590,6 +12861,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 8,
       "frequency": "frequent",
       "register": "casual",
       "note": "wayはtooを強めるくだけた副詞。"
@@ -12610,6 +12882,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 11,
       "frequency": "general",
       "register": "neutral",
       "note": "half fullは残っている良い面に注目する楽観的な見方。"
@@ -12630,6 +12903,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 13,
       "frequency": "frequent",
       "register": "neutral",
       "note": "自動詞pass onの「亡くなる」とは別義。"
@@ -12650,6 +12924,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 14,
       "frequency": "general",
       "register": "casual"
     },
@@ -12669,6 +12944,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 20,
       "frequency": "frequent",
       "register": "neutral",
       "note": "食べ物を目的語にすると「主にそれを食べて生きる」の意味にもなる。"
@@ -12689,6 +12965,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 23,
       "frequency": "general",
       "register": "neutral"
     },
@@ -12708,6 +12985,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 24,
       "frequency": "general",
       "register": "neutral",
       "note": "スポーツのタイムから、日常の一時中断にも使う。time-outとも表記する。"
@@ -12728,6 +13006,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 26,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12747,6 +13026,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 33,
       "frequency": "frequent",
       "register": "neutral",
       "note": "Now that you mention itとも言う。"
@@ -12767,6 +13047,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 37,
       "frequency": "frequent",
       "register": "casual",
       "note": "必ずしも正確に50％という意味ではない。"
@@ -12787,6 +13068,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 38,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12806,6 +13088,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 43,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12825,6 +13108,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 41,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12844,6 +13128,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 42,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12863,6 +13148,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 44,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12882,6 +13168,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 48,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12901,6 +13188,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 28,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -12920,6 +13208,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 73,
       "frequency": "frequent",
       "register": "casual",
       "note": "依頼のpleaseではなく、反論やあきれを示す。口調に注意。"
@@ -12940,6 +13229,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 53,
       "frequency": "frequent",
       "register": "casual",
       "note": "強いいらだちがあり、丁寧な制止ではない。"
@@ -12960,6 +13250,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 56,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -12979,6 +13270,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 58,
       "frequency": "general",
       "register": "casual",
       "note": "主に子どもの決まり文句。実際の所有権を定める規則ではない。"
@@ -12999,6 +13291,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 59,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13018,6 +13311,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 3,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -13037,6 +13331,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 5,
       "frequency": "general",
       "register": "casual",
       "note": "noneを強調する独立応答。"
@@ -13057,6 +13352,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 8,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13076,6 +13372,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 11,
       "frequency": "frequent",
       "register": "neutral",
       "note": "人を主語にしたbe up to someone「人次第」とは別の構文。"
@@ -13096,6 +13393,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 17,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13115,6 +13413,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 18,
       "frequency": "general",
       "register": "casual",
       "note": "文字通りの祈りにも、あきれた誇張にも使う。"
@@ -13135,6 +13434,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 19,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13154,6 +13454,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 21,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13173,6 +13474,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 23,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13192,6 +13494,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 34,
       "frequency": "general",
       "register": "casual",
       "note": "注目されたくない失敗を隠す冗談にも使う。"
@@ -13212,6 +13515,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 35,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13231,6 +13535,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 37,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -13250,6 +13555,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 41,
       "frequency": "frequent",
       "register": "neutral",
       "note": "命令のGrow up!では「大人になれ／子どもっぽいことをするな」。"
@@ -13270,6 +13576,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 42,
       "frequency": "frequent",
       "register": "neutral",
       "note": "listen toは実際に聞こえているものに耳を傾ける。forは聞き取る対象を待ち構える。"
@@ -13290,6 +13597,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 43,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13309,6 +13617,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 75,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13328,6 +13637,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 46,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13347,6 +13657,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 47,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13366,6 +13677,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 48,
       "frequency": "general",
       "register": "neutral"
     },
@@ -13385,6 +13697,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 50,
       "frequency": "general",
       "register": "neutral"
     },
@@ -13404,6 +13717,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 52,
       "frequency": "general",
       "register": "neutral"
     },
@@ -13423,6 +13737,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 53,
       "frequency": "general",
       "register": "casual",
       "note": "実際に移動するのではなく、頭の中で心地よい場面を思い浮かべる比喩。"
@@ -13443,6 +13758,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 54,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13462,6 +13778,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 57,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13481,6 +13798,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 58,
       "frequency": "frequent",
       "register": "neutral",
       "note": "口語ではought toがoughtaになる。ここでは義務ではなく見込みを表す。"
@@ -13501,6 +13819,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 44,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13520,6 +13839,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 6,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13539,6 +13859,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 7,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13558,6 +13879,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 8,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13577,6 +13899,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 9,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13596,6 +13919,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 17,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13615,6 +13939,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 45,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13634,6 +13959,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 19,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13653,6 +13979,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 20,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13672,6 +13999,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 23,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13691,6 +14019,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 24,
       "frequency": "frequent",
       "register": "casual",
       "note": "言い方によっては相手を責める響きがある。"
@@ -13711,6 +14040,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 25,
       "frequency": "frequent",
       "register": "neutral",
       "note": "with someoneや恋愛の文脈では性的関係をほのめかす場合があるが、それ自体では限定されない。"
@@ -13731,6 +14061,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 109,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13750,6 +14081,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 26,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13769,6 +14101,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 47,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13788,6 +14121,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 27,
       "frequency": "general",
       "register": "casual",
       "note": "偶然なくす意味ではなく、意図的に取り除く命令的な用法。"
@@ -13808,6 +14142,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 29,
       "frequency": "general",
       "register": "neutral"
     },
@@ -13827,6 +14162,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 30,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13846,6 +14182,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 33,
       "frequency": "general",
       "register": "neutral"
     },
@@ -13865,6 +14202,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 36,
       "frequency": "general",
       "register": "neutral",
       "note": "have sexより愛情や親密さを感じさせることが多い婉曲表現。"
@@ -13885,6 +14223,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 37,
       "frequency": "frequent",
       "register": "neutral",
       "note": "toの後ろに人を置く用法。feel obligated to doでは行為をする義務感を示す。"
@@ -13905,6 +14244,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 38,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13924,6 +14264,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 39,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13943,6 +14284,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 43,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13962,6 +14304,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 49,
       "frequency": "general",
       "register": "neutral"
     },
@@ -13981,6 +14324,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 50,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -14000,6 +14344,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 51,
       "frequency": "general",
       "register": "casual",
       "note": "疑問文内のor not「～かどうか」と区別。独立して後付けの撤回を示す。"
@@ -14020,6 +14365,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 14,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -14039,6 +14385,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 28,
       "frequency": "frequent",
       "register": "slang",
       "note": "粗い口語表現。suck at ~は「～が下手」という別構文。"
@@ -14059,6 +14406,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 7,
       "frequency": "general",
       "register": "casual",
       "note": "ここでは単にベッドの中にいるという位置ではなく性的な意味。"
@@ -14079,6 +14427,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 21,
       "frequency": "frequent",
       "register": "neutral",
       "note": "文脈によっては悪い結果に対し「自業自得」とも言える。"
@@ -14099,6 +14448,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 44,
       "frequency": "frequent",
       "register": "neutral",
       "note": "このtellは「話す」ではなく「分かる・見分ける」。"
@@ -14119,6 +14469,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 40,
       "frequency": "frequent",
       "register": "casual",
       "note": "ここでは退出を求める文字通りの意味。Get out of here!の驚き「まさか」と区別する。"
@@ -14139,6 +14490,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 15,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -14158,6 +14510,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
+      "sourceOrder": 28,
       "frequency": "frequent",
       "register": "neutral",
       "note": "ここでは提供・提案。How would you like your coffee?ではコーヒーの飲み方を尋ねる。"
@@ -14178,6 +14531,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
+      "sourceOrder": 31,
       "frequency": "general",
       "register": "casual",
       "note": "後半を省略して判断をほのめかす。相手を見下す響きや皮肉になることがある。"
@@ -14198,6 +14552,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
+      "sourceOrder": 24,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -14217,6 +14572,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
+      "sourceOrder": 18,
       "frequency": "frequent",
       "register": "casual"
     }

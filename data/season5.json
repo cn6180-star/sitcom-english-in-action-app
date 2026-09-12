@@ -347,6 +347,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 95,
       "frequency": "general",
       "register": "neutral"
     },
@@ -417,6 +418,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 40,
       "frequency": "general",
       "register": "neutral"
     },
@@ -1894,6 +1896,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
+      "sourceOrder": 94,
       "frequency": "general",
       "register": "neutral"
     },
@@ -2315,6 +2318,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
+      "sourceOrder": 35,
       "frequency": "general",
       "register": "neutral",
       "note": "I know this may sound ~, but ... とも言える。mayは「そう聞こえるかもしれない」と可能性を控えめに示す。"
