@@ -14,9 +14,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,2787);
-assert.equal(phraseIds.size,2787);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2835);
+assert.equal(phrases.length,2904);
+assert.equal(phraseIds.size,2904);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2952);
 
 const newIds=Array.from({length:135},(_,index)=>`p${1769+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
@@ -24,7 +24,7 @@ const newPhrases=newIds.map(id=>byId.get(id));
 const counts=(items,key)=>Object.fromEntries([...new Set(items.map(item=>item[key]))]
   .sort().map(value=>[value,items.filter(item=>item[key]===value).length]));
 
-assert.deepEqual(counts(newPhrases,"episode"),{"S01E01":2,"S01E02":7,"S01E04":2,"S01E05":1,"S01E06":1,"S01E07":3,"S01E09":3,"S01E13":1,"S01E14":1,"S02E01":2,"S02E03":2,"S02E04":1,"S02E05":1,"S02E06":1,"S02E09":1,"S02E10":1,"S02E12":1,"S02E13":34,"S02E14":41,"S02E15":29});
+assert.deepEqual(counts(newPhrases,"episode"),{"S01E01":2,"S01E02":7,"S01E04":2,"S01E05":1,"S01E06":1,"S01E07":3,"S01E09":3,"S01E13":1,"S01E14":1,"S01E18":1,"S02E01":2,"S02E03":2,"S02E04":1,"S02E05":1,"S02E06":1,"S02E09":1,"S02E10":1,"S02E12":1,"S02E13":33,"S02E14":41,"S02E15":29});
 assert.deepEqual(counts(newPhrases,"type"),{"grammar":7,"idiom":13,"pattern":17,"phrasal verb":11,"phrase":82,"word":5});
 assert.deepEqual(counts(newPhrases,"frequency"),{"frequent":57,"general":70,"limited":8});
 assert.deepEqual(counts(newPhrases,"register"),{"casual":48,"neutral":83,"polite":2,"slang":2});
@@ -77,6 +77,7 @@ const exactDuplicates=Object.fromEntries([...new Set(phrases.map(phrase=>phrase.
   .map(headline=>[headline,phrases.filter(phrase=>phrase.phrase.toLowerCase()===headline).map(phrase=>phrase.id).sort()])
   .filter(([,ids])=>ids.length>1));
 assert.deepEqual(exactDuplicates,{
+  "you got me.":["p1371","p2942"],
   "at the end of the day":["p110","p2811"],
   "back up":["p1787","p2735"],
   "burn out":["p1196","p2571"],

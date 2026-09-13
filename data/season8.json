@@ -471,9 +471,10 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S08E06",
+      "episode": "S01E18",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 17
     },
     {
       "id": "p889",
@@ -539,7 +540,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 47,
+      "sourceOrder": 49,
       "frequency": "frequent",
       "register": "neutral"
     },

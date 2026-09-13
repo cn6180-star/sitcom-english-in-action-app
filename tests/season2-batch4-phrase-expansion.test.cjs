@@ -14,9 +14,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,2787);
-assert.equal(phraseIds.size,2787);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2835);
+assert.equal(phrases.length,2904);
+assert.equal(phraseIds.size,2904);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2952);
 
 const newIds=Array.from({length:83},(_,index)=>`p${1686+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
@@ -52,7 +52,7 @@ for(const phrase of newPhrases){
 }
 
 for(const [id,episode] of Object.entries({
-  p552:"S02E10",p715:"S02E10",p642:"S02E11",p288:"S02E11",
+  p552:"S02E10",p715:"S02E10",p642:"S01E17",p288:"S02E11",
   p317:"S02E11",p550:"S02E11",p281:"S01E01"
 }))assert.equal(byId.get(id)?.episode,episode,`${id} Episode move mismatch`);
 
@@ -81,6 +81,7 @@ const exactDuplicates=Object.fromEntries([...new Set(phrases.map(phrase=>phrase.
   .map(headline=>[headline,phrases.filter(phrase=>phrase.phrase.toLowerCase()===headline).map(phrase=>phrase.id).sort()])
   .filter(([,ids])=>ids.length>1));
 assert.deepEqual(exactDuplicates,{
+  "you got me.":["p1371","p2942"],
   "at the end of the day":["p110","p2811"],
   "back up":["p1787","p2735"],
   "burn out":["p1196","p2571"],

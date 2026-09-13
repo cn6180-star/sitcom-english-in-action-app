@@ -14,7 +14,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 21,
+      "sourceOrder": 24,
       "frequency": "general",
       "register": "neutral"
     },
@@ -31,7 +31,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 92,
+      "sourceOrder": 101,
       "frequency": "general",
       "register": "neutral"
     },
@@ -48,7 +48,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 95,
+      "sourceOrder": 104,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -65,7 +65,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 121,
+      "sourceOrder": 130,
       "frequency": "frequent",
       "register": "slang"
     },
@@ -82,7 +82,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 127,
+      "sourceOrder": 136,
       "frequency": "frequent",
       "register": "casual",
       "note": "What’s up with ~?というvariationもある。言い方によっては、相手を責めたり不満を示したりしているように聞こえることがある。"
@@ -137,7 +137,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 78,
+      "sourceOrder": 87,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -188,7 +188,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 88,
+      "sourceOrder": 89,
       "frequency": "general",
       "register": "neutral"
     },
@@ -256,7 +256,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 42,
+      "sourceOrder": 45,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -273,7 +273,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 55,
+      "sourceOrder": 58,
       "frequency": "general",
       "register": "neutral"
     },
@@ -290,7 +290,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 56,
+      "sourceOrder": 59,
       "frequency": "general",
       "register": "neutral"
     },
@@ -307,7 +307,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 58,
+      "sourceOrder": 61,
       "frequency": "general",
       "register": "neutral"
     },
@@ -365,7 +365,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 30,
+      "sourceOrder": 31,
       "frequency": "limited",
       "register": "formal",
       "note": "電話応対でも `in reference to ~`（～の件で）を使える。"
@@ -383,7 +383,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 57,
+      "sourceOrder": 59,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -471,7 +471,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
-      "sourceOrder": 59,
+      "sourceOrder": 60,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -682,7 +682,7 @@
       "episode": "S01E09",
       "frequency": "frequent",
       "register": "casual",
-      "sourceOrder": 15
+      "sourceOrder": 16
     },
     {
       "id": "p44",
@@ -699,7 +699,7 @@
       "episode": "S01E09",
       "frequency": "general",
       "register": "casual",
-      "sourceOrder": 23
+      "sourceOrder": 24
     },
     {
       "id": "p45",
@@ -716,7 +716,7 @@
       "episode": "S01E09",
       "frequency": "frequent",
       "register": "polite",
-      "sourceOrder": 55
+      "sourceOrder": 56
     },
     {
       "id": "p46",
@@ -868,7 +868,7 @@
       "episode": "S01E11",
       "frequency": "general",
       "register": "neutral",
-      "sourceOrder": 15
+      "sourceOrder": 16
     },
     {
       "id": "p55",
@@ -885,7 +885,7 @@
       "episode": "S01E11",
       "frequency": "general",
       "register": "neutral",
-      "sourceOrder": 17
+      "sourceOrder": 18
     },
     {
       "id": "p56",
@@ -902,7 +902,7 @@
       "episode": "S01E11",
       "frequency": "general",
       "register": "neutral",
-      "sourceOrder": 18
+      "sourceOrder": 19
     },
     {
       "id": "p60",
@@ -920,7 +920,7 @@
       "frequency": "limited",
       "register": "neutral",
       "note": "作中では受動態の be restrung の形で登場。",
-      "sourceOrder": 29
+      "sourceOrder": 30
     },
     {
       "id": "p61",
@@ -937,7 +937,7 @@
       "episode": "S01E11",
       "frequency": "general",
       "register": "casual",
-      "sourceOrder": 30
+      "sourceOrder": 31
     },
     {
       "id": "p63",
@@ -954,7 +954,7 @@
       "episode": "S01E11",
       "frequency": "frequent",
       "register": "neutral",
-      "sourceOrder": 62
+      "sourceOrder": 63
     },
     {
       "id": "p64",
@@ -971,7 +971,7 @@
       "episode": "S01E11",
       "frequency": "frequent",
       "register": "neutral",
-      "sourceOrder": 71
+      "sourceOrder": 72
     },
     {
       "id": "p65",
@@ -1005,7 +1005,7 @@
       "episode": "S01E12",
       "frequency": "frequent",
       "register": "neutral",
-      "sourceOrder": 27
+      "sourceOrder": 28
     },
     {
       "id": "p67",
@@ -1022,7 +1022,7 @@
       "episode": "S01E12",
       "frequency": "general",
       "register": "neutral",
-      "sourceOrder": 28
+      "sourceOrder": 29
     },
     {
       "id": "p68",
@@ -1039,7 +1039,7 @@
       "episode": "S01E12",
       "frequency": "general",
       "register": "neutral",
-      "sourceOrder": 31
+      "sourceOrder": 32
     },
     {
       "id": "p69",
@@ -1057,7 +1057,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 45,
+      "sourceOrder": 51,
       "frequency": "frequent",
       "register": "slang"
     },
@@ -1076,7 +1076,7 @@
       "episode": "S01E12",
       "frequency": "general",
       "register": "neutral",
-      "sourceOrder": 39
+      "sourceOrder": 40
     },
     {
       "id": "p71",
@@ -1093,7 +1093,7 @@
       "episode": "S01E12",
       "frequency": "limited",
       "register": "neutral",
-      "sourceOrder": 43
+      "sourceOrder": 44
     },
     {
       "id": "p72",
@@ -1111,7 +1111,7 @@
       "frequency": "limited",
       "register": "casual",
       "note": "通常はサイズや程度の「中」を表す語。それを気分への返答に転用した限定的な言い方で、例文も意図的に冗談めかしたもの。一般的な「まあまあ」にはso-soやnot too badなどを使う。",
-      "sourceOrder": 48
+      "sourceOrder": 49
     },
     {
       "id": "p73",
@@ -1128,7 +1128,7 @@
       "episode": "S01E12",
       "frequency": "frequent",
       "register": "neutral",
-      "sourceOrder": 49
+      "sourceOrder": 50
     },
     {
       "id": "p74",
@@ -1145,7 +1145,7 @@
       "episode": "S01E12",
       "frequency": "general",
       "register": "neutral",
-      "sourceOrder": 53
+      "sourceOrder": 54
     },
     {
       "id": "p75",
@@ -1462,7 +1462,8 @@
       "episode": "S01E16",
       "frequency": "frequent",
       "register": "neutral",
-      "note": "過去進行形 `was running it by someone` など、時制に応じて `run` を活用する。"
+      "note": "過去進行形 `was running it by someone` など、時制に応じて `run` を活用する。",
+      "sourceOrder": 19
     },
     {
       "id": "p94",
@@ -1497,7 +1498,8 @@
       "episode": "S01E16",
       "frequency": "general",
       "register": "neutral",
-      "note": "`flip someone for it`も使える。コインを投げてどちらにするか決める表現。"
+      "note": "`flip someone for it`も使える。コインを投げてどちらにするか決める表現。",
+      "sourceOrder": 25
     },
     {
       "id": "p96",
@@ -1513,7 +1515,8 @@
       "source": "Friends",
       "episode": "S01E16",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 47
     },
     {
       "id": "p97",
@@ -1545,7 +1548,8 @@
       "source": "Friends",
       "episode": "S01E17",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 38
     },
     {
       "id": "p99",
@@ -1561,7 +1565,8 @@
       "source": "Friends",
       "episode": "S01E18",
       "frequency": "frequent",
-      "register": "polite"
+      "register": "polite",
+      "sourceOrder": 32
     },
     {
       "id": "p101",
@@ -1577,7 +1582,8 @@
       "source": "Friends",
       "episode": "S01E18",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 64
     },
     {
       "id": "p102",
@@ -1593,7 +1599,8 @@
       "source": "Friends",
       "episode": "S01E18",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 65
     },
     {
       "id": "p103",
@@ -1738,7 +1745,9 @@
       "source": "Friends",
       "episode": "S01E18",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "note": "S01E18ではHello, kettle? ... You’re black.という形でことわざをもじる。自分も同じことをしている相手への皮肉。",
+      "sourceOrder": 31
     },
     {
       "id": "p113",
@@ -1836,7 +1845,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 87,
+      "sourceOrder": 96,
       "frequency": "general",
       "register": "neutral"
     },
@@ -2016,7 +2025,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 42,
+      "sourceOrder": 48,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2036,7 +2045,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 79,
+      "sourceOrder": 88,
       "frequency": "general",
       "register": "neutral"
     },
@@ -2056,7 +2065,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 36,
+      "sourceOrder": 42,
       "frequency": "general",
       "register": "neutral"
     },
@@ -2076,7 +2085,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 27,
+      "sourceOrder": 28,
       "frequency": "general",
       "register": "casual"
     },
@@ -2096,7 +2105,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 46,
+      "sourceOrder": 48,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2259,7 +2268,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 48,
+      "sourceOrder": 49,
       "frequency": "frequent",
       "register": "slang"
     },
@@ -2279,7 +2288,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 87,
+      "sourceOrder": 88,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2398,7 +2407,7 @@
       "frequency": "general",
       "register": "casual",
       "note": "variation: `Don’t take this the wrong way.`",
-      "sourceOrder": 14
+      "sourceOrder": 15
     },
     {
       "id": "p952",
@@ -2418,7 +2427,7 @@
       "episode": "S01E11",
       "frequency": "limited",
       "register": "neutral",
-      "sourceOrder": 27
+      "sourceOrder": 28
     },
     {
       "id": "p953",
@@ -2438,7 +2447,7 @@
       "episode": "S01E11",
       "frequency": "general",
       "register": "casual",
-      "sourceOrder": 65
+      "sourceOrder": 66
     },
     {
       "id": "p792",
@@ -2659,7 +2668,8 @@
       "source": "Friends",
       "episode": "S01E16",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 29
     },
     {
       "id": "p242",
@@ -2679,7 +2689,8 @@
       "episode": "S01E16",
       "frequency": "general",
       "register": "neutral",
-      "note": "variation: `It never occurred to someone to ~`"
+      "note": "variation: `It never occurred to someone to ~`",
+      "sourceOrder": 46
     },
     {
       "id": "p730",
@@ -2871,7 +2882,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 24,
+      "sourceOrder": 27,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2891,7 +2902,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 29,
+      "sourceOrder": 35,
       "frequency": "general",
       "register": "casual",
       "note": "性的な意味で使う。"
@@ -2912,7 +2923,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 93,
+      "sourceOrder": 102,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -2932,7 +2943,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 10,
+      "sourceOrder": 11,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2952,7 +2963,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 68,
+      "sourceOrder": 76,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -2972,7 +2983,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 63,
+      "sourceOrder": 71,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -2992,7 +3003,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 74,
+      "sourceOrder": 83,
       "frequency": "frequent",
       "register": "casual",
       "note": "ここでは「理解する／気づく」義。流行する意味とは別。"
@@ -3013,7 +3024,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 91,
+      "sourceOrder": 100,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3053,7 +3064,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 58,
+      "sourceOrder": 65,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -3073,7 +3084,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 56,
+      "sourceOrder": 63,
       "frequency": "frequent",
       "register": "slang",
       "note": "親しい間柄では驚きにも使うが、相手に黙れと言う意味では強く失礼になりうる。"
@@ -3094,7 +3105,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 96,
+      "sourceOrder": 105,
       "frequency": "general",
       "register": "slang",
       "note": "強いくだけた言い方。相手や場面を選ぶ。"
@@ -3115,7 +3126,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 60,
+      "sourceOrder": 68,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3135,7 +3146,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 126,
+      "sourceOrder": 135,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3155,7 +3166,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 17,
+      "sourceOrder": 20,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3196,7 +3207,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 125,
+      "sourceOrder": 134,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3216,7 +3227,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 51,
+      "sourceOrder": 58,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3436,7 +3447,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 86,
+      "sourceOrder": 87,
       "frequency": "frequent",
       "register": "casual",
       "note": "「運動する」など別の意味もある。ここでは「うまくいく／解決する」義。"
@@ -3617,7 +3628,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 29,
+      "sourceOrder": 31,
       "frequency": "general",
       "register": "neutral"
     },
@@ -3637,7 +3648,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 40,
+      "sourceOrder": 43,
       "frequency": "general",
       "register": "casual"
     },
@@ -3657,7 +3668,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 31,
+      "sourceOrder": 33,
       "frequency": "frequent",
       "register": "casual",
       "note": "let something go も使う。命令形は相手によっては強く響く。"
@@ -3678,7 +3689,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 44,
+      "sourceOrder": 47,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3698,7 +3709,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 46,
+      "sourceOrder": 49,
       "frequency": "general",
       "register": "casual",
       "note": "no big deal とは別の表現。文脈によって皮肉に聞こえる。"
@@ -3719,7 +3730,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 53,
+      "sourceOrder": 56,
       "frequency": "frequent",
       "register": "casual",
       "note": "get over someone とは別。命令形は強く聞こえることがある。"
@@ -3740,7 +3751,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 69,
+      "sourceOrder": 72,
       "frequency": "general",
       "register": "neutral"
     },
@@ -3760,7 +3771,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 68,
+      "sourceOrder": 71,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3780,7 +3791,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 65,
+      "sourceOrder": 68,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3820,7 +3831,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 62,
+      "sourceOrder": 65,
       "frequency": "general",
       "register": "casual"
     },
@@ -3840,7 +3851,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 25,
+      "sourceOrder": 26,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3860,7 +3871,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 22,
+      "sourceOrder": 23,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3880,7 +3891,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 27,
+      "sourceOrder": 28,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3900,7 +3911,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 76,
+      "sourceOrder": 79,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3920,7 +3931,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 122,
+      "sourceOrder": 131,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3940,7 +3951,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 26,
+      "sourceOrder": 27,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -3980,7 +3991,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 16,
+      "sourceOrder": 17,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -4000,7 +4011,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 29,
+      "sourceOrder": 30,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -4020,7 +4031,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 39,
+      "sourceOrder": 41,
       "frequency": "general",
       "register": "neutral"
     },
@@ -4040,7 +4051,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 43,
+      "sourceOrder": 45,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -4060,7 +4071,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 45,
+      "sourceOrder": 47,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -4100,7 +4111,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 52,
+      "sourceOrder": 54,
       "frequency": "general",
       "register": "neutral"
     },
@@ -4120,7 +4131,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 36,
+      "sourceOrder": 38,
       "frequency": "frequent",
       "register": "casual",
       "note": "挑発的・突き放すように聞こえることがある。"
@@ -4141,7 +4152,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 18,
+      "sourceOrder": 19,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -4181,7 +4192,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 35,
+      "sourceOrder": 37,
       "frequency": "frequent",
       "register": "neutral",
       "note": "ここでは目的語を伴う「手放す／やめる」義。"
@@ -4342,7 +4353,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
-      "sourceOrder": 51,
+      "sourceOrder": 52,
       "frequency": "general",
       "register": "casual"
     },
@@ -4381,7 +4392,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
-      "sourceOrder": 55,
+      "sourceOrder": 56,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -4401,7 +4412,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
-      "sourceOrder": 56,
+      "sourceOrder": 57,
       "frequency": "general",
       "register": "casual"
     },
@@ -4564,7 +4575,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 15,
+      "sourceOrder": 16,
       "frequency": "frequent",
       "register": "casual",
       "note": "Good for me! は自己称賛。Good for you! は口調によって皮肉にもなる。"
@@ -4605,7 +4616,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 22,
+      "sourceOrder": 23,
       "frequency": "general",
       "register": "casual"
     },
@@ -4625,7 +4636,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 41,
+      "sourceOrder": 42,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -4645,7 +4656,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 42,
+      "sourceOrder": 43,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -4665,7 +4676,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 47,
+      "sourceOrder": 48,
       "frequency": "general",
       "register": "casual"
     },
@@ -4685,7 +4696,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 49,
+      "sourceOrder": 50,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -4966,7 +4977,7 @@
       "episode": "S01E07",
       "frequency": "frequent",
       "register": "casual",
-      "sourceOrder": 75
+      "sourceOrder": 76
     },
     {
       "id": "p1205",
@@ -5064,7 +5075,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 57,
+      "sourceOrder": 60,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -5484,7 +5495,7 @@
       "episode": "S01E11",
       "frequency": "frequent",
       "register": "neutral",
-      "sourceOrder": 53
+      "sourceOrder": 54
     },
     {
       "id": "p1231",
@@ -5542,7 +5553,7 @@
       "episode": "S01E11",
       "frequency": "frequent",
       "register": "neutral",
-      "sourceOrder": 67
+      "sourceOrder": 68
     },
         {
       "id": "p1234",
@@ -5560,7 +5571,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 20,
+      "sourceOrder": 21,
       "frequency": "general",
       "register": "casual",
       "note": "ここでは「理解する／同意する」義。恋愛関係を表す義とは別。"
@@ -5583,7 +5594,7 @@
       "episode": "S01E09",
       "frequency": "general",
       "register": "neutral",
-      "sourceOrder": 53
+      "sourceOrder": 54
     },
     {
       "id": "p1236",
@@ -6048,7 +6059,7 @@
       "frequency": "frequent",
       "register": "casual",
       "note": "ここでは「落ち着いて」の義。格好いいという意味とは別。",
-      "sourceOrder": 3
+      "sourceOrder": 4
     },
     {
       "id": "p1259",
@@ -6068,7 +6079,7 @@
       "episode": "S01E11",
       "frequency": "general",
       "register": "casual",
-      "sourceOrder": 6
+      "sourceOrder": 7
     },
     {
       "id": "p1260",
@@ -6088,7 +6099,7 @@
       "episode": "S01E11",
       "frequency": "frequent",
       "register": "casual",
-      "sourceOrder": 13
+      "sourceOrder": 14
     },
     {
       "id": "p1261",
@@ -6108,7 +6119,7 @@
       "episode": "S01E11",
       "frequency": "general",
       "register": "casual",
-      "sourceOrder": 21
+      "sourceOrder": 22
     },
     {
       "id": "p1262",
@@ -6128,7 +6139,7 @@
       "episode": "S01E11",
       "frequency": "general",
       "register": "casual",
-      "sourceOrder": 25
+      "sourceOrder": 26
     },
     {
       "id": "p1263",
@@ -6169,7 +6180,7 @@
       "episode": "S01E11",
       "frequency": "general",
       "register": "neutral",
-      "sourceOrder": 42
+      "sourceOrder": 43
     },
     {
       "id": "p1265",
@@ -6189,7 +6200,7 @@
       "episode": "S01E11",
       "frequency": "general",
       "register": "neutral",
-      "sourceOrder": 31
+      "sourceOrder": 32
     },
     {
       "id": "p1266",
@@ -6209,7 +6220,7 @@
       "episode": "S01E11",
       "frequency": "general",
       "register": "casual",
-      "sourceOrder": 34
+      "sourceOrder": 35
     },
     {
       "id": "p1267",
@@ -6229,7 +6240,7 @@
       "episode": "S01E11",
       "frequency": "frequent",
       "register": "casual",
-      "sourceOrder": 36
+      "sourceOrder": 37
     },
     {
       "id": "p1268",
@@ -6249,7 +6260,7 @@
       "episode": "S01E11",
       "frequency": "frequent",
       "register": "casual",
-      "sourceOrder": 60
+      "sourceOrder": 61
     },
     {
       "id": "p1269",
@@ -6269,7 +6280,7 @@
       "episode": "S01E11",
       "frequency": "general",
       "register": "casual",
-      "sourceOrder": 38
+      "sourceOrder": 39
     },
     {
       "id": "p1270",
@@ -6289,7 +6300,7 @@
       "episode": "S01E11",
       "frequency": "frequent",
       "register": "casual",
-      "sourceOrder": 43
+      "sourceOrder": 44
     },
     {
       "id": "p1271",
@@ -6309,7 +6320,7 @@
       "episode": "S01E11",
       "frequency": "frequent",
       "register": "casual",
-      "sourceOrder": 51
+      "sourceOrder": 52
     },
     {
       "id": "p1272",
@@ -6329,7 +6340,7 @@
       "episode": "S01E11",
       "frequency": "general",
       "register": "casual",
-      "sourceOrder": 56
+      "sourceOrder": 57
     },
     {
       "id": "p1273",
@@ -6349,7 +6360,7 @@
       "episode": "S01E11",
       "frequency": "general",
       "register": "casual",
-      "sourceOrder": 58
+      "sourceOrder": 59
     },
     {
       "id": "p1274",
@@ -6369,7 +6380,7 @@
       "episode": "S01E11",
       "frequency": "general",
       "register": "casual",
-      "sourceOrder": 66
+      "sourceOrder": 67
     },
         {
       "id": "p1275",
@@ -6387,7 +6398,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 86,
+      "sourceOrder": 95,
       "frequency": "general",
       "register": "casual",
       "note": "ここでは比喩的に「明示する」義。文字をつづる意味とは別。"
@@ -6410,7 +6421,7 @@
       "episode": "S01E11",
       "frequency": "general",
       "register": "casual",
-      "sourceOrder": 69
+      "sourceOrder": 70
     },
     {
       "id": "p1277",
@@ -6431,7 +6442,7 @@
       "frequency": "frequent",
       "register": "casual",
       "note": "will never happen again も同じ約束の言い方。",
-      "sourceOrder": 63
+      "sourceOrder": 64
     },
     {
       "id": "p1278",
@@ -6451,7 +6462,7 @@
       "episode": "S01E11",
       "frequency": "frequent",
       "register": "casual",
-      "sourceOrder": 22
+      "sourceOrder": 23
     },
     {
       "id": "p1279",
@@ -6471,7 +6482,7 @@
       "episode": "S01E12",
       "frequency": "general",
       "register": "neutral",
-      "sourceOrder": 18
+      "sourceOrder": 19
     },
     {
       "id": "p1280",
@@ -6491,7 +6502,7 @@
       "episode": "S01E12",
       "frequency": "general",
       "register": "casual",
-      "sourceOrder": 21
+      "sourceOrder": 22
     },
     {
       "id": "p1281",
@@ -6511,7 +6522,7 @@
       "episode": "S01E12",
       "frequency": "general",
       "register": "casual",
-      "sourceOrder": 22
+      "sourceOrder": 23
     },
     {
       "id": "p1282",
@@ -6531,7 +6542,7 @@
       "episode": "S01E12",
       "frequency": "general",
       "register": "neutral",
-      "sourceOrder": 23
+      "sourceOrder": 24
     },
     {
       "id": "p1283",
@@ -6551,7 +6562,7 @@
       "episode": "S01E12",
       "frequency": "frequent",
       "register": "casual",
-      "sourceOrder": 26
+      "sourceOrder": 27
     },
     {
       "id": "p1284",
@@ -6571,7 +6582,7 @@
       "episode": "S01E12",
       "frequency": "frequent",
       "register": "casual",
-      "sourceOrder": 34
+      "sourceOrder": 35
     },
     {
       "id": "p1285",
@@ -6592,7 +6603,7 @@
       "frequency": "general",
       "register": "slang",
       "note": "くだけた強い表現。勝負で勝つ・厳しく鍛えるなどに使う。`kick someone’s ass`は「痛い目に遭わせる／ぶちのめす」という、かなり強く荒っぽい俗語のvariation。冗談めかして使うこともある。",
-      "sourceOrder": 37
+      "sourceOrder": 38
     },
     {
       "id": "p1286",
@@ -6612,7 +6623,7 @@
       "episode": "S01E12",
       "frequency": "general",
       "register": "casual",
-      "sourceOrder": 42
+      "sourceOrder": 43
     },
     {
       "id": "p1287",
@@ -6632,7 +6643,7 @@
       "episode": "S01E12",
       "frequency": "general",
       "register": "casual",
-      "sourceOrder": 46
+      "sourceOrder": 47
     },
     {
       "id": "p1288",
@@ -6652,7 +6663,7 @@
       "episode": "S01E12",
       "frequency": "general",
       "register": "casual",
-      "sourceOrder": 51
+      "sourceOrder": 52
     },
     {
       "id": "p1289",
@@ -6673,7 +6684,7 @@
       "frequency": "frequent",
       "register": "casual",
       "note": "精神的に支える意味。",
-      "sourceOrder": 41
+      "sourceOrder": 42
     },
     {
       "id": "p1290",
@@ -6693,7 +6704,7 @@
       "episode": "S01E12",
       "frequency": "frequent",
       "register": "casual",
-      "sourceOrder": 14
+      "sourceOrder": 15
     },
     {
       "id": "p1291",
@@ -7812,19 +7823,17 @@
       "source": "Friends",
       "episode": "S01E16",
       "frequency": "frequent",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 2
     },
     {
       "id": "p1347",
       "phrase": "act out",
-      "meaning": "感情を問題行動で表す／演じる",
+      "meaning": "不満やつらさを問題行動として表す",
       "scene": "抑えた感情を行動に出すことを話すとき",
       "example1": "Kids sometimes act out when they are upset.",
-      "example2": "He acted out the scene for us.",
-      "exampleTranslations": [
-        "子どもはつらいとき問題行動をすることがある。",
-        "彼はその場面を私たちのために演じてみせた。"
-      ],
+      "example2": "He started acting out after the move.",
+      "exampleTranslations": ["子どもはつらいとき問題行動をすることがある。","引っ越しの後、彼は問題行動を起こすようになった。"],
       "type": "phrasal verb",
       "priorityText": "★★☆",
       "priority": 2,
@@ -7832,7 +7841,8 @@
       "episode": "S01E16",
       "frequency": "general",
       "register": "casual",
-      "note": "感情を行動に出す義と、演じる義がある。"
+      "note": "ここでは自動詞の用法。場面などを「演じてみせる」他動詞act something outとは区別する。",
+      "sourceOrder": 3
     },
     {
       "id": "p1348",
@@ -7852,7 +7862,8 @@
       "episode": "S01E16",
       "frequency": "general",
       "register": "casual",
-      "note": "皮肉にも近況を尋ねる意味にも使える。"
+      "note": "皮肉にも近況を尋ねる意味にも使える。",
+      "sourceOrder": 9
     },
     {
       "id": "p1349",
@@ -7872,7 +7883,8 @@
       "episode": "S01E16",
       "frequency": "frequent",
       "register": "neutral",
-      "note": "go over there「向こうへ行く」とは別。"
+      "note": "go over there「向こうへ行く」とは別。",
+      "sourceOrder": 12
     },
     {
       "id": "p1350",
@@ -7891,7 +7903,8 @@
       "source": "Friends",
       "episode": "S01E16",
       "frequency": "general",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 14
     },
     {
       "id": "p1351",
@@ -7910,12 +7923,13 @@
       "source": "Friends",
       "episode": "S01E16",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 20
     },
     {
       "id": "p1352",
       "phrase": "lay someone off",
-      "meaning": "～を一時解雇する",
+      "meaning": "人員整理などで人を解雇する",
       "scene": "会社が人員削減をすることを話すとき",
       "example1": "The company laid off fifty workers.",
       "example2": "She was laid off last month.",
@@ -7929,7 +7943,9 @@
       "source": "Friends",
       "episode": "S01E16",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "note": "本人の不始末より、会社側の事情による人員削減を表すことが多い。一時的な解雇に限定しない。",
+      "sourceOrder": 27
     },
     {
       "id": "p1353",
@@ -7948,7 +7964,8 @@
       "source": "Friends",
       "episode": "S01E16",
       "frequency": "general",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 30
     },
     {
       "id": "p1354",
@@ -7968,7 +7985,8 @@
       "episode": "S01E16",
       "frequency": "general",
       "register": "neutral",
-      "note": "wait for the right momentとは別の学習表現。"
+      "note": "wait for the right momentとは別の学習表現。",
+      "sourceOrder": 33
     },
     {
       "id": "p1355",
@@ -7987,7 +8005,8 @@
       "source": "Friends",
       "episode": "S01E16",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 41
     },
     {
       "id": "p1356",
@@ -8006,7 +8025,8 @@
       "source": "Friends",
       "episode": "S01E16",
       "frequency": "frequent",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 48
     },
     {
       "id": "p1357",
@@ -8026,7 +8046,8 @@
       "episode": "S01E16",
       "frequency": "frequent",
       "register": "casual",
-      "note": "keep something down「吐かずに保つ」とは別義。"
+      "note": "keep something down「吐かずに保つ」とは別義。",
+      "sourceOrder": 37
     },
         {
       "id": "p1358",
@@ -8044,7 +8065,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 40,
+      "sourceOrder": 42,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -8065,7 +8086,8 @@
       "source": "Friends",
       "episode": "S01E17",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 2
     },
     {
       "id": "p1360",
@@ -8084,7 +8106,8 @@
       "source": "Friends",
       "episode": "S01E17",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 3
     },
     {
       "id": "p1361",
@@ -8103,7 +8126,8 @@
       "source": "Friends",
       "episode": "S01E17",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 10
     },
     {
       "id": "p1362",
@@ -8123,7 +8147,8 @@
       "episode": "S01E17",
       "frequency": "general",
       "register": "slang",
-      "note": "crapを含む強いくだけた表現。"
+      "note": "crapを含む強いくだけた表現。",
+      "sourceOrder": 14
     },
     {
       "id": "p1363",
@@ -8142,7 +8167,8 @@
       "source": "Friends",
       "episode": "S01E17",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 18
     },
     {
       "id": "p1364",
@@ -8162,7 +8188,8 @@
       "episode": "S01E17",
       "frequency": "general",
       "register": "casual",
-      "note": "物理的なstand upとは別。"
+      "note": "物理的なstand upとは別。",
+      "sourceOrder": 30
     },
     {
       "id": "p1365",
@@ -8181,7 +8208,8 @@
       "source": "Friends",
       "episode": "S01E17",
       "frequency": "general",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 32
     },
     {
       "id": "p1366",
@@ -8219,7 +8247,8 @@
       "source": "Friends",
       "episode": "S01E17",
       "frequency": "general",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 41
     },
     {
       "id": "p1368",
@@ -8238,7 +8267,8 @@
       "source": "Friends",
       "episode": "S01E17",
       "frequency": "general",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 46
     },
     {
       "id": "p1369",
@@ -8258,7 +8288,8 @@
       "episode": "S01E17",
       "frequency": "general",
       "register": "casual",
-      "note": "get over itとは別Phrase。"
+      "note": "get over itとは別Phrase。",
+      "sourceOrder": 44
     },
     {
       "id": "p1370",
@@ -8278,7 +8309,8 @@
       "episode": "S01E17",
       "frequency": "general",
       "register": "casual",
-      "note": "blow off ~「サボる／放り出す」とは別義。"
+      "note": "blow off ~「サボる／放り出す」とは別義。",
+      "sourceOrder": 31
     },
     {
       "id": "p1371",
@@ -8298,7 +8330,8 @@
       "episode": "S01E17",
       "frequency": "general",
       "register": "casual",
-      "note": "「さあね／分からない」と「やられた／参った」の両義がある。"
+      "note": "「さあね／分からない」と「やられた／参った」の両義がある。",
+      "sourceOrder": 33
     },
     {
       "id": "p1372",
@@ -8317,7 +8350,8 @@
       "source": "Friends",
       "episode": "S01E17",
       "frequency": "frequent",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 42
     },
     {
       "id": "p1373",
@@ -8336,7 +8370,8 @@
       "source": "Friends",
       "episode": "S01E18",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 1
     },
     {
       "id": "p1374",
@@ -8355,7 +8390,8 @@
       "source": "Friends",
       "episode": "S01E18",
       "frequency": "general",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 2
     },
     {
       "id": "p1375",
@@ -8374,7 +8410,8 @@
       "source": "Friends",
       "episode": "S01E18",
       "frequency": "general",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 6
     },
     {
       "id": "p1376",
@@ -8394,7 +8431,8 @@
       "episode": "S01E18",
       "frequency": "general",
       "register": "casual",
-      "note": "lameは「ダサい・説得力のない」というくだけた批判。"
+      "note": "lameは「ダサい・説得力のない」というくだけた批判。",
+      "sourceOrder": 11
     },
     {
       "id": "p1377",
@@ -8413,7 +8451,8 @@
       "source": "Friends",
       "episode": "S01E18",
       "frequency": "general",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 14
     },
     {
       "id": "p1378",
@@ -8433,7 +8472,8 @@
       "episode": "S01E18",
       "frequency": "general",
       "register": "neutral",
-      "note": "賭け事以外にも、失敗の影響が大きい場面で使う。"
+      "note": "賭け事以外にも、失敗の影響が大きい場面で使う。",
+      "sourceOrder": 15
     },
     {
       "id": "p1379",
@@ -8453,7 +8493,8 @@
       "episode": "S01E18",
       "frequency": "frequent",
       "register": "casual",
-      "note": "「～してよい」のcould + useではなく、「～があると助かる」の慣用的な言い方。"
+      "note": "「～してよい」のcould + useではなく、「～があると助かる」の慣用的な言い方。",
+      "sourceOrder": 23
     },
     {
       "id": "p1380",
@@ -8472,7 +8513,8 @@
       "source": "Friends",
       "episode": "S01E18",
       "frequency": "frequent",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 26
     },
     {
       "id": "p1381",
@@ -8491,7 +8533,8 @@
       "source": "Friends",
       "episode": "S01E18",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 36
     },
     {
       "id": "p1382",
@@ -8510,7 +8553,8 @@
       "source": "Friends",
       "episode": "S01E18",
       "frequency": "frequent",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 39
     },
     {
       "id": "p1383",
@@ -8529,7 +8573,8 @@
       "source": "Friends",
       "episode": "S01E18",
       "frequency": "general",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 45
     },
     {
       "id": "p1384",
@@ -8548,7 +8593,8 @@
       "source": "Friends",
       "episode": "S01E18",
       "frequency": "general",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 48
     },
     {
       "id": "p1385",
@@ -8568,7 +8614,8 @@
       "episode": "S01E18",
       "frequency": "general",
       "register": "neutral",
-      "note": "ここでは「空き・機会が生まれる」義。心を開く／物を開く意味とは別。"
+      "note": "ここでは「空き・機会が生まれる」義。心を開く／物を開く意味とは別。",
+      "sourceOrder": 59
     },
     {
       "id": "p1386",
@@ -9441,7 +9488,7 @@
       "episode": "S01E07",
       "frequency": "frequent",
       "register": "neutral",
-      "sourceOrder": 77
+      "sourceOrder": 78
     },
     {
       "id": "p1431",
@@ -9668,7 +9715,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 84,
+      "sourceOrder": 93,
       "frequency": "frequent",
       "register": "casual",
       "id": "p2045"
@@ -9688,7 +9735,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 54,
+      "sourceOrder": 61,
       "frequency": "general",
       "register": "casual",
       "id": "p2046"
@@ -9708,7 +9755,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 83,
+      "sourceOrder": 84,
       "frequency": "frequent",
       "register": "neutral",
       "id": "p2047"
@@ -9728,7 +9775,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 72,
+      "sourceOrder": 75,
       "frequency": "frequent",
       "register": "neutral",
       "id": "p2048"
@@ -9748,7 +9795,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 51,
+      "sourceOrder": 54,
       "frequency": "frequent",
       "register": "neutral",
       "note": "`get back to someone`には「あとで返事をする」という別の用法もある。",
@@ -9770,7 +9817,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 23,
+      "sourceOrder": 24,
       "frequency": "frequent",
       "register": "casual",
       "note": "具体的な内容を繰り返さずJust think about it.と言えば、「とにかく考えてみて」と検討を促せる。"
@@ -9790,7 +9837,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 61,
+      "sourceOrder": 64,
       "frequency": "frequent",
       "register": "casual",
       "id": "p2051"
@@ -9810,7 +9857,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 32,
+      "sourceOrder": 33,
       "frequency": "frequent",
       "register": "casual",
       "id": "p2052"
@@ -9871,7 +9918,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 77,
+      "sourceOrder": 86,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -9911,7 +9958,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 67,
+      "sourceOrder": 75,
       "frequency": "general",
       "register": "neutral"
     },
@@ -9953,7 +10000,7 @@
       "frequency": "frequent",
       "register": "casual",
       "id": "p2059",
-      "sourceOrder": 40
+      "sourceOrder": 41
     },
     {
       "phrase": "be upset about ~",
@@ -9973,7 +10020,7 @@
       "frequency": "frequent",
       "register": "neutral",
       "id": "p2060",
-      "sourceOrder": 37
+      "sourceOrder": 38
     },
     {
       "phrase": "get back from ~",
@@ -9993,7 +10040,7 @@
       "frequency": "frequent",
       "register": "neutral",
       "id": "p2061",
-      "sourceOrder": 8
+      "sourceOrder": 9
     },
     {
       "phrase": "not a bad idea",
@@ -10013,7 +10060,7 @@
       "frequency": "frequent",
       "register": "neutral",
       "id": "p2062",
-      "sourceOrder": 70
+      "sourceOrder": 71
     },
     {
       "phrase": "What are you still doing here?",
@@ -10033,7 +10080,7 @@
       "frequency": "general",
       "register": "casual",
       "id": "p2063",
-      "sourceOrder": 38
+      "sourceOrder": 39
     },
     {
       "phrase": "turn into ~",
@@ -10093,7 +10140,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 13,
+      "sourceOrder": 14,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -10173,7 +10220,8 @@
       "episode": "S01E16",
       "frequency": "general",
       "register": "casual",
-      "id": "p2070"
+      "id": "p2070",
+      "sourceOrder": 22
     },
     {
       "phrase": "Things happen.",
@@ -10212,7 +10260,8 @@
       "frequency": "frequent",
       "register": "neutral",
       "note": "`You got a problem with that?`のような形は、言い方によっては挑発的に響く。",
-      "id": "p2072"
+      "id": "p2072",
+      "sourceOrder": 63
     },
     {
       "phrase": "as long as / so long as ~",
@@ -10233,7 +10282,7 @@
       "register": "neutral",
       "id": "p2073",
       "note": "条件を表す用法。justを付けると「その条件さえ満たせば」と強調する。時間の長さを比べるas long asとは別。",
-      "sourceOrder": 52
+      "sourceOrder": 53
     },
     {
       "phrase": "on purpose",
@@ -10288,7 +10337,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 76,
+      "sourceOrder": 85,
       "frequency": "frequent",
       "register": "neutral",
       "note": "電話がつながる、仕事を終えるなどの用法もある。",
@@ -10309,7 +10358,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 26,
+      "sourceOrder": 31,
       "frequency": "frequent",
       "register": "neutral",
       "id": "p2185"
@@ -10329,7 +10378,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 48,
+      "sourceOrder": 55,
       "frequency": "frequent",
       "register": "casual",
       "id": "p2186"
@@ -10349,7 +10398,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 85,
+      "sourceOrder": 94,
       "frequency": "general",
       "register": "neutral",
       "id": "p2187"
@@ -10369,7 +10418,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 55,
+      "sourceOrder": 57,
       "frequency": "frequent",
       "register": "neutral",
       "note": "単に同じ場所で眠る意味にもなるため、文脈で判断する。",
@@ -10391,7 +10440,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 115,
+      "sourceOrder": 124,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -10430,7 +10479,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 35,
+      "sourceOrder": 36,
       "frequency": "frequent",
       "register": "casual",
       "id": "p2191"
@@ -10453,7 +10502,7 @@
       "frequency": "frequent",
       "register": "neutral",
       "id": "p2192",
-      "sourceOrder": 81
+      "sourceOrder": 82
     },
     {
       "phrase": "It’s time for ~",
@@ -10509,10 +10558,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S01E08",
+      "episode": "S01E16",
       "frequency": "frequent",
       "register": "neutral",
-      "id": "p2195"
+      "id": "p2195",
+      "sourceOrder": 24
     },
     {
       "phrase": "be off to ~",
@@ -10552,7 +10602,7 @@
       "frequency": "frequent",
       "register": "neutral",
       "id": "p2197",
-      "sourceOrder": 56
+      "sourceOrder": 57
     },
     {
       "phrase": "You don’t have to do that.",
@@ -10572,7 +10622,7 @@
       "frequency": "frequent",
       "register": "neutral",
       "id": "p2198",
-      "sourceOrder": 41
+      "sourceOrder": 42
     },
         {
       "id": "p2199",
@@ -10653,7 +10703,7 @@
       "register": "casual",
       "note": "言い方によっては突き放した印象になる。",
       "id": "p2202",
-      "sourceOrder": 33
+      "sourceOrder": 34
     },
     {
       "phrase": "Are you all right?",
@@ -10693,7 +10743,7 @@
       "frequency": "frequent",
       "register": "casual",
       "id": "p2204",
-      "sourceOrder": 7
+      "sourceOrder": 8
     },
     {
       "phrase": "Is that it?",
@@ -10791,7 +10841,8 @@
       "episode": "S01E18",
       "frequency": "general",
       "register": "neutral",
-      "id": "p2209"
+      "id": "p2209",
+      "sourceOrder": 55
     },
         {
       "id": "p2210",
@@ -10829,7 +10880,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 25,
+      "sourceOrder": 26,
       "frequency": "frequent",
       "register": "neutral",
       "note": "代名詞は`take it off`のように動詞と副詞の間に置く。`take off`には「立ち去る」という別義もある。"
@@ -10970,7 +11021,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 8,
+      "sourceOrder": 9,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -10990,7 +11041,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 9,
+      "sourceOrder": 10,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11010,7 +11061,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 13,
+      "sourceOrder": 14,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11030,7 +11081,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 15,
+      "sourceOrder": 17,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11050,7 +11101,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 22,
+      "sourceOrder": 25,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -11070,7 +11121,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 23,
+      "sourceOrder": 26,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11090,7 +11141,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 25,
+      "sourceOrder": 29,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11110,7 +11161,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 28,
+      "sourceOrder": 33,
       "frequency": "frequent",
       "register": "polite"
     },
@@ -11130,7 +11181,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 37,
+      "sourceOrder": 43,
       "frequency": "frequent",
       "register": "polite"
     },
@@ -11150,7 +11201,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 43,
+      "sourceOrder": 49,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11170,7 +11221,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 50,
+      "sourceOrder": 57,
       "frequency": "frequent",
       "register": "polite"
     },
@@ -11190,7 +11241,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 55,
+      "sourceOrder": 62,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11210,7 +11261,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 57,
+      "sourceOrder": 64,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -11230,7 +11281,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 59,
+      "sourceOrder": 66,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11250,7 +11301,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 62,
+      "sourceOrder": 70,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11270,7 +11321,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 64,
+      "sourceOrder": 72,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11290,7 +11341,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 69,
+      "sourceOrder": 77,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11310,7 +11361,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 70,
+      "sourceOrder": 78,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11330,7 +11381,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 71,
+      "sourceOrder": 79,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -11350,7 +11401,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 75,
+      "sourceOrder": 84,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -11370,7 +11421,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 104,
+      "sourceOrder": 113,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11390,7 +11441,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 106,
+      "sourceOrder": 115,
       "frequency": "general",
       "register": "casual"
     },
@@ -11410,7 +11461,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 110,
+      "sourceOrder": 119,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11430,7 +11481,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 111,
+      "sourceOrder": 120,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11450,7 +11501,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 112,
+      "sourceOrder": 121,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11470,7 +11521,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 114,
+      "sourceOrder": 123,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11490,7 +11541,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 113,
+      "sourceOrder": 122,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -11510,7 +11561,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 119,
+      "sourceOrder": 128,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11530,7 +11581,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 123,
+      "sourceOrder": 132,
       "frequency": "general",
       "register": "casual"
     },
@@ -11550,7 +11601,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 98,
+      "sourceOrder": 107,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -11570,7 +11621,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 103,
+      "sourceOrder": 112,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -11587,7 +11638,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 129,
+      "sourceOrder": 138,
       "frequency": "frequent",
       "register": "polite",
       "note": "youは相手に、anybodyはその場の誰かに申し出る。人称の違いでrecordを分けない。"
@@ -12088,7 +12139,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 82,
+      "sourceOrder": 83,
       "frequency": "general",
       "register": "neutral",
       "note": "本当に感謝するときにも、聞きたくなかった話に皮肉で返すときにも使う。口調と文脈で判断する。"
@@ -12109,7 +12160,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 85,
+      "sourceOrder": 86,
       "frequency": "general",
       "register": "neutral"
     },
@@ -12209,7 +12260,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 10,
+      "sourceOrder": 11,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12229,7 +12280,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 14,
+      "sourceOrder": 15,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12249,7 +12300,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 24,
+      "sourceOrder": 25,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12269,7 +12320,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 30,
+      "sourceOrder": 32,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12289,7 +12340,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 32,
+      "sourceOrder": 34,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12309,7 +12360,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 33,
+      "sourceOrder": 35,
       "frequency": "frequent",
       "register": "polite"
     },
@@ -12329,7 +12380,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 34,
+      "sourceOrder": 36,
       "frequency": "frequent",
       "register": "polite"
     },
@@ -12349,7 +12400,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 37,
+      "sourceOrder": 39,
       "frequency": "general",
       "register": "neutral"
     },
@@ -12369,7 +12420,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 39,
+      "sourceOrder": 42,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12389,7 +12440,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 41,
+      "sourceOrder": 44,
       "frequency": "general",
       "register": "neutral"
     },
@@ -12409,7 +12460,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 43,
+      "sourceOrder": 46,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12429,7 +12480,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 48,
+      "sourceOrder": 51,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -12449,7 +12500,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 59,
+      "sourceOrder": 62,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12469,7 +12520,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 60,
+      "sourceOrder": 63,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12489,7 +12540,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 63,
+      "sourceOrder": 66,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12509,7 +12560,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 64,
+      "sourceOrder": 67,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12529,7 +12580,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 67,
+      "sourceOrder": 70,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12549,7 +12600,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 73,
+      "sourceOrder": 76,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12569,7 +12620,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 74,
+      "sourceOrder": 77,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -12589,7 +12640,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 75,
+      "sourceOrder": 78,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12609,7 +12660,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 77,
+      "sourceOrder": 80,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12629,7 +12680,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 78,
+      "sourceOrder": 81,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -12649,7 +12700,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 28,
+      "sourceOrder": 30,
       "frequency": "general",
       "register": "casual",
       "note": "この用法は批判だけに限らず、相手に集中的に関わること。別の文脈では、熱心に言い寄る・身体を密着させる意味にもなる。"
@@ -12670,7 +12721,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 16,
+      "sourceOrder": 17,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12690,7 +12741,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 71,
+      "sourceOrder": 74,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12710,7 +12761,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 81,
+      "sourceOrder": 90,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12730,7 +12781,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 16,
+      "sourceOrder": 18,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12750,7 +12801,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 90,
+      "sourceOrder": 99,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12810,7 +12861,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 49,
+      "sourceOrder": 56,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12830,7 +12881,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 131,
+      "sourceOrder": 140,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12850,7 +12901,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 97,
+      "sourceOrder": 106,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12870,7 +12921,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 117,
+      "sourceOrder": 126,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12890,7 +12941,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 72,
+      "sourceOrder": 80,
       "frequency": "general",
       "register": "slang",
       "note": "粗い口語表現。ここでは性的な意味ではなく、不当な扱いで損をする意味。"
@@ -12911,7 +12962,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 120,
+      "sourceOrder": 129,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -12931,7 +12982,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 128,
+      "sourceOrder": 137,
       "frequency": "general",
       "register": "casual",
       "note": "噛みつかれても気づかない、という誇張。相手を侮辱する響きがある。someoneの位置には主語に対応する目的格を置く。"
@@ -12973,7 +13024,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 35,
+      "sourceOrder": 37,
       "frequency": "general",
       "register": "casual",
       "note": "ここでは言葉による攻撃の比喩。文脈によっては最初の射撃やシュートを指す。"
@@ -12994,7 +13045,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 41,
+      "sourceOrder": 47,
       "frequency": "frequent",
       "register": "casual",
       "note": "「これで終わり」という終了の用法とは別に、動作が正しいことを伝える用法。"
@@ -13015,7 +13066,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 11,
+      "sourceOrder": 12,
       "frequency": "general",
       "register": "casual",
       "note": "単独の応答や程度の調整に使う用法。「AというよりB」を表すnot so much A as Bとは構文が異なる。"
@@ -13119,7 +13170,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 13,
+      "sourceOrder": 14,
       "frequency": "frequent",
       "register": "neutral",
       "note": "自動詞pass onの「亡くなる」とは別義。"
@@ -13140,7 +13191,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 14,
+      "sourceOrder": 15,
       "frequency": "general",
       "register": "casual"
     },
@@ -13160,7 +13211,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 20,
+      "sourceOrder": 21,
       "frequency": "frequent",
       "register": "neutral",
       "note": "食べ物を目的語にすると「主にそれを食べて生きる」の意味にもなる。"
@@ -13181,7 +13232,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 23,
+      "sourceOrder": 24,
       "frequency": "general",
       "register": "neutral"
     },
@@ -13201,7 +13252,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 24,
+      "sourceOrder": 25,
       "frequency": "general",
       "register": "neutral",
       "note": "スポーツのタイムから、日常の一時中断にも使う。time-outとも表記する。"
@@ -13222,7 +13273,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 26,
+      "sourceOrder": 27,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13242,7 +13293,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 33,
+      "sourceOrder": 34,
       "frequency": "frequent",
       "register": "neutral",
       "note": "Now that you mention itとも言う。"
@@ -13263,7 +13314,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 37,
+      "sourceOrder": 39,
       "frequency": "frequent",
       "register": "casual",
       "note": "必ずしも正確に50％という意味ではない。"
@@ -13281,7 +13332,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 38,
+      "sourceOrder": 40,
       "frequency": "frequent",
       "register": "neutral",
       "note": "at some pointは時を特定せず述べる。at one pointは出来事の途中のある時点を振り返る場面でよく使う。"
@@ -13322,7 +13373,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 41,
+      "sourceOrder": 43,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13342,7 +13393,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 42,
+      "sourceOrder": 44,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13362,7 +13413,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 44,
+      "sourceOrder": 46,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13382,7 +13433,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 48,
+      "sourceOrder": 50,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13443,7 +13494,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 53,
+      "sourceOrder": 55,
       "frequency": "frequent",
       "register": "casual",
       "note": "強いいらだちがあり、丁寧な制止ではない。"
@@ -13464,7 +13515,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 56,
+      "sourceOrder": 58,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -13484,7 +13535,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 58,
+      "sourceOrder": 60,
       "frequency": "general",
       "register": "casual",
       "note": "主に子どもの決まり文句。実際の所有権を定める規則ではない。"
@@ -13505,7 +13556,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 59,
+      "sourceOrder": 61,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13891,7 +13942,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E05",
-      "sourceOrder": 48,
+      "sourceOrder": 49,
       "frequency": "general",
       "register": "neutral"
     },
@@ -13911,7 +13962,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E05",
-      "sourceOrder": 50,
+      "sourceOrder": 51,
       "frequency": "general",
       "register": "neutral"
     },
@@ -13931,7 +13982,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E05",
-      "sourceOrder": 52,
+      "sourceOrder": 53,
       "frequency": "general",
       "register": "neutral"
     },
@@ -13951,7 +14002,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E05",
-      "sourceOrder": 53,
+      "sourceOrder": 54,
       "frequency": "general",
       "register": "casual",
       "note": "実際に移動するのではなく、頭の中で心地よい場面を思い浮かべる比喩。"
@@ -13972,7 +14023,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
-      "sourceOrder": 54,
+      "sourceOrder": 55,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -13992,7 +14043,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
-      "sourceOrder": 57,
+      "sourceOrder": 58,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -14012,7 +14063,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
-      "sourceOrder": 58,
+      "sourceOrder": 59,
       "frequency": "frequent",
       "register": "neutral",
       "note": "口語ではought toがoughtaになる。ここでは義務ではなく見込みを表す。"
@@ -14153,7 +14204,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 45,
+      "sourceOrder": 48,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -14173,7 +14224,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 19,
+      "sourceOrder": 20,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -14193,7 +14244,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 20,
+      "sourceOrder": 21,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -14213,7 +14264,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 23,
+      "sourceOrder": 24,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -14233,7 +14284,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 24,
+      "sourceOrder": 25,
       "frequency": "frequent",
       "register": "casual",
       "note": "言い方によっては相手を責める響きがある。"
@@ -14254,7 +14305,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 25,
+      "sourceOrder": 26,
       "frequency": "frequent",
       "register": "neutral",
       "note": "with someoneや恋愛の文脈では性的関係をほのめかす場合があるが、それ自体では限定されない。"
@@ -14275,7 +14326,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 116,
+      "sourceOrder": 125,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -14295,7 +14346,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 26,
+      "sourceOrder": 27,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -14315,7 +14366,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 47,
+      "sourceOrder": 50,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -14335,7 +14386,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 27,
+      "sourceOrder": 28,
       "frequency": "general",
       "register": "casual",
       "note": "偶然なくす意味ではなく、意図的に取り除く命令的な用法。"
@@ -14356,7 +14407,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 29,
+      "sourceOrder": 30,
       "frequency": "general",
       "register": "neutral"
     },
@@ -14376,7 +14427,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 30,
+      "sourceOrder": 31,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -14396,7 +14447,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 33,
+      "sourceOrder": 34,
       "frequency": "general",
       "register": "neutral"
     },
@@ -14416,7 +14467,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 36,
+      "sourceOrder": 37,
       "frequency": "general",
       "register": "neutral",
       "note": "have sexより愛情や親密さを感じさせることが多い婉曲表現。"
@@ -14437,7 +14488,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 37,
+      "sourceOrder": 38,
       "frequency": "frequent",
       "register": "neutral",
       "note": "toの後ろに人を置く用法。feel obligated to doでは行為をする義務感を示す。"
@@ -14458,7 +14509,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 38,
+      "sourceOrder": 39,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -14478,7 +14529,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 39,
+      "sourceOrder": 40,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -14498,7 +14549,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 43,
+      "sourceOrder": 44,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -14518,7 +14569,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 50,
+      "sourceOrder": 51,
       "frequency": "general",
       "register": "neutral"
     },
@@ -14538,7 +14589,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 51,
+      "sourceOrder": 52,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -14558,7 +14609,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 52,
+      "sourceOrder": 53,
       "frequency": "general",
       "register": "casual",
       "note": "疑問文内のor not「～かどうか」と区別。独立して後付けの撤回を示す。"
@@ -14641,7 +14692,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 21,
+      "sourceOrder": 22,
       "frequency": "frequent",
       "register": "neutral",
       "note": "文脈によっては悪い結果に対し「自業自得」とも言える。"
@@ -14662,7 +14713,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 44,
+      "sourceOrder": 45,
       "frequency": "frequent",
       "register": "neutral",
       "note": "このtellは「話す」ではなく「分かる・見分ける」。"
@@ -14683,7 +14734,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 40,
+      "sourceOrder": 41,
       "frequency": "frequent",
       "register": "casual",
       "note": "ここでは退出を求める文字通りの意味。Get out of here!の驚き「まさか」と区別する。"
@@ -14704,7 +14755,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 15,
+      "sourceOrder": 16,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -14724,7 +14775,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 28,
+      "sourceOrder": 29,
       "frequency": "frequent",
       "register": "neutral",
       "note": "ここでは提供・提案。How would you like your coffee?ではコーヒーの飲み方を尋ねる。"
@@ -14745,7 +14796,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 31,
+      "sourceOrder": 32,
       "frequency": "general",
       "register": "casual",
       "note": "後半を省略して判断をほのめかす。相手を見下す響きや皮肉になることがある。"
@@ -14786,7 +14837,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 18,
+      "sourceOrder": 19,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -15521,7 +15572,7 @@
       "episode": "S01E07",
       "frequency": "frequent",
       "register": "neutral",
-      "sourceOrder": 74
+      "sourceOrder": 75
     },
     {
       "id": "p2570",
@@ -15542,7 +15593,7 @@
       "frequency": "general",
       "register": "casual",
       "note": "goingは物理的な移動ではなく、話の方向を表す。",
-      "sourceOrder": 76
+      "sourceOrder": 77
     },
     {
       "id": "p2571",
@@ -15563,7 +15614,7 @@
       "source": "Friends",
       "episode": "S01E07",
       "note": "火についての文字どおりの意味。情熱が消える比喩義や、人が疲弊する意味とは別sense。",
-      "sourceOrder": 78
+      "sourceOrder": 79
     },
     {
       "id": "p2572",
@@ -15583,7 +15634,7 @@
       "episode": "S01E07",
       "frequency": "general",
       "register": "casual",
-      "sourceOrder": 79
+      "sourceOrder": 80
     },
     {
       "id": "p2573",
@@ -15604,7 +15655,7 @@
       "frequency": "frequent",
       "register": "neutral",
       "note": "forの後ろは名詞または動名詞。Thanks for everythingは受けた世話全体への感謝。",
-      "sourceOrder": 82
+      "sourceOrder": 83
     },
     {
       "id": "p2574",
@@ -16301,7 +16352,7 @@
       "source": "Friends",
       "episode": "S01E09",
       "note": "入手するというcome byとは別sense。ここでは訪問を表す。",
-      "sourceOrder": 11
+      "sourceOrder": 12
     },
     {
       "id": "p2608",
@@ -16321,7 +16372,7 @@
       "episode": "S01E09",
       "frequency": "frequent",
       "register": "neutral",
-      "sourceOrder": 13
+      "sourceOrder": 14
     },
     {
       "id": "p2609",
@@ -16342,7 +16393,7 @@
       "source": "Friends",
       "episode": "S01E09",
       "note": "主節を省いた補足としても使う。not so much A as Bという比較・訂正の構文とは別。",
-      "sourceOrder": 14
+      "sourceOrder": 15
     },
     {
       "id": "p2610",
@@ -16362,7 +16413,7 @@
       "episode": "S01E09",
       "frequency": "frequent",
       "register": "casual",
-      "sourceOrder": 17
+      "sourceOrder": 18
     },
     {
       "id": "p2611",
@@ -16382,7 +16433,7 @@
       "episode": "S01E09",
       "frequency": "general",
       "register": "neutral",
-      "sourceOrder": 20
+      "sourceOrder": 21
     },
     {
       "id": "p2612",
@@ -16403,7 +16454,7 @@
       "source": "Friends",
       "episode": "S01E09",
       "note": "退去命令の同表記とは別sense。Get out of here!の驚き義とも近いが、短い独立surfaceとして扱う。",
-      "sourceOrder": 21
+      "sourceOrder": 22
     },
     {
       "id": "p2613",
@@ -16423,7 +16474,7 @@
       "episode": "S01E09",
       "frequency": "frequent",
       "register": "neutral",
-      "sourceOrder": 22
+      "sourceOrder": 23
     },
     {
       "id": "p2614",
@@ -16444,7 +16495,7 @@
       "frequency": "frequent",
       "register": "neutral",
       "note": "What’s wrong with ~?が対象の欠点や問題を問うのに対し、単独で異変の内容を尋ねる。",
-      "sourceOrder": 24
+      "sourceOrder": 25
     },
     {
       "id": "p2615",
@@ -16464,7 +16515,7 @@
       "episode": "S01E09",
       "frequency": "general",
       "register": "neutral",
-      "sourceOrder": 25
+      "sourceOrder": 26
     },
     {
       "id": "p2616",
@@ -16484,7 +16535,7 @@
       "episode": "S01E09",
       "frequency": "frequent",
       "register": "neutral",
-      "sourceOrder": 26
+      "sourceOrder": 27
     },
     {
       "id": "p2617",
@@ -16504,7 +16555,7 @@
       "episode": "S01E09",
       "frequency": "general",
       "register": "casual",
-      "sourceOrder": 27
+      "sourceOrder": 28
     },
     {
       "id": "p2618",
@@ -16525,7 +16576,7 @@
       "frequency": "general",
       "register": "neutral",
       "note": "物理的な距離にも、面倒を避ける比喩にも使う。",
-      "sourceOrder": 28
+      "sourceOrder": 29
     },
     {
       "id": "p2619",
@@ -16545,7 +16596,7 @@
       "episode": "S01E09",
       "frequency": "general",
       "register": "neutral",
-      "sourceOrder": 30
+      "sourceOrder": 31
     },
     {
       "id": "p2620",
@@ -16565,7 +16616,7 @@
       "episode": "S01E09",
       "frequency": "general",
       "register": "neutral",
-      "sourceOrder": 31
+      "sourceOrder": 32
     },
     {
       "id": "p2621",
@@ -16585,7 +16636,7 @@
       "episode": "S01E09",
       "frequency": "frequent",
       "register": "neutral",
-      "sourceOrder": 32
+      "sourceOrder": 33
     },
     {
       "id": "p2622",
@@ -16606,7 +16657,7 @@
       "frequency": "frequent",
       "register": "casual",
       "note": "時期や行事が近づくcome upとは異なる応答。",
-      "sourceOrder": 33
+      "sourceOrder": 34
     },
     {
       "id": "p2623",
@@ -16626,7 +16677,7 @@
       "episode": "S01E09",
       "frequency": "general",
       "register": "neutral",
-      "sourceOrder": 35
+      "sourceOrder": 36
     },
     {
       "id": "p2624",
@@ -16646,7 +16697,7 @@
       "episode": "S01E09",
       "frequency": "frequent",
       "register": "casual",
-      "sourceOrder": 36
+      "sourceOrder": 37
     },
     {
       "id": "p2625",
@@ -16667,7 +16718,7 @@
       "frequency": "general",
       "register": "neutral",
       "note": "ここではlet + 目的語 + looseの放す意味。自分が羽目を外す用法とは区別。",
-      "sourceOrder": 37
+      "sourceOrder": 38
     },
     {
       "id": "p2626",
@@ -16687,7 +16738,7 @@
       "episode": "S01E09",
       "frequency": "frequent",
       "register": "neutral",
-      "sourceOrder": 38
+      "sourceOrder": 39
     },
     {
       "id": "p2627",
@@ -16707,7 +16758,7 @@
       "episode": "S01E09",
       "frequency": "frequent",
       "register": "neutral",
-      "sourceOrder": 39
+      "sourceOrder": 40
     },
     {
       "id": "p2628",
@@ -16728,7 +16779,7 @@
       "frequency": "general",
       "register": "neutral",
       "note": "提案を却下する比喩とは別の文字どおりの意味。",
-      "sourceOrder": 42
+      "sourceOrder": 43
     },
     {
       "id": "p2629",
@@ -16748,7 +16799,7 @@
       "episode": "S01E09",
       "frequency": "general",
       "register": "neutral",
-      "sourceOrder": 43
+      "sourceOrder": 44
     },
     {
       "id": "p2630",
@@ -16768,7 +16819,7 @@
       "episode": "S01E09",
       "frequency": "general",
       "register": "casual",
-      "sourceOrder": 45
+      "sourceOrder": 46
     },
     {
       "id": "p2631",
@@ -16788,7 +16839,7 @@
       ],
       "source": "Friends",
       "episode": "S01E09",
-      "sourceOrder": 47
+      "sourceOrder": 48
     },
     {
       "id": "p2632",
@@ -16808,7 +16859,7 @@
       "episode": "S01E09",
       "frequency": "frequent",
       "register": "casual",
-      "sourceOrder": 50
+      "sourceOrder": 51
     },
     {
       "id": "p2633",
@@ -16829,7 +16880,7 @@
       "frequency": "general",
       "register": "slang",
       "note": "assを含む粗い表現。改まった場には不向き。",
-      "sourceOrder": 54
+      "sourceOrder": 55
     },
     {
       "id": "p2634",
@@ -16850,7 +16901,7 @@
       "source": "Friends",
       "episode": "S01E09",
       "note": "make a toastと意味は近いが、やや改まった定着したcollocation。",
-      "sourceOrder": 57
+      "sourceOrder": 58
     },
     {
       "id": "p2635",
@@ -16871,7 +16922,7 @@
       "source": "Friends",
       "episode": "S01E09",
       "note": "使用scriptではHere, here!と転記されているが、標準表記はHear, hear!。日常ではやや芝居がかった響きになることもある。",
-      "sourceOrder": 59
+      "sourceOrder": 60
     },
     {
       "phrase": "precious",
@@ -17538,7 +17589,7 @@
       "source": "Friends",
       "episode": "S01E11",
       "note": "料理を別添えにする意味などとは区別。",
-      "sourceOrder": 4
+      "sourceOrder": 5
     },
     {
       "phrase": "put someone to bed",
@@ -17558,7 +17609,7 @@
       ],
       "source": "Friends",
       "episode": "S01E11",
-      "sourceOrder": 5
+      "sourceOrder": 6
     },
     {
       "phrase": "be on",
@@ -17579,7 +17630,7 @@
       "source": "Friends",
       "episode": "S01E11",
       "note": "機器の電源が入っている意味や、出番を告げるYou’re onとは区別。",
-      "sourceOrder": 9
+      "sourceOrder": 10
     },
     {
       "phrase": "be a blast",
@@ -17599,7 +17650,7 @@
       ],
       "source": "Friends",
       "episode": "S01E11",
-      "sourceOrder": 7
+      "sourceOrder": 8
     },
     {
       "phrase": "beam with pride",
@@ -17620,7 +17671,7 @@
       "source": "Friends",
       "episode": "S01E11",
       "note": "反対の気持ちを皮肉として表す場合もある。",
-      "sourceOrder": 10
+      "sourceOrder": 11
     },
     {
       "phrase": "That’s too much information!",
@@ -17641,7 +17692,7 @@
       "source": "Friends",
       "episode": "S01E11",
       "note": "TMIとも略される。単に情報量が多いという意味ではなく、開示しすぎへの反応。",
-      "sourceOrder": 12
+      "sourceOrder": 13
     },
     {
       "phrase": "famished",
@@ -17661,7 +17712,7 @@
       ],
       "source": "Friends",
       "episode": "S01E11",
-      "sourceOrder": 16
+      "sourceOrder": 17
     },
     {
       "phrase": "do shots",
@@ -17681,7 +17732,7 @@
       ],
       "source": "Friends",
       "episode": "S01E11",
-      "sourceOrder": 19
+      "sourceOrder": 20
     },
     {
       "phrase": "I’m in.",
@@ -17701,7 +17752,7 @@
       ],
       "source": "Friends",
       "episode": "S01E11",
-      "sourceOrder": 20
+      "sourceOrder": 21
     },
     {
       "phrase": "throw in ~",
@@ -17721,7 +17772,7 @@
       ],
       "source": "Friends",
       "episode": "S01E11",
-      "sourceOrder": 24
+      "sourceOrder": 25
     },
     {
       "phrase": "oversleep",
@@ -17741,7 +17792,7 @@
       ],
       "source": "Friends",
       "episode": "S01E11",
-      "sourceOrder": 28
+      "sourceOrder": 29
     },
     {
       "phrase": "I’ll have you know ~",
@@ -17762,7 +17813,7 @@
       "source": "Friends",
       "episode": "S01E11",
       "note": "むっとした反論や、ふざけた抗議の響きがある。",
-      "sourceOrder": 33
+      "sourceOrder": 34
     },
     {
       "phrase": "or else",
@@ -17782,7 +17833,7 @@
       ],
       "source": "Friends",
       "episode": "S01E11",
-      "sourceOrder": 39
+      "sourceOrder": 40
     },
     {
       "phrase": "Who knows (what ~)?",
@@ -17802,7 +17853,7 @@
       ],
       "source": "Friends",
       "episode": "S01E11",
-      "sourceOrder": 40
+      "sourceOrder": 41
     },
     {
       "phrase": "a trick question",
@@ -17822,7 +17873,7 @@
       ],
       "source": "Friends",
       "episode": "S01E11",
-      "sourceOrder": 44
+      "sourceOrder": 45
     },
     {
       "phrase": "a knockout",
@@ -17843,7 +17894,7 @@
       "source": "Friends",
       "episode": "S01E11",
       "note": "ボクシングのノックアウトとは別の、人への評価。",
-      "sourceOrder": 45
+      "sourceOrder": 46
     },
     {
       "phrase": "Can I just say something?",
@@ -17863,7 +17914,7 @@
       ],
       "source": "Friends",
       "episode": "S01E11",
-      "sourceOrder": 46
+      "sourceOrder": 47
     },
     {
       "phrase": "We done now?",
@@ -17884,7 +17935,7 @@
       "source": "Friends",
       "episode": "S01E11",
       "note": "Are we done now?の会話的な省略。口調によっていらだちや打ち切りの意思が出る。",
-      "sourceOrder": 47
+      "sourceOrder": 48
     },
     {
       "phrase": "That would be no.",
@@ -17904,7 +17955,7 @@
       ],
       "source": "Friends",
       "episode": "S01E11",
-      "sourceOrder": 48
+      "sourceOrder": 49
     },
     {
       "phrase": "play tonsil tennis",
@@ -17925,7 +17976,7 @@
       "source": "Friends",
       "episode": "S01E11",
       "note": "かなりくだけた、からかいを含む表現。改まった会話には不向き。",
-      "sourceOrder": 50
+      "sourceOrder": 51
     },
     {
       "phrase": "woozy",
@@ -17945,7 +17996,7 @@
       ],
       "source": "Friends",
       "episode": "S01E11",
-      "sourceOrder": 52
+      "sourceOrder": 53
     },
     {
       "phrase": "You’re welcome.",
@@ -17965,7 +18016,7 @@
       ],
       "source": "Friends",
       "episode": "S01E11",
-      "sourceOrder": 55
+      "sourceOrder": 56
     },
     {
       "phrase": "What do you want me to say?",
@@ -17985,7 +18036,7 @@
       ],
       "source": "Friends",
       "episode": "S01E11",
-      "sourceOrder": 57
+      "sourceOrder": 58
     },
     {
       "phrase": "Be good.",
@@ -18006,7 +18057,7 @@
       "source": "Friends",
       "episode": "S01E11",
       "note": "子どもへの言葉のほか、大人同士の冗談めいた別れの挨拶にもなる。",
-      "sourceOrder": 61
+      "sourceOrder": 62
     },
     {
       "phrase": "upside down",
@@ -18026,7 +18077,7 @@
       ],
       "source": "Friends",
       "episode": "S01E11",
-      "sourceOrder": 68
+      "sourceOrder": 69
     },
     {
       "phrase": "All I’m saying is ~",
@@ -18087,7 +18138,7 @@
       "source": "Friends",
       "episode": "S01E12",
       "note": "Do you think?のような真面目な問いではなく、口調で皮肉を表す独立応答。",
-      "sourceOrder": 8
+      "sourceOrder": 9
     },
     {
       "phrase": "send one’s love",
@@ -18107,7 +18158,7 @@
       ],
       "source": "Friends",
       "episode": "S01E12",
-      "sourceOrder": 9
+      "sourceOrder": 10
     },
     {
       "phrase": "along with ~",
@@ -18127,7 +18178,7 @@
       ],
       "source": "Friends",
       "episode": "S01E12",
-      "sourceOrder": 10
+      "sourceOrder": 11
     },
     {
       "phrase": "I’m pretty sure ~",
@@ -18147,7 +18198,7 @@
       ],
       "source": "Friends",
       "episode": "S01E12",
-      "sourceOrder": 11
+      "sourceOrder": 12
     },
     {
       "phrase": "have trouble with ~",
@@ -18167,7 +18218,7 @@
       ],
       "source": "Friends",
       "episode": "S01E12",
-      "sourceOrder": 12
+      "sourceOrder": 13
     },
     {
       "phrase": "A-OK",
@@ -18187,7 +18238,7 @@
       ],
       "source": "Friends",
       "episode": "S01E12",
-      "sourceOrder": 13
+      "sourceOrder": 14
     },
     {
       "phrase": "folks",
@@ -18208,7 +18259,7 @@
       "source": "Friends",
       "episode": "S01E12",
       "note": "所有格を伴うmy/your folksは両親・家族を指す。呼びかけのfolksとは別。",
-      "sourceOrder": 15
+      "sourceOrder": 16
     },
     {
       "phrase": "I don’t mean to sound ~, but ...",
@@ -18228,7 +18279,7 @@
       ],
       "source": "Friends",
       "episode": "S01E12",
-      "sourceOrder": 25
+      "sourceOrder": 26
     },
     {
       "phrase": "Here comes ~.",
@@ -18248,7 +18299,7 @@
       ],
       "source": "Friends",
       "episode": "S01E12",
-      "sourceOrder": 24
+      "sourceOrder": 25
     },
     {
       "phrase": "Can we talk for a sec?",
@@ -18269,7 +18320,7 @@
       "source": "Friends",
       "episode": "S01E12",
       "note": "secはsecondの略。実際に1秒だけという意味ではない。",
-      "sourceOrder": 30
+      "sourceOrder": 31
     },
     {
       "phrase": "How does this work?",
@@ -18289,7 +18340,7 @@
       ],
       "source": "Friends",
       "episode": "S01E12",
-      "sourceOrder": 32
+      "sourceOrder": 33
     },
     {
       "phrase": "Score!",
@@ -18309,7 +18360,7 @@
       ],
       "source": "Friends",
       "episode": "S01E12",
-      "sourceOrder": 35
+      "sourceOrder": 36
     },
     {
       "phrase": "How did I not see this?",
@@ -18329,7 +18380,7 @@
       ],
       "source": "Friends",
       "episode": "S01E12",
-      "sourceOrder": 36
+      "sourceOrder": 37
     },
     {
       "phrase": "distraught",
@@ -18349,7 +18400,7 @@
       ],
       "source": "Friends",
       "episode": "S01E12",
-      "sourceOrder": 40
+      "sourceOrder": 41
     },
     {
       "phrase": "That’s cold.",
@@ -18370,7 +18421,7 @@
       "source": "Friends",
       "episode": "S01E12",
       "note": "温度ではなく、人の態度を冷淡だと評する用法。",
-      "sourceOrder": 44
+      "sourceOrder": 45
     },
     {
       "phrase": "I speak for everyone when I say ~",
@@ -18390,7 +18441,7 @@
       ],
       "source": "Friends",
       "episode": "S01E12",
-      "sourceOrder": 45
+      "sourceOrder": 46
     },
     {
       "phrase": "You deserve better.",
@@ -18410,7 +18461,7 @@
       ],
       "source": "Friends",
       "episode": "S01E12",
-      "sourceOrder": 47
+      "sourceOrder": 48
     },
     {
       "phrase": "shutout",
@@ -18431,7 +18482,7 @@
       "source": "Friends",
       "episode": "S01E12",
       "note": "shut-downとは別語。相手に点を取らせない勝利を指す。",
-      "sourceOrder": 52
+      "sourceOrder": 53
     },
     {
       "phrase": "fling",
@@ -18472,7 +18523,7 @@
       ],
       "source": "Friends",
       "episode": "S01E11",
-      "sourceOrder": 35
+      "sourceOrder": 36
     },
     {
       "phrase": "If I can do it, anybody can.",
@@ -18492,7 +18543,7 @@
       ],
       "source": "Friends",
       "episode": "S01E11",
-      "sourceOrder": 23
+      "sourceOrder": 24
     },
     {
       "phrase": "You’re good.",
@@ -18513,7 +18564,7 @@
       "source": "Friends",
       "episode": "S01E11",
       "note": "相手を褒める用法。許可や「大丈夫」の意味で安心させる用法とは区別。",
-      "sourceOrder": 26
+      "sourceOrder": 27
     },
     {
       "phrase": "I’m not saying ~; I’m saying ...",
@@ -18575,7 +18626,7 @@
       "frequency": "frequent",
       "register": "casual",
       "note": "結果を指摘する反問で、責める響きにもなる。「これからどうなるか様子を見る」というsee what happensとは機能が異なる。",
-      "sourceOrder": 41
+      "sourceOrder": 42
     },
     {
       "id": "p2720",
@@ -18596,7 +18647,7 @@
       "frequency": "frequent",
       "register": "neutral",
       "note": "主語に合わせてby myself / yourself / himself / herself / ourselves / yourselves / themselvesなどになる。「一人きりで」と「独力で」の両方に使う。",
-      "sourceOrder": 50
+      "sourceOrder": 51
     },
     {
       "id": "p2721",
@@ -18679,7 +18730,7 @@
       "frequency": "frequent",
       "register": "neutral",
       "note": "語調によって共感にも、分かっているから言わないでという反応にもなる。",
-      "sourceOrder": 73
+      "sourceOrder": 82
     },
     {
       "id": "p2725",
@@ -18762,7 +18813,7 @@
       "frequency": "frequent",
       "register": "casual",
       "note": "ここでは知識の有無を文字どおり述べるのではなく、相づちや共感を促す挿入表現。多用すると口癖に聞こえる。",
-      "sourceOrder": 32
+      "sourceOrder": 38
     },
     {
       "id": "p2729",
@@ -18864,7 +18915,7 @@
       "frequency": "frequent",
       "register": "neutral",
       "note": "本気を強調するI mean itとは別の談話表現。",
-      "sourceOrder": 33
+      "sourceOrder": 39
     },
     {
       "id": "p2734",
@@ -19031,7 +19082,7 @@
       "frequency": "frequent",
       "register": "neutral",
       "note": "口調によって「当たり前でしょう」という響きになる。Of course notは否定の応答。",
-      "sourceOrder": 105
+      "sourceOrder": 114
     },
     {
       "id": "p2742",
@@ -19684,7 +19735,7 @@
       "frequency": "frequent",
       "register": "casual",
       "note": "確信の弱さのほか、しぶしぶ認める気持ちを示すことがある。",
-      "sourceOrder": 40
+      "sourceOrder": 46
     },
     {
       "id": "p2774",
@@ -20013,7 +20064,7 @@
       "frequency": "frequent",
       "register": "neutral",
       "note": "canの代わりに未来・完了形などでも使える。be able to tellという特定動詞との組み合わせに限定しない。",
-      "sourceOrder": 89
+      "sourceOrder": 98
     },
     {
       "id": "p2790",
@@ -20076,7 +20127,7 @@
       "frequency": "general",
       "register": "slang",
       "note": "上品な言い方ではないため、改まった場面では避ける。",
-      "sourceOrder": 46
+      "sourceOrder": 47
     },
     {
       "id": "p2793",
@@ -20159,7 +20210,7 @@
       "frequency": "frequent",
       "register": "neutral",
       "note": "多くは実際の信憑性を尋ねるのではなく、驚きやあきれを共有する反問。",
-      "sourceOrder": 52
+      "sourceOrder": 55
     },
     {
       "id": "p2797",
@@ -20241,7 +20292,7 @@
       "frequency": "frequent",
       "register": "neutral",
       "note": "主に米国の大学について使う名詞用法。",
-      "sourceOrder": 44
+      "sourceOrder": 45
     },
     {
       "id": "p2801",
@@ -20799,7 +20850,7 @@
       "frequency": "frequent",
       "register": "neutral",
       "note": "ここでは物理的な大きさ。重要性や影響力が大きいという比喩義とは区別。",
-      "sourceOrder": 72
+      "sourceOrder": 73
     },
     {
       "id": "p2828",
@@ -20964,7 +21015,2412 @@
       "episode": "S01E15",
       "frequency": "frequent",
       "register": "neutral",
+      "sourceOrder": 56
+    },
+    {
+      "id": "p2836",
+      "phrase": "unbelievable",
+      "meaning": "信じられない／驚くほどの",
+      "scene": "驚くほどの出来事や特徴について話すとき",
+      "example1": "The view was unbelievable.",
+      "example2": "That price is unbelievable.",
+      "exampleTranslations": [
+        "景色は信じられないほどすばらしかった。",
+        "その値段は信じられない。"
+      ],
+      "type": "word",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E03",
+      "frequency": "frequent",
+      "register": "neutral",
+      "note": "肯定的な驚きにも、信じがたい・困ったという反応にも使う。",
+      "sourceOrder": 10
+    },
+    {
+      "id": "p2837",
+      "phrase": "Will that be all?",
+      "meaning": "ご注文は以上ですか／ほかにご用はありますか",
+      "scene": "注文や用件がすべて済んだか丁寧に確認するとき",
+      "example1": "Will that be all, or would you like a bag?",
+      "example2": "Will that be all for today?",
+      "exampleTranslations": [
+        "以上ですか、それとも袋もご入用ですか。",
+        "本日は以上でよろしいですか。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "general",
+      "register": "polite",
+      "sourceOrder": 1
+    },
+    {
+      "id": "p2838",
+      "phrase": "by accident",
+      "meaning": "偶然に／うっかり",
+      "scene": "意図せずしたことや偶然の出来事を説明するとき",
+      "example1": "I deleted the file by accident.",
+      "example2": "We met by accident.",
+      "exampleTranslations": [
+        "うっかりファイルを削除した。",
+        "私たちは偶然出会った。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 4
+    },
+    {
+      "id": "p2839",
+      "phrase": "in a row",
+      "meaning": "続けて／連続して",
+      "scene": "同じことが途切れず続くと伝えるとき",
+      "example1": "It rained three days in a row.",
+      "example2": "She won twice in a row.",
+      "exampleTranslations": [
+        "3日連続で雨が降った。",
+        "彼女は2回続けて勝った。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 5
+    },
+    {
+      "id": "p2840",
+      "phrase": "Let's not ~",
+      "meaning": "～するのはやめよう",
+      "scene": "一緒にする行動を控えようと提案するとき",
+      "example1": "Let's not argue about this.",
+      "example2": "Let's not leave too late.",
+      "exampleTranslations": [
+        "このことで言い争うのはやめよう。",
+        "出発が遅くなりすぎないようにしよう。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 7
+    },
+    {
+      "id": "p2841",
+      "phrase": "Nope.",
+      "meaning": "ううん／いや",
+      "scene": "親しい相手の質問に短く否定で答えるとき",
+      "example1": "Are you busy? Nope.",
+      "example2": "Did it work? Nope, sorry.",
+      "exampleTranslations": [
+        "忙しい？ ううん。",
+        "うまくいった？ いや、残念だけど。"
+      ],
+      "type": "word",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E03",
+      "frequency": "frequent",
+      "register": "casual",
+      "note": "noの非常にくだけた形。改まった場面ではnoが無難。",
+      "sourceOrder": 29
+    },
+    {
+      "id": "p2842",
+      "phrase": "by then",
+      "meaning": "その時までには／その頃には",
+      "scene": "過去や未来のある時点までの状況を述べるとき",
+      "example1": "I should be home by then.",
+      "example2": "By then, everyone had left.",
+      "exampleTranslations": [
+        "その頃には家に着いているはず。",
+        "その時にはもう全員帰っていた。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 8
+    },
+    {
+      "id": "p2843",
+      "phrase": "by now",
+      "meaning": "今頃はもう／今となっては",
+      "scene": "現在までに起きたはずのことや変化を述べるとき",
+      "example1": "They should be here by now.",
+      "example2": "By now, I'm used to the noise.",
+      "exampleTranslations": [
+        "もう着いていてもいい頃だ。",
+        "今ではその騒音にも慣れている。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E12",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 7
+    },
+    {
+      "id": "p2844",
+      "phrase": "life partner",
+      "meaning": "人生を共にするパートナー",
+      "scene": "長く人生を共にする相手について話すとき",
+      "example1": "We hope to be life partners.",
+      "example2": "She introduced me to her life partner.",
+      "exampleTranslations": [
+        "私たちは生涯のパートナーになりたいと思っている。",
+        "彼女は人生のパートナーを私に紹介した。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E09",
+      "frequency": "general",
+      "register": "neutral",
+      "note": "婚姻の有無や相手の性別を限定しない表現。",
+      "sourceOrder": 11
+    },
+    {
+      "id": "p2845",
+      "phrase": "send someone in",
+      "meaning": "人を中へ通す／入室させる",
+      "scene": "待っている人を部屋の中へ案内してもらうとき",
+      "example1": "Please send her in.",
+      "example2": "Send the next person in when you're ready.",
+      "exampleTranslations": [
+        "彼女を中へ通してください。",
+        "準備ができたら次の人を通してください。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 10
+    },
+    {
+      "id": "p2846",
+      "phrase": "You wanted to see me?",
+      "meaning": "お呼びですか／私にご用でしたか",
+      "scene": "呼ばれて来た相手が用件を確認するとき",
+      "example1": "You wanted to see me? I'm free now.",
+      "example2": "Hi, you wanted to see me?",
+      "exampleTranslations": [
+        "お呼びでしたか？ 今なら空いています。",
+        "こんにちは、私にご用でしたか。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 11
+    },
+    {
+      "id": "p2847",
+      "phrase": "postdate",
+      "meaning": "後の日付を付ける",
+      "scene": "書類に実際より後の日付を記すことを話すとき",
+      "example1": "Please don't postdate the letter.",
+      "example2": "He postdated the document by a week.",
+      "exampleTranslations": [
+        "手紙に後の日付を付けないでください。",
+        "彼はその書類に1週間後の日付を記した。"
+      ],
+      "type": "word",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "limited",
+      "register": "neutral",
+      "note": "sourceではpost-datingと分かち書きされている。標準の見出しはpostdate。",
+      "sourceOrder": 13
+    },
+    {
+      "id": "p2848",
+      "phrase": "Gotcha.",
+      "meaning": "分かった／了解",
+      "scene": "説明や指示を理解したとくだけて答えるとき",
+      "example1": "Use the side door. Gotcha.",
+      "example2": "Gotcha. I'll bring two copies.",
+      "exampleTranslations": [
+        "横の入口を使って。了解。",
+        "分かった。2部持っていくね。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "frequent",
+      "register": "casual",
+      "note": "このrecordは「了解」の応答。got you由来だが、捕まえた・だましたという別義もある。",
+      "sourceOrder": 15
+    },
+    {
+      "id": "p2849",
+      "phrase": "dip your pen in the company ink",
+      "meaning": "職場の人と性的な関係を持つ",
+      "scene": "職場での恋愛や性的関係をくだけた比喩で話すとき",
+      "example1": "He says he never dips his pen in the company ink.",
+      "example2": "Dating a coworker? That's dipping your pen in the company ink.",
+      "exampleTranslations": [
+        "彼は職場の人とは関係を持たないと言っている。",
+        "同僚と付き合っているの？ それは職場恋愛というやつだね。"
+      ],
+      "type": "idiom",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "limited",
+      "register": "slang",
+      "note": "性的な含みのある職場恋愛の比喩。一般の丁寧な職場会話では避ける。",
+      "sourceOrder": 16
+    },
+    {
+      "id": "p2850",
+      "phrase": "Relax.",
+      "meaning": "落ち着いて／気を楽にして",
+      "scene": "緊張したり慌てたりしている人を落ち着かせるとき",
+      "example1": "Relax. We still have time.",
+      "example2": "Relax, you're doing fine.",
+      "exampleTranslations": [
+        "落ち着いて。まだ時間はあるよ。",
+        "気を楽にして、うまくできているよ。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E01",
+      "frequency": "frequent",
+      "register": "casual",
+      "note": "言い方によっては「落ち着けよ」と突き放して聞こえる。",
+      "sourceOrder": 8
+    },
+    {
+      "id": "p2851",
+      "phrase": "take something down",
+      "meaning": "取り外す／取り払う",
+      "scene": "掲示物や飾りを取り外すことを話すとき",
+      "example1": "Let's take the decorations down.",
+      "example2": "They took down the old sign.",
+      "exampleTranslations": [
+        "飾りを外そう。",
+        "古い看板は取り外された。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 17
+    },
+    {
+      "id": "p2852",
+      "phrase": "Where you been?",
+      "meaning": "どこにいたの",
+      "scene": "しばらく姿を見なかった親しい相手に居場所を尋ねるとき",
+      "example1": "Hey, where you been?",
+      "example2": "Where you been? I've been looking for you.",
+      "exampleTranslations": [
+        "ねえ、どこにいたの？",
+        "どこにいたの？ 探していたんだよ。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "frequent",
+      "register": "casual",
+      "note": "Where have you been? のhaveを省いたくだけた発話。sourceの省略形を見出しに保持。",
+      "sourceOrder": 18
+    },
+    {
+      "id": "p2853",
+      "phrase": "I see.",
+      "meaning": "なるほど／そうですか",
+      "scene": "説明を聞いて理解したことを短く伝えるとき",
+      "example1": "The office is closed today. I see.",
+      "example2": "Oh, I see. You meant next Friday.",
+      "exampleTranslations": [
+        "今日は事務所は休みです。そうですか。",
+        "ああ、なるほど。来週の金曜日のことだったんだね。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E07",
+      "frequency": "frequent",
+      "register": "neutral",
+      "note": "視覚的な「見える」ではなく、説明への理解を示す独立応答。",
+      "sourceOrder": 72
+    },
+    {
+      "id": "p2854",
+      "phrase": "on one's back",
+      "meaning": "あおむけに",
+      "scene": "体の姿勢を説明したり指示したりするとき",
+      "example1": "Lie on your back.",
+      "example2": "I usually sleep on my back.",
+      "exampleTranslations": [
+        "あおむけに寝てください。",
+        "私は普段あおむけで寝ます。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 21
+    },
+    {
+      "id": "p2855",
+      "phrase": "take a deep breath",
+      "meaning": "深呼吸する",
+      "scene": "呼吸を整えたり気持ちを落ち着けたりするとき",
+      "example1": "Take a deep breath before you start.",
+      "example2": "She took a deep breath and knocked.",
+      "exampleTranslations": [
+        "始める前に深呼吸して。",
+        "彼女は深呼吸してノックした。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "frequent",
+      "register": "neutral",
+      "note": "sourceのnice / cleansingはbreathの修飾語。深く息を吸う同じ行為として扱う。",
+      "sourceOrder": 26
+    },
+    {
+      "id": "p2856",
+      "phrase": "sleep funny",
+      "meaning": "変な姿勢で寝る",
+      "scene": "寝方が原因で体に違和感があると説明するとき",
+      "example1": "I slept funny, and my neck feels stiff.",
+      "example2": "Did you sleep funny last night?",
+      "exampleTranslations": [
+        "変な姿勢で寝て、首がこっている。",
+        "昨夜、変な寝方をしたの？"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "general",
+      "register": "casual",
+      "note": "funnyは「おかしい姿勢で」の意味で、「面白い夢を見た」ではない。",
+      "sourceOrder": 28
+    },
+    {
+      "id": "p2857",
+      "phrase": "Good choice.",
+      "meaning": "いい選択だね",
+      "scene": "相手が選んだものをよいと評価するとき",
+      "example1": "The blue one? Good choice.",
+      "example2": "Good choice. That route is quieter.",
+      "exampleTranslations": [
+        "青いほう？ いい選択だね。",
+        "いい選択だね。その道のほうが静かだよ。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "frequent",
+      "register": "casual",
+      "sourceOrder": 32
+    },
+    {
+      "id": "p2858",
+      "phrase": "sit around",
+      "meaning": "座ってのんびり過ごす／何もせず過ごす",
+      "scene": "特に何もせず座って過ごすことを話すとき",
+      "example1": "We sat around and chatted.",
+      "example2": "I don't want to sit around all day.",
+      "exampleTranslations": [
+        "座ってのんびりおしゃべりした。",
+        "一日中何もせず座っていたくはない。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "frequent",
+      "register": "casual",
+      "sourceOrder": 36
+    },
+    {
+      "id": "p2859",
+      "phrase": "try something on",
+      "meaning": "試着する",
+      "scene": "服などを買う前に身につけて試すとき",
+      "example1": "Can I try this jacket on?",
+      "example2": "Try them on before you buy them.",
+      "exampleTranslations": [
+        "このジャケットを試着してもいいですか。",
+        "買う前に試着してみて。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 38
+    },
+    {
+      "id": "p2860",
+      "phrase": "fit",
+      "meaning": "サイズが合う",
+      "scene": "服や靴のサイズが体に合うか話すとき",
+      "example1": "These shoes fit perfectly.",
+      "example2": "Does the jacket fit you?",
+      "exampleTranslations": [
+        "この靴はぴったりだ。",
+        "そのジャケットはサイズが合う？"
+      ],
+      "type": "word",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "frequent",
+      "register": "neutral",
+      "note": "ここでは服・靴のサイズが合う意味。似合うsuitとは区別する。",
+      "sourceOrder": 39
+    },
+    {
+      "id": "p2861",
+      "phrase": "have no recollection of ~",
+      "meaning": "～の記憶がまったくない",
+      "scene": "出来事を覚えていないことを明確に述べるとき",
+      "example1": "I have no recollection of that conversation.",
+      "example2": "She has no recollection of signing the form.",
+      "exampleTranslations": [
+        "その会話の記憶はまったくない。",
+        "彼女はその用紙に署名した記憶がない。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "general",
+      "register": "neutral",
+      "note": "rememberを使うより改まった、やや距離のある響き。",
+      "sourceOrder": 42
+    },
+    {
+      "id": "p2862",
+      "phrase": "be a threat to ~",
+      "meaning": "～にとって脅威となる",
+      "scene": "何かに害や危険を及ぼす可能性を話すとき",
+      "example1": "The delay is a threat to our plans.",
+      "example2": "This change is no threat to your job.",
+      "exampleTranslations": [
+        "その遅れは私たちの計画を脅かす。",
+        "この変更によってあなたの仕事が危うくなることはない。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 43
+    },
+    {
+      "id": "p2863",
+      "phrase": "big picture",
+      "meaning": "全体像／大きな視点",
+      "scene": "細部だけでなく全体を考えるよう促すとき",
+      "example1": "Let's look at the big picture.",
+      "example2": "It's easy to lose sight of the big picture.",
+      "exampleTranslations": [
+        "全体像を見よう。",
+        "大きな視点を見失いがちだ。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "general",
+      "register": "casual",
+      "sourceOrder": 45
+    },
+    {
+      "id": "p2864",
+      "phrase": "get someone/something to ~",
+      "meaning": "人や物を～するようにさせる／人に～してもらう",
+      "scene": "働きかけによって人や物をある行動・状態に導くとき",
+      "example1": "Can you get him to call me?",
+      "example2": "I can't get the printer to work.",
+      "exampleTranslations": [
+        "彼に私へ電話してもらえる？",
+        "プリンターがどうしても動かない。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E05",
+      "frequency": "frequent",
+      "register": "neutral",
+      "note": "get + 目的語 + to不定詞。人に働きかける場合も、物を動作させる場合も使う。",
+      "sourceOrder": 48
+    },
+    {
+      "id": "p2865",
+      "phrase": "give someone a strange look",
+      "meaning": "人を不思議そうな目で見る",
+      "scene": "相手が不思議そうな表情をしたことを伝えるとき",
+      "example1": "She gave me a strange look.",
+      "example2": "Why are you giving me that strange look?",
+      "exampleTranslations": [
+        "彼女は不思議そうな目で私を見た。",
+        "どうしてそんな変な目で私を見ているの？"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 49
+    },
+    {
+      "id": "p2866",
+      "phrase": "get a raise",
+      "meaning": "昇給する",
+      "scene": "給料が上がることを話すとき",
+      "example1": "I got a raise last month.",
+      "example2": "She's hoping to get a raise.",
+      "exampleTranslations": [
+        "先月、給料が上がった。",
+        "彼女は昇給を期待している。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 51
+    },
+    {
+      "id": "p2867",
+      "phrase": "put through paperwork",
+      "meaning": "書類を処理に回す／手続きを進める",
+      "scene": "書類を所定の処理や承認へ回すとき",
+      "example1": "We can put through the paperwork today.",
+      "example2": "Has anyone put the paperwork through yet?",
+      "exampleTranslations": [
+        "今日、その書類の手続きを進められます。",
+        "もう誰か書類を処理に回しましたか。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "general",
+      "register": "neutral",
+      "note": "put the paperwork throughの語順も可能。",
+      "sourceOrder": 52
+    },
+    {
+      "id": "p2868",
+      "phrase": "How did someone take it?",
+      "meaning": "それを聞いてどんな反応だった",
+      "scene": "知らせを伝えた後の相手の受け止め方を尋ねるとき",
+      "example1": "How did he take it when you told him?",
+      "example2": "How did your parents take it?",
+      "exampleTranslations": [
+        "伝えたとき彼はどんな反応だった？",
+        "ご両親はどう受け止めたの？"
+      ],
+      "type": "pattern",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "frequent",
+      "register": "casual",
+      "sourceOrder": 53
+    },
+    {
+      "id": "p2869",
+      "phrase": "break someone's heart",
+      "meaning": "人をひどく悲しませる／失恋させる",
+      "scene": "失恋などで人を深く悲しませることを話すとき",
+      "example1": "I don't want to break her heart.",
+      "example2": "It broke my heart to say goodbye.",
+      "exampleTranslations": [
+        "彼女を深く傷つけたくない。",
+        "別れを告げるのは胸が張り裂ける思いだった。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E11",
+      "frequency": "frequent",
+      "register": "neutral",
+      "note": "失恋に限らず、別れなどで深く悲しむ場合にも使う。",
+      "sourceOrder": 3
+    },
+    {
+      "id": "p2870",
+      "phrase": "sleep together",
+      "meaning": "性的な関係を持つ（婉曲表現）",
+      "scene": "二人が性的な関係を持ったかどうかを、直接的な言い方を避けて話すとき",
+      "example1": "They started dating, but they haven’t slept together.",
+      "example2": "We slept together once, but we’re not a couple.",
+      "exampleTranslations": [
+        "二人は付き合い始めたけれど、まだ性的な関係は持っていない。",
+        "一度関係を持ったけれど、私たちは恋人同士ではない。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "frequency": "general",
+      "register": "casual",
+      "note": "このrecordは性的関係の婉曲表現。文字どおり同じ場所で眠る意味とは区別する。sleep with someoneと意味は近いが、togetherを用いた独立した検索surfaceとして扱う。",
+      "source": "Friends",
+      "episode": "S01E16",
+      "sourceOrder": 54
+    },
+    {
+      "id": "p2871",
+      "phrase": "freezing",
+      "meaning": "凍えるほど寒い",
+      "scene": "とても寒いと強調するとき",
+      "example1": "It's freezing in here.",
+      "example2": "I'm freezing. Can we go inside?",
+      "exampleTranslations": [
+        "ここは凍えるほど寒い。",
+        "すごく寒い。中に入ってもいい？"
+      ],
+      "type": "word",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E16",
+      "frequency": "frequent",
+      "register": "casual",
       "sourceOrder": 55
+    },
+    {
+      "id": "p2872",
+      "phrase": "bring something back",
+      "meaning": "物を持って戻る／持ち帰る",
+      "scene": "物を元の場所や相手へ持って戻るとき",
+      "example1": "Please bring the book back tomorrow.",
+      "example2": "I brought your umbrella back.",
+      "exampleTranslations": [
+        "明日その本を持ってきて返してください。",
+        "あなたの傘を返しに持ってきたよ。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 1
+    },
+    {
+      "id": "p2873",
+      "phrase": "insurance fraud",
+      "meaning": "保険に関する詐欺／不正な保険請求",
+      "scene": "保険への虚偽申告や不正請求について話すとき",
+      "example1": "The company reported suspected insurance fraud.",
+      "example2": "The story was about insurance fraud.",
+      "exampleTranslations": [
+        "会社は保険詐欺の疑いを報告した。",
+        "その話は保険詐欺についてだった。"
+      ],
+      "type": "phrase",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "limited",
+      "register": "neutral",
+      "sourceOrder": 4
+    },
+    {
+      "id": "p2874",
+      "phrase": "instead of ~",
+      "meaning": "～の代わりに／～せずに",
+      "scene": "一つの選択や行動を別のものに置き換えるとき",
+      "example1": "Let's walk instead of taking the bus.",
+      "example2": "I ordered tea instead of coffee.",
+      "exampleTranslations": [
+        "バスに乗る代わりに歩こう。",
+        "コーヒーではなく紅茶を注文した。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E03",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 41
+    },
+    {
+      "id": "p2875",
+      "phrase": "in time",
+      "meaning": "間に合って",
+      "scene": "締め切りや予定に間に合うことを話すとき",
+      "example1": "We arrived in time for dinner.",
+      "example2": "Will the package get here in time?",
+      "exampleTranslations": [
+        "夕食に間に合うように着いた。",
+        "荷物は間に合うかな？"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 5
+    },
+    {
+      "id": "p2876",
+      "phrase": "caring",
+      "meaning": "思いやりのある",
+      "scene": "相手を気遣う人柄を褒めるとき",
+      "example1": "She's a caring friend.",
+      "example2": "Thank you for being so caring.",
+      "exampleTranslations": [
+        "彼女は思いやりのある友人だ。",
+        "いつもそんなに気遣ってくれてありがとう。"
+      ],
+      "type": "word",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 6
+    },
+    {
+      "id": "p2877",
+      "phrase": "responsible",
+      "meaning": "責任感のある／頼りになる",
+      "scene": "人が信頼でき、責任を果たす人柄だと述べるとき",
+      "example1": "He's a responsible person.",
+      "example2": "We need someone caring and responsible.",
+      "exampleTranslations": [
+        "彼は責任感のある人だ。",
+        "思いやりがあって責任感のある人が必要だ。"
+      ],
+      "type": "word",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E06",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 19
+    },
+    {
+      "id": "p2878",
+      "phrase": "screw something up",
+      "meaning": "台無しにする／しくじる",
+      "scene": "失敗で物事を台無しにすることをくだけて話すとき",
+      "example1": "I don't want to screw this up.",
+      "example2": "One mistake screwed up the whole plan.",
+      "exampleTranslations": [
+        "これをしくじりたくない。",
+        "一つのミスで計画全体が台無しになった。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "general",
+      "register": "slang",
+      "note": "くだけた表現。自分が失敗するscrew upと、物事を台無しにする目的語付きの用法を区別。",
+      "sourceOrder": 7
+    },
+    {
+      "id": "p2879",
+      "phrase": "hissy fit",
+      "meaning": "大げさに怒り散らすこと／かんしゃく",
+      "scene": "大げさに怒る反応を批判的に表すとき",
+      "example1": "He had a hissy fit over the delay.",
+      "example2": "Don't throw a hissy fit about it.",
+      "exampleTranslations": [
+        "彼は遅れたことで大騒ぎして怒った。",
+        "そのことでかんしゃくを起こさないで。"
+      ],
+      "type": "phrase",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "limited",
+      "register": "slang",
+      "note": "相手の怒りを幼稚で大げさだと見なす、軽蔑的な響きがある。",
+      "sourceOrder": 8
+    },
+    {
+      "id": "p2880",
+      "phrase": "a pinch of ~",
+      "meaning": "～をひとつまみ",
+      "scene": "料理に少量の粉や調味料を加えるとき",
+      "example1": "Add a pinch of salt.",
+      "example2": "I used a pinch of cinnamon.",
+      "exampleTranslations": [
+        "塩をひとつまみ加えて。",
+        "シナモンをひとつまみ使った。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 9
+    },
+    {
+      "id": "p2881",
+      "phrase": "sprain",
+      "meaning": "捻挫",
+      "scene": "けがの種類について話すとき",
+      "example1": "She said it was a sprain.",
+      "example2": "He missed practice because of a sprain.",
+      "exampleTranslations": [
+        "彼女は捻挫だと言った。",
+        "彼は捻挫で練習を休んだ。"
+      ],
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 11
+    },
+    {
+      "id": "p2882",
+      "phrase": "leave something out",
+      "meaning": "省く／入れ忘れる",
+      "scene": "説明や一覧から一部を省くとき",
+      "example1": "You left out an important detail.",
+      "example2": "Can we leave that part out?",
+      "exampleTranslations": [
+        "大事な点が抜けているよ。",
+        "その部分は省いてもいい？"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 12
+    },
+    {
+      "id": "p2883",
+      "phrase": "so far",
+      "meaning": "今のところ／ここまで",
+      "scene": "現在までの結果や進捗を述べるとき",
+      "example1": "So far, everything is going well.",
+      "example2": "What have you learned so far?",
+      "exampleTranslations": [
+        "今のところ、すべて順調だ。",
+        "ここまでで何を学んだ？"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "frequent",
+      "register": "neutral",
+      "note": "距離の「それほど遠く」ではなく、現在までの進捗を表す。",
+      "sourceOrder": 13
+    },
+    {
+      "id": "p2884",
+      "phrase": "panicky",
+      "meaning": "パニックになりそうな／ひどく不安な",
+      "scene": "急に不安や焦りが強くなる感覚を話すとき",
+      "example1": "I felt panicky before the interview.",
+      "example2": "She sounded a little panicky.",
+      "exampleTranslations": [
+        "面接前にパニックになりそうだった。",
+        "彼女は少し取り乱しているように聞こえた。"
+      ],
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 17
+    },
+    {
+      "id": "p2885",
+      "phrase": "How could we resist?",
+      "meaning": "断れるわけないよ／つい乗ってしまうよ",
+      "scene": "魅力的な誘いや物に抵抗できないと軽く冗談を言うとき",
+      "example1": "Free cake? How could we resist?",
+      "example2": "How could we resist an offer like that?",
+      "exampleTranslations": [
+        "無料のケーキ？ 断れるわけないよね。",
+        "そんな申し出にどうして抵抗できようか。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "general",
+      "register": "casual",
+      "sourceOrder": 19
+    },
+    {
+      "id": "p2886",
+      "phrase": "stat",
+      "meaning": "直ちに／至急",
+      "scene": "非常に急いでほしいと短く強調するとき",
+      "example1": "We need those results, stat.",
+      "example2": "Coffee, stat! I'm still half asleep.",
+      "exampleTranslations": [
+        "その結果を至急お願いします。",
+        "コーヒーを至急！ まだ半分寝ているんだ。"
+      ],
+      "type": "word",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "limited",
+      "register": "casual",
+      "note": "医療現場の至急という指示に由来。日常ではしばしば冗談めかして用いる。",
+      "sourceOrder": 20
+    },
+    {
+      "id": "p2887",
+      "phrase": "get in trouble",
+      "meaning": "問題を起こして叱られる／まずいことになる",
+      "scene": "行動のせいで叱られたり問題になったりするとき",
+      "example1": "We'll get in trouble if we're late.",
+      "example2": "He got in trouble at school.",
+      "exampleTranslations": [
+        "遅れたら叱られるよ。",
+        "彼は学校で問題を起こして叱られた。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 21
+    },
+    {
+      "id": "p2888",
+      "phrase": "more and more",
+      "meaning": "ますます／だんだんと",
+      "scene": "変化が少しずつ強まっていると述べるとき",
+      "example1": "I'm enjoying it more and more.",
+      "example2": "It's getting more and more expensive.",
+      "exampleTranslations": [
+        "ますます楽しくなってきた。",
+        "だんだん高くなってきている。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 23
+    },
+    {
+      "id": "p2889",
+      "phrase": "spoiled",
+      "meaning": "甘やかされてわがままな",
+      "scene": "甘やかされたためのわがままな態度を評するとき",
+      "example1": "I was a spoiled child.",
+      "example2": "That sounds a little spoiled.",
+      "exampleTranslations": [
+        "私は甘やかされた子どもだった。",
+        "それは少しわがままに聞こえる。"
+      ],
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "general",
+      "register": "neutral",
+      "note": "食べ物が傷んだ意味ではなく、人が甘やかされた意味。",
+      "sourceOrder": 25
+    },
+    {
+      "id": "p2890",
+      "phrase": "wet the bed",
+      "meaning": "おねしょをする",
+      "scene": "眠っている間のおねしょについて話すとき",
+      "example1": "He used to wet the bed as a child.",
+      "example2": "She said she had wet her bed.",
+      "exampleTranslations": [
+        "彼は子どもの頃おねしょをしていた。",
+        "彼女はおねしょをしたと言った。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "general",
+      "register": "neutral",
+      "note": "wet my/your bedという所有格の形でも同じlearning item。",
+      "sourceOrder": 26
+    },
+    {
+      "id": "p2891",
+      "phrase": "Would you excuse me?",
+      "meaning": "少し失礼してもいいですか",
+      "scene": "会話や席から一時的に離れる許しを求めるとき",
+      "example1": "Would you excuse me for a moment?",
+      "example2": "Would you excuse me? I need to take this call.",
+      "exampleTranslations": [
+        "少し失礼してもよろしいですか。",
+        "失礼してもよろしいですか。この電話に出なければならないので。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "frequent",
+      "register": "polite",
+      "note": "単なる呼びかけのExcuse me.と違い、退席などの許しを求める疑問形。",
+      "sourceOrder": 28
+    },
+    {
+      "id": "p2892",
+      "phrase": "put someone out of business",
+      "meaning": "人・会社を廃業に追い込む",
+      "scene": "競争や出来事が商売の継続を困難にすることを話すとき",
+      "example1": "The rent increase could put us out of business.",
+      "example2": "They don't want to put local shops out of business.",
+      "exampleTranslations": [
+        "家賃の値上げで私たちは廃業に追い込まれるかもしれない。",
+        "彼らは地元の店を廃業に追い込みたいわけではない。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 29
+    },
+    {
+      "id": "p2893",
+      "phrase": "come with ~",
+      "meaning": "～が付いてくる／～付きである",
+      "scene": "商品や注文に何が含まれているか確認するとき",
+      "example1": "Does this come with a charger?",
+      "example2": "The meal comes with a drink.",
+      "exampleTranslations": [
+        "これには充電器が付いていますか。",
+        "その食事には飲み物が付きます。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 34
+    },
+    {
+      "id": "p2894",
+      "phrase": "pay with a check",
+      "meaning": "小切手で支払う",
+      "scene": "支払いに小切手を使えるか確認するとき",
+      "example1": "Can I pay with a check?",
+      "example2": "She paid for the repairs with a check.",
+      "exampleTranslations": [
+        "小切手で払えますか。",
+        "彼女は修理代を小切手で払った。"
+      ],
+      "type": "phrase",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "limited",
+      "register": "neutral",
+      "note": "checkは米式表記、英式ではcheque。支払い方法を述べる定着したまとまり。",
+      "sourceOrder": 35
+    },
+    {
+      "id": "p2895",
+      "phrase": "cover",
+      "meaning": "保険などが費用を負担する／補償の対象にする",
+      "scene": "保険や予算が費用を負担するか述べるとき",
+      "example1": "Does your insurance cover this?",
+      "example2": "The allowance covers travel costs.",
+      "exampleTranslations": [
+        "これはあなたの保険でカバーされますか。",
+        "その手当で交通費が賄われる。"
+      ],
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 36
+    },
+    {
+      "id": "p2896",
+      "phrase": "bright",
+      "meaning": "頭のよい／賢い",
+      "scene": "理解が速い人や頭のよさを表すとき",
+      "example1": "She's a bright student.",
+      "example2": "He's bright, but he needs experience.",
+      "exampleTranslations": [
+        "彼女は頭のよい学生だ。",
+        "彼は賢いが、経験が必要だ。"
+      ],
+      "type": "word",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "frequent",
+      "register": "neutral",
+      "note": "光が明るい意味とは別の、人の知的能力を表す意味。",
+      "sourceOrder": 37
+    },
+    {
+      "id": "p2897",
+      "phrase": "Do you have a point?",
+      "meaning": "何が言いたいの／要点はあるの",
+      "scene": "話の要点や結論を早く示してほしいと尋ねるとき",
+      "example1": "Do you have a point, or are you just complaining?",
+      "example2": "Do you have a point? I'm a little busy.",
+      "exampleTranslations": [
+        "何か言いたいことがあるの、それとも文句だけ？",
+        "何が言いたいの？ 少し忙しいんだけど。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "general",
+      "register": "casual",
+      "note": "一理あるというhave a pointとは異なる、話の要点を催促する質問。強く言うと失礼になる。",
+      "sourceOrder": 39
+    },
+    {
+      "id": "p2898",
+      "phrase": "across town",
+      "meaning": "町の反対側に／町を横切って",
+      "scene": "町の離れた側にある場所や移動を話すとき",
+      "example1": "She lives across town.",
+      "example2": "I drove across town to meet him.",
+      "exampleTranslations": [
+        "彼女は町の反対側に住んでいる。",
+        "彼に会うために町を横切って車で行った。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 40
+    },
+    {
+      "id": "p2899",
+      "phrase": "It's either ~ or ~",
+      "meaning": "～か～のどちらかだ",
+      "scene": "二つの選択肢のどちらかしかないと示すとき",
+      "example1": "It's either today or next week.",
+      "example2": "It's either the bus or a long walk.",
+      "exampleTranslations": [
+        "今日か来週のどちらかだ。",
+        "バスにするか、長い距離を歩くかだ。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 43
+    },
+    {
+      "id": "p2900",
+      "phrase": "spell out",
+      "meaning": "一文字ずつつづる",
+      "scene": "単語を構成する文字を順番に示すとき",
+      "example1": "Please spell out your surname.",
+      "example2": "She spelled out the name slowly.",
+      "exampleTranslations": [
+        "姓を一文字ずつつづってください。",
+        "彼女は名前をゆっくりつづった。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E17",
+      "frequency": "general",
+      "register": "neutral",
+      "note": "比喩的な「はっきり説明する」とは別に、実際に文字をつづる意味。",
+      "sourceOrder": 45
+    },
+    {
+      "id": "p2901",
+      "phrase": "wake up",
+      "meaning": "目を覚ます",
+      "scene": "眠りから目を覚ますことを話すとき",
+      "example1": "I woke up early today.",
+      "example2": "What time do you usually wake up?",
+      "exampleTranslations": [
+        "今日は早く目が覚めた。",
+        "普段何時に起きる？"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E04",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 36
+    },
+    {
+      "id": "p2902",
+      "phrase": "proofread",
+      "meaning": "校正する／誤字などを確認する",
+      "scene": "提出する文章の誤字や誤りを確認するとき",
+      "example1": "Could you proofread my application?",
+      "example2": "I proofread the email before sending it.",
+      "exampleTranslations": [
+        "応募書類を校正してもらえる？",
+        "送信前にメールの誤字を確認した。"
+      ],
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 3
+    },
+    {
+      "id": "p2903",
+      "phrase": "be impressed with ~",
+      "meaning": "～に感心する／～に好印象を持つ",
+      "scene": "能力や成果に好印象を持ったと伝えるとき",
+      "example1": "I was impressed with your presentation.",
+      "example2": "They're impressed with the results.",
+      "exampleTranslations": [
+        "あなたの発表に感心した。",
+        "彼らはその結果に感心している。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 4
+    },
+    {
+      "id": "p2904",
+      "phrase": "do something for someone",
+      "meaning": "人の心を動かす／魅力を感じさせる",
+      "scene": "人や物が自分に魅力やときめきを感じさせると話すとき",
+      "example1": "That kind of music does something for me.",
+      "example2": "He's nice, but he doesn't really do anything for me.",
+      "exampleTranslations": [
+        "あの手の音楽は心に響く。",
+        "彼はいい人だけど、私はあまりときめかない。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "general",
+      "register": "casual",
+      "note": "単に用事をしてあげる意味ではなく、魅力を感じる・心が動く意味。",
+      "sourceOrder": 5
+    },
+    {
+      "id": "p2905",
+      "phrase": "You should have seen ~",
+      "meaning": "～を見せたかったよ／～はすごかったよ",
+      "scene": "印象的な場面を見せたかったと相手に話すとき",
+      "example1": "You should have seen her smile.",
+      "example2": "You should've seen the queue!",
+      "exampleTranslations": [
+        "彼女の笑顔を見せたかったよ。",
+        "あの行列を見せたかったよ！"
+      ],
+      "type": "pattern",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "frequent",
+      "register": "casual",
+      "note": "文字どおりの「見るべきだった」という後悔より、過去の様子を強調して語る定型。",
+      "sourceOrder": 8
+    },
+    {
+      "id": "p2906",
+      "phrase": "Read 'em and weep.",
+      "meaning": "これを見て悔しがれ／さあ参ったか",
+      "scene": "勝ちを示して相手を得意げにからかうとき",
+      "example1": "Four aces. Read 'em and weep.",
+      "example2": "Here are the results. Read 'em and weep!",
+      "exampleTranslations": [
+        "エースが4枚。参ったか。",
+        "これが結果だ。見て悔しがれ！"
+      ],
+      "type": "idiom",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "limited",
+      "register": "casual",
+      "note": "'emはthemのくだけた形。カードを見せるときの自慢から、結果を誇る冗談にも使う。",
+      "sourceOrder": 9
+    },
+    {
+      "id": "p2907",
+      "phrase": "be welcome to ~",
+      "meaning": "遠慮なく～してよい／～することを歓迎される",
+      "scene": "相手に遠慮なく何かをしてよいと伝えるとき",
+      "example1": "You're welcome to join us.",
+      "example2": "You're welcome to use my desk.",
+      "exampleTranslations": [
+        "よかったら一緒にどうぞ。",
+        "私の机は遠慮なく使っていいよ。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "frequent",
+      "register": "neutral",
+      "note": "挨拶のWelcome to ~や、お礼へのYou’re welcome.とは構文・機能が異なる。",
+      "sourceOrder": 10
+    },
+    {
+      "id": "p2908",
+      "phrase": "draw cards",
+      "meaning": "カードを引く",
+      "scene": "カードゲームで山札からカードを取るとき",
+      "example1": "Each player draws two cards.",
+      "example2": "You can draw a card now.",
+      "exampleTranslations": [
+        "各プレーヤーはカードを2枚引く。",
+        "今カードを1枚引いていいよ。"
+      ],
+      "type": "phrase",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "limited",
+      "register": "neutral",
+      "sourceOrder": 12
+    },
+    {
+      "id": "p2909",
+      "phrase": "straight",
+      "meaning": "ストレート（連続する数字のカードの組み合わせ）",
+      "scene": "ポーカーの手札や役を説明するとき",
+      "example1": "I have a straight.",
+      "example2": "Can a straight beat three of a kind?",
+      "exampleTranslations": [
+        "ストレートができている。",
+        "ストレートはスリーカードに勝てる？"
+      ],
+      "type": "word",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "limited",
+      "register": "neutral",
+      "note": "通常の5枚のポーカーでは数字が連続する5枚の役。まっすぐという一般義とは別。",
+      "sourceOrder": 13
+    },
+    {
+      "id": "p2910",
+      "phrase": "big bucks",
+      "meaning": "大金",
+      "scene": "大きな金額をくだけて表すとき",
+      "example1": "They paid big bucks for that house.",
+      "example2": "He's hoping to earn big bucks.",
+      "exampleTranslations": [
+        "彼らはその家に大金を払った。",
+        "彼は大金を稼ぎたいと思っている。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "general",
+      "register": "slang",
+      "note": "くだけた金額表現。bucksはdollarsの俗称だが、big bucksは大金というまとまり。",
+      "sourceOrder": 16
+    },
+    {
+      "id": "p2911",
+      "phrase": "deal cards",
+      "meaning": "カードを配る",
+      "scene": "カードゲームで各人に札を配るとき",
+      "example1": "Who's going to deal the cards?",
+      "example2": "Deal five cards to each player.",
+      "exampleTranslations": [
+        "誰がカードを配る？",
+        "各プレーヤーに5枚ずつ配って。"
+      ],
+      "type": "phrase",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "limited",
+      "register": "neutral",
+      "sourceOrder": 18
+    },
+    {
+      "id": "p2912",
+      "phrase": "bluff",
+      "meaning": "はったりをかける／強い手に見せかける",
+      "scene": "本当より強い立場や手札を装うとき",
+      "example1": "I think he's bluffing.",
+      "example2": "She bluffed even though her cards were terrible.",
+      "exampleTranslations": [
+        "彼ははったりをかけていると思う。",
+        "彼女は手札がひどかったが、強いふりをした。"
+      ],
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "general",
+      "register": "neutral",
+      "note": "カードゲーム以外にも、強い立場を装うはったりに使う。",
+      "sourceOrder": 19
+    },
+    {
+      "id": "p2913",
+      "phrase": "settle",
+      "meaning": "勘定を清算する",
+      "scene": "未払いの金額や貸し借りを清算するとき",
+      "example1": "We need to settle before we leave.",
+      "example2": "Can we settle tomorrow?",
+      "exampleTranslations": [
+        "帰る前に清算しなければ。",
+        "明日清算してもいい？"
+      ],
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "general",
+      "register": "neutral",
+      "note": "sourceにupはないためsettle upへ置換していない。紛争解決・定住の義とは別。",
+      "sourceOrder": 20
+    },
+    {
+      "id": "p2914",
+      "phrase": "Hell no!",
+      "meaning": "絶対いやだ／とんでもない",
+      "scene": "強い否定や拒否をくだけて示すとき",
+      "example1": "Would I do that again? Hell no!",
+      "example2": "Hell no! I'm not paying twice.",
+      "exampleTranslations": [
+        "もう一度やるかって？ 絶対いやだ！",
+        "とんでもない！ 二重には払わないよ。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "general",
+      "register": "slang",
+      "note": "強い、くだけた拒否。丁寧な場面には向かない。",
+      "sourceOrder": 21
+    },
+    {
+      "id": "p2915",
+      "phrase": "rematch",
+      "meaning": "再戦／もう一度の勝負",
+      "scene": "負けた後などにもう一度勝負したいと話すとき",
+      "example1": "I want a rematch.",
+      "example2": "Are you ready for a rematch?",
+      "exampleTranslations": [
+        "再戦したい。",
+        "もう一勝負する準備はいい？"
+      ],
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 22
+    },
+    {
+      "id": "p2916",
+      "phrase": "get one's ya-yas",
+      "meaning": "楽しみや満足を得る",
+      "scene": "自分や相手が何を楽しみにしているかを、くだけて冗談めかして話すとき",
+      "example1": "You get your ya-yas by winning every little argument.",
+      "example2": "I get my ya-yas from beating my brother at cards.",
+      "exampleTranslations": [
+        "あなたは小さな口論でも全部勝って満足しているんだね。",
+        "私はカードで兄に勝つのを楽しみにしている。"
+      ],
+      "type": "phrase",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "frequency": "limited",
+      "register": "slang",
+      "note": "sourceのget your ya-yasという形を保持。戯けた俗語としての用法で、中立的なget satisfactionと同じ調子では使わない。sourceで発話されていないoutは見出しに補っていない。",
+      "source": "Friends",
+      "episode": "S01E18",
+      "sourceOrder": 24
+    },
+    {
+      "id": "p2917",
+      "phrase": "in order for someone to ~",
+      "meaning": "人が～するために",
+      "scene": "誰かが何かをするための条件や目的を述べるとき",
+      "example1": "In order for us to finish, we need more time.",
+      "example2": "Move closer in order for me to hear you.",
+      "exampleTranslations": [
+        "私たちが終えるにはもっと時間が必要だ。",
+        "私に聞こえるように、もっと近くに来て。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "general",
+      "register": "neutral",
+      "note": "for + 主語 + to不定詞により、不定詞の動作主を示す。sourceのfor構文を保持。",
+      "sourceOrder": 25
+    },
+    {
+      "id": "p2918",
+      "phrase": "at one time",
+      "meaning": "かつては／一時は",
+      "scene": "今とは違う過去のある時期を振り返るとき",
+      "example1": "At one time, I wanted to be a chef.",
+      "example2": "This was a busy station at one time.",
+      "exampleTranslations": [
+        "かつては料理人になりたかった。",
+        "ここはかつてにぎやかな駅だった。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "frequent",
+      "register": "neutral",
+      "note": "「一度に」のat a timeとは異なる。かつての状態と現在を対比する。",
+      "sourceOrder": 28
+    },
+    {
+      "id": "p2919",
+      "phrase": "competitive",
+      "meaning": "負けず嫌いの／競争心が強い",
+      "scene": "勝ちたい気持ちが強い性格を話すとき",
+      "example1": "I'm quite competitive when we play games.",
+      "example2": "She has a competitive streak.",
+      "exampleTranslations": [
+        "ゲームでは私はかなり負けず嫌いだ。",
+        "彼女には負けず嫌いなところがある。"
+      ],
+      "type": "word",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 30
+    },
+    {
+      "id": "p2920",
+      "phrase": "Let me tell you something.",
+      "meaning": "一つ言っておくけど／よく聞いて",
+      "scene": "強調したい意見や忠告を切り出すとき",
+      "example1": "Let me tell you something. This won't be easy.",
+      "example2": "Let me tell you something: you did a good job.",
+      "exampleTranslations": [
+        "一つ言っておくけど、これは簡単ではないよ。",
+        "これだけは言わせて。よく頑張ったね。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E15",
+      "frequency": "frequent",
+      "register": "casual",
+      "sourceOrder": 55
+    },
+    {
+      "id": "p2921",
+      "phrase": "crap",
+      "meaning": "でたらめ／くだらない話",
+      "scene": "話や説明をくだらない・でたらめだと強く評するとき",
+      "example1": "That's a load of crap.",
+      "example2": "Don't believe that crap.",
+      "exampleTranslations": [
+        "それはまったくのでたらめだ。",
+        "そんなでたらめを信じないで。"
+      ],
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "general",
+      "register": "slang",
+      "note": "くだけた粗い語。排泄物という字義ではなく、話の内容を否定する用法。",
+      "sourceOrder": 33
+    },
+    {
+      "id": "p2922",
+      "phrase": "pay for it",
+      "meaning": "報いを受ける／代償を払う",
+      "scene": "自分の行為で後から嫌な結果を受けると話すとき",
+      "example1": "I stayed up too late, and I'm paying for it today.",
+      "example2": "He'll pay for that mistake.",
+      "exampleTranslations": [
+        "夜更かししすぎて、今日はそのつけが回っている。",
+        "彼はそのミスの代償を払うことになる。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "general",
+      "register": "neutral",
+      "note": "お金の支払いでなく、行為の結果として不利益を受ける比喩。",
+      "sourceOrder": 35
+    },
+    {
+      "id": "p2923",
+      "phrase": "shuffle",
+      "meaning": "カードを切る",
+      "scene": "ゲームの前にカードの順番を混ぜるとき",
+      "example1": "Shuffle the deck first.",
+      "example2": "Could you shuffle these cards?",
+      "exampleTranslations": [
+        "まずカードを切って。",
+        "このカードを切ってもらえる？"
+      ],
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 38
+    },
+    {
+      "id": "p2924",
+      "phrase": "big ones",
+      "meaning": "ドル（額を大げさに言う表現）",
+      "scene": "金額を冗談めかして大げさに言うとき",
+      "example1": "That cost me fifty big ones.",
+      "example2": "You owe me ten big ones.",
+      "exampleTranslations": [
+        "それには50ドルもかかった。",
+        "10ドルの貸しだぞ。"
+      ],
+      "type": "phrase",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "limited",
+      "register": "slang",
+      "note": "sourceでは1単位が1ドル。金額を大げさに言うくだけた言い方で、常に千ドルを意味するわけではない。",
+      "sourceOrder": 40
+    },
+    {
+      "id": "p2925",
+      "phrase": "exert power over ~",
+      "meaning": "～に対して権力を振るう",
+      "scene": "人や組織への支配力を使うことを話すとき",
+      "example1": "They exert too much power over the team.",
+      "example2": "He tried to exert power over every decision.",
+      "exampleTranslations": [
+        "彼らはチームに強すぎる支配力を及ぼしている。",
+        "彼はあらゆる決定に権力を振るおうとした。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 41
+    },
+    {
+      "id": "p2926",
+      "phrase": "every last dime",
+      "meaning": "最後の一銭まで／お金を全部",
+      "scene": "お金を残らず使う・払うことを強調するとき",
+      "example1": "We spent every last dime.",
+      "example2": "I want every last dime back.",
+      "exampleTranslations": [
+        "最後の一銭まで使った。",
+        "一銭残らず返してほしい。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "general",
+      "register": "neutral",
+      "note": "dimeは米国の10セント硬貨だが、このまとまりは全額を強調する。",
+      "sourceOrder": 42
+    },
+    {
+      "id": "p2927",
+      "phrase": "hand over ~",
+      "meaning": "～を引き渡す／差し出す",
+      "scene": "物や金を相手へ渡すよう求めるとき",
+      "example1": "Please hand over the keys.",
+      "example2": "He handed the documents over to me.",
+      "exampleTranslations": [
+        "鍵を渡してください。",
+        "彼は書類を私に引き渡した。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 43
+    },
+    {
+      "id": "p2928",
+      "phrase": "go through the formality of ~",
+      "meaning": "形だけでも～の手続きを踏む",
+      "scene": "結果が見えていても所定の手順を踏むとき",
+      "example1": "We still have to go through the formality of voting.",
+      "example2": "Let's go through the formality of signing the form.",
+      "exampleTranslations": [
+        "それでも投票という形式上の手続きは踏まなければならない。",
+        "用紙への署名という手続きを済ませよう。"
+      ],
+      "type": "phrase",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "limited",
+      "register": "neutral",
+      "note": "本来の必要性より、形式的な手順だという含みが出やすい。",
+      "sourceOrder": 44
+    },
+    {
+      "id": "p2929",
+      "phrase": "chit-chat",
+      "meaning": "おしゃべり／雑談",
+      "scene": "軽い雑談と本題を区別して話すとき",
+      "example1": "We had a little chit-chat before the meeting.",
+      "example2": "Enough chit-chat. Let's get started.",
+      "exampleTranslations": [
+        "会議の前に少し雑談した。",
+        "おしゃべりはこのくらいにして始めよう。"
+      ],
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "general",
+      "register": "casual",
+      "sourceOrder": 46
+    },
+    {
+      "id": "p2930",
+      "phrase": "ante",
+      "meaning": "参加のための賭け金を出す",
+      "scene": "ポーカーなどで参加時の賭け金を出すとき",
+      "example1": "Everyone antes a dollar.",
+      "example2": "You need to ante before the cards are dealt.",
+      "exampleTranslations": [
+        "全員が参加の賭け金として1ドル出す。",
+        "カードが配られる前に参加の賭け金を出す必要がある。"
+      ],
+      "type": "word",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "limited",
+      "register": "neutral",
+      "note": "ここでは動詞。名詞なら最初に出す参加の賭け金。",
+      "sourceOrder": 49
+    },
+    {
+      "id": "p2931",
+      "phrase": "Your fly is open.",
+      "meaning": "ズボンの前が開いているよ",
+      "scene": "相手のズボンの前が開いていると小声で知らせるとき",
+      "example1": "Just so you know, your fly is open.",
+      "example2": "Your fly is open. You might want to fix that.",
+      "exampleTranslations": [
+        "念のため言うけど、ズボンの前が開いているよ。",
+        "前が開いているよ。直したほうがいいかも。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 50
+    },
+    {
+      "id": "p2932",
+      "phrase": "I'm out.",
+      "meaning": "私は降りる／この勝負には参加しない",
+      "scene": "ゲームや活動から降りる意思を短く伝えるとき",
+      "example1": "I'm out. These cards are terrible.",
+      "example2": "Another round? I'm out.",
+      "exampleTranslations": [
+        "降りるよ。手札がひどい。",
+        "もう一回やる？ 私は抜ける。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "frequent",
+      "register": "casual",
+      "note": "場所から出る宣言ではなく、勝負・参加から降りる応答。",
+      "sourceOrder": 51
+    },
+    {
+      "id": "p2933",
+      "phrase": "flush",
+      "meaning": "フラッシュ（同じマークのカードの組み合わせ）",
+      "scene": "ポーカーで同じマークがそろった役を話すとき",
+      "example1": "She won with a flush.",
+      "example2": "I was hoping for a flush.",
+      "exampleTranslations": [
+        "彼女はフラッシュで勝った。",
+        "フラッシュができるのを期待していた。"
+      ],
+      "type": "word",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "limited",
+      "register": "neutral",
+      "note": "通常の5枚のポーカーでは同じマーク5枚の役。sourceではトイレのflushとの言葉遊びがある。",
+      "sourceOrder": 52
+    },
+    {
+      "id": "p2934",
+      "phrase": "Made you look!",
+      "meaning": "ほら、見た！／引っかかったね",
+      "scene": "相手の注意をそらすいたずらが成功したとからかうとき",
+      "example1": "Made you look! There's nothing there.",
+      "example2": "Ha, I made you look!",
+      "exampleTranslations": [
+        "ほら見た！ そこには何もないよ。",
+        "はは、引っかかったね！"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "general",
+      "register": "casual",
+      "note": "相手の視線を誘導するいたずらの決まり文句。親しい間柄で使う。",
+      "sourceOrder": 53
+    },
+    {
+      "id": "p2935",
+      "phrase": "fold",
+      "meaning": "勝負から降りる",
+      "scene": "ポーカーでその回の勝負を降りるとき",
+      "example1": "I fold. I'm not risking any more.",
+      "example2": "She folded after he raised.",
+      "exampleTranslations": [
+        "降りる。これ以上は賭けない。",
+        "彼が賭け金を上げたので彼女は降りた。"
+      ],
+      "type": "word",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "limited",
+      "register": "neutral",
+      "note": "紙を折る意味とは別の、ポーカーで勝負を降りる意味。",
+      "sourceOrder": 54
+    },
+    {
+      "id": "p2936",
+      "phrase": "raise",
+      "meaning": "賭け金を上乗せする",
+      "scene": "ポーカーで現在より賭け金を上げるとき",
+      "example1": "I'll raise you five dollars.",
+      "example2": "He raised the bet again.",
+      "exampleTranslations": [
+        "さらに5ドル上乗せする。",
+        "彼はまた賭け金を上げた。"
+      ],
+      "type": "word",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "limited",
+      "register": "neutral",
+      "note": "一般的な「上げる」のうち、ポーカーの賭け金を増やす用法。",
+      "sourceOrder": 57
+    },
+    {
+      "id": "p2937",
+      "phrase": "see a bet / see someone",
+      "meaning": "相手の賭け金と同額を出す",
+      "scene": "ポーカーで相手と同額の賭け金を出すとき",
+      "example1": "I'll see your bet.",
+      "example2": "I see your ten dollars and raise you five.",
+      "exampleTranslations": [
+        "その賭け金を受けるよ。",
+        "10ドルを受けて、さらに5ドル上乗せする。"
+      ],
+      "type": "phrase",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "limited",
+      "register": "neutral",
+      "note": "ポーカーでcallと近い意味。see a bet / see someoneの両構文があり、sourceではI will see youが最初。",
+      "sourceOrder": 56
+    },
+    {
+      "id": "p2938",
+      "phrase": "Where were we?",
+      "meaning": "どこまで話していたっけ／どこまでやったっけ",
+      "scene": "中断した会話や作業を再開するとき",
+      "example1": "Where were we before the phone rang?",
+      "example2": "Right, where were we?",
+      "exampleTranslations": [
+        "電話が鳴る前はどこまで話していたっけ？",
+        "さて、どこまでやっていたっけ？"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 60
+    },
+    {
+      "id": "p2939",
+      "phrase": "check",
+      "meaning": "賭け金を追加せず順番を回す",
+      "scene": "ポーカーで追加の賭けをせず次の人に回すとき",
+      "example1": "I'll check this round.",
+      "example2": "She checked, and the next player bet.",
+      "exampleTranslations": [
+        "この順番はチェックする。",
+        "彼女がチェックし、次の人が賭けた。"
+      ],
+      "type": "word",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "limited",
+      "register": "neutral",
+      "note": "その時点で合わせるべき未対応の賭けがない場合に使う。確認するという一般義とは別。",
+      "sourceOrder": 61
+    },
+    {
+      "id": "p2940",
+      "phrase": "call",
+      "meaning": "相手の賭け金と同額を出す",
+      "scene": "ポーカーで現在の賭け金に合わせるとき",
+      "example1": "I call. Show me your cards.",
+      "example2": "He called the bet.",
+      "exampleTranslations": [
+        "コール。手札を見せて。",
+        "彼はその賭け金と同額を出した。"
+      ],
+      "type": "word",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "limited",
+      "register": "neutral",
+      "note": "電話・呼びかけの意味とは別のポーカー用語。",
+      "sourceOrder": 62
+    },
+    {
+      "id": "p2941",
+      "phrase": "full house",
+      "meaning": "フルハウス（同じ数字3枚と別の同じ数字2枚の役）",
+      "scene": "ポーカーで同じ数字3枚と別のペアがそろったとき",
+      "example1": "I've got a full house.",
+      "example2": "Her full house beat my flush.",
+      "exampleTranslations": [
+        "フルハウスができた。",
+        "彼女のフルハウスは私のフラッシュに勝った。"
+      ],
+      "type": "phrase",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "limited",
+      "register": "neutral",
+      "note": "満席・満員のa full houseとは別義。",
+      "sourceOrder": 66
+    },
+    {
+      "id": "p2942",
+      "phrase": "You got me.",
+      "meaning": "参った／あなたの勝ちだ",
+      "scene": "相手に負けたことを率直に認めるとき",
+      "example1": "You got me. That was a clever move.",
+      "example2": "All right, you got me this time.",
+      "exampleTranslations": [
+        "参った。うまい手だったね。",
+        "分かったよ、今回はあなたの勝ちだ。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "frequent",
+      "register": "casual",
+      "note": "「さあね／分からない」の応答とは別に、敗北を認める意味。",
+      "sourceOrder": 67
+    },
+    {
+      "id": "p2943",
+      "phrase": "Time's up.",
+      "meaning": "時間切れだよ",
+      "scene": "制限時間の終了を告げるとき",
+      "example1": "Time's up. Put your pens down.",
+      "example2": "Time's up! What's your answer?",
+      "exampleTranslations": [
+        "時間です。ペンを置いてください。",
+        "時間切れ！ 答えは？"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E18",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 68
+    },
+    {
+      "id": "p2944",
+      "phrase": "Thank you. / Thanks.",
+      "meaning": "ありがとう",
+      "scene": "相手への感謝を短く伝えるとき",
+      "example1": "Thank you. That really helped.",
+      "example2": "Thanks! I'll see you tomorrow.",
+      "exampleTranslations": [
+        "ありがとう。本当に助かった。",
+        "ありがとう！ また明日ね。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E01",
+      "frequency": "frequent",
+      "register": "neutral",
+      "note": "Thanks.はThank you.よりくだけた形。",
+      "sourceOrder": 19
+    },
+    {
+      "id": "p2945",
+      "phrase": "I'm sorry. / Sorry.",
+      "meaning": "ごめんなさい／申し訳ありません",
+      "scene": "自分の行動や不便をかけたことを謝るとき",
+      "example1": "I'm sorry. I made a mistake.",
+      "example2": "Sorry, I didn't see you there.",
+      "exampleTranslations": [
+        "ごめんなさい。間違えました。",
+        "ごめん、そこにいるのに気づかなかった。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E01",
+      "frequency": "frequent",
+      "register": "neutral",
+      "note": "ここでは謝罪の用法。相手の不幸への同情もsorryで表せるが、formal根拠は謝罪の発話。",
+      "sourceOrder": 30
+    },
+    {
+      "id": "p2946",
+      "phrase": "Oh my God!",
+      "meaning": "うわあ／なんてことだ／まさか",
+      "scene": "驚きや困惑、強い感動をとっさに表すとき",
+      "example1": "Oh my God! You won!",
+      "example2": "Oh my God, I forgot my keys.",
+      "exampleTranslations": [
+        "うわあ！ 勝ったんだね！",
+        "なんてこと、鍵を忘れた。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E01",
+      "frequency": "frequent",
+      "register": "casual",
+      "note": "強い驚きのくだけた感嘆。より穏やかにはOh my gosh!など。",
+      "sourceOrder": 81
+    },
+    {
+      "id": "p2947",
+      "phrase": "You know what?",
+      "meaning": "ねえ／そうだ／やっぱりこうしよう",
+      "scene": "新しい考えや決断を会話に持ち出すとき",
+      "example1": "You know what? Let's walk.",
+      "example2": "You know what? I think you're right.",
+      "exampleTranslations": [
+        "そうだ、歩こう。",
+        "ねえ、あなたの言う通りだと思う。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E04",
+      "frequency": "frequent",
+      "register": "casual",
+      "note": "後ろに疑問の内容を続ける通常のDo you know ~?ではなく、話題や決断を導入する。",
+      "sourceOrder": 13
+    },
+    {
+      "id": "p2948",
+      "phrase": "Really?",
+      "meaning": "本当に？／そうなの？",
+      "scene": "聞いたことに驚いて確かめるとき",
+      "example1": "I got the job. Really? Congratulations!",
+      "example2": "Really? I didn't know that.",
+      "exampleTranslations": [
+        "採用されたよ。本当？ おめでとう！",
+        "そうなの？ 知らなかった。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E01",
+      "frequency": "frequent",
+      "register": "neutral",
+      "note": "程度を強める副詞reallyではなく、確認・驚きの独立応答。 語調によっては疑いや皮肉を表す。",
+      "sourceOrder": 28
+    },
+    {
+      "id": "p2949",
+      "phrase": "Sure.",
+      "meaning": "もちろん／いいよ",
+      "scene": "頼みや誘いを気軽に受け入れるとき",
+      "example1": "Can you help me? Sure.",
+      "example2": "Sure, you can borrow it.",
+      "exampleTranslations": [
+        "手伝ってくれる？ もちろん。",
+        "いいよ、貸してあげる。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E01",
+      "frequency": "frequent",
+      "register": "casual",
+      "note": "確信を表すbe sureではなく、承諾の短い返答。",
+      "sourceOrder": 34
+    },
+    {
+      "id": "p2950",
+      "phrase": "Hi. / Hello.",
+      "meaning": "こんにちは／やあ",
+      "scene": "人に会ったり話しかけたりするとき",
+      "example1": "Hi! How's your day going?",
+      "example2": "Hello, it's nice to meet you.",
+      "exampleTranslations": [
+        "やあ！ 今日はどう？",
+        "こんにちは、初めまして。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E01",
+      "frequency": "frequent",
+      "register": "neutral",
+      "note": "Hi.はHello.よりくだけた挨拶。",
+      "sourceOrder": 16
+    },
+    {
+      "id": "p2951",
+      "phrase": "please",
+      "meaning": "お願いします／どうか",
+      "scene": "頼みごとに丁寧さや切実さを添えるとき",
+      "example1": "Please close the door.",
+      "example2": "Two tickets, please.",
+      "exampleTranslations": [
+        "ドアを閉めてください。",
+        "切符を2枚お願いします。"
+      ],
+      "type": "word",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E01",
+      "frequency": "frequent",
+      "register": "polite",
+      "note": "語調によって丁寧な依頼にも強い懇願にもなる。",
+      "sourceOrder": 52
+    },
+    {
+      "id": "p2952",
+      "phrase": "Right.",
+      "meaning": "そうだね／その通り／なるほど",
+      "scene": "相手の説明に理解や同意を短く示すとき",
+      "example1": "Right. So we meet at six.",
+      "example2": "Right, that's what I thought.",
+      "exampleTranslations": [
+        "なるほど。それじゃ6時に会うんだね。",
+        "そうだね、私もそう思っていた。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S01E01",
+      "frequency": "frequent",
+      "register": "casual",
+      "note": "方向の右ではなく、理解・同意を示す応答。",
+      "sourceOrder": 67
     }
   ],
   "dialogues": [

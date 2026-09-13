@@ -48,7 +48,7 @@
       "episode": "S01E12",
       "frequency": "frequent",
       "register": "neutral",
-      "sourceOrder": 17
+      "sourceOrder": 18
     },
     {
       "id": "p761",
@@ -256,9 +256,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S07E03",
+      "episode": "S01E17",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 24
     },
     {
       "id": "p776",

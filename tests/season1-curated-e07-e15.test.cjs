@@ -10,24 +10,24 @@ const datasets=Array.from({length:9},(_,i)=>JSON.parse(fs.readFileSync(path.join
 const phrases=datasets.flatMap(d=>d.phrases),dialogues=datasets.flatMap(d=>d.dialogues);
 const byId=new Map(phrases.map(p=>[p.id,p]));
 const hash=value=>crypto.createHash("sha256").update(JSON.stringify(value)).digest("hex");
-assert.equal(phrases.length,2787);
-assert.equal(byId.size,2787);
-assert.equal(Math.max(...phrases.map(p=>Number(p.id.slice(1)))),2835);
+assert.equal(phrases.length,2904);
+assert.equal(byId.size,2904);
+assert.equal(Math.max(...phrases.map(p=>Number(p.id.slice(1)))),2952);
 const added=Array.from({length:302},(_,i)=>byId.get(`p${2534+i}`));
 assert.ok(added.every(Boolean));
 // Golden from the immutable curated drafts, with the prior-NEW update applied and IDs assigned.
 const body=p=>Object.fromEntries(Object.entries(p).filter(([key])=>key!=="sourceOrder").sort(([a],[b])=>a.localeCompare(b)));
 assert.equal(hash(added.map(body)),"7bb36b069c193af4a4a6a996a9dc95403f0e7029e866d53553e80d2c70374c7c");
 const ordered=phrases.filter(p=>p.sourceOrder!==undefined).sort((a,b)=>a.episode.localeCompare(b.episode)||a.sourceOrder-b.sourceOrder);
-assert.equal(ordered.length,1071);
+assert.equal(ordered.length,1262);
 // Golden by ref from Astra_S1_E07-E15_Source_Order_Implementation_Package.json.
-assert.equal(hash(ordered.map(p=>[p.id,p.episode,p.sourceOrder])),"c38d5f42261d84b82161e3b8c3c51bf8b28b7773175dc0f6999731a3936d27e2");
-const counts=[131,89,78,60,59,53,82,53,59,74,72,53,94,59,55];
-const deferred=["p1336","p1345","p1136","p1076","p1174","p49","p613","p265","p1216","p1224","p1225","p1227","p1228","p1229","p1231","p1232","p2069","p2194","p2195","p2201","p2205"];
-assert.equal(deferred.length,21);
+assert.equal(hash(ordered.map(p=>[p.id,p.episode,p.sourceOrder])),"efa16f33c884d209117855f15ff0a6f91a5f9b9fc1f76a97c4dd51ad240dc0e4");
+const counts=[140,90,81,62,60,54,83,53,60,74,73,54,94,59,56];
+const deferred=["p1336","p1345","p1136","p1076","p1174","p49","p613","p265","p1216","p1224","p1225","p1227","p1228","p1229","p1231","p1232","p2069","p2194","p2201","p2205","p97","p2071","p1366"];
+assert.equal(deferred.length,23);
 for(const id of deferred){assert.ok(byId.has(id));assert.equal(byId.get(id).sourceOrder,undefined);}
-assert.equal(phrases.filter(p=>/^S01E(0[1-9]|1[0-5])$/.test(p.episode)).length,1092);
-for(const [id,episode,order] of [["p1226","S01E13",50],["p1230","S01E11",53],["p1233","S01E11",67],["p1160","S01E15",22]]){
+assert.equal(phrases.filter(p=>/^S01E(0[1-9]|1[0-5])$/.test(p.episode)).length,1113);
+for(const [id,episode,order] of [["p1226","S01E13",50],["p1230","S01E11",54],["p1233","S01E11",68],["p1160","S01E15",22]]){
  assert.equal(byId.get(id).episode,episode);assert.equal(byId.get(id).sourceOrder,order);
 }
 assert.equal(dialogues.length,167);
@@ -60,9 +60,9 @@ for(let i=1;i<=15;i++){
  context.phraseMove(-1);assert.equal(context.route.params.id,displayed[0].id);
  assert.deepEqual(original.map(p=>p.id),phrases.filter(p=>p.episode===episode).map(p=>p.id));
 }
-for(const episode of ["S01E16","S02E01"]){const rows=phrases.filter(p=>p.episode===episode);assert.deepEqual(context.sortedPhrasesForDisplay(rows).map(p=>p.id),rows.map(p=>p.id));}
+for(const episode of ["S01E19","S02E01"]){const rows=phrases.filter(p=>p.episode===episode);assert.deepEqual(context.sortedPhrasesForDisplay(rows).map(p=>p.id),rows.map(p=>p.id));}
 context.filters.phrase.episode="ALL";context.filters.phrase.season="ALL";
-assert.equal(context.filteredPhrases().length,2787);
+assert.equal(context.filteredPhrases().length,2904);
 assert.deepEqual(plain(context.filteredPhrases(true).map(p=>p.id)),[added[0].id]);
 for(const [key,value] of [["type","phrase"],["frequency","frequent"],["register","neutral"]]){
  context.filters.phrase[key]=value;const filtered=context.filteredPhrases();

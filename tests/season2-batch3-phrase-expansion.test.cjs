@@ -13,9 +13,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,2787);
-assert.equal(phraseIds.size,2787);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2835);
+assert.equal(phrases.length,2904);
+assert.equal(phraseIds.size,2904);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2952);
 
 const newIds=Array.from({length:126},(_,index)=>`p${1560+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
@@ -23,7 +23,7 @@ const newPhrases=newIds.map(id=>byId.get(id));
 
 const counts=(items,key)=>Object.fromEntries([...new Set(items.map(item=>item[key]))]
   .sort().map(value=>[value,items.filter(item=>item[key]===value).length]));
-assert.deepEqual(counts(newPhrases,"episode"),{"S01E01":13,"S01E02":1,"S01E03":3,"S01E04":3,"S01E05":2,"S01E06":2,"S01E07":5,"S01E08":1,"S01E09":1,"S01E10":1,"S01E11":1,"S01E12":2,"S01E13":1,"S01E14":1,"S01E15":1,"S02E01":1,"S02E02":1,"S02E03":1,"S02E04":1,"S02E05":1,"S02E07":28,"S02E08":27,"S02E09":28});
+assert.deepEqual(counts(newPhrases,"episode"),{"S01E01":13,"S01E02":2,"S01E03":3,"S01E04":3,"S01E05":2,"S01E06":2,"S01E07":5,"S01E08":1,"S01E09":1,"S01E10":1,"S01E11":1,"S01E12":2,"S01E13":1,"S01E14":1,"S01E15":1,"S01E16":2,"S01E18":4,"S02E01":1,"S02E02":1,"S02E04":1,"S02E07":25,"S02E08":27,"S02E09":26});
 assert.deepEqual(counts(newPhrases,"type"),{"grammar":4,"idiom":13,"pattern":17,"phrasal verb":15,"phrase":76,"word":1});
 assert.deepEqual(counts(newPhrases,"frequency"),{"frequent":56,"general":59,"limited":11});
 assert.deepEqual(counts(newPhrases,"register"),{"casual":41,"neutral":78,"polite":5,"slang":2});
@@ -67,7 +67,7 @@ for(const id of["p121","p167","p243","p248","p314"])assert.equal(phraseIds.has(i
 for(const id of["p1183","p657","p1233","p1605","p254","p327"])assert.equal(phraseIds.has(id),true,`${id} is missing`);
 
 const findNew=(headline,episode)=>newPhrases.find(phrase=>phrase.phrase===headline&&phrase.episode===episode);
-assert.match(findNew("I got it.","S02E03").meaning,/私がやる|任せて/);
+assert.match(findNew("I got it. / I’ll get it.","S01E16").meaning,/私がやる|任せて/);
 assert.match(findNew("Got it.","S01E03").meaning,/分かった|了解/);
 assert.ok(findNew("if you know what I mean","S02E07"));
 assert.ok(findNew("Do you mind if ~?","S02E07"));
@@ -83,6 +83,7 @@ const exactDuplicates=Object.fromEntries([...new Set(phrases.map(phrase=>phrase.
   .map(headline=>[headline,phrases.filter(phrase=>phrase.phrase.toLowerCase()===headline).map(phrase=>phrase.id).sort()])
   .filter(([,ids])=>ids.length>1));
 assert.deepEqual(exactDuplicates,{
+  "you got me.":["p1371","p2942"],
   "at the end of the day":["p110","p2811"],
   "back up":["p1787","p2735"],
   "burn out":["p1196","p2571"],
@@ -118,6 +119,7 @@ const normalizedDuplicates=Object.fromEntries([...new Set(phrases.map(phrase=>no
   .map(headline=>[headline,phrases.filter(phrase=>normalizeHeadline(phrase.phrase)===headline).map(phrase=>phrase.id).sort()])
   .filter(([,ids])=>ids.length>1));
 assert.deepEqual(normalizedDuplicates,{
+  "you got me":["p1371","p2942"],
   "at the end of the day":["p110","p2811"],
   "back up":["p1787","p2735"],
   "burn out":["p1196","p2571"],

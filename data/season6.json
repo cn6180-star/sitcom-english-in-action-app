@@ -340,9 +340,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E11",
+      "episode": "S01E17",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 22
     },
     {
       "id": "p643",
@@ -1767,7 +1768,7 @@
       "episode": "S01E09",
       "frequency": "frequent",
       "register": "neutral",
-      "sourceOrder": 46
+      "sourceOrder": 47
     },
     {
       "id": "p724",

@@ -14,10 +14,10 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,2787);
-assert.equal(phraseIds.size,2787);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2835);
-assert.equal(phrases.filter(phrase=>phrase.episode.startsWith("S01E")).length,1235);
+assert.equal(phrases.length,2904);
+assert.equal(phraseIds.size,2904);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2952);
+assert.equal(phrases.filter(phrase=>phrase.episode.startsWith("S01E")).length,1374);
 
 const e01e03Ids=Array.from({length:106},(_,index)=>`p${2341+index}`);
 const e04e06Ids=Array.from({length:87},(_,index)=>`p${2447+index}`);
