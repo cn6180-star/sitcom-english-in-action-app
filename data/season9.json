@@ -193,7 +193,7 @@
       "episode": "S01E10",
       "frequency": "general",
       "register": "neutral",
-      "sourceOrder": 54
+      "sourceOrder": 56
     },
     {
       "id": "p991",
@@ -1129,9 +1129,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E09",
+      "episode": "S01E19",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 2
     },
     {
       "id": "p1053",

@@ -11,8 +11,8 @@ for(let season=1;season<=9;season++){
   phrases.push(...data.phrases);
 }
 
-assert.equal(phrases.length,2904);
-assert.equal(new Set(phrases.map(phrase=>phrase.id)).size,2904);
+assert.equal(phrases.length,3106);
+assert.equal(new Set(phrases.map(phrase=>phrase.id)).size,3106);
 
 const frequencies=new Set(["frequent","general","limited"]);
 const registers=new Set(["casual","neutral","polite","formal","slang"]);

@@ -14,9 +14,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,2904);
-assert.equal(phraseIds.size,2904);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2952);
+assert.equal(phrases.length,3106);
+assert.equal(phraseIds.size,3106);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),3154);
 
 const newIds=Array.from({length:139},(_,index)=>`p${2045+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
@@ -24,7 +24,7 @@ const newPhrases=newIds.map(id=>byId.get(id));
 const counts=(items,key)=>Object.fromEntries([...new Set(items.map(item=>item[key]))]
   .sort().map(value=>[value,items.filter(item=>item[key]===value).length]));
 
-assert.deepEqual(counts(newPhrases,"episode"),{"S01E01":4,"S01E02":2,"S01E03":5,"S01E04":2,"S01E05":1,"S01E06":1,"S01E08":2,"S01E09":2,"S01E11":4,"S01E12":1,"S01E13":2,"S01E14":1,"S01E15":3,"S01E16":1,"S01E18":2,"S01E19":1,"S01E23":1,"S02E11":1,"S02E16":1,"S02E17":1,"S02E19":32,"S02E20":36,"S02E21":33});
+assert.deepEqual(counts(newPhrases,"episode"),{"S01E01":4,"S01E02":2,"S01E03":5,"S01E04":2,"S01E05":1,"S01E06":1,"S01E08":2,"S01E09":2,"S01E11":4,"S01E12":1,"S01E13":2,"S01E14":1,"S01E15":3,"S01E16":1,"S01E18":1,"S01E19":2,"S01E21":1,"S01E22":1,"S01E23":1,"S02E11":1,"S02E16":1,"S02E19":31,"S02E20":36,"S02E21":33});
 assert.deepEqual(counts(newPhrases,"type"),{"grammar":4,"idiom":23,"pattern":19,"phrasal verb":17,"phrase":73,"word":3});
 assert.deepEqual(counts(newPhrases,"frequency"),{"frequent":52,"general":76,"limited":11});
 assert.deepEqual(counts(newPhrases,"register"),{"casual":48,"formal":1,"neutral":83,"polite":2,"slang":5});

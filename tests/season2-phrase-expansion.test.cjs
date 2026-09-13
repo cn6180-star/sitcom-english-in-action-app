@@ -14,9 +14,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,2904);
-assert.equal(phraseIds.size,2904);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2952);
+assert.equal(phrases.length,3106);
+assert.equal(phraseIds.size,3106);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),3154);
 
 const newIds=Array.from({length:118},(_,index)=>`p${1442+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
@@ -28,7 +28,7 @@ function countsBy(field,values=[]){
   return counts;
 }
 
-assert.deepEqual(countsBy("episode"),{"S01E01":2,"S01E02":2,"S01E03":3,"S01E04":4,"S01E05":1,"S01E06":1,"S01E07":4,"S01E09":3,"S01E10":1,"S01E12":1,"S01E13":3,"S01E14":1,"S01E15":1,"S01E16":1,"S01E18":1,"S02E01":14,"S02E02":9,"S02E03":10,"S02E04":17,"S02E05":17,"S02E06":22});
+assert.deepEqual(countsBy("episode"),{"S01E01":2,"S01E02":2,"S01E03":3,"S01E04":5,"S01E05":1,"S01E06":1,"S01E07":4,"S01E08":1,"S01E09":3,"S01E10":1,"S01E12":1,"S01E13":3,"S01E14":1,"S01E15":1,"S01E16":1,"S01E18":1,"S01E20":1,"S01E23":1,"S02E01":13,"S02E02":8,"S02E03":10,"S02E04":15,"S02E05":17,"S02E06":22});
 assert.deepEqual(countsBy("type"),{"grammar":7,"idiom":20,"pattern":12,"phrasal verb":16,"phrase":62,"word":1});
 assert.deepEqual(countsBy("frequency"),{"frequent":47,"general":69,"limited":2});
 assert.deepEqual(countsBy("register",["formal"]),{"casual":25,"formal":0,"neutral":90,"polite":2,"slang":1});
@@ -54,7 +54,7 @@ const episodeMoves={
   p198:"S02E01",p299:"S01E02",p665:"S02E01",
   p382:"S02E02",p215:"S02E02",p759:"S02E02",p810:"S01E01",p831:"S02E02",
   p225:"S02E03",p237:"S02E03",p240:"S02E03",p431:"S02E03",p436:"S02E03",p839:"S02E03",p918:"S01E11",p1093:"S02E03",
-  p395:"S02E04",p420:"S02E05",p576:"S02E05",p224:"S02E05",p344:"S02E06",p169:"S02E06"
+  p395:"S02E04",p420:"S02E05",p576:"S01E11",p224:"S02E05",p344:"S02E06",p169:"S02E06"
 };
 assert.equal(Object.keys(episodeMoves).length,22);
 for(const [id,episode] of Object.entries(episodeMoves))assert.equal(byId.get(id)?.episode,episode,`${id} Episode mismatch`);
@@ -113,6 +113,10 @@ assert.deepEqual(duplicateHeadlines,{
     "p1152",
     "p2445"
   ],
+  "Gotcha.": [
+    "p2848",
+    "p2985"
+  ],
   "burn out": [
     "p1196",
     "p2571"
@@ -120,6 +124,14 @@ assert.deepEqual(duplicateHeadlines,{
   "go with ~": [
     "p1212",
     "p1776"
+  ],
+  "get into ~": [
+    "p3050",
+    "p576"
+  ],
+  "go away": [
+    "p1636",
+    "p3004"
   ],
   "be with someone": [
     "p1234",
@@ -145,6 +157,14 @@ assert.deepEqual(duplicateHeadlines,{
     "p1633",
     "p2423"
   ],
+  "hold someone up": [
+    "p1194",
+    "p3087"
+  ],
+  "lie around": [
+    "p1585",
+    "p3038"
+  ],
   "be all over someone": [
     "p1721",
     "p2428"
@@ -162,6 +182,11 @@ assert.deepEqual(duplicateHeadlines,{
     "p1557",
     "p514"
   ],
+  "on the side": [
+    "p2668",
+    "p2965",
+    "p3020"
+  ],
   "come by": [
     "p1596",
     "p2607"
@@ -169,6 +194,10 @@ assert.deepEqual(duplicateHeadlines,{
   "back up": [
     "p1787",
     "p2735"
+  ],
+  "watch ~": [
+    "p3016",
+    "p647"
   ]
 });
 for(const ids of Object.values(duplicateHeadlines)){

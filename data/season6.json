@@ -2025,9 +2025,10 @@
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S06E21",
+      "episode": "S01E23",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 40
     },
     {
       "id": "p739",
@@ -2279,7 +2280,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E05",
-      "sourceOrder": 39,
+      "sourceOrder": 41,
       "frequency": "general",
       "register": "casual",
       "note": "くだけた非標準の口語形。改まった文章ではa whole otherやan entirely differentを使う。"

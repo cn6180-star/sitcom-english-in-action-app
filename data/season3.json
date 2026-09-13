@@ -257,7 +257,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 118,
+      "sourceOrder": 122,
       "frequency": "frequent",
       "register": "casual"
     },
@@ -405,7 +405,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E01",
-      "sourceOrder": 89,
+      "sourceOrder": 90,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -437,9 +437,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S03E11",
+      "episode": "S01E24",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 34
     },
     {
       "id": "p294",
@@ -940,7 +941,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E06",
-      "sourceOrder": 35,
+      "sourceOrder": 36,
       "frequency": "general",
       "register": "neutral"
     },
@@ -1039,7 +1040,7 @@
       "episode": "S01E10",
       "frequency": "frequent",
       "register": "neutral",
-      "sourceOrder": 56
+      "sourceOrder": 58
     },
     {
       "id": "p335",

@@ -15,16 +15,16 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,2904);
-assert.equal(phraseIds.size,2904);
+assert.equal(phrases.length,3106);
+assert.equal(phraseIds.size,3106);
 assert.equal(dialogues.length,167);
 assert.deepEqual(dialogues.flatMap(dialogue=>(dialogue.phraseLinks||[])
   .filter(id=>!phraseIds.has(id)).map(id=>`${dialogue.id}:${id}`)),[]);
 
 // Retroactive insertions and approved moves from the E07-E15 package revise the pilot sequence.
 const ordered=phrases.filter(phrase=>/^S01E0[1-6]$/.test(phrase.episode)&&Object.prototype.hasOwnProperty.call(phrase,"sourceOrder"));
-assert.equal(ordered.length,487);
-const expectedCounts={S01E01:140,S01E02:90,S01E03:81,S01E04:62,S01E05:60,S01E06:54};
+assert.equal(ordered.length,504);
+const expectedCounts={S01E01:144,S01E02:92,S01E03:85,S01E04:64,S01E05:63,S01E06:56};
 for(const [episode,count] of Object.entries(expectedCounts)){
   const episodePhrases=ordered.filter(phrase=>phrase.episode===episode);
   assert.equal(episodePhrases.length,count,`${episode} ordered count mismatch`);
@@ -36,10 +36,10 @@ const mapping=ordered.sort((a,b)=>a.episode.localeCompare(b.episode)||a.sourceOr
   .map(phrase=>[phrase.id,phrase.episode,phrase.sourceOrder]);
 assert.equal(
   crypto.createHash("sha256").update(JSON.stringify(mapping)).digest("hex"),
-  "8ff2f174599719499de7a2f31796d4cf0d15531dedd4ab543ef72238c2aa6317"
+  "bb242c1fec2d78a1c427f463684f094664aaadca05f6f499c2ca97da820f0410"
 );
 
-for(const id of["p1136","p1076","p1174","p1336","p1345"]){
+for(const id of["p1076","p1174","p1336","p1345"]){
   assert.equal(Object.prototype.hasOwnProperty.call(byId.get(id),"sourceOrder"),false,`${id} must remain deferred`);
 }
 
@@ -56,14 +56,14 @@ const sort=items=>context.sortedPhrasesForDisplay(items);
 
 const e01=phrases.filter(phrase=>phrase.episode==="S01E01");
 const sortedE01=sort(e01);
-assert.equal(sortedE01.length,140);
+assert.equal(sortedE01.length,144);
 assert.deepEqual(sortedE01.slice(0,4).map(phrase=>phrase.phrase),[
   "There’s nothing to tell.","come on","go out with someone","There’s gotta be something wrong with ~."
 ]);
-assert.deepEqual(sortedE01.map(phrase=>phrase.sourceOrder),Array.from({length:140},(_,index)=>index+1));
+assert.deepEqual(sortedE01.map(phrase=>phrase.sourceOrder),Array.from({length:144},(_,index)=>index+1));
 
 for(const [episode,deferredIds] of Object.entries({
-  S01E03:["p1136"],S01E05:["p1076","p1174"]
+  S01E05:["p1076","p1174"]
 })){
   const original=phrases.filter(phrase=>phrase.episode===episode);
   const displayed=sort(original);
@@ -74,7 +74,7 @@ for(const [episode,deferredIds] of Object.entries({
     original.filter(phrase=>deferredIds.includes(phrase.id)).map(phrase=>phrase.id));
 }
 
-const outsidePilot=phrases.filter(phrase=>phrase.episode==="S01E19");
+const outsidePilot=phrases.filter(phrase=>phrase.episode==="S02E01");
 assert.deepEqual(sort(outsidePilot).map(phrase=>phrase.id),outsidePilot.map(phrase=>phrase.id));
 const fixture=[
   {id:"later",episode:"S01E01",sourceOrder:2},

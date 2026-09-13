@@ -14,16 +14,16 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const dialogueById=new Map(dialogues.map(dialogue=>[dialogue.id,dialogue]));
 
-assert.equal(phrases.length,2904);
-assert.equal(new Set(phrases.map(phrase=>phrase.id)).size,2904);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2952);
+assert.equal(phrases.length,3106);
+assert.equal(new Set(phrases.map(phrase=>phrase.id)).size,3106);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),3154);
 assert.equal(byId.has("p297"),false);
 assert.equal(byId.has("p69"),true);
 
 const newIds=Array.from({length:343},(_,index)=>`p${1099+index}`);
 assert.deepEqual(newIds.filter(id=>byId.has(id)),newIds);
 
-const expectedNewCounts={"S01E01":21,"S01E02":18,"S01E03":20,"S01E04":12,"S01E05":12,"S01E06":12,"S01E07":20,"S01E08":13,"S01E09":8,"S01E10":23,"S01E11":21,"S01E12":12,"S01E13":24,"S01E14":13,"S01E15":20,"S01E16":12,"S01E17":14,"S01E18":13,"S01E19":8,"S01E20":8,"S01E21":12,"S01E22":9,"S01E23":7,"S01E24":11};
+const expectedNewCounts={"S01E01":21,"S01E02":18,"S01E03":19,"S01E04":12,"S01E05":12,"S01E06":12,"S01E07":20,"S01E08":13,"S01E09":9,"S01E10":23,"S01E11":21,"S01E12":12,"S01E13":24,"S01E14":13,"S01E15":20,"S01E16":12,"S01E17":14,"S01E18":13,"S01E19":8,"S01E20":8,"S01E21":12,"S01E22":8,"S01E23":7,"S01E24":12};
 const newPhrases=newIds.map(id=>byId.get(id));
 for(const [episode,count] of Object.entries(expectedNewCounts)){
   assert.equal(newPhrases.filter(phrase=>phrase.episode===episode).length,count,`${episode} new Phrase count mismatch`);

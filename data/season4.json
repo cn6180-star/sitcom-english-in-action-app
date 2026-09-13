@@ -537,7 +537,7 @@
       "priority": 2,
       "source": "Friends",
       "episode": "S01E03",
-      "sourceOrder": 52,
+      "sourceOrder": 55,
       "frequency": "general",
       "register": "neutral"
     },
@@ -680,9 +680,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S02E08",
+      "episode": "S01E20",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 47
     },
     {
       "id": "p393",
@@ -1300,9 +1301,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S04E16",
+      "episode": "S01E21",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 33
     },
     {
       "id": "p432",
@@ -1336,7 +1338,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E02",
-      "sourceOrder": 38,
+      "sourceOrder": 40,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1387,9 +1389,10 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S04E18",
+      "episode": "S01E20",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 20
     },
     {
       "id": "p438",
@@ -1550,10 +1553,11 @@
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
-      "episode": "S04E19",
+      "episode": "S01E21",
       "frequency": "general",
       "register": "slang",
-      "note": "作中では「The Knicks rule all.」の形で、「ニックス最高！／ニックス最強！」くらいの砕けた意味で使われている。rule at ~の形で「〜がすごく得意だ／〜で最高だ」のようにも使える。 「最高だ／イケてる」の俗語用法で、今でも通じるが世代感が出ることがある。"
+      "note": "作中では「The Knicks rule all.」の形で、「ニックス最高！／ニックス最強！」くらいの砕けた意味で使われている。rule at ~の形で「〜がすごく得意だ／〜で最高だ」のようにも使える。 「最高だ／イケてる」の俗語用法で、今でも通じるが世代感が出ることがある。",
+      "sourceOrder": 41
     },
     {
       "id": "p447",

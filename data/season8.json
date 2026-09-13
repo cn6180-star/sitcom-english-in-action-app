@@ -49,7 +49,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E05",
-      "sourceOrder": 45,
+      "sourceOrder": 47,
       "frequency": "frequent",
       "register": "neutral",
       "note": "絆創膏を一気にはがすことにたとえ、気まずいことを素早く済ませる。pull the Band-Aid off / rip the Band-Aid offの語順も使う。"
@@ -233,19 +233,20 @@
     {
       "id": "p874",
       "phrase": "register",
-      "meaning": "登録する／名簿などに記入する",
+      "meaning": "登録する／希望する贈り物を登録する",
       "note": "registryは関連する名詞で、「登録簿／登録制度」などを意味する。",
-      "scene": "ウェディングレジストリーやベビーレジストリーの話をする時",
+      "scene": "結婚などの贈り物の希望リストを店に登録するとき",
       "example1": "We registered at a department store.",
-      "example2": "Did you set up your baby registry yet?",
-      "exampleTranslations": ["私たちはデパートでギフト登録をした。", "もう出産祝いのギフトリストは作った？"],
+      "example2": "We registered for a coffee maker.",
+      "exampleTranslations": ["私たちはデパートでギフト登録をした。","私たちはコーヒーメーカーを希望の贈り物として登録した。"],
       "type": "word",
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
-      "episode": "S08E01",
+      "episode": "S01E19",
       "frequency": "limited",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 12
     },
     {
       "id": "p875",
@@ -540,7 +541,7 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S01E04",
-      "sourceOrder": 49,
+      "sourceOrder": 50,
       "frequency": "frequent",
       "register": "neutral"
     },
@@ -1757,7 +1758,7 @@
       "episode": "S01E13",
       "frequency": "general",
       "register": "neutral",
-      "sourceOrder": 60
+      "sourceOrder": 61
     },
     {
       "id": "p973",

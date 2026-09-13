@@ -14,9 +14,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,2904);
-assert.equal(phraseIds.size,2904);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),2952);
+assert.equal(phrases.length,3106);
+assert.equal(phraseIds.size,3106);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),3154);
 
 const newIds=Array.from({length:135},(_,index)=>`p${1769+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
@@ -24,7 +24,7 @@ const newPhrases=newIds.map(id=>byId.get(id));
 const counts=(items,key)=>Object.fromEntries([...new Set(items.map(item=>item[key]))]
   .sort().map(value=>[value,items.filter(item=>item[key]===value).length]));
 
-assert.deepEqual(counts(newPhrases,"episode"),{"S01E01":2,"S01E02":7,"S01E04":2,"S01E05":1,"S01E06":1,"S01E07":3,"S01E09":3,"S01E13":1,"S01E14":1,"S01E18":1,"S02E01":2,"S02E03":2,"S02E04":1,"S02E05":1,"S02E06":1,"S02E09":1,"S02E10":1,"S02E12":1,"S02E13":33,"S02E14":41,"S02E15":29});
+assert.deepEqual(counts(newPhrases,"episode"),{"S01E01":2,"S01E02":7,"S01E04":2,"S01E05":2,"S01E06":1,"S01E07":3,"S01E09":3,"S01E13":1,"S01E14":1,"S01E18":1,"S01E19":1,"S01E20":1,"S01E22":2,"S02E01":2,"S02E03":1,"S02E04":1,"S02E05":1,"S02E06":1,"S02E09":1,"S02E10":1,"S02E13":31,"S02E14":40,"S02E15":29});
 assert.deepEqual(counts(newPhrases,"type"),{"grammar":7,"idiom":13,"pattern":17,"phrasal verb":11,"phrase":82,"word":5});
 assert.deepEqual(counts(newPhrases,"frequency"),{"frequent":57,"general":70,"limited":8});
 assert.deepEqual(counts(newPhrases,"register"),{"casual":48,"neutral":83,"polite":2,"slang":2});
@@ -91,13 +91,20 @@ assert.deepEqual(exactDuplicates,{
   "clean up":["p2109","p2394"],
   "come through":["p1368","p1645"],
   "come up":["p1633","p2423"],
+  "get into ~":["p3050","p576"],
+  "go away":["p1636","p3004"],
   "go through ~":["p1099","p1546","p1708","p2429"],
   "go with ~":["p1212","p1776"],
+  "gotcha.":["p2848","p2985"],
+  "hold someone up":["p1194","p3087"],
+  "lie around":["p1585","p3038"],
   "make it":["p1502","p1557","p514"],
+  "on the side":["p2668","p2965","p3020"],
   "open up":["p1385","p2040"],
   "out there":["p1487","p608"],
   "pick someone up":["p1325","p1551"],
   "that’s it.":["p1152","p2445"],
+  "watch ~":["p3016","p647"],
   "work out":["p1128","p1584"]
 });
 for(const ids of Object.values(exactDuplicates)){
