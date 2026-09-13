@@ -26,7 +26,7 @@ for(const [episode,target,orderedCount] of [["S01E19",51,51],["S01E20",57,57],["
 assert.deepEqual([byId.get("p2071").phrase,byId.get("p2071").episode,byId.get("p2071").sourceOrder],["Things happen.","S01E22",16]);
 assert.deepEqual([byId.get("p3143").phrase,byId.get("p3143").episode,byId.get("p3143").sourceOrder,byId.get("p3143").frequency,byId.get("p3143").register],["give someone the deep freeze","S01E24",28,"limited","casual"]);
 assert.equal(phrases.some(p=>p.phrase==="frame of graft"),false);
-assert.equal(dialogues.length,167);assert.equal(hash(dialogues),"fc1087f5d916efabb5c1a93591f629102283d89663afe71e3da88397df99eb90");assert.deepEqual(dialogues.flatMap(d=>(d.phraseLinks||[]).filter(id=>!byId.has(id))),[]);
+assert.equal(dialogues.length,204);assert.equal(hash(dialogues.filter(d=>Number(d.id.slice(1))<=167)),"fc1087f5d916efabb5c1a93591f629102283d89663afe71e3da88397df99eb90");assert.deepEqual(dialogues.flatMap(d=>(d.phraseLinks||[]).filter(id=>!byId.has(id))),[]);
 
 const source=fs.readFileSync(path.join(root,"js","app.js"),"utf8");const context={PHRASES:phrases,seasonNum:s=>Number(s.match(/S(\d+)/)[1]),episodeNumber:s=>Number(s.match(/E(\d+)/)[1]),filters:{phrase:{season:"1",episode:"19",type:"all",frequency:"all",register:"all"}},phraseScopeFrom:()=>"all",bookmarked:()=>false,isWeak:()=>false,isLearned:()=>false,setContinue:()=>{},render:()=>{},route:{name:"phrases",params:{}},lastListContext:null};context.navigate=(name,params)=>{context.route={name,params};};vm.createContext(context);
 for(const name of ["filteredPhrases","sortedPhrasesForDisplay","phraseNavigationIds","openPhrase","phraseMove"]){const fn=source.split(/\r?\n/).find(line=>line.startsWith(`function ${name}(`));assert.ok(fn,name);vm.runInContext(fn,context);}const plain=value=>JSON.parse(JSON.stringify(value));
@@ -34,3 +34,7 @@ for(const [episode,count] of [[19,51],[20,57],[21,51],[22,48],[23,44],[24,53]]){
 context.filters.phrase.episode="ALL";for(const [key,value] of [["type","phrase"],["frequency","frequent"],["register","neutral"]]){context.filters.phrase[key]=value;const filtered=context.filteredPhrases();assert.ok(filtered.every(p=>p[key]===value));assert.deepEqual(context.sortedPhrasesForDisplay(filtered).map(p=>p.id),context.sortedPhrasesForDisplay(phrases.filter(p=>p.episode.startsWith("S01")&&p[key]===value)).map(p=>p.id));context.filters.phrase[key]="all";}
 const s2=phrases.filter(p=>p.episode==="S02E01");assert.deepEqual(context.sortedPhrasesForDisplay(s2).map(p=>p.id),s2.map(p=>p.id));
 console.log("Season 1 E19-E24 final curated records, source order, filters and detail navigation tests passed");
+
+// Full production snapshot; the existing-only snapshot above is supplementary.
+assert.equal(dialogues.length,204);
+assert.equal(hash(dialogues),"8e74658e50349dd6e3ed37dd4d05148b71d529c3cd692231d375c7ac14ab3989");

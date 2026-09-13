@@ -68,12 +68,16 @@ for(let episode=1;episode<=24;episode++){
   assert.ok(phrases.some(phrase=>phrase.episode===key),`${key} has no production Phrases`);
 }
 
-assert.equal(dialogues.length,167);
+assert.equal(dialogues.length,204);
 assert.deepEqual(dialogues.flatMap(dialogue=>(dialogue.phraseLinks||[])
   .filter(id=>!phraseIds.has(id)).map(id=>`${dialogue.id}:${id}`)),[]);
 assert.equal(
-  crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),
+  crypto.createHash("sha256").update(JSON.stringify(dialogues.filter(d=>Number(d.id.slice(1))<=167))).digest("hex"),
   "fc1087f5d916efabb5c1a93591f629102283d89663afe71e3da88397df99eb90"
 );
 
 console.log("Season 2 Batch 8 Phrase expansion tests passed");
+
+// Full production snapshot; the existing-only snapshot above is supplementary.
+assert.equal(dialogues.length,204);
+assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"8e74658e50349dd6e3ed37dd4d05148b71d529c3cd692231d375c7ac14ab3989");
