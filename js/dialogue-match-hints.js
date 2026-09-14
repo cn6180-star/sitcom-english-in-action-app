@@ -1,8 +1,35 @@
 "use strict";
 
+// ChatMochi-approved semantic exclusions. Preserve links/data; do not invent answers.
+const DIALOGUE_HIGHLIGHT_EXCLUSIONS=Object.freeze({
+  "d8|p117":"BROKEN_LINK: per se is absent",
+  "d35|p262":"SEMANTIC_MISMATCH: productive Way to + verb is not fixed Way to go",
+  "d38|p346":"SEMANTIC_MISMATCH: judge is an ordinary verb, not quoted-word conversion",
+  "d62|p400":"SEMANTIC_MISMATCH: accepting is not extending a challenge",
+  "d109|p806":"SEMANTIC_MISMATCH: removing an uncompleted trip is not completing a goal",
+  "d145|p912":"SEMANTIC_MISMATCH: no beneficiary in running one's own bath",
+  "d146|p874":"SEMANTIC_MISMATCH: registration/registry are nouns, not the verb register"
+});
+
 // Explicit fallback matches for linked phrases that the shared matcher cannot locate.
 // Keys are stable Dialogue ID + Phrase ID pairs. candidateLineIndex is zero-based.
 const DIALOGUE_EXPLICIT_MATCH_HINTS=Object.freeze({
+  "d203|p1289":Object.freeze({"dialogueId":"d203","phraseId":"p1289","candidateLineIndex":5,"highlightRanges":[{"matchText":"I'm here for"}],"overrideMatcher":true}),
+  "d13|p185":Object.freeze({"dialogueId":"d13","phraseId":"p185","candidateLineIndex":2,"highlightRanges":[{"matchText":"Through the grapevine"}],"overrideMatcher":true}),
+  "d19|p252":Object.freeze({"dialogueId":"d19","phraseId":"p252","candidateLineIndex":3,"highlightRanges":[{"matchText":"brown-nosing"}],"overrideMatcher":true}),
+  "d25|p304":Object.freeze({"dialogueId":"d25","phraseId":"p304","candidateLineIndex":7,"highlightRanges":[{"matchText":"we’re"},{"matchText":"on board"}],"overrideMatcher":true}),
+  "d35|p324":Object.freeze({"dialogueId":"d35","phraseId":"p324","candidateLineIndex":1,"highlightRanges":[{"matchText":"clicked"}],"overrideMatcher":true}),
+  "d35|p327":Object.freeze({"dialogueId":"d35","phraseId":"p327","candidateLineIndex":5,"highlightRanges":[{"matchText":"got caught up in the moment"}],"overrideMatcher":true}),
+  "d44|p408":Object.freeze({"dialogueId":"d44","phraseId":"p408","candidateLineIndex":5,"highlightRanges":[{"matchText":"call it first"}],"overrideMatcher":true}),
+  "d45|p376":Object.freeze({"dialogueId":"d45","phraseId":"p376","candidateLineIndex":5,"highlightRanges":[{"matchText":"Don’t take this the wrong way"}],"overrideMatcher":true}),
+  "d49|p453":Object.freeze({"dialogueId":"d49","phraseId":"p453","candidateLineIndex":5,"highlightRanges":[{"matchText":"What a shame"}],"overrideMatcher":true}),
+  "d49|p454":Object.freeze({"dialogueId":"d49","phraseId":"p454","candidateLineIndex":6,"highlightRanges":[{"matchText":"No shame in"}],"overrideMatcher":true}),
+  "d51|p466":Object.freeze({"dialogueId":"d51","phraseId":"p466","candidateLineIndex":4,"highlightRanges":[{"matchText":"in a pickle"}],"overrideMatcher":true}),
+  "d71|p547":Object.freeze({"dialogueId":"d71","phraseId":"p547","candidateLineIndex":2,"highlightRanges":[{"matchText":"You’ve got a point"}],"overrideMatcher":true}),
+  "d80|p614":Object.freeze({"dialogueId":"d80","phraseId":"p614","candidateLineIndex":0,"highlightRanges":[{"matchText":"I know this may sound"},{"matchText":"but"}],"overrideMatcher":true}),
+  "d103|p5":Object.freeze({"dialogueId":"d103","phraseId":"p5","candidateLineIndex":0,"highlightRanges":[{"matchText":"What’s up with"}],"overrideMatcher":true}),
+  "d132|p966":Object.freeze({"dialogueId":"d132","phraseId":"p966","candidateLineIndex":3,"highlightRanges":[{"matchText":"open up a can of worms"}],"overrideMatcher":true}),
+  "d157|p1008":Object.freeze({"dialogueId":"d157","phraseId":"p1008","candidateLineIndex":0,"highlightRanges":[{"matchText":"sitting there like a lump"}],"overrideMatcher":true}),
   "d1|p10":Object.freeze({"dialogueId":"d1","phraseId":"p10","candidateLineIndex":4,"highlightRanges":[{"matchText":"is"},{"matchText":"on the table"}],"overrideMatcher":true}),
   "d2|p93":Object.freeze({"dialogueId":"d2","phraseId":"p93","candidateLineIndex":0,"highlightRanges":[{"matchText":"run"},{"matchText":"by"}]}),
   "d18|p157":Object.freeze({"dialogueId":"d18","phraseId":"p157","candidateLineIndex":5,"highlightRanges":[{"matchText":"Nope"}]}),

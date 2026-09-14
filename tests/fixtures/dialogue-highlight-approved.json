@@ -1,0 +1,1080 @@
+{
+  "oldHintHash": "3c8e93cea3d7c99f9312e3a891b49498f6a7058e3c0d7ffa424e18599cbc0ad7",
+  "oldCount": 169,
+  "oldForced": 56,
+  "items": [
+    {
+      "dialogueId": "d8",
+      "phraseId": "p117",
+      "classification": "BROKEN_LINK",
+      "reason": "全11行にper seの用法がない。Technicallyは関連する説明だが答える表現は異なる。",
+      "ranges": []
+    },
+    {
+      "dialogueId": "d10",
+      "phraseId": "p107",
+      "classification": "VALID_VARIANT",
+      "reason": "hone→honed、a skill→your presentation skills。技術を磨く意味で例文のhoning my skillsと整合。",
+      "ranges": [
+        {
+          "lineIndex": 2,
+          "text": "honed"
+        },
+        {
+          "lineIndex": 2,
+          "text": "skills"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d169",
+      "phraseId": "p2356",
+      "classification": "VALID_VARIANT",
+      "reason": "括弧内tonightが実現した形。予定を尋ねる用法・例文と一致。",
+      "ranges": [
+        {
+          "lineIndex": 0,
+          "text": "What are you up to tonight"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d169",
+      "phraseId": "p1039",
+      "classification": "VALID_VARIANT",
+      "reason": "be→areと疑問文の主語挿入。活動に乗り気か尋ねる構文。",
+      "ranges": [
+        {
+          "lineIndex": 2,
+          "text": "Are"
+        },
+        {
+          "lineIndex": 2,
+          "text": "up for it"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d171",
+      "phraseId": "p1461",
+      "classification": "VALID_VARIANT",
+      "reason": "許容のfine with。be→amの短縮形、~→that。",
+      "ranges": [
+        {
+          "lineIndex": 1,
+          "text": "I'm fine with"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d172",
+      "phraseId": "p1147",
+      "classification": "VALID_VARIANT",
+      "reason": "one’s→my、任意の(to ~)が省略。相手へ向かう途中。",
+      "ranges": [
+        {
+          "lineIndex": 0,
+          "text": "on"
+        },
+        {
+          "lineIndex": 0,
+          "text": "way over"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d177",
+      "phraseId": "p1129",
+      "classification": "VALID_VARIANT",
+      "reason": "be→amの短縮、計算で行き詰まる用法。meaningの行き詰まりと一致。",
+      "ranges": [
+        {
+          "lineIndex": 1,
+          "text": "I'm stuck"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d178",
+      "phraseId": "p2601",
+      "classification": "VALID_VARIANT",
+      "reason": "控えめな依頼の導入。noteは直接疑問も可能とし、if節の間接依頼を排除していない。",
+      "ranges": [
+        {
+          "lineIndex": 0,
+          "text": "I was wondering"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d181",
+      "phraseId": "p1576",
+      "classification": "VALID_VARIANT",
+      "reason": "場所を提案するHow about +名詞句。句読点と長いslotによるmiss。",
+      "ranges": [
+        {
+          "lineIndex": 4,
+          "text": "How about"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d182",
+      "phraseId": "p2389",
+      "classification": "VALID_VARIANT",
+      "reason": "決定は相手次第という意味で例文と一致。",
+      "ranges": [
+        {
+          "lineIndex": 5,
+          "text": "It's up to"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d189",
+      "phraseId": "p2377",
+      "classification": "VALID_VARIANT",
+      "reason": "否定する理由と本当の理由を対置。同一frameの二つの固定部を対応させる。",
+      "ranges": [
+        {
+          "lineIndex": 4,
+          "text": "It's not that"
+        },
+        {
+          "lineIndex": 4,
+          "text": "it's that"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d190",
+      "phraseId": "p2730",
+      "classification": "VALID_VARIANT",
+      "reason": "本文はheadlineそのもの。somethingはこの完成疑問文では実語。placeholderとして除去しないliteral経路が必要。",
+      "ranges": [
+        {
+          "lineIndex": 0,
+          "text": "Did I miss something"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d195",
+      "phraseId": "p2388",
+      "classification": "VALID_VARIANT",
+      "reason": "be疑問文と~の動名詞節。写真共有への心理的抵抗の確認。",
+      "ranges": [
+        {
+          "lineIndex": 2,
+          "text": "Are"
+        },
+        {
+          "lineIndex": 2,
+          "text": "comfortable with"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d195",
+      "phraseId": "p1461",
+      "classification": "VALID_VARIANT",
+      "reason": "同じ許容sense。共有先条件が後続してもfine withの構文は成立。",
+      "ranges": [
+        {
+          "lineIndex": 3,
+          "text": "I'm fine with"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d196",
+      "phraseId": "p2988",
+      "classification": "VALID_VARIANT",
+      "reason": "would→'d、後ろは動詞原形。選好の構文・例文と一致。",
+      "ranges": [
+        {
+          "lineIndex": 2,
+          "text": "I'd rather"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d198",
+      "phraseId": "p1929",
+      "classification": "VALID_VARIANT",
+      "reason": "相手を心配する用法で例文と一致。",
+      "ranges": [
+        {
+          "lineIndex": 2,
+          "text": "I'm worried about"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d199",
+      "phraseId": "p2239",
+      "classification": "VALID_VARIANT",
+      "reason": "断りの前置きframe。difficultと後続主張はslot、固定部を残す。",
+      "ranges": [
+        {
+          "lineIndex": 4,
+          "text": "I don't mean to be"
+        },
+        {
+          "lineIndex": 4,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d201",
+      "phraseId": "p2860",
+      "classification": "VALID_VARIANT",
+      "reason": "服のサイズが合うfitの三単現。wordの短さで除外しない。",
+      "ranges": [
+        {
+          "lineIndex": 0,
+          "text": "fits"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d202",
+      "phraseId": "p2699",
+      "classification": "VALID_VARIANT",
+      "reason": "have→having。例文と一致する機器の不調による困難。",
+      "ranges": [
+        {
+          "lineIndex": 0,
+          "text": "having trouble with"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d203",
+      "phraseId": "p1289",
+      "classification": "VALID_BUT_OVERRIDE",
+      "reason": "支えるsenseのhere variantがexample1に明示。there↔hereの無条件置換は他の場所表現へ広げない。",
+      "ranges": [
+        {
+          "lineIndex": 5,
+          "text": "I'm here for"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d204",
+      "phraseId": "p1909",
+      "classification": "VALID_VARIANT",
+      "reason": "仮の提案を出すframe。example2と同機能。固定部What ifが学習対象。",
+      "ranges": [
+        {
+          "lineIndex": 3,
+          "text": "What if"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d12",
+      "phraseId": "p160",
+      "classification": "VALID_VARIANT",
+      "reason": "someone’s→your。助言に従う構文。",
+      "ranges": [
+        {
+          "lineIndex": 9,
+          "text": "take"
+        },
+        {
+          "lineIndex": 9,
+          "text": "advice"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d13",
+      "phraseId": "p185",
+      "classification": "VALID_BUT_OVERRIDE",
+      "reason": "Where did you hear that?への省略応答で聞いた経路を回答。別話者の語を結合せず、この回答部分だけを候補にする。",
+      "ranges": [
+        {
+          "lineIndex": 2,
+          "text": "Through the grapevine"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d17",
+      "phraseId": "p170",
+      "classification": "VALID_VARIANT",
+      "reason": "相手の話を聞く姿勢。例文と同じam短縮。",
+      "ranges": [
+        {
+          "lineIndex": 6,
+          "text": "I’m all ears"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d19",
+      "phraseId": "p252",
+      "classification": "VALID_BUT_OVERRIDE",
+      "reason": "recordのnote/example2がbrown-nosing単独の行為も含む。本文のbrown-nosingのみをoverride。",
+      "ranges": [
+        {
+          "lineIndex": 3,
+          "text": "brown-nosing"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d19",
+      "phraseId": "p205",
+      "classification": "VALID_VARIANT",
+      "reason": "gettingの進行形と強調soの挿入。過剰に怒る同一idiom。",
+      "ranges": [
+        {
+          "lineIndex": 5,
+          "text": "getting"
+        },
+        {
+          "lineIndex": 5,
+          "text": "bent out of shape"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d21",
+      "phraseId": "p132",
+      "classification": "VALID_VARIANT",
+      "reason": "someone’s→your。傷つけないという同一構文、否定文でもsenseは同じ。",
+      "ranges": [
+        {
+          "lineIndex": 6,
+          "text": "spare"
+        },
+        {
+          "lineIndex": 6,
+          "text": "feelings"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d22",
+      "phraseId": "p170",
+      "classification": "VALID_VARIANT",
+      "reason": "聞く姿勢のidiom。例文と一致。",
+      "ranges": [
+        {
+          "lineIndex": 1,
+          "text": "I’m all ears"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d22",
+      "phraseId": "p136",
+      "classification": "VALID_VARIANT",
+      "reason": "have→had、one’s→my、経験内容がslot。例文と同じ現在完了の経験。",
+      "ranges": [
+        {
+          "lineIndex": 4,
+          "text": "had"
+        },
+        {
+          "lineIndex": 4,
+          "text": "share of"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d23",
+      "phraseId": "p206",
+      "classification": "VALID_VARIANT",
+      "reason": "be→are。something ofはここでは固定した緩和表現であり自由slotにしない。恋愛関係の意味。",
+      "ranges": [
+        {
+          "lineIndex": 4,
+          "text": "are something of an item"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d25",
+      "phraseId": "p304",
+      "classification": "VALID_BUT_OVERRIDE",
+      "reason": "送信方針への同意。with補部が文脈上省略されている。全前置詞句の任意化にはしない。",
+      "ranges": [
+        {
+          "lineIndex": 7,
+          "text": "we’re"
+        },
+        {
+          "lineIndex": 7,
+          "text": "on board"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d26",
+      "phraseId": "p279",
+      "classification": "VALID_VARIANT",
+      "reason": "it/myへのslot置換。欲求を消化する同じ比喩表現。",
+      "ranges": [
+        {
+          "lineIndex": 8,
+          "text": "get"
+        },
+        {
+          "lineIndex": 8,
+          "text": "out of"
+        },
+        {
+          "lineIndex": 8,
+          "text": "system"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d32",
+      "phraseId": "p308",
+      "classification": "VALID_VARIANT",
+      "reason": "厳しい選択の立場。例文と同じ短縮be。",
+      "ranges": [
+        {
+          "lineIndex": 2,
+          "text": "I’m in a tough spot"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d33",
+      "phraseId": "p321",
+      "classification": "VALID_VARIANT",
+      "reason": "be→was、one’s→my。過去の発言を引用した正気でないsense。",
+      "ranges": [
+        {
+          "lineIndex": 3,
+          "text": "was out of"
+        },
+        {
+          "lineIndex": 3,
+          "text": "mind"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d33",
+      "phraseId": "p325",
+      "classification": "VALID_VARIANT",
+      "reason": "something→it、someone→主語we。中断した会話を再開する例文と一致。",
+      "ranges": [
+        {
+          "lineIndex": 8,
+          "text": "pick"
+        },
+        {
+          "lineIndex": 8,
+          "text": "up where"
+        },
+        {
+          "lineIndex": 8,
+          "text": "left off"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d35",
+      "phraseId": "p324",
+      "classification": "VALID_BUT_OVERRIDE",
+      "reason": "example1のWe clickedと同じ相互的・補部省略用法。単語clickの機器操作senseもあるため文脈限定。",
+      "ranges": [
+        {
+          "lineIndex": 1,
+          "text": "clicked"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d35",
+      "phraseId": "p277",
+      "classification": "VALID_VARIANT",
+      "reason": "were/myと強調way。人間関係で釣り合わないsenseでmeaningと一致。",
+      "ranges": [
+        {
+          "lineIndex": 3,
+          "text": "were"
+        },
+        {
+          "lineIndex": 3,
+          "text": "out of"
+        },
+        {
+          "lineIndex": 3,
+          "text": "league"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d35",
+      "phraseId": "p327",
+      "classification": "VALID_BUT_OVERRIDE",
+      "reason": "example1と一致するget受動/状態変化。全てのbeをgetへ置換しない。",
+      "ranges": [
+        {
+          "lineIndex": 5,
+          "text": "got caught up in the moment"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d35",
+      "phraseId": "p262",
+      "classification": "SEMANTIC_MISMATCH",
+      "reason": "固定Way to go!とproductive Way to +動詞句は別。recordに後者を含める根拠がない。",
+      "ranges": []
+    },
+    {
+      "dialogueId": "d38",
+      "phraseId": "p346",
+      "classification": "SEMANTIC_MISMATCH",
+      "reason": "judgeは通常の動詞。相手の引用語を動詞化するnoteの構文ではない。~へ任意の動詞を入れると誤match。",
+      "ranges": []
+    },
+    {
+      "dialogueId": "d39",
+      "phraseId": "p352",
+      "classification": "VALID_VARIANT",
+      "reason": "oneself→yourself、数量some。自己評価の例文そのもの。",
+      "ranges": [
+        {
+          "lineIndex": 2,
+          "text": "Give"
+        },
+        {
+          "lineIndex": 2,
+          "text": "credit"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d39",
+      "phraseId": "p381",
+      "classification": "VALID_VARIANT",
+      "reason": "one’s→my。多い仕事を抱えるidiom、後続for meも自然。",
+      "ranges": [
+        {
+          "lineIndex": 5,
+          "text": "have"
+        },
+        {
+          "lineIndex": 5,
+          "text": "work cut out"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d41",
+      "phraseId": "p374",
+      "classification": "VALID_VARIANT",
+      "reason": "二つの所有格がmyに置換。失言のidiom。",
+      "ranges": [
+        {
+          "lineIndex": 1,
+          "text": "put"
+        },
+        {
+          "lineIndex": 1,
+          "text": "foot in"
+        },
+        {
+          "lineIndex": 1,
+          "text": "mouth"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d42",
+      "phraseId": "p463",
+      "classification": "VALID_VARIANT",
+      "reason": "noteのreflexive variationそのもの。soを限定修飾として扱う。",
+      "ranges": [
+        {
+          "lineIndex": 6,
+          "text": "be"
+        },
+        {
+          "lineIndex": 6,
+          "text": "hard on"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d44",
+      "phraseId": "p408",
+      "classification": "VALID_BUT_OVERRIDE",
+      "reason": "shotgunの文脈とrecord例文に基づきcall it firstのみをoverride。発話を合成しない。",
+      "ranges": [
+        {
+          "lineIndex": 5,
+          "text": "call it first"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d45",
+      "phraseId": "p376",
+      "classification": "VALID_BUT_OVERRIDE",
+      "reason": "note/example2に明示された別形。the/wayを無条件挿入する一般則にしない。",
+      "ranges": [
+        {
+          "lineIndex": 5,
+          "text": "Don’t take this the wrong way"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d49",
+      "phraseId": "p453",
+      "classification": "VALID_BUT_OVERRIDE",
+      "reason": "example2にWhat a shameが明示されている。What a shameだけをoverrideし、Shame on youは除外。",
+      "ranges": [
+        {
+          "lineIndex": 5,
+          "text": "What a shame"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d49",
+      "phraseId": "p454",
+      "classification": "VALID_BUT_OVERRIDE",
+      "reason": "example2に明示されたthere’s省略。安心させる同一構文だが全there isの削除はしない。",
+      "ranges": [
+        {
+          "lineIndex": 6,
+          "text": "No shame in"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d51",
+      "phraseId": "p466",
+      "classification": "VALID_BUT_OVERRIDE",
+      "reason": "noteとexample1がin a pickleを明示。putting meが原因者を加えても困った状態のidiomは実現。here’s等まで無理に対応しない。",
+      "ranges": [
+        {
+          "lineIndex": 4,
+          "text": "in a pickle"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d60",
+      "phraseId": "p423",
+      "classification": "VALID_VARIANT",
+      "reason": "例文/noteに明示されたnoによる否定。簡単さの同じ尺度で否定を保持して答える。",
+      "ranges": [
+        {
+          "lineIndex": 1,
+          "text": "No piece of cake"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d62",
+      "phraseId": "p400",
+      "classification": "SEMANTIC_MISMATCH",
+      "reason": "挑戦する側ではなく受ける側。extendedの活用形でも同一会話機能でもない。",
+      "ranges": []
+    },
+    {
+      "dialogueId": "d65",
+      "phraseId": "p479",
+      "classification": "VALID_VARIANT",
+      "reason": "be→is。物がまだ誰でも入手可能なsense。",
+      "ranges": [
+        {
+          "lineIndex": 2,
+          "text": "is up for grabs"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d71",
+      "phraseId": "p547",
+      "classification": "VALID_BUT_OVERRIDE",
+      "reason": "example1そのもの。have gotという所有的variantを他のhave構文へ無制限適用しない。",
+      "ranges": [
+        {
+          "lineIndex": 2,
+          "text": "You’ve got a point"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d72",
+      "phraseId": "p561",
+      "classification": "VALID_VARIANT",
+      "reason": "困難からの復帰を話者について表す比喩。機器修理後に自分が立ち直ったという文脈。",
+      "ranges": [
+        {
+          "lineIndex": 9,
+          "text": "I’m back on"
+        },
+        {
+          "lineIndex": 9,
+          "text": "feet"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d73",
+      "phraseId": "p565",
+      "classification": "VALID_VARIANT",
+      "reason": "職場の問題の関係から外れる同一idiom。somehowの限定副詞挿入。",
+      "ranges": [
+        {
+          "lineIndex": 5,
+          "text": "is"
+        },
+        {
+          "lineIndex": 5,
+          "text": "out of the picture"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d73",
+      "phraseId": "p489",
+      "classification": "VALID_VARIANT",
+      "reason": "headlineに明示されたI/we/you選択肢のI。人称の推測一般化ではない。",
+      "ranges": [
+        {
+          "lineIndex": 7,
+          "text": "For all I know"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d74",
+      "phraseId": "p596",
+      "classification": "VALID_VARIANT",
+      "reason": "情報に追いついていない否定形。notを消して肯定に見せず、否定込みの構文を認識。",
+      "ranges": [
+        {
+          "lineIndex": 1,
+          "text": "I’m not caught up on"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d74",
+      "phraseId": "p560",
+      "classification": "VALID_VARIANT",
+      "reason": "one’s→my。利用可能な資源を求めるsense。",
+      "ranges": [
+        {
+          "lineIndex": 3,
+          "text": "at"
+        },
+        {
+          "lineIndex": 3,
+          "text": "disposal"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d76",
+      "phraseId": "p494",
+      "classification": "VALID_VARIANT",
+      "reason": "get→getting、oneself→複数再帰。example1と一致。",
+      "ranges": [
+        {
+          "lineIndex": 1,
+          "text": "getting ahead of"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d77",
+      "phraseId": "p615",
+      "classification": "VALID_VARIANT",
+      "reason": "one’s→your。過度の期待を戒める同一idiom。",
+      "ranges": [
+        {
+          "lineIndex": 7,
+          "text": "get"
+        },
+        {
+          "lineIndex": 7,
+          "text": "hopes up"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d79",
+      "phraseId": "p612",
+      "classification": "VALID_VARIANT",
+      "reason": "one’s→your。限度を越えて要求する同一idiom。",
+      "ranges": [
+        {
+          "lineIndex": 6,
+          "text": "push"
+        },
+        {
+          "lineIndex": 6,
+          "text": "luck"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d80",
+      "phraseId": "p614",
+      "classification": "VALID_BUT_OVERRIDE",
+      "reason": "noteにmayの形が明示。going toを任意の法助動詞へ一般化せず、前置きの固定範囲のみ。",
+      "ranges": [
+        {
+          "lineIndex": 0,
+          "text": "I know this may sound"
+        },
+        {
+          "lineIndex": 0,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d87",
+      "phraseId": "p721",
+      "classification": "VALID_VARIANT",
+      "reason": "beat→beating、oneself→yourself。自責senseで例文と一致。",
+      "ranges": [
+        {
+          "lineIndex": 1,
+          "text": "beating"
+        },
+        {
+          "lineIndex": 1,
+          "text": "up"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d102",
+      "phraseId": "p4",
+      "classification": "VALID_VARIANT",
+      "reason": "指示対象がIt→This。例文も主語を自由に置いており、不満を表すsucks構文を保持。",
+      "ranges": [
+        {
+          "lineIndex": 1,
+          "text": "This sucks"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d103",
+      "phraseId": "p5",
+      "classification": "VALID_BUT_OVERRIDE",
+      "reason": "noteにWhat's up withのvariationが明示。up挿入をあらゆる前置詞表現へ一般化しない。",
+      "ranges": [
+        {
+          "lineIndex": 0,
+          "text": "What’s up with"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d103",
+      "phraseId": "p752",
+      "classification": "VALID_VARIANT",
+      "reason": "+ nounは型記法でstoryが実現。example1と一致する別の問題というsense。",
+      "ranges": [
+        {
+          "lineIndex": 7,
+          "text": "a whole nother"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d107",
+      "phraseId": "p759",
+      "classification": "VALID_VARIANT",
+      "reason": "one’s→your。立場を変えない同一idiom。",
+      "ranges": [
+        {
+          "lineIndex": 5,
+          "text": "stand"
+        },
+        {
+          "lineIndex": 5,
+          "text": "ground"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d109",
+      "phraseId": "p806",
+      "classification": "SEMANTIC_MISMATCH",
+      "reason": "recordの達成senseに対し、本文は未実施の旅行を予定から外すsense。構文一致だけでは採用しない。",
+      "ranges": []
+    },
+    {
+      "dialogueId": "d116",
+      "phraseId": "p835",
+      "classification": "VALID_VARIANT",
+      "reason": "期限に間に合わない寸前という同一sense。be短縮とalready、slot実現。",
+      "ranges": [
+        {
+          "lineIndex": 4,
+          "text": "We’re"
+        },
+        {
+          "lineIndex": 4,
+          "text": "on the verge of"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d129",
+      "phraseId": "p861",
+      "classification": "VALID_VARIANT",
+      "reason": "note/example2に明示されたparticle後置。告知を一気に済ませる比喩でliteralと区別できる文脈。",
+      "ranges": [
+        {
+          "lineIndex": 1,
+          "text": "rip the Band-Aid off"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d129",
+      "phraseId": "p883",
+      "classification": "VALID_VARIANT",
+      "reason": "A/Bが動名詞句として実現。正直と冷淡の微妙な境界という例文に近いsense。",
+      "ranges": [
+        {
+          "lineIndex": 2,
+          "text": "a fine line between"
+        },
+        {
+          "lineIndex": 2,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d132",
+      "phraseId": "p966",
+      "classification": "VALID_BUT_OVERRIDE",
+      "reason": "example1のup variantそのもの。particleを任意挿入する一般則にせず、この形を認識。",
+      "ranges": [
+        {
+          "lineIndex": 3,
+          "text": "open up a can of worms"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d135",
+      "phraseId": "p881",
+      "classification": "VALID_VARIANT",
+      "reason": "isn’t→is notとjust。恋愛上の相性の否定senseを保持。",
+      "ranges": [
+        {
+          "lineIndex": 1,
+          "text": "the chemistry is"
+        },
+        {
+          "lineIndex": 1,
+          "text": "not right"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d135",
+      "phraseId": "p942",
+      "classification": "VALID_VARIANT",
+      "reason": "oneself→yourself。恋愛の場に再び出て自己開示する同一sense。",
+      "ranges": [
+        {
+          "lineIndex": 6,
+          "text": "put"
+        },
+        {
+          "lineIndex": 6,
+          "text": "out there"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d145",
+      "phraseId": "p912",
+      "classification": "SEMANTIC_MISMATCH",
+      "reason": "recordはsomeoneのための入浴準備。本文には受益者がなく、自分のためのrun a bath。",
+      "ranges": []
+    },
+    {
+      "dialogueId": "d146",
+      "phraseId": "p874",
+      "classification": "SEMANTIC_MISMATCH",
+      "reason": "動詞registerではなくregistration/registryという名詞。noteが関連名詞を説明しても同じ答えにはならない。",
+      "ranges": []
+    },
+    {
+      "dialogueId": "d151",
+      "phraseId": "p1032",
+      "classification": "VALID_VARIANT",
+      "reason": "something→Good jobs、複数でdoesn’t→don’t。希少性の比喩で例文と同じ。",
+      "ranges": [
+        {
+          "lineIndex": 4,
+          "text": "don’t grow on trees"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d157",
+      "phraseId": "p1008",
+      "classification": "VALID_BUT_OVERRIDE",
+      "reason": "note/example1に明示された比喩形。beをsit likeへ一般置換しない。",
+      "ranges": [
+        {
+          "lineIndex": 0,
+          "text": "sitting there like a lump"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d162",
+      "phraseId": "p1007",
+      "classification": "VALID_VARIANT",
+      "reason": "one’s→your。本性を現す同一idiom。",
+      "ranges": [
+        {
+          "lineIndex": 8,
+          "text": "show"
+        },
+        {
+          "lineIndex": 8,
+          "text": "true colors"
+        }
+      ]
+    },
+    {
+      "dialogueId": "d164",
+      "phraseId": "p1067",
+      "classification": "VALID_VARIANT",
+      "reason": "one’s→our。共同で資金を集める同一構文。",
+      "ranges": [
+        {
+          "lineIndex": 1,
+          "text": "pool"
+        },
+        {
+          "lineIndex": 1,
+          "text": "money"
+        }
+      ]
+    }
+  ]
+}
