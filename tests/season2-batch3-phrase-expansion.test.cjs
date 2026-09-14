@@ -163,7 +163,7 @@ assert.deepEqual(normalizedDuplicates,{
   "work out":["p1128","p1584"]
 });
 
-assert.equal(dialogues.length,204);
+assert.equal(dialogues.length,208);
 assert.deepEqual(dialogues.flatMap(dialogue=>(dialogue.phraseLinks||[])
   .filter(id=>!phraseIds.has(id)).map(id=>`${dialogue.id}:${id}`)),[]);
 

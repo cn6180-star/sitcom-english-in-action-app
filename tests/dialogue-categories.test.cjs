@@ -13,8 +13,8 @@ const episodeNumber=value=>Number(String(value||"").match(/E(\d+)/i)?.[1])||0;
 const phraseById=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const dialogueEpisodes=dialogue=>[...new Set((dialogue.phraseLinks||[]).map(id=>phraseById.get(id)?.episode).filter(Boolean))];
 
-assert.equal(dialogues.length,204);
-assert.equal(new Set(dialogues.map(dialogue=>dialogue.id)).size,204);
+assert.equal(dialogues.length,208);
+assert.equal(new Set(dialogues.map(dialogue=>dialogue.id)).size,208);
 assert.equal(dialogues.filter(dialogue=>!Object.prototype.hasOwnProperty.call(dialogue,"category")).length,0);
 assert.equal(dialogues.filter(dialogue=>typeof dialogue.category!=="string"||!dialogue.category.trim()).length,0);
 assert.equal(dialogues.filter(dialogue=>!category(dialogue)).length,0);
@@ -24,7 +24,7 @@ assert.equal(dialogues.filter(dialogue=>!dialogue.title.trim()).length,0);
 assert.equal(dialogues.filter(dialogue=>/^(日常|仕事|相談|人間関係|恋愛|トラブル|メンタル|雑談|ケンカ)[①②③④⑤⑥⑦⑧⑨⑩]（.+）$/.test(dialogue.title)).length,0);
 
 const counts=new Map(allowed.map(name=>[name,dialogues.filter(dialogue=>category(dialogue)===name).length]));
-assert.deepEqual(Object.fromEntries(counts),{"日常":82,"仕事":62,"相談":17,"人間関係":20,"恋愛":9,"トラブル":5,"メンタル":4,"雑談":5});
+assert.deepEqual(Object.fromEntries(counts),{"日常":85,"仕事":64,"相談":16,"人間関係":21,"恋愛":8,"トラブル":5,"メンタル":4,"雑談":5});
 assert.equal([...counts.values()].filter(count=>count===1).length,0);
 
 const expectedS9={

@@ -9,7 +9,11 @@ for(const f of ['dialogue-match-hints.js','dialogue-highlight-matcher.js'])vm.ru
 vm.runInContext(source.split(/\r?\n/).filter(l=>/^const DIALOGUE_(INFLECTION|IRREGULAR|OPTIONAL)/.test(l)||/^function (dialoguePhrase|dialogueVerb|dialogueIrregular|dialoguePronoun|allDialogue|firstDialogue|dialogueExplicit|explicitDialogue|selectedDialogue|highlightDialogueLine|esc\()/.test(l)).join('\n'),c);
 const plain=x=>JSON.parse(JSON.stringify(x)),hash=x=>crypto.createHash('sha256').update(JSON.stringify(x)).digest('hex');
 const data=Array.from({length:9},(_,i)=>JSON.parse(fs.readFileSync(path.join(root,'data/season'+(i+1)+'.json'))));
-const phrases=data.flatMap(s=>s.phrases),dialogues=data.flatMap(s=>s.dialogues),byId=new Map(phrases.map(p=>[p.id,p]));
+// Replay the original 204-dialogue corpus to protect historical matcher/override ranges.
+// Current production (all 208 dialogues) is independently exhaustively checked in
+// season2-dialogue-final-production.test.cjs, including all authorized replacements.
+const originalS2=require('./fixtures/friends-s2-dialogue-production-baseline.json').originalS2;
+const phrases=data.flatMap(s=>s.phrases),dialogues=data.flatMap((s,i)=>i===1?originalS2:s.dialogues),byId=new Map(phrases.map(p=>[p.id,p]));
 const fixture=require('./fixtures/dialogue-highlight-approved.json'),key=x=>x.dialogueId+'|'+x.phraseId,approved=new Map(fixture.items.map(x=>[key(x),x]));
 assert.equal(approved.size,80);
 const exclusions=plain(vm.runInContext('DIALOGUE_HIGHLIGHT_EXCLUSIONS',c));
@@ -33,7 +37,7 @@ for(const d of dialogues)for(const id of d.phraseLinks){
 assert.equal(dialogues.length,204);assert.equal(links,1047);assert.equal(auto,874);assert.equal(explicit,166);assert.equal(excluded,7);
 // Freeze all 967 baseline results, not just the forced overrides.
 assert.equal(hash(protectedRows),'1dc0eba43770b1d09a856f43453e319cca94bedb7ab4530b82c0ecaf09f51efb');
-const hints=plain(vm.runInContext('Object.entries(DIALOGUE_EXPLICIT_MATCH_HINTS)',c)),oldHints=hints.filter(([k])=>k!=='S2-SEED-004|p2229'&&approved.get(k)?.classification!=='VALID_BUT_OVERRIDE');
+const hints=plain(vm.runInContext('Object.entries(DIALOGUE_EXPLICIT_MATCH_HINTS)',c)),oldHints=hints.filter(([k])=>k!=='d208|p2229'&&approved.get(k)?.classification!=='VALID_BUT_OVERRIDE');
 assert.equal(oldHints.length,169);assert.equal(oldHints.filter(([,h])=>h.overrideMatcher).length,56);assert.equal(hash(oldHints),fixture.oldHintHash);assert.equal(hints.length,186);
 const segments=(phrase,text)=>plain(c.allDialoguePhraseMatches(text,{phrase,type:'phrase'})).map(r=>text.slice(r.index,r.index+r.length));
 const positives=[

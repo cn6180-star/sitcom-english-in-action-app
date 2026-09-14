@@ -43,4 +43,4 @@ const speech=[];c.window={speechSynthesis:{getVoices:()=>[{lang:'en-US'}],speak:
 c.DIALOGUES=dialogues;c.route.params={id:'d44',ids:['d44','d45'],practice:'blank',blankRevealed:['p408'],blankPhrasesExpanded:true};c.dialogueMove(1);assert.equal(c.route.params.id,'d45');assert.equal(c.route.params.practice,'blank');assert.equal(c.route.params.blankRevealed.length,0);assert.equal(c.route.params.blankPhrasesExpanded,false);assert.equal(rendered,1);
 assert.match(source,/data-text="\$\{esc\(line\[1\]\)\}"/,'line TTS original data');
 assert.doesNotMatch(source.slice(source.indexOf('function applyDialogueBlankMode(){'),source.indexOf('\nrenderDialogueDetail=function(){renderDialogueDetailBase();')),/recordingSession|stopRecording|stopDialoguePlayback|speechSynthesis/);
-console.log('Dialogue Blank mode: single/multi/explicit/exclusion, all 204 rendered ranges, reveal/reset, TTS and switch PASS');
+console.log('Dialogue Blank mode: single/multi/explicit/exclusion, all production rendered ranges, reveal/reset, TTS and switch PASS');

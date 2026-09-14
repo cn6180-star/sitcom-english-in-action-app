@@ -1,0 +1,1522 @@
+{
+  "compatibilityCommit": "ec37466",
+  "phraseHashes": {
+    "data/season1.json": "7eff031659754f402c37703f20e68053014afc8f5a60539ba9148e5ce40ff77d",
+    "data/season2.json": "44881523108a73d1e4289960387aa5494d87d3fee5b63e0f7c544f92540fa1ca",
+    "data/season3.json": "6ec0e9e99c60c5f3cb2180c4b980edba12d123fd10c9c18b3ad5e0860ab1ff32",
+    "data/season4.json": "9ba428fafc201da0ededf5ee1d74ede39c3d798cf3794ed03d5cf65ee8a48600",
+    "data/season5.json": "5e3122967b6cf189a6b4c33cdfb1e469d542e2491903b6579116ad8965c950af",
+    "data/season6.json": "848e8fe5c2bfe8d80c94a07478ada1a5725395b3217bf7d4e8a0df669ab15aa8",
+    "data/season7.json": "f8e671fee2cbde794e69d11bcdabfef96a75246826604e71b484caae5fa2dd7b",
+    "data/season8.json": "1f1cd6c3aaa96febfbc95c4a8d4f25134f3686baf99889a11e42c5e0c26bab51",
+    "data/season9.json": "9753ff8f594dcdca85c204d354e8a66a8f0f2da831268a30de4c9948d8f3348c"
+  },
+  "dialogueHashes": {
+    "d1": "a01b83acd1e169d691ef376b4fb06b8e58d3a3de35c9849bc04c31ff5830b865",
+    "d2": "dbf731a8847170ab374c4e0fcbafedbb8b626301f1d97fd70726013fb75db19b",
+    "d3": "eb978f6e7216448553128d808320b38f0624682cb847bb7cb3d41b5e131f651b",
+    "d4": "03e85c8caf3e1dd4f7354b2ff47f8644a12d60287459b2ad5145cb6519c7966c",
+    "d5": "d2ed162a407764e5c8fe44ea93ed6b6f67b54db07f5ad75aff50bb6832d93092",
+    "d6": "710ff77ba553652316f40d58cb8157ee3f5780b4ff176bc8c57e7f145c2d0358",
+    "d7": "312be49824922e44b31571cbb02292a93d8374a3c5845eeb5d9c025042f6bf15",
+    "d8": "521af129bd29626e47104af8dc3a9307ce21471e731dc22cb1dd77920e2eba77",
+    "d9": "a5135ba8ff9e6a0d3e26be344a9a1b54856813bbb879d4570a438baeb6418923",
+    "d10": "6224dd564587977ae5b7c117643a72219d0ddfb68fd9568597d633b207d701af",
+    "d53": "68b57edabc39bfe43bc1db7a245b6f8ef4b8075c629777027b1a30d1fa874db5",
+    "d54": "b508a6aae6f9cd5f5ba44995510e667610318281c9de7e9434d455ff4c5a3c5d",
+    "d55": "934a0bcd98043a0cbbb84c6435b7a8a00931e5d69b9d3c2f757262c95809bb6d",
+    "d56": "59d35c846e1dcf41a689e31f4ac002bb5299044ebbcb6bc632eeaa5ba02b7306",
+    "d168": "76501b741a6570dbd1ba1c4e1c7977ba9506a877b332bf0f178eaaa8d201fb38",
+    "d169": "d92141eecec608aeb8d65a8a2c86804dee6a5e3ded7d97742e3254782f8e7b59",
+    "d170": "d41d54993e1dac23045eaced58022ca1151a7d10626dcdd2b7e6375695930473",
+    "d171": "86141fc144b3fc7b833c7b986b7c1f44be8087065694b0ea7a44155b849923f7",
+    "d172": "ea6587e4324e4abf71ee08256e78839cabe82d4172a98cd17086cdfabc102a6e",
+    "d173": "a98b9e6fcd8043dd3471c8eb5d3a10f43a3c314af2183aa1b38eb2560c8de3b9",
+    "d174": "40e907fb2f63c0300c56b5ac051113c4bb207a16d667cf47a59a5aa379db635f",
+    "d175": "a320e846e9451982ec477d6a03c9bb9708c292d04aef93d2b5b167de00c1e9fe",
+    "d176": "875756e23ca24bc38053d8031f83efd537ca236f7f887d34d40ecd58e05da7e3",
+    "d177": "b24f0146d2d855a63693d026be7f8fb86bbf067fe7a611dac9aae946af71e172",
+    "d178": "be39410dcf3b2056eac0c8ca122c56264a0d5f0f7b2d6072acc6fc6e7e924fdc",
+    "d179": "ee29787706ed1e03d4d93aa6b4ecf3d387e3b82a6db375885ee30560a319e480",
+    "d180": "710c7c955060d033cf45d5e6e8b4853463598db9c891de082c0bebd70ddae6e5",
+    "d181": "d085a01fca1188c1643dbdd8468dcf6872c7396959ae65a8c5aa616546466e04",
+    "d182": "796f8b8a721b7dc8974eb9482ac56feacd102b09af0f9b438e6f3e99e74f4d4e",
+    "d183": "4b257b27e5c457840ba23546e809198ea34d128b24aa40013724e150e519e53d",
+    "d184": "3a83013318f752106ded8aefb22b8c499d2a3c6a1fbf3453b658558ce5aca537",
+    "d185": "682ffc31d81214e9fe955f2d5e26505e97e62b27fa973a8c0d8f4551afbd4267",
+    "d186": "510399d622265c40ac93611bc2fd57d99d451b4cb740dd4d600ece7e153723b4",
+    "d187": "207d0ea3341bc0a19d03cbfecdd083dd0cd1a2fcfe65c7bcb4e6a15f47f50a44",
+    "d188": "1cf4ed2044e39167e20a305ec70b03a2d1610915a66929ebb0b3de7eb97072e8",
+    "d189": "4d9bd031658ffa1d8194e9ee079870c0f9eefe838c5c5437d5005c3921f91756",
+    "d190": "007631c098c38d400f42be3825e22d523dbd7c3102c62caf382bc44f761f1fab",
+    "d191": "c228a010e99911d7aec28af4b7f1b71e5d8d951a7f819bc6c2cd05e4ef852823",
+    "d192": "1d8b42979cc93c6161afe5182ce7f719b92333f22ba68874ad1a9890405f2227",
+    "d193": "d9dddc3b183ad7b32c6a805d10c1556ae51b58e4c1177803607e68395219db0c",
+    "d194": "073e7b251b1c8f5f19a56385630b8392aed82c486708f96e074ff62cf42c68b7",
+    "d195": "ae402d377c8064eb4037db68a2da394f92a7aee3fcc568321f4f49320c6399e1",
+    "d196": "c899dcc69549e69ff77b877289506a77f887f3eeb24e7f5c8eaa883efee47f73",
+    "d197": "665f876ee9b3aae3fd641e1eabc307cbaf05e98bcfd6ebf4089394775bbcabfd",
+    "d198": "f38760d221b4a2253becb3de06fa12f892cd182e4cadefd35c6880bfbb124732",
+    "d199": "180ab0f4dff652a91e99e1c64dd8c9cc7249508ebd2fd3de14f764c6e89a91bc",
+    "d200": "ecef18af26a1cda4b6e80f03d9f7eee299c60821ea0e2fedfefc5ba7a4d97604",
+    "d201": "090de2478fbc009b9d189de49b0e5a7b894809d2046f539d955f42d05e5a9895",
+    "d202": "9498e4778ae000a661453c2a158da417738e772f55b853443ce3956e509f969a",
+    "d203": "5bbd49b1e25ae52414d001fda694332d8ca8c5c16a2907eab1ed7410b68fa6d2",
+    "d204": "5948b709e4f69c0004771bb33f495d2fb7479e634a092ee728f99406efdc5db1",
+    "d11": "0922cb55f041c471c117f6e849bf2976d9c760ffaec604ff46610cef75f5a775",
+    "d12": "a80fdbec8e6b8c3e712321d7f2e7ff9e410c04350b334b7acf5fd8d018d2f0bf",
+    "d13": "b6467ab4e52c2182ae3d61d03d3361c8bf770f656e1f60c65ad287cfc739476c",
+    "d14": "d443df8b95d01598be6d0e59efb2d603e416737ffdab7163ffd1d9daf0e87a6d",
+    "d15": "65a81acf94f7a4b5463247583ba5a25bd1979116bcc1c84bb3a0115920876014",
+    "d16": "47c3179e466bb1eedfb55e181b187c969666d2cdf4a1090c16f78992d5395efb",
+    "d17": "4c0ec8df9ba50d24d000bca6e6e16ef99a70af226fd06f1a61d440a953cc5f82",
+    "d18": "5aaf5565cb34fee377fa2d1111740e2615b0b7a86c879db59d3fbb6725fc469d",
+    "d19": "eb48c232e471de8817ff2682293cbb792876dffc227af122c8b128cc87755d87",
+    "d20": "f96ff3e0867cef0e6455b168be16d8da99be00ebb19a87d1afcdf767c623eb51",
+    "d21": "f8626b4cc698223f60ad807f46b00cc8a829f7302a39b805670a99f4d225f319",
+    "d22": "b16efa01ebbe6fb074fcce8f4ceccd257be15a9604f4c924012ce55e643073d7",
+    "d23": "6c86700eae3041d49dd7b40a9ff902eb991cbc4bdc4ef56356c9b3522bad8e6e",
+    "d24": "661c7c34977a50ace6bdec20b62d5e443e5034a0a92f6450afffb0cbddfa439b",
+    "d57": "3d201489d9645bf603d9dc56d49140645044305a41aa89f89f88f3f99aa2005d",
+    "d58": "f8d80b270503f35b4cc9365480e1863a281920ec01e7ef9ef2ac5d7415a160ff",
+    "d25": "cab25583beaa37e0ae063afcbf5f5d9b89b11993461f52adae71b027529c7f9c",
+    "d26": "a5f776c31efe018cca6f2d90c107eb6869de6f1327d29fe3a94fdd065a70c806",
+    "d27": "3ffe8e67db4f272fa41dc85aadbb743fa4b4e42f5a38f2759ea1368573ba69cd",
+    "d28": "9242aef5b301f96b81ecadd60933f1c14a2fc6ca312020aa22a0c603f1324dd3",
+    "d29": "0cf82ed81c78fa63fe11c082fbab340a99b8369c6567d4fa408d405fb3830226",
+    "d30": "fdf46d9f16392f58fb30d2f20216cb81f2e7a6d88f80efb8434ee04c10d44ae4",
+    "d31": "6093d2a09ab2768f6fcdf8d5d2b461ff9ed80317ee1f5cc29fe7c7882fe99253",
+    "d32": "f75ee394c51086dbcfebe65f07b056095f6ab4b62f1e7f56d7762a98ddf99975",
+    "d33": "5220661bfdfa27e37dacc0b295b2018959647465e46ac5acbcc858470b36db8b",
+    "d34": "33812eff544a4ebbb966981d501aa30bd6531a503da746062062918f0d386274",
+    "d35": "ed8a757aedead71cc7e670c6972f5d5e8c58839d9f9c2960deb5f6ad4fa2a9e5",
+    "d36": "3f58719f3d83cd6e059269e12365103c4cd574bb7a9d5b7053c7b4a8fc1a8e79",
+    "d37": "68e0466fcf673243909b5a08fd90d6fb39995099f8b5ecd03515757a7bdeac46",
+    "d38": "0e0b7d39468bcbc5a022be31d59a1f44eb6cfee5f95feb8eefc8158e357043da",
+    "d59": "6810fb38bd6ee13dbc0bf7cdde0e4ff51c90b9e2d9e29099679ddbf6c9d33bd0",
+    "d39": "5fca41137764c52af164751c8ed58f25b320b9dd4d88b5f7b9db66ab9f405697",
+    "d40": "e6c9e1e7b71b4223bbf04ccfdaa80444bdaf0d7b7c32a0b247a7070df474cf38",
+    "d41": "4c822fc8294f8f35b9d347d60020e55043142c1c4dcd827cd3e298edae06128a",
+    "d42": "9baa967244f32758778566d25a74f5086aa7d382134dc53ba80b92dffb094b4d",
+    "d43": "468c50b1a1880a9b598bdc49511c038bc7e4efc50998385c3da0b697ed16f851",
+    "d44": "5475940d01fec6052e4af2b33c18769ca860a208e66f88c223986a4bfa221543",
+    "d45": "837599c549014ad994c85975d42f6eb2dd8be63407a602cb7ccb0ffdca24226e",
+    "d46": "7838f854a9e68f17f243b4d97af2a13e75134e7eb859b0b67970276e417eb204",
+    "d47": "cc82e5feadc2ec432f74f87fd5ffd2851994b695f02bd974c374f5fd8e6cb15d",
+    "d48": "8218ef844d0ac1406cbf45c9dfb7b4ba676c243b600608abb96f72299c47ff43",
+    "d49": "c3f143fd20d7be1c79eac4706465cd6a4539c4e74d27c88e38749fabcb0ff646",
+    "d50": "658c1f833e8c6c65ef1910074a142fc98609daeac6e4063c2946ff92294265b6",
+    "d51": "cf722a51d0844459d302845d0eb600dfdb14e36eeb03ab6d060be7cdea812440",
+    "d52": "962218d62346b6a206f8a76b29e50e6622e401ab3998b2ff033d65cbaf185510",
+    "d60": "2bc02eebd5f0a2f4455e806ddfa237d34b2dab00e794e1bf4d71346aeb67b356",
+    "d61": "871e83a57bd4589023b51220d1f9a81e86988de6404f575043ae634b5c7cd2e2",
+    "d62": "1e913c396578dc90005a6021747cffb1c8ee09ee370e201759b083bc9f43bed2",
+    "d63": "445a1e60128c2f616416cd5ad45fa98cc108518e380c589aaa6282c52a8f72be",
+    "d64": "c03c7fb9bd9671b77f4493e773c3075d7a215355ad689f71fa987ddb5db460ec",
+    "d65": "a2e1c46091ee255cd5aaeeb37ab70f161d883b1b0c4737d06a2d7c83b6f3bd5e",
+    "d66": "a7558d96085d6fbe59de6f7c6c7aeacdc98afbdb245ffca97a2fcfc36409c825",
+    "d67": "f696af7521e5ab447e1a7cebd40c1f7804735aa16e6c080013323b8898664643",
+    "d68": "a2a2676774b3b8281e86bd3b05afb885883d3d6519e593b6b796c6c8972b8403",
+    "d69": "64786acf4d8454623fd6e885a0f1962750c684c1342566255095973a17c76442",
+    "d70": "339148bbb94ad90d08b184d0c8698b37e968d57dbe81ca1ba1185e946d263440",
+    "d71": "3e707547c2f0232b20cbfe8045f5e3b4f854c315bb72f2d337b7bec4f6444cdf",
+    "d72": "41516dd8a9415dcee6deca87cbf30bd5befe85ceacc6ccb93de1b2d3c595bcc1",
+    "d73": "62b6ff7301814885f9529dbc80992dbf398ab5b90e0ce38409752f15f7d7450d",
+    "d74": "bc09566d2a97f3d86011c229458eb2044106fff31d6a6d98c611a73da8ed890e",
+    "d75": "e756071abb9b3bb9cd84d9ce595b632dad8fd36c4b77f3af85f9fbae7b6d7cfc",
+    "d76": "bab4364c76708bea1d6361ebbad4517ac71dcee5db3a1a7ecb04c98fd5794248",
+    "d77": "906237b4d150a6bf28f89409cabb1dfa6c4165f5ae93e5782b423f9c16bf8f33",
+    "d78": "e8efe5a91e5e7d9b25308fa1385448377d9d87607aff8157eb0b246a73afc29c",
+    "d79": "4ab73d10e7b87c2139e848ee8b29ab60e9996491d05d70323165eabafdf43ac8",
+    "d80": "52940b8c01d6f4638fafd12b9f0fa0a2379374b95d89505ca29e883dc8998331",
+    "d81": "77e1497a40c04235f15ea6589ba47f16db5f01944a7a421ceb80a4c7fbc4bb5f",
+    "d82": "cb694bc5eab57438f33700fb5b602d2c42a49d66c76b00db234ac095640d8e41",
+    "d83": "9eba8f205fa833b86e0b29fb268da99be1d048d6023737156913947dde7966f3",
+    "d84": "e8f4e75e9a2197151e93c3088d301ca8454fbbc8e7191878e03e2986566d6341",
+    "d85": "a473e8275f03479dbf77075da7fe66579cc46f8717db6b54c98030fee67ef3fe",
+    "d86": "94bbaa0526ea44dda661180264c6a4585e395010339215850d8c16d8bb26cbce",
+    "d87": "15943b35230ea547464415b979da975ee3f480556aa7307ec0b52beb312f7e3f",
+    "d88": "ae013d3d054ecfe15235a949a711f21d7d58cd5c3d98f6c7c41ea6651d95678f",
+    "d89": "74984f9300b025f1dcee9546fa0dc599db3636c6b98477fd6badd0b39f7046a9",
+    "d90": "f9829eb7561e2957665cfef4b8b67b6fa9d514963fae2a72e7127a41a7b4e90c",
+    "d91": "c089b5c6bab3689b9b99f6c799ddfdb75044703abb15014ad2b674961da0e589",
+    "d92": "b7f5736d8072cbf8e2f211572b0aa48925eada98c2b32d9569e2b5cda8525817",
+    "d93": "e8b449f7176f747ffbdfa71e46a351da2151a5be44009f269ecbab646c06e866",
+    "d94": "cad78466dd9ffa82633ac2cabb000868064b1e16a63a29b26a01a001aea9f637",
+    "d95": "fdb5e1b643d642b91d809b2faf7de658b998d87f31b3b00c319c2178c1eaf248",
+    "d96": "102067d0e073c2f0a6fe0a529d420ff1d184ec299a04a3c0cc46a03899be7566",
+    "d97": "d27ea5281e25c1b3dd2b2a15a1f70a5912b13d140782ebf39a41f0c7920fb80f",
+    "d98": "658714f69467213987ea91b9af32f592d32f5cf2362bd62303799ac900b396f1",
+    "d99": "eb99fc05dd9b10c62711aa11b87f7724f36d77df160f78a31bbbd5839eed58ad",
+    "d100": "22b86bdd738b7ac761f455f0992e8bc0ede43f8b81adcd2bd4af14c48d08e27f",
+    "d101": "1b0f5d31f2e4126b60ea0a6ce537237c0da03a3e298de2af730b3de192d0d90b",
+    "d102": "8ec3965d420a24113f3aa4508adf91c4524b02caa2da325c71eb9f004b35e1b7",
+    "d103": "18c281cd9413ab475ba069959c8be483dd4676a1dc0ec428d2ee2d0cf7c1d294",
+    "d104": "a5e0fc0f0dd09bdb847398873f31db570deab0963579ab1c65beb4f233abdb95",
+    "d105": "7ed950520fab4435eb2d6c2fa421a54dab66a36c5ff5a9a7c5c37a5b4e52ede4",
+    "d106": "f32b05a6d95d30ac36eb66b0854ef37d9ed0c710a5a7ce582c89f70109b8984d",
+    "d107": "4545851902c9dcc92ff2ee2953109071142f22a4878af85f40109ca0f7bb72e3",
+    "d108": "0d9298a6457b373ec1e0219700c7636ff65b5ac2d5ba55f034809c263035268a",
+    "d109": "93c96be93acf16a4ed51eaaac11e3111cf9481df7a8e5fa5e565ead1808d1dff",
+    "d110": "9a64235d98a6c93451b8c65973b90c8e564b85290290eb2a46446ec28199b93c",
+    "d111": "e53951d20c3b33751c269dd922c84b81e7a256af9f752f2d0d9e480f50ac39d6",
+    "d112": "d2a9ee76f689e70d8617573680f08cd6bd1dcd3cd570b45acbc3596dcdd708a0",
+    "d113": "0793f19b763ffa84e5ae650055aec44c470e105ec71c7b5e5b8a0e78db0ef935",
+    "d114": "55b11e3b850bdf1029751c12f2ec803e036f31f9e34f5740ac3b415659170986",
+    "d115": "087f8b525bc927bc1a7e4c03228e8c0452eea5d558a5d701323f57b613c32743",
+    "d116": "a296c7b88d18303555c6a37e5f0425d7ec7917fff5215a185e22e85e54a5e73e",
+    "d117": "0d4165049f2a6d40deafd141fd113c54c12ad3814d6aec6ef801eae36769beb1",
+    "d118": "80a66b005e008e776fd6f005df3c240dab13458e52a30ca32865f965499f371d",
+    "d119": "c703c2453540b5179c4784ee2de9a6c982dce7514e27d7b93540b5aeabe797d9",
+    "d120": "3eea59039aba9585670281b527bb536950a67d1d0c509ae72adbaba93227a8c6",
+    "d121": "27cb79b6dd192d48be4c1ca7d42553978622edeeb9f94eb621b5696719ea4c3f",
+    "d122": "3a05fd492f0dcb386da05c62d222ed3bd42aa301d9a562d5af8c818fde39465e",
+    "d123": "5666ee46de38cf9ac709494dbc3d0fa9d4fe69c98c09b2ccfa0384bda340978b",
+    "d124": "58094b0da2a579375a7eac96158e0bda0607c9bc18219225dfdbc30df9f25a52",
+    "d125": "e2d0345a6734dc35d5f1d82b5bb35c80ea6936acae52041e729d83f7e6de7d05",
+    "d126": "ce89fc2d5e70ab1e1df8a293cf3c7007cba129289194db555dceb8fdf658f233",
+    "d127": "6a97624a9f932e54f40b8f496d955a7e09b2952a19aaeedd888c0a2d6713a374",
+    "d128": "2f5d0dc52ddbc524fdd218e763bcf528cf0812cd90b6cddcff1dd329f75eb513",
+    "d129": "3962db7f801bd58acddec07eb601d63e7b0e3d91364094eae176f4dee00fb273",
+    "d130": "3c8d94ab3bed1bda196de9333893355a4a2fbc9b41255e99e0a8623104b4c7cb",
+    "d131": "62b999e8b7dbc7c0dbad8827f26579eb10a7fa3368fa4c1fdeb3b0281d4435da",
+    "d132": "819c6d2a40934fab1982ed14f303f8d6d452a97ed088d70f45f003ec58b16e4a",
+    "d133": "441673607691cd7d111a6c85679aa7f7d81ae86a6c487805f74fa6a92aacf92d",
+    "d134": "67c911efd48f9b6b1a21b3d9fbc2e97a9889e39952b99ce28d25108901de0d9e",
+    "d135": "2994bc7930ffa37c1479f94bc58de240e946f3dfe2bd11569df56ab07f27fea9",
+    "d136": "37c6f9dd2f522820b08b12e44828d794c0c54d5507b5da6860f483d6caf4bcd5",
+    "d137": "48fa2de4aab2c2b5217b883f8e5884d52551bc1e0cc1610d6c56d7a1a76fb2a7",
+    "d138": "f9d8f86a52b54605f91df4807b0583347f8fe2622995c0ae67f6bb5cc8957056",
+    "d139": "f31468f761ac05a663251630b98285cc041210d0e483b4d79e8b9f21917a214a",
+    "d140": "68a9c8ff4d7370ff355590fbe77b489808f04094e04d92e23c9fa08a932e842a",
+    "d141": "fccd4a7e9660f1eb7f1a2e84dc7e8151f161c7fb817dad2279d3e0fcfbecc0c7",
+    "d142": "c5922214714c56f15aa05986095bada7f94a2c3c945314d0915f4d34115e9fc7",
+    "d143": "abd06fbc305480045abb8a702d95dbc9e04c74d1abb8825daa21f9fd260219a2",
+    "d144": "40824ccb2db8f4f7e31990f180e434192d40b326b1e86f9f79865c57dbc10f7e",
+    "d145": "590fc52767c8985d196c9ee17bf6310dcf090287e1a66f884960e92922d79012",
+    "d146": "e903cc8db2551cfca947b72cd5ecde9fcca2961184af6afed3aea567ecb97ca2",
+    "d147": "7c58b82ba8a67bbd80df7b5fba51d2b675b8fbfef0cd340d1d5e0950f6e4a6be",
+    "d148": "745756760e23b086eb82b91a082731f9fb11d8df8b5886f6e653a49261acc574",
+    "d149": "5e40b1f559aa3876f3c874b13c5b8fa1f1b2fd40774fe2c34f8baaca43f909ff",
+    "d150": "4ef2633dd95a22a016c687831871127c772be4db0418a708566cf55a9acd393b",
+    "d151": "a5fbe4b9dc2afec5fa3dc5a7161147716915b79a94ad9069ea061ce91b7dacc7",
+    "d152": "815af5bb392e032772d3a22b840e2c079dd1819abcf82b56a7c0342118d27f24",
+    "d153": "680a12f2f88328c651900db7c143def241025a984d3dcfa1d8a556b04cb58af3",
+    "d154": "b49ce52d47137ffb3c979ad5622d032aed5aba8e5368e5f43de33ca4c928cf54",
+    "d155": "6a32af327f6e28da60598b996ab8327ccc31c2aaed5e5e1479e495f011ec93b6",
+    "d156": "5f610c7321512ed704ed0ad1f5890456e8b5e947be87029fa618395e808377b8",
+    "d157": "e96c88e82a71dba710950c52c78b6f76b484074c2e4ec9ac9fc284c8b7c9f806",
+    "d158": "c2a6a901b7ee3a99ceb84f7a33bf57b94f8c1e2b8998eb8375641878d4171fc2",
+    "d159": "6a37e6959e30dee71b48f5e1216772778da44770d7e2391f7f91b23f059dfc63",
+    "d160": "a20b6f791a9f33e61f3434a5ade6b2a78ef94892df4adba631d4e1acfcb1c083",
+    "d161": "6ecae7925f00ce0a794e0b624d1da1d20c56794919f101acec81b0e634f3f377",
+    "d162": "dd0b777d5fd9b241757c456a0dcdc715642afef6c3ad59bdd78208882bacffa4",
+    "d163": "39a8062bf2c5470eda8e9c5bbf9e01691e1d6ad37fd74bc9feea250b01d826af",
+    "d164": "dbe294e583b3885a3421037e25c08d49ebf2952e0304641edf693cb5e5ee2172",
+    "d165": "832875e1d058831e843f5716d9167621faaff50029c356b5867bd085451f6ba1",
+    "d166": "bd975dff1bbf880fe0883186a7370deabd48f72d39d4df1a462155fcf73213d7",
+    "d167": "9ba9dba6a150a2fd78dd3c3f93cb8fc0856a138fa42faf196e50147005955b29"
+  },
+  "originalS2": [
+    {
+      "id": "d11",
+      "season": "Season 2",
+      "title": "プロジェクトの立て直し",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "Can you give me the situation in a nutshell?",
+          "状況を手短に説明してくれる？"
+        ],
+        [
+          "B",
+          "We’re behind schedule, but the new system is finally starting to pay off.",
+          "予定より遅れてるけど、新しいシステムはようやく効果が出始めてる。"
+        ],
+        [
+          "A",
+          "Okay. Then let’s get the ball rolling on the next phase.",
+          "わかった。じゃあ次の段階を動かし始めよう。"
+        ],
+        [
+          "B",
+          "Before we do, I want to make sure we’re all on the same page.",
+          "その前に、全員の認識が揃ってるか確認したい。"
+        ],
+        [
+          "A",
+          "Fair. Do you want to delay the launch?",
+          "もっともやな。公開を延期したい？"
+        ],
+        [
+          "B",
+          "Your call. I can work with either option.",
+          "任せる。どっちでも対応できるよ。"
+        ],
+        [
+          "A",
+          "Let’s keep the date. We can’t afford to drop the ball now.",
+          "予定通りにしよう。ここでミスるわけにはいかない。"
+        ],
+        [
+          "B",
+          "Agreed. I’ll send everyone an updated plan.",
+          "了解。全員に更新版の計画を送る。"
+        ],
+        [
+          "A",
+          "Kudos on keeping this together, by the way.",
+          "そういえば、ここまでまとめてくれてお見事。"
+        ],
+        [
+          "B",
+          "Thanks. Ask me again after launch day.",
+          "ありがとう。公開日が終わってからもう一回言って。"
+        ],
+        [
+          "A",
+          "Deal.",
+          "了解。"
+        ]
+      ],
+      "phraseLinks": [
+        "p146",
+        "p149",
+        "p155",
+        "p234",
+        "p194",
+        "p251",
+        "p232"
+      ]
+    },
+    {
+      "id": "d12",
+      "season": "Season 2",
+      "title": "疲労・体調",
+      "category": "日常",
+      "lines": [
+        [
+          "A",
+          "You look wiped out.",
+          "めちゃくちゃ疲れてるやん。"
+        ],
+        [
+          "B",
+          "I am. And now I’ve got a cramp in my leg.",
+          "うん。しかも脚までつってきた。"
+        ],
+        [
+          "A",
+          "You’ve been working too much. Cut yourself some slack.",
+          "働きすぎやって。もう少し自分に甘くしていいよ。"
+        ],
+        [
+          "B",
+          "Tell that to my boss. He never lets up on us.",
+          "上司に言ってよ。全然容赦してくれへんから。"
+        ],
+        [
+          "A",
+          "Hang in there. You’ve only got two days left.",
+          "もうちょっと頑張って。あと2日だけやろ。"
+        ],
+        [
+          "B",
+          "Two very long days.",
+          "めちゃくちゃ長い2日やけどな。"
+        ],
+        [
+          "A",
+          "Look on the bright side: after that, you’re off for a week.",
+          "いい方に考えよう。そのあと1週間休みやん。"
+        ],
+        [
+          "B",
+          "If I’m still up and about by then.",
+          "その頃まで普通に動けてたらな。"
+        ],
+        [
+          "A",
+          "You will be. Go home early tonight.",
+          "大丈夫やって。今日は早く帰り。"
+        ],
+        [
+          "B",
+          "I might actually take your advice for once.",
+          "今回は珍しくそのアドバイス聞くかも。"
+        ],
+        [
+          "A",
+          "Please do.",
+          "ぜひそうして。"
+        ]
+      ],
+      "phraseLinks": [
+        "p145",
+        "p129",
+        "p163",
+        "p164",
+        "p195",
+        "p239",
+        "p255",
+        "p160"
+      ]
+    },
+    {
+      "id": "d13",
+      "season": "Season 2",
+      "title": "噂と事実確認",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "Word on the street is that our department is being reorganized.",
+          "うちの部署が再編されるって噂やで。"
+        ],
+        [
+          "B",
+          "Where did you hear that?",
+          "どこで聞いたん？"
+        ],
+        [
+          "A",
+          "Through the grapevine.",
+          "人づてに。"
+        ],
+        [
+          "B",
+          "What are you getting at? You think our jobs are in danger?",
+          "何が言いたいん？仕事が危ないと思ってる？"
+        ],
+        [
+          "A",
+          "Just so you know, I’m not saying I buy the rumor.",
+          "念のため言っとくけど、その噂を信じてるってわけじゃないよ。"
+        ],
+        [
+          "B",
+          "Good, because the numbers don’t support it.",
+          "よかった。数字を見る限りそんな話にはならんから。"
+        ],
+        [
+          "A",
+          "If I repeat it as fact, you can call me on it.",
+          "もし私が事実みたいに言い出したら、その場で指摘して。"
+        ],
+        [
+          "B",
+          "I will. Don’t insult my intelligence with 'everyone says so.'",
+          "そうする。「みんな言ってる」でごまかさんといてな。"
+        ],
+        [
+          "A",
+          "Fair enough. I’ll ask someone who actually knows.",
+          "ごもっとも。ちゃんと知ってる人に確認する。"
+        ],
+        [
+          "B",
+          "Now that I’d trust.",
+          "それなら信用する。"
+        ],
+        [
+          "A",
+          "Same.",
+          "私も。"
+        ]
+      ],
+      "phraseLinks": [
+        "p184",
+        "p185",
+        "p187",
+        "p224",
+        "p237",
+        "p249",
+        "p218"
+      ]
+    },
+    {
+      "id": "d14",
+      "season": "Season 2",
+      "title": "休日の小旅行",
+      "category": "日常",
+      "lines": [
+        [
+          "A",
+          "We’re thinking of taking the train to the coast Saturday.",
+          "土曜に電車で海の方まで行こうと思ってる。"
+        ],
+        [
+          "B",
+          "Mind if I tag along?",
+          "ついて行ってもいい？"
+        ],
+        [
+          "A",
+          "Not at all. The tickets are a little steep, though.",
+          "もちろん。ただ切符がちょっと高いけど。"
+        ],
+        [
+          "B",
+          "Still sounds worth a shot.",
+          "それでも行ってみる価値ありそう。"
+        ],
+        [
+          "A",
+          "We could make a day of it and stay for dinner.",
+          "せっかくやし一日楽しんで、晩ごはんまで食べて帰ろう。"
+        ],
+        [
+          "B",
+          "Absolutely. I get out of town once in a blue moon.",
+          "ぜひ。街を離れるなんてめったにないし。"
+        ],
+        [
+          "A",
+          "Then seize the day.",
+          "じゃあ今を楽しもう。"
+        ],
+        [
+          "B",
+          "Exactly. I’m trying to live in the moment more.",
+          "そうそう。もっと今を楽しむようにしてるねん。"
+        ],
+        [
+          "A",
+          "I’ll send you the train time tonight.",
+          "今夜電車の時間送るわ。"
+        ],
+        [
+          "B",
+          "Perfect.",
+          "完璧。"
+        ],
+        [
+          "A",
+          "Saturday it is.",
+          "土曜で決まり。"
+        ]
+      ],
+      "phraseLinks": [
+        "p190",
+        "p150",
+        "p177",
+        "p38",
+        "p226",
+        "p171",
+        "p254"
+      ]
+    },
+    {
+      "id": "d15",
+      "season": "Season 2",
+      "title": "責任とプレッシャー",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "I’m getting a lot of heat from management over this mistake.",
+          "このミスのことで上からかなり責められてる。"
+        ],
+        [
+          "B",
+          "But it wasn’t just your mistake.",
+          "でも君だけのミスじゃないやろ。"
+        ],
+        [
+          "A",
+          "I’m leading the project. I have to shoulder some of the responsibility.",
+          "プロジェクトを率いてる以上、責任の一部は背負わないと。"
+        ],
+        [
+          "B",
+          "Sure, but the rest of us aren’t going to leave you high and dry.",
+          "それはそうやけど、こっちも君を見捨てたりせんよ。"
+        ],
+        [
+          "A",
+          "I appreciate that.",
+          "ありがたい。"
+        ],
+        [
+          "B",
+          "We’re all in the same boat here.",
+          "みんな同じ立場やから。"
+        ],
+        [
+          "A",
+          "I just don’t want anyone to think I sold them out.",
+          "誰かを売ったと思われたくないだけ。"
+        ],
+        [
+          "B",
+          "Then don’t. Tell them exactly what happened.",
+          "じゃあそうせんかったらいい。何が起きたかそのまま話そう。"
+        ],
+        [
+          "A",
+          "And if management gets angry?",
+          "上が怒ったら？"
+        ],
+        [
+          "B",
+          "We suck it up and deal with it together.",
+          "みんなで腹くくって対処する。"
+        ],
+        [
+          "A",
+          "Okay. Together.",
+          "わかった。一緒に。"
+        ]
+      ],
+      "phraseLinks": [
+        "p192",
+        "p188",
+        "p210",
+        "p235",
+        "p189",
+        "p222"
+      ]
+    },
+    {
+      "id": "d16",
+      "season": "Season 2",
+      "title": "失敗を引きずっている友人",
+      "category": "相談",
+      "lines": [
+        [
+          "A",
+          "I still can’t believe I messed up that interview.",
+          "あの面接失敗したのまだ信じられへん。"
+        ],
+        [
+          "B",
+          "Try to get some perspective. It was one interview.",
+          "ちょっと冷静に見よう。面接一回やで。"
+        ],
+        [
+          "A",
+          "It felt like rock bottom.",
+          "どん底まで落ちた気分やった。"
+        ],
+        [
+          "B",
+          "And the silver lining is you know exactly what to work on now.",
+          "でもいい面を見れば、次に何を改善すべきかははっきりしたやん。"
+        ],
+        [
+          "A",
+          "You really think so?",
+          "ほんまにそう思う？"
+        ],
+        [
+          "B",
+          "Yeah. The chances are you’ll do much better next time.",
+          "うん。次はずっと上手くいく可能性高いよ。"
+        ],
+        [
+          "A",
+          "I guess I need to get this monkey off my back and apply again.",
+          "この重荷を振り払って、また応募せなあかんな。"
+        ],
+        [
+          "B",
+          "Exactly. And your answers were at least in the ballpark.",
+          "そう。しかも答えも大きく外れてたわけじゃない。"
+        ],
+        [
+          "A",
+          "That actually helps.",
+          "それ聞くとちょっと楽になる。"
+        ],
+        [
+          "B",
+          "Good. Send another application tomorrow.",
+          "よし。明日また応募しよ。"
+        ],
+        [
+          "A",
+          "I will.",
+          "そうする。"
+        ]
+      ],
+      "phraseLinks": [
+        "p165",
+        "p135",
+        "p131",
+        "p12",
+        "p179",
+        "p219"
+      ]
+    },
+    {
+      "id": "d17",
+      "season": "Season 2",
+      "title": "新しいグループに入る",
+      "category": "人間関係",
+      "lines": [
+        [
+          "A",
+          "You were really quiet at dinner. Everything okay?",
+          "晩ごはんのときかなり静かやったけど、大丈夫？"
+        ],
+        [
+          "B",
+          "I felt a little left out. Everyone already knew each other.",
+          "ちょっと仲間外れみたいに感じて。みんなもう知り合いやったから。"
+        ],
+        [
+          "A",
+          "I should’ve eased you in instead of disappearing into another conversation.",
+          "ほったらかしで別の話に行かず、もっと入りやすくしてあげればよかった。"
+        ],
+        [
+          "B",
+          "It’s okay. I was feeling too self-conscious anyway.",
+          "大丈夫。私も意識しすぎてたし。"
+        ],
+        [
+          "A",
+          "I didn’t mean to catch you off guard with that many people.",
+          "あんな大人数でびっくりさせるつもりじゃなかった。"
+        ],
+        [
+          "B",
+          "Next time, just warn me.",
+          "次から先に言って。"
+        ],
+        [
+          "A",
+          "Deal. And if you want to talk about it, I’m all ears.",
+          "了解。話したければ何でも聞くよ。"
+        ],
+        [
+          "B",
+          "Thanks. I was worried I didn’t come off well.",
+          "ありがとう。印象悪かったんちゃうかって気になってた。"
+        ],
+        [
+          "A",
+          "You were fine. They liked you.",
+          "大丈夫やったよ。みんな気に入ってた。"
+        ],
+        [
+          "B",
+          "Okay, that helps.",
+          "それなら安心した。"
+        ],
+        [
+          "A",
+          "Next dinner will be easier.",
+          "次はもっと楽やって。"
+        ]
+      ],
+      "phraseLinks": [
+        "p244",
+        "p245",
+        "p202",
+        "p147",
+        "p170",
+        "p250"
+      ]
+    },
+    {
+      "id": "d18",
+      "season": "Season 2",
+      "title": "買い物の失敗",
+      "category": "日常",
+      "lines": [
+        [
+          "A",
+          "Let me get this straight. You paid that much for this lamp?",
+          "確認させて。そのランプにそんな払ったん？"
+        ],
+        [
+          "B",
+          "It looked better online.",
+          "ネットではもっと良く見えた。"
+        ],
+        [
+          "A",
+          "It’s kind of tacky.",
+          "ちょっと悪趣味やな。"
+        ],
+        [
+          "B",
+          "Kind of? It’s hideous.",
+          "ちょっと？めちゃくちゃひどいやろ。"
+        ],
+        [
+          "A",
+          "Can you return it?",
+          "返品できる？"
+        ],
+        [
+          "B",
+          "Nope. Final sale.",
+          "無理。最終セール品。"
+        ],
+        [
+          "A",
+          "Well, there goes your decorating budget.",
+          "じゃあインテリア予算は消えたな。"
+        ],
+        [
+          "B",
+          "Pretty much. Cha-ching.",
+          "ほぼな。チャリーンって感じ。"
+        ],
+        [
+          "A",
+          "And now you have to look at it every day.",
+          "しかも毎日見ることになる。"
+        ],
+        [
+          "B",
+          "Don’t remind me. It’s already a pain in the neck.",
+          "言わんといて。もうすでに厄介者や。"
+        ],
+        [
+          "A",
+          "At least it’s memorable.",
+          "まあ、忘れられへん見た目ではある。"
+        ]
+      ],
+      "phraseLinks": [
+        "p233",
+        "p225",
+        "p247",
+        "p157",
+        "p186",
+        "p152",
+        "p240"
+      ]
+    },
+    {
+      "id": "d19",
+      "season": "Season 2",
+      "title": "同僚への不満",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "He took credit for the whole presentation again.",
+          "あの人またプレゼン全部自分の手柄みたいに言ってた。"
+        ],
+        [
+          "B",
+          "You of all people should call him out. You did most of the work.",
+          "君こそ指摘するべきやろ。ほとんど君がやったんやから。"
+        ],
+        [
+          "A",
+          "He’s so full of himself, he probably wouldn’t listen.",
+          "あの人自信過剰すぎて、たぶん聞かへん。"
+        ],
+        [
+          "B",
+          "And the brown-nosing isn’t helping.",
+          "あのゴマすりもひどいしな。"
+        ],
+        [
+          "A",
+          "He has the nerve to tell me I need to be more of a team player.",
+          "しかも私に「もっとチームプレーしろ」って言う度胸まである。"
+        ],
+        [
+          "B",
+          "What are you getting so bent out of shape for? Talk to him.",
+          "そんなにカッカせんと、本人に言えばいいやん。"
+        ],
+        [
+          "A",
+          "Because he doesn’t know the first thing about teamwork.",
+          "だってあの人、チームワークのことなんか何もわかってない。"
+        ],
+        [
+          "B",
+          "Tell me about it.",
+          "ほんまそれ。"
+        ],
+        [
+          "A",
+          "I’ll talk to him tomorrow when I’m calmer.",
+          "明日落ち着いてから話す。"
+        ],
+        [
+          "B",
+          "Good plan.",
+          "それがいい。"
+        ],
+        [
+          "A",
+          "And I’m taking my name off his slides.",
+          "あと、あいつのスライドから私の名前外す。"
+        ]
+      ],
+      "phraseLinks": [
+        "p178",
+        "p203",
+        "p252",
+        "p148",
+        "p205",
+        "p236",
+        "p209"
+      ]
+    },
+    {
+      "id": "d20",
+      "season": "Season 2",
+      "title": "予定変更と代案",
+      "category": "日常",
+      "lines": [
+        [
+          "A",
+          "The concert sold out this morning.",
+          "コンサート今朝売り切れたって。"
+        ],
+        [
+          "B",
+          "Seriously? I was going to buy tickets tonight.",
+          "ほんまに？今夜買うつもりやったのに。"
+        ],
+        [
+          "A",
+          "That ship has sailed.",
+          "もう手遅れやな。"
+        ],
+        [
+          "B",
+          "Well, there goes Friday night.",
+          "じゃあ金曜の夜の予定なくなった。"
+        ],
+        [
+          "A",
+          "Not necessarily. We could do something else.",
+          "そうとは限らん。別のことすればいいやん。"
+        ],
+        [
+          "B",
+          "Like what?",
+          "例えば？"
+        ],
+        [
+          "A",
+          "There’s an outdoor movie that came up out of the blue.",
+          "急に屋外映画のイベントが出てきた。"
+        ],
+        [
+          "B",
+          "I’m in. I’ll do whatever it takes not to spend Friday on my couch.",
+          "行く。金曜をソファで過ごさずに済むなら何でもする。"
+        ],
+        [
+          "A",
+          "Nope, zilch, nothin’ wrong with a night on the couch.",
+          "いやいや、ソファで過ごす夜も全然悪くないけどな。"
+        ],
+        [
+          "B",
+          "Not this Friday.",
+          "今週の金曜は嫌。"
+        ],
+        [
+          "A",
+          "Outdoor movie it is.",
+          "じゃあ屋外映画で決まり。"
+        ]
+      ],
+      "phraseLinks": [
+        "p161",
+        "p186",
+        "p223",
+        "p159",
+        "p157"
+      ]
+    },
+    {
+      "id": "d21",
+      "season": "Season 2",
+      "title": "習慣を立て直す",
+      "category": "日常",
+      "lines": [
+        [
+          "A",
+          "How’s the no-sugar thing going?",
+          "砂糖抜き生活どう？"
+        ],
+        [
+          "B",
+          "I fell off the wagon yesterday.",
+          "昨日また食べてもうた。"
+        ],
+        [
+          "A",
+          "One dessert doesn’t erase two good weeks.",
+          "デザート一個で2週間の努力が消えるわけちゃうよ。"
+        ],
+        [
+          "B",
+          "I know, but once I start, it’s hard to keep cravings at bay.",
+          "わかってるけど、一回始めると食べたい気持ちを抑えるの難しくて。"
+        ],
+        [
+          "A",
+          "Then don’t turn it into a big drama. Lather, rinse, repeat: start again today.",
+          "大げさに考えんでいい。洗って、流して、また繰り返し。今日からまた始めればいい。"
+        ],
+        [
+          "B",
+          "You make it sound easy.",
+          "簡単そうに言うなあ。"
+        ],
+        [
+          "A",
+          "I’m not trying to spare your feelings. It’s hard.",
+          "気を遣って楽なふりしてるわけじゃない。難しいよ。"
+        ],
+        [
+          "B",
+          "I’m just tired of starting over.",
+          "何回もやり直すのに疲れた。"
+        ],
+        [
+          "A",
+          "Then give yourself a break, but don’t quit.",
+          "じゃあ少し休んで。でもやめんとこ。"
+        ],
+        [
+          "B",
+          "Okay. Back at it tomorrow.",
+          "わかった。明日またやる。"
+        ],
+        [
+          "A",
+          "That’s the idea.",
+          "それでいい。"
+        ]
+      ],
+      "phraseLinks": [
+        "p176",
+        "p174",
+        "p154",
+        "p132"
+      ]
+    },
+    {
+      "id": "d22",
+      "season": "Season 2",
+      "title": "話を聞く・本音を言う",
+      "category": "雑談",
+      "lines": [
+        [
+          "A",
+          "Can I bore you with my apartment drama for five minutes?",
+          "5分だけ部屋のトラブル話で退屈させてもいい？"
+        ],
+        [
+          "B",
+          "Go ahead. I’m all ears.",
+          "どうぞ。ちゃんと聞くよ。"
+        ],
+        [
+          "A",
+          "In a nutshell, the upstairs neighbor flooded my bathroom.",
+          "要するに、上の階の人のせいで浴室が水浸し。"
+        ],
+        [
+          "B",
+          "Again?",
+          "また？"
+        ],
+        [
+          "A",
+          "I’ve had my share of bad neighbors, but this is impressive.",
+          "変な隣人にはそれなりに当たってきたけど、これはすごい。"
+        ],
+        [
+          "B",
+          "If I had a nickel for every apartment problem you’ve had…",
+          "君の部屋トラブル一回につき5セントもらえてたらなあ……。"
+        ],
+        [
+          "A",
+          "I gotta admit, my luck is terrible.",
+          "認めるけど、ほんま運悪い。"
+        ],
+        [
+          "B",
+          "Really? You don’t say.",
+          "へえ？それは初耳やな。"
+        ],
+        [
+          "A",
+          "Very funny.",
+          "はいはい、おもしろい。"
+        ],
+        [
+          "B",
+          "So what are you going to do?",
+          "で、どうするん？"
+        ],
+        [
+          "A",
+          "Call the landlord and hope for the best.",
+          "大家に電話して、あとは祈る。"
+        ]
+      ],
+      "phraseLinks": [
+        "p137",
+        "p170",
+        "p146",
+        "p136",
+        "p134",
+        "p191",
+        "p207"
+      ]
+    },
+    {
+      "id": "d23",
+      "season": "Season 2",
+      "title": "好意と距離感",
+      "category": "恋愛",
+      "lines": [
+        [
+          "A",
+          "You are so smitten with her.",
+          "君、完全に彼女に夢中やな。"
+        ],
+        [
+          "B",
+          "I am not.",
+          "違うって。"
+        ],
+        [
+          "A",
+          "Please. She came on to you, and you’ve been smiling ever since.",
+          "いやいや。彼女に言い寄られてからずっとニヤけてるやん。"
+        ],
+        [
+          "B",
+          "I just like talking to her.",
+          "話すのが好きなだけ。"
+        ],
+        [
+          "A",
+          "Word is you two are something of an item now.",
+          "二人ちょっといい仲らしいって噂やで。"
+        ],
+        [
+          "B",
+          "That is way ahead of reality.",
+          "それは話が先に行きすぎ。"
+        ],
+        [
+          "A",
+          "So don’t toy with her if you’re not interested.",
+          "興味ないなら彼女の気持ちでもてあそばんとき。"
+        ],
+        [
+          "B",
+          "I’m not. I think I’m actually falling for her.",
+          "してない。むしろ本気で好きになりかけてるかも。"
+        ],
+        [
+          "A",
+          "Now you’re talking.",
+          "やっと認めたな。"
+        ],
+        [
+          "B",
+          "Just don’t tell anyone yet.",
+          "まだ誰にも言わんといて。"
+        ],
+        [
+          "A",
+          "My lips are sealed.",
+          "了解。"
+        ]
+      ],
+      "phraseLinks": [
+        "p201",
+        "p173",
+        "p206",
+        "p172",
+        "p198",
+        "p208"
+      ]
+    },
+    {
+      "id": "d24",
+      "season": "Season 2",
+      "title": "イベントの片付け",
+      "category": "日常",
+      "lines": [
+        [
+          "A",
+          "So, did you enjoy the party?",
+          "で、パーティー楽しんだ？"
+        ],
+        [
+          "B",
+          "I’m having a ball—well, I was until everyone left me with the cleanup.",
+          "めっちゃ楽しんでるよ……みんなが片付けを私に残して帰るまではね。"
+        ],
+        [
+          "A",
+          "I can help.",
+          "手伝うよ。"
+        ],
+        [
+          "B",
+          "Thank you. Toss those paper decorations out first.",
+          "ありがとう。まずその紙の飾り捨てて。"
+        ],
+        [
+          "A",
+          "Even the jaunty little hats?",
+          "あの陽気な小さい帽子も？"
+        ],
+        [
+          "B",
+          "Especially those.",
+          "特にそれ。"
+        ],
+        [
+          "A",
+          "What about this poem someone wrote on the board?",
+          "黒板に誰かが書いたこの詩は？"
+        ],
+        [
+          "B",
+          "It’s a limerick. Take a picture if you want, then erase it.",
+          "リメリックやね。欲しければ写真撮って、そのあと消して。"
+        ],
+        [
+          "A",
+          "You’re very efficient after midnight.",
+          "夜中になるとめっちゃ効率いいな。"
+        ],
+        [
+          "B",
+          "I want to be in bed before anybody starts screaming blue murder about the noise.",
+          "騒音で誰かが大騒ぎし始める前に寝たいねん。"
+        ],
+        [
+          "A",
+          "Fair enough.",
+          "ごもっとも。"
+        ]
+      ],
+      "phraseLinks": [
+        "p213",
+        "p214",
+        "p221",
+        "p168",
+        "p229"
+      ]
+    },
+    {
+      "id": "d57",
+      "season": "Season 2",
+      "title": "プレッシャーに負けそうなとき",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "You’ve barely said a word all morning.",
+          "今朝ほとんど喋ってないやん。"
+        ],
+        [
+          "B",
+          "I’m getting psyched out about the presentation.",
+          "プレゼンのことでプレッシャーにやられてる。"
+        ],
+        [
+          "A",
+          "You’ve done this a dozen times.",
+          "何回もやってるやろ。"
+        ],
+        [
+          "B",
+          "Not in front of this many executives.",
+          "こんなに役員がいる前ではやったことない。"
+        ],
+        [
+          "A",
+          "Don’t cave in now. You know the material.",
+          "ここで折れたらあかん。内容はちゃんとわかってる。"
+        ],
+        [
+          "B",
+          "If I freeze up, I’m going to get clobbered in the Q&A.",
+          "固まったら質疑応答でボコボコにされそう。"
+        ],
+        [
+          "A",
+          "You won’t. And even if one question catches you off guard, take a second and think.",
+          "大丈夫。それに一問不意を突かれても、少し考えればいい。"
+        ],
+        [
+          "B",
+          "I hate feeling this nervous.",
+          "こんな緊張するの嫌や。"
+        ],
+        [
+          "A",
+          "It wouldn’t kill you to admit you’re nervous once in a while.",
+          "たまには緊張してるって認めても死にはせんよ。"
+        ],
+        [
+          "B",
+          "Fine. I’m nervous.",
+          "わかった。緊張してる。"
+        ],
+        [
+          "A",
+          "Good. Now go nail it.",
+          "よし。じゃあ決めてこい。"
+        ]
+      ],
+      "phraseLinks": [
+        "p142",
+        "p140",
+        "p199",
+        "p147",
+        "p204"
+      ]
+    },
+    {
+      "id": "d58",
+      "season": "Season 2",
+      "title": "突然の頼み事",
+      "category": "日常",
+      "lines": [
+        [
+          "A",
+          "Can I ask you a huge favor?",
+          "めちゃくちゃ大きなお願いしていい？"
+        ],
+        [
+          "B",
+          "That depends. What is it?",
+          "内容による。何？"
+        ],
+        [
+          "A",
+          "My sister showed up out of the blue and needs somewhere to stay tonight.",
+          "妹が突然来て、今夜泊まる場所が必要で。"
+        ],
+        [
+          "B",
+          "And what are you looking at me for?",
+          "で、なんで私を見るん？"
+        ],
+        [
+          "A",
+          "You have a spare room.",
+          "空き部屋あるやん。"
+        ],
+        [
+          "B",
+          "It never occurred to you to ask me before promising her?",
+          "先に妹に約束する前に私に聞こうとは思わんかった？"
+        ],
+        [
+          "A",
+          "I know. I dropped the ball.",
+          "わかってる。私がミスった。"
+        ],
+        [
+          "B",
+          "For God’s sake, you really did.",
+          "ほんまにもう、やらかしたな。"
+        ],
+        [
+          "A",
+          "So… is that a no?",
+          "で……ダメ？"
+        ],
+        [
+          "B",
+          "No. She can stay. But just so you know, you owe me one.",
+          "いや、泊まっていいよ。ただし言っとくけど、貸し一個な。"
+        ],
+        [
+          "A",
+          "Absolutely. Thank you.",
+          "もちろん。ありがとう。"
+        ]
+      ],
+      "phraseLinks": [
+        "p223",
+        "p181",
+        "p242",
+        "p251",
+        "p246",
+        "p224"
+      ]
+    }
+  ],
+  "mapping": {
+    "S2-SEED-010": "d205",
+    "S2-SEED-002": "d206",
+    "S2-SEED-003": "d207",
+    "S2-SEED-004": "d208",
+    "S2-SEED-001": "d209",
+    "S2-SEED-006": "d210",
+    "S2-SEED-005": "d211",
+    "S2-SEED-007": "d212",
+    "S2-SEED-008": "d213",
+    "S2-SEED-009": "d214"
+  },
+  "actions": {
+    "d11": {
+      "action": "MINOR_EDIT",
+      "links": [
+        "p146",
+        "p149",
+        "p155",
+        "p234",
+        "p194",
+        "p251",
+        "p232"
+      ],
+      "turns": [
+        2,
+        7
+      ]
+    },
+    "d12": {
+      "action": "DROP",
+      "links": [],
+      "turns": []
+    },
+    "d13": {
+      "action": "DROP",
+      "links": [],
+      "turns": []
+    },
+    "d14": {
+      "action": "MINOR_EDIT",
+      "links": [
+        "p190",
+        "p150",
+        "p177",
+        "p38",
+        "p226"
+      ],
+      "turns": [
+        7,
+        8
+      ]
+    },
+    "d15": {
+      "action": "MINOR_EDIT",
+      "links": [
+        "p192",
+        "p188",
+        "p210",
+        "p235",
+        "p189"
+      ],
+      "turns": [
+        8,
+        10
+      ]
+    },
+    "d16": {
+      "action": "DROP",
+      "links": [],
+      "turns": []
+    },
+    "d17": {
+      "action": "NONE",
+      "links": [
+        "p244",
+        "p245",
+        "p202",
+        "p147",
+        "p170",
+        "p250"
+      ],
+      "turns": []
+    },
+    "d18": {
+      "action": "REWRITE",
+      "links": [
+        "p233",
+        "p152"
+      ],
+      "turns": []
+    },
+    "d19": {
+      "action": "REWRITE",
+      "links": [
+        "p209"
+      ],
+      "turns": []
+    },
+    "d20": {
+      "action": "DROP",
+      "links": [],
+      "turns": []
+    },
+    "d21": {
+      "action": "REWRITE",
+      "links": [
+        "p176",
+        "p174"
+      ],
+      "turns": []
+    },
+    "d22": {
+      "action": "NONE",
+      "links": [
+        "p137",
+        "p170",
+        "p146",
+        "p136",
+        "p134",
+        "p191",
+        "p207"
+      ],
+      "turns": []
+    },
+    "d23": {
+      "action": "DROP",
+      "links": [],
+      "turns": []
+    },
+    "d24": {
+      "action": "DROP",
+      "links": [],
+      "turns": []
+    },
+    "d57": {
+      "action": "MINOR_EDIT",
+      "links": [
+        "p142",
+        "p199",
+        "p147"
+      ],
+      "turns": [
+        5,
+        9
+      ]
+    },
+    "d58": {
+      "action": "NONE",
+      "links": [
+        "p223",
+        "p181",
+        "p242",
+        "p251",
+        "p246",
+        "p224"
+      ],
+      "turns": []
+    }
+  },
+  "sourceSha256": "25e3cc29ddf5b679f32396deb61c663fa5505c09a4a5e180f7642f10b3efc683"
+}
