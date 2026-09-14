@@ -32,7 +32,8 @@ const DialogueHighlightMatcher = (() => {
     wander:['wanders','wandered','wandering'], clobber:['clobbers','clobbered','clobbering'],
     snap:['snaps','snapped','snapping'], handle:['handles','handled','handling'],
     pull:['pulls','pulled','pulling'], bamboozle:['bamboozles','bamboozled','bamboozling'],
-    call:['calls','called','calling']
+    call:['calls','called','calling'], pack:['packs','packed','packing'], quit:['quits','quit','quitting'],
+    forget:['forgets','forgot','forgotten','forgetting']
   };
   const nouns = {sycophant:['sycophants'],brat:['brats']};
   const possessives = new Set(['my','your','his','her','our','their']);
@@ -45,7 +46,7 @@ const DialogueHighlightMatcher = (() => {
       const m=x.match(/\([^()]*\)/); return m ? [x.replace(m[0],m[0].slice(1,-1)),x.replace(m[0],' ')] : [x];
     });
     return list.flatMap(x=>x.split(/\s+\/\s+/)).flatMap(x=> {
-      const m=x.match(/\b[a-z]+(?:\/[a-z]+)+\b/);
+      const m=x.match(/\b[a-z]+(?:'[a-z]+)?(?:\/[a-z]+(?:'[a-z]+)?)+\b/);
       return m ? m[0].split('/').map(v=>x.replace(m[0],v)) : [x];
     });
   }
@@ -54,7 +55,7 @@ const DialogueHighlightMatcher = (() => {
     // Quoted-word-as-verb frames require evidence, not an arbitrary verb slot.
     if (/[“”"].*~/.test(headline)) return [];
     return variants(headline).flatMap(v=> {
-      const raw = v.replace(/\.\.\.|…/g,' ~ ').replace(/\+\s*noun/g,' ~ ').match(/~|[a-z]+(?:'[a-z]+)?(?:-[a-z]+)*/g) || [];
+      const raw = v.replace(/\.\.\.|…/g,' ~ ').replace(/~\s*ing\b/g,' ~ ').replace(/\+\s*noun/g,' ~ ').match(/~|[a-z]+(?:'[a-z]+)?(?:-[a-z]+)*/g) || [];
       const literalSomething = /^did i miss something/.test(v) || /something of an item/.test(v);
       const pairSlots = /between a and b/.test(v);
       let parts = raw.flatMap((w,i)=> {
@@ -96,6 +97,33 @@ const DialogueHighlightMatcher = (() => {
   }
   function match(text,phrase) {
     const ts=tokens(text), output=[];
+    const headline=normalize(typeof phrase==='string'?phrase:phrase.phrase).trim();
+    const tokenRange=(start,end,terminalPunctuation=false)=>{
+      let rangeEnd=ts[end-1].end;
+      if(terminalPunctuation){
+        const punctuation=String(text).slice(rangeEnd).match(/^[.!?]/);
+        if(punctuation)rangeEnd+=punctuation[0].length;
+      }
+      return [{index:ts[start].start,length:rangeEnd-ts[start].start}];
+    };
+    // Audited productive frames whose variable value is itself part of the answer.
+    if(/^x it is[.!?]?$/.test(headline)){
+      for(let i=0;i+2<ts.length;i++)if(ts[i+1].word==='it'&&ts[i+2].word==='is')return tokenRange(i,i+3,true);
+    }
+    if(/^have you ever \+ past participle/.test(headline)){
+      for(let i=0;i+3<ts.length;i++)if(ts[i].word==='have'&&ts[i+1].word==='you'&&ts[i+2].word==='ever')return tokenRange(i,i+4);
+    }
+    // Reviewed construction variants; limited to their exact Phrase headlines.
+    if(headline==='quit ~ing'){
+      for(let i=0;i+1<ts.length;i++)if(wordMatches('quit',ts[i].word,0,[{word:'quit'}])&&/ing$/.test(ts[i+1].word))return tokenRange(i,i+2);
+    }
+    if(headline==='not mind ~ing'){
+      for(let i=0;i+3<ts.length;i++)if(/^(do|does|did)$/.test(ts[i].word)&&ts[i+1].word==='not'&&ts[i+2].word==='mind'&&/ing$/.test(ts[i+3].word))return tokenRange(i,i+4);
+    }
+    const separated={"pack up":['pack','up'],"put down ~":['put','down']}[headline];
+    if(separated){
+      for(let i=0;i+2<ts.length;i++)if(wordMatches(separated[0],ts[i].word,0,[{word:separated[0]}])&&ts[i+2].word===separated[1])return tokenRange(i,i+3);
+    }
     const boundary=(a,b)=>a>0&&b<ts.length&&/[.!?;:\n]/.test(text.slice(ts[a-1].end,ts[b].start));
     for(const parts of templates(phrase)) {
       function walk(pi,ti,chosen,depth=0) {
@@ -126,6 +154,8 @@ const DialogueHighlightMatcher = (() => {
           const variableArticle=part.word==='a'&&possessives.has(ts[ti].word);
           const found=walk(pi+1,ti+1,variableArticle?chosen:[...chosen,ts[ti]],depth+1);if(found)return found;
         }
+        // Negative verb frame: "not mind ~ing" -> "don't mind eating".
+        if(pi===0&&part.word==='not'&&/^(do|does|did)$/.test(ts[ti].word)&&ts[ti+1]?.word==='not')return walk(pi+1,ti+2,[...chosen,ts[ti],ts[ti+1]],depth+1);
         // At a known fixed position allow one audited modifier (not arbitrary adverbs).
         if(modifiers[part.word]?.includes(ts[ti].word)&&ts[ti+1]&&!boundary(ti+1,ti+1)) {
           if(wordMatches(part.word,ts[ti+1].word,pi,parts)) {
@@ -136,6 +166,8 @@ const DialogueHighlightMatcher = (() => {
         }
         // Be-fronted questions: "are you comfortable ...". Only subject pronouns.
         if(pi===1&&parts[0]?.word==='be'&&/^(i|you|he|she|it|we|they)$/.test(ts[ti].word))return walk(pi,ti+1,chosen,depth+1);
+        // Modal-fronted question: "can you afford to ...".
+        if(pi===1&&parts[0]?.word==='can'&&/^(i|you|he|she|it|we|they)$/.test(ts[ti].word))return walk(pi,ti+1,[...chosen,ts[ti]],depth+1);
         return null;
       }
       for(let start=0;start<ts.length;start++) {

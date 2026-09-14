@@ -1,0 +1,996 @@
+{
+  "sourcePackage": "Friends_S2_Dialogue_Density_Full_Draft_Package.json",
+  "expected": [
+    {
+      "id": "d18",
+      "classification": "MERGE",
+      "sourceIds": [
+        "d18",
+        "d209"
+      ],
+      "phraseCount": 8,
+      "wordCount": 78,
+      "hash": "da4f8e28d1a15b9a634c6a7bb4e760e139d1f86b7b1da2fdfae03bcfb6b8ac86"
+    },
+    {
+      "id": "d211",
+      "classification": "MERGE",
+      "sourceIds": [
+        "d211",
+        "d213"
+      ],
+      "phraseCount": 8,
+      "wordCount": 66,
+      "hash": "e541f9e5a07bf3995407efdf0dc1916533e910b25142bd948251b2e2606b394e"
+    },
+    {
+      "id": "d19",
+      "classification": "REBUILD",
+      "sourceIds": [
+        "d19"
+      ],
+      "phraseCount": 8,
+      "wordCount": 82,
+      "hash": "9d9907144ee0a7291ab1e33739717494cbe08bb74eef45fe70f1ca565a490082"
+    },
+    {
+      "id": "d21",
+      "classification": "REBUILD",
+      "sourceIds": [
+        "d21"
+      ],
+      "phraseCount": 8,
+      "wordCount": 72,
+      "hash": "d6f5606417675526264239678a295779236711ad8dd2b38cd28129f792801950"
+    },
+    {
+      "id": "d205",
+      "classification": "REBUILD",
+      "sourceIds": [
+        "d205"
+      ],
+      "phraseCount": 8,
+      "wordCount": 63,
+      "hash": "3c05e8fd1aa19f6ce16b4dd883cfed2b60f1f49ee5ff359c13098951d1838ad2"
+    },
+    {
+      "id": "d208",
+      "classification": "REBUILD",
+      "sourceIds": [
+        "d208"
+      ],
+      "phraseCount": 8,
+      "wordCount": 73,
+      "hash": "6e6ee89f8b15cefb04de640b6729bb8c70d9b7b88e91cc076de92986364964e2"
+    },
+    {
+      "id": "d210",
+      "classification": "REBUILD",
+      "sourceIds": [
+        "d210"
+      ],
+      "phraseCount": 8,
+      "wordCount": 65,
+      "hash": "7bf5587e3d2a206061083203d244f0d03fa7fee1d17bcf6c6a20485314c1813f"
+    },
+    {
+      "id": "d212",
+      "classification": "REBUILD",
+      "sourceIds": [
+        "d212"
+      ],
+      "phraseCount": 8,
+      "wordCount": 76,
+      "hash": "2a1783ac4b3b023f263dfca446285b3f02c019715ca726883f2412fcfc2b8119"
+    },
+    {
+      "id": "d214",
+      "classification": "REBUILD",
+      "sourceIds": [
+        "d214"
+      ],
+      "phraseCount": 8,
+      "wordCount": 76,
+      "hash": "cb07046cd59ae09c75202042b796e2005c4f95bacbbd9047aefd11ec95bb3cd9"
+    },
+    {
+      "id": "d14",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d14"
+      ],
+      "phraseCount": 8,
+      "wordCount": 76,
+      "hash": "85ef269eb52dde8a191d4f040c256653c4c14d99dad6f3ad07daf1147fc9f9b1"
+    },
+    {
+      "id": "d15",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d15"
+      ],
+      "phraseCount": 8,
+      "wordCount": 80,
+      "hash": "069906ec64046ed6be4b1683556a4b92fab899c2d3aeac31f3e975d68322b472"
+    },
+    {
+      "id": "d17",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d17"
+      ],
+      "phraseCount": 8,
+      "wordCount": 76,
+      "hash": "ecfbbad64bbb4f97df3ee6fa95a91294a6afcb3c33740fc2423160a38e1ce6bb"
+    },
+    {
+      "id": "d57",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d57"
+      ],
+      "phraseCount": 8,
+      "wordCount": 79,
+      "hash": "179e156bf2546b813d47539cd95821946275437fda93c9752fc6d2b56e0ea0fb"
+    },
+    {
+      "id": "d58",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d58"
+      ],
+      "phraseCount": 8,
+      "wordCount": 75,
+      "hash": "463a7ac47958796eb3bc6f3bcbc99e83d1ecef0868db7649549a0162a394aa5f"
+    },
+    {
+      "id": "d206",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d206"
+      ],
+      "phraseCount": 8,
+      "wordCount": 66,
+      "hash": "26bc2f3c88b8ba46e376c2553d73d81d03f7ca8960af6299ff5cf12639c5a191"
+    },
+    {
+      "id": "d207",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d207"
+      ],
+      "phraseCount": 8,
+      "wordCount": 74,
+      "hash": "c1848131382385dbc9f45ade9d3a8363f58253df5e4d713c5d2fd949dbad5c95"
+    },
+    {
+      "id": "d11",
+      "classification": "KEEP",
+      "sourceIds": [
+        "d11"
+      ],
+      "phraseCount": 7,
+      "wordCount": 117,
+      "hash": "df1d072486cc84a53d477e2a6aeb9635e129f14a13e4031287213af8e42a3856"
+    },
+    {
+      "id": "d22",
+      "classification": "KEEP",
+      "sourceIds": [
+        "d22"
+      ],
+      "phraseCount": 7,
+      "wordCount": 76,
+      "hash": "1ae0752f156a8308e0f7da5e035e156db6b187f38b2a8e92e65c9c055dbdc4ec"
+    }
+  ],
+  "donors": [
+    "d209",
+    "d213"
+  ],
+  "mergePlan": [
+    {
+      "sourceIds": [
+        "d18",
+        "d209"
+      ],
+      "survivorId": "d18",
+      "donorIds": [
+        "d209"
+      ],
+      "targetPhraseIds": [
+        "p152",
+        "p233",
+        "p1462",
+        "p1700",
+        "p1907",
+        "p1515",
+        "p1463",
+        "p2334"
+      ]
+    },
+    {
+      "sourceIds": [
+        "d211",
+        "d213"
+      ],
+      "survivorId": "d211",
+      "donorIds": [
+        "d213"
+      ],
+      "targetPhraseIds": [
+        "p1974",
+        "p2150",
+        "p1806",
+        "p1688",
+        "p1494",
+        "p1762",
+        "p1602",
+        "p1555"
+      ]
+    }
+  ],
+  "technicalRanges": [
+    {
+      "dialogueId": "d18",
+      "phraseId": "p2334",
+      "lineIndex": 9,
+      "texts": [
+        "Pack it up"
+      ],
+      "source": "matcher"
+    },
+    {
+      "dialogueId": "d211",
+      "phraseId": "p1555",
+      "lineIndex": 9,
+      "texts": [
+        "Friday it is."
+      ],
+      "source": "matcher"
+    },
+    {
+      "dialogueId": "d19",
+      "phraseId": "p249",
+      "lineIndex": 5,
+      "texts": [
+        "call him on that claim"
+      ],
+      "source": "explicit-highlight"
+    },
+    {
+      "dialogueId": "d21",
+      "phraseId": "p1459",
+      "lineIndex": 2,
+      "texts": [
+        "couldn't resist"
+      ],
+      "source": "matcher"
+    },
+    {
+      "dialogueId": "d21",
+      "phraseId": "p1785",
+      "lineIndex": 2,
+      "texts": [
+        "quit snacking"
+      ],
+      "source": "matcher"
+    },
+    {
+      "dialogueId": "d208",
+      "phraseId": "p2229",
+      "lineIndex": 9,
+      "texts": [
+        "pass along your message"
+      ],
+      "source": "explicit-highlight"
+    },
+    {
+      "dialogueId": "d210",
+      "phraseId": "p2112",
+      "lineIndex": 8,
+      "texts": [
+        "put it down"
+      ],
+      "source": "matcher"
+    },
+    {
+      "dialogueId": "d210",
+      "phraseId": "p1903",
+      "lineIndex": 4,
+      "texts": [
+        "I've still got time"
+      ],
+      "source": "explicit-highlight"
+    },
+    {
+      "dialogueId": "d214",
+      "phraseId": "p1774",
+      "lineIndex": 7,
+      "texts": [
+        "Have you ever tried"
+      ],
+      "source": "matcher"
+    },
+    {
+      "dialogueId": "d14",
+      "phraseId": "p1516",
+      "lineIndex": 2,
+      "texts": [
+        "Can you afford to"
+      ],
+      "source": "matcher"
+    },
+    {
+      "dialogueId": "d14",
+      "phraseId": "p1555",
+      "lineIndex": 9,
+      "texts": [
+        "Saturday it is."
+      ],
+      "source": "matcher"
+    },
+    {
+      "dialogueId": "d15",
+      "phraseId": "p189",
+      "lineIndex": 4,
+      "texts": [
+        "sold them out"
+      ],
+      "source": "explicit-highlight"
+    },
+    {
+      "dialogueId": "d15",
+      "phraseId": "p802",
+      "lineIndex": 7,
+      "texts": [
+        "on behalf of the team"
+      ],
+      "source": "explicit-highlight"
+    },
+    {
+      "dialogueId": "d17",
+      "phraseId": "p244",
+      "lineIndex": 0,
+      "texts": [
+        "felt left out"
+      ],
+      "source": "explicit-highlight"
+    },
+    {
+      "dialogueId": "d206",
+      "phraseId": "p1587",
+      "lineIndex": 7,
+      "texts": [
+        "don't mind eating"
+      ],
+      "source": "matcher"
+    },
+    {
+      "dialogueId": "d207",
+      "phraseId": "p2244",
+      "lineIndex": 1,
+      "texts": [
+        "forgot to"
+      ],
+      "source": "matcher"
+    },
+    {
+      "dialogueId": "d22",
+      "phraseId": "p137",
+      "lineIndex": 0,
+      "texts": [
+        "bore you with my apartment drama"
+      ],
+      "source": "explicit-highlight"
+    }
+  ],
+  "inactiveHints": [
+    "d21|p174",
+    "d14|p177",
+    "d15|p192",
+    "d17|p202",
+    "d17|p250"
+  ],
+  "density": {
+    "dialogueCount": 18,
+    "links": 142,
+    "uniquePhraseCount": 132,
+    "averagePhrasePerDialogue": 7.888888888888889,
+    "medianPhrasePerDialogue": 8,
+    "distribution": {
+      "1-4": 0,
+      "5-6": 0,
+      "7-9": 18,
+      "10+": 0
+    },
+    "exactPhraseCountDistribution": {
+      "7": 2,
+      "8": 16
+    },
+    "averageWords": 76.11111111111111,
+    "medianWords": 76,
+    "totalWords": 1370,
+    "minWords": 63,
+    "maxWords": 117,
+    "newlyRevised16WordRange": [
+      63,
+      82
+    ],
+    "turns": {
+      "perUnit": 11,
+      "total": 198
+    },
+    "duplicateUseOccurrences": 10,
+    "repeatedPhraseUses": {
+      "p1823": [
+        "d210",
+        "d207"
+      ],
+      "p1887": [
+        "d19",
+        "d205",
+        "d208"
+      ],
+      "p170": [
+        "d17",
+        "d22"
+      ],
+      "p251": [
+        "d58",
+        "d11"
+      ],
+      "p1988": [
+        "d205",
+        "d208"
+      ],
+      "p146": [
+        "d11",
+        "d22"
+      ],
+      "p147": [
+        "d17",
+        "d57"
+      ],
+      "p1892": [
+        "d205",
+        "d210"
+      ],
+      "p1555": [
+        "S2-M02",
+        "d14"
+      ]
+    }
+  },
+  "coreCoverage": {
+    "poolSize": 395,
+    "poolIds": [
+      "p131",
+      "p132",
+      "p135",
+      "p136",
+      "p137",
+      "p142",
+      "p145",
+      "p146",
+      "p147",
+      "p148",
+      "p149",
+      "p150",
+      "p153",
+      "p155",
+      "p159",
+      "p160",
+      "p161",
+      "p163",
+      "p164",
+      "p165",
+      "p166",
+      "p170",
+      "p172",
+      "p173",
+      "p174",
+      "p175",
+      "p177",
+      "p178",
+      "p183",
+      "p184",
+      "p185",
+      "p186",
+      "p187",
+      "p189",
+      "p190",
+      "p191",
+      "p192",
+      "p194",
+      "p195",
+      "p198",
+      "p202",
+      "p203",
+      "p204",
+      "p205",
+      "p208",
+      "p209",
+      "p210",
+      "p212",
+      "p214",
+      "p218",
+      "p219",
+      "p223",
+      "p224",
+      "p226",
+      "p227",
+      "p231",
+      "p232",
+      "p233",
+      "p234",
+      "p235",
+      "p237",
+      "p239",
+      "p244",
+      "p245",
+      "p249",
+      "p250",
+      "p251",
+      "p254",
+      "p280",
+      "p288",
+      "p317",
+      "p335",
+      "p344",
+      "p370",
+      "p377",
+      "p395",
+      "p420",
+      "p436",
+      "p448",
+      "p465",
+      "p550",
+      "p552",
+      "p555",
+      "p563",
+      "p575",
+      "p591",
+      "p666",
+      "p715",
+      "p759",
+      "p800",
+      "p802",
+      "p813",
+      "p866",
+      "p985",
+      "p1003",
+      "p1023",
+      "p1026",
+      "p1048",
+      "p1093",
+      "p1442",
+      "p1443",
+      "p1444",
+      "p1447",
+      "p1450",
+      "p1452",
+      "p1454",
+      "p1455",
+      "p1456",
+      "p1459",
+      "p1460",
+      "p1462",
+      "p1463",
+      "p1464",
+      "p1465",
+      "p1474",
+      "p1476",
+      "p1478",
+      "p1483",
+      "p1485",
+      "p1487",
+      "p1488",
+      "p1494",
+      "p1495",
+      "p1499",
+      "p1508",
+      "p1510",
+      "p1511",
+      "p1515",
+      "p1516",
+      "p1522",
+      "p1523",
+      "p1525",
+      "p1527",
+      "p1532",
+      "p1533",
+      "p1534",
+      "p1537",
+      "p1540",
+      "p1545",
+      "p1547",
+      "p1548",
+      "p1555",
+      "p1556",
+      "p1559",
+      "p1566",
+      "p1584",
+      "p1587",
+      "p1588",
+      "p1591",
+      "p1596",
+      "p1597",
+      "p1602",
+      "p1606",
+      "p1607",
+      "p1610",
+      "p1611",
+      "p1622",
+      "p1624",
+      "p1627",
+      "p1628",
+      "p1629",
+      "p1633",
+      "p1637",
+      "p1638",
+      "p1639",
+      "p1643",
+      "p1645",
+      "p1648",
+      "p1655",
+      "p1656",
+      "p1662",
+      "p1665",
+      "p1669",
+      "p1672",
+      "p1675",
+      "p1679",
+      "p1681",
+      "p1684",
+      "p1685",
+      "p1688",
+      "p1691",
+      "p1693",
+      "p1698",
+      "p1700",
+      "p1701",
+      "p1702",
+      "p1704",
+      "p1705",
+      "p1710",
+      "p1714",
+      "p1717",
+      "p1724",
+      "p1732",
+      "p1735",
+      "p1737",
+      "p1738",
+      "p1739",
+      "p1740",
+      "p1741",
+      "p1744",
+      "p1746",
+      "p1751",
+      "p1754",
+      "p1755",
+      "p1757",
+      "p1759",
+      "p1761",
+      "p1762",
+      "p1765",
+      "p1768",
+      "p1773",
+      "p1774",
+      "p1778",
+      "p1781",
+      "p1782",
+      "p1784",
+      "p1785",
+      "p1787",
+      "p1789",
+      "p1790",
+      "p1792",
+      "p1794",
+      "p1799",
+      "p1800",
+      "p1805",
+      "p1806",
+      "p1810",
+      "p1812",
+      "p1813",
+      "p1814",
+      "p1815",
+      "p1816",
+      "p1821",
+      "p1822",
+      "p1823",
+      "p1824",
+      "p1826",
+      "p1828",
+      "p1831",
+      "p1832",
+      "p1834",
+      "p1837",
+      "p1838",
+      "p1839",
+      "p1842",
+      "p1843",
+      "p1846",
+      "p1852",
+      "p1857",
+      "p1859",
+      "p1863",
+      "p1874",
+      "p1878",
+      "p1885",
+      "p1886",
+      "p1887",
+      "p1890",
+      "p1892",
+      "p1895",
+      "p1896",
+      "p1899",
+      "p1900",
+      "p1903",
+      "p1907",
+      "p1913",
+      "p1916",
+      "p1922",
+      "p1927",
+      "p1930",
+      "p1933",
+      "p1939",
+      "p1940",
+      "p1943",
+      "p1956",
+      "p1958",
+      "p1959",
+      "p1961",
+      "p1968",
+      "p1969",
+      "p1974",
+      "p1976",
+      "p1985",
+      "p1988",
+      "p1991",
+      "p1992",
+      "p1997",
+      "p1999",
+      "p2001",
+      "p2002",
+      "p2006",
+      "p2010",
+      "p2012",
+      "p2017",
+      "p2021",
+      "p2028",
+      "p2033",
+      "p2035",
+      "p2041",
+      "p2042",
+      "p2076",
+      "p2077",
+      "p2082",
+      "p2083",
+      "p2088",
+      "p2090",
+      "p2092",
+      "p2093",
+      "p2096",
+      "p2097",
+      "p2101",
+      "p2102",
+      "p2103",
+      "p2110",
+      "p2112",
+      "p2113",
+      "p2115",
+      "p2116",
+      "p2118",
+      "p2119",
+      "p2125",
+      "p2130",
+      "p2133",
+      "p2136",
+      "p2141",
+      "p2142",
+      "p2150",
+      "p2151",
+      "p2154",
+      "p2159",
+      "p2160",
+      "p2161",
+      "p2163",
+      "p2168",
+      "p2170",
+      "p2173",
+      "p2174",
+      "p2178",
+      "p2215",
+      "p2216",
+      "p2217",
+      "p2218",
+      "p2219",
+      "p2220",
+      "p2221",
+      "p2222",
+      "p2224",
+      "p2226",
+      "p2227",
+      "p2228",
+      "p2229",
+      "p2230",
+      "p2237",
+      "p2244",
+      "p2247",
+      "p2249",
+      "p2250",
+      "p2251",
+      "p2252",
+      "p2253",
+      "p2254",
+      "p2257",
+      "p2258",
+      "p2261",
+      "p2262",
+      "p2264",
+      "p2266",
+      "p2268",
+      "p2270",
+      "p2271",
+      "p2272",
+      "p2275",
+      "p2279",
+      "p2286",
+      "p2287",
+      "p2288",
+      "p2290",
+      "p2293",
+      "p2297",
+      "p2300",
+      "p2304",
+      "p2308",
+      "p2309",
+      "p2311",
+      "p2312",
+      "p2314",
+      "p2316",
+      "p2318",
+      "p2323",
+      "p2324",
+      "p2325",
+      "p2329",
+      "p2331",
+      "p2334",
+      "p2337",
+      "p2340"
+    ],
+    "before": 49,
+    "after": 121,
+    "net": 72,
+    "lostCoreIds": [],
+    "coveredIds": [
+      "p136",
+      "p137",
+      "p142",
+      "p146",
+      "p147",
+      "p149",
+      "p150",
+      "p155",
+      "p170",
+      "p174",
+      "p177",
+      "p189",
+      "p190",
+      "p191",
+      "p192",
+      "p194",
+      "p202",
+      "p209",
+      "p210",
+      "p223",
+      "p224",
+      "p226",
+      "p232",
+      "p233",
+      "p234",
+      "p235",
+      "p244",
+      "p245",
+      "p249",
+      "p250",
+      "p251",
+      "p395",
+      "p465",
+      "p715",
+      "p802",
+      "p1447",
+      "p1450",
+      "p1452",
+      "p1454",
+      "p1459",
+      "p1462",
+      "p1463",
+      "p1478",
+      "p1485",
+      "p1494",
+      "p1510",
+      "p1511",
+      "p1515",
+      "p1516",
+      "p1522",
+      "p1525",
+      "p1555",
+      "p1566",
+      "p1587",
+      "p1602",
+      "p1624",
+      "p1627",
+      "p1633",
+      "p1662",
+      "p1665",
+      "p1669",
+      "p1688",
+      "p1693",
+      "p1700",
+      "p1762",
+      "p1774",
+      "p1785",
+      "p1806",
+      "p1810",
+      "p1814",
+      "p1822",
+      "p1823",
+      "p1828",
+      "p1832",
+      "p1842",
+      "p1843",
+      "p1852",
+      "p1874",
+      "p1886",
+      "p1887",
+      "p1890",
+      "p1892",
+      "p1899",
+      "p1903",
+      "p1907",
+      "p1913",
+      "p1916",
+      "p1922",
+      "p1940",
+      "p1969",
+      "p1974",
+      "p1976",
+      "p1988",
+      "p1991",
+      "p2001",
+      "p2012",
+      "p2021",
+      "p2033",
+      "p2092",
+      "p2093",
+      "p2102",
+      "p2112",
+      "p2113",
+      "p2115",
+      "p2119",
+      "p2136",
+      "p2150",
+      "p2154",
+      "p2160",
+      "p2174",
+      "p2215",
+      "p2228",
+      "p2229",
+      "p2244",
+      "p2254",
+      "p2262",
+      "p2270",
+      "p2286",
+      "p2309",
+      "p2329",
+      "p2334"
+    ]
+  },
+  "hashes": {
+    "s1Dialogues": "f3e1c94008d97f610069d468b1048bdb7dce13511b5afd9dac4e8aa1d9843713",
+    "sourceOrder": "2d4caa0bed1439f96d630f2dc8664ebc9f2fec0fdf32314cb552532ba8ea4077"
+  }
+}

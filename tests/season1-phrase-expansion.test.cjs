@@ -55,17 +55,17 @@ for(const phrase of phrases){
   assert.equal(Object.prototype.hasOwnProperty.call(phrase,"usage"),false,`${phrase.id} still has legacy usage`);
 }
 
-assert.equal(dialogues.length,200);
+assert.equal(dialogues.length,198);
 assert.equal(Math.max(...dialogues.map(dialogue=>Number(dialogue.id.slice(1)))),214);
 assert.equal(dialogueById.get("d37").phraseLinks.includes("p297"),false);
 assert.equal(dialogueById.get("d37").phraseLinks.includes("p69"),true);
 assert.equal(
   crypto.createHash("sha256").update(JSON.stringify(dialogues.filter(d=>Number(d.id.slice(1))<=167))).digest("hex"),
-  "b6023eec72cf29729cd5f60dfbb3b62372c2dad70076092d9c1d516bc4567c0a"
+  "af434c2642531b120caf6b576268335f30ae5a9138ca4e0bfa23be0606631b31"
 );
 
 console.log("Season 1 Phrase expansion tests passed");
 
 // Full production snapshot; the existing-only snapshot above is supplementary.
-assert.equal(dialogues.length,200);
-assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"3f23815501b36116368b92a5b5a6662e85bd84bda607063b14f59f85320df5ad");
+assert.equal(dialogues.length,198);
+assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"231d48e3d84cc40241134ff36b5ee4386c61aaa7dc38d2aecaaff9e8d402f2cd");

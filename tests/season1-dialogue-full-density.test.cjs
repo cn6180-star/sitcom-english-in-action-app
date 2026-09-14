@@ -9,8 +9,8 @@ const plain=value=>JSON.parse(JSON.stringify(value));
 
 assert.equal(phrases.length,3106);assert.equal(phraseById.size,3106);
 assert.equal(phrases.filter(p=>p.episode?.startsWith('S01')).length,1623);
-assert.equal(dialogues.length,200);assert.equal(new Set(dialogues.map(d=>d.id)).size,200);
-assert.equal(s1.length,43);assert.equal(s2.length,20);
+assert.equal(dialogues.length,198);assert.equal(new Set(dialogues.map(d=>d.id)).size,198);
+assert.equal(s1.length,43);assert.equal(s2.length,18);
 assert.deepEqual(s1.map(d=>d.id).sort(),fixture.expected.map(item=>item.id).sort(),'final survivor IDs');
 assert.deepEqual(fixture.donors,['d188','d170','d172','d193','d174','d178','d189','d183']);
 fixture.donors.forEach(id=>assert.ok(!byId.has(id),'merged donor removed '+id));

@@ -64,16 +64,16 @@ assert.equal(byId.get("p95").phrase,"flip for it");
 assert.match(byId.get("p95").note,/flip someone for it/);
 assert.equal(byId.get("p575").scene,"服装・役柄・難しいことなどをうまく成立させられるか話すとき");
 
-assert.equal(dialogues.length,200);
+assert.equal(dialogues.length,198);
 assert.deepEqual(dialogues.flatMap(dialogue=>(dialogue.phraseLinks||[])
   .filter(id=>!phraseIds.has(id)).map(id=>`${dialogue.id}:${id}`)),[]);
 assert.equal(
   crypto.createHash("sha256").update(JSON.stringify(dialogues.filter(d=>Number(d.id.slice(1))<=167))).digest("hex"),
-  "b6023eec72cf29729cd5f60dfbb3b62372c2dad70076092d9c1d516bc4567c0a"
+  "af434c2642531b120caf6b576268335f30ae5a9138ca4e0bfa23be0606631b31"
 );
 
 console.log("Season 2 Batch 7 Phrase expansion tests passed");
 
 // Full production snapshot; the existing-only snapshot above is supplementary.
-assert.equal(dialogues.length,200);
-assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"3f23815501b36116368b92a5b5a6662e85bd84bda607063b14f59f85320df5ad");
+assert.equal(dialogues.length,198);
+assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"231d48e3d84cc40241134ff36b5ee4386c61aaa7dc38d2aecaaff9e8d402f2cd");

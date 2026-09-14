@@ -40,8 +40,8 @@ for(const [episode,target,count] of [["S01E16",57,57],["S01E17",48,46],["S01E18"
 }
 assert.deepEqual([byId.get("p2870").phrase,byId.get("p2870").episode,byId.get("p2870").sourceOrder],["sleep together","S01E16",56]);
 assert.deepEqual([byId.get("p2916").phrase,byId.get("p2916").episode,byId.get("p2916").sourceOrder],["get one's ya-yas","S01E18",24]);
-assert.equal(dialogues.length,200);
-assert.equal(hash(dialogues.filter(d=>Number(d.id.slice(1))<=167)),"b6023eec72cf29729cd5f60dfbb3b62372c2dad70076092d9c1d516bc4567c0a");
+assert.equal(dialogues.length,198);
+assert.equal(hash(dialogues.filter(d=>Number(d.id.slice(1))<=167)),"af434c2642531b120caf6b576268335f30ae5a9138ca4e0bfa23be0606631b31");
 assert.deepEqual(dialogues.flatMap(d=>(d.phraseLinks||[]).filter(id=>!byId.has(id))),[]);
 
 const source=fs.readFileSync(path.join(root,"js","app.js"),"utf8");
@@ -62,5 +62,5 @@ const legacy=phrases.filter(p=>p.episode==="S02E01");assert.deepEqual(context.so
 console.log("Season 1 E16-E18 curated records, source order, filters and detail navigation tests passed");
 
 // Full production snapshot; the existing-only snapshot above is supplementary.
-assert.equal(dialogues.length,200);
-assert.equal(hash(dialogues),"3f23815501b36116368b92a5b5a6662e85bd84bda607063b14f59f85320df5ad");
+assert.equal(dialogues.length,198);
+assert.equal(hash(dialogues),"231d48e3d84cc40241134ff36b5ee4386c61aaa7dc38d2aecaaff9e8d402f2cd");

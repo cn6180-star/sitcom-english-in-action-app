@@ -22,8 +22,8 @@ for(const row of rows){
     if(!intentionalAffix&&(/[A-Za-z]/.test(text[range.start-1]||'')||/[A-Za-z]/.test(text[range.end]||'')))partialTokens.push(`${row.dialogueId}|${row.phraseId}|${range.text}`);
   }
 }
-assert.equal(dialogues.length,200);assert.equal(rows.length,1115);
-assert.deepEqual({auto,explicit,excluded},{auto:954,explicit:155,excluded:6});
+assert.equal(dialogues.length,198);assert.equal(rows.length,1193);
+assert.deepEqual({auto,explicit,excluded},{auto:1029,explicit:158,excluded:6});
 assert.deepEqual(partialTokens,[],'no production selected range may split a word token');
 Object.keys(exclusions).forEach(key=>assert.ok(rows.some(row=>row.dialogueId+'|'+row.phraseId===key),'no stale exclusion'));
 
@@ -35,7 +35,7 @@ for(const dialogue of dialogues){
   }
 }
 const nonS1=rows.filter(row=>byId.get(row.dialogueId).season!=='Season 1').map(row=>[row.dialogueId,row.phraseId,row.ranges.map(range=>[range.lineIndex,range.start,range.end,range.text,range.source])]);
-assert.equal(nonS1.length,784);assert.equal(hash(nonS1),'30c49cc19943eb124e25b291b5b4f88a9e9894dcaf98fe8a9aa6589bcb30840a','non-S1 matcher ranges match the reviewed partial-token cleanup');
+assert.equal(nonS1.length,862);assert.equal(hash(nonS1),'391549690bb18e231a2fd63879c4c71d3b91039142192bdea7f7fdbccf9d136b','non-S1 matcher ranges match the reviewed S2 density implementation');
 
 const expectedProductionRanges={
   'd48|p440':['sycophants'],
@@ -53,9 +53,9 @@ for(const [key,expected] of Object.entries(expectedProductionRanges)){
 }
 
 const hints=plain(vm.runInContext('DIALOGUE_EXPLICIT_MATCH_HINTS',c));
-assert.equal(Object.keys(hints).length,185);assert.equal(Object.values(hints).filter(hint=>hint.overrideMatcher).length,77);
-for(const stale of ['d56|p119','d56|p101','d203|p1289','d6|p102','d6|p95','d8|p43','d54|p55','d54|p126','d54|p118','d53|p65'])assert.ok(!hints[stale]);
-for(const added of ['d182|p1163','d185|p2642','d186|p2432','d190|p433','d198|p1112','d198|p1928','d200|p3088','d201|p2291','d203|p1112'])assert.ok(hints[added]?.overrideMatcher);
+assert.equal(Object.keys(hints).length,184);assert.equal(Object.values(hints).filter(hint=>hint.overrideMatcher).length,81);
+for(const stale of ['d56|p119','d56|p101','d203|p1289','d6|p102','d6|p95','d8|p43','d54|p55','d54|p126','d54|p118','d53|p65','d21|p174','d14|p177','d15|p192','d17|p202','d17|p250'])assert.ok(!hints[stale]);
+for(const added of ['d182|p1163','d185|p2642','d186|p2432','d190|p433','d198|p1112','d198|p1928','d200|p3088','d201|p2291','d203|p1112','d19|p249','d22|p137','d210|p1903','d15|p802'])assert.ok(hints[added]?.overrideMatcher);
 assert.ok(hints['d208|p2229']?.overrideMatcher);
 
 const segments=(phrase,text,type='phrase')=>plain(c.allDialoguePhraseMatches(text,{phrase,type})).map(range=>text.slice(range.index,range.index+range.length));
@@ -76,7 +76,16 @@ const positives=[
  ['brat','They are brats.',['brats'],'word'],
  ['bamboozle','They bamboozled me.',['bamboozled'],'word'],
  ['call ~','She called dibs.',['called'],'word'],
- ['pull something','He pulled a fast one.',['pulled'],'word']
+ ['pull something','He pulled a fast one.',['pulled'],'word'],
+ ['X it is','Friday it is.',['Friday it is.'],'phrase'],
+ ["can't/couldn't resist","I couldn't resist.",["couldn't resist"],'phrase'],
+ ['quit ~ing','I quit snacking.',['quit snacking'],'phrase'],
+ ['pack up','Pack it up.',['Pack it up'],'phrasal verb'],
+ ['put down ~','I put it down.',['put it down'],'phrasal verb'],
+ ['Have you ever + past participle ~?','Have you ever tried Korean food?',['Have you ever tried'],'pattern'],
+ ['can afford to ~','Can you afford to spend sixty dollars?',['Can you afford to'],'pattern'],
+ ['not mind ~ing',"I don't mind eating there.",["don't mind eating"],'grammar'],
+ ['forget to ~','I forgot to charge it.',['forgot to'],'pattern']
 ];
 for(const [phrase,text,want,type] of positives)assert.deepEqual(segments(phrase,text,type),want,phrase);
 const negatives=[
@@ -84,7 +93,12 @@ const negatives=[
  ['Challenge extended','Challenge accepted.'],['Don’t “~” me','Don’t judge me.'],
  ['Way to go!','Way to put yourself out there.'],['draw someone a bath','I was running a bath.'],
  ['shame about ~','Shame on you.'],['call ~','callback'],['brat','bratwurst'],
- ['pivot','pivotal'],['sycophant','sycophantic']
+ ['pivot','pivotal'],['sycophant','sycophantic'],
+ ['X it is','This is it.'],["can't/couldn't resist",'I could resist.'],
+ ['quit ~ing','This is quite interesting.'],['pack up','The package is up front.'],
+ ['put down ~','The output went downward.'],['Have you ever + past participle ~?','Did you ever try it?'],
+ ['can afford to ~','Can you force it?'],['not mind ~ing','I do mind eating there.'],
+ ['forget to ~','I remember to charge it.']
 ];
 for(const [phrase,text] of negatives)assert.deepEqual(segments(phrase,text),[],phrase);
 for(const text of ['snapshot','snappish']){
@@ -92,4 +106,4 @@ for(const text of ['snapshot','snappish']){
   assert.deepEqual(plain(c.dialoguePhraseMatchResults(dialogue,[phraseById.get('p50')])),[],'snap word boundary');
 }
 
-console.log(`Highlight coverage: ${auto} auto, ${explicit} explicit, ${excluded} approved mismatches; 1,115 links, offsets, overlap and non-S1 integrity PASS`);
+console.log(`Highlight coverage: ${auto} auto, ${explicit} explicit, ${excluded} approved mismatches; 1,193 links, offsets, overlap and non-S1 integrity PASS`);
