@@ -239,7 +239,8 @@
       "source": "Friends",
       "episode": "S02E14",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 18
     },
         {
       "id": "p281",
@@ -355,7 +356,8 @@
       "source": "Friends",
       "episode": "S02E11",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 13
     },
     {
       "id": "p289",
@@ -761,7 +763,8 @@
       "source": "Friends",
       "episode": "S02E11",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 20
     },
     {
       "id": "p318",
@@ -1057,7 +1060,8 @@
       "episode": "S02E16",
       "frequency": "general",
       "register": "neutral",
-      "note": "否定形`not be cool with ~`も「～には賛成できない／受け入れられない」の意味でよく使う。"
+      "note": "否定形`not be cool with ~`も「～には賛成できない／受け入れられない」の意味でよく使う。",
+      "sourceOrder": 32
     },
     {
       "id": "p336",

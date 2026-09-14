@@ -111,7 +111,8 @@
       "source": "Friends",
       "episode": "S02E13",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 30
     },
     {
       "id": "p986",
@@ -388,7 +389,8 @@
       "source": "Friends",
       "episode": "S02E09",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 20
     },
     {
       "id": "p1004",
@@ -697,20 +699,21 @@
       "register": "neutral"
     },
     {
-      "id": "p1023",
-      "phrase": "back off",
-      "meaning": "離れる、引き下がる、干渉をやめる",
-      "scene": "相手が距離を詰めすぎたり、しつこく迫ったりしている時",
-      "example1": "Back off and give me some space.",
-      "example2": "She told him to back off.",
-      "exampleTranslations": ["下がって、少し一人にして。", "彼女は彼に離れるよう言った。"],
-      "type": "phrasal verb",
+      "id": "p1048",
+      "phrase": "make money off ~",
+      "meaning": "～を利用して金を稼ぐ、～を収入源にする",
+      "scene": "何かを材料や元手にして利益を得ることを表すとき",
+      "example1": "They make money off online advertising.",
+      "example2": "Are you seriously making money off my misery?",
+      "exampleTranslations": ["彼らはオンライン広告で稼いでいる。", "本気で私の不幸を利用して稼いでるの？"],
+      "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
       "episode": "S02E14",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 11
     },
     {
       "id": "p1024",
@@ -759,7 +762,8 @@
       "source": "Friends",
       "episode": "S02E23",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 38
     },
     {
       "id": "p1027",
@@ -1070,20 +1074,21 @@
       "register": "neutral"
     },
     {
-      "id": "p1048",
-      "phrase": "make money off ~",
-      "meaning": "～を利用して金を稼ぐ、～を収入源にする",
-      "scene": "何かを材料や元手にして利益を得ることを表すとき",
-      "example1": "They make money off online advertising.",
-      "example2": "Are you seriously making money off my misery?",
-      "exampleTranslations": ["彼らはオンライン広告で稼いでいる。", "本気で私の不幸を利用して稼いでるの？"],
-      "type": "phrase",
+      "id": "p1023",
+      "phrase": "back off",
+      "meaning": "離れる、引き下がる、干渉をやめる",
+      "scene": "相手が距離を詰めすぎたり、しつこく迫ったりしている時",
+      "example1": "Back off and give me some space.",
+      "example2": "She told him to back off.",
+      "exampleTranslations": ["下がって、少し一人にして。", "彼女は彼に離れるよう言った。"],
+      "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
       "source": "Friends",
       "episode": "S02E14",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 27
     },
     {
       "id": "p1049",

@@ -738,7 +738,8 @@
       "source": "Friends",
       "episode": "S02E15",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 20
     },
     {
       "id": "p667",
@@ -1618,7 +1619,8 @@
       "source": "Friends",
       "episode": "S02E10",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 19
     },
     {
       "id": "p716",

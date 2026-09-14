@@ -646,7 +646,8 @@
       "source": "Friends",
       "episode": "S02E07",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 1
     },
     {
       "id": "p801",
@@ -678,7 +679,8 @@
       "source": "Friends",
       "episode": "S02E21",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 3
     },
     {
       "id": "p804",
@@ -822,7 +824,8 @@
       "source": "Friends",
       "episode": "S02E08",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 15
     },
     {
       "id": "p814",
@@ -1098,7 +1101,8 @@
       "source": "Friends",
       "episode": "S02E23",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 29
     },
     {
       "id": "p833",

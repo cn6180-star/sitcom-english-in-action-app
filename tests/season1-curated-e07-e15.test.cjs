@@ -19,9 +19,14 @@ assert.ok(added.every(Boolean));
 const body=p=>Object.fromEntries(Object.entries(p).filter(([key])=>key!=="sourceOrder").sort(([a],[b])=>a.localeCompare(b)));
 assert.equal(hash(added.map(body)),"46f969223475399f1cc156bf0d444ac7fa45d16d2ddad8a1b29fcd50ec124ee2");
 const ordered=phrases.filter(p=>p.sourceOrder!==undefined).sort((a,b)=>a.episode.localeCompare(b.episode)||a.sourceOrder-b.sourceOrder);
-assert.equal(ordered.length,1599);
+assert.equal(ordered.length,2370);
 // Golden by ref from Astra_S1_E07-E15_Source_Order_Implementation_Package.json.
-assert.equal(hash(ordered.map(p=>[p.id,p.episode,p.sourceOrder])),"00882e8fb00fd4db24dcd75f0fdbd8633150e33a62de0849ab71fa7d5d708ce2");
+assert.equal(hash(ordered.map(p=>[p.id,p.episode,p.sourceOrder])),"2d4caa0bed1439f96d630f2dc8664ebc9f2fec0fdf32314cb552532ba8ea4077");
+// Preserve the original S1-only golden in addition to the expanded global sourceOrder scope.
+const s1Ordered=ordered.filter(p=>/^S01E/.test(p.episode));
+assert.equal(s1Ordered.length,1599);
+assert.equal(hash(s1Ordered.map(p=>[p.id,p.episode,p.sourceOrder])),"00882e8fb00fd4db24dcd75f0fdbd8633150e33a62de0849ab71fa7d5d708ce2");
+
 const counts=[144,92,85,64,63,56,84,54,61,77,76,55,96,60,56];
 const deferred=["p1336","p1345","p1076","p1174","p49","p265","p1216","p1224","p1225","p1227","p1228","p1229","p1231","p1232","p2069","p2194","p2201","p2205","p97","p1366","p1426","p1427","p1428","p1429"];
 assert.equal(deferred.length,24);
@@ -68,7 +73,18 @@ for(const [key,value] of [["type","phrase"],["frequency","frequent"],["register"
  context.filters.phrase[key]=value;const filtered=context.filteredPhrases();
  assert.ok(filtered.every(p=>p[key]===value));
  const displayed=context.sortedPhrasesForDisplay(filtered);
- assert.deepEqual(displayed.map(p=>p.id),context.sortedPhrasesForDisplay(phrases).filter(p=>p[key]===value).map(p=>p.id));
+ // S2+ unresolved positions are relative to the filtered input, so sort/filter do not commute.
+ // Build the complete expected ID list from full-list verified order and filtered unresolved slots.
+ const fullOrder=context.sortedPhrasesForDisplay(phrases).filter(p=>p[key]===value);
+ const expectedDisplay=[];
+ for(const episode of [...new Set(fullOrder.map(p=>p.episode))]){
+  const full=fullOrder.filter(p=>p.episode===episode);
+  if(/^S01E/.test(episode)){expectedDisplay.push(...full);continue;}
+  const original=filtered.filter(p=>p.episode===episode),valid=p=>Number.isInteger(p.sourceOrder)&&p.sourceOrder>0;
+  const verifiedOrder=full.filter(valid);let cursor=0;
+  expectedDisplay.push(...original.map(p=>valid(p)?verifiedOrder[cursor++]:p));
+ }
+ assert.deepEqual(displayed.map(p=>p.id),expectedDisplay.map(p=>p.id));
  context.filters.phrase[key]="all";
 }
 console.log("Season 1 E07-E15 curated records, source order, filters and detail navigation tests passed");

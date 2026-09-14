@@ -405,18 +405,19 @@
       "source": "Friends",
       "episode": "S02E23",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 26
     },
     {
-      "id": "p370",
-      "phrase": "the other way around",
-      "meaning": "逆に／反対に",
-      "scene": "順序や関係が逆のとき",
-      "example1": "You got it the other way around.",
-      "example2": "I thought it was the other way around.",
+      "id": "p377",
+      "phrase": "no offense",
+      "meaning": "悪気はないけど／気を悪くしないで",
+      "scene": "カジュアルに失礼なことを言う前の前置き",
+      "example1": "No offense, but that’s kind of weird.",
+      "example2": "No offense, but I don’t agree.",
       "exampleTranslations": [
-        "逆に覚えてるよ。",
-        "逆だと思っていた。"
+        "悪気はないけど、それちょっと変だよ。",
+        "気を悪くしないでほしいけど、私は賛成できない。"
       ],
       "type": "phrase",
       "priorityText": "★★★",
@@ -424,7 +425,8 @@
       "source": "Friends",
       "episode": "S02E08",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 11
     },
     {
       "id": "p371",
@@ -503,15 +505,15 @@
       "register": "neutral"
     },
     {
-      "id": "p377",
-      "phrase": "no offense",
-      "meaning": "悪気はないけど／気を悪くしないで",
-      "scene": "カジュアルに失礼なことを言う前の前置き",
-      "example1": "No offense, but that’s kind of weird.",
-      "example2": "No offense, but I don’t agree.",
+      "id": "p370",
+      "phrase": "the other way around",
+      "meaning": "逆に／反対に",
+      "scene": "順序や関係が逆のとき",
+      "example1": "You got it the other way around.",
+      "example2": "I thought it was the other way around.",
       "exampleTranslations": [
-        "悪気はないけど、それちょっと変だよ。",
-        "気を悪くしないでほしいけど、私は賛成できない。"
+        "逆に覚えてるよ。",
+        "逆だと思っていた。"
       ],
       "type": "phrase",
       "priorityText": "★★★",
@@ -519,7 +521,8 @@
       "source": "Friends",
       "episode": "S02E08",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 28
     },
         {
       "id": "p378",
@@ -1590,7 +1593,8 @@
       "episode": "S02E20",
       "frequency": "frequent",
       "register": "neutral",
-      "note": "`handle it well`や`handle the pressure well`のように、対処の仕方を`well`で評価できる。"
+      "note": "`handle it well`や`handle the pressure well`のように、対処の仕方を`well`で評価できる。",
+      "sourceOrder": 40
     },
     {
       "id": "p449",
@@ -1826,7 +1830,8 @@
       "source": "Friends",
       "episode": "S02E24",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 39
     },
     {
       "id": "p466",
@@ -1971,7 +1976,8 @@
       "source": "Friends",
       "episode": "S02E21",
       "frequency": "limited",
-      "register": "slang"
+      "register": "slang",
+      "sourceOrder": 36
     }
   ],
   "dialogues": [

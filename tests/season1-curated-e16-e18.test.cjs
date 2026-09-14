@@ -24,8 +24,13 @@ assert.equal(updateIds.length,26);
 assert.equal(hash(updateIds.map(id=>canonical(byId.get(id)))),"4d0feab43a80cbc5cf3c3b09db3e14b25735d5174a1f72756cfb57e273ca834f");
 
 const ordered=phrases.filter(p=>p.sourceOrder!==undefined).sort((a,b)=>a.episode.localeCompare(b.episode)||a.sourceOrder-b.sourceOrder);
-assert.equal(ordered.length,1599);
-assert.equal(hash(ordered.map(p=>[p.id,p.episode,p.sourceOrder])),"00882e8fb00fd4db24dcd75f0fdbd8633150e33a62de0849ab71fa7d5d708ce2");
+assert.equal(ordered.length,2370);
+assert.equal(hash(ordered.map(p=>[p.id,p.episode,p.sourceOrder])),"2d4caa0bed1439f96d630f2dc8664ebc9f2fec0fdf32314cb552532ba8ea4077");
+// Preserve the original S1-only golden in addition to the expanded global sourceOrder scope.
+const s1Ordered=ordered.filter(p=>/^S01E/.test(p.episode));
+assert.equal(s1Ordered.length,1599);
+assert.equal(hash(s1Ordered.map(p=>[p.id,p.episode,p.sourceOrder])),"00882e8fb00fd4db24dcd75f0fdbd8633150e33a62de0849ab71fa7d5d708ce2");
+
 const deferred=["p1336","p1345","p1076","p1174","p49","p265","p1216","p1224","p1225","p1227","p1228","p1229","p1231","p1232","p2069","p2194","p2201","p2205","p97","p1366","p1426","p1427","p1428","p1429"];
 assert.equal(deferred.length,24);
 for(const id of deferred){assert.ok(byId.has(id));assert.equal(byId.get(id).sourceOrder,undefined,`${id} must remain deferred`);}

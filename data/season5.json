@@ -1273,7 +1273,8 @@
       "source": "Friends",
       "episode": "S02E11",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 26
     },
     {
       "id": "p551",
@@ -1305,7 +1306,8 @@
       "source": "Friends",
       "episode": "S02E10",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 11
     },
     {
       "id": "p553",
@@ -1340,20 +1342,24 @@
       "register": "neutral"
     },
     {
-      "id": "p555",
-      "phrase": "for starters",
-      "meaning": "まず第一に、そもそも",
-      "scene": "不満や理由を並べ始める時",
-      "example1": "For starters, you were late.",
-      "example2": "Well, for starters, that’s not true.",
-      "exampleTranslations": ["まず第一に、あなたは遅刻した。", "まあ、まず第一に、それは事実じゃない。"],
-      "type": "phrase",
+      "id": "p606",
+      "phrase": "ditch someone",
+      "meaning": "（人を）置き去りにする、見捨てる、約束をすっぽかす",
+      "scene": "友達・恋愛・ドタキャン",
+      "example1": "Don’t ditch me at the party.",
+      "example2": "My friends ditched me and went home.",
+      "exampleTranslations": [
+        "パーティーで私を置いていかないで。",
+        "友達は私を置いて帰ってしまった。"
+      ],
+      "type": "word",
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
       "episode": "S02E20",
       "frequency": "general",
-      "register": "neutral"
+      "register": "slang",
+      "sourceOrder": 13
     },
     {
       "id": "p556",
@@ -1495,7 +1501,8 @@
       "source": "Friends",
       "episode": "S02E08",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 4
     },
     {
       "id": "p564",
@@ -1707,7 +1714,8 @@
       "source": "Friends",
       "episode": "S02E19",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 13
     },
     {
       "id": "p577",
@@ -1852,7 +1860,8 @@
       "episode": "S02E03",
       "frequency": "general",
       "register": "neutral",
-      "note": "やや仮定的な響きで`that`節には過去形を使うのが標準的。会話では現在形が使われることもある。"
+      "note": "やや仮定的な響きで`that`節には過去形を使うのが標準的。会話では現在形が使われることもある。",
+      "sourceOrder": 10
     },
     {
       "id": "p585",
@@ -1943,7 +1952,8 @@
       "source": "Friends",
       "episode": "S02E21",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 25
     },
     {
       "id": "p592",
@@ -2124,7 +2134,8 @@
       "episode": "S02E08",
       "frequency": "limited",
       "register": "neutral",
-      "note": "作中では「He just doesn’t want us to go through any trouble.」の形で登場。一般的にはgo to the trouble of ~ingという言い方もよく使う。"
+      "note": "作中では「He just doesn’t want us to go through any trouble.」の形で登場。一般的にはgo to the trouble of ~ingという言い方もよく使う。",
+      "sourceOrder": 30
     },
     {
       "id": "p602",
@@ -2181,23 +2192,21 @@
       "register": "neutral"
     },
     {
-      "id": "p606",
-      "phrase": "ditch someone",
-      "meaning": "（人を）置き去りにする、見捨てる、約束をすっぽかす",
-      "scene": "友達・恋愛・ドタキャン",
-      "example1": "Don’t ditch me at the party.",
-      "example2": "My friends ditched me and went home.",
-      "exampleTranslations": [
-        "パーティーで私を置いていかないで。",
-        "友達は私を置いて帰ってしまった。"
-      ],
-      "type": "word",
+      "id": "p555",
+      "phrase": "for starters",
+      "meaning": "まず第一に、そもそも",
+      "scene": "不満や理由を並べ始める時",
+      "example1": "For starters, you were late.",
+      "example2": "Well, for starters, that’s not true.",
+      "exampleTranslations": ["まず第一に、あなたは遅刻した。", "まあ、まず第一に、それは事実じゃない。"],
+      "type": "phrase",
       "priorityText": "★★☆",
       "priority": 2,
       "source": "Friends",
       "episode": "S02E20",
       "frequency": "general",
-      "register": "slang"
+      "register": "neutral",
+      "sourceOrder": 15
     },
     {
       "id": "p607",
