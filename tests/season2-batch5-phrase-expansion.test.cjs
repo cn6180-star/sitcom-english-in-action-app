@@ -114,16 +114,16 @@ for(const ids of Object.values(exactDuplicates)){
 for(const id of["p121","p167","p243","p248","p314"]){
   assert.equal(phraseIds.has(id),false,`${id} was restored`);
 }
-assert.equal(dialogues.length,208);
+assert.equal(dialogues.length,200);
 assert.deepEqual(dialogues.flatMap(dialogue=>(dialogue.phraseLinks||[])
   .filter(id=>!phraseIds.has(id)).map(id=>`${dialogue.id}:${id}`)),[]);
 assert.equal(
   crypto.createHash("sha256").update(JSON.stringify(dialogues.filter(d=>Number(d.id.slice(1))<=167))).digest("hex"),
-  "2c71af90eddd36f4da99f4a23866ec2b6e8dda0381bbed0080bad7a56db9bfc4"
+  "b6023eec72cf29729cd5f60dfbb3b62372c2dad70076092d9c1d516bc4567c0a"
 );
 
 console.log("Season 2 Batch 5 Phrase expansion tests passed");
 
 // Full production snapshot; the existing-only snapshot above is supplementary.
-assert.equal(dialogues.length,208);
-assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"34e0463017f4fe5731b353a0da7014e4f075ba92de7b32b7ca29f986cabfd6de");
+assert.equal(dialogues.length,200);
+assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"3f23815501b36116368b92a5b5a6662e85bd84bda607063b14f59f85320df5ad");

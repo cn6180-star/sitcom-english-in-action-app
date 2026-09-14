@@ -29,8 +29,12 @@ const DialogueHighlightMatcher = (() => {
     stand:['stands','stood','standing'], show:['shows','showed','shown','showing'],
     pool:['pools','pooled','pooling'], push:['pushes','pushed','pushing'],
     spare:['spares','spared','sparing'], cross:['crosses','crossed','crossing'],
-    wander:['wanders','wandered','wandering'], clobber:['clobbers','clobbered','clobbering']
+    wander:['wanders','wandered','wandering'], clobber:['clobbers','clobbered','clobbering'],
+    snap:['snaps','snapped','snapping'], handle:['handles','handled','handling'],
+    pull:['pulls','pulled','pulling'], bamboozle:['bamboozles','bamboozled','bamboozling'],
+    call:['calls','called','calling']
   };
+  const nouns = {sycophant:['sycophants'],brat:['brats']};
   const possessives = new Set(['my','your','his','her','our','their']);
   const reflexives = new Set(['myself','yourself','himself','herself','ourselves','yourselves','themselves']);
   // Modifier positions are grammatical anchors, not arbitrary insertions between words.
@@ -157,13 +161,20 @@ const DialogueHighlightMatcher = (() => {
     }
     return output;
   }
-  // A legacy substring must not leave an inflection suffix outside a word blank.
-  // Only dictionary-backed single-word verbs are expanded; never word families.
+  // A legacy substring must not leave a suffix outside a word blank.
+  // Expand only audited dictionary forms; reject unknown word-family prefixes.
   function completeWordRange(text,phrase,range) {
-    const base=normalize(phrase?.phrase||'');
-    if(phrase?.type!=='word'||!verbs[base])return range;
-    const token=Array.from(String(text).matchAll(/[A-Za-z]+/g)).find(m=>m.index<=range.index&&m.index+m[0].length>=range.index+range.length);
-    if(!token||![base,...verbs[base]].includes(normalize(token[0])))return null;
+    if(/^-/.test(normalize(phrase?.phrase||'')))return range; // Intentional learning suffix, e.g. -wise.
+    const token=Array.from(String(text).matchAll(/[A-Za-z]+(?:['’][A-Za-z]+)?(?:-[A-Za-z]+)*/g)).find(m=>m.index<=range.index&&m.index+m[0].length>=range.index+range.length);
+    if(!token)return range;
+    const tokenValue=normalize(token[0]),headline=normalize(phrase?.phrase||''),headlineForms=[...(verbs[headline]||[]),...(nouns[headline]||[])];
+    if(token.index===range.index&&token[0].length===range.length){
+      if(phrase?.type==='word'&&headlineForms.length&&![headline,...headlineForms].includes(tokenValue))return null;
+      return range;
+    }
+    const matched=normalize(String(text).slice(range.index,range.index+range.length));
+    const allowed=[...(verbs[matched]||[]),...(nouns[matched]||[])];
+    if(!allowed.includes(tokenValue))return null;
     return {index:token.index,length:token[0].length};
   }
   return Object.freeze({match,allowed,completeWordRange});

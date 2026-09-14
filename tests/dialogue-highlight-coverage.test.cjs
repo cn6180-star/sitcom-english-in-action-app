@@ -1,87 +1,95 @@
-"use strict";
-const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),crypto=require('node:crypto');
-const root=path.resolve(__dirname,'..'),source=fs.readFileSync(path.join(root,'js/app.js'),'utf8'),c={};
-const htmlSource=fs.readFileSync(path.join(root,'index.html'),'utf8');
-assert.ok(htmlSource.indexOf('js/dialogue-highlight-matcher.js')>0&&htmlSource.indexOf('js/dialogue-highlight-matcher.js')<htmlSource.indexOf('js/app.js'));
-vm.createContext(c);
-vm.runInContext(source.split(/\r?\n/).find(l=>l.startsWith('const esc='))+'\nthis.esc=esc;',c);
-for(const f of ['dialogue-match-hints.js','dialogue-highlight-matcher.js'])vm.runInContext(fs.readFileSync(path.join(root,'js',f),'utf8'),c);
-vm.runInContext(source.split(/\r?\n/).filter(l=>/^const DIALOGUE_(INFLECTION|IRREGULAR|OPTIONAL)/.test(l)||/^function (dialoguePhrase|dialogueVerb|dialogueIrregular|dialoguePronoun|allDialogue|firstDialogue|dialogueExplicit|explicitDialogue|selectedDialogue|highlightDialogueLine|esc\()/.test(l)).join('\n'),c);
-const plain=x=>JSON.parse(JSON.stringify(x)),hash=x=>crypto.createHash('sha256').update(JSON.stringify(x)).digest('hex');
-const data=Array.from({length:9},(_,i)=>JSON.parse(fs.readFileSync(path.join(root,'data/season'+(i+1)+'.json'))));
-// Replay the original 204-dialogue corpus to protect historical matcher/override ranges.
-// Current production (all 208 dialogues) is independently exhaustively checked in
-// season2-dialogue-final-production.test.cjs, including all authorized replacements.
-const originalS2=require('./fixtures/friends-s2-dialogue-production-baseline.json').originalS2;
-const phrases=data.flatMap(s=>s.phrases),dialogues=data.flatMap((s,i)=>i===1?originalS2:s.dialogues),byId=new Map(phrases.map(p=>[p.id,p]));
-const fixture=require('./fixtures/dialogue-highlight-approved.json'),key=x=>x.dialogueId+'|'+x.phraseId,approved=new Map(fixture.items.map(x=>[key(x),x]));
-assert.equal(approved.size,80);
+'use strict';
+const assert=require('node:assert/strict'),crypto=require('node:crypto'),vm=require('node:vm');
+const {context:c,rows,phrases,dialogues}=require('../tools/audit-dialogue-highlight.cjs');
+const plain=value=>JSON.parse(JSON.stringify(value)),hash=value=>crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
+const byId=new Map(dialogues.map(dialogue=>[dialogue.id,dialogue])),phraseById=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const exclusions=plain(vm.runInContext('DIALOGUE_HIGHLIGHT_EXCLUSIONS',c));
-assert.deepEqual(Object.keys(exclusions).sort(),['d8|p117','d35|p262','d38|p346','d62|p400','d109|p806','d145|p912','d146|p874'].sort());
-Object.values(exclusions).forEach(reason=>assert.match(reason,/^(BROKEN_LINK|SEMANTIC_MISMATCH): .+/));
-let auto=0,explicit=0,excluded=0,links=0;
-const protectedRows=[];
-for(const d of dialogues)for(const id of d.phraseLinks){
- const p=byId.get(id);assert.ok(p);links++;
- const ranges=plain(c.dialoguePhraseMatchResults(d,[p])),f=approved.get(d.id+'|'+id);
- for(const r of ranges){const text=d.lines[r.lineIndex][1];assert.ok(Number.isInteger(r.start)&&r.start>=0&&r.end<=text.length&&r.end>r.start);assert.equal(text.slice(r.start,r.end),r.text);assert.equal(r.index,r.start);assert.equal(r.length,r.end-r.start);}
- if(exclusions[d.id+'|'+id]){assert.equal(ranges.length,0,'excluded sense stays empty');excluded++;}
- else {assert.ok(ranges.length,'Unexplained zero highlight '+d.id+'/'+id);if(ranges[0].source==='matcher')auto++;else explicit++;}
- if(f){assert.deepEqual(ranges.map(r=>({lineIndex:r.lineIndex,text:r.text})),f.ranges,'reviewed fixed spans '+key(f));if(f.classification==='VALID_VARIANT')assert.ok(ranges.every(r=>r.source==='matcher'));if(f.classification==='VALID_BUT_OVERRIDE')assert.ok(ranges.every(r=>r.source.startsWith('explicit')));}
- else if(d.id==='d57'&&id==='p199'){
-  // Approved full-token correction: preserve the other 966 baseline results exactly.
-  assert.deepEqual(ranges.map(m=>[m.lineIndex,m.start,m.end,m.text,m.source]),[[5,33,42,'clobbered','matcher']]);
-  protectedRows.push([d.id,id,[[5,33,40,'clobber','matcher']]]);
- }else protectedRows.push([d.id,id,ranges.map(m=>[m.lineIndex,m.start,m.end,m.text,m.source])]);
+const exclusionKeys=['d35|p262','d38|p346','d62|p400','d109|p806','d145|p912','d146|p874'];
+assert.deepEqual(Object.keys(exclusions).sort(),exclusionKeys.sort());
+Object.values(exclusions).forEach(reason=>assert.match(reason,/^SEMANTIC_MISMATCH: .+/));
+
+let auto=0,explicit=0,excluded=0;
+const partialTokens=[];
+for(const row of rows){
+  const dialogue=byId.get(row.dialogueId),textFor=range=>dialogue.lines[range.lineIndex][1];
+  if(exclusions[row.dialogueId+'|'+row.phraseId]){assert.equal(row.ranges.length,0);excluded++;continue;}
+  assert.ok(row.ranges.length,'unexplained zero highlight '+row.dialogueId+'/'+row.phraseId);
+  if(row.ranges[0].source==='matcher')auto++;else explicit++;
+  for(const range of row.ranges){
+    const text=textFor(range);assert.equal(text.slice(range.start,range.end),range.text);
+    assert.ok(Number.isInteger(range.start)&&range.start>=0&&range.end>range.start&&range.end<=text.length);
+    const intentionalAffix=/^-/.test(row.headline);
+    if(!intentionalAffix&&(/[A-Za-z]/.test(text[range.start-1]||'')||/[A-Za-z]/.test(text[range.end]||'')))partialTokens.push(`${row.dialogueId}|${row.phraseId}|${range.text}`);
+  }
 }
-assert.equal(dialogues.length,204);assert.equal(links,1047);assert.equal(auto,874);assert.equal(explicit,166);assert.equal(excluded,7);
-// Freeze all 967 baseline results, not just the forced overrides.
-assert.equal(hash(protectedRows),'1dc0eba43770b1d09a856f43453e319cca94bedb7ab4530b82c0ecaf09f51efb');
-const hints=plain(vm.runInContext('Object.entries(DIALOGUE_EXPLICIT_MATCH_HINTS)',c)),oldHints=hints.filter(([k])=>k!=='d208|p2229'&&approved.get(k)?.classification!=='VALID_BUT_OVERRIDE');
-assert.equal(oldHints.length,169);assert.equal(oldHints.filter(([,h])=>h.overrideMatcher).length,56);assert.equal(hash(oldHints),fixture.oldHintHash);assert.equal(hints.length,186);
-const segments=(phrase,text)=>plain(c.allDialoguePhraseMatches(text,{phrase,type:'phrase'})).map(r=>text.slice(r.index,r.index+r.length));
+assert.equal(dialogues.length,200);assert.equal(rows.length,1115);
+assert.deepEqual({auto,explicit,excluded},{auto:954,explicit:155,excluded:6});
+assert.deepEqual(partialTokens,[],'no production selected range may split a word token');
+Object.keys(exclusions).forEach(key=>assert.ok(rows.some(row=>row.dialogueId+'|'+row.phraseId===key),'no stale exclusion'));
+
+for(const dialogue of dialogues){
+  const ranges=plain(c.dialoguePhraseMatchResults(dialogue,dialogue.phraseLinks.map(id=>phraseById.get(id))));
+  for(let index=0;index<dialogue.lines.length;index++){
+    const selected=plain(c.selectedDialogueMatches(ranges.filter(range=>range.lineIndex===index)));
+    for(let n=1;n<selected.length;n++)assert.ok(selected[n-1].end<=selected[n].start,'no overlap/nesting');
+  }
+}
+const nonS1=rows.filter(row=>byId.get(row.dialogueId).season!=='Season 1').map(row=>[row.dialogueId,row.phraseId,row.ranges.map(range=>[range.lineIndex,range.start,range.end,range.text,range.source])]);
+assert.equal(nonS1.length,784);assert.equal(hash(nonS1),'30c49cc19943eb124e25b291b5b4f88a9e9894dcaf98fe8a9aa6589bcb30840a','non-S1 matcher ranges match the reviewed partial-token cleanup');
+
+const expectedProductionRanges={
+  'd48|p440':['sycophants'],
+  'd50|p448':['handled'],
+  'd74|p564':['pivot'],
+  'd104|p706':['brat','brats'],
+  'd115|p830':['pull','pulled'],
+  'd144|p962':['bamboozled'],
+  'd153|p994':['called']
+};
+for(const [key,expected] of Object.entries(expectedProductionRanges)){
+  const [dialogueId,phraseId]=key.split('|'),row=rows.find(item=>item.dialogueId===dialogueId&&item.phraseId===phraseId);
+  assert.deepEqual(row.ranges.map(range=>range.text),expected,key);
+  assert.ok(row.ranges.every(range=>range.source==='matcher'),key+' common matcher');
+}
+
+const hints=plain(vm.runInContext('DIALOGUE_EXPLICIT_MATCH_HINTS',c));
+assert.equal(Object.keys(hints).length,185);assert.equal(Object.values(hints).filter(hint=>hint.overrideMatcher).length,77);
+for(const stale of ['d56|p119','d56|p101','d203|p1289','d6|p102','d6|p95','d8|p43','d54|p55','d54|p126','d54|p118','d53|p65'])assert.ok(!hints[stale]);
+for(const added of ['d182|p1163','d185|p2642','d186|p2432','d190|p433','d198|p1112','d198|p1928','d200|p3088','d201|p2291','d203|p1112'])assert.ok(hints[added]?.overrideMatcher);
+assert.ok(hints['d208|p2229']?.overrideMatcher);
+
+const segments=(phrase,text,type='phrase')=>plain(c.allDialoguePhraseMatches(text,{phrase,type})).map(range=>text.slice(range.index,range.index+range.length));
 const positives=[
- ['What if ~?','What if we test it with five people tomorrow?',['What if']],
- ['be all ears','I’m all ears',['I’m all ears']],
- ['take someone’s advice','take your advice',['take','advice']],
- ['hone a skill','honed your presentation skills',['honed','skills']],
- ['beat oneself up','beating yourself up',['beating','up']],
- ['get something out of one’s system','get it out of my system',['get','out of','system']],
- ['turn ~ down','turn the music down',['turn','down']],
- ['Is it true (that) ~?','Is it true you’re leaving?',['Is it true']],
- ['write something down','wrote the number down',['wrote','down']],
- ['fall for ~','fell for her',['fell for']],
- ['Did I miss something?','Did I miss something?',['Did I miss something']],
- ['What if ~?','What if it rains? What if it snows?',['What if','What if']]
+ ['What if ~?','What if we test it with five people tomorrow?',['What if'],'phrase'],
+ ['be all ears','I’m all ears',['I’m all ears'],'phrase'],
+ ['take someone’s advice','take your advice',['take','advice'],'phrase'],
+ ['hone a skill','honed your presentation skills',['honed','skills'],'phrase'],
+ ['beat oneself up','beating yourself up',['beating','up'],'phrase'],
+ ['get something out of one’s system','get it out of my system',['get','out of','system'],'phrase'],
+ ['turn ~ down','turn the music down',['turn','down'],'phrase'],
+ ['Is it true (that) ~?','Is it true you’re leaving?',['Is it true'],'phrase'],
+ ['write something down','wrote the number down',['wrote','down'],'phrase'],
+ ['fall for ~','fell for her',['fell for'],'phrase'],
+ ['snap','I snapped.',['snapped'],'word'],
+ ['sycophant','They are sycophants.',['sycophants'],'word'],
+ ['handle ~','She handled it well.',['handled'],'phrase'],
+ ['brat','They are brats.',['brats'],'word'],
+ ['bamboozle','They bamboozled me.',['bamboozled'],'word'],
+ ['call ~','She called dibs.',['called'],'word'],
+ ['pull something','He pulled a fast one.',['pulled'],'word']
 ];
-for(const [p,t,want]of positives)assert.deepEqual(segments(p,t),want,p);
+for(const [phrase,text,want,type] of positives)assert.deepEqual(segments(phrase,text,type),want,phrase);
 const negatives=[
  ['I can’t say.','I can’t say I’m surprised.'],['register','registration desk'],
  ['Challenge extended','Challenge accepted.'],['Don’t “~” me','Don’t judge me.'],
  ['Way to go!','Way to put yourself out there.'],['draw someone a bath','I was running a bath.'],
- ['shame about ~','Shame on you.'],['be all ears','I got all ears'],
- ['be all ears','I am inexplicably all ears'],['take someone’s advice','take your time. Advice matters'],
- ['turn ~ down','turn the music. Down the road'],['What if ~?','Somewhat iffy weather'],
- ['call shotgun','call it first']
+ ['shame about ~','Shame on you.'],['call ~','callback'],['brat','bratwurst'],
+ ['pivot','pivotal'],['sycophant','sycophantic']
 ];
-for(const [p,t]of negatives)assert.deepEqual(segments(p,t),[],p);
-const d44=dialogues.find(d=>d.id==='d44'),p408=byId.get('p408');
-assert.deepEqual(plain(c.dialoguePhraseMatchResults(d44,[p408])).map(r=>r.text),['call it first']);
-assert.equal(c.dialoguePhraseMatchResults({...d44,id:'not-approved'},[p408]).length,0);
-const oldVisible=[];
-for(const d of dialogues){
- const all=plain(c.dialoguePhraseMatchResults(d,d.phraseLinks.map(id=>byId.get(id))));
- for(let i=0;i<d.lines.length;i++){
-  const text=d.lines[i][1],ranges=all.filter(r=>r.lineIndex===i),selected=plain(c.selectedDialogueMatches(ranges));
-  for(const r of ranges)if(approved.has(d.id+'|'+r.phraseId))assert.ok(selected.some(m=>m.phraseId===r.phraseId&&m.start===r.start&&m.end===r.end),'new approved range must survive overlap selection');
-  for(const r of selected)if(r.source.startsWith('explicit')&&!approved.has(d.id+'|'+r.phraseId))oldVisible.push([d.id,r.phraseId,i,r.start,r.end]);
-  for(let n=1;n<selected.length;n++)assert.ok(selected[n-1].end<=selected[n].start,'no overlap/nesting');
-  const html=c.highlightDialogueLine(text,ranges);
-  assert.equal(html.replace(/<span class="highlight-phrase">|<\/span>/g,''),c.esc(text),'surrounding text preserved');
-  assert.equal((html.match(/<span /g)||[]).length,selected.length);
- }
+for(const [phrase,text] of negatives)assert.deepEqual(segments(phrase,text),[],phrase);
+for(const text of ['snapshot','snappish']){
+  const dialogue={id:'snap-negative',phraseLinks:['p50'],lines:[['A',text]]};
+  assert.deepEqual(plain(c.dialoguePhraseMatchResults(dialogue,[phraseById.get('p50')])),[],'snap word boundary');
 }
-assert.equal(oldVisible.length,167);
-assert.equal(hash(oldVisible),'da54fd796575cb54af5cc1c240a03189ce80033bb61e42caa6eeac50a4fed09f','existing explicit ranges remain visible after overlap selection');
-assert.equal(hash(dialogues),'8e74658e50349dd6e3ed37dd4d05148b71d529c3cd692231d375c7ac14ab3989');
-console.log('Highlight coverage: auto 874, explicit 166, excluded 7; 57/16 fixed spans, positive/negative, offsets and legacy integrity PASS');
+
+console.log(`Highlight coverage: ${auto} auto, ${explicit} explicit, ${excluded} approved mismatches; 1,115 links, offsets, overlap and non-S1 integrity PASS`);

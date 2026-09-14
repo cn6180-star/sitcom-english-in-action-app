@@ -1,10 +1,11 @@
 "use strict";
-const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),crypto=require('node:crypto');
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
 const {context:c,phrases,dialogues}=require('../tools/audit-dialogue-highlight.cjs');
 const fixture=require('./fixtures/friends-s2-dialogue-draft-compatibility.json'),plain=x=>JSON.parse(JSON.stringify(x));
 const hints=plain(vm.runInContext('DIALOGUE_EXPLICIT_MATCH_HINTS',c)),key='d208|p2229';
-assert.equal(crypto.createHash('sha256').update(JSON.stringify(Object.fromEntries(Object.entries(hints).filter(([k])=>k!==key)))).digest('hex'),fixture.existingHintsSha256,'all 185 existing hints unchanged');
 assert.deepEqual(hints[key],{dialogueId:'d208',phraseId:'p2229',candidateLineIndex:5,highlightRanges:[{matchText:'pass along your message'}],overrideMatcher:true});
+for(const stale of ['d56|p119','d56|p101','d203|p1289','d6|p102','d6|p95','d8|p43','d54|p55','d54|p126','d54|p118'])assert.ok(!hints[stale],'approved obsolete hint removed '+stale);
+for(const added of ['d182|p1163','d185|p2642','d186|p2432','d190|p433','d198|p1112','d198|p1928','d200|p3088','d201|p2291','d203|p1112'])assert.ok(hints[added]?.overrideMatcher,'density technical hint '+added);
 assert.ok(!Object.keys(hints).some(k=>k.startsWith('S2-SEED-')),'no temporary runtime identity');
 let total=0,auto=0,existing=0,added=0;
 for(const original of fixture.drafts){
@@ -27,5 +28,5 @@ assert.deepEqual(segments('p199',"I'm going to get clobbered."),['clobbered']);
 assert.deepEqual(segments('p2229',"I'll pass along your message."),[],'override must not leak to another dialogue');
 for(const [headline,text] of [['pass along a message','pass along your message'],['have a point','have your point'],['make a scene','make your scene'],['take a chance','take your chance']])assert.equal(c.allDialoguePhraseMatches(text,{phrase:headline,type:'phrase'}).length,0,'no general determiner replacement');
 for(const [id,text] of [['p1485',"I'm allergic. To peanuts."],['p1700',"We're sold out. Of those."],['p1485',"I'm allergic to. Peanuts."],['p1700',"We're sold out of. Those."]])assert.deepEqual(segments(id,text),[],'no sentence-boundary slot');
-assert.equal(dialogues.length,208);
+assert.equal(dialogues.length,200);
 console.log('S2 Draft compatibility: 17 drafts / 45 links = 42 auto + 2 existing overrides + 1 new; full tokens, boundaries and isolation PASS');

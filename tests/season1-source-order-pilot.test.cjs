@@ -17,7 +17,7 @@ const phraseIds=new Set(byId.keys());
 
 assert.equal(phrases.length,3106);
 assert.equal(phraseIds.size,3106);
-assert.equal(dialogues.length,208);
+assert.equal(dialogues.length,200);
 assert.deepEqual(dialogues.flatMap(dialogue=>(dialogue.phraseLinks||[])
   .filter(id=>!phraseIds.has(id)).map(id=>`${dialogue.id}:${id}`)),[]);
 

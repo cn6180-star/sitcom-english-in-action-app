@@ -27843,7 +27843,6 @@
       ],
       "phraseLinks": [
         "p5",
-        "p125",
         "p66",
         "p30",
         "p28",
@@ -27855,63 +27854,63 @@
     {
       "id": "d4",
       "season": "Season 1",
-      "title": "ミスの報告",
+      "title": "ミスを報告し、影響と訂正方法を確認する",
       "category": "仕事",
       "lines": [
         [
           "A",
-          "I need to tell you something about the report.",
-          "レポートのことで言わなあかんことがある。"
+          "I need to tell you the truth. I got the dates wrong.",
+          "本当のことを言わないと。日付を間違えたんだ。"
         ],
         [
           "B",
-          "Okay. What happened?",
-          "うん。どうした？"
+          "On the invitation?",
+          "招待状の？"
         ],
         [
           "A",
-          "I used the wrong numbers in one section.",
-          "一か所、間違った数字を使ってた。"
+          "Yes. I'll send a correction right away.",
+          "うん。すぐ訂正を送るよ。"
         ],
         [
           "B",
-          "How bad is it?",
-          "どのくらいまずい？"
+          "Just to clarify, has anyone booked travel?",
+          "確認だけど、もう交通機関を予約した人はいる？"
         ],
         [
           "A",
-          "Not that big a deal, but we need to fix it before the meeting.",
-          "そこまで大事じゃないけど、会議前には直さないと。"
+          "No. Only our team has seen it.",
+          "いないよ。見たのはチームだけ。"
         ],
         [
           "B",
-          "All things considered, catching it now is good news.",
-          "総合的に考えたら、今気づけたのはよかったよ。"
+          "Then it's not that big a deal.",
+          "じゃあ、そんなに大したことじゃないよ。"
         ],
         [
           "A",
-          "I was trying to figure out how to cushion the blow.",
-          "どう伝えたらショックを和らげられるか考えてた。"
+          "I hoped some good news would cushion the blow. The venue's free.",
+          "いい知らせで少しショックを和らげられればと思って。会場は無料なんだ。"
         ],
         [
           "B",
-          "If it makes you feel any better, I’ve made the same mistake.",
-          "気休めになるかわからんけど、私も同じミスしたことあるよ。"
+          "All things considered, we're still in good shape.",
+          "全体で見れば、まだ順調だよ。"
         ],
         [
           "A",
-          "Seriously?",
-          "ほんまに？"
+          "You're not upset?",
+          "怒ってないの？"
         ],
         [
           "B",
-          "Yeah. Just to clarify, the client hasn’t seen this version yet, right?",
-          "うん。確認なんやけど、この版はまだクライアントには見せてないよね？"
+          "If it makes you feel any better, I did this last year.",
+          "気休めかもしれないけど、私も去年同じことをしたよ。"
         ],
         [
           "A",
-          "Right. I’ll fix it now.",
-          "うん。今すぐ直す。"
+          "Thanks. I'll fix it now.",
+          "ありがとう。今直すね。"
         ]
       ],
       "phraseLinks": [
@@ -27919,7 +27918,10 @@
         "p22",
         "p14",
         "p109",
-        "p111"
+        "p111",
+        "p3060",
+        "p2278",
+        "p2503"
       ]
     },
     {
@@ -27998,63 +28000,63 @@
     {
       "id": "d6",
       "season": "Season 1",
-      "title": "頼み事・貸し借り",
+      "title": "立替金を精算して片付けを分担する",
       "category": "日常",
       "lines": [
         [
           "A",
-          "Can you do me a favor and pick up my package?",
-          "お願いしていい？荷物取ってきてくれへん？"
+          "Don't bail on me. We still have to clean up.",
+          "途中で帰らないでよ。まだ片付けがあるんだから。"
         ],
         [
           "B",
-          "You bailed on me last week, remember?",
-          "先週ドタキャンしたの覚えてる？"
+          "I won't. First, let me pay you back.",
+          "帰らないよ。その前に立て替えてくれたお金を返すね。"
         ],
         [
           "A",
-          "I know. Dinner’s on me tonight.",
-          "わかってる。今夜の晩ごはんは私が出す。"
+          "Twenty dollars for the supplies.",
+          "備品代の20ドルね。"
         ],
         [
           "B",
-          "And dessert?",
-          "デザートも？"
+          "I'm a little shy of twenty. I've got eighteen.",
+          "20ドルにはちょっと足りない。18ドルならあるんだけど。"
         ],
         [
           "A",
-          "Fine. Then we’re even.",
-          "わかった。それでおあいやな。"
+          "You bought the bags. We're even.",
+          "袋は買ってくれたでしょ。これでチャラだよ。"
         ],
         [
           "B",
-          "I’m a little shy of convinced.",
-          "まだちょっと納得しきれてないな。"
+          "So you get your money back, minus the bags?",
+          "じゃあ、袋代を引いた分を返せばいいんだね？"
         ],
         [
           "A",
-          "Okay, let me throw this out there: dessert and coffee.",
-          "じゃあ提案。デザートとコーヒーもつける。"
+          "Exactly.",
+          "そういうこと。"
         ],
         [
           "B",
-          "Now I’m behind it.",
-          "それなら賛成。"
+          "Let me throw something out there: dishes or trash?",
+          "ちょっと提案なんだけど、お皿かゴミ、分担しない？"
         ],
         [
           "A",
-          "You drive a hard bargain.",
-          "交渉うまいな。"
+          "I'm behind that plan. Which do you want?",
+          "その案に賛成。どっちがいい？"
         ],
         [
           "B",
-          "We could flip you for the coffee.",
-          "コーヒー代はコイントスで決めてもいいよ。"
+          "Let's flip for it.",
+          "コイントスで決めよう。"
         ],
         [
           "A",
-          "Deal.",
-          "決まり。"
+          "Heads, I do the dishes.",
+          "表なら私がお皿を洗うね。"
         ]
       ],
       "phraseLinks": [
@@ -28063,7 +28065,9 @@
         "p102",
         "p51",
         "p43",
-        "p95"
+        "p95",
+        "p1431",
+        "p1786"
       ]
     },
     {
@@ -28142,63 +28146,63 @@
     {
       "id": "d8",
       "season": "Season 1",
-      "title": "意見の食い違い",
+      "title": "費用と条件を見て会場契約を判断する",
       "category": "仕事",
       "lines": [
         [
           "A",
-          "I think we should postpone the launch.",
-          "公開を延期した方がいいと思う。"
+          "We should book this venue now.",
+          "この会場、今予約しようよ。"
         ],
         [
           "B",
-          "I beg to differ. We’re ready.",
-          "いや、それは違うと思う。準備はできてる。"
+          "I beg to differ. We haven't checked the contract.",
+          "いや、それは違うと思う。契約書をまだ確認してないよ。"
         ],
         [
           "A",
-          "Technically, yes, but the timing is terrible.",
-          "厳密に言えばそう。でもタイミングが悪すぎる。"
+          "The price is reasonable.",
+          "料金は妥当だよ。"
         ],
         [
           "B",
-          "Be that as it may, we’ve already spent weeks preparing.",
-          "それはそれとして、もう何週間も準備してきたやろ。"
+          "The price isn't the problem per se. It's the cancellation fee.",
+          "料金そのものが問題なんじゃない。キャンセル料だよ。"
         ],
         [
           "A",
-          "The worst-case scenario is that we rush it and lose customers.",
-          "最悪なのは、急いで出して顧客を失うことや。"
+          "Be that as it may, someone else could book it.",
+          "それはそれとして、ほかの人に予約されるかもしれないよ。"
         ],
         [
           "B",
-          "Delaying it could cost us a fortune too.",
-          "延期しても莫大な費用がかかるかもしれん。"
+          "Worst-case scenario, cancellation could cost us a fortune.",
+          "最悪の場合、キャンセルで大金がかかるかもしれない。"
         ],
         [
           "A",
-          "I’m not saying we should throw caution to the wind.",
-          "慎重さを全部捨てろって言ってるわけじゃない。"
+          "So you don't want to throw caution to the wind?",
+          "じゃあ、リスクを気にせず進めたくはないんだね？"
         ],
         [
           "B",
-          "Good, because I’m prepared to play hardball on this.",
-          "よかった。この件では強気でいくつもりやから。"
+          "No. Let's play hardball over that fee.",
+          "うん。その料金については強気に交渉しよう。"
         ],
         [
           "A",
-          "Then let’s run the numbers one more time.",
-          "じゃあ数字をもう一回確認しよう。"
+          "I'm behind you on that.",
+          "それは賛成だよ。"
         ],
         [
           "B",
-          "That I can get behind.",
-          "それなら賛成できる。"
+          "I'll call and ask for better terms.",
+          "電話して条件を改善できないか聞くよ。"
         ],
         [
           "A",
-          "Good. We’ll decide after that.",
-          "よし。そのあと決めよう。"
+          "Good. Then we can decide.",
+          "いいね。それから決めよう。"
         ]
       ],
       "phraseLinks": [
@@ -28215,63 +28219,63 @@
     {
       "id": "d9",
       "season": "Season 1",
-      "title": "店選び・外出",
+      "title": "条件を比べてランチの店を探す",
       "category": "日常",
       "lines": [
         [
           "A",
-          "Where do you want to eat?",
-          "どこで食べたい？"
+          "Let's look for somewhere to have lunch.",
+          "ランチのお店を探そう。"
         ],
         [
           "B",
-          "Budget-wise, somewhere cheap.",
-          "予算的には安いところ。"
+          "Price-wise, that place is hard to beat.",
+          "値段の点では、あのお店が一番だね。"
         ],
         [
           "A",
-          "There’s a little place near the station.",
-          "駅の近くに小さい店あるよ。"
+          "It's a dive, though.",
+          "でも、安っぽくて汚い店だよ。"
         ],
         [
           "B",
-          "The one that looks like a total dive?",
-          "めっちゃ安っぽく見えるあの店？"
+          "You might wanna check the menu before deciding.",
+          "決める前にメニューを見た方がいいかも。"
         ],
         [
           "A",
-          "That’s the one.",
-          "それそれ。"
+          "I could live without the loud music.",
+          "あの大きな音楽はなくてもいいな。"
         ],
         [
           "B",
-          "I might wanna steer clear of that place.",
-          "あそこは避けた方がいいかも。"
+          "Then steer clear of the bar next door, too.",
+          "じゃあ、隣のバーも避けた方がいいよ。"
         ],
         [
           "A",
-          "Why?",
-          "なんで？"
+          "What about the cafe across the street?",
+          "通りの向こうのカフェは？"
         ],
         [
           "B",
-          "Last time the food was a tad cold and the table was a smidge sticky.",
-          "前行ったとき料理はちょっと冷たかったし、テーブルもちょっとベタベタしてた。"
+          "It's a tad more expensive.",
+          "ちょっと高いよ。"
         ],
         [
           "A",
-          "So where should we go?",
-          "じゃあどこ行く？"
+          "Do they serve sandwiches?",
+          "サンドイッチはあるのかな？"
         ],
         [
           "B",
-          "Got me. Want to just walk around and see what looks good?",
-          "さあね。歩きながら良さそうな店探す？"
+          "Got me. Let's check.",
+          "分からないな。見てみよう。"
         ],
         [
           "A",
-          "Works for me.",
-          "それでいいよ。"
+          "Fine. A quiet table is worth a few extra dollars.",
+          "そうしよう。静かな席なら少し余計に払ってもいいよ。"
         ]
       ],
       "phraseLinks": [
@@ -28280,8 +28284,9 @@
         "p94",
         "p8",
         "p49",
-        "p48",
-        "p35"
+        "p35",
+        "p2417",
+        "p2561"
       ]
     },
     {
@@ -28359,208 +28364,209 @@
     {
       "id": "d53",
       "season": "Season 1",
-      "title": "引っ越し・家具の配置",
+      "title": "引っ越しの作業を分担して家具を動かす",
       "category": "日常",
       "lines": [
         [
           "A",
-          "Where do you want this chair?",
-          "この椅子どこに置く？"
+          "How do I fit into this moving plan?",
+          "この引っ越し計画では、私は何を担当するの？"
         ],
         [
           "B",
-          "Just plunk it down in the vestibule for now.",
-          "とりあえず玄関スペースにポンと置いといて。"
+          "You can carry the lamp.",
+          "ランプを運んでもらえる？"
         ],
         [
           "A",
-          "The vestibule? I thought this was the atrium.",
-          "ここ玄関スペースなん？吹き抜けかと思ってた。"
+          "That one? It's about yea high.",
+          "あれ？このくらいの高さがあるよ。"
         ],
         [
           "B",
-          "The atrium is through there.",
-          "吹き抜けはあっち。"
+          "Yes. Can you pick it up?",
+          "うん。持ち上げられる？"
         ],
         [
           "A",
-          "Right. Architecture is beyond me.",
-          "なるほど。建築のことはさっぱりわからん。"
+          "I'm pretty uncoordinated. I'd rather carry the cushions.",
+          "私、かなり不器用なんだ。クッションを運ぶ方がいいな。"
         ],
         [
           "B",
-          "Can you move that shelf too?",
-          "あの棚も動かしてくれる？"
+          "By all means. I'll handle the lamp.",
+          "もちろん。それならランプは私が運ぶよ。"
         ],
         [
           "A",
-          "The one that’s about yea high?",
-          "このくらいの高さのやつ？"
+          "Where does this cord go?",
+          "このコード、どこにつなぐの？"
         ],
         [
           "B",
-          "Yeah, but be careful. It barely fits into that corner.",
-          "そう。でも気をつけて。あの角にギリギリ収まるから。"
+          "That's beyond me. Leave it for now.",
+          "私にも分からない。今は置いておこう。"
         ],
         [
           "A",
-          "No promises. I’m incredibly uncoordinated.",
-          "保証はできんな。私めっちゃ不器用やし。"
+          "Okay. Should I put it back in the drawer?",
+          "分かった。引き出しに戻しておく？"
         ],
         [
           "B",
-          "Then maybe I should take the shelf.",
-          "じゃあ棚は私が持った方がよさそうやな。"
+          "Yes. Then stand back while I move this.",
+          "うん。それから、これを動かす間は下がっていて。"
         ],
         [
           "A",
-          "By all means.",
-          "ぜひそうして。"
+          "All clear. You've got plenty of room.",
+          "大丈夫。十分なスペースがあるよ。"
         ]
       ],
       "phraseLinks": [
-        "p65",
-        "p40",
-        "p41",
         "p24",
         "p106",
         "p6",
         "p116",
-        "p45"
+        "p45",
+        "p3121",
+        "p2790",
+        "p1670"
       ]
     },
     {
       "id": "d54",
       "season": "Season 1",
-      "title": "新しい環境に慣れる",
+      "title": "初参加の交流会を振り返る",
       "category": "メンタル",
       "lines": [
         [
           "A",
-          "How was the meetup?",
-          "交流会どうやった？"
+          "You came to the group for the first time tonight. How was it?",
+          "今夜は初めての参加だったね。どうだった？"
         ],
         [
           "B",
-          "Better than I expected. I actually came out of my shell a little.",
-          "思ったよりよかった。ちょっと人見知りを脱せた気がする。"
+          "Good. I finally talked to someone.",
+          "よかったよ。やっと誰かと話せた。"
         ],
         [
           "A",
-          "See? I knew you’d be fine.",
-          "ほら。大丈夫やと思ってた。"
+          "That's huge. You're starting to come out of your shell.",
+          "それは大きな進歩だよ。打ち解け始めてるね。"
         ],
         [
           "B",
-          "Most people had pegged me as the quiet one.",
-          "みんな私のこと無口な人やと思ってたみたい。"
+          "I had you pegged as the quiet one, too.",
+          "あなたも無口な人だと思ってたんだけど。"
         ],
         [
           "A",
-          "Well, you are more of a listener at first.",
-          "まあ最初はどっちかというと聞き役やもんな。"
+          "Give me a chance. I tell terrible jokes.",
+          "もう少し知ってみてよ。くだらない冗談を言うから。"
         ],
         [
           "B",
-          "Then I met this wacky woman with this impish smile.",
-          "そのあと、いたずらっぽい笑顔のちょっと変わった女性に会って。"
+          "Is this always such a big event?",
+          "いつもこんなに大きな集まりなの？"
         ],
         [
           "A",
-          "And?",
-          "それで？"
+          "Usually it's more of a small get-together.",
+          "普段はどちらかというと小さな集まりだよ。"
         ],
         [
           "B",
-          "She introduced me to everyone. It was huge for me.",
-          "みんなに紹介してくれた。私にはすごく大きなことやった。"
+          "Then I'll come next week.",
+          "じゃあ来週も来るよ。"
         ],
         [
           "A",
-          "Sounds like you found your people.",
-          "合う人たち見つけたみたいやな。"
+          "Chances are you'll recognize a few people.",
+          "たぶん、見覚えのある人が何人かいるよ。"
         ],
         [
           "B",
-          "Maybe. Chances are I’ll go again next week.",
-          "かもね。たぶん来週も行くと思う。"
+          "I'm looking forward to it.",
+          "楽しみだな。"
         ],
         [
           "A",
-          "Good for you.",
-          "よかったやん。"
+          "I'll save you a seat.",
+          "席を取っておくね。"
         ]
       ],
       "phraseLinks": [
         "p55",
         "p126",
         "p118",
-        "p87",
-        "p42",
         "p125",
-        "p12"
+        "p12",
+        "p2189",
+        "p1472",
+        "p1429"
       ]
     },
     {
       "id": "d55",
       "season": "Season 1",
-      "title": "友達との境界線",
+      "title": "恋愛への詮索をかわし、関係を急いで決めない",
       "category": "恋愛",
       "lines": [
         [
           "A",
-          "So… are you going to make a move on him?",
-          "で……彼にアプローチするつもり？"
+          "Was Jamie hitting on you?",
+          "ジェイミー、あなたを口説いてたの？"
         ],
         [
           "B",
-          "Not that it’s any of your business, but I don’t know.",
-          "あなたには関係ないけど、わからん。"
+          "Not that it's any of your business, but yes.",
+          "あなたには関係ないけど、そうだよ。"
         ],
         [
           "A",
-          "I’m just asking. He was definitely hitting on you.",
-          "聞いただけやん。あの人、明らかに君に言い寄ってたで。"
+          "I thought you wanted to make a move on him.",
+          "あなたも彼にアプローチしたいんだと思ってた。"
         ],
         [
           "B",
-          "He was being friendly.",
-          "ただ親切やっただけ。"
+          "I did. But when he made a pass at me, I froze.",
+          "そうだったけど、軽く口説かれたら固まっちゃった。"
         ],
         [
           "A",
-          "Friendly? He practically made a pass at you.",
-          "親切？ほぼ口説いてたやん。"
+          "Do you want something relationship-y?",
+          "恋人っぽい関係になりたいの？"
         ],
         [
           "B",
-          "Okay, maybe a little.",
-          "まあ、ちょっとはそうかも。"
+          "I don't want to put a label on it yet.",
+          "まだ関係に名前をつけたくない。"
         ],
         [
           "A",
-          "So what’s stopping you?",
-          "じゃあ何が引っかかってるん？"
+          "I'm not saying you should decide now; I'm saying he should know.",
+          "今決めるべきだと言ってるんじゃなくて、彼には伝えた方がいいってこと。"
         ],
         [
           "B",
-          "I don’t want to put a label on it before anything even happens.",
-          "まだ何も始まってないのに関係を決めつけたくない。"
+          "Please don't pressure me to explain everything tonight.",
+          "今夜全部説明するように急かさないで。"
         ],
         [
           "A",
-          "Fair. It doesn’t have to get all relationship-y.",
-          "確かに。いきなり恋人っぽくする必要はないし。"
+          "Okay. You decide when.",
+          "分かった。いつにするかは任せるよ。"
         ],
         [
           "B",
-          "Exactly. I just want to see where it goes.",
-          "そう。どうなるか見てみたいだけ。"
+          "Thanks. I need a little time.",
+          "ありがとう。少し時間がほしいんだ。"
         ],
         [
           "A",
-          "Then do that.",
-          "じゃあそれでいいやん。"
+          "Then I'll stop asking.",
+          "じゃあ、もう聞かないね。"
         ]
       ],
       "phraseLinks": [
@@ -28569,69 +28575,71 @@
         "p69",
         "p68",
         "p83",
-        "p127"
+        "p127",
+        "p2994",
+        "p2717"
       ]
     },
     {
       "id": "d56",
       "season": "Season 1",
-      "title": "噂・責任の押し付け",
+      "title": "責任を押し付ける話を記録で確かめる",
       "category": "仕事",
       "lines": [
         [
           "A",
-          "Did you hear what they’re saying about the delay?",
-          "遅れのことで何て言われてるか聞いた？"
+          "Lee cooked up a story about my missing the deadline.",
+          "リーが私の締め切り遅れの話をでっち上げたんだ。"
         ],
         [
           "B",
-          "Yeah. Someone cooked up a story that our team caused it.",
-          "うん。うちのチームが原因やって話を誰かがでっち上げた。"
+          "But you sent it Monday. He's full of it.",
+          "でも月曜に送ったよね。でたらめだよ。"
         ],
         [
           "A",
-          "That’s a slap in the face after all the extra work we did.",
-          "あれだけ余分に働いたあとでそれは侮辱やな。"
+          "It was a slap in the face.",
+          "侮辱された気分だよ。"
         ],
         [
           "B",
-          "Exactly. And now we’re taking the brunt of the complaints.",
-          "そう。しかも今、苦情の一番きついところを全部こっちが受けてる。"
+          "I'll back you up. I have the email.",
+          "私が裏付けるよ。メールがあるから。"
         ],
         [
           "A",
-          "Who started the story?",
-          "誰が言い出したん？"
+          "I always take the brunt of his mistakes.",
+          "いつも彼のミスのしわ寄せを一番受けるのは私なんだ。"
         ],
         [
           "B",
-          "No idea, but whoever it was is full of it.",
-          "知らん。でも言ったやつはでたらめ言ってる。"
+          "Didn't he miss his own deadline?",
+          "彼こそ締め切りに遅れてなかった？"
         ],
         [
           "A",
-          "Careful. That’s starting to sound like the pot calling the kettle black.",
-          "気をつけて。それやと「お前も同じやろ」って話になりかねんで。"
+          "Yes. It's the pot calling the kettle black.",
+          "うん。自分のことを棚に上げてるよね。"
         ],
         [
           "B",
-          "How?",
-          "どういうこと？"
+          "Let's ask the manager to look into it.",
+          "上司に調べてもらおう。"
         ],
         [
           "A",
-          "We blamed the other team before we had all the facts too.",
-          "こっちも事実が全部揃う前に別チームのせいにしたやろ。"
+          "At the end of the day, I want the record corrected.",
+          "結局、記録を訂正してほしいんだ。"
         ],
         [
           "B",
-          "Fair point. At the end of the day, we need facts, not another rumor.",
-          "確かに。結局必要なのは、別の噂じゃなくて事実やな。"
+          "Then send the dates, not the insults.",
+          "じゃあ、悪口じゃなくて日付を送ろう。"
         ],
         [
           "A",
-          "Exactly. Let’s find out what actually happened.",
-          "そう。実際に何が起きたか確認しよう。"
+          "Right. I'll attach the email.",
+          "そうだね。メールを添付するよ。"
         ]
       ],
       "phraseLinks": [
@@ -28640,73 +28648,124 @@
         "p115",
         "p101",
         "p112",
-        "p110"
+        "p110",
+        "p2583",
+        "p1178"
       ]
     },
     {
       "id": "d168",
       "season": "Season 1",
-      "title": "久しぶりの友人と近況を交換する",
+      "title": "再会して近況を話し、次につなげて別れる",
       "category": "雑談",
       "lines": [
         [
           "A",
-          "Hey, it's been ages! What have you been up to?",
-          "久しぶり！最近どうしてた？"
+          "What have you been up to?",
+          "最近どうしてた？"
         ],
         [
           "B",
-          "I started taking a pottery class.",
-          "陶芸教室に通い始めたんだ。"
+          "I've been working from home for a while.",
+          "しばらく在宅で働いてるよ。"
         ],
         [
           "A",
-          "Really? I didn't know you were into that.",
-          "本当に？そういうのが好きだとは知らなかった。"
+          "Really? How's that going?",
+          "そうなの？どんな感じ？"
         ],
         [
           "B",
-          "Yeah, I'm not very good yet, but it's fun. What about you?",
-          "うん、まだあまり上手じゃないけど楽しいよ。そっちは？"
+          "I like it. What about you?",
+          "気に入ってるよ。そっちは？"
         ],
         [
           "A",
-          "I've been working from home for a while now. I don't miss the commute.",
-          "しばらく前から在宅で働いてる。通勤しなくていいのは助かるよ。"
+          "I'm taking a cooking class.",
+          "料理教室に通ってるんだ。"
         ],
         [
           "B",
-          "Oh, I bet. That used to take you forever.",
-          "そうだろうね。前はすごく時間がかかってたもんね。"
+          "You'll have to cook for me sometime.",
+          "いつか食べさせてよ。"
+        ],
+        [
+          "A",
+          "Deal. We should do this again.",
+          "いいよ。またこうして会おう。"
+        ],
+        [
+          "B",
+          "Definitely. How about next Saturday?",
+          "ぜひ。来週の土曜はどう？"
+        ],
+        [
+          "A",
+          "Perfect. I'd better get going.",
+          "いいね。そろそろ行かなきゃ。"
+        ],
+        [
+          "B",
+          "It was great seeing you.",
+          "会えてうれしかったよ。"
+        ],
+        [
+          "A",
+          "You too. Take care.",
+          "私も。元気でね。"
         ]
       ],
       "phraseLinks": [
         "p1122",
         "p2000",
         "p2948",
-        "p1925"
+        "p1925",
+        "p2753",
+        "p2402",
+        "p1300",
+        "p1694"
       ]
     },
     {
       "id": "d169",
       "season": "Season 1",
-      "title": "夕食に誘って参加可否を決める",
+      "title": "誘いをいったん断り、別の日程で合意する",
       "category": "日常",
       "lines": [
         [
           "A",
           "What are you up to tonight?",
-          "今夜は何する予定？"
+          "今夜の予定は？"
         ],
         [
           "B",
-          "Not much. Why?",
-          "特にないよ。どうして？"
+          "I'm helping my sister move. Why?",
+          "妹の引っ越しを手伝うんだ。どうして？"
         ],
         [
           "A",
-          "I was thinking we could get dinner. Are you up for it?",
-          "一緒に夕食でもどうかなと思って。行く気ある？"
+          "We're getting pizza. Are you up for it?",
+          "ピザを食べに行くんだ。どう？"
+        ],
+        [
+          "B",
+          "I wish I could. It's just that I promised to help.",
+          "行きたいんだけど。手伝うって約束しちゃってて。"
+        ],
+        [
+          "A",
+          "How about tomorrow instead?",
+          "じゃあ明日はどう？"
+        ],
+        [
+          "B",
+          "That would work. What time?",
+          "それなら大丈夫。何時？"
+        ],
+        [
+          "A",
+          "Seven, at the place near the station.",
+          "7時に、駅の近くのお店で。"
         ],
         [
           "B",
@@ -28715,60 +28774,25 @@
         ],
         [
           "A",
-          "That'll work. Let's meet then.",
-          "それで大丈夫。その時間に会おう。"
+          "We can walk over together.",
+          "一緒に歩いて行こう。"
         ],
         [
           "B",
-          "Great. See you at seven.",
-          "いいね。じゃあ7時に。"
+          "That sounds good. Meet outside your building?",
+          "いいね。家の建物の前で待ち合わせる？"
+        ],
+        [
+          "A",
+          "Yes, at quarter to seven.",
+          "うん、6時45分に。"
         ]
       ],
       "phraseLinks": [
         "p2356",
         "p1039",
         "p514",
-        "p2176"
-      ]
-    },
-    {
-      "id": "d170",
-      "season": "Season 1",
-      "title": "誘いをやんわり断り別の日を提案する",
-      "category": "日常",
-      "lines": [
-        [
-          "A",
-          "Want to come over for dinner tomorrow?",
-          "明日、うちに夕食を食べに来ない？"
-        ],
-        [
-          "B",
-          "I wish I could. It's just that I'm looking after my niece.",
-          "行けたらいいんだけど。実は姪の面倒を見ることになってて。"
-        ],
-        [
-          "A",
-          "Oh, okay. Another night, then?",
-          "そっか。じゃあ別の日にする？"
-        ],
-        [
-          "B",
-          "How about Friday?",
-          "金曜日はどう？"
-        ],
-        [
-          "A",
-          "That sounds good. Seven?",
-          "いいね。7時でどう？"
-        ],
-        [
-          "B",
-          "Perfect. See you Friday.",
-          "ぴったり。じゃあ金曜日に。"
-        ]
-      ],
-      "phraseLinks": [
+        "p2176",
         "p2359",
         "p2640",
         "p1576",
@@ -28778,85 +28802,70 @@
     {
       "id": "d171",
       "season": "Season 1",
-      "title": "集合時間の変更を相談する",
+      "title": "集合時刻を変え、当日の遅れを連絡する",
       "category": "日常",
       "lines": [
         [
           "A",
-          "My meeting's been pushed back to five. Can we meet at six thirty instead of six?",
-          "会議が5時に後ろ倒しになったんだ。6時じゃなくて6時半に会える？"
+          "Dinner's been pushed back to six.",
+          "夕食は6時に延期になったよ。"
         ],
         [
           "B",
-          "Yeah, I'm fine with that.",
-          "うん、それで大丈夫。"
+          "I'm fine with that.",
+          "それで構わないよ。"
         ],
         [
           "A",
-          "Are you sure? I don't want to keep you waiting.",
-          "本当に？待たせたくないんだけど。"
+          "Are you sure?",
+          "本当に大丈夫？"
         ],
         [
           "B",
-          "I get off work at five thirty, so that actually gives me a little more time.",
-          "仕事が5時半に終わるから、むしろ少し余裕ができるよ。"
+          "I get off work at five thirty, so that gives me more time.",
+          "5時半に仕事が終わるから、その方が余裕があるよ。"
         ],
         [
           "A",
-          "Great. Same place?",
-          "よかった。場所は同じでいい？"
+          "Great. I'll wait outside the restaurant.",
+          "よかった。お店の外で待ってるね。"
         ],
         [
           "B",
-          "Yeah. See you at six thirty.",
-          "うん。じゃあ6時半に。"
+          "See you there.",
+          "じゃあ、そこでね。"
+        ],
+        [
+          "A",
+          "Hey, are you close?",
+          "もしもし、近くまで来てる？"
+        ],
+        [
+          "B",
+          "I'm sorry I'm late. I'm on my way over.",
+          "遅れてごめん。今そっちに向かってる。"
+        ],
+        [
+          "A",
+          "Take your time. Our table isn't ready.",
+          "急がなくていいよ。まだ席の準備ができてないから。"
+        ],
+        [
+          "B",
+          "Okay. About five more minutes.",
+          "分かった。あと5分くらい。"
+        ],
+        [
+          "A",
+          "I'll be by the door.",
+          "入り口のそばにいるね。"
         ]
       ],
       "phraseLinks": [
         "p1282",
         "p1461",
         "p1771",
-        "p1712"
-      ]
-    },
-    {
-      "id": "d172",
-      "season": "Season 1",
-      "title": "遅刻を知らせて到着見込みを伝える",
-      "category": "日常",
-      "lines": [
-        [
-          "A",
-          "Hey, I'm sorry I'm late. I'm on my way over.",
-          "遅れてごめん。今そっちに向かってる。"
-        ],
-        [
-          "B",
-          "That's okay. How far away are you?",
-          "大丈夫。あとどれくらい？"
-        ],
-        [
-          "A",
-          "About ten minutes. Are you still outside?",
-          "10分くらい。まだ外にいる？"
-        ],
-        [
-          "B",
-          "No, I got us a table inside. Take your time.",
-          "ううん、中で席を取ったよ。慌てなくていいから。"
-        ],
-        [
-          "A",
-          "Thanks. I'll come find you.",
-          "ありがとう。着いたら探すね。"
-        ],
-        [
-          "B",
-          "I'm right by the window.",
-          "窓のすぐそばにいるよ。"
-        ]
-      ],
-      "phraseLinks": [
+        "p1712",
         "p2004",
         "p1147",
         "p1130"
@@ -28865,191 +28874,226 @@
     {
       "id": "d173",
       "season": "Season 1",
-      "title": "初対面で聞き取れなかった名前を確認する",
+      "title": "初対面の来客を迎えて案内する",
       "category": "日常",
       "lines": [
         [
           "A",
-          "Hi, I don't think we've met. I'm Alex.",
-          "こんにちは。まだお会いしていませんよね。アレックスです。"
+          "Hi. I don't think we've met. I'm Alex.",
+          "こんにちは。初めましてですよね。アレックスです。"
         ],
         [
           "B",
-          "Hi, I'm Morgan.",
-          "こんにちは。モーガンです。"
+          "Hi, I'm Sam.",
+          "こんにちは、サムです。"
         ],
         [
           "A",
           "Sorry, I didn't catch your name.",
-          "すみません、お名前を聞き取れませんでした。"
+          "すみません、お名前を聞き取れなくて。"
         ],
         [
           "B",
-          "Morgan.",
-          "モーガンです。"
+          "Sam. I work with Maya.",
+          "サムです。マヤの同僚です。"
         ],
         [
           "A",
-          "Morgan. Nice to meet you.",
-          "モーガンさんですね。お会いできてうれしいです。"
+          "Nice to meet you. Right this way.",
+          "初めまして。こちらへどうぞ。"
         ],
         [
           "B",
-          "You too.",
-          "こちらこそ。"
+          "Thanks. You've got a lovely place.",
+          "ありがとうございます。すてきなお宅ですね。"
+        ],
+        [
+          "A",
+          "Make yourself at home. Can I get you a drink?",
+          "くつろいでください。何か飲み物をお持ちしましょうか。"
+        ],
+        [
+          "B",
+          "I wouldn't mind some water.",
+          "お水をいただけるとうれしいです。"
+        ],
+        [
+          "A",
+          "Here you are. Help yourself to the snacks, too.",
+          "どうぞ。お菓子も自由に取ってくださいね。"
+        ],
+        [
+          "B",
+          "Thanks. I'll try one of these.",
+          "ありがとうございます。これを一ついただきます。"
+        ],
+        [
+          "A",
+          "Please do. Maya made them.",
+          "ぜひ。マヤが作ったんですよ。"
         ]
       ],
       "phraseLinks": [
         "p592",
         "p2354",
-        "p1880"
-      ]
-    },
-    {
-      "id": "d174",
-      "season": "Season 1",
-      "title": "操作が分からない機器を教えてもらう",
-      "category": "日常",
-      "lines": [
-        [
-          "A",
-          "How does this work?",
-          "これ、どうやって使うの？"
-        ],
-        [
-          "B",
-          "Turn the dial to the cup symbol, then press it.",
-          "ダイヤルをカップのマークまで回して、押すんだよ。"
-        ],
-        [
-          "A",
-          "Not following you. Press what?",
-          "ちょっと分からない。何を押すの？"
-        ],
-        [
-          "B",
-          "The dial itself. It's also a button.",
-          "ダイヤルそのもの。ボタンにもなってるんだ。"
-        ],
-        [
-          "A",
-          "Got it. So I turn it, then push it in.",
-          "分かった。回してから押し込むんだね。"
-        ],
-        [
-          "B",
-          "Exactly. That starts the coffee.",
-          "そう。それでコーヒーが出始めるよ。"
-        ]
-      ],
-      "phraseLinks": [
-        "p2705",
-        "p3138",
-        "p1582"
+        "p1880",
+        "p2351",
+        "p1946",
+        "p1227",
+        "p1424",
+        "p1228"
       ]
     },
     {
       "id": "d175",
       "season": "Season 1",
-      "title": "聞き取れなかった受け取り時刻を確認する",
+      "title": "修理品の受け取り時刻を確認する",
       "category": "日常",
       "lines": [
         [
           "A",
-          "Your order should be ready at eight.",
-          "ご注文の品は8時に用意できる予定です。"
+          "Your laptop should be ready at four.",
+          "パソコンは4時にはご用意できると思います。"
         ],
         [
           "B",
           "Pardon?",
-          "すみません、もう一度お願いします。"
+          "もう一度お願いします。"
         ],
         [
           "A",
-          "Eight.",
-          "8時です。"
+          "Four this afternoon.",
+          "今日の午後4時です。"
         ],
         [
           "B",
-          "As in eight tomorrow morning?",
-          "明日の朝8時ということですか？"
+          "Four, as in before you close at five?",
+          "4時というのは、5時の閉店前ですね？"
         ],
         [
           "A",
-          "I'm pretty sure it's eight tonight. Let me make sure.",
-          "確か今夜の8時です。確認しますね。"
+          "Yes. I'm pretty sure the repair is nearly done.",
+          "はい。修理はほぼ終わっているはずです。"
         ],
         [
           "B",
-          "Thanks. I don't want to come too early.",
-          "ありがとうございます。早く来すぎたくないので。"
+          "How long do you think it'll be? About an hour?",
+          "あとどのくらいかかりそうですか。1時間くらい？"
         ],
         [
           "A",
-          "Yes, eight tonight. I've got the confirmation here.",
-          "はい、今夜8時です。こちらに確認の記録があります。"
+          "Sounds about right.",
+          "だいたいそのくらいですね。"
         ],
         [
           "B",
-          "Great, I'll come by then.",
-          "分かりました。その時間に来ます。"
+          "Could you give me a call when it's ready?",
+          "準備ができたら電話をいただけますか。"
+        ],
+        [
+          "A",
+          "Yes. I'll make sure we have your number.",
+          "はい。番号を確認しておきます。"
+        ],
+        [
+          "B",
+          "Thanks. That'll help me get here in time.",
+          "ありがとうございます。それなら間に合うように来られます。"
+        ],
+        [
+          "A",
+          "Let's check it together.",
+          "一緒に番号を確認しましょう。"
         ]
       ],
       "phraseLinks": [
         "p3134",
         "p1690",
         "p2698",
-        "p2650"
+        "p2650",
+        "p2463",
+        "p892",
+        "p1964",
+        "p2875"
       ]
     },
     {
       "id": "d176",
       "season": "Season 1",
-      "title": "借りた物を傷つけて修復を申し出る",
+      "title": "借りた物の傷を報告して修復を申し出る",
       "category": "トラブル",
       "lines": [
         [
           "A",
-          "I scratched your tray. I'm sorry.",
-          "お盆に傷をつけちゃった。ごめん。"
+          "I'm sorry. I scratched your table.",
+          "ごめん。テーブルに傷をつけちゃった。"
         ],
         [
           "B",
-          "Oh, let me see.",
-          "あ、見せて。"
+          "How did it happen?",
+          "どうしたの？"
         ],
         [
           "A",
-          "It was an accident. I dropped my keys on it.",
-          "わざとじゃないんだ。鍵を落としてしまって。"
+          "My keys slipped. It was an accident.",
+          "鍵が滑ったんだ。わざとじゃないよ。"
         ],
         [
           "B",
-          "It's just a small mark. No big deal.",
-          "小さな傷だし、大したことないよ。"
+          "It's no big deal. It could happen to anyone.",
+          "大したことないよ。誰にでもあることだし。"
         ],
         [
           "A",
-          "Still, I'd like to make things right. Can I pick up a touch-up pen and fix it?",
-          "それでも、ちゃんと埋め合わせたいんだ。補修ペンを買ってきて直してもいい？"
+          "Still, I'd like to make things right. Can I use a touch-up pen?",
+          "でも、ちゃんと直したいんだ。補修ペンを使ってもいい？"
         ],
         [
           "B",
-          "Sure, that would help.",
-          "うん、そうしてもらえると助かる。"
+          "Sure. I have one in the drawer.",
+          "うん。引き出しに一本あるよ。"
+        ],
+        [
+          "A",
+          "Great. I'll give it back when I'm done.",
+          "よかった。終わったら返すね。"
+        ],
+        [
+          "B",
+          "Test it underneath first.",
+          "先に裏側で試してみて。"
+        ],
+        [
+          "A",
+          "Okay. Could you check on the repair later?",
+          "分かった。あとで修理したところの様子を見てもらえる？"
+        ],
+        [
+          "B",
+          "Yes. Thanks for fixing it.",
+          "うん。直してくれてありがとう。"
+        ],
+        [
+          "A",
+          "I'll start with the test.",
+          "まず試し塗りから始めるね。"
         ]
       ],
       "phraseLinks": [
         "p2945",
         "p2732",
         "p1307",
-        "p1263"
+        "p1263",
+        "p2487",
+        "p2397",
+        "p2539",
+        "p2573"
       ]
     },
     {
       "id": "d177",
       "season": "Season 1",
-      "title": "作業に詰まった同僚へ手助けを申し出る",
+      "title": "作業で詰まった箇所の確認を頼む",
       "category": "仕事",
       "lines": [
         [
@@ -29059,714 +29103,868 @@
         ],
         [
           "B",
-          "Yeah, I'm stuck on these totals. They don't match.",
-          "うん、この合計で行き詰まってるんだ。数字が合わなくて。"
+          "Yes, I'm stuck on this email.",
+          "うん、このメールで行き詰まってるんだ。"
         ],
         [
           "A",
-          "Let's see if we can figure this out. Where did the numbers come from?",
-          "一緒に解決できるか見てみよう。数字はどこから取ったの？"
+          "What's the problem?",
+          "どこが難しいの？"
         ],
         [
           "B",
-          "Last month's report. I can pull it up.",
-          "先月の報告書。画面に出せるよ。"
+          "I can't figure out how to explain the delay.",
+          "遅れをどう説明したらいいか分からなくて。"
         ],
         [
           "A",
-          "Thanks. I'll check the totals while you find it.",
-          "ありがとう。探してくれてる間に合計を確認するね。"
+          "Show me what you've written.",
+          "書いたものを見せて。"
         ],
         [
           "B",
-          "Okay, I'll open it next to this one.",
-          "分かった。これの隣に開くよ。"
+          "I was wondering if you could take a look at the last paragraph.",
+          "最後の段落を見てもらえないかなと思って。"
+        ],
+        [
+          "A",
+          "Sure. I have ten minutes before my meeting.",
+          "いいよ。会議まで10分あるから。"
+        ],
+        [
+          "B",
+          "Could you help me out with the opening, too?",
+          "書き出しも手伝ってもらえる？"
+        ],
+        [
+          "A",
+          "Yes, but let's fix the explanation first.",
+          "うん、でも先に説明の部分を直そう。"
+        ],
+        [
+          "B",
+          "Okay. Could we do the opening when you get a chance?",
+          "分かった。書き出しは都合がついたときにお願いできる？"
+        ],
+        [
+          "A",
+          "Great. This sentence needs a specific date.",
+          "じゃあ、この文には具体的な日付を入れよう。"
         ]
       ],
       "phraseLinks": [
         "p2395",
         "p1129",
-        "p1150"
-      ]
-    },
-    {
-      "id": "d178",
-      "season": "Season 1",
-      "title": "都合のよいときに確認を頼む",
-      "category": "仕事",
-      "lines": [
-        [
-          "A",
-          "I was wondering if you could check this email for me.",
-          "このメールを確認してもらえないかなと思って。"
-        ],
-        [
-          "B",
-          "Sure. Is it going out today?",
-          "もちろん。今日送るの？"
-        ],
-        [
-          "A",
-          "No, tomorrow. Just have a look when you get a chance.",
-          "ううん、明日。手が空いたときに見てくれればいいよ。"
-        ],
-        [
-          "B",
-          "I can read it after lunch.",
-          "昼食後なら読めるよ。"
-        ],
-        [
-          "A",
-          "Thanks. I'm mainly worried about whether the directions are clear.",
-          "ありがとう。特に道順が分かりやすいか気になってるんだ。"
-        ],
-        [
-          "B",
-          "Okay, I'll check those first.",
-          "分かった。そこから確認するね。"
-        ]
-      ],
-      "phraseLinks": [
+        "p1150",
         "p2601",
         "p3001",
-        "p2949"
+        "p2949",
+        "p1372",
+        "p1333"
       ]
     },
     {
       "id": "d179",
       "season": "Season 1",
-      "title": "席を外す間に荷物を見てもらう",
+      "title": "カフェで荷物を見てもらい、買い物と借用品の返却を済ませる",
       "category": "日常",
       "lines": [
         [
           "A",
-          "Can I ask a favor? I'm going to order a coffee.",
-          "お願いしてもいい？コーヒーを注文してくるんだけど。"
+          "Can I ask a favor? I'm going to the counter.",
+          "一つお願いしてもいい？カウンターに行ってくるんだけど。"
         ],
         [
           "B",
-          "Yeah, what do you need?",
-          "うん、何をすればいい？"
+          "Sure. What do you need?",
+          "いいよ。どうしたの？"
         ],
         [
           "A",
-          "Could you keep an eye on my bag? I'll be right back.",
-          "バッグを見ていてくれる？すぐ戻るから。"
+          "Could you keep an eye on my bag?",
+          "バッグを見ていてくれる？"
         ],
         [
           "B",
-          "Of course. Leave it here by my chair.",
-          "もちろん。この椅子のそばに置いておいて。"
+          "No problem. Could you pick up a cookie for me?",
+          "いいよ。クッキーを一つ買ってきてくれる？"
+        ],
+        [
+          "A",
+          "Sure. There's a line, but I'll wait my turn.",
+          "いいよ。列ができてるけど、順番を待つよ。"
+        ],
+        [
+          "B",
+          "I'm not in a hurry. Chocolate chip, please.",
+          "急いでないよ。チョコチップのをお願い。"
+        ],
+        [
+          "A",
+          "Would you excuse me? I'll be right back.",
+          "じゃあ、ちょっと失礼するね。すぐ戻るよ。"
+        ],
+        [
+          "B",
+          "Sure. Your bag can stay here by my chair.",
+          "うん。バッグはこの椅子のそばに置いておいて。"
+        ],
+        [
+          "A",
+          "Here's your cookie.",
+          "はい、クッキー。"
+        ],
+        [
+          "B",
+          "Thanks. Are you done with the pen I lent you?",
+          "ありがとう。貸したペンはもう使い終わった？"
+        ],
+        [
+          "A",
+          "Yes—let me give it back. Thanks for watching my bag, too.",
+          "うん、返すね。バッグも見ていてくれてありがとう。"
         ]
       ],
       "phraseLinks": [
         "p2477",
         "p1226",
-        "p1117"
+        "p1117",
+        "p2397",
+        "p1290",
+        "p2891",
+        "p1158",
+        "p2479"
       ]
     },
     {
       "id": "d180",
       "season": "Season 1",
-      "title": "今は話せないと伝え話す時間を決める",
+      "title": "今の作業を守り、話す時刻を決める",
       "category": "仕事",
       "lines": [
         [
           "A",
-          "Do you have a sec? It's about next week's schedule.",
-          "ちょっと時間ある？来週の予定のことなんだけど。"
+          "Do you have a sec?",
+          "ちょっと時間ある？"
         ],
         [
           "B",
-          "Could we talk about this later? I'm in the middle of something.",
-          "この話、後にしてもいい？今ちょっと作業中なんだ。"
+          "Could we talk about this later?",
+          "この話はあとでもいい？"
         ],
         [
           "A",
-          "Of course. No pressure.",
-          "もちろん。急がなくていいよ。"
+          "Sure. No pressure.",
+          "もちろん。無理しなくていいよ。"
         ],
         [
           "B",
-          "Would three this afternoon be okay?",
-          "今日の午後3時ならどう？"
+          "I'm working on the budget right now.",
+          "ちょうど今、予算に取り組んでるんだ。"
         ],
         [
           "A",
-          "That would work. I'll come back then.",
-          "それなら大丈夫。その時間にまた来るね。"
+          "When would be better?",
+          "いつならいい？"
         ],
         [
           "B",
-          "Thanks. I'll be free by then.",
-          "ありがとう。それまでには手が空くよ。"
+          "By the time you finish lunch, I'll be done.",
+          "お昼を食べ終わる頃には、私も終わってるよ。"
+        ],
+        [
+          "A",
+          "One thirty, then?",
+          "じゃあ1時半は？"
+        ],
+        [
+          "B",
+          "That would work.",
+          "それなら大丈夫。"
+        ],
+        [
+          "A",
+          "I'll let you get back to the budget.",
+          "じゃあ、予算の作業に戻って。"
+        ],
+        [
+          "B",
+          "Thanks. Bring your notes later.",
+          "ありがとう。あとでメモを持ってきてね。"
+        ],
+        [
+          "A",
+          "Will do.",
+          "そうするよ。"
         ]
       ],
       "phraseLinks": [
         "p1356",
         "p2537",
         "p2213",
-        "p2176"
+        "p2176",
+        "p2199",
+        "p2049",
+        "p1343",
+        "p2185"
       ]
     },
     {
       "id": "d181",
       "season": "Season 1",
-      "title": "一部同意しながら別の案を出す",
+      "title": "一部同意して条件を整理し、別案を出す",
       "category": "相談",
       "lines": [
         [
           "A",
-          "Let's have the neighborhood get-together in the park. There's more room.",
-          "近所の集まりは公園で開こうよ。そっちの方が広いし。"
+          "Here's the deal: we need more space, but rent is high.",
+          "状況はこうなんだ。広さは必要だけど、家賃が高い。"
         ],
         [
           "B",
-          "I hear what you're saying. I'm just worried about rain.",
-          "言いたいことは分かる。ただ、雨が心配なんだ。"
+          "The way I see it, we should move farther out.",
+          "私は、もっと郊外に引っ越すべきだと思う。"
         ],
         [
           "A",
-          "The forecast looks okay so far.",
-          "今のところ予報は大丈夫そうだよ。"
+          "I hear what you're saying. The commute worries me.",
+          "言いたいことは分かるよ。通勤が心配なんだ。"
         ],
         [
           "B",
-          "The way I see it, we still need somewhere to go if it changes.",
-          "私としては、天気が変わったときに行ける場所も必要だと思う。"
+          "Do we need to live downtown?",
+          "都心に住む必要はある？"
         ],
         [
           "A",
-          "How about the park by the community center? We could ask to use a room as a backup.",
-          "公民館のそばの公園はどう？予備として部屋を使えるか聞いてみようよ。"
+          "I don't think so. All I'm saying is we need a train nearby.",
+          "そうは思わないよ。ただ、近くに電車が必要ってこと。"
         ],
         [
           "B",
+          "How about the apartments by West Station?",
+          "西駅のそばのアパートはどう？"
+        ],
+        [
+          "A",
           "That's not a bad idea.",
-          "それはいい案だね。"
-        ],
-        [
-          "A",
-          "I'll check whether they have a room available.",
-          "空いている部屋があるか確認するよ。"
+          "それは悪くないね。"
         ],
         [
           "B",
-          "Then we can decide once we hear back.",
-          "じゃあ返事をもらってから決めよう。"
+          "We can visit Saturday.",
+          "土曜に見に行けるよ。"
+        ],
+        [
+          "A",
+          "That should help us make the right choice.",
+          "そうすれば、ちゃんと選べそうだね。"
+        ],
+        [
+          "B",
+          "I'll book a viewing.",
+          "内見を予約するよ。"
+        ],
+        [
+          "A",
+          "Thanks. I'll check the train times.",
+          "ありがとう。私は電車の時刻を調べるね。"
         ]
       ],
       "phraseLinks": [
         "p2602",
         "p1183",
         "p2062",
-        "p1576"
+        "p1576",
+        "p2693",
+        "p1124",
+        "p1401",
+        "p2371"
       ]
     },
     {
       "id": "d182",
       "season": "Season 1",
-      "title": "購入を急がず必要性を考える",
+      "title": "追加機能の必要性を考えて購入を決める",
       "category": "日常",
       "lines": [
         [
           "A",
-          "I'm tempted to get this coffee maker.",
-          "このコーヒーメーカー、欲しくなってきた。"
+          "So what do you think? Is the deluxe model worth it?",
+          "それで、どう思う？上位モデルにその価値はあるかな？"
         ],
         [
           "B",
-          "Do you think it'd be worth it?",
-          "買う価値はありそう？"
+          "It depends on which features you'll use.",
+          "どの機能を使うか次第だね。"
         ],
         [
           "A",
-          "Maybe. I buy coffee most mornings.",
-          "多分ね。朝はたいていコーヒーを買ってるから。"
+          "I could live without the built-in speaker.",
+          "内蔵スピーカーはなくてもいいな。"
         ],
         [
           "B",
-          "I guess it depends on whether you'd actually use it at home.",
-          "家で本当に使うかどうかによるんじゃないかな。"
+          "Then think it through before paying extra.",
+          "じゃあ余計に払う前に、よく考えてみて。"
         ],
         [
           "A",
-          "That's what I'm not sure about. I should think this through before I buy it.",
-          "そこが自信ないんだ。買う前によく考えた方がいいね。"
+          "The basic one does everything I need.",
+          "基本モデルで必要なことは全部できる。"
         ],
         [
           "B",
-          "It's up to you. You don't have to decide today.",
-          "決めるのは自分だよ。今日決めなくてもいいし。"
+          "It's up to you.",
+          "決めるのはあなたよ。"
         ],
         [
           "A",
-          "I'll leave it for now and see how I feel next week.",
-          "今はやめておいて、来週どう思うか考えてみる。"
+          "What if I change my mind?",
+          "気が変わったらどうしよう？"
         ],
         [
           "B",
-          "Yeah, there's no rush.",
-          "うん、急ぐことないよ。"
+          "You can take it back within thirty days.",
+          "30日以内なら返品できるよ。"
+        ],
+        [
+          "A",
+          "Even after opening it?",
+          "開封したあとでも？"
+        ],
+        [
+          "B",
+          "Let's ask before buying.",
+          "買う前に聞こう。"
+        ],
+        [
+          "A",
+          "Good idea. I want the basic one if that's allowed.",
+          "いいね。それができるなら基本モデルがいい。"
         ]
       ],
       "phraseLinks": [
         "p1163",
         "p605",
         "p2389",
-        "p2780"
-      ]
-    },
-    {
-      "id": "d183",
-      "season": "Season 1",
-      "title": "サービスの追加を丁寧に断る",
-      "category": "日常",
-      "lines": [
-        [
-          "A",
-          "Could I have a small coffee?",
-          "コーヒーの小さいサイズをいただけますか？"
-        ],
-        [
-          "B",
-          "Of course. Would you like a muffin with that?",
-          "もちろんです。マフィンもいかがですか？"
-        ],
-        [
-          "A",
-          "No, thanks. Just the coffee.",
-          "いえ、結構です。コーヒーだけで。"
-        ],
-        [
-          "B",
-          "One small coffee, coming up.",
-          "コーヒーの小さいサイズですね。すぐご用意します。"
-        ]
-      ],
-      "phraseLinks": [
-        "p2729",
-        "p2551"
+        "p2780",
+        "p2417",
+        "p2464",
+        "p1971",
+        "p1187"
       ]
     },
     {
       "id": "d184",
       "season": "Season 1",
-      "title": "持ち帰りの注文条件を確認する",
+      "title": "店頭で注文し、追加を断って持ち帰り条件を調整する",
       "category": "日常",
       "lines": [
         [
           "A",
-          "Could I have the chicken salad?",
-          "チキンサラダをいただけますか？"
+          "Hi. Can I help you?",
+          "いらっしゃいませ。ご注文をどうぞ。"
         ],
         [
           "B",
-          "Sure. For here or to go?",
-          "はい。店内でお召し上がりですか、お持ち帰りですか？"
+          "Could I have the chicken salad?",
+          "チキンサラダをいただけますか。"
         ],
         [
           "A",
+          "Sure. Would you like a bread roll with that?",
+          "はい。パンもいかがですか。"
+        ],
+        [
+          "B",
+          "No, thanks. Just the salad.",
+          "いえ、結構です。サラダだけで。"
+        ],
+        [
+          "A",
+          "Are you eating here?",
+          "店内でお召し上がりですか。"
+        ],
+        [
+          "B",
           "To go, please.",
           "持ち帰りでお願いします。"
         ],
         [
-          "B",
+          "A",
           "Okay, I'll add the dressing.",
           "分かりました。ドレッシングをかけますね。"
         ],
         [
+          "B",
+          "Wait a sec—the dressing on the side, please.",
+          "ちょっと待ってください。ドレッシングは別添えでお願いします。"
+        ],
+        [
           "A",
-          "Wait a sec—could I have the dressing on the side?",
-          "ちょっと待ってください。ドレッシングは別添えにしてもらえますか？"
+          "Sure. I'll put it in a separate cup.",
+          "はい。別のカップに入れますね。"
         ],
         [
           "B",
-          "Of course. I'll put it in a separate cup.",
-          "もちろんです。別のカップに入れますね。"
+          "Thanks. Can I pay by card?",
+          "ありがとうございます。カードで払えますか。"
+        ],
+        [
+          "A",
+          "Yes, just tap it here.",
+          "はい、こちらにタッチしてください。"
         ]
       ],
       "phraseLinks": [
         "p2729",
+        "p2551",
         "p1317",
         "p1213",
-        "p2965"
+        "p2965",
+        "p2754",
+        "p2375"
       ]
     },
     {
       "id": "d185",
       "season": "Season 1",
-      "title": "食後に支払いを申し出る",
+      "title": "食事代の申し出と小さな立替金を整理する",
       "category": "日常",
       "lines": [
         [
           "A",
-          "Here's the bill. Shall we split it?",
-          "伝票が来たよ。割り勘にしようか？"
+          "Dinner's on me.",
+          "夕食は私がおごるよ。"
         ],
         [
           "B",
-          "Actually, dinner's on me.",
-          "いや、今夜は私がおごるよ。"
-        ],
-        [
-          "A",
           "You don't have to do that.",
-          "そんなことしなくていいのに。"
-        ],
-        [
-          "B",
-          "I'd like to. You paid last time.",
-          "そうしたいんだ。前回は払ってくれたでしょ。"
+          "そこまでしなくていいよ。"
         ],
         [
           "A",
-          "All right, thank you.",
-          "じゃあ、ありがとう。"
+          "I want to. You helped me move.",
+          "そうしたいんだ。引っ越しを手伝ってくれたから。"
         ],
         [
           "B",
-          "I'll take this up to the counter.",
-          "これをレジに持っていくね。"
+          "We could split it.",
+          "割り勘でもいいんだよ。"
+        ],
+        [
+          "A",
+          "Not tonight. It meant a lot to me.",
+          "今夜はいいの。本当に助かったから。"
+        ],
+        [
+          "B",
+          "Thank you. I'll get dessert another time.",
+          "ありがとう。デザートはまた今度、私が出すね。"
+        ],
+        [
+          "A",
+          "That would be nice.",
+          "それはうれしいな。"
+        ],
+        [
+          "B",
+          "Could you pick up some bread on your way home?",
+          "帰りにパンを買ってきてくれる？"
+        ],
+        [
+          "A",
+          "Sure. I'll leave it at your door.",
+          "いいよ。玄関に置いておくね。"
+        ],
+        [
+          "B",
+          "I'll pay you back for that tomorrow.",
+          "その分は明日返すよ。"
+        ],
+        [
+          "A",
+          "Okay. Text me which kind.",
+          "分かった。どのパンかメッセージして。"
         ]
       ],
       "phraseLinks": [
         "p1318",
         "p1116",
         "p2198",
-        "p2944"
+        "p2944",
+        "p1431",
+        "p2479",
+        "p2642"
       ]
     },
     {
       "id": "d186",
       "season": "Season 1",
-      "title": "休んでいた同僚の回復を気遣う",
+      "title": "復帰した同僚の体調を確認し、今日の仕事と支援時間を決める",
       "category": "日常",
       "lines": [
         [
           "A",
-          "Good to have you back. How do you feel?",
-          "戻ってきてくれてうれしいよ。体調はどう？"
+          "I wasn't expecting you to show up for work today. How do you feel?",
+          "今日は出勤すると思ってなかったよ。体調はどう？"
         ],
         [
           "B",
-          "I feel better, just a little tired.",
-          "良くなったよ。まだ少し疲れてるけど。"
+          "I feel better, but I still get tired pretty easily.",
+          "良くなったけど、まだすぐ疲れるんだ。"
         ],
         [
           "A",
-          "Take it easy today.",
-          "今日は無理しないでね。"
+          "What are you working on this morning?",
+          "今朝は何に取り組んでるの？"
         ],
         [
           "B",
-          "I will. I'm starting with a few emails.",
-          "うん。まずはメールを少し片づけるよ。"
+          "I feel like I can handle the report.",
+          "報告書ならこなせそうな気がする。"
+        ],
+        [
+          "A",
+          "Take it easy. You don't have to finish it today.",
+          "無理しないで。今日仕上げなくてもいいから。"
+        ],
+        [
+          "B",
+          "The phone calls are the hardest part.",
+          "電話対応が一番大変なんだ。"
+        ],
+        [
+          "A",
+          "If it helps, I can handle them this morning.",
+          "その方が助かるなら、午前中は私が対応するよ。"
+        ],
+        [
+          "B",
+          "Could you help me out this afternoon, too?",
+          "午後も手伝ってもらえる？"
+        ],
+        [
+          "A",
+          "Sure, until two.",
+          "いいよ、2時までなら。"
+        ],
+        [
+          "B",
+          "Thanks. That should give me time to finish a draft.",
+          "ありがとう。それなら下書きを仕上げる時間が取れそう。"
+        ],
+        [
+          "A",
+          "Great. Send it over when you're ready.",
+          "じゃあ、できたら送ってね。"
         ]
       ],
       "phraseLinks": [
         "p2593",
         "p1779",
-        "p1428"
+        "p1428",
+        "p1411",
+        "p2432",
+        "p2199",
+        "p3009",
+        "p1333"
       ]
     },
     {
       "id": "d187",
       "season": "Season 1",
-      "title": "初めての挑戦を前に励ます",
+      "title": "初めての発表の冒頭を短く練習する",
       "category": "メンタル",
       "lines": [
         [
           "A",
-          "My first speech is tomorrow, and I don't know what to do. I can't even settle on an opening.",
-          "初めてのスピーチが明日なのに、どうしたらいいか分からない。出だしすら決まらなくて。"
+          "I don't know what to do. My presentation's tomorrow.",
+          "どうしたらいいか分からない。明日発表なのに。"
         ],
         [
           "B",
-          "Try telling me why you picked the topic, just like we're talking now.",
-          "今こうして話してるみたいに、そのテーマを選んだ理由を言ってみて。"
+          "Start with your name and one sentence about the topic.",
+          "名前と、テーマについての一文から始めよう。"
         ],
         [
           "A",
           "That's not a bad idea.",
-          "それはいい案だね。"
+          "それは悪くないね。"
         ],
         [
           "B",
-          "You can do it! Just start with that one sentence.",
-          "できるよ！まずはその一文から始めてみて。"
+          "Anytime you're ready.",
+          "準備ができたらどうぞ。"
         ],
         [
           "A",
-          "Okay, let me try it on you.",
-          "分かった。ちょっと聞いてもらうね。"
+          "Hi, I'm Maya. Today I'll explain our new schedule.",
+          "こんにちは、マヤです。今日は新しい日程を説明します。"
         ],
         [
           "B",
-          "I'm listening.",
-          "聞いてるよ。"
+          "That's a good start.",
+          "いい出だしだよ。"
+        ],
+        [
+          "A",
+          "I rushed it.",
+          "急いで言っちゃった。"
+        ],
+        [
+          "B",
+          "Try it one more time, a little slower.",
+          "もう一度、少しゆっくり言ってみて。"
+        ],
+        [
+          "A",
+          "Hi, I'm Maya. Today I'll explain our new schedule.",
+          "こんにちは、マヤです。今日は新しい日程を説明します。"
+        ],
+        [
+          "B",
+          "You can do it! That was clear.",
+          "できるよ！今のは分かりやすかった。"
+        ],
+        [
+          "A",
+          "Thanks. I'll practice the next part now.",
+          "ありがとう。次の部分を練習するね。"
         ]
       ],
       "phraseLinks": [
         "p1697",
         "p2496",
-        "p2062"
-      ]
-    },
-    {
-      "id": "d188",
-      "season": "Season 1",
-      "title": "会ったあと次の再会につなげる",
-      "category": "日常",
-      "lines": [
-        [
-          "A",
-          "I'd better get going. It was great seeing you.",
-          "そろそろ行かないと。会えて楽しかったよ。"
-        ],
-        [
-          "B",
-          "You too. We should do this again.",
-          "私も。またこうして会おうね。"
-        ],
-        [
-          "A",
-          "Definitely. Take care.",
-          "ぜひ。元気でね。"
-        ],
-        [
-          "B",
-          "You too. See you soon.",
-          "そっちもね。また近いうちに。"
-        ]
-      ],
-      "phraseLinks": [
-        "p2753",
-        "p2402",
-        "p1300",
-        "p1694"
-      ]
-    },
-    {
-      "id": "d189",
-      "season": "Season 1",
-      "title": "話の意図を誤解されたときに修正する",
-      "category": "人間関係",
-      "lines": [
-        [
-          "A",
-          "Could we allow another day for the invitations?",
-          "招待状のために、もう一日取れないかな？"
-        ],
-        [
-          "B",
-          "You think I'm taking too long?",
-          "私が時間をかけすぎてるってこと？"
-        ],
-        [
-          "A",
-          "That's not what I was saying.",
-          "そういう意味で言ったんじゃないよ。"
-        ],
-        [
-          "B",
-          "Then why do we need another day?",
-          "じゃあ、どうしてもう一日必要なの？"
-        ],
-        [
-          "A",
-          "It's not that you're slow; it's that we still don't have the address from the venue.",
-          "作業が遅いからじゃなくて、会場からまだ住所をもらってないからだよ。"
-        ],
-        [
-          "B",
-          "I see. So we're waiting for them.",
-          "なるほど。先方の返事待ちなんだね。"
-        ],
-        [
-          "A",
-          "Exactly. Your part is ready.",
-          "そう。そっちの担当分はもうできてるよ。"
-        ],
-        [
-          "B",
-          "Okay, I'll leave the address blank until they reply.",
-          "分かった。返事が来るまで住所は空欄にしておくね。"
-        ]
-      ],
-      "phraseLinks": [
-        "p2749",
-        "p2377",
-        "p2853"
+        "p2062",
+        "p2535",
+        "p1528",
+        "p3105",
+        "p2626"
       ]
     },
     {
       "id": "d190",
       "season": "Season 1",
-      "title": "途中から参加して話の進行を確認する",
+      "title": "途中参加した打ち合わせの経緯を確認する",
       "category": "仕事",
       "lines": [
         [
           "A",
-          "Did I miss something? The delivery date looks different.",
-          "何か聞き逃した？納品日が変わってるみたいだけど。"
+          "Did I miss something? Why are we moving the event?",
+          "何か聞き逃した？どうしてイベント会場を変えるの？"
         ],
         [
           "B",
-          "We moved it to Thursday so we'll have time to clear the room.",
-          "部屋を片づける時間が取れるように木曜日にしたんだ。"
+          "Dan brought up a problem with the roof.",
+          "ダンが屋根の問題を話題に出したんだ。"
         ],
         [
           "A",
-          "That makes sense. Anything else I should know?",
-          "なるほどね。他に知っておくことはある？"
+          "Can we back up? Which roof?",
+          "少し話を戻してもらえる？どこの屋根？"
         ],
         [
           "B",
-          "Just that we need to move the old desks by Wednesday.",
-          "水曜日までに古い机を移動させる必要があるくらいかな。"
+          "The hall's. It leaks when it rains.",
+          "ホールのだよ。雨が降ると漏れるんだ。"
         ],
         [
           "A",
-          "I can help with that on Wednesday morning.",
-          "水曜の午前中なら手伝えるよ。"
+          "Okay, that makes sense.",
+          "なるほど、それなら分かる。"
         ],
         [
           "B",
-          "Thanks. I'll put your name down.",
-          "ありがとう。担当に名前を入れておくね。"
+          "We're checking another venue.",
+          "別の会場を確認してるところ。"
+        ],
+        [
+          "A",
+          "Anything else I should know?",
+          "ほかに知っておいた方がいいことは？"
+        ],
+        [
+          "B",
+          "We need an answer in time to notify everyone.",
+          "全員に知らせるのに間に合うよう、回答が必要なんだ。"
+        ],
+        [
+          "A",
+          "I'll check on the booking.",
+          "予約の状況を確認するよ。"
+        ],
+        [
+          "B",
+          "Thanks. It's under my name.",
+          "ありがとう。私の名前で取ってある。"
+        ],
+        [
+          "A",
+          "I'll update you after lunch.",
+          "お昼のあとに報告するね。"
         ]
       ],
       "phraseLinks": [
         "p2730",
         "p1233",
-        "p2798"
+        "p2798",
+        "p433",
+        "p2735",
+        "p2539",
+        "p2875"
       ]
     },
     {
       "id": "d191",
       "season": "Season 1",
-      "title": "連絡がつかない相手の状況を確かめる",
+      "title": "連絡がつかない相手への伝言を頼む",
       "category": "日常",
       "lines": [
         [
           "A",
-          "I haven't been able to reach Sam. Is he still there?",
-          "サムに連絡がつかないんだけど、まだそっちにいる？"
+          "I'm trying to reach Nina. Is she there?",
+          "ニナに連絡したいんですが、そちらにいますか。"
         ],
         [
           "B",
-          "I'm pretty sure he's in a meeting upstairs.",
-          "確か上の階で会議中だよ。"
+          "You've got the right office, but she's out.",
+          "こちらの事務所で合っていますが、今は外出中です。"
         ],
         [
           "A",
-          "Do you think he'll be free soon?",
-          "もうすぐ手が空くと思う？"
+          "I wondered if I had the wrong number.",
+          "番号を間違えたかと思いました。"
         ],
         [
           "B",
-          "Hard to tell. They haven't come down yet.",
-          "何とも言えないな。まだ下りてきてないから。"
+          "No. I'm pretty sure she'll return any minute now.",
+          "いいえ。もうすぐ戻るはずです。"
         ],
         [
           "A",
-          "Could you ask him to call me back when you see him? It's not urgent.",
-          "会ったら折り返し電話するよう伝えてくれる？急ぎじゃないから。"
+          "She didn't pick up the phone earlier.",
+          "さっきは電話に出なかったので。"
         ],
         [
           "B",
-          "Of course. I'll pass that on.",
-          "もちろん。伝えておくよ。"
+          "It's hard to tell when she's free today.",
+          "今日はいつ手が空くか分かりにくいんです。"
+        ],
+        [
+          "A",
+          "Could you ask her to call me back?",
+          "折り返し電話をもらうよう伝えていただけますか。"
+        ],
+        [
+          "B",
+          "Of course. What should I say?",
+          "もちろんです。何と伝えましょう。"
+        ],
+        [
+          "A",
+          "Just that I wanted to check in before tomorrow's visit.",
+          "明日の訪問前に一度連絡しておきたかった、とだけ。"
+        ],
+        [
+          "B",
+          "I'll tell her. She has your number?",
+          "伝えます。番号は分かっていますか。"
+        ],
+        [
+          "A",
+          "Yes, thanks.",
+          "はい、ありがとうございます。"
         ]
       ],
       "phraseLinks": [
         "p3135",
         "p1190",
         "p2698",
-        "p1562"
+        "p1562",
+        "p2350",
+        "p3074",
+        "p1159",
+        "p1250"
       ]
     },
     {
       "id": "d192",
       "season": "Season 1",
-      "title": "家事の分担を相談する",
+      "title": "家事を分担し、道具を片付ける",
       "category": "日常",
       "lines": [
         [
           "A",
-          "I need help with the kitchen tonight. We've got the dishes and the floor.",
-          "今夜、台所の片づけを手伝ってほしい。皿洗いと床掃除があるんだ。"
+          "I need your help with the kitchen tonight.",
+          "今夜、台所を片付けるのを手伝ってほしい。"
         ],
         [
           "B",
-          "Which would you rather do?",
-          "どっちをやりたい？"
+          "Sure. Dishes or floor?",
+          "いいよ。お皿と床、どっち？"
         ],
         [
           "A",
           "It doesn't matter to me.",
-          "どっちでもいいよ。"
+          "私はどっちでもいいよ。"
         ],
         [
           "B",
-          "I'll take care of the dishes, then.",
-          "じゃあ私がお皿を片づけるね。"
+          "I'll take care of the dishes.",
+          "じゃあ、お皿は私がやる。"
         ],
         [
           "A",
           "Okay, I'll do the floor while you do the dishes.",
-          "分かった。お皿を洗ってる間に床をやるよ。"
+          "分かった。お皿を洗ってる間に、私は床をやるね。"
         ],
         [
           "B",
-          "I'll move these chairs out of your way first.",
-          "先にこの椅子をどけておくね。"
+          "Which cleaner should we use?",
+          "洗剤はどれにする？"
+        ],
+        [
+          "A",
+          "Let's go with the mild one.",
+          "刺激の弱い方にしよう。"
+        ],
+        [
+          "B",
+          "Can you pick up that towel first?",
+          "先にそのタオルを拾ってくれる？"
+        ],
+        [
+          "A",
+          "Yes. Where should I put it back?",
+          "うん。どこに戻せばいい？"
+        ],
+        [
+          "B",
+          "On the hook. Then let's get to work.",
+          "フックにかけて。それから取りかかろう。"
+        ],
+        [
+          "A",
+          "I'll start over here.",
+          "私はこっちから始めるね。"
         ]
       ],
       "phraseLinks": [
         "p2303",
         "p1230",
-        "p1217"
-      ]
-    },
-    {
-      "id": "d193",
-      "season": "Season 1",
-      "title": "お茶を出して来客を迎える",
-      "category": "日常",
-      "lines": [
-        [
-          "A",
-          "Come in! Can I get you some tea?",
-          "どうぞ入って！お茶でもいかが？"
-        ],
-        [
-          "B",
-          "I wouldn't mind a cup, thanks.",
-          "一杯いただけるとうれしいな。ありがとう。"
-        ],
-        [
-          "A",
-          "Make yourself at home. I'll put the kettle on.",
-          "くつろいでてね。お湯を沸かすから。"
-        ],
-        [
-          "B",
-          "Thanks, I will.",
-          "ありがとう。そうさせてもらうね。"
-        ]
-      ],
-      "phraseLinks": [
-        "p2351",
-        "p1946",
-        "p1227"
+        "p1217",
+        "p1670",
+        "p2790",
+        "p3076",
+        "p1212"
       ]
     },
     {
       "id": "d194",
       "season": "Season 1",
-      "title": "面接の結果を友人に話す",
+      "title": "面接後の驚きと手応えを話す",
       "category": "雑談",
       "lines": [
         [
@@ -29776,352 +29974,566 @@
         ],
         [
           "B",
-          "I can't believe I forgot the interviewer's name halfway through.",
-          "途中で面接官の名前を忘れるなんて、自分でも信じられない。"
+          "I can't believe they offered me the job.",
+          "採用してくれたなんて信じられない。"
         ],
         [
           "A",
-          "Oh, did you have to ask again?",
-          "え、もう一度聞いたの？"
+          "Already?",
+          "もう？"
         ],
         [
           "B",
-          "Yeah. I felt so awkward.",
-          "うん。すごく気まずかった。"
+          "Yes. For the first time, I answered without freezing.",
+          "うん。初めて、固まらずに答えられたんだ。"
         ],
         [
           "A",
-          "I can imagine. Was the rest any better?",
-          "そうだろうね。他はもう少しうまくいった？"
+          "You must be relieved.",
+          "ほっとしたでしょう。"
         ],
         [
           "B",
-          "Yeah, once we started talking about the actual job.",
-          "うん、実際の仕事内容の話になってからはね。"
+          "You should have seen my face when they told me.",
+          "知らされたときの私の顔、見せたかったよ。"
+        ],
+        [
+          "A",
+          "I can imagine.",
+          "想像できるよ。"
+        ],
+        [
+          "B",
+          "I can't remember the last time I felt this confident.",
+          "こんなに自信が持てたの、いつ以来か思い出せない。"
+        ],
+        [
+          "A",
+          "I knew things would work out.",
+          "きっとうまくいくと思ってたよ。"
+        ],
+        [
+          "B",
+          "I start Monday.",
+          "月曜から働くんだ。"
+        ],
+        [
+          "A",
+          "Then let's celebrate this weekend.",
+          "じゃあ週末にお祝いしよう。"
         ]
       ],
       "phraseLinks": [
         "p1146",
         "p1912",
-        "p2598"
+        "p2598",
+        "p2189",
+        "p2905",
+        "p2959",
+        "p1128"
       ]
     },
     {
       "id": "d195",
       "season": "Season 1",
-      "title": "写真を共有してよいか確認する",
+      "title": "写真の共有範囲を確認し、誤解を解く",
       "category": "人間関係",
       "lines": [
         [
           "A",
-          "I was hoping we could post this photo from yesterday.",
-          "昨日のこの写真を投稿できたらと思ってるんだけど。"
+          "I was hoping you could send me that group photo.",
+          "あの集合写真を送ってもらえたらと思って。"
         ],
         [
           "B",
-          "Which one?",
-          "どの写真？"
+          "Are you comfortable with everyone seeing it?",
+          "みんなに見られても大丈夫なの？"
         ],
         [
           "A",
-          "This one of us by the lake. Are you comfortable with me sharing it?",
-          "湖のそばで一緒に写ってるこれ。共有しても抵抗ない？"
+          "What do you mean?",
+          "どういうこと？"
         ],
         [
           "B",
-          "I'm fine with that, as long as it's just in our group chat.",
-          "私たちのグループチャットだけなら大丈夫だよ。"
+          "I thought you wanted me to post it online.",
+          "ネットに投稿してほしいのかと思った。"
         ],
         [
           "A",
-          "Just the group chat, then. I won't post it anywhere else.",
-          "じゃあグループチャットだけね。他には投稿しないよ。"
+          "That's not what I was saying.",
+          "そういうことを言ってたんじゃないよ。"
         ],
         [
           "B",
-          "Thanks for asking.",
-          "聞いてくれてありがとう。"
+          "Oh. Just send it to you?",
+          "ああ、あなたに送るだけ？"
+        ],
+        [
+          "A",
+          "Yes. It's not that I dislike it; it's that I want a private copy.",
+          "うん。写真が嫌なんじゃなくて、自分用に一枚ほしいんだ。"
+        ],
+        [
+          "B",
+          "I see. Can I keep mine?",
+          "なるほど。自分の分は持っていてもいい？"
+        ],
+        [
+          "A",
+          "I'm fine with that. I mean, sharing privately is okay.",
+          "それは構わないよ。つまり、個人的に共有するのはいいんだ。"
+        ],
+        [
+          "B",
+          "Then I'll send it now.",
+          "じゃあ今送るね。"
+        ],
+        [
+          "A",
+          "Thanks. That's all I wanted.",
+          "ありがとう。それだけお願いしたかったんだ。"
         ]
       ],
       "phraseLinks": [
+        "p2749",
+        "p2377",
+        "p2853",
         "p2388",
         "p2352",
-        "p1461"
+        "p1461",
+        "p1663",
+        "p2733"
       ]
     },
     {
       "id": "d196",
       "season": "Season 1",
-      "title": "予定外の空き時間をどう使うか決める",
+      "title": "空き時間の用事を決めて出発する",
       "category": "日常",
       "lines": [
         [
           "A",
-          "We've got half an hour before the train.",
-          "電車まで30分あるね。"
+          "We have an hour before the movie.",
+          "映画まで1時間あるよ。"
         ],
         [
           "B",
-          "Might as well get a coffee while we wait.",
-          "待ってる間にコーヒーでも飲もうか。"
+          "Might as well take a walk.",
+          "せっかくだし散歩しようか。"
         ],
         [
           "A",
-          "I'd rather take a walk. I've been sitting all afternoon.",
-          "それより散歩したいな。午後はずっと座ってたから。"
+          "I'd rather get something to eat.",
+          "私は何か食べる方がいいな。"
         ],
         [
           "B",
-          "There's a little park across the street.",
-          "通りの向こうに小さな公園があるよ。"
+          "We could pick up sandwiches and eat in the park.",
+          "サンドイッチを買って、公園で食べてもいいよ。"
         ],
         [
           "A",
-          "Let's go with that. We can be back in twenty minutes.",
-          "じゃあそれにしよう。20分で戻ってこられるし。"
+          "Let's go with that.",
+          "それにしよう。"
         ],
         [
           "B",
-          "Yeah, that'll leave us time to get to the platform.",
-          "うん、それならホームに行く時間もあるね。"
+          "The park's ten minutes away.",
+          "公園までは10分だよ。"
+        ],
+        [
+          "A",
+          "Will we get back in time?",
+          "戻ってくるのは間に合う？"
+        ],
+        [
+          "B",
+          "Yes, if we leave now. What do you say?",
+          "今出ればね。どう？"
+        ],
+        [
+          "A",
+          "I'm getting my jacket. I'll be right there.",
+          "上着を取ってる。すぐそっちに行くよ。"
+        ],
+        [
+          "B",
+          "I'll wait by the stairs.",
+          "階段のそばで待ってるね。"
+        ],
+        [
+          "A",
+          "Ready. Let's go.",
+          "準備できた。行こう。"
         ]
       ],
       "phraseLinks": [
         "p1313",
         "p2988",
         "p1212",
-        "p2996"
+        "p2996",
+        "p2479",
+        "p2875",
+        "p2134",
+        "p2529"
       ]
     },
     {
       "id": "d197",
       "season": "Season 1",
-      "title": "共通の趣味を見つける",
+      "title": "音楽の好みが合い、次の予定を作る",
       "category": "雑談",
       "lines": [
         [
           "A",
-          "Is that a soul playlist? I listen to that stuff all the time.",
-          "それ、ソウルのプレイリスト？そういう音楽、いつも聴いてるよ。"
+          "Check this out. I found an old soul playlist.",
+          "これ見て。昔のソウルのプレイリストを見つけた。"
         ],
         [
           "B",
-          "Me too. I especially love those live recordings.",
-          "私も。特にライブ音源が大好き。"
+          "I listen to that stuff all the time.",
+          "そういうの、しょっちゅう聴いてるよ。"
         ],
         [
           "A",
-          "Those are my favorites. We have the same taste in music.",
-          "私もそれが一番好き。音楽の好みが同じだね。"
+          "Me too. Especially this singer.",
+          "私も。特にこの歌手が好き。"
         ],
         [
           "B",
-          "Apparently! Do you ever listen to records at home?",
-          "みたいだね！家ではレコードも聴く？"
+          "We have the same taste in music.",
+          "音楽の好みが同じだね。"
         ],
         [
           "A",
-          "Yeah. We should hang out and play a few sometime.",
-          "うん。今度一緒にのんびり何枚か聴こうよ。"
+          "There's a tribute show on Friday.",
+          "金曜にトリビュートライブがあるよ。"
         ],
         [
           "B",
-          "I'd like that. I've got a couple I could bring.",
-          "いいね。持っていけるのが何枚かあるよ。"
+          "Want to hang out before it starts?",
+          "始まる前に一緒に過ごさない？"
+        ],
+        [
+          "A",
+          "Yes. We could get dinner nearby.",
+          "うん。近くで夕食を食べよう。"
+        ],
+        [
+          "B",
+          "We're going to have a great time.",
+          "すごく楽しい時間になりそう。"
+        ],
+        [
+          "A",
+          "I can't wait to hear these songs live.",
+          "この曲を生で聴くのが待ちきれない。"
+        ],
+        [
+          "B",
+          "I'll send you the ticket link.",
+          "チケットのリンクを送るね。"
+        ],
+        [
+          "A",
+          "Thanks. I'll book tonight.",
+          "ありがとう。今夜予約するよ。"
         ]
       ],
       "phraseLinks": [
         "p1381",
         "p1915",
-        "p1105"
+        "p1105",
+        "p1570",
+        "p2631",
+        "p2425",
+        "p1944"
       ]
     },
     {
       "id": "d198",
       "season": "Season 1",
-      "title": "交際相手との小さな不安を相談する",
+      "title": "交際相手への心配を本人に確かめる",
       "category": "恋愛",
       "lines": [
         [
           "A",
           "Can we talk for a sec?",
-          "ちょっと話してもいい？"
+          "ちょっと話せる？"
         ],
         [
           "B",
-          "Yeah. What's on your mind?",
-          "うん。どうしたの？"
+          "Sure. Is everything all right?",
+          "いいよ。大丈夫？"
         ],
         [
           "A",
-          "You've been so quiet lately. I'm worried about you.",
-          "最近ずっと静かだね。心配してるんだ。"
+          "I'm worried about you. You've been quiet.",
+          "あなたが心配なんだ。ずっと静かだから。"
         ],
         [
           "B",
-          "Work's been tiring. I don't have much to say when I get home.",
-          "仕事で疲れてて。帰ってくるとあまり話すことがないんだ。"
+          "I've had a tiring week.",
+          "疲れる一週間だったんだ。"
         ],
         [
           "A",
-          "Does that mean you'd rather spend the evening alone?",
-          "それって、夜は一人で過ごしたいってこと？"
+          "Does that mean you don't want to see me?",
+          "それって、私に会いたくないってこと？"
         ],
         [
           "B",
-          "Not necessarily. Sitting together without talking would be nice.",
-          "必ずしもそうじゃないよ。話さずに一緒に座っていられたらうれしいな。"
+          "Not necessarily. I just don't feel like going out tonight.",
+          "そうとは限らないよ。ただ今夜は外に出る気がしないだけ。"
         ],
         [
           "A",
-          "Okay. Just tell me when you need some space.",
-          "分かった。一人になりたいときは言ってね。"
+          "Could we talk to each other about our plans earlier?",
+          "予定について、もう少し早くお互いに話せるかな？"
         ],
         [
           "B",
-          "I will. Thanks for checking.",
-          "うん。気にかけてくれてありがとう。"
+          "Yes. I should have told you.",
+          "うん。先に伝えればよかったね。"
+        ],
+        [
+          "A",
+          "That would mean a lot to me.",
+          "そうしてもらえると本当にうれしい。"
+        ],
+        [
+          "B",
+          "Let's stay in and order something.",
+          "家にいて、何か頼もう。"
+        ],
+        [
+          "A",
+          "I'd like that.",
+          "そうしたいな。"
         ]
       ],
       "phraseLinks": [
         "p2704",
         "p1929",
-        "p3059"
+        "p3059",
+        "p1214",
+        "p1112",
+        "p1928",
+        "p2642"
       ]
     },
     {
       "id": "d199",
       "season": "Season 1",
-      "title": "友人との意見の違いを相談する",
+      "title": "友人との意見の違いを条件から整理する",
       "category": "相談",
       "lines": [
         [
           "A",
-          "Alex and I get along, but planning this trip has been tricky.",
-          "アレックスとは仲がいいんだけど、今回の旅行の計画には苦労してるんだ。"
+          "We get along, but we can't agree on the trip.",
+          "仲はいいけど、旅行について合意できないんだ。"
         ],
         [
           "B",
-          "What are you disagreeing about?",
-          "何で意見が違うの？"
+          "Here's the deal: you both need a clear budget.",
+          "つまり、二人ともはっきりした予算が必要なんだよ。"
         ],
         [
           "A",
-          "He wants to plan every hour. I'd like some time to just wander.",
-          "彼は一時間ごとに予定を決めたがるんだ。私はぶらぶらする時間も欲しくて。"
+          "Don't get me wrong. I like her hotel choice.",
+          "誤解しないで。彼女が選んだホテルは好きなんだ。"
         ],
         [
           "B",
-          "I'm with you. A packed schedule can be exhausting.",
-          "分かるよ。予定がぎっしりだと疲れるもんね。"
+          "It's the price?",
+          "値段の問題？"
         ],
         [
           "A",
-          "I don't mean to be difficult, but I don't want every afternoon booked.",
-          "面倒なことを言うつもりはないけど、毎日午後まで予定で埋めたくないんだ。"
+          "Yes. I don't mean to be rude, but she's ignoring my limit.",
+          "うん。失礼なことを言うつもりはないけど、私の上限を無視してる。"
         ],
         [
           "B",
-          "Could you agree on one activity a day and leave the rest open?",
-          "一日に一つ予定を決めて、あとは空けておくことで合意できないかな？"
+          "I'm with you. Tell her the amount again.",
+          "分かるよ。金額をもう一度伝えて。"
         ],
         [
           "A",
-          "I could suggest that. He'd still have something to look forward to.",
-          "提案してみようかな。それなら彼にも楽しみにするものがあるし。"
+          "I hope she understands.",
+          "分かってくれるといいな。"
         ],
         [
           "B",
-          "And you'd have some room to explore.",
-          "それに、自由に見て回る余裕もできるね。"
+          "Look at it this way: a cheaper room means more for meals.",
+          "こう考えてみて。部屋が安ければ食事にもっと使える。"
+        ],
+        [
+          "A",
+          "That's something we'd both enjoy.",
+          "それなら二人とも楽しめるね。"
+        ],
+        [
+          "B",
+          "Show her two options.",
+          "選択肢を二つ見せてみて。"
+        ],
+        [
+          "A",
+          "I'll do that tonight.",
+          "今夜そうするよ。"
         ]
       ],
       "phraseLinks": [
         "p1223",
         "p2239",
         "p2603",
-        "p1135"
+        "p1135",
+        "p337",
+        "p1924",
+        "p1124",
+        "p1188"
       ]
     },
     {
       "id": "d200",
       "season": "Season 1",
-      "title": "同じ連絡ミスを繰り返さないと約束する",
+      "title": "連絡ミスを認め、訂正と再発防止を伝える",
       "category": "仕事",
       "lines": [
         [
           "A",
-          "I forgot to let you know about the room change. Sorry for the inconvenience.",
-          "部屋が変わったことを知らせ忘れていました。ご迷惑をおかけしました。"
+          "There's something you should know. The room changed yesterday.",
+          "知っておいてほしいことがあるんです。昨日、部屋が変更になりました。"
         ],
         [
           "B",
-          "I went to the old room, but someone pointed me here.",
-          "元の部屋に行ったけど、ここだと教えてもらったよ。"
+          "I went to the old room.",
+          "前の部屋に行ってしまいました。"
         ],
         [
           "A",
-          "Won't happen again. I'll make sure everyone gets the update next time.",
-          "もう繰り返しません。次回は全員に変更が届くようにします。"
+          "Sorry for the inconvenience. I forgot to notify you.",
+          "ご不便をおかけして申し訳ありません。連絡を忘れていました。"
         ],
         [
           "B",
-          "Don't worry about it. I only missed a minute.",
-          "気にしないで。ほんの一分ほど聞き逃しただけだから。"
+          "Don't worry about it. Where are we now?",
+          "気にしないで。今度はどこですか。"
         ],
         [
           "A",
-          "I'll add you to the meeting list now so you get the notices directly.",
-          "直接通知が届くよう、今、会議の配信リストに追加しますね。"
+          "Room six. I'll give you a call before the next meeting.",
+          "6号室です。次の会議の前には電話します。"
         ],
         [
           "B",
-          "Thanks. That should take care of it.",
-          "ありがとう。それで大丈夫そうだね。"
+          "Can you update the calendar, too?",
+          "カレンダーも更新してもらえますか。"
+        ],
+        [
+          "A",
+          "Yes, right away. I'll look into why the alert failed.",
+          "はい、すぐに。通知が届かなかった理由も調べます。"
+        ],
+        [
+          "B",
+          "Thanks.",
+          "ありがとうございます。"
+        ],
+        [
+          "A",
+          "I'll make sure everyone gets the new details.",
+          "新しい情報が全員に届くよう確認します。"
+        ],
+        [
+          "B",
+          "Good. Shall we go in?",
+          "では、中に入りましょうか。"
+        ],
+        [
+          "A",
+          "Yes. Won't happen again.",
+          "はい。二度と繰り返しません。"
         ]
       ],
       "phraseLinks": [
         "p1277",
         "p2411",
         "p2056",
-        "p2650"
+        "p2650",
+        "p3088",
+        "p1964",
+        "p2583",
+        "p2503"
       ]
     },
     {
       "id": "d201",
       "season": "Season 1",
-      "title": "試着した服を選ぶ",
+      "title": "試着してサイズと返品条件を確かめる",
       "category": "日常",
       "lines": [
         [
           "A",
-          "I tried on the blue jacket. It fits, but it's more than I planned to spend.",
-          "青いジャケットを試着したよ。サイズは合うけど、予算より高いんだ。"
+          "Can I try this jacket on?",
+          "このジャケットを試着してもいい？"
         ],
         [
           "B",
-          "Would it be worth it if you wore it to work?",
-          "仕事にも着ていくなら、その価値はありそう？"
+          "Sure. There's a mirror over here.",
+          "うん。こっちに鏡があるよ。"
         ],
         [
           "A",
-          "Probably. I'd get a lot of use out of it.",
-          "多分ね。かなり出番がありそう。"
+          "How do I look?",
+          "どう、似合ってる？"
         ],
         [
           "B",
-          "Have you changed your mind about the gray one?",
-          "グレーの方から気が変わったの？"
+          "It looks great on you. Does it fit?",
+          "すごく似合ってる。サイズは合ってる？"
         ],
         [
           "A",
-          "Yeah, I'm going with the blue one.",
-          "うん、青い方にする。"
+          "The sleeves are a little tight.",
+          "袖が少しきついな。"
         ],
         [
           "B",
-          "Good choice. You seem much happier in that one.",
-          "いい選択だね。そっちを着てる方がずっとうれしそう。"
+          "Try the next size.",
+          "一つ上のサイズを試してみて。"
+        ],
+        [
+          "A",
+          "Much better. Is it worth it at this price?",
+          "ずっといい。この値段を出す価値はあるかな？"
+        ],
+        [
+          "B",
+          "You'll wear it often. And you can take it back.",
+          "よく着ると思うよ。それに返品もできる。"
+        ],
+        [
+          "A",
+          "If I change my mind?",
+          "気が変わったら？"
+        ],
+        [
+          "B",
+          "Yes, with the tags attached.",
+          "うん、タグをつけたままなら。"
+        ],
+        [
+          "A",
+          "Then I'll buy it.",
+          "じゃあ買うよ。"
+        ],
+        [
+          "B",
+          "Good choice.",
+          "いい選択だね。"
         ]
       ],
       "phraseLinks": [
@@ -30129,167 +30541,228 @@
         "p1187",
         "p2857",
         "p2859",
-        "p2860"
+        "p2860",
+        "p2783",
+        "p2291",
+        "p2464"
       ]
     },
     {
       "id": "d202",
       "season": "Season 1",
-      "title": "帰宅後に小さな不具合を相談する",
+      "title": "機器の使い方とトラブルを一緒に確認する",
       "category": "トラブル",
       "lines": [
         [
           "A",
-          "I'm having trouble with the printer.",
-          "プリンターの調子が悪くて困ってるんだ。"
+          "How does this work?",
+          "これ、どうやって使うの？"
         ],
         [
           "B",
-          "What happens when you try to print?",
-          "印刷しようとするとどうなるの？"
+          "Start with the power button.",
+          "まず電源ボタンを押して。"
         ],
         [
           "A",
-          "The document just stays in the queue. Nothing comes out.",
-          "文書が印刷待ちのままで、何も出てこない。"
+          "Okay. I have trouble with this printer every time.",
+          "分かった。このプリンター、毎回うまく使えないんだ。"
         ],
         [
           "B",
-          "When did it go wrong?",
-          "いつからおかしくなったの？"
+          "Let's go over the settings. Choose the second option.",
+          "設定を確認しよう。2番目の項目を選んで。"
         ],
         [
           "A",
-          "This afternoon. It printed fine yesterday.",
-          "今日の午後。昨日は普通に印刷できたよ。"
+          "Not following you. Second option where?",
+          "話についていけてない。その2番目ってどこ？"
         ],
         [
           "B",
-          "Let's go over what you tried before we change anything.",
-          "何か変える前に、試したことを一緒に確認しよう。"
+          "On the screen, under Paper.",
+          "画面の「用紙」の下だよ。"
         ],
         [
           "A",
-          "So far, I've only canceled the job and sent it again.",
-          "今のところ、印刷をキャンセルしてもう一度送っただけ。"
+          "Got it. Now it's flashing red.",
+          "分かった。今度は赤く点滅してる。"
         ],
         [
           "B",
-          "All right. Show me what comes up on the screen.",
-          "分かった。画面に何が出るか見せて。"
+          "What could go wrong with a brand-new printer?",
+          "新品のプリンターなのに、何が問題なんだろう？"
+        ],
+        [
+          "A",
+          "Maybe the tray isn't closed.",
+          "トレーが閉まってないのかも。"
+        ],
+        [
+          "B",
+          "That could be it. Push it in.",
+          "それかもしれないね。押し込んでみて。"
+        ],
+        [
+          "A",
+          "There. It's printing now.",
+          "よし、印刷が始まった。"
         ]
       ],
       "phraseLinks": [
+        "p2705",
+        "p3138",
+        "p1582",
         "p2699",
         "p2488",
-        "p1349"
+        "p1349",
+        "p2535",
+        "p2807"
       ]
     },
     {
       "id": "d203",
       "season": "Season 1",
-      "title": "つらい出来事を引きずる友人を支える",
+      "title": "つらい友人が必要な支え方を選べるようにする",
       "category": "メンタル",
       "lines": [
         [
           "A",
-          "I thought I'd be over losing that job by now. It still hits me in the morning.",
-          "あの仕事を失ったこと、もう立ち直れてると思ってた。今でも朝になるとつらくなるんだ。"
+          "I still keep thinking about the breakup.",
+          "まだ別れたことばかり考えちゃう。"
         ],
         [
           "B",
-          "That's tough. Do you want to talk about it?",
-          "それはつらいね。話したい？"
+          "That's tough.",
+          "それはつらいね。"
         ],
         [
           "A",
-          "Maybe. I feel like I've told you the same story ten times.",
-          "そうかも。でも同じ話を十回もしてる気がする。"
+          "I've told you the same story three times.",
+          "同じ話をもう3回もしたよね。"
         ],
         [
           "B",
-          "Don't feel bad about bringing it up again.",
-          "またその話をすることを気にしなくていいよ。"
+          "Don't feel bad. I want to be there for you.",
+          "気に病まないで。そばで支えたいんだ。"
         ],
         [
           "A",
-          "I don't need advice. I just don't want to sit with it alone tonight.",
-          "助言が欲しいんじゃないんだ。ただ今夜は一人で抱えたくなくて。"
+          "I don't feel like talking tonight, though.",
+          "でも今夜は話す気になれないんだ。"
         ],
         [
           "B",
-          "I'm here for you. We can talk, or I can just stay a while.",
-          "そばにいるよ。話してもいいし、ただしばらく一緒にいてもいい。"
+          "Then we don't have to.",
+          "じゃあ話さなくていいよ。"
         ],
         [
           "A",
-          "Could you stay? I might not say much.",
-          "いてくれる？あまり話さないかもしれないけど。"
+          "I could use some company.",
+          "誰かがいてくれると助かる。"
         ],
         [
           "B",
-          "Of course. We don't have to talk.",
-          "もちろん。話さなくてもいいよ。"
+          "I'll stay. We look out for each other.",
+          "ここにいるよ。お互いに気にかけ合ってるんだから。"
+        ],
+        [
+          "A",
+          "That means a lot to me.",
+          "そう言ってもらえて本当にうれしい。"
+        ],
+        [
+          "B",
+          "Want some tea?",
+          "お茶はいる？"
+        ],
+        [
+          "A",
+          "Yes. Let's just sit here.",
+          "うん。ただここに座っていよう。"
         ]
       ],
       "phraseLinks": [
         "p2752",
         "p1289",
-        "p3082"
+        "p3082",
+        "p1112",
+        "p2642",
+        "p1136",
+        "p1379"
       ]
     },
     {
       "id": "d204",
       "season": "Season 1",
-      "title": "仕事の案を再検討して合意する",
+      "title": "小規模テストの担当と判断条件を決める",
       "category": "仕事",
       "lines": [
         [
           "A",
-          "I was going to send the new sign-up form to everyone tomorrow.",
-          "新しい申込フォームを明日全員に送ろうと思ってたんだ。"
+          "The way I see it, the new system could save time.",
+          "私は、新しい仕組みで時間を節約できると思う。"
         ],
         [
           "B",
-          "The way I see it, we should try it with a few people first.",
-          "私としては、まず何人かに試してもらった方がいいと思う。"
+          "Can we go over the costs first?",
+          "先に費用を確認できる？"
         ],
         [
           "A",
-          "You're worried some of the questions aren't clear?",
-          "分かりにくい質問があるかもしれないってこと？"
+          "Yes. What if we test it with one team?",
+          "うん。一つのチームで試したらどうかな？"
         ],
         [
           "B",
-          "Exactly. What if we test it with five people tomorrow?",
-          "そう。明日五人に試してもらったらどうかな？"
+          "I'll look into the trial price.",
+          "お試しの料金を調べるよ。"
         ],
         [
           "A",
-          "That would still let us get started. When would we make a decision about using it for everyone?",
-          "それなら取りかかれるね。全員に使ってもらうかは、いつ決める？"
+          "Then we can get started Monday.",
+          "それなら月曜に始められるね。"
         ],
         [
           "B",
-          "After we see their answers. We can go over anything they found confusing.",
-          "回答を見てから。分かりにくかった点を一緒に確認しよう。"
+          "Who'll run the test?",
+          "誰がテストを担当する？"
         ],
         [
           "A",
-          "Let's do that. I'll send it to five people, then we'll review it together.",
-          "そうしよう。私が五人に送って、そのあと一緒に見直そう。"
+          "I will. Can you back me up with the training?",
+          "私がやるよ。研修の方を手伝ってくれる？"
         ],
         [
           "B",
-          "And we'll fix any unclear questions before sending it to the rest.",
-          "それで、残りの人に送る前に分かりにくい質問を直そう。"
+          "Yes. When do we make a decision?",
+          "うん。いつ導入を決める？"
+        ],
+        [
+          "A",
+          "After two weeks, if it saves an hour a day.",
+          "2週間後。一日1時間節約できていたらね。"
+        ],
+        [
+          "B",
+          "That should help us make the right choice.",
+          "それなら適切に判断できそうだね。"
+        ],
+        [
+          "A",
+          "I'll write down those conditions.",
+          "その条件を書いておくよ。"
         ]
       ],
       "phraseLinks": [
         "p1183",
         "p1909",
         "p2657",
-        "p1349"
+        "p1349",
+        "p1283",
+        "p2583",
+        "p1401",
+        "p1178"
       ]
     }
   ]

@@ -7,8 +7,8 @@ const translations=require('./fixtures/friends-s2-dialogue-jp.json');
 const plain=x=>JSON.parse(JSON.stringify(x)),hash=x=>crypto.createHash('sha256').update(JSON.stringify(x)).digest('hex');
 const byId=new Map(dialogues.map(d=>[d.id,d])),phraseById=new Map(phrases.map(p=>[p.id,p]));
 assert.equal(phrases.length,3106);assert.equal(phraseById.size,3106);
-assert.equal(dialogues.length,208);assert.equal(byId.size,208);assert.equal(Math.max(...dialogues.map(d=>+d.id.slice(1))),214);
-assert.equal(dialogues.filter(d=>d.season==='Season 2').length,20);assert.equal(dialogues.filter(d=>d.season==='Season 1').length,51);
+assert.equal(dialogues.length,200);assert.equal(byId.size,200);assert.equal(Math.max(...dialogues.map(d=>+d.id.slice(1))),214);
+assert.equal(dialogues.filter(d=>d.season==='Season 2').length,20);assert.equal(dialogues.filter(d=>d.season==='Season 1').length,43);
 for(const [file,want] of Object.entries(baseline.phraseHashes))assert.equal(hash(JSON.parse(fs.readFileSync(file)).phrases),want,'all Phrase fields and physical order unchanged');
 const original=new Map(baseline.originalS2.map(d=>[d.id,d]));
 const counts={NEW:0,REWRITE:0,MINOR_EDIT:0,DROP:0,NONE:0};
@@ -19,6 +19,7 @@ for(const [id,action] of Object.entries(baseline.actions)){
  if(action.action==='NONE')assert.deepEqual(byId.get(id),original.get(id),'KEEP complete record unchanged');
 }
 for(const [id,want] of Object.entries(baseline.dialogueHashes)){
+ if(!original.has(id))continue;
  if(baseline.actions[id]&&baseline.actions[id].action!=='NONE')continue;
  assert.equal(hash(byId.get(id)),want,'unrelated Dialogue and KEEP unchanged '+id);
 }
@@ -54,7 +55,7 @@ for(const f of draft.drafts){
 assert.deepEqual(counts,{NEW:10,REWRITE:3,MINOR_EDIT:4,DROP:6,NONE:3});
 assert.deepEqual({compatible,auto,existing,added},{compatible:45,auto:42,existing:2,added:1});
 const exclusions=plain(vm.runInContext('DIALOGUE_HIGHLIGHT_EXCLUSIONS',c));
-assert.equal(Object.keys(exclusions).length,7);
+assert.equal(Object.keys(exclusions).length,6);
 let fullAuto=0,fullExplicit=0,excluded=0;
 for(const d of dialogues){
  assert.equal(new Set(d.phraseLinks).size,d.phraseLinks.length);
@@ -69,12 +70,12 @@ for(const r of rows){
  if(exclusions[r.dialogueId+'|'+r.phraseId]){assert.equal(r.ranges.length,0);excluded++;}
  else{assert.ok(r.ranges.length,'unexplained miss '+r.dialogueId+'/'+r.phraseId);if(r.ranges[0].source==='matcher')fullAuto++;else fullExplicit++;}
 }
-assert.equal(rows.length,1012);assert.deepEqual({fullAuto,fullExplicit,excluded},{fullAuto:850,fullExplicit:155,excluded:7});
+assert.equal(rows.length,1115);assert.deepEqual({fullAuto,fullExplicit,excluded},{fullAuto:954,fullExplicit:155,excluded:6});
 Object.keys(exclusions).forEach(key=>assert.ok(rows.some(r=>r.dialogueId+'|'+r.phraseId===key),'no stale exclusion'));
 const hints=plain(vm.runInContext('DIALOGUE_EXPLICIT_MATCH_HINTS',c));assert.ok(!Object.keys(hints).some(k=>k.startsWith('S2-SEED-')));
 assert.equal(hints['d208|p2229'].dialogueId,'d208');
 // Saved learned IDs from deleted dialogues never inflate progress or crash lookup.
 const app=fs.readFileSync('js/app.js','utf8'),progress={DIALOGUES:dialogues,learnedDialogueIds:()=>['d12','d13','d16','d20','d23','d24','d205'],getCompletionPercent:(n,t)=>Math.round(n/t*100)};
 vm.createContext(progress);vm.runInContext(app.split(/\r?\n/).find(l=>l.startsWith('function dialogueProgressFor(')),progress);
-assert.deepEqual(plain(progress.dialogueProgressFor()),{learned:1,total:208,remaining:207,percent:0});
-console.log('S2 production: 208 / S2 20; 10 NEW, 3 REWRITE, 4 MINOR, 6 DROP, 3 KEEP; exact English/JP/links; 45/45; all 1012 links covered, 7 approved exclusions; Phrase/S1 unchanged PASS');
+assert.deepEqual(plain(progress.dialogueProgressFor()),{learned:1,total:200,remaining:199,percent:1});
+console.log('S2 production: 200 / S2 20; S2 10 NEW, 3 REWRITE, 4 MINOR, 6 DROP, 3 KEEP remain exact; all 1115 links covered, 6 approved exclusions; Phrase/S2 unchanged PASS');

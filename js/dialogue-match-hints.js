@@ -2,7 +2,6 @@
 
 // ChatMochi-approved semantic exclusions. Preserve links/data; do not invent answers.
 const DIALOGUE_HIGHLIGHT_EXCLUSIONS=Object.freeze({
-  "d8|p117":"BROKEN_LINK: per se is absent",
   "d35|p262":"SEMANTIC_MISMATCH: productive Way to + verb is not fixed Way to go",
   "d38|p346":"SEMANTIC_MISMATCH: judge is an ordinary verb, not quoted-word conversion",
   "d62|p400":"SEMANTIC_MISMATCH: accepting is not extending a challenge",
@@ -16,7 +15,15 @@ const DIALOGUE_HIGHLIGHT_EXCLUSIONS=Object.freeze({
 const DIALOGUE_EXPLICIT_MATCH_HINTS=Object.freeze({
   // Approved phone-message dialogue, migrated from S2-SEED-004.
   "d208|p2229":Object.freeze({"dialogueId":"d208","phraseId":"p2229","candidateLineIndex":5,"highlightRanges":[{"matchText":"pass along your message"}],"overrideMatcher":true}),
-  "d203|p1289":Object.freeze({"dialogueId":"d203","phraseId":"p1289","candidateLineIndex":5,"highlightRanges":[{"matchText":"I'm here for"}],"overrideMatcher":true}),
+  "d182|p1163":Object.freeze({"dialogueId":"d182","phraseId":"p1163","candidateLineIndex":0,"highlightRanges":[{"matchText":"Is"},{"matchText":"worth it"}],"overrideMatcher":true}),
+  "d185|p2642":Object.freeze({"dialogueId":"d185","phraseId":"p2642","candidateLineIndex":4,"highlightRanges":[{"matchText":"meant a lot to me"}],"overrideMatcher":true}),
+  "d186|p2432":Object.freeze({"dialogueId":"d186","phraseId":"p2432","candidateLineIndex":3,"highlightRanges":[{"matchText":"feel like"}],"overrideMatcher":true}),
+  "d190|p433":Object.freeze({"dialogueId":"d190","phraseId":"p433","candidateLineIndex":1,"highlightRanges":[{"matchText":"brought up"}],"overrideMatcher":true}),
+  "d198|p1112":Object.freeze({"dialogueId":"d198","phraseId":"p1112","candidateLineIndex":5,"highlightRanges":[{"matchText":"don't feel like"}],"overrideMatcher":true}),
+  "d198|p1928":Object.freeze({"dialogueId":"d198","phraseId":"p1928","candidateLineIndex":6,"highlightRanges":[{"matchText":"talk to each other about"}],"overrideMatcher":true}),
+  "d200|p3088":Object.freeze({"dialogueId":"d200","phraseId":"p3088","candidateLineIndex":0,"highlightRanges":[{"matchText":"There's something you should know"}],"overrideMatcher":true}),
+  "d201|p2291":Object.freeze({"dialogueId":"d201","phraseId":"p2291","candidateLineIndex":3,"highlightRanges":[{"matchText":"looks great on you"}],"overrideMatcher":true}),
+  "d203|p1112":Object.freeze({"dialogueId":"d203","phraseId":"p1112","candidateLineIndex":4,"highlightRanges":[{"matchText":"don't feel like"}],"overrideMatcher":true}),
   "d13|p185":Object.freeze({"dialogueId":"d13","phraseId":"p185","candidateLineIndex":2,"highlightRanges":[{"matchText":"Through the grapevine"}],"overrideMatcher":true}),
   "d19|p252":Object.freeze({"dialogueId":"d19","phraseId":"p252","candidateLineIndex":3,"highlightRanges":[{"matchText":"brown-nosing"}],"overrideMatcher":true}),
   "d25|p304":Object.freeze({"dialogueId":"d25","phraseId":"p304","candidateLineIndex":7,"highlightRanges":[{"matchText":"we’re"},{"matchText":"on board"}],"overrideMatcher":true}),
@@ -47,14 +54,6 @@ const DIALOGUE_EXPLICIT_MATCH_HINTS=Object.freeze({
   "d132|p959":Object.freeze({"dialogueId":"d132","phraseId":"p959","candidateLineIndex":4,"highlightRanges":[{"matchText":"has the dirt"}]}),
   "d144|p911":Object.freeze({"dialogueId":"d144","phraseId":"p911","candidateLineIndex":3,"highlightRanges":[{"matchText":"in a pickle"}]}),
   "d147|p914":Object.freeze({"dialogueId":"d147","phraseId":"p914","candidateLineIndex":2,"highlightRanges":[{"matchText":"pull"},{"matchText":"out of"}]}),
-  "d6|p102":Object.freeze({"dialogueId":"d6","phraseId":"p102","candidateLineIndex":5,"highlightRanges":[{"matchText":"a little shy of"}],"overrideMatcher":true}),
-  "d6|p95":Object.freeze({"dialogueId":"d6","phraseId":"p95","candidateLineIndex":9,"highlightRanges":[{"matchText":"flip you for"}],"overrideMatcher":true}),
-  "d8|p43":Object.freeze({"dialogueId":"d8","phraseId":"p43","candidateLineIndex":9,"matchText":"get behind"}),
-  "d53|p65":Object.freeze({"dialogueId":"d53","phraseId":"p65","candidateLineIndex":1,"matchText":"plunk it down"}),
-  "d54|p55":Object.freeze({"dialogueId":"d54","phraseId":"p55","candidateLineIndex":1,"matchText":"came out of my shell"}),
-  "d54|p118":Object.freeze({"dialogueId":"d54","phraseId":"p118","candidateLineIndex":4,"highlightRanges":[{"matchText":"more of a"}],"overrideMatcher":true}),
-  "d56|p119":Object.freeze({"dialogueId":"d56","phraseId":"p119","candidateLineIndex":1,"matchText":"cooked up a story"}),
-  "d56|p101":Object.freeze({"dialogueId":"d56","phraseId":"p101","candidateLineIndex":5,"matchText":"is full of it"}),
   "d13|p237":Object.freeze({"dialogueId":"d13","phraseId":"p237","candidateLineIndex":4,"matchText":"buy the rumor"}),
   "d14|p177":Object.freeze({"dialogueId":"d14","phraseId":"p177","candidateLineIndex":3,"matchText":"worth a shot"}),
   "d15|p189":Object.freeze({"dialogueId":"d15","phraseId":"p189","candidateLineIndex":6,"matchText":"sold them out"}),
@@ -181,7 +180,6 @@ const DIALOGUE_EXPLICIT_MATCH_HINTS=Object.freeze({
   "d160|p1042":Object.freeze({"dialogueId":"d160","phraseId":"p1042","candidateLineIndex":2,"highlightRanges":[{"matchText":"rubbed her face in"}],"overrideMatcher":true}),
   "d160|p1046":Object.freeze({"dialogueId":"d160","phraseId":"p1046","candidateLineIndex":6,"highlightRanges":[{"matchText":"It’s not my place to"}],"overrideMatcher":true}),
   "d161|p1039":Object.freeze({"dialogueId":"d161","phraseId":"p1039","candidateLineIndex":8,"matchText":"you’re up for it"}),
-  "d54|p126":Object.freeze({"dialogueId":"d54","phraseId":"p126","candidateLineIndex":3,"highlightRanges":[{"matchText":"pegged me as"}],"overrideMatcher":true}),
   "d15|p192":Object.freeze({"dialogueId":"d15","phraseId":"p192","candidateLineIndex":0,"highlightRanges":[{"matchText":"getting a lot of heat from"}],"overrideMatcher":true}),
   "d21|p174":Object.freeze({"dialogueId":"d21","phraseId":"p174","candidateLineIndex":3,"highlightRanges":[{"matchText":"keep"},{"matchText":"at bay"}],"overrideMatcher":true}),
   "d25|p263":Object.freeze({"dialogueId":"d25","phraseId":"p263","candidateLineIndex":0,"highlightRanges":[{"matchText":"walk me through"}],"overrideMatcher":true}),

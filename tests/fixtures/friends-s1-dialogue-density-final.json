@@ -1,0 +1,721 @@
+{
+  "sourcePackage": "Friends_S1_Dialogue_Density_Full_Draft_Package.json",
+  "expected": [
+    {
+      "id": "d1",
+      "classification": "KEEP",
+      "sourceIds": [
+        "d1"
+      ],
+      "phraseCount": 7,
+      "wordCount": 70,
+      "hash": "b5c9db01c7b1ac402a1b0e92718c09c042790e4d47a70907db4d8271994e305f"
+    },
+    {
+      "id": "d2",
+      "classification": "KEEP",
+      "sourceIds": [
+        "d2"
+      ],
+      "phraseCount": 8,
+      "wordCount": 78,
+      "hash": "09bc271b68ffe18dd25ad3c79ca2a2df3f66e73766b9142f3cc9df49c1e725fe"
+    },
+    {
+      "id": "d3",
+      "classification": "KEEP",
+      "sourceIds": [
+        "d3"
+      ],
+      "phraseCount": 7,
+      "wordCount": 74,
+      "hash": "bb9d8eddb78bdfc423107f2e573c3b5503c8ee7d9cbb4429a0169be3cab8515a"
+    },
+    {
+      "id": "d5",
+      "classification": "KEEP",
+      "sourceIds": [
+        "d5"
+      ],
+      "phraseCount": 8,
+      "wordCount": 73,
+      "hash": "59e3b5d63bff4dc9a629121a8a63849f91c94f8a27baf89c5a006c030c01db09"
+    },
+    {
+      "id": "d7",
+      "classification": "KEEP",
+      "sourceIds": [
+        "d7"
+      ],
+      "phraseCount": 8,
+      "wordCount": 69,
+      "hash": "a8a226111d8ee5646aaf0cfac082496c93b08acbb60dcc3df2c0514c24f28c96"
+    },
+    {
+      "id": "d10",
+      "classification": "KEEP",
+      "sourceIds": [
+        "d10"
+      ],
+      "phraseCount": 7,
+      "wordCount": 83,
+      "hash": "6b55ac82ae34ba1af5441a38bf47ecb16cb249a1491f9a7271be3f0ce4d47172"
+    },
+    {
+      "id": "d4",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d4"
+      ],
+      "phraseCount": 8,
+      "wordCount": 83,
+      "hash": "a733e534ea05996ccbc44063d2cddcd793c031b7aa4c5dfa1f76fc5df2a23529"
+    },
+    {
+      "id": "d55",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d55"
+      ],
+      "phraseCount": 8,
+      "wordCount": 85,
+      "hash": "d1b876eb9f4f6f427ae2b35512ce832d12097c79b04195cc5b78dd53464557b8"
+    },
+    {
+      "id": "d56",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d56"
+      ],
+      "phraseCount": 8,
+      "wordCount": 87,
+      "hash": "82874e9cb343df295a86ca870950d782d11e4a7334dd3014ef3e104b8b776b92"
+    },
+    {
+      "id": "d175",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d175"
+      ],
+      "phraseCount": 8,
+      "wordCount": 70,
+      "hash": "2def46c77e2347f6d4178a45cd4d4d6fabbf23ee4d9e6f439baee9894b9e4b50"
+    },
+    {
+      "id": "d176",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d176"
+      ],
+      "phraseCount": 8,
+      "wordCount": 76,
+      "hash": "781d494d3799bd738bf8d316a9e4f6ae8afafe9745c61e9c9baee9359dad25ac"
+    },
+    {
+      "id": "d180",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d180"
+      ],
+      "phraseCount": 8,
+      "wordCount": 55,
+      "hash": "3e05d7a02fda65c3b36eb88e7fde340cdf4c82e15356dd90999251536b292162"
+    },
+    {
+      "id": "d181",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d181"
+      ],
+      "phraseCount": 8,
+      "wordCount": 83,
+      "hash": "0de5ea32c528bf7dba1d2ccd849ad67a693372aaba74e57cb568f73920b2a8ec"
+    },
+    {
+      "id": "d182",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d182"
+      ],
+      "phraseCount": 8,
+      "wordCount": 75,
+      "hash": "90a633beb0baec9c4e3efeffd1c12f73c93937bf3bc67dc7a7e99cbca8cf31a3"
+    },
+    {
+      "id": "d185",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d185"
+      ],
+      "phraseCount": 7,
+      "wordCount": 68,
+      "hash": "6ee59323ab90dc04c56949ece14fcfd5490ebbe6b56e396119c38c108044d416"
+    },
+    {
+      "id": "d187",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d187"
+      ],
+      "phraseCount": 7,
+      "wordCount": 74,
+      "hash": "da51321e388c898c085ccb7a5a518afdc6521be9e0aed72b626571686c002d89"
+    },
+    {
+      "id": "d190",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d190"
+      ],
+      "phraseCount": 7,
+      "wordCount": 68,
+      "hash": "4fe1b74a4d2d2540ab29c7a10c67a9045f4fb5f362e4c972ce69f08592600644"
+    },
+    {
+      "id": "d191",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d191"
+      ],
+      "phraseCount": 8,
+      "wordCount": 81,
+      "hash": "802ddaeeec6495b9049f19e4f26d33be0b37b23150a17584379028184e3b01e5"
+    },
+    {
+      "id": "d192",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d192"
+      ],
+      "phraseCount": 7,
+      "wordCount": 70,
+      "hash": "8c2a6837bebdd08caf8ca5bdb08a49286d162e772d0c46622e1be7112883c935"
+    },
+    {
+      "id": "d194",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d194"
+      ],
+      "phraseCount": 7,
+      "wordCount": 63,
+      "hash": "8845821de2f8ac277e0ef81935411a0cfb21084e483ddacbd2c6228f8de08352"
+    },
+    {
+      "id": "d196",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d196"
+      ],
+      "phraseCount": 8,
+      "wordCount": 69,
+      "hash": "d82d002c1b007821d8d5f898aa2790e76a7763bf7b6027154b977adae045adc2"
+    },
+    {
+      "id": "d197",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d197"
+      ],
+      "phraseCount": 7,
+      "wordCount": 73,
+      "hash": "3d7d3892c4b760d2c242cd434df6a0a8feb6043891f971c5707496548df67d41"
+    },
+    {
+      "id": "d198",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d198"
+      ],
+      "phraseCount": 7,
+      "wordCount": 74,
+      "hash": "2fa699ed7a20a1b6115c46f294c8c896562686b64d8b9b3246da730f466dc106"
+    },
+    {
+      "id": "d199",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d199"
+      ],
+      "phraseCount": 8,
+      "wordCount": 80,
+      "hash": "02b9e96d493f6d840671c0aae4953aa092bb24769d818c584e641f1821bc8b43"
+    },
+    {
+      "id": "d200",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d200"
+      ],
+      "phraseCount": 8,
+      "wordCount": 77,
+      "hash": "89890f94e447d4e8140d47a938c75f10af498c1f2ce8ea331ca303992c9f99ba"
+    },
+    {
+      "id": "d201",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d201"
+      ],
+      "phraseCount": 8,
+      "wordCount": 69,
+      "hash": "997b95cf30f6913fed8b8a3ee09aa49d3a3992717fa4ad24ee74a6df651a50b7"
+    },
+    {
+      "id": "d203",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d203"
+      ],
+      "phraseCount": 7,
+      "wordCount": 66,
+      "hash": "ac4db26986514672e45f07d5f64f6333f7efc34d418acda0a34ddc07ead9f0b1"
+    },
+    {
+      "id": "d204",
+      "classification": "ENRICH",
+      "sourceIds": [
+        "d204"
+      ],
+      "phraseCount": 8,
+      "wordCount": 83,
+      "hash": "28889f5f32b083d98a09fae464a4372b172be7673045bfe113105d94d285adeb"
+    },
+    {
+      "id": "d6",
+      "classification": "REBUILD",
+      "sourceIds": [
+        "d6"
+      ],
+      "phraseCount": 8,
+      "wordCount": 74,
+      "hash": "9ad467e04c16379cc841f8278fc79c69388121b3794cb614980d4b1ae1eb628a"
+    },
+    {
+      "id": "d8",
+      "classification": "REBUILD",
+      "sourceIds": [
+        "d8"
+      ],
+      "phraseCount": 8,
+      "wordCount": 82,
+      "hash": "37936442c1f8503b0b81d1636ba93636ebbea2ceb5d907760512aa5cd05adb01"
+    },
+    {
+      "id": "d9",
+      "classification": "REBUILD",
+      "sourceIds": [
+        "d9"
+      ],
+      "phraseCount": 8,
+      "wordCount": 72,
+      "hash": "73f00adfc7a5feada899f93874fab6dc759b2d49f87edcc22413ed0cb1898e9a"
+    },
+    {
+      "id": "d53",
+      "classification": "REBUILD",
+      "sourceIds": [
+        "d53"
+      ],
+      "phraseCount": 8,
+      "wordCount": 76,
+      "hash": "7fea719ec071adf2f765432ff119079d5084921464cd978e169a11e59e922a08"
+    },
+    {
+      "id": "d54",
+      "classification": "REBUILD",
+      "sourceIds": [
+        "d54"
+      ],
+      "phraseCount": 8,
+      "wordCount": 82,
+      "hash": "544ccd9e5fd4b3db2caa49d4d6279b75aea16d2a62d4ec9481ec9b034665803f"
+    },
+    {
+      "id": "d168",
+      "classification": "MERGE",
+      "sourceIds": [
+        "d168",
+        "d188"
+      ],
+      "phraseCount": 8,
+      "wordCount": 61,
+      "hash": "25bd49bebd17a5e2eedc52cfe5d126877751d7b4488598d26acfadf478e3a6dd"
+    },
+    {
+      "id": "d169",
+      "classification": "MERGE",
+      "sourceIds": [
+        "d169",
+        "d170"
+      ],
+      "phraseCount": 8,
+      "wordCount": 71,
+      "hash": "def049102b1c3f6f869f8a6cb8569df1e6fe3f08e9f33cae3a6446c1043c5810"
+    },
+    {
+      "id": "d171",
+      "classification": "MERGE",
+      "sourceIds": [
+        "d171",
+        "d172"
+      ],
+      "phraseCount": 7,
+      "wordCount": 65,
+      "hash": "7eb1407f6295094f5c521435eea9791fb2ed1cc9d8462a7500b2b48a02660016"
+    },
+    {
+      "id": "d173",
+      "classification": "MERGE",
+      "sourceIds": [
+        "d173",
+        "d193"
+      ],
+      "phraseCount": 8,
+      "wordCount": 70,
+      "hash": "431d4fabe003d03808f7109f2f5dfcb4b8097c9ff9446580c596de81c1a0b366"
+    },
+    {
+      "id": "d202",
+      "classification": "MERGE",
+      "sourceIds": [
+        "d174",
+        "d202"
+      ],
+      "phraseCount": 8,
+      "wordCount": 68,
+      "hash": "88c5f37b96db8b47a0f649635ccbed564944b6909356cdd86cd3ecfa047e54f8"
+    },
+    {
+      "id": "d177",
+      "classification": "MERGE",
+      "sourceIds": [
+        "d177",
+        "d178"
+      ],
+      "phraseCount": 8,
+      "wordCount": 83,
+      "hash": "cb41c44b6bb91f25e922665baab3ae19427cced5dd9a7bab558b5e1f3e9d0439"
+    },
+    {
+      "id": "d195",
+      "classification": "MERGE",
+      "sourceIds": [
+        "d189",
+        "d195"
+      ],
+      "phraseCount": 8,
+      "wordCount": 82,
+      "hash": "6303ff0cd94b8b7c430e8fe089fad9703406133f3e2db4ce15659594e6c270a1"
+    },
+    {
+      "id": "d179",
+      "classification": "REBUILD",
+      "sourceIds": [
+        "d179"
+      ],
+      "phraseCount": 8,
+      "wordCount": 92,
+      "hash": "a072757afcb5b34c6d719e6e2eacb89c840a78689ebd14929bc78d89160e4491"
+    },
+    {
+      "id": "d186",
+      "classification": "REBUILD",
+      "sourceIds": [
+        "d186"
+      ],
+      "phraseCount": 8,
+      "wordCount": 93,
+      "hash": "2626fc0d6e7d74723e3e8d9c25411fe2357eb6c2228a5f3f24f7f6ca07a9de25"
+    },
+    {
+      "id": "d184",
+      "classification": "MERGE",
+      "sourceIds": [
+        "d183",
+        "d184"
+      ],
+      "phraseCount": 7,
+      "wordCount": 65,
+      "hash": "8ae2efb3d659979cc327d266e8f96397f26fc71ade9ed74bb18eb3f90ed90b40"
+    }
+  ],
+  "donors": [
+    "d188",
+    "d170",
+    "d172",
+    "d193",
+    "d174",
+    "d178",
+    "d189",
+    "d183"
+  ],
+  "retiredLinks": {
+    "d3": [
+      "p125"
+    ],
+    "d9": [
+      "p48"
+    ],
+    "d53": [
+      "p40",
+      "p41",
+      "p65"
+    ],
+    "d54": [
+      "p87",
+      "p42"
+    ]
+  },
+  "mergePlan": [
+    {
+      "sourceIds": [
+        "d168",
+        "d188"
+      ],
+      "survivorId": "d168",
+      "targetPhraseIds": [
+        "p1122",
+        "p2000",
+        "p2948",
+        "p1925",
+        "p2753",
+        "p2402",
+        "p1300",
+        "p1694"
+      ]
+    },
+    {
+      "sourceIds": [
+        "d169",
+        "d170"
+      ],
+      "survivorId": "d169",
+      "targetPhraseIds": [
+        "p2356",
+        "p1039",
+        "p514",
+        "p2176",
+        "p2359",
+        "p2640",
+        "p1576",
+        "p2014"
+      ]
+    },
+    {
+      "sourceIds": [
+        "d171",
+        "d172"
+      ],
+      "survivorId": "d171",
+      "targetPhraseIds": [
+        "p1282",
+        "p1461",
+        "p1771",
+        "p1712",
+        "p2004",
+        "p1147",
+        "p1130"
+      ]
+    },
+    {
+      "sourceIds": [
+        "d173",
+        "d193"
+      ],
+      "survivorId": "d173",
+      "targetPhraseIds": [
+        "p592",
+        "p2354",
+        "p1880",
+        "p2351",
+        "p1946",
+        "p1227",
+        "p1424",
+        "p1228"
+      ]
+    },
+    {
+      "sourceIds": [
+        "d174",
+        "d202"
+      ],
+      "survivorId": "d202",
+      "targetPhraseIds": [
+        "p2705",
+        "p3138",
+        "p1582",
+        "p2699",
+        "p2488",
+        "p1349",
+        "p2535",
+        "p2807"
+      ]
+    },
+    {
+      "sourceIds": [
+        "d177",
+        "d178"
+      ],
+      "survivorId": "d177",
+      "targetPhraseIds": [
+        "p2395",
+        "p1129",
+        "p1150",
+        "p2601",
+        "p3001",
+        "p2949",
+        "p1372",
+        "p1333"
+      ]
+    },
+    {
+      "sourceIds": [
+        "d183",
+        "d184"
+      ],
+      "survivorId": "d184",
+      "targetPhraseIds": [
+        "p2729",
+        "p2551",
+        "p1317",
+        "p1213",
+        "p2965",
+        "p2754",
+        "p2375"
+      ]
+    },
+    {
+      "sourceIds": [
+        "d189",
+        "d195"
+      ],
+      "survivorId": "d195",
+      "targetPhraseIds": [
+        "p2749",
+        "p2377",
+        "p2853",
+        "p2388",
+        "p2352",
+        "p1461",
+        "p1663",
+        "p2733"
+      ]
+    }
+  ],
+  "technicalRanges": [
+    {
+      "dialogueId": "d7",
+      "phraseId": "p50",
+      "lineIndex": 3,
+      "texts": [
+        "snapped"
+      ],
+      "source": "matcher"
+    },
+    {
+      "dialogueId": "d182",
+      "phraseId": "p1163",
+      "lineIndex": 0,
+      "texts": [
+        "Is",
+        "worth it"
+      ],
+      "source": "explicit-highlight"
+    },
+    {
+      "dialogueId": "d185",
+      "phraseId": "p2642",
+      "lineIndex": 4,
+      "texts": [
+        "meant a lot to me"
+      ],
+      "source": "explicit-highlight"
+    },
+    {
+      "dialogueId": "d190",
+      "phraseId": "p433",
+      "lineIndex": 1,
+      "texts": [
+        "brought up"
+      ],
+      "source": "explicit-highlight"
+    },
+    {
+      "dialogueId": "d198",
+      "phraseId": "p1112",
+      "lineIndex": 5,
+      "texts": [
+        "don't feel like"
+      ],
+      "source": "explicit-highlight"
+    },
+    {
+      "dialogueId": "d198",
+      "phraseId": "p1928",
+      "lineIndex": 6,
+      "texts": [
+        "talk to each other about"
+      ],
+      "source": "explicit-highlight"
+    },
+    {
+      "dialogueId": "d200",
+      "phraseId": "p3088",
+      "lineIndex": 0,
+      "texts": [
+        "There's something you should know"
+      ],
+      "source": "explicit-highlight"
+    },
+    {
+      "dialogueId": "d201",
+      "phraseId": "p2291",
+      "lineIndex": 3,
+      "texts": [
+        "looks great on you"
+      ],
+      "source": "explicit-highlight"
+    },
+    {
+      "dialogueId": "d203",
+      "phraseId": "p1112",
+      "lineIndex": 4,
+      "texts": [
+        "don't feel like"
+      ],
+      "source": "explicit-highlight"
+    },
+    {
+      "dialogueId": "d186",
+      "phraseId": "p2432",
+      "lineIndex": 3,
+      "texts": [
+        "feel like"
+      ],
+      "source": "explicit-highlight"
+    },
+    {
+      "dialogueId": "d8",
+      "phraseId": "p117",
+      "lineIndex": 3,
+      "texts": [
+        "per se"
+      ],
+      "source": "matcher"
+    }
+  ],
+  "density": {
+    "units": 43,
+    "links": 331,
+    "totalWords": 3212,
+    "coreBefore": 143,
+    "coreAfter": 227,
+    "coreNet": 84,
+    "coreLoss": []
+  },
+  "hashes": {
+    "sourceOrder": "2d4caa0bed1439f96d630f2dc8664ebc9f2fec0fdf32314cb552532ba8ea4077",
+    "s2Dialogues": "4be94e2d8eaed5fccc309231d264c3b1b64ab486518adbbf4e16cb30cc8c6706"
+  }
+}
