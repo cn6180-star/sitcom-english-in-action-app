@@ -1,0 +1,1048 @@
+{
+  "sourcePackage": "Friends_S2_Dialogue_17_Draft_Package.json",
+  "sourceSha256": "25e3cc29ddf5b679f32396deb61c663fa5505c09a4a5e180f7642f10b3efc683",
+  "baselineHead": "62891c7f85282e513e3d0234999dd43f57ca3506",
+  "existingHintsSha256": "22b22abcc7599688b666af03b69c3def650d6e69338afb30212c2fd6fc1e33e6",
+  "drafts": [
+    {
+      "id": "S2-SEED-010",
+      "scenario": "予約の照合",
+      "phraseLinks": [
+        "p1810",
+        "p1478"
+      ],
+      "lines": [
+        [
+          "A",
+          "Hi. What can I do for you?"
+        ],
+        [
+          "B",
+          "I have a reservation for the pottery workshop at two."
+        ],
+        [
+          "A",
+          "Sure. What name is it under?"
+        ],
+        [
+          "B",
+          "Alex Morgan. There should be two of us."
+        ],
+        [
+          "A",
+          "Yes, I've got you both here. Is the other person with you?"
+        ],
+        [
+          "B",
+          "She's parking the car. Should I wait here?"
+        ],
+        [
+          "A",
+          "Please do. I'll show you both to the studio when she gets here."
+        ],
+        [
+          "B",
+          "Great. She'll only be a minute."
+        ]
+      ],
+      "realizations": [
+        {
+          "phraseId": "p1810",
+          "turn": 2,
+          "actualText": "have a reservation"
+        },
+        {
+          "phraseId": "p1478",
+          "turn": 1,
+          "actualText": "What can I do for you?"
+        }
+      ]
+    },
+    {
+      "id": "S2-SEED-002",
+      "scenario": "食事制約の確認",
+      "phraseLinks": [
+        "p1485",
+        "p2113",
+        "p2114"
+      ],
+      "lines": [
+        [
+          "A",
+          "Have you eaten?"
+        ],
+        [
+          "B",
+          "Not yet. I came straight from work."
+        ],
+        [
+          "A",
+          "There's some rice in the fridge. We could heat up the leftovers from last night."
+        ],
+        [
+          "B",
+          "What's in the sauce? I'm allergic to peanuts."
+        ],
+        [
+          "A",
+          "I'm not sure. My roommate made it, so let's leave that."
+        ],
+        [
+          "B",
+          "I brought a sandwich, actually. I'll have that."
+        ],
+        [
+          "A",
+          "Want to sit here? I'll heat up my dinner."
+        ],
+        [
+          "B",
+          "Sure. I could use a break."
+        ]
+      ],
+      "realizations": [
+        {
+          "phraseId": "p1485",
+          "turn": 4,
+          "actualText": "I'm allergic to peanuts"
+        },
+        {
+          "phraseId": "p2113",
+          "turn": 1,
+          "actualText": "Have you eaten?"
+        },
+        {
+          "phraseId": "p2114",
+          "turn": 3,
+          "actualText": "leftovers"
+        }
+      ]
+    },
+    {
+      "id": "S2-SEED-003",
+      "scenario": "音量を下げてもらう",
+      "phraseLinks": [
+        "p1886",
+        "p1669",
+        "p1522"
+      ],
+      "lines": [
+        [
+          "A",
+          "It would really help if you could turn the music down. I'm trying to finish this report."
+        ],
+        [
+          "B",
+          "I'm learning this song for tomorrow, and I can barely hear the guitar part as it is."
+        ],
+        [
+          "A",
+          "I hear you. Would headphones work, or do you need to play along out loud?"
+        ],
+        [
+          "B",
+          "Headphones would work. Mine just ran out of battery."
+        ],
+        [
+          "A",
+          "You can use my wired ones. They're by the laptop."
+        ],
+        [
+          "B",
+          "Thanks. I'll plug them in."
+        ],
+        [
+          "A",
+          "Great. I should be finished in about an hour."
+        ],
+        [
+          "B",
+          "No rush. These are fine."
+        ]
+      ],
+      "realizations": [
+        {
+          "phraseId": "p1886",
+          "turn": 1,
+          "actualText": "It would really help if you could turn the music down"
+        },
+        {
+          "phraseId": "p1669",
+          "turn": 1,
+          "actualText": "turn the music down"
+        },
+        {
+          "phraseId": "p1522",
+          "turn": 3,
+          "actualText": "I hear you"
+        }
+      ]
+    },
+    {
+      "id": "S2-SEED-004",
+      "scenario": "電話の取り次ぎ",
+      "phraseLinks": [
+        "p1832",
+        "p2229"
+      ],
+      "lines": [
+        [
+          "A",
+          "Hi, is Dana there?"
+        ],
+        [
+          "B",
+          "She's out at the moment. Can I take a message?"
+        ],
+        [
+          "A",
+          "Yes, this is Leo from the print shop. Her posters are ready, but we close at four today."
+        ],
+        [
+          "B",
+          "Four today. And they're ready to collect now?"
+        ],
+        [
+          "A",
+          "That's right. I'll be here until then."
+        ],
+        [
+          "B",
+          "Thanks. I'll pass along your message when she gets back in a few minutes."
+        ],
+        [
+          "A",
+          "Great. She has our address."
+        ],
+        [
+          "B",
+          "Okay. I'll let her know about the early closing."
+        ]
+      ],
+      "realizations": [
+        {
+          "phraseId": "p1832",
+          "turn": 2,
+          "actualText": "Can I take a message?"
+        },
+        {
+          "phraseId": "p2229",
+          "turn": 6,
+          "actualText": "pass along your message"
+        }
+      ]
+    },
+    {
+      "id": "S2-SEED-001",
+      "scenario": "在庫と代替品",
+      "phraseLinks": [
+        "p1907",
+        "p1462",
+        "p1700"
+      ],
+      "lines": [
+        [
+          "A",
+          "I'm looking for a black notebook, the small one with plain pages."
+        ],
+        [
+          "B",
+          "We're sold out of the small ones. Would the larger size work?"
+        ],
+        [
+          "A",
+          "Maybe. Do you have any black ones left?"
+        ],
+        [
+          "B",
+          "Just one. Let me get it off the shelf for you."
+        ],
+        [
+          "A",
+          "Thanks. I need it to fit in this bag."
+        ],
+        [
+          "B",
+          "You can try it. It's a bit wider than the one you asked for."
+        ],
+        [
+          "A",
+          "That fits. I'll take it."
+        ],
+        [
+          "B",
+          "Great. I'll ring it up over here."
+        ]
+      ],
+      "realizations": [
+        {
+          "phraseId": "p1907",
+          "turn": 1,
+          "actualText": "I'm looking for a black notebook"
+        },
+        {
+          "phraseId": "p1462",
+          "turn": 3,
+          "actualText": "Do you have any black ones left?"
+        },
+        {
+          "phraseId": "p1700",
+          "turn": 2,
+          "actualText": "We're sold out of the small ones"
+        }
+      ]
+    },
+    {
+      "id": "S2-SEED-006",
+      "scenario": "借りた物の返却",
+      "phraseLinks": [
+        "p2154",
+        "p1976"
+      ],
+      "lines": [
+        [
+          "A",
+          "Are you still using my charger? Can I have it back? My phone's nearly dead."
+        ],
+        [
+          "B",
+          "The long white one?"
+        ],
+        [
+          "A",
+          "Yeah, the one next to your laptop."
+        ],
+        [
+          "B",
+          "Oh, right. I'm just unplugging it. All yours."
+        ],
+        [
+          "A",
+          "Thanks. I need to charge my phone before I leave."
+        ],
+        [
+          "B",
+          "Sorry, I meant to return it earlier."
+        ],
+        [
+          "A",
+          "No problem. I've still got twenty minutes."
+        ],
+        [
+          "B",
+          "I'll clear a space by the outlet for you."
+        ]
+      ],
+      "realizations": [
+        {
+          "phraseId": "p2154",
+          "turn": 1,
+          "actualText": "Can I have it back?"
+        },
+        {
+          "phraseId": "p1976",
+          "turn": 4,
+          "actualText": "All yours."
+        }
+      ]
+    },
+    {
+      "id": "S2-SEED-005",
+      "scenario": "会話の順番を確保",
+      "phraseLinks": [
+        "p1974"
+      ],
+      "lines": [
+        [
+          "A",
+          "The reason I moved the meeting was—"
+        ],
+        [
+          "B",
+          "But Tuesday was the only day I could—"
+        ],
+        [
+          "A",
+          "I'm not done yet. I checked with the client, and Tuesday no longer works for them."
+        ],
+        [
+          "B",
+          "Sorry. Go on."
+        ],
+        [
+          "A",
+          "They offered Thursday morning or Friday afternoon. That's what I wanted to ask you about. Which works for you?"
+        ],
+        [
+          "B",
+          "Friday afternoon. I'm away on Thursday."
+        ],
+        [
+          "A",
+          "Okay, I'll ask for Friday at two."
+        ],
+        [
+          "B",
+          "That works. Thanks for checking."
+        ]
+      ],
+      "realizations": [
+        {
+          "phraseId": "p1974",
+          "turn": 3,
+          "actualText": "I'm not done yet."
+        }
+      ]
+    },
+    {
+      "id": "S2-SEED-007",
+      "scenario": "見込みを断定しない",
+      "phraseLinks": [
+        "p1454",
+        "p1510"
+      ],
+      "lines": [
+        [
+          "A",
+          "Do you think the new lunch delivery service is going to catch on?"
+        ],
+        [
+          "B",
+          "It's too soon to tell. We only started it on Monday."
+        ],
+        [
+          "A",
+          "The first day seemed busy."
+        ],
+        [
+          "B",
+          "It was, but that was mostly people using the opening discount."
+        ],
+        [
+          "A",
+          "So we need to know if they'll order again at the regular price."
+        ],
+        [
+          "B",
+          "Exactly. Let's see what happens over the next two weeks."
+        ],
+        [
+          "A",
+          "Okay. I'll keep track of repeat orders."
+        ],
+        [
+          "B",
+          "Great. We can look at those numbers together."
+        ]
+      ],
+      "realizations": [
+        {
+          "phraseId": "p1454",
+          "turn": 2,
+          "actualText": "too soon to tell"
+        },
+        {
+          "phraseId": "p1510",
+          "turn": 6,
+          "actualText": "see what happens"
+        }
+      ]
+    },
+    {
+      "id": "S2-SEED-008",
+      "scenario": "話題の切り替え",
+      "phraseLinks": [
+        "p2150"
+      ],
+      "lines": [
+        [
+          "A",
+          "The library was packed this morning."
+        ],
+        [
+          "B",
+          "Yeah, the school holidays started yesterday."
+        ],
+        [
+          "A",
+          "Speaking of which, are you still taking Friday off while the kids are home?"
+        ],
+        [
+          "B",
+          "Just the afternoon. My sister can stay with them until lunch."
+        ],
+        [
+          "A",
+          "Would you like me to move our two o'clock meeting to the morning?"
+        ],
+        [
+          "B",
+          "Could we do ten? I'll be in the office by then."
+        ],
+        [
+          "A",
+          "Ten works. I'll update the invitation."
+        ],
+        [
+          "B",
+          "Thanks. That makes Friday much easier."
+        ]
+      ],
+      "realizations": [
+        {
+          "phraseId": "p2150",
+          "turn": 3,
+          "actualText": "Speaking of which"
+        }
+      ]
+    },
+    {
+      "id": "S2-SEED-009",
+      "scenario": "気まずい言い方の修復",
+      "phraseLinks": [
+        "p2033"
+      ],
+      "lines": [
+        [
+          "A",
+          "I'd like to have you over for dinner without all the other people."
+        ],
+        [
+          "B",
+          "Without all the other people?"
+        ],
+        [
+          "A",
+          "That sounded better in my head. I meant just the two of us, so we can actually catch up."
+        ],
+        [
+          "B",
+          "Oh, instead of another big group dinner?"
+        ],
+        [
+          "A",
+          "Exactly. We barely got to talk last time."
+        ],
+        [
+          "B",
+          "I'd like that. Are you free on Thursday?"
+        ],
+        [
+          "A",
+          "I am. Come over around seven?"
+        ],
+        [
+          "B",
+          "Sounds good. I'll bring dessert."
+        ]
+      ],
+      "realizations": [
+        {
+          "phraseId": "p2033",
+          "turn": 3,
+          "actualText": "That sounded better in my head."
+        }
+      ]
+    },
+    {
+      "id": "d18",
+      "scenario": "買い物の失敗",
+      "phraseLinks": [
+        "p233",
+        "p152"
+      ],
+      "lines": [
+        [
+          "A",
+          "I wish I hadn't bought this coffee maker. It doesn't fit under the kitchen shelf."
+        ],
+        [
+          "B",
+          "Let me get this straight. You bought it yesterday, and you haven't used it?"
+        ],
+        [
+          "A",
+          "Right. But it was on sale, so I don't know if I can return it."
+        ],
+        [
+          "B",
+          "What does the receipt say?"
+        ],
+        [
+          "A",
+          "Returns within thirty days, unused, in the original box. Oh, sale items are included."
+        ],
+        [
+          "B",
+          "Have you still got the box?"
+        ],
+        [
+          "A",
+          "Yeah, and all the packing. I can get the full ninety dollars back."
+        ],
+        [
+          "B",
+          "Cha-ching. Guess you're making a trip to the store."
+        ],
+        [
+          "A",
+          "After lunch. I'll measure the space before I buy another one."
+        ],
+        [
+          "B",
+          "Good idea. I'll help you pack this one up."
+        ]
+      ],
+      "realizations": [
+        {
+          "phraseId": "p233",
+          "turn": 2,
+          "actualText": "Let me get this straight"
+        },
+        {
+          "phraseId": "p152",
+          "turn": 8,
+          "actualText": "Cha-ching"
+        }
+      ]
+    },
+    {
+      "id": "d19",
+      "scenario": "同僚への不満",
+      "phraseLinks": [
+        "p209"
+      ],
+      "lines": [
+        [
+          "A",
+          "It's frustrating when someone presents your work without mentioning you."
+        ],
+        [
+          "B",
+          "Tell me about it. That happened to me last month. Was this about today's meeting?"
+        ],
+        [
+          "A",
+          "Yeah. I built the budget model, but Sam presented it as his work."
+        ],
+        [
+          "B",
+          "Did the slides show who worked on it?"
+        ],
+        [
+          "A",
+          "No. I want to ask him to add my name before he sends them out."
+        ],
+        [
+          "B",
+          "That sounds reasonable. You could point to the model and say you want your contribution included."
+        ],
+        [
+          "A",
+          "I'll talk to him this afternoon, before the slides go to the client."
+        ],
+        [
+          "B",
+          "Good. You'll have a specific change to ask for."
+        ]
+      ],
+      "realizations": [
+        {
+          "phraseId": "p209",
+          "turn": 2,
+          "actualText": "Tell me about it"
+        }
+      ]
+    },
+    {
+      "id": "d21",
+      "scenario": "習慣を立て直す",
+      "phraseLinks": [
+        "p176",
+        "p174"
+      ],
+      "lines": [
+        [
+          "A",
+          "I fell off the wagon last night. I'd gone a whole week without snacking in front of the TV."
+        ],
+        [
+          "B",
+          "What was different last night?"
+        ],
+        [
+          "A",
+          "I put the bag of cookies next to the remote. I kept reaching for it without thinking."
+        ],
+        [
+          "B",
+          "Does that usually happen when you're watching something?"
+        ],
+        [
+          "A",
+          "Yeah. I can keep the cravings at bay until the snacks are right in front of me."
+        ],
+        [
+          "B",
+          "Is there one thing you'd like to try tonight?"
+        ],
+        [
+          "A",
+          "I'll leave the cookies in the cupboard instead of bringing the bag to the couch."
+        ],
+        [
+          "B",
+          "Okay. I'll leave them there too."
+        ]
+      ],
+      "realizations": [
+        {
+          "phraseId": "p176",
+          "turn": 1,
+          "actualText": "fell off the wagon"
+        },
+        {
+          "phraseId": "p174",
+          "turn": 5,
+          "actualText": "keep the cravings at bay"
+        }
+      ]
+    },
+    {
+      "id": "d11",
+      "scenario": "プロジェクトの立て直し",
+      "phraseLinks": [
+        "p146",
+        "p149",
+        "p155",
+        "p234",
+        "p194",
+        "p251",
+        "p232"
+      ],
+      "lines": [
+        [
+          "A",
+          "Can you give me the situation in a nutshell?"
+        ],
+        [
+          "B",
+          "We're behind on the paperwork, but the new system is starting to pay off. It passed the final checks this morning."
+        ],
+        [
+          "A",
+          "Okay. Then let’s get the ball rolling on the next phase."
+        ],
+        [
+          "B",
+          "Before we do, I want to make sure we’re all on the same page."
+        ],
+        [
+          "A",
+          "Fair. Do you want to delay the launch?"
+        ],
+        [
+          "B",
+          "Your call. I can work with either option."
+        ],
+        [
+          "A",
+          "Let's keep the date, then. The system is ready, but we can't drop the ball on the paperwork. I'll finish it this afternoon."
+        ],
+        [
+          "B",
+          "Agreed. I’ll send everyone an updated plan."
+        ],
+        [
+          "A",
+          "Kudos on keeping this together, by the way."
+        ],
+        [
+          "B",
+          "Thanks. Ask me again after launch day."
+        ],
+        [
+          "A",
+          "Deal."
+        ]
+      ],
+      "realizations": [
+        {
+          "phraseId": "p146",
+          "turn": 1,
+          "actualText": "in a nutshell"
+        },
+        {
+          "phraseId": "p149",
+          "turn": 2,
+          "actualText": "pay off"
+        },
+        {
+          "phraseId": "p155",
+          "turn": 3,
+          "actualText": "get the ball rolling"
+        },
+        {
+          "phraseId": "p234",
+          "turn": 4,
+          "actualText": "on the same page"
+        },
+        {
+          "phraseId": "p194",
+          "turn": 6,
+          "actualText": "Your call"
+        },
+        {
+          "phraseId": "p251",
+          "turn": 7,
+          "actualText": "drop the ball"
+        },
+        {
+          "phraseId": "p232",
+          "turn": 9,
+          "actualText": "Kudos on keeping this together"
+        }
+      ]
+    },
+    {
+      "id": "d14",
+      "scenario": "休日の小旅行",
+      "phraseLinks": [
+        "p190",
+        "p150",
+        "p177",
+        "p38",
+        "p226"
+      ],
+      "lines": [
+        [
+          "A",
+          "We’re thinking of taking the train to the coast Saturday."
+        ],
+        [
+          "B",
+          "Mind if I tag along?"
+        ],
+        [
+          "A",
+          "Not at all. The tickets are a little steep, though."
+        ],
+        [
+          "B",
+          "Still sounds worth a shot."
+        ],
+        [
+          "A",
+          "We could make a day of it and stay for dinner."
+        ],
+        [
+          "B",
+          "Absolutely. I get out of town once in a blue moon."
+        ],
+        [
+          "A",
+          "Then I'll book three tickets. Is the nine o'clock train okay for you?"
+        ],
+        [
+          "B",
+          "Yes. Send me the price before you book, and I'll transfer you my share."
+        ],
+        [
+          "A",
+          "I’ll send you the train time tonight."
+        ],
+        [
+          "B",
+          "Perfect."
+        ],
+        [
+          "A",
+          "Saturday it is."
+        ]
+      ],
+      "realizations": [
+        {
+          "phraseId": "p190",
+          "turn": 2,
+          "actualText": "tag along"
+        },
+        {
+          "phraseId": "p150",
+          "turn": 3,
+          "actualText": "steep"
+        },
+        {
+          "phraseId": "p177",
+          "turn": 4,
+          "actualText": "worth a shot"
+        },
+        {
+          "phraseId": "p38",
+          "turn": 5,
+          "actualText": "make a day of it"
+        },
+        {
+          "phraseId": "p226",
+          "turn": 6,
+          "actualText": "once in a blue moon"
+        }
+      ]
+    },
+    {
+      "id": "d15",
+      "scenario": "責任とプレッシャー",
+      "phraseLinks": [
+        "p192",
+        "p188",
+        "p210",
+        "p235",
+        "p189"
+      ],
+      "lines": [
+        [
+          "A",
+          "I’m getting a lot of heat from management over this mistake."
+        ],
+        [
+          "B",
+          "But it wasn’t just your mistake."
+        ],
+        [
+          "A",
+          "I’m leading the project. I have to shoulder some of the responsibility."
+        ],
+        [
+          "B",
+          "Sure, but the rest of us aren’t going to leave you high and dry."
+        ],
+        [
+          "A",
+          "I appreciate that."
+        ],
+        [
+          "B",
+          "We’re all in the same boat here."
+        ],
+        [
+          "A",
+          "I just don’t want anyone to think I sold them out."
+        ],
+        [
+          "B",
+          "We can explain who handled each part and where the mistake happened. That's different from blaming anyone."
+        ],
+        [
+          "A",
+          "And if management gets angry?"
+        ],
+        [
+          "B",
+          "I'll be there with you. I handled part of this too, and they need to hear that from me."
+        ],
+        [
+          "A",
+          "Okay. Together."
+        ]
+      ],
+      "realizations": [
+        {
+          "phraseId": "p192",
+          "turn": 1,
+          "actualText": "getting a lot of heat from management"
+        },
+        {
+          "phraseId": "p188",
+          "turn": 3,
+          "actualText": "shoulder some of the responsibility"
+        },
+        {
+          "phraseId": "p210",
+          "turn": 4,
+          "actualText": "leave you high and dry"
+        },
+        {
+          "phraseId": "p235",
+          "turn": 6,
+          "actualText": "in the same boat"
+        },
+        {
+          "phraseId": "p189",
+          "turn": 7,
+          "actualText": "sold them out"
+        }
+      ]
+    },
+    {
+      "id": "d57",
+      "scenario": "プレッシャーに負けそうなとき",
+      "phraseLinks": [
+        "p142",
+        "p199",
+        "p147"
+      ],
+      "lines": [
+        [
+          "A",
+          "You’ve barely said a word all morning."
+        ],
+        [
+          "B",
+          "I’m getting psyched out about the presentation."
+        ],
+        [
+          "A",
+          "You’ve done this a dozen times."
+        ],
+        [
+          "B",
+          "Not in front of this many executives."
+        ],
+        [
+          "A",
+          "You know the material. It's the questions afterward that are worrying you, isn't it?"
+        ],
+        [
+          "B",
+          "If I freeze up, I’m going to get clobbered in the Q&A."
+        ],
+        [
+          "A",
+          "You won’t. And even if one question catches you off guard, take a second and think."
+        ],
+        [
+          "B",
+          "I hate feeling this nervous."
+        ],
+        [
+          "A",
+          "You can admit you're nervous and still give a good answer."
+        ],
+        [
+          "B",
+          "Fine. I’m nervous."
+        ],
+        [
+          "A",
+          "Good. Now go nail it."
+        ]
+      ],
+      "realizations": [
+        {
+          "phraseId": "p142",
+          "turn": 2,
+          "actualText": "getting psyched out"
+        },
+        {
+          "phraseId": "p199",
+          "turn": 6,
+          "actualText": "get clobbered"
+        },
+        {
+          "phraseId": "p147",
+          "turn": 7,
+          "actualText": "catches you off guard"
+        }
+      ]
+    }
+  ]
+}

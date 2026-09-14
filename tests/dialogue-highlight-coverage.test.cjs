@@ -24,13 +24,17 @@ for(const d of dialogues)for(const id of d.phraseLinks){
  if(exclusions[d.id+'|'+id]){assert.equal(ranges.length,0,'excluded sense stays empty');excluded++;}
  else {assert.ok(ranges.length,'Unexplained zero highlight '+d.id+'/'+id);if(ranges[0].source==='matcher')auto++;else explicit++;}
  if(f){assert.deepEqual(ranges.map(r=>({lineIndex:r.lineIndex,text:r.text})),f.ranges,'reviewed fixed spans '+key(f));if(f.classification==='VALID_VARIANT')assert.ok(ranges.every(r=>r.source==='matcher'));if(f.classification==='VALID_BUT_OVERRIDE')assert.ok(ranges.every(r=>r.source.startsWith('explicit')));}
- else protectedRows.push([d.id,id,ranges.map(m=>[m.lineIndex,m.start,m.end,m.text,m.source])]);
+ else if(d.id==='d57'&&id==='p199'){
+  // Approved full-token correction: preserve the other 966 baseline results exactly.
+  assert.deepEqual(ranges.map(m=>[m.lineIndex,m.start,m.end,m.text,m.source]),[[5,33,42,'clobbered','matcher']]);
+  protectedRows.push([d.id,id,[[5,33,40,'clobber','matcher']]]);
+ }else protectedRows.push([d.id,id,ranges.map(m=>[m.lineIndex,m.start,m.end,m.text,m.source])]);
 }
 assert.equal(dialogues.length,204);assert.equal(links,1047);assert.equal(auto,874);assert.equal(explicit,166);assert.equal(excluded,7);
 // Freeze all 967 baseline results, not just the forced overrides.
 assert.equal(hash(protectedRows),'1dc0eba43770b1d09a856f43453e319cca94bedb7ab4530b82c0ecaf09f51efb');
-const hints=plain(vm.runInContext('Object.entries(DIALOGUE_EXPLICIT_MATCH_HINTS)',c)),oldHints=hints.filter(([k])=>approved.get(k)?.classification!=='VALID_BUT_OVERRIDE');
-assert.equal(oldHints.length,169);assert.equal(oldHints.filter(([,h])=>h.overrideMatcher).length,56);assert.equal(hash(oldHints),fixture.oldHintHash);assert.equal(hints.length,185);
+const hints=plain(vm.runInContext('Object.entries(DIALOGUE_EXPLICIT_MATCH_HINTS)',c)),oldHints=hints.filter(([k])=>k!=='S2-SEED-004|p2229'&&approved.get(k)?.classification!=='VALID_BUT_OVERRIDE');
+assert.equal(oldHints.length,169);assert.equal(oldHints.filter(([,h])=>h.overrideMatcher).length,56);assert.equal(hash(oldHints),fixture.oldHintHash);assert.equal(hints.length,186);
 const segments=(phrase,text)=>plain(c.allDialoguePhraseMatches(text,{phrase,type:'phrase'})).map(r=>text.slice(r.index,r.index+r.length));
 const positives=[
  ['What if ~?','What if we test it with five people tomorrow?',['What if']],

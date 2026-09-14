@@ -14,6 +14,8 @@ const DIALOGUE_HIGHLIGHT_EXCLUSIONS=Object.freeze({
 // Explicit fallback matches for linked phrases that the shared matcher cannot locate.
 // Keys are stable Dialogue ID + Phrase ID pairs. candidateLineIndex is zero-based.
 const DIALOGUE_EXPLICIT_MATCH_HINTS=Object.freeze({
+  // Draft-only identity; migrate explicitly when the approved draft receives a production ID.
+  "S2-SEED-004|p2229":Object.freeze({"dialogueId":"S2-SEED-004","phraseId":"p2229","candidateLineIndex":5,"highlightRanges":[{"matchText":"pass along your message"}],"overrideMatcher":true}),
   "d203|p1289":Object.freeze({"dialogueId":"d203","phraseId":"p1289","candidateLineIndex":5,"highlightRanges":[{"matchText":"I'm here for"}],"overrideMatcher":true}),
   "d13|p185":Object.freeze({"dialogueId":"d13","phraseId":"p185","candidateLineIndex":2,"highlightRanges":[{"matchText":"Through the grapevine"}],"overrideMatcher":true}),
   "d19|p252":Object.freeze({"dialogueId":"d19","phraseId":"p252","candidateLineIndex":3,"highlightRanges":[{"matchText":"brown-nosing"}],"overrideMatcher":true}),

@@ -29,7 +29,7 @@ const DialogueHighlightMatcher = (() => {
     stand:['stands','stood','standing'], show:['shows','showed','shown','showing'],
     pool:['pools','pooled','pooling'], push:['pushes','pushed','pushing'],
     spare:['spares','spared','sparing'], cross:['crosses','crossed','crossing'],
-    wander:['wanders','wandered','wandering']
+    wander:['wanders','wandered','wandering'], clobber:['clobbers','clobbered','clobbering']
   };
   const possessives = new Set(['my','your','his','her','our','their']);
   const reflexives = new Set(['myself','yourself','himself','herself','ourselves','yourselves','themselves']);
@@ -157,5 +157,14 @@ const DialogueHighlightMatcher = (() => {
     }
     return output;
   }
-  return Object.freeze({match,allowed});
+  // A legacy substring must not leave an inflection suffix outside a word blank.
+  // Only dictionary-backed single-word verbs are expanded; never word families.
+  function completeWordRange(text,phrase,range) {
+    const base=normalize(phrase?.phrase||'');
+    if(phrase?.type!=='word'||!verbs[base])return range;
+    const token=Array.from(String(text).matchAll(/[A-Za-z]+/g)).find(m=>m.index<=range.index&&m.index+m[0].length>=range.index+range.length);
+    if(!token||![base,...verbs[base]].includes(normalize(token[0])))return null;
+    return {index:token.index,length:token[0].length};
+  }
+  return Object.freeze({match,allowed,completeWordRange});
 })();

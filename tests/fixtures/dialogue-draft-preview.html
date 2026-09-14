@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>S2 Draft compatibility — test-only preview</title>
+<link rel="stylesheet" href="../../css/style.css?v=4.14">
+<style>body{padding:24px;display:block}#app{max-width:850px;margin:20px auto}.preview-select{display:block;max-width:100%;margin:auto}.bubble-row{margin-bottom:12px}.dialogue-side{margin-top:20px}</style>
+<label class="preview-select">Read-only Draft preview <select id="draftCase"></select></label>
+<div id="app"></div>
+<script src="../../js/dialogue-match-hints.js"></script>
+<script src="../../js/dialogue-highlight-matcher.js"></script>
+<script>
+// Test harness only: no production records or browser storage are modified.
+var app=document.getElementById('app'),PHRASES=[],DIALOGUES=[],route={params:{}},renderDialogueDetail;
+(async()=>{
+ const source=await (await fetch('../../js/app.js')).text();
+ const declarations=source.split(/\r?\n/).filter(l=>/^const esc=/.test(l)||/^const DIALOGUE_(INFLECTION|IRREGULAR|OPTIONAL)/.test(l)||/^function (dialoguePhrase|dialogueVerb|dialogueIrregular|dialoguePronoun|allDialogue|firstDialogue|dialogueExplicit|explicitDialogue|selectedDialogue|highlightDialogueLine|setPractice\(|revealDialogueBlank\(|setDialogueBlanksRevealed\(|toggleDialogueBlankPhrases\(|updateDialogueBlankPhraseList\()/.test(l));
+ (0,eval)(declarations.join('\n'));
+ (0,eval)(source.slice(source.indexOf('function applyDialogueBlankMode(){'),source.indexOf('\nrenderDialogueDetail=function(){renderDialogueDetailBase();')));
+ const fixture=await (await fetch('friends-s2-dialogue-draft-compatibility.json')).json();
+ for(let i=1;i<=9;i++)PHRASES.push(...(await (await fetch('../../data/season'+i+'.json')).json()).phrases);
+ DIALOGUES=fixture.drafts;
+ const picker=document.getElementById('draftCase');
+ for(const id of ['S2-SEED-002','S2-SEED-001','d57','S2-SEED-004']){const option=document.createElement('option');option.value=id;option.textContent=id;picker.append(option)}
+ renderDialogueDetail=()=>{
+  const d=DIALOGUES.find(d=>d.id===picker.value);route.params={id:d.id,practice:'normal',blankRevealed:[]};
+  const matches=dialoguePhraseMatchResults(d,d.phraseLinks.map(id=>PHRASES.find(p=>p.id===id)));
+  app.innerHTML='<h1>'+d.scenario+'</h1><p>Test-only: original Draft English, actual production matcher and Blank adapter.</p><div class="dialogue-controls"><div class="segmented"><button class="seg-button" onclick="setPractice(\'normal\')">Normal</button><button class="seg-button" onclick="setPractice(\'blank\')">Blank</button></div></div><p class="blank-mode-hint">Tap to reveal</p>'+d.lines.map((line,i)=>'<div class="bubble-row '+line[0].toLowerCase()+'"><div class="bubble"><div class="speaker-label">'+line[0]+'</div><div class="dialogue-line-text">'+highlightDialogueLine(line[1],matches.filter(m=>m.lineIndex===i))+'</div></div></div>').join('')+'<aside class="dialogue-side card"><h2>Linked phrases</h2><div class="learning-list">'+d.phraseLinks.map(id=>'<div>'+PHRASES.find(p=>p.id===id).phrase+'</div>').join('')+'</div></aside>';
+ };picker.onchange=renderDialogueDetail;renderDialogueDetail();
+})().catch(error=>{app.textContent=error.stack;console.error(error)});
+</script></html>
