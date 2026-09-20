@@ -6,7 +6,7 @@ const root=path.resolve(__dirname,'..');
 const sets=Array.from({length:9},(_,i)=>JSON.parse(fs.readFileSync(path.join(root,'data',`season${i+1}.json`),'utf8')));
 const dialogues=sets.flatMap(set=>set.dialogues),phrases=sets.flatMap(set=>set.phrases),phraseIds=new Set(phrases.map(phrase=>phrase.id));
 assert.equal(dialogues.length,198);assert.equal(sets[0].dialogues.length,43);
-assert.equal(new Set(dialogues.map(dialogue=>dialogue.id)).size,198);assert.equal(phraseIds.size,3106);
+assert.equal(new Set(dialogues.map(dialogue=>dialogue.id)).size,198);assert.equal(phraseIds.size,3248);
 for(const dialogue of dialogues){
   for(const key of ['id','season','title','category','lines','phraseLinks'])assert.ok(Object.prototype.hasOwnProperty.call(dialogue,key));
   assert.ok(Object.keys(dialogue).every(key=>['id','season','title','category','lines','phraseLinks','series'].includes(key)));

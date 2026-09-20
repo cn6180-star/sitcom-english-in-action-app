@@ -13,9 +13,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,3106);
-assert.equal(phraseIds.size,3106);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),3154);
+assert.equal(phrases.length,3248);
+assert.equal(phraseIds.size,3248);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),3300);
 
 const newIds=Array.from({length:126},(_,index)=>`p${1560+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
@@ -110,6 +110,11 @@ assert.deepEqual(exactDuplicates,{
   "out there":["p1487","p608"],
   "pick someone up":["p1325","p1551"],
   "that’s it.":["p1152","p2445"],
+  "have something worked out":["p3195","p604"],
+  "damage control":["p3228","p637"],
+  "throw someone off":["p3233","p502"],
+  "hit it off":["p3261","p488"],
+  "the third degree":["p3268","p470"],
   "watch ~":["p3016","p647"],
   "work out":["p1128","p1584"]
 });
@@ -159,6 +164,15 @@ assert.deepEqual(normalizedDuplicates,{
   "out there":["p1487","p608"],
   "pick someone up":["p1325","p1551"],
   "that's it":["p1152","p2038","p2445"],
+  "pop into one's head":["p3170","p672"],
+  "have ~ worked out":["p3195","p604"],
+  "pick ~ out":["p2415","p3180"],
+  "shoot":["p1092","p3204"],
+  "get past ~":["p3216","p988"],
+  "damage control":["p3228","p637"],
+  "throw someone off":["p3233","p502"],
+  "hit it off":["p3261","p488"],
+  "the third degree":["p3268","p470"],
   "watch ~":["p3016","p647"],
   "work out":["p1128","p1584"]
 });
