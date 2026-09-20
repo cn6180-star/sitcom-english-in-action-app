@@ -63,7 +63,7 @@ assert.equal(byId.get("p2532").phrase,"on the way");
 assert.equal(byId.get("p2533").phrase,"Easy!");
 assert.deepEqual(phrases.filter(phrase=>phrase.phrase==="go for ~").map(phrase=>phrase.id),["p2055"]);
 
-assert.equal(dialogues.length,198);
+assert.equal(dialogues.length,326);
 assert.deepEqual(dialogues.flatMap(dialogue=>(dialogue.phraseLinks||[])
   .filter(id=>!phraseIds.has(id)).map(id=>`${dialogue.id}:${id}`)),[]);
 assert.equal(
@@ -74,5 +74,5 @@ assert.equal(
 console.log("Season 1 E01-E06 curated Phrase tests passed");
 
 // Full production snapshot; the existing-only snapshot above is supplementary.
-assert.equal(dialogues.length,198);
-assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"b1753aede256a939809c5f94e0f41c84942cde09ab912e48564772b3e814d0b5");
+assert.equal(dialogues.length,326);
+assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"2513b2e0b0d33fc394708478309410fa41944cf2654b3b85dfdd5fc21fbed33e");

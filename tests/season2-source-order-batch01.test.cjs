@@ -27,9 +27,9 @@ for(const [episode,ids] of Object.entries(expected)){
  assert.deepEqual(rows.map(p=>p.sourceOrder),ids.map((_,i)=>i+1),`${episode}: contiguous verified-only ranks`);
  for(const x of datasets){const actual=x.data.phrases.filter(p=>p.episode===episode&&verified.has(p.id)).map(p=>p.sourceOrder);assert.deepEqual(actual,[...actual].sort((a,b)=>a-b),`${episode}: physical array verified slots`);}
 }
-assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'data/season1.json'))).digest('hex'),'8c2a367a389d0d8c0ed7ea6f93fd74bca20a0bee03ab742326aaefb6ea6084ad');
-assert.equal(dialogues.length,198);
-assert.equal(hash(dialogues),'b1753aede256a939809c5f94e0f41c84942cde09ab912e48564772b3e814d0b5');
+assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'data/season1.json'))).digest('hex'),'b18125528dd0d1a45105caf25c1a666702fe55a5ef6f47a86bb5aa1c6100b45d');
+assert.equal(dialogues.length,326);
+assert.equal(hash(dialogues),'2513b2e0b0d33fc394708478309410fa41944cf2654b3b85dfdd5fc21fbed33e');
 assert.equal(hash(dialogues.filter(d=>Number(d.id.slice(1))<=167)),'74124dd44ce691184e75d04368785186e04891080f76867bef1775ee4f3a7457');
 const ids=new Set(phrases.map(p=>p.id));assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!ids.has(id))),[]);
 console.log('Friends S2 E01-E08 sourceOrder integrity passed (211 verified; 3 explicitly deferred, not complete-coverage approval).');

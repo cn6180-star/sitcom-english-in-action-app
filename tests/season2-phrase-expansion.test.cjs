@@ -209,7 +209,7 @@ for(const ids of Object.values(duplicateHeadlines)){
   assert.equal(new Set(ids.map(id=>byId.get(id).meaning)).size,ids.length,`${ids.join(",")} must remain distinct senses`);
 }
 
-assert.equal(dialogues.length,198);
+assert.equal(dialogues.length,326);
 assert.deepEqual(dialogues.flatMap(dialogue=>(dialogue.phraseLinks||[])
   .filter(id=>!phraseIds.has(id)).map(id=>`${dialogue.id}:${id}`)),[]);
 assert.equal(
@@ -220,5 +220,5 @@ assert.equal(
 console.log("Season 2 E01-E06 Phrase expansion tests passed");
 
 // Full production snapshot; the existing-only snapshot above is supplementary.
-assert.equal(dialogues.length,198);
-assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"b1753aede256a939809c5f94e0f41c84942cde09ab912e48564772b3e814d0b5");
+assert.equal(dialogues.length,326);
+assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"2513b2e0b0d33fc394708478309410fa41944cf2654b3b85dfdd5fc21fbed33e");

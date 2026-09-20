@@ -8,7 +8,10 @@
       "scene": "足などの筋肉が急に痛く収縮したとき。",
       "example1": "I've got a cramp in my leg.",
       "example2": "My leg cramped during the swim.",
-      "exampleTranslations": ["足がつった。","泳いでいる途中に足がつった。"],
+      "exampleTranslations": [
+        "足がつった。",
+        "泳いでいる途中に足がつった。"
+      ],
       "type": "word",
       "priorityText": "★★☆",
       "priority": 2,
@@ -308,7 +311,10 @@
       "scene": "相手の図々しさや信じられなさをツッコむとき",
       "example1": "You have the nerve to say that?",
       "example2": "I didn’t have the nerve to call her.",
-      "exampleTranslations": ["よくもそんなことが言えるね？", "彼女に電話する勇気がなかった。"],
+      "exampleTranslations": [
+        "よくもそんなことが言えるね？",
+        "彼女に電話する勇気がなかった。"
+      ],
       "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
@@ -367,7 +373,10 @@
       "scene": "利益や好機を得た気分を冗談めかして表すとき",
       "example1": "Cha-ching! We just made another sale.",
       "example2": "They doubled the prize money. Cha-ching!",
-      "exampleTranslations": ["チャリーン！ また売れたよ。","賞金が倍になった。しめた！"],
+      "exampleTranslations": [
+        "チャリーン！ また売れたよ。",
+        "賞金が倍になった。しめた！"
+      ],
       "type": "word",
       "priorityText": "★☆☆",
       "priority": 1,
@@ -507,7 +516,10 @@
       "scene": "恋愛の進展や下ネタの会話",
       "example1": "He won’t put out.",
       "example2": "She finally put out.",
-      "exampleTranslations": ["彼はセックスしてくれない。", "彼女はついにセックスに応じた。"],
+      "exampleTranslations": [
+        "彼はセックスしてくれない。",
+        "彼女はついにセックスに応じた。"
+      ],
       "type": "phrasal verb",
       "priorityText": "★☆☆",
       "priority": 1,
@@ -524,7 +536,10 @@
       "scene": "強めに何もないと否定するとき",
       "example1": "Nope, nothing.",
       "example2": "Zilch. I got nothing.",
-      "exampleTranslations": ["いや、何もない。", "ゼロ。何もないよ。"],
+      "exampleTranslations": [
+        "いや、何もない。",
+        "ゼロ。何もないよ。"
+      ],
       "type": "phrase",
       "note": "複数の否定語を重ね、強調・コミカルに言う表現。",
       "priorityText": "★★★",
@@ -583,7 +598,10 @@
       "scene": "責めすぎてる状況を止めるとき",
       "example1": "Let up on him.",
       "example2": "The rain finally let up.",
-      "exampleTranslations": ["彼への当たりを少し弱めて。", "雨がようやく弱まった。"],
+      "exampleTranslations": [
+        "彼への当たりを少し弱めて。",
+        "雨がようやく弱まった。"
+      ],
       "type": "phrasal verb",
       "priorityText": "★★☆",
       "priority": 2,
@@ -619,7 +637,10 @@
       "scene": "感情が高ぶっているとき",
       "example1": "Hey, simmer down.",
       "example2": "Simmer down, guys.",
-      "exampleTranslations": ["ちょっと落ち着いて。", "みんな、落ち着いて。"],
+      "exampleTranslations": [
+        "ちょっと落ち着いて。",
+        "みんな、落ち着いて。"
+      ],
       "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
@@ -695,7 +716,10 @@
       "scene": "軽い冗談やナンセンスな話をするとき",
       "example1": "He told me a limerick out of nowhere.",
       "example2": "That sounds like a bad limerick.",
-      "exampleTranslations": ["彼はいきなり五行詩を披露した。", "それ、出来の悪い五行詩みたいだね。"],
+      "exampleTranslations": [
+        "彼はいきなり五行詩を披露した。",
+        "それ、出来の悪い五行詩みたいだね。"
+      ],
       "type": "word",
       "priorityText": "★☆☆",
       "priority": 1,
@@ -792,7 +816,10 @@
       "scene": "感情を軽く扱う・アイデアを軽く検討するとき",
       "example1": "Don’t toy with my feelings.",
       "example2": "I’m toying with the idea of quitting.",
-      "exampleTranslations": ["私の気持ちをもてあそばないで。", "辞めようかと軽く考えている。"],
+      "exampleTranslations": [
+        "私の気持ちをもてあそばないで。",
+        "辞めようかと軽く考えている。"
+      ],
       "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
@@ -849,7 +876,10 @@
       "scene": "長く抱えていた問題やプレッシャーが消えたとき",
       "example1": "I finally got the monkey off my back.",
       "example2": "He can’t get that mistake off his back.",
-      "exampleTranslations": ["ようやく長年の重荷を下ろせた。", "彼はそのミスの重荷から逃れられない。"],
+      "exampleTranslations": [
+        "ようやく長年の重荷を下ろせた。",
+        "彼はそのミスの重荷から逃れられない。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -887,7 +917,10 @@
       "scene": "話を振られてツッコむとき",
       "example1": "Don’t look at me. What are you looking at me for?",
       "example2": "You all turned to me. What are you looking at me for?",
-      "exampleTranslations": ["私を見ないでよ。なんで私を見るの？","みんな私の方を向いたね。なんで私を見るの？"],
+      "exampleTranslations": [
+        "私を見ないでよ。なんで私を見るの？",
+        "みんな私の方を向いたね。なんで私を見るの？"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -964,7 +997,10 @@
       "scene": "情報源がはっきりしないとき",
       "example1": "I heard it through the grapevine.",
       "example2": "She heard about it through the grapevine.",
-      "exampleTranslations": ["人づてに聞いたよ。", "彼女はそのことを口コミで聞いた。"],
+      "exampleTranslations": [
+        "人づてに聞いたよ。",
+        "彼女はそのことを口コミで聞いた。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -1020,7 +1056,10 @@
       "scene": "自分が何かを引き受けるとき",
       "example1": "He had to shoulder the responsibility.",
       "example2": "She’s been shouldering all the work.",
-      "exampleTranslations": ["彼はその責任を背負わなければならなかった。", "彼女はずっと仕事を全部背負っている。"],
+      "exampleTranslations": [
+        "彼はその責任を背負わなければならなかった。",
+        "彼女はずっと仕事を全部背負っている。"
+      ],
       "type": "word",
       "priorityText": "★★☆",
       "priority": 2,
@@ -1178,7 +1217,10 @@
       "scene": "判断を相手に委ねるとき",
       "example1": "It’s your call.",
       "example2": "Your call, I’m fine either way.",
-      "exampleTranslations": ["あなたが決めて。", "あなたに任せるよ。私はどちらでもいい。"],
+      "exampleTranslations": [
+        "あなたが決めて。",
+        "あなたに任せるよ。私はどちらでもいい。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -1276,7 +1318,10 @@
       "scene": "相手がナルシストっぽいときに非難",
       "example1": "You’re so full of yourself lately.",
       "example2": "Stop being so full of yourself.",
-      "exampleTranslations": ["最近、自分に酔いすぎだよ。", "そんなに自惚れるのはやめて。"],
+      "exampleTranslations": [
+        "最近、自分に酔いすぎだよ。",
+        "そんなに自惚れるのはやめて。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -1353,7 +1398,10 @@
       "scene": "相手の提案に強く賛成するとき",
       "example1": "Pizza? Now you’re talking.",
       "example2": "Now you’re talking, that’s a great idea.",
-      "exampleTranslations": ["ピザ？それいいね。", "それだよ、それはすごくいい案だ。"],
+      "exampleTranslations": [
+        "ピザ？それいいね。",
+        "それだよ、それはすごくいい案だ。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -1654,7 +1702,10 @@
       "scene": "努力や投資が結果につながったとき",
       "example1": "All that hard work paid off.",
       "example2": "Studying every day finally paid off.",
-      "exampleTranslations": ["あれだけ頑張った甲斐があった。", "毎日勉強した成果がついに出た。"],
+      "exampleTranslations": [
+        "あれだけ頑張った甲斐があった。",
+        "毎日勉強した成果がついに出た。"
+      ],
       "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
@@ -1713,7 +1764,10 @@
       "scene": "気分が沈んでいるとき",
       "example1": "I’ve been feeling blue lately.",
       "example2": "She felt blue after the breakup.",
-      "exampleTranslations": ["最近、気分が落ち込んでいる。", "彼女は別れたあと落ち込んでいた。"],
+      "exampleTranslations": [
+        "最近、気分が落ち込んでいる。",
+        "彼女は別れたあと落ち込んでいた。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -1729,7 +1783,10 @@
       "scene": "家柄や育ちの話",
       "example1": "He comes from a blue-blood family.",
       "example2": "She married into blue blood.",
-      "exampleTranslations": ["彼は名門の家系の出だ。", "彼女は名門一族に嫁いだ。"],
+      "exampleTranslations": [
+        "彼は名門の家系の出だ。",
+        "彼女は名門一族に嫁いだ。"
+      ],
       "type": "idiom",
       "priorityText": "★☆☆",
       "priority": 1,
@@ -1745,7 +1802,10 @@
       "scene": "大げさに怒る・騒ぐとき",
       "example1": "She screamed blue murder when she saw it.",
       "example2": "He’ll scream blue murder if he finds out.",
-      "exampleTranslations": ["彼女はそれを見て大声でわめいた。", "彼が知ったら、ものすごく騒ぐよ。"],
+      "exampleTranslations": [
+        "彼女はそれを見て大声でわめいた。",
+        "彼が知ったら、ものすごく騒ぐよ。"
+      ],
       "type": "idiom",
       "priorityText": "★☆☆",
       "priority": 1,
@@ -1761,7 +1821,10 @@
       "scene": "信頼できる人や本物を強調",
       "example1": "He’s a true blue friend.",
       "example2": "She’s true blue, you can trust her.",
-      "exampleTranslations": ["彼は心から信頼できる友達だ。", "彼女は誠実だから、信用できるよ。"],
+      "exampleTranslations": [
+        "彼は心から信頼できる友達だ。",
+        "彼女は誠実だから、信用できるよ。"
+      ],
       "type": "word",
       "priorityText": "★★☆",
       "priority": 2,
@@ -1859,7 +1922,10 @@
       "scene": "共感や励ましのとき",
       "example1": "We’re in the same boat.",
       "example2": "We’re all in the same boat.",
-      "exampleTranslations": ["私たちは同じ状況だ。", "私たちはみんな同じ立場だよ。"],
+      "exampleTranslations": [
+        "私たちは同じ状況だ。",
+        "私たちはみんな同じ立場だよ。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -1875,7 +1941,10 @@
       "scene": "仕事終わりや運動後など",
       "example1": "I’m so beat after work.",
       "example2": "I was totally beat after the game.",
-      "exampleTranslations": ["仕事のあとでへとへとだ。", "試合のあと、完全にへとへとだった。"],
+      "exampleTranslations": [
+        "仕事のあとでへとへとだ。",
+        "試合のあと、完全にへとへとだった。"
+      ],
       "type": "word",
       "priorityText": "★★★",
       "priority": 3,
@@ -1912,7 +1981,10 @@
       "scene": "軽く黙らせるとき",
       "example1": "She shushed the kids.",
       "example2": "He shushed me during the movie.",
-      "exampleTranslations": ["彼女は子どもたちを静かにさせた。", "映画の最中、彼に静かにするよう言われた。"],
+      "exampleTranslations": [
+        "彼女は子どもたちを静かにさせた。",
+        "映画の最中、彼に静かにするよう言われた。"
+      ],
       "type": "word",
       "priorityText": "★★☆",
       "priority": 2,
@@ -2030,7 +2102,10 @@
       "scene": "イライラや呆れを強調するとき",
       "example1": "For God’s sake, stop it.",
       "example2": "For God’s sake, just listen.",
-      "exampleTranslations": ["お願いだから、やめて。", "お願いだから、話を聞いて。"],
+      "exampleTranslations": [
+        "お願いだから、やめて。",
+        "お願いだから、話を聞いて。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -2089,7 +2164,10 @@
       "scene": "自分だけ除け者っぽく感じたとき",
       "example1": "I felt left out at the party.",
       "example2": "Don’t make him feel left out.",
-      "exampleTranslations": ["パーティーで仲間外れにされた気がした。", "彼に仲間外れだと感じさせないで。"],
+      "exampleTranslations": [
+        "パーティーで仲間外れにされた気がした。",
+        "彼に仲間外れだと感じさせないで。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -2200,7 +2278,7 @@
       "id": "p2299",
       "sourceOrder": 3
     },
-        {
+    {
       "id": "p299",
       "phrase": "run into ~",
       "meaning": "ばったり会う（偶然）",
@@ -2403,7 +2481,7 @@
       "register": "neutral",
       "sourceOrder": 4
     },
-        {
+    {
       "id": "p810",
       "phrase": "freaked out",
       "meaning": "動揺した／パニックになった",
@@ -2511,7 +2589,10 @@
       "scene": "悪い状況の中で良い面を言うとき",
       "example1": "The silver lining is that I learned a lot.",
       "example2": "There’s always a silver lining.",
-      "exampleTranslations": ["救いなのは、たくさん学べたことだ。", "どんなことにも良い面はあるよ。"],
+      "exampleTranslations": [
+        "救いなのは、たくさん学べたことだ。",
+        "どんなことにも良い面はあるよ。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -2570,7 +2651,10 @@
       "scene": "本音を言わずに配慮するとき",
       "example1": "I was trying to spare your feelings.",
       "example2": "I didn’t say it to spare him.",
-      "exampleTranslations": ["あなたを傷つけないようにしていたの。", "彼を傷つけないために、それは言わなかった。"],
+      "exampleTranslations": [
+        "あなたを傷つけないようにしていたの。",
+        "彼を傷つけないために、それは言わなかった。"
+      ],
       "type": "phrase",
       "priorityText": "★★☆",
       "priority": 2,
@@ -2587,7 +2671,10 @@
       "scene": "ある人や事情がなければ結果が違うと仮定するとき",
       "example1": "If it weren’t for you, I would be lost.",
       "example2": "If it hadn’t been for your call, I would have missed the meeting.",
-      "exampleTranslations": ["君がいなければ途方に暮れているよ。","君の電話がなかったら会議に出られなかった。"],
+      "exampleTranslations": [
+        "君がいなければ途方に暮れているよ。",
+        "君の電話がなかったら会議に出られなかった。"
+      ],
       "type": "grammar",
       "priorityText": "★★★",
       "priority": 3,
@@ -2681,7 +2768,7 @@
       "note": "ここでは文字どおり「立ち去る」。驚きを表す既存の`Get out of here!`とは別義。",
       "sourceOrder": 14
     },
-        {
+    {
       "id": "p1451",
       "phrase": "deal with someone/something",
       "meaning": "人に対応する／問題や状況に対処する・受け入れる",
@@ -2750,7 +2837,10 @@
       "scene": "回数の多さを皮肉っぽく言うとき",
       "example1": "If I had a nickel for every mistake, I’d be rich.",
       "example2": "If I had a nickel for every time he said that…",
-      "exampleTranslations": ["ミスするたびに5セントもらえてたら、今ごろ大金持ちだよ。", "彼がそれを言うたびに5セントもらえてたら……。"],
+      "exampleTranslations": [
+        "ミスするたびに5セントもらえてたら、今ごろ大金持ちだよ。",
+        "彼がそれを言うたびに5セントもらえてたら……。"
+      ],
       "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
@@ -2883,7 +2973,7 @@
       "register": "neutral",
       "sourceOrder": 8
     },
-        {
+    {
       "id": "p1461",
       "phrase": "be fine with ~ / be okay with ~",
       "meaning": "～で構わない／～を受け入れられる",
@@ -2992,7 +3082,10 @@
       "scene": "同じ話や問題を以前にも経験したと指摘するとき",
       "example1": "We’ve been through this before, and nothing changed.",
       "example2": "We've been through this. The answer is still no.",
-      "exampleTranslations": ["この話は前にもしたけど、何も変わらなかった。","この話は前にもしたでしょう。答えは変わらず、だめです。"],
+      "exampleTranslations": [
+        "この話は前にもしたけど、何も変わらなかった。",
+        "この話は前にもしたでしょう。答えは変わらず、だめです。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -3002,7 +3095,7 @@
       "register": "neutral",
       "sourceOrder": 15
     },
-        {
+    {
       "id": "p1467",
       "phrase": "What’s the big deal?",
       "meaning": "何がそんなに問題なの？",
@@ -3044,7 +3137,7 @@
       "note": "非常に強い嫌悪を表す口語的なidiom。本人に直接言うと攻撃的。Friendsの実使用は `You really need to hate Julie’s guts.`。",
       "sourceOrder": 13
     },
-        {
+    {
       "id": "p1469",
       "phrase": "by the way",
       "meaning": "ところで／そういえば",
@@ -3086,7 +3179,7 @@
       "note": "`How come`の後ろは疑問文語順にせず、通常の主語＋動詞の語順にする。",
       "sourceOrder": 4
     },
-        {
+    {
       "id": "p1471",
       "phrase": "There’s nothing wrong with ~",
       "meaning": "～には何も問題がない",
@@ -3106,7 +3199,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-        {
+    {
       "id": "p1472",
       "phrase": "give someone a chance",
       "meaning": "人を知る・試す機会を与える",
@@ -3127,7 +3220,7 @@
       "register": "neutral",
       "note": "`give someone another chance`は、一度失敗した相手に再び機会を与える意味。"
     },
-        {
+    {
       "id": "p1473",
       "phrase": "not bad / not that bad",
       "meaning": "悪くない／それほど悪くない",
@@ -3168,7 +3261,7 @@
       "register": "casual",
       "sourceOrder": 11
     },
-        {
+    {
       "id": "p1475",
       "phrase": "You never know.",
       "meaning": "何が起こるか分からない／ひょっとするかもしれない",
@@ -3236,7 +3329,10 @@
       "scene": "誰かの行動が極端で「普通じゃない」と軽く言うとき",
       "example1": "He’s kind of a nut case, but I like him.",
       "example2": "Don’t listen to him—he’s a total nut case.",
-      "exampleTranslations": ["彼はちょっと変人だけど、私は好きだよ。", "彼の話は聞かないで。完全にいかれてるから。"],
+      "exampleTranslations": [
+        "彼はちょっと変人だけど、私は好きだよ。",
+        "彼の話は聞かないで。完全にいかれてるから。"
+      ],
       "type": "word",
       "priorityText": "★★★",
       "priority": 3,
@@ -3266,7 +3362,7 @@
       "register": "neutral",
       "sourceOrder": 14
     },
-        {
+    {
       "id": "p1480",
       "phrase": "think of A as B",
       "meaning": "AをBだと考える／捉える",
@@ -3286,7 +3382,7 @@
       "frequency": "general",
       "register": "neutral"
     },
-        {
+    {
       "id": "p1481",
       "phrase": "Please tell me + clause",
       "meaning": "～だと言ってくれ／まさか～ではないよね",
@@ -3492,7 +3588,7 @@
       "note": "相手を明示しない場合はwith someoneを省ける。fall in loveは恋に落ちるという変化を表す。",
       "sourceOrder": 21
     },
-        {
+    {
       "id": "p1491",
       "phrase": "What were you thinking?",
       "meaning": "一体何を考えていたの？",
@@ -3520,7 +3616,10 @@
       "scene": "自分の不安で本来の力が出せないとき",
       "example1": "I got psyched out before the interview.",
       "example2": "Don’t psyche yourself out.",
-      "exampleTranslations": ["面接前に不安で萎縮してしまった。", "考えすぎて自信をなくさないで。"],
+      "exampleTranslations": [
+        "面接前に不安で萎縮してしまった。",
+        "考えすぎて自信をなくさないで。"
+      ],
       "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
@@ -3662,7 +3761,10 @@
       "scene": "発言・作品などが特定の人にとって不快なとき",
       "example1": "That joke is degrading to women.",
       "example2": "It’s degrading to the audience.",
-      "exampleTranslations": ["その冗談は女性を侮辱している。", "それは観客を見下している。"],
+      "exampleTranslations": [
+        "その冗談は女性を侮辱している。",
+        "それは観客を見下している。"
+      ],
       "type": "word",
       "note": "be degrading to someone の形で「someoneにとって侮辱的・尊厳を傷つける」という意味で使える。",
       "priorityText": "★★☆",
@@ -3822,7 +3924,10 @@
       "scene": "体力・気力ともに限界のとき",
       "example1": "I’m completely wiped after work.",
       "example2": "That workout left me wiped out.",
-      "exampleTranslations": ["仕事のあとは完全にへとへとだ。", "あの運動でへとへとになった。"],
+      "exampleTranslations": [
+        "仕事のあとは完全にへとへとだ。",
+        "あの運動でへとへとになった。"
+      ],
       "type": "word",
       "priorityText": "★★★",
       "priority": 3,
@@ -3852,7 +3957,7 @@
       "register": "neutral",
       "sourceOrder": 19
     },
-        {
+    {
       "id": "p1509",
       "phrase": "plan on ~ing",
       "meaning": "～するつもりである／予定している",
@@ -3900,7 +4005,10 @@
       "scene": "長い話をまとめるとき",
       "example1": "In a nutshell, we need more time.",
       "example2": "So, in a nutshell, he quit his job.",
-      "exampleTranslations": ["一言で言えば、もっと時間が必要だ。", "つまり一言で言えば、彼は仕事を辞めた。"],
+      "exampleTranslations": [
+        "一言で言えば、もっと時間が必要だ。",
+        "つまり一言で言えば、彼は仕事を辞めた。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -3917,7 +4025,10 @@
       "scene": "金額や負担が重いと感じたとき",
       "example1": "That’s a bit steep for me.",
       "example2": "The fee is pretty steep.",
-      "exampleTranslations": ["それは私にはちょっと高すぎる。", "その料金はかなり高い。"],
+      "exampleTranslations": [
+        "それは私にはちょっと高すぎる。",
+        "その料金はかなり高い。"
+      ],
       "type": "word",
       "priorityText": "★★☆",
       "priority": 2,
@@ -3996,7 +4107,10 @@
       "scene": "感情を出し切ったとき",
       "example1": "I’m all cried out.",
       "example2": "She was all cried out after the argument.",
-      "exampleTranslations": ["もう涙も出ないほど泣いた。", "彼女は口論のあと、涙も出ないほど泣ききっていた。"],
+      "exampleTranslations": [
+        "もう涙も出ないほど泣いた。",
+        "彼女は口論のあと、涙も出ないほど泣ききっていた。"
+      ],
       "type": "phrase",
       "priorityText": "★★☆",
       "priority": 2,
@@ -4096,7 +4210,10 @@
       "scene": "期待が実現しないと強く予測したり、提案をきっぱり拒否したりするとき",
       "example1": "Working all weekend? Not gonna happen.",
       "example2": "It’s never gonna happen if we keep waiting.",
-      "exampleTranslations": ["週末ずっと働くって？ 絶対に無理。","待ってばかりでは絶対に実現しないよ。"],
+      "exampleTranslations": [
+        "週末ずっと働くって？ 絶対に無理。",
+        "待ってばかりでは絶対に実現しないよ。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -4296,7 +4413,10 @@
       "scene": "行動や状況について罪悪感を抱いていると話すとき",
       "example1": "I feel guilty for letting her down.",
       "example2": "Don’t feel guilty about taking a break.",
-      "exampleTranslations": ["彼女を失望させて罪悪感がある。","休むことに罪悪感を持たなくていいよ。"],
+      "exampleTranslations": [
+        "彼女を失望させて罪悪感がある。",
+        "休むことに罪悪感を持たなくていいよ。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -4479,7 +4599,10 @@
       "scene": "単調なルーティンを表すとき",
       "example1": "It’s just lather, rinse, repeat every day.",
       "example2": "Work, eat, sleep—lather, rinse, repeat.",
-      "exampleTranslations": ["毎日ただ同じことの繰り返しだ。", "働いて、食べて、寝る。その繰り返し。"],
+      "exampleTranslations": [
+        "毎日ただ同じことの繰り返しだ。",
+        "働いて、食べて、寝る。その繰り返し。"
+      ],
       "type": "idiom",
       "priorityText": "★★☆",
       "priority": 2,
@@ -4674,7 +4797,7 @@
       "register": "polite",
       "sourceOrder": 48
     },
-        {
+    {
       "id": "p1550",
       "phrase": "let go of ~",
       "meaning": "～を放す／手放す",
@@ -4805,7 +4928,10 @@
       "scene": "最初の一歩を踏み出すとき",
       "example1": "Let’s get the ball rolling.",
       "example2": "I’ll send the first message to get the ball rolling.",
-      "exampleTranslations": ["さあ、始めよう。", "話を進めるために、まず私からメッセージを送るよ。"],
+      "exampleTranslations": [
+        "さあ、始めよう。",
+        "話を進めるために、まず私からメッセージを送るよ。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -4876,7 +5002,7 @@
       "id": "p2218",
       "sourceOrder": 27
     },
-        {
+    {
       "id": "p1560",
       "phrase": "kind of / sort of",
       "meaning": "ちょっと／ある意味／なんとなく",
@@ -4897,7 +5023,7 @@
       "register": "casual",
       "note": "`kind of`と`sort of`はこの用法ではほぼ同じ。くだけた会話では`kinda`、`sorta`とも発音される。"
     },
-        {
+    {
       "id": "p1561",
       "phrase": "whatsoever",
       "meaning": "少しも／いかなる～も",
@@ -4918,7 +5044,7 @@
       "register": "neutral",
       "note": "通常、`no`、`not`、`nothing`などの否定表現を強調する。"
     },
-        {
+    {
       "id": "p1562",
       "phrase": "call someone back",
       "meaning": "～に折り返し電話する",
@@ -4938,7 +5064,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-        {
+    {
       "id": "p1563",
       "phrase": "I gotta go.",
       "meaning": "もう行かなきゃ",
@@ -4979,7 +5105,7 @@
       "register": "neutral",
       "sourceOrder": 32
     },
-        {
+    {
       "id": "p1565",
       "phrase": "Excuse me.",
       "meaning": "すみません／失礼します",
@@ -5006,7 +5132,10 @@
       "scene": "最悪の状態に落ちたとき",
       "example1": "I hit rock bottom last year.",
       "example2": "That was my rock bottom.",
-      "exampleTranslations": ["去年、人生のどん底まで落ちた。", "あれが私のどん底だった。"],
+      "exampleTranslations": [
+        "去年、人生のどん底まで落ちた。",
+        "あれが私のどん底だった。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -5016,7 +5145,7 @@
       "register": "neutral",
       "sourceOrder": 21
     },
-        {
+    {
       "id": "p1567",
       "phrase": "at first",
       "meaning": "最初は／初めのうちは",
@@ -5097,7 +5226,7 @@
       "register": "casual",
       "sourceOrder": 37
     },
-        {
+    {
       "id": "p1571",
       "phrase": "come over",
       "meaning": "家などへ遊びに来る／立ち寄る",
@@ -5158,7 +5287,7 @@
       "register": "casual",
       "sourceOrder": 62
     },
-        {
+    {
       "id": "p1574",
       "phrase": "That’s fine.",
       "meaning": "それでいい／構わない",
@@ -5218,7 +5347,7 @@
       "register": "neutral",
       "sourceOrder": 26
     },
-        {
+    {
       "id": "p1577",
       "phrase": "Let me see.",
       "meaning": "見せて／ちょっと確認させて",
@@ -5239,7 +5368,7 @@
       "register": "neutral",
       "note": "後ろに目的語を置く用法と、考えながら「ええと」と言う用法がある。"
     },
-        {
+    {
       "id": "p1578",
       "phrase": "Never mind.",
       "meaning": "もういい／気にしないで",
@@ -5259,7 +5388,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-        {
+    {
       "id": "p1579",
       "phrase": "Don’t worry.",
       "meaning": "心配しないで",
@@ -5299,7 +5428,7 @@
       "register": "neutral",
       "sourceOrder": 84
     },
-        {
+    {
       "id": "p1581",
       "phrase": "Come here.",
       "meaning": "こっちへ来て",
@@ -5319,7 +5448,7 @@
       "frequency": "frequent",
       "register": "casual"
     },
-        {
+    {
       "id": "p1582",
       "phrase": "Got it.",
       "meaning": "分かった／了解",
@@ -5533,7 +5662,10 @@
       "scene": "自分の発言や行動にツッコミ入れるとき",
       "example1": "Oh, look at me, I did it again.",
       "example2": "Look at me, talking too much.",
-      "exampleTranslations": ["もう、私ったら。またやっちゃった。", "私ったら、しゃべりすぎちゃって。"],
+      "exampleTranslations": [
+        "もう、私ったら。またやっちゃった。",
+        "私ったら、しゃべりすぎちゃって。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -5583,7 +5715,7 @@
       "register": "neutral",
       "sourceOrder": 18
     },
-        {
+    {
       "id": "p1595",
       "phrase": "figure (that) + clause",
       "meaning": "～だと思う／～だろうと見込む",
@@ -5611,7 +5743,10 @@
       "scene": "強い決意を示すとき",
       "example1": "I’ll do whatever it takes.",
       "example2": "Whatever it takes to win.",
-      "exampleTranslations": ["何としてでもやるよ。", "勝つためなら何でもする。"],
+      "exampleTranslations": [
+        "何としてでもやるよ。",
+        "勝つためなら何でもする。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -5730,7 +5865,10 @@
       "scene": "助言を実際に行動に移したとき",
       "example1": "I took your advice.",
       "example2": "I followed his advice.",
-      "exampleTranslations": ["あなたの助言どおりにした。", "彼の助言に従った。"],
+      "exampleTranslations": [
+        "あなたの助言どおりにした。",
+        "彼の助言に従った。"
+      ],
       "type": "phrase",
       "note": "follow someone’s advice とも言える。",
       "priorityText": "★★★",
@@ -5741,7 +5879,7 @@
       "register": "neutral",
       "sourceOrder": 23
     },
-        {
+    {
       "id": "p1603",
       "phrase": "What’s going on? / What’s going on with you?",
       "meaning": "何が起きているの？／最近どうしているの？",
@@ -5829,7 +5967,10 @@
       "scene": "ツッコミや半信半疑のとき",
       "example1": "Let me get this straight—you quit your job?",
       "example2": "Let me get this straight. You forgot again?",
-      "exampleTranslations": ["確認させて。仕事を辞めたの？", "確認だけど、また忘れたの？"],
+      "exampleTranslations": [
+        "確認させて。仕事を辞めたの？",
+        "確認だけど、また忘れたの？"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -5866,7 +6007,10 @@
       "scene": "チャンスが過ぎたとき",
       "example1": "That ship has sailed.",
       "example2": "Sorry, it’s too late. That ship has sailed.",
-      "exampleTranslations": ["その機会はもう過ぎたよ。", "残念だけど、もう遅いよ。その機会は過ぎた。"],
+      "exampleTranslations": [
+        "その機会はもう過ぎたよ。",
+        "残念だけど、もう遅いよ。その機会は過ぎた。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -5978,7 +6122,7 @@
       "note": "ここでは「結果はどうだった」。p1247 `make out with someone`「濃厚にキスする」とは別義。",
       "sourceOrder": 5
     },
-        {
+    {
       "id": "p1615",
       "phrase": "a ... kind of + noun",
       "meaning": "～という感じの…／～のような…",
@@ -6085,7 +6229,10 @@
       "scene": "人同士の趣味・経験・考えが似ていると話すとき",
       "example1": "We have nothing in common.",
       "example2": "They don’t seem to have much in common.",
-      "exampleTranslations": ["私たちには共通点がない。","二人にはあまり共通点がないようだ。"],
+      "exampleTranslations": [
+        "私たちには共通点がない。",
+        "二人にはあまり共通点がないようだ。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -6202,7 +6349,10 @@
       "scene": "条件や事情を踏まえて判断するとき",
       "example1": "Given her experience, she's the right person.",
       "example2": "Given that she's busy, we should wait.",
-      "exampleTranslations": ["彼女の経験を考えれば、彼女が適任だ。","彼女が忙しいことを考えると、待つべきだ。"],
+      "exampleTranslations": [
+        "彼女の経験を考えれば、彼女が適任だ。",
+        "彼女が忙しいことを考えると、待つべきだ。"
+      ],
       "type": "grammar",
       "priorityText": "★★☆",
       "priority": 2,
@@ -6280,7 +6430,10 @@
       "scene": "誰かをかばう・責めすぎを止めるとき",
       "example1": "Cut him some slack.",
       "example2": "Cut me some slack.",
-      "exampleTranslations": ["彼に少し大目に見てあげて。", "少しくらい大目に見てよ。"],
+      "exampleTranslations": [
+        "彼に少し大目に見てあげて。",
+        "少しくらい大目に見てよ。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -6338,7 +6491,10 @@
       "scene": "感情的になっているとき",
       "example1": "Let’s get some perspective.",
       "example2": "You need to get some perspective.",
-      "exampleTranslations": ["少し冷静に全体を見よう。", "もっと物事を客観的に見ないと。"],
+      "exampleTranslations": [
+        "少し冷静に全体を見よう。",
+        "もっと物事を客観的に見ないと。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -6368,7 +6524,7 @@
       "register": "neutral",
       "sourceOrder": 22
     },
-        {
+    {
       "id": "p1635",
       "phrase": "buzz someone in",
       "meaning": "ブザーを解除して人を建物に入れる",
@@ -6498,7 +6654,10 @@
       "scene": "話や依頼を切り出す時機をためらったり、延期を提案したりするとき",
       "example1": "I don’t think this is the best time to discuss money.",
       "example2": "This probably isn’t the best time to ask for a favor.",
-      "exampleTranslations": ["今はお金の話をするのにいいタイミングではないと思う。","今はお願いをするのにいいタイミングではなさそうだ。"],
+      "exampleTranslations": [
+        "今はお金の話をするのにいいタイミングではないと思う。",
+        "今はお願いをするのにいいタイミングではなさそうだ。"
+      ],
       "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
@@ -6739,7 +6898,10 @@
       "scene": "相手の話を積極的に聞く姿勢を見せるとき",
       "example1": "Go ahead, I’m all ears.",
       "example2": "Tell me everything. I’m all ears.",
-      "exampleTranslations": ["どうぞ、じっくり聞くよ。", "全部話して。ちゃんと聞くから。"],
+      "exampleTranslations": [
+        "どうぞ、じっくり聞くよ。",
+        "全部話して。ちゃんと聞くから。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -6829,7 +6991,7 @@
       "register": "neutral",
       "sourceOrder": 47
     },
-        {
+    {
       "id": "p1658",
       "phrase": "Forget it.",
       "meaning": "もういい／やめて／諦めて",
@@ -6850,7 +7012,7 @@
       "register": "casual",
       "note": "言い方によっては強く突き放す表現になる。"
     },
-        {
+    {
       "id": "p1659",
       "phrase": "not so good",
       "meaning": "あまりよくない／調子がよくない",
@@ -6897,7 +7059,10 @@
       "scene": "前向きに行動を促すとき",
       "example1": "You should just do it—seize the day.",
       "example2": "For once, I’m gonna seize the day.",
-      "exampleTranslations": ["とにかくやってみなよ。今を逃さないで。", "今度こそ、この機会をつかむよ。"],
+      "exampleTranslations": [
+        "とにかくやってみなよ。今を逃さないで。",
+        "今度こそ、この機会をつかむよ。"
+      ],
       "type": "idiom",
       "priorityText": "★★☆",
       "priority": 2,
@@ -6948,7 +7113,7 @@
       "register": "neutral",
       "sourceOrder": 20
     },
-        {
+    {
       "id": "p1664",
       "phrase": "Wish me luck.",
       "meaning": "うまくいくよう祈っていて",
@@ -7070,7 +7235,7 @@
       "note": "実際には`for the third/tenth/hundredth time`など、具体的な序数を使うことが多い。",
       "sourceOrder": 18
     },
-        {
+    {
       "id": "p1670",
       "phrase": "put it back",
       "meaning": "元の場所・状態に戻す",
@@ -7090,14 +7255,17 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-        {
+    {
       "id": "p1671",
       "phrase": "Too bad. / That’s too bad.",
       "meaning": "残念だね／仕方ない",
       "scene": "残念な出来事に反応したり、要求を突き放したりするとき",
       "example1": "Your train was canceled? That’s too bad.",
       "example2": "If he doesn’t like it, too bad.",
-      "exampleTranslations": ["電車が運休になったの？ それは残念だね。","彼が気に入らなくても、仕方ない。"],
+      "exampleTranslations": [
+        "電車が運休になったの？ それは残念だね。",
+        "彼が気に入らなくても、仕方ない。"
+      ],
       "type": "phrase",
       "priorityText": "★★☆",
       "priority": 2,
@@ -7196,7 +7364,10 @@
       "scene": "場所・目標・答えなどに近づいていることを表すとき",
       "example1": "We’re getting closer to a solution.",
       "example2": "We got closer to the station.",
-      "exampleTranslations": ["解決に近づいている。","私たちは駅に近づいた。"],
+      "exampleTranslations": [
+        "解決に近づいている。",
+        "私たちは駅に近づいた。"
+      ],
       "type": "phrase",
       "priorityText": "★★☆",
       "priority": 2,
@@ -7206,7 +7377,7 @@
       "register": "neutral",
       "sourceOrder": 36
     },
-        {
+    {
       "id": "p1677",
       "phrase": "be ready to ~",
       "meaning": "～する準備・心構えができている",
@@ -7406,7 +7577,7 @@
       "register": "casual",
       "sourceOrder": 5
     },
-        {
+    {
       "id": "p1687",
       "phrase": "know what one is doing",
       "meaning": "自分が何をしているか分かっている／やり方を心得ている",
@@ -7466,7 +7637,7 @@
       "register": "neutral",
       "sourceOrder": 15
     },
-        {
+    {
       "id": "p1690",
       "phrase": "as in ~",
       "meaning": "つまり～の意味で／～ということ？",
@@ -7566,7 +7737,7 @@
       "register": "neutral",
       "sourceOrder": 18
     },
-        {
+    {
       "id": "p1695",
       "phrase": "I can see that.",
       "meaning": "それは分かる／そう見える",
@@ -7606,7 +7777,7 @@
       "register": "neutral",
       "sourceOrder": 78
     },
-        {
+    {
       "id": "p1697",
       "phrase": "I don’t know what to do.",
       "meaning": "どうすればいいか分からない",
@@ -7645,7 +7816,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-        {
+    {
       "id": "p1699",
       "phrase": "slow down",
       "meaning": "速度を落とす／落ち着いて進める",
@@ -7896,7 +8067,10 @@
       "scene": "恋愛的に距離を詰めてくるとき",
       "example1": "He was totally coming on to her.",
       "example2": "I think she’s coming on to me.",
-      "exampleTranslations": ["彼は完全に彼女を口説いていた。", "彼女、私を誘ってる気がする。"],
+      "exampleTranslations": [
+        "彼は完全に彼女を口説いていた。",
+        "彼女、私を誘ってる気がする。"
+      ],
       "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
@@ -7927,7 +8101,7 @@
       "note": "勤務の話だと分かるときはworkを省き、get off at sixなどと言える。",
       "sourceOrder": 59
     },
-        {
+    {
       "id": "p1713",
       "phrase": "come close",
       "meaning": "かなり近づく／～に匹敵するほどになる",
@@ -8068,7 +8242,7 @@
       "register": "casual",
       "sourceOrder": 25
     },
-        {
+    {
       "id": "p1720",
       "phrase": "see other people",
       "meaning": "ほかの人ともデートする",
@@ -8095,7 +8269,10 @@
       "scene": "人や問題をコントロールするとき",
       "example1": "He kept the reporters at bay.",
       "example2": "I’m trying to keep stress at bay.",
-      "exampleTranslations": ["彼は記者たちを寄せつけなかった。", "ストレスを寄せつけないようにしている。"],
+      "exampleTranslations": [
+        "彼は記者たちを寄せつけなかった。",
+        "ストレスを寄せつけないようにしている。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -8105,7 +8282,7 @@
       "register": "neutral",
       "sourceOrder": 26
     },
-        {
+    {
       "id": "p1722",
       "phrase": "dump someone",
       "meaning": "人を振る／一方的に別れる",
@@ -8166,7 +8343,7 @@
       "register": "neutral",
       "sourceOrder": 3
     },
-        {
+    {
       "id": "p1725",
       "phrase": "It hit someone that ~",
       "meaning": "～だと突然実感する／気づく",
@@ -8455,7 +8632,10 @@
       "scene": "成功確率は低いけど試してみようとするとき",
       "example1": "It might not work, but it’s worth a shot.",
       "example2": "I’ll ask him. Worth a shot, right?",
-      "exampleTranslations": ["うまくいかないかもしれないけど、試す価値はある。", "彼に聞いてみるよ。試す価値はあるよね？"],
+      "exampleTranslations": [
+        "うまくいかないかもしれないけど、試す価値はある。",
+        "彼に聞いてみるよ。試す価値はあるよね？"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -8512,7 +8692,10 @@
       "scene": "期待・驚き・軽い非難を込めて言うとき",
       "example1": "You of all people should understand this.",
       "example2": "I can’t believe you of all people said that.",
-      "exampleTranslations": ["ほかでもないあなたなら、これを理解してくれるはずだ。", "よりによってあなたがそんなことを言うなんて信じられない。"],
+      "exampleTranslations": [
+        "ほかでもないあなたなら、これを理解してくれるはずだ。",
+        "よりによってあなたがそんなことを言うなんて信じられない。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -8563,7 +8746,7 @@
       "id": "p2076",
       "sourceOrder": 23
     },
-        {
+    {
       "id": "p1745",
       "phrase": "To hell with ~.",
       "meaning": "～なんて知るか／～はもうどうでもいい",
@@ -8691,7 +8874,10 @@
       "scene": "軽くディスる・冗談っぽく言うとき",
       "example1": "That guy is a total whack-job.",
       "example2": "She sounds like a whack-job.",
-      "exampleTranslations": ["あの男は完全にいかれてる。", "彼女、頭がおかしい人みたいに聞こえる。"],
+      "exampleTranslations": [
+        "あの男は完全にいかれてる。",
+        "彼女、頭がおかしい人みたいに聞こえる。"
+      ],
       "type": "word",
       "priorityText": "★☆☆",
       "priority": 1,
@@ -8769,7 +8955,10 @@
       "scene": "無責任・気にしない態度を表すとき",
       "example1": "He has a devil-may-care attitude.",
       "example2": "She gave me a devil-may-care shrug.",
-      "exampleTranslations": ["彼には向こう見ずで気楽な態度がある。", "彼女はどうにでもなれという感じで肩をすくめた。"],
+      "exampleTranslations": [
+        "彼には向こう見ずで気楽な態度がある。",
+        "彼女はどうにでもなれという感じで肩をすくめた。"
+      ],
       "type": "word",
       "priorityText": "★★☆",
       "priority": 2,
@@ -8826,7 +9015,10 @@
       "scene": "謙遜や皮肉で引くとき",
       "example1": "Who am I to question your decision?",
       "example2": "Who am I to judge?",
-      "exampleTranslations": ["あなたの決断に口を出す資格なんて私にある？", "私に人を裁く資格なんてある？"],
+      "exampleTranslations": [
+        "あなたの決断に口を出す資格なんて私にある？",
+        "私に人を裁く資格なんてある？"
+      ],
       "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
@@ -8903,7 +9095,10 @@
       "scene": "非公式な情報を共有するとき",
       "example1": "Word on the street is he’s leaving.",
       "example2": "Word on the street, they broke up.",
-      "exampleTranslations": ["噂では、彼は辞めるらしい。", "噂では、二人は別れたらしい。"],
+      "exampleTranslations": [
+        "噂では、彼は辞めるらしい。",
+        "噂では、二人は別れたらしい。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -8920,7 +9115,10 @@
       "scene": "計画や前提が崩れたとき",
       "example1": "There goes my plan.",
       "example2": "There goes my weekend.",
-      "exampleTranslations": ["これで私の計画もおじゃんだ。", "これで週末がつぶれた。"],
+      "exampleTranslations": [
+        "これで私の計画もおじゃんだ。",
+        "これで週末がつぶれた。"
+      ],
       "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
@@ -8937,7 +9135,10 @@
       "scene": "回りくどい発言の意図を問うとき",
       "example1": "What are you getting at here?",
       "example2": "I don’t get it. What are you getting at?",
-      "exampleTranslations": ["ここで何が言いたいの？", "分からないよ。何が言いたいの？"],
+      "exampleTranslations": [
+        "ここで何が言いたいの？",
+        "分からないよ。何が言いたいの？"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -8987,7 +9188,7 @@
       "register": "casual",
       "sourceOrder": 25
     },
-        {
+    {
       "id": "p1767",
       "phrase": "it turns out (that) ~",
       "meaning": "実は～だと分かる／結果として～だと判明する",
@@ -9015,7 +9216,10 @@
       "scene": "相手の発言を強く否定するとき",
       "example1": "You could not be more wrong about that.",
       "example2": "Trust me, you couldn’t be more wrong.",
-      "exampleTranslations": ["それについては、あなたは完全に間違っている。", "信じて、これ以上ないほど間違ってるよ。"],
+      "exampleTranslations": [
+        "それについては、あなたは完全に間違っている。",
+        "信じて、これ以上ないほど間違ってるよ。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -9032,7 +9236,10 @@
       "scene": "経験を少し控えめに言うとき",
       "example1": "I’ve had my share of problems.",
       "example2": "We’ve had our share of fights.",
-      "exampleTranslations": ["私もそれなりに問題を経験してきた。", "私たちも相当ケンカしてきた。"],
+      "exampleTranslations": [
+        "私もそれなりに問題を経験してきた。",
+        "私たちも相当ケンカしてきた。"
+      ],
       "type": "pattern",
       "note": "作中では with my share of ~ の形で登場。",
       "priorityText": "★★★",
@@ -9050,7 +9257,10 @@
       "scene": "提案や誘いを自然に伝えるとき",
       "example1": "Why don’t you take a break?",
       "example2": "Why don’t we take a break?",
-      "exampleTranslations": ["少し休んだらどう？","少し休憩しませんか。"],
+      "exampleTranslations": [
+        "少し休んだらどう？",
+        "少し休憩しませんか。"
+      ],
       "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
@@ -9060,7 +9270,7 @@
       "register": "neutral",
       "sourceOrder": 58
     },
-        {
+    {
       "id": "p1771",
       "phrase": "Are you sure?",
       "meaning": "本当にいいの？／確か？",
@@ -9080,7 +9290,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-        {
+    {
       "id": "p1772",
       "phrase": "Come on in.",
       "meaning": "どうぞ入って",
@@ -9128,7 +9338,10 @@
       "scene": "過去や不安が原因で行動できないとき",
       "example1": "Don’t let that hang you up.",
       "example2": "I used to get hung up on small things.",
-      "exampleTranslations": ["そんなことでつまずかないで。", "昔は小さなことにこだわっていた。"],
+      "exampleTranslations": [
+        "そんなことでつまずかないで。",
+        "昔は小さなことにこだわっていた。"
+      ],
       "type": "phrasal verb",
       "priorityText": "★★☆",
       "priority": 2,
@@ -9138,7 +9351,7 @@
       "register": "neutral",
       "sourceOrder": 21
     },
-        {
+    {
       "id": "p1775",
       "phrase": "have got to ~",
       "meaning": "～しなければならない／ぜひ～すべきだ",
@@ -9180,7 +9393,7 @@
       "note": "ここでは「調和する」。既存の「選ぶ」「同行する」とは別義。",
       "sourceOrder": 14
     },
-        {
+    {
       "id": "p1777",
       "phrase": "Absolutely.",
       "meaning": "もちろん／間違いなく",
@@ -9220,7 +9433,7 @@
       "register": "neutral",
       "sourceOrder": 24
     },
-        {
+    {
       "id": "p1779",
       "phrase": "feel better",
       "meaning": "気分・体調が良くなる",
@@ -9302,7 +9515,7 @@
       "note": "音楽・演劇・練習などで、作品や場面の冒頭からやり直すときに使う。",
       "sourceOrder": 28
     },
-        {
+    {
       "id": "p1783",
       "phrase": "get all + adjective",
       "meaning": "急にひどく～なった様子を見せる",
@@ -9350,7 +9563,10 @@
       "scene": "やめていた習慣に戻ってしまったとき",
       "example1": "I fell off the wagon and ate junk food.",
       "example2": "He fell off the wagon again.",
-      "exampleTranslations": ["我慢できず、またジャンクフードを食べてしまった。", "彼はまた禁を破ってしまった。"],
+      "exampleTranslations": [
+        "我慢できず、またジャンクフードを食べてしまった。",
+        "彼はまた禁を破ってしまった。"
+      ],
       "type": "idiom",
       "priorityText": "★★☆",
       "priority": 2,
@@ -9467,7 +9683,10 @@
       "scene": "場所・人・問題から距離を取るとき",
       "example1": "I need to get away from the city for a while.",
       "example2": "The bird got away.",
-      "exampleTranslations": ["しばらく都会を離れたい。","鳥は逃げてしまった。"],
+      "exampleTranslations": [
+        "しばらく都会を離れたい。",
+        "鳥は逃げてしまった。"
+      ],
       "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
@@ -9537,7 +9756,7 @@
       "register": "neutral",
       "sourceOrder": 11
     },
-        {
+    {
       "id": "p1795",
       "phrase": "Thank God (that) ~ / Thank God!",
       "meaning": "～で本当によかった／助かった",
@@ -9848,7 +10067,10 @@
       "scene": "仲間を裏切ったとき",
       "example1": "He sold me out to the boss.",
       "example2": "I can’t believe you sold him out like that.",
-      "exampleTranslations": ["彼は上司に私を売った。", "あんなふうに彼を裏切るなんて信じられない。"],
+      "exampleTranslations": [
+        "彼は上司に私を売った。",
+        "あんなふうに彼を裏切るなんて信じられない。"
+      ],
       "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
@@ -9905,7 +10127,10 @@
       "scene": "誰かの予定に一緒に行くとき",
       "example1": "Can I tag along with you guys?",
       "example2": "She tagged along to the party.",
-      "exampleTranslations": ["みんなについて行ってもいい？", "彼女はパーティーについてきた。"],
+      "exampleTranslations": [
+        "みんなについて行ってもいい？",
+        "彼女はパーティーについてきた。"
+      ],
       "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
@@ -9943,7 +10168,10 @@
       "scene": "本音や意外なことを言う前",
       "example1": "I gotta admit, that was impressive.",
       "example2": "I gotta admit, I was wrong.",
-      "exampleTranslations": ["認めるけど、あれはすごかった。", "認めるよ、私が間違ってた。"],
+      "exampleTranslations": [
+        "認めるけど、あれはすごかった。",
+        "認めるよ、私が間違ってた。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -9974,7 +10202,7 @@
       "note": "人を`chicken`と呼ぶと「臆病者」とからかう響きがある。",
       "sourceOrder": 29
     },
-        {
+    {
       "id": "p1817",
       "phrase": "a ton of ~ / tons of ~",
       "meaning": "大量の～／たくさんの～",
@@ -10014,7 +10242,7 @@
       "register": "casual",
       "sourceOrder": 28
     },
-        {
+    {
       "id": "p1819",
       "phrase": "nothing but ~ / do nothing but ~",
       "meaning": "～だけ／～にすぎない",
@@ -10082,7 +10310,10 @@
       "scene": "誰かに非難されているとき",
       "example1": "I got heat from my boss.",
       "example2": "He’s getting heat from everyone.",
-      "exampleTranslations": ["上司から厳しく責められた。", "彼はみんなから批判されている。"],
+      "exampleTranslations": [
+        "上司から厳しく責められた。",
+        "彼はみんなから批判されている。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -10179,7 +10410,10 @@
       "scene": "落ち込んでいる人を励ますとき",
       "example1": "Hang in there, it’ll get better.",
       "example2": "Just hang in there.",
-      "exampleTranslations": ["踏ん張って、きっと良くなるよ。", "もう少し頑張って。"],
+      "exampleTranslations": [
+        "踏ん張って、きっと良くなるよ。",
+        "もう少し頑張って。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -10196,7 +10430,10 @@
       "scene": "相手の話を見守るとき",
       "example1": "I don’t get it, but she’s going somewhere.",
       "example2": "Let him talk, he’s going somewhere.",
-      "exampleTranslations": ["まだ分からないけど、彼女の話には先がある。", "彼に話させて。ちゃんと話は進んでるから。"],
+      "exampleTranslations": [
+        "まだ分からないけど、彼女の話には先がある。",
+        "彼に話させて。ちゃんと話は進んでるから。"
+      ],
       "type": "idiom",
       "priorityText": "★★☆",
       "priority": 2,
@@ -10226,7 +10463,7 @@
       "register": "neutral",
       "sourceOrder": 70
     },
-        {
+    {
       "id": "p1830",
       "phrase": "You got it.",
       "meaning": "了解／任せて",
@@ -10356,7 +10593,10 @@
       "scene": "皮肉や呆れを言うとき",
       "example1": "Oh, God forbid I make a mistake.",
       "example2": "God forbid you help me for once.",
-      "exampleTranslations": ["ああ、私がミスするなんて絶対許されないんでしょうね。", "一度くらい私を手伝ったって罰は当たらないでしょ。"],
+      "exampleTranslations": [
+        "ああ、私がミスするなんて絶対許されないんでしょうね。",
+        "一度くらい私を手伝ったって罰は当たらないでしょ。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -10656,7 +10896,10 @@
       "scene": "物理的・比喩的に打撃を受けるとき",
       "example1": "He got clobbered in the fight.",
       "example2": "The team got clobbered last night.",
-      "exampleTranslations": ["彼はケンカでぼこぼこにされた。", "そのチームは昨夜、惨敗した。"],
+      "exampleTranslations": [
+        "彼はケンカでぼこぼこにされた。",
+        "そのチームは昨夜、惨敗した。"
+      ],
       "type": "word",
       "priorityText": "★★☆",
       "priority": 2,
@@ -10866,7 +11109,7 @@
       "register": "neutral",
       "sourceOrder": 40
     },
-        {
+    {
       "id": "p1862",
       "phrase": "What’s wrong with ~?",
       "meaning": "それの何が悪いの？",
@@ -10906,7 +11149,7 @@
       "register": "casual",
       "sourceOrder": 41
     },
-        {
+    {
       "id": "p1864",
       "phrase": "You look good. / Looking good.",
       "meaning": "いい感じ／似合っている",
@@ -11258,7 +11501,10 @@
       "scene": "誰かが明らかに恋に夢中なとき",
       "example1": "You’re so smitten with her.",
       "example2": "Look at you, you’re totally smitten.",
-      "exampleTranslations": ["彼女にすっかり夢中だね。", "ほら、完全に夢中じゃない。"],
+      "exampleTranslations": [
+        "彼女にすっかり夢中だね。",
+        "ほら、完全に夢中じゃない。"
+      ],
       "type": "word",
       "priorityText": "★★★",
       "priority": 3,
@@ -11415,7 +11661,10 @@
       "scene": "恥ずかしさや緊張で行動しづらいとき",
       "example1": "I’m too self-conscious to dance.",
       "example2": "I feel self-conscious about my voice.",
-      "exampleTranslations": ["人目が気になって踊れない。", "自分の声が気になってしまう。"],
+      "exampleTranslations": [
+        "人目が気になって踊れない。",
+        "自分の声が気になってしまう。"
+      ],
       "type": "word",
       "priorityText": "★★☆",
       "priority": 2,
@@ -11566,7 +11815,7 @@
       "register": "neutral",
       "sourceOrder": 26
     },
-        {
+    {
       "id": "p1897",
       "phrase": "Are you nuts? / Are we nuts?",
       "meaning": "正気？／どうかしているんじゃない？",
@@ -11726,7 +11975,7 @@
       "register": "neutral",
       "sourceOrder": 31
     },
-        {
+    {
       "id": "p1905",
       "phrase": "I swear, ~",
       "meaning": "本当だよ／誓って～だ",
@@ -11788,7 +12037,7 @@
       "note": "再び交際している「状態」を表す。よりを戻す変化を表す `get back together`とは形を区別する。",
       "sourceOrder": 24
     },
-        {
+    {
       "id": "p1908",
       "phrase": "keep ~ing",
       "meaning": "～し続ける",
@@ -11808,7 +12057,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-        {
+    {
       "id": "p1909",
       "phrase": "What if ~?",
       "meaning": "もし～だったらどうする？",
@@ -11828,7 +12077,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-        {
+    {
       "id": "p1910",
       "phrase": "Congratulations.",
       "meaning": "おめでとう",
@@ -11869,7 +12118,7 @@
       "register": "slang",
       "sourceOrder": 22
     },
-        {
+    {
       "id": "p1912",
       "phrase": "I can’t believe ~",
       "meaning": "～なんて信じられない",
@@ -11958,7 +12207,10 @@
       "scene": "準備していない状態で質問や出来事に直面したとき",
       "example1": "That question caught me off guard.",
       "example2": "Sorry, you caught me off guard.",
-      "exampleTranslations": ["その質問には不意を突かれた。", "ごめん、不意を突かれたよ。"],
+      "exampleTranslations": [
+        "その質問には不意を突かれた。",
+        "ごめん、不意を突かれたよ。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -11988,7 +12240,7 @@
       "register": "neutral",
       "sourceOrder": 8
     },
-        {
+    {
       "id": "p1918",
       "phrase": "Remember when ~?",
       "meaning": "～したとき覚えてる？",
@@ -12029,7 +12281,7 @@
       "note": "含みを示す`if you know what I mean`とは会話機能が異なる。",
       "sourceOrder": 36
     },
-        {
+    {
       "id": "p1920",
       "phrase": "Anyway, ~",
       "meaning": "とにかく／それはさておき",
@@ -12049,7 +12301,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-        {
+    {
       "id": "p1921",
       "phrase": "apparently",
       "meaning": "どうやら／聞いたところでは",
@@ -12110,7 +12362,7 @@
       "register": "neutral",
       "sourceOrder": 13
     },
-        {
+    {
       "id": "p1924",
       "phrase": "I hope ~",
       "meaning": "～だといいな／～を願う",
@@ -12130,7 +12382,7 @@
       "frequency": "frequent",
       "register": "neutral"
     },
-        {
+    {
       "id": "p1925",
       "phrase": "for a while / for a little while",
       "meaning": "しばらくの間／少しの間",
@@ -12210,7 +12462,7 @@
       "register": "neutral",
       "sourceOrder": 6
     },
-        {
+    {
       "id": "p1929",
       "phrase": "be worried about someone",
       "meaning": "人のことを心配している",
@@ -12251,7 +12503,7 @@
       "note": "文脈によっては不快な接触や過度な干渉を表す。",
       "sourceOrder": 29
     },
-        {
+    {
       "id": "p1931",
       "phrase": "a bunch of ~",
       "meaning": "たくさんの～／ひとまとまりの～",
@@ -12311,7 +12563,7 @@
       "register": "casual",
       "sourceOrder": 49
     },
-        {
+    {
       "id": "p1934",
       "phrase": "What are you going to do?",
       "meaning": "どうするつもり？／まあ仕方ない",
@@ -12331,7 +12583,7 @@
       "frequency": "frequent",
       "register": "casual"
     },
-        {
+    {
       "id": "p1935",
       "phrase": "Here we go.",
       "meaning": "さあ始まるよ／よし、いこう",
@@ -12763,7 +13015,10 @@
       "scene": "軽く不満を言いつつお願いするとき",
       "example1": "It wouldn’t kill you to text me.",
       "example2": "It wouldn’t kill you to help out.",
-      "exampleTranslations": ["たまには私にメッセージをくれてもいいでしょ。", "少しくらい手伝っても罰は当たらないでしょ。"],
+      "exampleTranslations": [
+        "たまには私にメッセージをくれてもいいでしょ。",
+        "少しくらい手伝っても罰は当たらないでしょ。"
+      ],
       "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
@@ -12840,7 +13095,10 @@
       "scene": "相手が過剰に怒ってるとき",
       "example1": "Why are you so bent out of shape?",
       "example2": "Don’t get bent out of shape over that.",
-      "exampleTranslations": ["なんでそんなに怒ってるの？", "そんなことでムキにならないで。"],
+      "exampleTranslations": [
+        "なんでそんなに怒ってるの？",
+        "そんなことでムキにならないで。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -12878,7 +13136,10 @@
       "scene": "恋愛関係をぼかして言うとき",
       "example1": "They’re something of an item.",
       "example2": "Are you two something of an item?",
-      "exampleTranslations": ["二人はちょっと付き合っているようなものだ。", "二人って、付き合ってるような感じなの？"],
+      "exampleTranslations": [
+        "二人はちょっと付き合っているようなものだ。",
+        "二人って、付き合ってるような感じなの？"
+      ],
       "type": "idiom",
       "note": "an item で「付き合っている二人／カップル」を表す。やや古めの言い方。",
       "priorityText": "★★☆",
@@ -12889,7 +13150,7 @@
       "register": "neutral",
       "sourceOrder": 29
     },
-        {
+    {
       "id": "p1963",
       "phrase": "Of course not.",
       "meaning": "もちろん違う／もちろんしない",
@@ -12996,7 +13257,10 @@
       "scene": "困ってる相手を助けないとき",
       "example1": "He left me high and dry.",
       "example2": "Don’t leave me high and dry.",
-      "exampleTranslations": ["彼は私を見捨てて窮地に置いた。", "私を見捨てないでよ。"],
+      "exampleTranslations": [
+        "彼は私を見捨てて窮地に置いた。",
+        "私を見捨てないでよ。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -13013,7 +13277,10 @@
       "scene": "相手の話を否定・軽蔑するとき",
       "example1": "That’s a load of crap.",
       "example2": "What a load of crap.",
-      "exampleTranslations": ["そんなの全くのでたらめだ。", "なんてくだらない話だ。"],
+      "exampleTranslations": [
+        "そんなの全くのでたらめだ。",
+        "なんてくだらない話だ。"
+      ],
       "type": "idiom",
       "note": "作中では What a load of crap の形で登場。",
       "priorityText": "★★★",
@@ -13044,7 +13311,7 @@
       "register": "neutral",
       "sourceOrder": 35
     },
-        {
+    {
       "id": "p1971",
       "phrase": "So what do you think?",
       "meaning": "それで、どう思う？",
@@ -13112,7 +13379,10 @@
       "scene": "ことわざや一般論を言う前の前フリ",
       "example1": "You know what they say, time is money.",
       "example2": "You know what they say, everything happens for a reason.",
-      "exampleTranslations": ["よく言うでしょ、時は金なりって。", "よく言うでしょ、何事にも理由があるって。"],
+      "exampleTranslations": [
+        "よく言うでしょ、時は金なりって。",
+        "よく言うでしょ、何事にも理由があるって。"
+      ],
       "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
@@ -13129,7 +13399,10 @@
       "scene": "本当に楽しい時や皮肉で言う時",
       "example1": "I’m having a ball at this party.",
       "example2": "Yeah, I’m having a ball…",
-      "exampleTranslations": ["このパーティー、すごく楽しんでるよ。", "うん、すっごく楽しんでるよ……。"],
+      "exampleTranslations": [
+        "このパーティー、すごく楽しんでるよ。",
+        "うん、すっごく楽しんでるよ……。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -13450,7 +13723,10 @@
       "scene": "いらないものをラフに捨てる時",
       "example1": "Just toss it out if you don’t need it.",
       "example2": "I should toss these old papers out.",
-      "exampleTranslations": ["いらないなら捨てちゃって。", "この古い書類は捨てたほうがいいな。"],
+      "exampleTranslations": [
+        "いらないなら捨てちゃって。",
+        "この古い書類は捨てたほうがいいな。"
+      ],
       "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
@@ -13620,7 +13896,7 @@
       "register": "neutral",
       "sourceOrder": 27
     },
-        {
+    {
       "id": "p2000",
       "phrase": "What about you?",
       "meaning": "あなたはどう？",
@@ -13647,7 +13923,10 @@
       "scene": "物事が複数の面で当てはまると強調するとき",
       "example1": "His joke works on so many levels.",
       "example2": "That decision was wrong on so many levels.",
-      "exampleTranslations": ["彼の冗談はいろんな意味でうまくできている。", "その判断はいくつもの面で間違っていた。"],
+      "exampleTranslations": [
+        "彼の冗談はいろんな意味でうまくできている。",
+        "その判断はいくつもの面で間違っていた。"
+      ],
       "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
@@ -13699,7 +13978,7 @@
       "note": "ここでは「発生する」ではなく、しまってある物を取り出す意味。",
       "sourceOrder": 6
     },
-        {
+    {
       "id": "p2004",
       "phrase": "I’m sorry I’m late.",
       "meaning": "遅れてごめんなさい",
@@ -13907,7 +14186,10 @@
       "scene": "提案や予定を受け入れられると返すとき",
       "example1": "Meet at seven? That sounds good.",
       "example2": "That sounds all right to me.",
-      "exampleTranslations": ["7時に会う？　それでいいね。","私はそれで問題ないよ。"],
+      "exampleTranslations": [
+        "7時に会う？　それでいいね。",
+        "私はそれで問題ないよ。"
+      ],
       "type": "phrase",
       "priorityText": "★★☆",
       "priority": 2,
@@ -13976,7 +14258,7 @@
       "frequency": "general",
       "register": "neutral"
     },
-        {
+    {
       "id": "p2018",
       "phrase": "rip someone’s heart out",
       "meaning": "人をひどく傷つける／胸をえぐる",
@@ -14116,7 +14398,7 @@
       "register": "neutral",
       "sourceOrder": 21
     },
-        {
+    {
       "id": "p2025",
       "phrase": "That’s so sweet. / That’s very sweet.",
       "meaning": "とても優しいね／うれしい",
@@ -14183,7 +14465,10 @@
       "scene": "大まかな数や範囲を言う時",
       "example1": "Just give me a ballpark figure.",
       "example2": "That estimate is in the ballpark.",
-      "exampleTranslations": ["ざっくりした金額を教えて。", "その見積もりはだいたい合っている。"],
+      "exampleTranslations": [
+        "ざっくりした金額を教えて。",
+        "その見積もりはだいたい合っている。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -14200,7 +14485,10 @@
       "scene": "共感や同意をするとき",
       "example1": "This job is exhausting. – Tell me about it.",
       "example2": "It’s so hot today. – Tell me about it.",
-      "exampleTranslations": ["「この仕事、疲れるよ」「本当だよね」", "「今日はすごく暑いね」「まったくだよ」"],
+      "exampleTranslations": [
+        "「この仕事、疲れるよ」「本当だよね」",
+        "「今日はすごく暑いね」「まったくだよ」"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -14210,7 +14498,7 @@
       "register": "neutral",
       "sourceOrder": 25
     },
-        {
+    {
       "id": "p2030",
       "phrase": "How is that possible?",
       "meaning": "どうしてそんなことが可能なの？",
@@ -14299,7 +14587,10 @@
       "scene": "見え透いた嘘や言い訳に対して",
       "example1": "Don’t insult my intelligence.",
       "example2": "You’re insulting my intelligence with that excuse.",
-      "exampleTranslations": ["私をばかにしないで。", "そんな言い訳で私をばかにしてるの？"],
+      "exampleTranslations": [
+        "私をばかにしないで。",
+        "そんな言い訳で私をばかにしてるの？"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -14316,7 +14607,10 @@
       "scene": "若い頃の奔放な行動や恋愛について",
       "example1": "He wants to sow his wild oats before settling down.",
       "example2": "You should sow your wild oats while you’re young.",
-      "exampleTranslations": ["彼は身を固める前に若さを満喫したいんだ。", "若いうちに思い切り遊んでおいたほうがいいよ。"],
+      "exampleTranslations": [
+        "彼は身を固める前に若さを満喫したいんだ。",
+        "若いうちに思い切り遊んでおいたほうがいいよ。"
+      ],
       "type": "idiom",
       "priorityText": "★★☆",
       "priority": 2,
@@ -14367,7 +14661,7 @@
       "note": "単独の`Look out!`は緊急警告。`look out for ~`は「～に注意する／～を見守る」。",
       "sourceOrder": 30
     },
-        {
+    {
       "id": "p2038",
       "phrase": "That’s it?",
       "meaning": "それだけ？／これで全部？",
@@ -14408,7 +14702,7 @@
       "register": "neutral",
       "sourceOrder": 31
     },
-        {
+    {
       "id": "p2040",
       "phrase": "open up",
       "meaning": "開ける／開く",
@@ -14579,7 +14873,10 @@
       "scene": "見た目や雰囲気が軽快でいい感じなとき",
       "example1": "That hat is kind of jaunty.",
       "example2": "He walked in with a jaunty step.",
-      "exampleTranslations": ["あの帽子、ちょっと粋だね。", "彼は軽快な足取りで入ってきた。"],
+      "exampleTranslations": [
+        "あの帽子、ちょっと粋だね。",
+        "彼は軽快な足取りで入ってきた。"
+      ],
       "type": "word",
       "priorityText": "★☆☆",
       "priority": 1,
@@ -14818,7 +15115,10 @@
       "scene": "弱音を吐いている相手に現実を受け入れさせるとき",
       "example1": "Just suck it up and finish it.",
       "example2": "You gotta suck it up sometimes.",
-      "exampleTranslations": ["つべこべ言わず我慢して終わらせて。", "時には我慢して受け入れないと。"],
+      "exampleTranslations": [
+        "つべこべ言わず我慢して終わらせて。",
+        "時には我慢して受け入れないと。"
+      ],
       "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
@@ -14936,7 +15236,10 @@
       "scene": "予想外の出来事や発言",
       "example1": "He called me out of the blue.",
       "example2": "That question was out of the blue.",
-      "exampleTranslations": ["彼から突然電話がかかってきた。", "その質問は唐突だった。"],
+      "exampleTranslations": [
+        "彼から突然電話がかかってきた。",
+        "その質問は唐突だった。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -15672,7 +15975,7 @@
       "id": "p2127",
       "sourceOrder": 24
     },
-        {
+    {
       "id": "p2134",
       "phrase": "be right there",
       "meaning": "すぐそちらへ行く",
@@ -16024,7 +16327,10 @@
       "scene": "軽く褒めるとき（時に皮肉）",
       "example1": "Kudos on your presentation.",
       "example2": "Kudos on that joke.",
-      "exampleTranslations": ["プレゼン、よくやったね。", "あの冗談、見事だったよ。"],
+      "exampleTranslations": [
+        "プレゼン、よくやったね。",
+        "あの冗談、見事だったよ。"
+      ],
       "type": "pattern",
       "priorityText": "★★☆",
       "priority": 2,
@@ -16041,7 +16347,10 @@
       "scene": "確認やすり合わせのとき",
       "example1": "Are we on the same page?",
       "example2": "Let’s make sure we’re on the same page.",
-      "exampleTranslations": ["私たち、認識は合ってる？", "お互いの認識が合っているか確認しよう。"],
+      "exampleTranslations": [
+        "私たち、認識は合ってる？",
+        "お互いの認識が合っているか確認しよう。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -16099,7 +16408,10 @@
       "scene": "強めの否定や口論で",
       "example1": "You don’t know the first thing about cooking.",
       "example2": "He doesn’t know the first thing about business.",
-      "exampleTranslations": ["料理のことを何も分かってないね。", "彼はビジネスのことを何ひとつ知らない。"],
+      "exampleTranslations": [
+        "料理のことを何も分かってないね。",
+        "彼はビジネスのことを何ひとつ知らない。"
+      ],
       "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
@@ -16339,7 +16651,10 @@
       "scene": "超低頻度の出来事",
       "example1": "I eat fast food once in a blue moon.",
       "example2": "He visits us once in a blue moon.",
-      "exampleTranslations": ["ファストフードはごくたまにしか食べない。", "彼が私たちを訪ねてくるのはごくたまだ。"],
+      "exampleTranslations": [
+        "ファストフードはごくたまにしか食べない。",
+        "彼が私たちを訪ねてくるのはごくたまだ。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -16509,7 +16824,7 @@
       "id": "p2175",
       "sourceOrder": 33
     },
-        {
+    {
       "id": "p2176",
       "phrase": "That would work. / That’ll work.",
       "meaning": "それで大丈夫／それでうまくいく",
@@ -16699,7 +17014,10 @@
       "scene": "長い話や細かい話を省くとき",
       "example1": "I won’t bore you with the details.",
       "example2": "Don’t bore me with that story.",
-      "exampleTranslations": ["細かい話で退屈させるのはやめておくよ。", "その話で私を退屈させないで。"],
+      "exampleTranslations": [
+        "細かい話で退屈させるのはやめておくよ。",
+        "その話で私を退屈させないで。"
+      ],
       "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
@@ -17018,7 +17336,10 @@
       "scene": "励ましや自己納得のとき",
       "example1": "Look on the bright side.",
       "example2": "I’m trying to look at the bright side.",
-      "exampleTranslations": ["良い面を見ようよ。", "物事の明るい面を見ようとしている。"],
+      "exampleTranslations": [
+        "良い面を見ようよ。",
+        "物事の明るい面を見ようとしている。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -17135,7 +17456,10 @@
       "scene": "作戦やコント的状況",
       "example1": "I’ll create a diversion.",
       "example2": "We need a diversion.",
-      "exampleTranslations": ["私がおとりになって注意をそらす。", "注意をそらすものが必要だ。"],
+      "exampleTranslations": [
+        "私がおとりになって注意をそらす。",
+        "注意をそらすものが必要だ。"
+      ],
       "type": "phrase",
       "priorityText": "★★☆",
       "priority": 2,
@@ -17151,7 +17475,10 @@
       "scene": "不快に聞こえそうな指摘や依頼を控えめに切り出すとき",
       "example1": "I don’t mean to be rude, but could you lower your voice?",
       "example2": "I don’t mean to be a pain, but could you check it again?",
-      "exampleTranslations": ["失礼なことを言うつもりはないけど、少し声を落としてくれますか。","面倒を言うつもりはないけど、もう一度確認してくれますか。"],
+      "exampleTranslations": [
+        "失礼なことを言うつもりはないけど、少し声を落としてくれますか。",
+        "面倒を言うつもりはないけど、もう一度確認してくれますか。"
+      ],
       "type": "pattern",
       "priorityText": "★★★",
       "priority": 3,
@@ -17494,7 +17821,10 @@
       "scene": "新しい環境や状況にゆっくり適応させるとき",
       "example1": "I’ll ease you in on your first day.",
       "example2": "They eased me in slowly.",
-      "exampleTranslations": ["初日は無理のないよう少しずつ慣らしてあげるよ。", "彼らは私をゆっくり慣らしてくれた。"],
+      "exampleTranslations": [
+        "初日は無理のないよう少しずつ慣らしてあげるよ。",
+        "彼らは私をゆっくり慣らしてくれた。"
+      ],
       "type": "phrasal verb",
       "priorityText": "★★☆",
       "priority": 2,
@@ -17652,7 +17982,10 @@
       "scene": "見た目や状況を強く否定するとき",
       "example1": "That outfit is hideous.",
       "example2": "The weather was hideous.",
-      "exampleTranslations": ["その服、ひどく醜い。", "天気は最悪だった。"],
+      "exampleTranslations": [
+        "その服、ひどく醜い。",
+        "天気は最悪だった。"
+      ],
       "type": "word",
       "priorityText": "★★☆",
       "priority": 2,
@@ -17849,7 +18182,10 @@
       "scene": "相手の言動を見抜いて突っ込むとき",
       "example1": "I’ll call you on it.",
       "example2": "She called him on his lie.",
-      "exampleTranslations": ["そのことはきちんと指摘するよ。", "彼女は彼の嘘を見逃さず指摘した。"],
+      "exampleTranslations": [
+        "そのことはきちんと指摘するよ。",
+        "彼女は彼の嘘を見逃さず指摘した。"
+      ],
       "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
@@ -17906,7 +18242,10 @@
       "scene": "自分の言動が悪く受け取られそうなとき",
       "example1": "I didn’t come off well there.",
       "example2": "He comes off as rude sometimes.",
-      "exampleTranslations": ["あの場では印象が良くなかった。", "彼は時々、失礼な人に見える。"],
+      "exampleTranslations": [
+        "あの場では印象が良くなかった。",
+        "彼は時々、失礼な人に見える。"
+      ],
       "type": "phrasal verb",
       "priorityText": "★★★",
       "priority": 3,
@@ -17922,7 +18261,10 @@
       "scene": "相手に正直に話すよう求めたり、事実を隠さず話すことを説明したりするとき",
       "example1": "Tell me the truth—did you break it?",
       "example2": "She told the truth about what happened.",
-      "exampleTranslations": ["本当のことを言って。壊したの？","彼女は何があったのか正直に話した。"],
+      "exampleTranslations": [
+        "本当のことを言って。壊したの？",
+        "彼女は何があったのか正直に話した。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -17960,7 +18302,10 @@
       "scene": "責任あることを失敗したとき",
       "example1": "I dropped the ball on that project.",
       "example2": "Don’t drop the ball this time.",
-      "exampleTranslations": ["あのプロジェクトでは私がしくじった。", "今度はしくじらないでよ。"],
+      "exampleTranslations": [
+        "あのプロジェクトでは私がしくじった。",
+        "今度はしくじらないでよ。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -17998,7 +18343,10 @@
       "scene": "上の人に媚びる人を言うとき",
       "example1": "He’s such a suck-up.",
       "example2": "Stop brown-nosing the boss.",
-      "exampleTranslations": ["彼は本当にごますりだ。", "上司にごまをするのはやめて。"],
+      "exampleTranslations": [
+        "彼は本当にごますりだ。",
+        "上司にごまをするのはやめて。"
+      ],
       "type": "phrase",
       "note": "brown-nosing は「ごますりをする」、suck-up は「ごますりする人」を表し、作中では2つを重ねて強調している。",
       "priorityText": "★★☆",
@@ -18199,7 +18547,10 @@
       "scene": "事実と期待の食い違いや、事情から見た意外な矛盾を指摘するとき。",
       "example1": "It's ironic that a safety expert forgot his helmet.",
       "example2": "That's ironic considering he hates being late.",
-      "exampleTranslations": ["安全の専門家がヘルメットを忘れたとは皮肉だ。","彼が遅刻を嫌うことを考えると皮肉だ。"],
+      "exampleTranslations": [
+        "安全の専門家がヘルメットを忘れたとは皮肉だ。",
+        "彼が遅刻を嫌うことを考えると皮肉だ。"
+      ],
       "type": "word",
       "priorityText": "★★☆",
       "priority": 2,
@@ -18378,7 +18729,10 @@
       "scene": "強く拒否するとき",
       "example1": "Over my dead body you’re going.",
       "example2": "Over my dead body that happens.",
-      "exampleTranslations": ["私の目が黒いうちは絶対に行かせない。", "私の目が黒いうちは絶対にそんなことはさせない。"],
+      "exampleTranslations": [
+        "私の目が黒いうちは絶対に行かせない。",
+        "私の目が黒いうちは絶対にそんなことはさせない。"
+      ],
       "type": "idiom",
       "priorityText": "★★★",
       "priority": 3,
@@ -18408,7 +18762,7 @@
       "id": "p2335",
       "sourceOrder": 9
     },
-        {
+    {
       "id": "p2303",
       "phrase": "I need help. / I need your help.",
       "meaning": "助けが必要だ／あなたに手伝ってほしい",
@@ -18596,7 +18950,10 @@
       "scene": "先のことを考えすぎず楽しむとき",
       "example1": "I try to live in the moment.",
       "example2": "Just live in the moment.",
-      "exampleTranslations": ["今この瞬間を大切にするようにしている。", "今を楽しめばいいよ。"],
+      "exampleTranslations": [
+        "今この瞬間を大切にするようにしている。",
+        "今を楽しめばいいよ。"
+      ],
       "type": "phrase",
       "priorityText": "★★★",
       "priority": 3,
@@ -18733,7 +19090,10 @@
       "scene": "否定文に対して自分も同じだと答えるとき",
       "example1": "I'm not hungry. — Neither am I.",
       "example2": "I didn't expect that. — Neither did I.",
-      "exampleTranslations": ["「お腹は空いていない」「私も」","「それは予想していなかった」「私も」"],
+      "exampleTranslations": [
+        "「お腹は空いていない」「私も」",
+        "「それは予想していなかった」「私も」"
+      ],
       "type": "grammar",
       "priorityText": "★★★",
       "priority": 3,
@@ -18874,7 +19234,10 @@
       "scene": "病み上がりなどで回復したとき",
       "example1": "He’s up and about again.",
       "example2": "Glad to see you up and about.",
-      "exampleTranslations": ["彼はまた起きて動き回れるようになった。", "元気に動けるようになってよかった。"],
+      "exampleTranslations": [
+        "彼はまた起きて動き回れるようになった。",
+        "元気に動けるようになってよかった。"
+      ],
       "type": "phrase",
       "priorityText": "★★☆",
       "priority": 2,
@@ -19064,7 +19427,7 @@
       "id": "p2328",
       "sourceOrder": 40
     },
-        {
+    {
       "id": "p2336",
       "phrase": "feel good about oneself",
       "meaning": "自分に満足する／自信を持つ",
@@ -20476,6 +20839,4075 @@
         "p1665",
         "p2160",
         "p1991"
+      ]
+    },
+    {
+      "id": "S2-NEW-01",
+      "season": "Season 2",
+      "title": "失恋直後の友人に本音で寄り添う",
+      "category": "恋愛",
+      "lines": [
+        [
+          "A",
+          "You look awful. How bad is it?",
+          "ひどい顔してるで。どれくらいキツい？"
+        ],
+        [
+          "B",
+          "Where do I start? I barely slept.",
+          "どこから話せばいいやろ。ほとんど寝てない。"
+        ],
+        [
+          "A",
+          "I’m not gonna lie, this breakup is going to hurt for a while.",
+          "正直に言うけど、この別れはしばらくしんどいと思う。"
+        ],
+        [
+          "B",
+          "I know. All I can think about is calling her.",
+          "分かってる。彼女に電話することしか考えられへん。"
+        ],
+        [
+          "A",
+          "Don’t. You hit rock bottom last night. Give yourself a day.",
+          "やめとき。昨日の夜はほんまにどん底やったやん。今日は休み。"
+        ],
+        [
+          "B",
+          "Do you think there’s any chance we get back together?",
+          "より戻す可能性ってあると思う？"
+        ],
+        [
+          "A",
+          "Too soon to tell. And I’m not going to spare your feelings if I think it’s a bad idea.",
+          "まだ判断するには早い。もし悪い考えやと思ったら、気を遣って濁したりせえへんで。"
+        ],
+        [
+          "B",
+          "Fair. Did you tell anyone?",
+          "そっか。誰かに言った？"
+        ],
+        [
+          "A",
+          "I let it slip to Maya. Sorry.",
+          "マヤにはうっかり漏らしてもうた。ごめん。"
+        ],
+        [
+          "B",
+          "Great. Now I owe you one for sitting here listening to me anyway.",
+          "まあええわ。それでもここで話聞いてくれてるし、借り一つやな。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1455",
+        "p132",
+        "p135",
+        "p1769",
+        "p1454",
+        "p1443",
+        "p1442",
+        "p1447"
+      ]
+    },
+    {
+      "id": "S2-NEW-02",
+      "season": "Season 2",
+      "title": "気になる相手との進展を相談する",
+      "category": "恋愛",
+      "lines": [
+        [
+          "A",
+          "So, are you going to ask her out again?",
+          "で、もう一回誘うん？"
+        ],
+        [
+          "B",
+          "I think I’m falling for her.",
+          "たぶん、あの子のこと好きになってきてる。"
+        ],
+        [
+          "A",
+          "“Think”? You’re crazy about her.",
+          "「たぶん」？めっちゃ好きやん。"
+        ],
+        [
+          "B",
+          "Every time she texts me, my heart skips a beat.",
+          "メッセージ来るたびにドキッとするねん。"
+        ],
+        [
+          "A",
+          "I’d take that as a good sign.",
+          "それはいい兆候やと思うけど。"
+        ],
+        [
+          "B",
+          "Maybe. I just don’t want to get hung up on one person too fast.",
+          "まあな。でも一人に早々と入れ込みすぎたくないねん。"
+        ],
+        [
+          "A",
+          "You’ll get used to not knowing exactly where things are going.",
+          "先がはっきり分からん状態にも、そのうち慣れるって。"
+        ],
+        [
+          "B",
+          "I asked her to dinner Friday. She said, “Maybe some other time.”",
+          "金曜にご飯誘ったら、「また今度」って言われた。"
+        ],
+        [
+          "A",
+          "Okay, maybe don’t plan the wedding yet.",
+          "ほな、結婚式の予定立てるのはまだやめとこか。"
+        ],
+        [
+          "B",
+          "But what if we’re meant to be?",
+          "でも運命の相手やったらどうする？"
+        ]
+      ],
+      "phraseLinks": [
+        "p198",
+        "p1568",
+        "p420",
+        "p1544",
+        "p1525",
+        "p1093",
+        "p1460",
+        "p1465"
+      ]
+    },
+    {
+      "id": "S2-NEW-03",
+      "season": "Season 2",
+      "title": "友人同士の口げんかに仲裁に入る",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "Don’t get me started. You canceled on me again.",
+          "もうその話させんといて。またドタキャンしたやん。"
+        ],
+        [
+          "B",
+          "I had to work.",
+          "仕事やったんやって。"
+        ],
+        [
+          "A",
+          "And then you went out with Sam.",
+          "そのあとサムとは出かけたやん。"
+        ],
+        [
+          "B",
+          "Knock it off. You have no right to act like I planned that.",
+          "もうやめて。最初からそうするつもりやったみたいに言う権利ないやろ。"
+        ],
+        [
+          "A",
+          "I have every right to be upset. You lied to me.",
+          "怒る権利はある。嘘ついたやん。"
+        ],
+        [
+          "B",
+          "Fine. Go ahead and hate my guts if you want.",
+          "分かった。嫌いたいなら好きに嫌えば。"
+        ],
+        [
+          "A",
+          "I don’t hate your guts. But you were way out of line.",
+          "大嫌いなわけちゃう。でもあれは完全に一線越えてた。"
+        ],
+        [
+          "B",
+          "So you want me to just admit I was wrong?",
+          "じゃあ私に、全部自分が悪かったって認めろってこと？"
+        ],
+        [
+          "A",
+          "I want you to stand your ground when you mean it, not make excuses after the fact.",
+          "本気でそう思ってるなら主張してええ。でも後から言い訳するのは違う。"
+        ],
+        [
+          "B",
+          "Fine. And I’m not asking you to side with me.",
+          "分かった。それに私の味方してほしいって言ってるわけでもない。"
+        ]
+      ],
+      "phraseLinks": [
+        "p215",
+        "p759",
+        "p1483",
+        "p1474",
+        "p1476",
+        "p436",
+        "p1607",
+        "p1534"
+      ]
+    },
+    {
+      "id": "S2-NEW-04",
+      "season": "Season 2",
+      "title": "新プロジェクトの進め方を整理する",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "In a nutshell, we have six weeks and not much budget.",
+          "要するに、6週間しかなくて予算も少ない。"
+        ],
+        [
+          "B",
+          "Great. So where do we start?",
+          "最高やな。で、どこから始める？"
+        ],
+        [
+          "A",
+          "Let’s get the ball rolling with a small pilot.",
+          "まず小さい試験運用から始めよう。"
+        ],
+        [
+          "B",
+          "Should we order all the equipment now?",
+          "機材、今全部発注する？"
+        ],
+        [
+          "A",
+          "Hold off on that until we test the first version.",
+          "初版を試すまでは、それは待とう。"
+        ],
+        [
+          "B",
+          "Good. That gives us a safety net if the idea doesn’t work.",
+          "ええな。案がダメでも逃げ道ができる。"
+        ],
+        [
+          "A",
+          "Exactly. Under the circumstances, simple is better.",
+          "そう。今の状況ならシンプルなほうがいい。"
+        ],
+        [
+          "B",
+          "I think we’re on the right track.",
+          "方向性は合ってると思う。"
+        ],
+        [
+          "A",
+          "And if we reach a point where we need more money, we ask then.",
+          "追加予算が必要な段階まで来たら、その時に頼もう。"
+        ],
+        [
+          "B",
+          "Just don’t change the whole plan at the last minute.",
+          "直前に全部ひっくり返すのだけはやめてな。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1488",
+        "p1486",
+        "p1494",
+        "p146",
+        "p1511",
+        "p1505",
+        "p1548",
+        "p155"
+      ]
+    },
+    {
+      "id": "S2-NEW-05",
+      "season": "Season 2",
+      "title": "転職を決断する友人の背中を押す",
+      "category": "相談",
+      "lines": [
+        [
+          "A",
+          "Did you accept the new job?",
+          "新しい仕事、受けたん？"
+        ],
+        [
+          "B",
+          "Not yet. The offer caught me off guard.",
+          "まだ。急な話でびっくりしてもうて。"
+        ],
+        [
+          "A",
+          "But you’ve wanted to leave for a year.",
+          "でも一年ずっと辞めたいって言ってたやん。"
+        ],
+        [
+          "B",
+          "I know. On some level, I’m scared to go through with it.",
+          "分かってる。どこかでは、本当に実行するのが怖いねん。"
+        ],
+        [
+          "A",
+          "Don’t let fear hold you back.",
+          "怖さに足止めされんようにな。"
+        ],
+        [
+          "B",
+          "What if I regret it?",
+          "後悔したらどうしよ。"
+        ],
+        [
+          "A",
+          "Then you deal with it. But you can’t live a lie just because the old job is familiar.",
+          "その時考えたらいい。でも慣れてるってだけで自分をごまかして生きるのは違うやろ。"
+        ],
+        [
+          "B",
+          "Harsh.",
+          "厳しいな。"
+        ],
+        [
+          "A",
+          "Maybe. But at some point you have to get over yourself and put the old job behind you.",
+          "そうかも。でもどっかで自分の不安ばっか気にするのやめて、前の仕事は過去にせな。"
+        ],
+        [
+          "B",
+          "You really think the risk could pay off?",
+          "ほんまに、そのリスク取る価値あると思う？"
+        ],
+        [
+          "A",
+          "Yeah. I do.",
+          "うん。そう思う。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1495",
+        "p1499",
+        "p147",
+        "p1506",
+        "p1507",
+        "p1503",
+        "p1532",
+        "p149"
+      ]
+    },
+    {
+      "id": "S2-NEW-06",
+      "season": "Season 2",
+      "title": "週末のデート報告を聞く",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "You disappeared all weekend.",
+          "週末ずっと消えてたやん。"
+        ],
+        [
+          "B",
+          "In case you were wondering, I was on a date.",
+          "気になってたなら言うけど、デートしててん。"
+        ],
+        [
+          "A",
+          "No kidding? Both days?",
+          "マジで？2日とも？"
+        ],
+        [
+          "B",
+          "We were only supposed to get coffee, but one thing led to another.",
+          "コーヒーだけの予定やったんやけど、なんやかんやでそうなって。"
+        ],
+        [
+          "A",
+          "Do I dare ask what “another” means?",
+          "その「なんやかんや」の中身、聞いてええんかな。"
+        ],
+        [
+          "B",
+          "Relax. We had dinner, saw a movie, and spent some quality time together.",
+          "落ち着いて。晩ご飯食べて映画見て、ゆっくり一緒に過ごしただけ。"
+        ],
+        [
+          "A",
+          "And you couldn’t resist staying for breakfast?",
+          "で、朝ご飯まで一緒におるの我慢できんかったと。"
+        ],
+        [
+          "B",
+          "You’re enjoying this way too much.",
+          "めっちゃ楽しんでるやろ。"
+        ],
+        [
+          "A",
+          "I have a life. Your dating stories are just better than mine.",
+          "私にも自分の生活あるわ。あんたの恋愛話のほうが面白いだけ。"
+        ],
+        [
+          "B",
+          "Fine, but I’m not going to bore you with every detail.",
+          "はいはい。でも細かいこと全部話して退屈させる気はないで。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1468",
+        "p1459",
+        "p382",
+        "p137",
+        "p1512",
+        "p1519",
+        "p1513",
+        "p1501"
+      ]
+    },
+    {
+      "id": "S2-NEW-07",
+      "season": "Season 2",
+      "title": "イベント大失敗の反省会",
+      "category": "日常",
+      "lines": [
+        [
+          "A",
+          "So... last night was a bust.",
+          "で…昨日は大失敗やったな。"
+        ],
+        [
+          "B",
+          "Just so you know, I warned everyone about the rain.",
+          "一応言っとくけど、雨降るってみんなに警告したからな。"
+        ],
+        [
+          "A",
+          "As opposed to actually booking an indoor venue?",
+          "屋内会場をちゃんと予約する代わりに、ってこと？"
+        ],
+        [
+          "B",
+          "I tried to keep people from panicking.",
+          "みんながパニックにならんようにはした。"
+        ],
+        [
+          "A",
+          "You had the nerve to say, “It’ll clear up,” while the tent was blowing away.",
+          "テント飛んでる最中に「すぐ晴れるって」って言う度胸だけはあったな。"
+        ],
+        [
+          "B",
+          "I was trying to stay positive.",
+          "前向きでいようとしてたんや。"
+        ],
+        [
+          "A",
+          "I was on the edge of my seat watching the cake slide off the table.",
+          "ケーキがテーブルから滑り落ちるの、ハラハラして見てたわ。"
+        ],
+        [
+          "B",
+          "Please stop. I’m all cried out.",
+          "もうやめて。泣くだけ泣いたから。"
+        ],
+        [
+          "A",
+          "Fine. But if the boss sees the photos, we’re dead meat.",
+          "分かった。でも上司が写真見たら、うちら終わりやで。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1492",
+        "p1575",
+        "p1527",
+        "p224",
+        "p148",
+        "p1530",
+        "p1518",
+        "p151"
+      ]
+    },
+    {
+      "id": "S2-NEW-08",
+      "season": "Season 2",
+      "title": "ゲームナイトで心理戦する",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "Final round. Winner takes the whole thing.",
+          "最終ラウンド。勝ったほうが総取りな。"
+        ],
+        [
+          "B",
+          "This is nuts. Why am I actually nervous?",
+          "これアホらしいのに、なんでほんまに緊張してんねやろ。"
+        ],
+        [
+          "A",
+          "Because I’m psyching you out.",
+          "俺がプレッシャーかけてるからや。"
+        ],
+        [
+          "B",
+          "You’re just messing with me.",
+          "ただからかってるだけやろ。"
+        ],
+        [
+          "A",
+          "Maybe. My strategy is a little out there, if you will.",
+          "まあな。俺の作戦は、言うなればちょっとぶっ飛んでる。"
+        ],
+        [
+          "B",
+          "You crack me up.",
+          "ほんま笑かすなあ。"
+        ],
+        [
+          "A",
+          "Heads or tails? Call it in the air.",
+          "表か裏か。投げてる間に言って。"
+        ],
+        [
+          "B",
+          "Tails.",
+          "裏。"
+        ],
+        [
+          "A",
+          "Tails it is.",
+          "ほな裏で決まり。"
+        ],
+        [
+          "B",
+          "If I lose because of a coin toss, I’m never playing with you again.",
+          "コイントスで負けたら、もう二度とあんたとはやらん。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1482",
+        "p839",
+        "p608",
+        "p431",
+        "p142",
+        "p1555",
+        "p1536",
+        "p1554"
+      ]
+    },
+    {
+      "id": "S2-NEW-09",
+      "season": "Season 2",
+      "title": "仕事の手順を引き継ぐ",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "Okay, from the top. Walk me through the morning routine.",
+          "よし、最初から。朝の手順を教えて。"
+        ],
+        [
+          "B",
+          "First, check the inbox, update the sheet, call the clients. Lather, rinse, repeat.",
+          "まず受信箱確認、表更新、顧客に電話。あとはその繰り返し。"
+        ],
+        [
+          "A",
+          "Sounds thrilling.",
+          "ワクワクするな。"
+        ],
+        [
+          "B",
+          "What did I tell you? This job is all about consistency.",
+          "言ったやろ。この仕事はとにかく安定して同じことをやるのが大事。"
+        ],
+        [
+          "A",
+          "It’s a known fact that nobody reads the instructions anyway.",
+          "そもそも説明書なんか誰も読まへんっていうのは周知の事実やな。"
+        ],
+        [
+          "B",
+          "That’s the beauty of this checklist. You don’t have to remember anything.",
+          "そこがこのチェックリストのいいところ。何も覚えんでいい。"
+        ],
+        [
+          "A",
+          "Fair enough. Anything else?",
+          "なるほど。他は？"
+        ],
+        [
+          "B",
+          "Send the report by four.",
+          "4時までにレポート送って。"
+        ],
+        [
+          "A",
+          "Consider it done.",
+          "任せて。"
+        ],
+        [
+          "B",
+          "Good. Carry on.",
+          "よし。そのまま続けて。"
+        ]
+      ],
+      "phraseLinks": [
+        "p154",
+        "p1552",
+        "p1540",
+        "p1558",
+        "p1545",
+        "p1556",
+        "p1559",
+        "p1542"
+      ]
+    },
+    {
+      "id": "S2-NEW-10",
+      "season": "Season 2",
+      "title": "ルームメイトの映画鑑賞ルールで揉める",
+      "category": "日常",
+      "lines": [
+        [
+          "A",
+          "Did you seriously tell me who the killer is?",
+          "ほんまに犯人誰か言ったん？"
+        ],
+        [
+          "B",
+          "I didn’t give away the ending. I gave you a clue.",
+          "結末バラしてへん。ヒント出しただけ。"
+        ],
+        [
+          "A",
+          "Get out of here. That was the ending.",
+          "何言うてんねん。それが結末やん。"
+        ],
+        [
+          "B",
+          "If I had a nickel for every time you overreacted—",
+          "あんたが大げさに騒ぐたびに5セントもらえてたら—"
+        ],
+        [
+          "A",
+          "Says the control freak who pauses the movie whenever anyone talks.",
+          "誰か喋るたびに映画止めるコントロールフリークが何言うてんねん。"
+        ],
+        [
+          "B",
+          "I’ve had my share of ruined movie nights because nobody pays attention.",
+          "誰もちゃんと見てなくて映画の夜が台無しになったこと、何回もあるからな。"
+        ],
+        [
+          "A",
+          "So now you take advantage of the remote and run the whole room?",
+          "だからリモコン握って部屋全部仕切るん？"
+        ],
+        [
+          "B",
+          "The silver lining is, now you can focus on the acting.",
+          "まあ良い面を言えば、これで演技に集中できるやん。"
+        ],
+        [
+          "A",
+          "Either that or I watch the rest in my room.",
+          "それか、残りは自分の部屋で見るわ。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1773",
+        "p1456",
+        "p1445",
+        "p134",
+        "p131",
+        "p1448",
+        "p136",
+        "p344"
+      ]
+    },
+    {
+      "id": "S2-NEW-11",
+      "season": "Season 2",
+      "title": "転職先を二つの候補から決める",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "Have you decided which job to take?",
+          "どっちの仕事にするか決めた？"
+        ],
+        [
+          "B",
+          "Not even close. I can’t decide between the startup and the bank.",
+          "全然。スタートアップと銀行で決めきれへん。"
+        ],
+        [
+          "A",
+          "Make a list of the pros and cons.",
+          "長所と短所を書き出してみたら。"
+        ],
+        [
+          "B",
+          "I did. It somehow made things worse.",
+          "やった。なぜか余計迷った。"
+        ],
+        [
+          "A",
+          "Here’s a thought: get some perspective. Which one gives you a real chance to grow?",
+          "こう考えたら？少し客観的に見て、どっちのほうが成長できそう？"
+        ],
+        [
+          "B",
+          "The startup, probably. I actually stand a chance of leading a team there.",
+          "たぶんスタートアップ。そこならチームを任される可能性もある。"
+        ],
+        [
+          "A",
+          "And your glass is usually half full when you talk about it.",
+          "その話してる時は、いつも前向きやしな。"
+        ],
+        [
+          "B",
+          "True. Worse comes to worst, I can look for something else later.",
+          "確かに。最悪、あとでまた別を探せばいい。"
+        ],
+        [
+          "A",
+          "Exactly. Seize the day.",
+          "そうそう。思い切っていこ。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1627",
+        "p165",
+        "p866",
+        "p1643",
+        "p1732",
+        "p1003",
+        "p171",
+        "p1707"
+      ]
+    },
+    {
+      "id": "S2-NEW-12",
+      "season": "Season 2",
+      "title": "元恋人にもう一度連絡するか迷う",
+      "category": "恋愛",
+      "lines": [
+        [
+          "A",
+          "I’m thinking about texting Alex.",
+          "アレックスに連絡しようかと思ってる。"
+        ],
+        [
+          "B",
+          "Promise me something. Don’t send anything tonight.",
+          "一つ約束して。今夜は何も送らんといて。"
+        ],
+        [
+          "A",
+          "Why not? I just want to get closure.",
+          "なんで？区切りをつけたいだけ。"
+        ],
+        [
+          "B",
+          "That ship has sailed. You already had that conversation.",
+          "もうその機会は終わってる。話し合いはもうしたやん。"
+        ],
+        [
+          "A",
+          "So I’m just supposed to move on?",
+          "じゃあこのまま前に進めってこと？"
+        ],
+        [
+          "B",
+          "It’s time you did. And when you date again, take it slow.",
+          "そろそろそうしたほうがいい。それで次に誰かと付き合う時はゆっくり進めたらいい。"
+        ],
+        [
+          "A",
+          "What if I meet someone and think, “Where is this going?” after two dates?",
+          "2回デートしただけで「これどこに向かってるん？」って思ったら？"
+        ],
+        [
+          "B",
+          "Ask them. If not, that’s fine too. Not everything has to become a relationship.",
+          "聞けばいい。そうじゃなくても別にええし。全部が恋愛関係にならなあかんわけちゃう。"
+        ],
+        [
+          "A",
+          "You really think things happen for a reason?",
+          "物事ってほんまに意味があって起きると思う？"
+        ],
+        [
+          "B",
+          "Sometimes. Or at least we can choose what to learn from them.",
+          "時にはな。少なくとも、そこから何を学ぶかは選べる。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1911",
+        "p584",
+        "p161",
+        "p1598",
+        "p1588",
+        "p1604",
+        "p1606",
+        "p1634"
+      ]
+    },
+    {
+      "id": "S2-NEW-13",
+      "season": "Season 2",
+      "title": "ルームメイト同士の不満を仲裁する",
+      "category": "日常",
+      "lines": [
+        [
+          "A",
+          "Can you simmer down for a second?",
+          "ちょっと落ち着いてくれる？"
+        ],
+        [
+          "B",
+          "I’ve asked you for the nth time to stop leaving dishes everywhere.",
+          "食器そこら中に置くのやめてって、もう何回言ったか分からん。"
+        ],
+        [
+          "A",
+          "I hear you, but I can’t win with you. If I clean, I’m “doing it wrong.”",
+          "言いたいことは分かるけど、何しても文句言われるやん。掃除しても「やり方が違う」やし。"
+        ],
+        [
+          "B",
+          "Because you leave half the kitchen untouched.",
+          "だって台所の半分そのままやん。"
+        ],
+        [
+          "A",
+          "Living together can be a pain sometimes.",
+          "一緒に住むのって、ほんま面倒な時あるな。"
+        ],
+        [
+          "B",
+          "Fine. I can cut you some slack tonight. You just got home from work.",
+          "分かった。今日はちょっと大目に見るわ。仕事から帰ってきたとこやし。"
+        ],
+        [
+          "A",
+          "Thank you. And can you let up on the criticism a little?",
+          "ありがとう。あと、もうちょっと文句言うのも控えてくれる？"
+        ],
+        [
+          "B",
+          "Fair. But you need to actually finish what you start.",
+          "それはそうやな。でも始めたことはちゃんと最後までやって。"
+        ],
+        [
+          "A",
+          "Deal. Let’s straighten this out without yelling.",
+          "決まり。怒鳴らずにちゃんと整理しよ。"
+        ]
+      ],
+      "phraseLinks": [
+        "p240",
+        "p1524",
+        "p1522",
+        "p164",
+        "p163",
+        "p166",
+        "p1668",
+        "p715"
+      ]
+    },
+    {
+      "id": "S2-NEW-14",
+      "season": "Season 2",
+      "title": "面接後の手応えを友人に報告する",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "How did you make out at the interview?",
+          "面接どうやった？"
+        ],
+        [
+          "B",
+          "Better than I expected. They asked what managing the new team would entail.",
+          "思ってたより良かった。新しいチームを管理するって具体的に何をするのか聞いた。"
+        ],
+        [
+          "A",
+          "I’m all ears.",
+          "詳しく聞かせて。"
+        ],
+        [
+          "B",
+          "More responsibility, some travel, and a lot of client work.",
+          "責任も増えるし、出張もあるし、顧客対応もかなり多い。"
+        ],
+        [
+          "A",
+          "Sounds like you’d finally get somewhere after paying your dues for five years.",
+          "5年下積みしたし、やっと前に進めそうやん。"
+        ],
+        [
+          "B",
+          "Maybe. Last I heard, they were interviewing three other people.",
+          "どうかな。聞いた話では、他にも3人面接してるらしい。"
+        ],
+        [
+          "A",
+          "And if they offer it?",
+          "もしオファー来たら？"
+        ],
+        [
+          "B",
+          "I won’t turn it down just because I’m nervous.",
+          "不安やからって理由だけで断るつもりはない。"
+        ],
+        [
+          "A",
+          "Good. I feel for you, though. Waiting is the worst part.",
+          "それがいい。でも気持ちは分かる。待ってる時間が一番しんどいな。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1622",
+        "p1617",
+        "p1656",
+        "p1669",
+        "p170",
+        "p1702",
+        "p1703",
+        "p1746"
+      ]
+    },
+    {
+      "id": "S2-NEW-15",
+      "season": "Season 2",
+      "title": "飲み会の翌朝に昨夜の出来事を聞く",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "What did I miss after I left last night?",
+          "昨日、私が帰ったあと何があったん？"
+        ],
+        [
+          "B",
+          "You had to be there.",
+          "あれはその場におらんと伝わらんわ。"
+        ],
+        [
+          "A",
+          "That bad?",
+          "そんなひどかった？"
+        ],
+        [
+          "B",
+          "Chris got completely bombed and started singing on a chair.",
+          "クリスがベロベロに酔って椅子の上で歌い始めた。"
+        ],
+        [
+          "A",
+          "Again? He said he’d quit drinking for a month.",
+          "また？1か月酒やめるって言ってたやん。"
+        ],
+        [
+          "B",
+          "Yeah, he fell off the wagon pretty fast.",
+          "うん、あっさり禁酒破ってた。"
+        ],
+        [
+          "A",
+          "Did he come on to Nina too?",
+          "ニーナにも口説きにいった？"
+        ],
+        [
+          "B",
+          "Now that I think about it... yeah.",
+          "そういや…うん。"
+        ],
+        [
+          "A",
+          "Poor Nina.",
+          "ニーナかわいそう。"
+        ],
+        [
+          "B",
+          "Ditto. But what happened after that is none of your business.",
+          "ほんまそれ。でもその後のことはあんたには関係ないで。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1705",
+        "p176",
+        "p552",
+        "p1709",
+        "p1719",
+        "p173",
+        "p1768",
+        "p1716"
+      ]
+    },
+    {
+      "id": "S2-NEW-16",
+      "season": "Season 2",
+      "title": "誤解された友人が事情を説明する",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "I saw you having coffee with Jamie.",
+          "ジェイミーとコーヒー飲んでるの見たで。"
+        ],
+        [
+          "B",
+          "It’s not what you think.",
+          "そんなんちゃうって。"
+        ],
+        [
+          "A",
+          "Really? Because it looked pretty friendly.",
+          "ほんま？かなり親しそうに見えたけど。"
+        ],
+        [
+          "B",
+          "I went through the trouble of meeting him because he wanted to apologize.",
+          "向こうが謝りたいって言うから、わざわざ会いに行っただけ。"
+        ],
+        [
+          "A",
+          "After he cast you aside last year?",
+          "去年あんなふうにあんたを捨てたのに？"
+        ],
+        [
+          "B",
+          "He says it was the other way around—that I shut him out first.",
+          "向こうは逆やって言ってる。私が先に拒絶したって。"
+        ],
+        [
+          "A",
+          "And you believe him?",
+          "それ信じるん？"
+        ],
+        [
+          "B",
+          "I’m trying to do the right thing and at least hear him out.",
+          "ちゃんとすべきことをして、せめて話は聞こうと思って。"
+        ],
+        [
+          "A",
+          "That’s mighty big of you.",
+          "えらい寛大やな。"
+        ],
+        [
+          "B",
+          "Can you find it in your heart to not make fun of me for one day?",
+          "一日くらい、からかわんといてくれる優しさない？"
+        ],
+        [
+          "A",
+          "Fine. I just hope this ends well.",
+          "分かった。ただ、うまく終わるとええな。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1629",
+        "p1642",
+        "p1644",
+        "p1621",
+        "p370",
+        "p601",
+        "p1613",
+        "p813"
+      ]
+    },
+    {
+      "id": "S2-NEW-17",
+      "season": "Season 2",
+      "title": "発表会の本番前に盛り上げる",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "You ready for the presentation?",
+          "発表いけそう？"
+        ],
+        [
+          "B",
+          "I’m in the zone. Don’t talk to me.",
+          "今めっちゃ集中してる。話しかけんといて。"
+        ],
+        [
+          "A",
+          "No can do. I need the clicker.",
+          "それは無理。クリッカー要るねん。"
+        ],
+        [
+          "B",
+          "Fine. Hand me this bad boy.",
+          "分かった。そいつ渡して。"
+        ],
+        [
+          "A",
+          "The slides have charts, videos, customer quotes, what have you.",
+          "スライドにはグラフ、動画、顧客の声とか、いろいろ全部入ってる。"
+        ],
+        [
+          "B",
+          "Good. When I introduce you, go nuts.",
+          "よし。私が紹介したら思いっきりやって。"
+        ],
+        [
+          "A",
+          "Here I go.",
+          "よし、行ってくる。"
+        ],
+        [
+          "B",
+          "Wait—last but not least, smile.",
+          "待って。最後にもう一個、笑顔な。"
+        ],
+        [
+          "A",
+          "If this works, give it up for the team afterward.",
+          "うまくいったら、あとでチームのみんなに拍手してな。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1608",
+        "p1589",
+        "p1616",
+        "p1625",
+        "p1672",
+        "p1653",
+        "p1673",
+        "p1683"
+      ]
+    },
+    {
+      "id": "S2-NEW-18",
+      "season": "Season 2",
+      "title": "友人の引っ越しを手伝いながら片づける",
+      "category": "日常",
+      "lines": [
+        [
+          "A",
+          "Be a pal and grab that box, will you?",
+          "友達やろ、その箱持ってくれへん？"
+        ],
+        [
+          "B",
+          "I’m in dire need of a break.",
+          "今めっちゃ休憩必要やねんけど。"
+        ],
+        [
+          "A",
+          "We’ve only been moving for twenty minutes.",
+          "まだ20分しかやってへんやん。"
+        ],
+        [
+          "B",
+          "Can’t you tell from my face that I’m exhausted?",
+          "この顔見たら疲れてるって分からん？"
+        ],
+        [
+          "A",
+          "Stay positive. We’re almost done.",
+          "前向きにいこ。もうすぐ終わる。"
+        ],
+        [
+          "B",
+          "How many boxes are left?",
+          "あと箱いくつ？"
+        ],
+        [
+          "A",
+          "Nope, zilch, nothin’, uh-uh—after these six.",
+          "ゼロ、なし、何もない…この6箱が終わったらな。"
+        ],
+        [
+          "B",
+          "There’s no way I’m carrying the couch too.",
+          "ソファまで運ぶんは絶対無理やで。"
+        ],
+        [
+          "A",
+          "Whatever it takes. I need this place empty tonight.",
+          "何としてでもやる。今夜中にここ空にせな。"
+        ],
+        [
+          "B",
+          "Hold on. Did you get a whiff of that box?",
+          "ちょっと待って。その箱の匂いした？"
+        ],
+        [
+          "A",
+          "Okay, maybe that one stays here.",
+          "よし、それは置いていこか。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1592",
+        "p1583",
+        "p157",
+        "p1591",
+        "p1610",
+        "p159",
+        "p1547",
+        "p1543"
+      ]
+    },
+    {
+      "id": "S2-NEW-19",
+      "season": "Season 2",
+      "title": "友人から恋愛の重大告白を聞く",
+      "category": "恋愛",
+      "lines": [
+        [
+          "A",
+          "I don’t think you’re going to like this.",
+          "たぶんこれ、聞いても嬉しくないと思う。"
+        ],
+        [
+          "B",
+          "That’s always a great opening.",
+          "最高の前置きやな。"
+        ],
+        [
+          "A",
+          "I hooked up with Taylor last night.",
+          "昨日の夜、テイラーと関係持ってもうた。"
+        ],
+        [
+          "B",
+          "You what?",
+          "は？"
+        ],
+        [
+          "A",
+          "I know. I tried to talk myself out of it.",
+          "分かってる。やめようとはした。"
+        ],
+        [
+          "B",
+          "After everything that happened between you two?",
+          "あんたらの間であれだけ色々あったあとに？"
+        ],
+        [
+          "A",
+          "There’s unfinished business there.",
+          "まだ終わってないことがあるねん。"
+        ],
+        [
+          "B",
+          "So what now?",
+          "で、これからどうすんの？"
+        ],
+        [
+          "A",
+          "We agreed to meet one last time and talk.",
+          "もう一回だけ会って話すことにした。"
+        ],
+        [
+          "B",
+          "Little did I know you were about to drop a bomb on me over lunch.",
+          "まさかランチ中にこんな爆弾落とされるとは思わんかったわ。"
+        ],
+        [
+          "A",
+          "Can you just go along with me for now and not tell anyone?",
+          "とりあえず今は話合わせて、誰にも言わんといてくれる？"
+        ]
+      ],
+      "phraseLinks": [
+        "p1496",
+        "p1740",
+        "p1742",
+        "p1733",
+        "p317",
+        "p1731",
+        "p1655",
+        "p1651"
+      ]
+    },
+    {
+      "id": "S2-NEW-20",
+      "season": "Season 2",
+      "title": "仕事のミスをめぐって言い訳と反論が続く",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "Why on earth did you send the old version to the client?",
+          "なんで古い版を顧客に送ったん？"
+        ],
+        [
+          "B",
+          "I have a tendency to save everything with almost the same file name.",
+          "ほぼ同じファイル名で全部保存してまう癖があって。"
+        ],
+        [
+          "A",
+          "That’s not an explanation. That’s making excuses.",
+          "それ説明ちゃう。ただの言い訳や。"
+        ],
+        [
+          "B",
+          "Give me a break. Nobody caught it in review either.",
+          "勘弁してや。レビューでも誰も気づかんかったやん。"
+        ],
+        [
+          "A",
+          "You could not be more wrong. The two files are as different as night and day.",
+          "いや、全然ちゃう。あの2つ、まるっきり別物やで。"
+        ],
+        [
+          "B",
+          "Fine. My attention to detail went out the window this morning.",
+          "分かった。今朝は細かい確認が完全に抜けてた。"
+        ],
+        [
+          "A",
+          "This office is not “eat or be eaten.” Just admit the mistake and fix it.",
+          "この職場は弱肉強食ちゃうねん。ミス認めて直したらいい。"
+        ],
+        [
+          "B",
+          "Okay. I’ll call the client now.",
+          "分かった。今から顧客に電話する。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1734",
+        "p1743",
+        "p1737",
+        "p153",
+        "p1714",
+        "p175",
+        "p1718",
+        "p1710"
+      ]
+    },
+    {
+      "id": "S2-NEW-21",
+      "season": "Season 2",
+      "title": "友人の大胆な提案を現実的に考える",
+      "category": "相談",
+      "lines": [
+        [
+          "A",
+          "Let me get this straight. You want to quit and travel for six months?",
+          "ちょっと確認させて。仕事辞めて半年旅行したいってこと？"
+        ],
+        [
+          "B",
+          "Yeah. Seeing as I’ve saved enough, why not?",
+          "うん。十分貯金もあるし、ええかなって。"
+        ],
+        [
+          "A",
+          "You of all people? You plan everything six months ahead.",
+          "あんたが？何でも半年先まで計画する人やのに。"
+        ],
+        [
+          "B",
+          "I know. I can’t help but wonder what would happen if I just went for it.",
+          "分かってる。でも思い切ってやったらどうなるんやろって考えてまう。"
+        ],
+        [
+          "A",
+          "Would it matter if you came back without a job?",
+          "帰ってきた時に仕事なくても大丈夫なん？"
+        ],
+        [
+          "B",
+          "I’d figure something out.",
+          "なんとかする。"
+        ],
+        [
+          "A",
+          "Then maybe it’s worth a shot.",
+          "じゃあ、やってみる価値はあるかもな。"
+        ],
+        [
+          "B",
+          "So you think I should go?",
+          "行ったほうがいいと思う？"
+        ],
+        [
+          "A",
+          "I don’t know what to tell you. It’s your call.",
+          "何とも言われへん。決めるのはあんたや。"
+        ]
+      ],
+      "phraseLinks": [
+        "p233",
+        "p1727",
+        "p177",
+        "p178",
+        "p550",
+        "p1739",
+        "p1726",
+        "p194"
+      ]
+    },
+    {
+      "id": "S2-NEW-22",
+      "season": "Season 2",
+      "title": "職場の噂の真相を探る",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "Get this, the quarterly numbers were changed after the meeting.",
+          "聞いて。四半期の数字、会議のあとに書き換えられてたらしい。"
+        ],
+        [
+          "B",
+          "Where did you hear that?",
+          "どこで聞いたん？"
+        ],
+        [
+          "A",
+          "I heard it through the grapevine.",
+          "人づてに聞いた。"
+        ],
+        [
+          "B",
+          "Well, word on the street is accounting found a mistake.",
+          "噂では、経理がミスを見つけたらしいで。"
+        ],
+        [
+          "A",
+          "What are you getting at?",
+          "何が言いたいん？"
+        ],
+        [
+          "B",
+          "That it may not be some big cover-up.",
+          "大げさな隠蔽とかじゃないかもしれんってこと。"
+        ],
+        [
+          "A",
+          "Unless it was an inside job.",
+          "内部の誰かがやったんじゃなければな。"
+        ],
+        [
+          "B",
+          "You watch too many thrillers.",
+          "サスペンス見すぎ。"
+        ],
+        [
+          "A",
+          "Fine. I’ll track down the original spreadsheet.",
+          "分かった。元の表を探してみる。"
+        ],
+        [
+          "B",
+          "Good. The manager’s exact words were, “Check the source before accusing anyone.”",
+          "うん。部長もはっきり「誰かを疑う前に元データを確認しろ」って言ってたし。"
+        ]
+      ],
+      "phraseLinks": [
+        "p184",
+        "p1766",
+        "p1765",
+        "p187",
+        "p1763",
+        "p1764",
+        "p185",
+        "p1809"
+      ]
+    },
+    {
+      "id": "S2-NEW-23",
+      "season": "Season 2",
+      "title": "締切直前のチームを立て直す",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "We’re under pressure here. How much longer do you need?",
+          "かなり切羽詰まってるで。あとどれくらい要る？"
+        ],
+        [
+          "B",
+          "Twenty minutes, tops.",
+          "長くても20分。"
+        ],
+        [
+          "A",
+          "Give me a second. The client just emailed again.",
+          "ちょっと待って。顧客からまたメール来た。"
+        ],
+        [
+          "B",
+          "Please don’t tell me they changed the brief.",
+          "まさか要件変えたとか言わんといて。"
+        ],
+        [
+          "A",
+          "Nope. They gave us the green light.",
+          "違う。進めていいって許可出た。"
+        ],
+        [
+          "B",
+          "Great. Then let’s not get off track now.",
+          "よし。ほんなら今さら話脱線させんとこ。"
+        ],
+        [
+          "A",
+          "Agreed. I’m already getting heat from the boss for the delay.",
+          "そうしよ。遅れてることで上司からもう責められてるし。"
+        ],
+        [
+          "B",
+          "Once I export this file, we’ll be good to go.",
+          "これ書き出したら準備完了や。"
+        ],
+        [
+          "A",
+          "Good, because I was about to call in sick for the rest of the week.",
+          "よかった。もう今週残り全部病欠しようかと思ってたわ。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1790",
+        "p1811",
+        "p1824",
+        "p1800",
+        "p1813",
+        "p192",
+        "p1828",
+        "p1843"
+      ]
+    },
+    {
+      "id": "S2-NEW-24",
+      "season": "Season 2",
+      "title": "しつこい元恋人に境界線を引く",
+      "category": "恋愛",
+      "lines": [
+        [
+          "A",
+          "I saw you checking out that guy at the bar.",
+          "バーであの人見てたやろ。"
+        ],
+        [
+          "B",
+          "Would you stop already?",
+          "もうやめてくれへん？"
+        ],
+        [
+          "A",
+          "I’m just saying, I could still be your knight in shining armor.",
+          "ただ、俺がまだ君を救う王子様になれるかもって。"
+        ],
+        [
+          "B",
+          "Back off. There is no us.",
+          "引いて。私たちに「二人」なんてないから。"
+        ],
+        [
+          "A",
+          "You won’t budge at all?",
+          "全然考え直す気ないん？"
+        ],
+        [
+          "B",
+          "No. And who I date is not yours to decide.",
+          "ない。それに私が誰と付き合うかは、あなたが決めることちゃう。"
+        ],
+        [
+          "A",
+          "Fine.",
+          "分かったよ。"
+        ],
+        [
+          "B",
+          "If you ever want to talk as a friend, you know where to find me.",
+          "友達として話したい時が来たら、どこにいるか分かってるやろ。"
+        ],
+        [
+          "A",
+          "Message received.",
+          "了解。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1023",
+        "p1851",
+        "p1857",
+        "p1850",
+        "p1845",
+        "p1870",
+        "p1848",
+        "p1858"
+      ]
+    },
+    {
+      "id": "S2-NEW-25",
+      "season": "Season 2",
+      "title": "副業を始めるか現実的に検討する",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "I’m thinking about turning my baking into a side business.",
+          "お菓子作り、副業にしようかと思ってる。"
+        ],
+        [
+          "B",
+          "From where I’m sitting, it’s already going somewhere. People keep asking to order from you.",
+          "私から見たら、もう結構うまくいきそうやで。注文したいって人ずっとおるやん。"
+        ],
+        [
+          "A",
+          "The problem is startup costs.",
+          "問題は初期費用やねん。"
+        ],
+        [
+          "B",
+          "Would you have to dip into your savings?",
+          "貯金に手つけなあかん？"
+        ],
+        [
+          "A",
+          "A little, to begin with.",
+          "最初はちょっとだけ。"
+        ],
+        [
+          "B",
+          "And is this about more than just making money off your friends?",
+          "これ、友達相手に稼ぐだけが目的ってわけちゃうんやろ？"
+        ],
+        [
+          "A",
+          "Exactly. I actually want to build something.",
+          "そう。ちゃんと何か形にしたい。"
+        ],
+        [
+          "B",
+          "Then bring on the paperwork.",
+          "ほな面倒な手続きもどんと来いやな。"
+        ],
+        [
+          "A",
+          "Ready or not, I guess I’m doing this.",
+          "準備できてようができてまいが、やるしかないな。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1856",
+        "p1048",
+        "p1861",
+        "p196",
+        "p1859",
+        "p1860",
+        "p1869",
+        "p1849"
+      ]
+    },
+    {
+      "id": "S2-NEW-26",
+      "season": "Season 2",
+      "title": "友人の悪ふざけが行き過ぎて止める",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "Stop me if you’ve heard it: “It seemed funny at the time.”",
+          "聞き飽きてるかもやけど、「その時は面白いと思ってん」ってやつ。"
+        ],
+        [
+          "B",
+          "Bite me. Everyone was laughing.",
+          "うるさいわ。みんな笑ってたやん。"
+        ],
+        [
+          "A",
+          "Because they were in the moment. That doesn’t make it smart.",
+          "その場のノリやっただけ。それで賢い行動になるわけちゃう。"
+        ],
+        [
+          "B",
+          "You’re acting like I committed a crime.",
+          "犯罪でも犯したみたいに言うなや。"
+        ],
+        [
+          "A",
+          "You nearly set the curtains on fire trying to put out the candles.",
+          "ろうそく消そうとしてカーテン燃やしかけたやん。"
+        ],
+        [
+          "B",
+          "Fine. I may have done something I’ll regret.",
+          "分かった。後悔することはしたかもしれん。"
+        ],
+        [
+          "A",
+          "You need to grow out of these stupid stunts.",
+          "そろそろこういうアホな悪ふざけ卒業しな。"
+        ],
+        [
+          "B",
+          "For all I care, we never have another birthday party.",
+          "もう二度と誕生日会せんでも私はどうでもええわ。"
+        ],
+        [
+          "A",
+          "Don’t toy with me. You’ll be planning the next one tomorrow.",
+          "適当なこと言うなって。明日には次の計画立ててるやろ。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1458",
+        "p1541",
+        "p169",
+        "p1605",
+        "p1609",
+        "p156",
+        "p1594",
+        "p172"
+      ]
+    },
+    {
+      "id": "S2-NEW-27",
+      "season": "Season 2",
+      "title": "落ち込む友人と夜通し話す",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "How far did you get with the apartment search?",
+          "部屋探し、どこまで進んだ？"
+        ],
+        [
+          "B",
+          "Nowhere. I can’t even open the listings anymore.",
+          "全然。もう物件サイト開く気にもならん。"
+        ],
+        [
+          "A",
+          "I know what you’re going through. Moving after a breakup is rough.",
+          "気持ち分かるよ。別れたあとに引っ越すのってしんどい。"
+        ],
+        [
+          "B",
+          "You don’t know what I’m talking about. You’ve never lived with anyone.",
+          "分からんやろ。誰かと住んだことないやん。"
+        ],
+        [
+          "A",
+          "Fair. But I can listen. That’s what friends are for.",
+          "それはそう。でも話は聞ける。友達ってそういうもんやろ。"
+        ],
+        [
+          "B",
+          "I don’t even know where to start.",
+          "何から話したらいいかも分からん。"
+        ],
+        [
+          "A",
+          "We can swap life stories all night if you want. You know you want to.",
+          "よかったら一晩中お互いの人生話しててもええで。ほんまは話したいやろ。"
+        ],
+        [
+          "B",
+          "Honestly? Yeah.",
+          "正直？うん。"
+        ],
+        [
+          "A",
+          "You and me both. It might keep the loneliness at bay for a while.",
+          "私も話したい。しばらく寂しさも紛れるかもしれんし。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1675",
+        "p1927",
+        "p1666",
+        "p1684",
+        "p1654",
+        "p1701",
+        "p1704",
+        "p174"
+      ]
+    },
+    {
+      "id": "S2-NEW-28",
+      "season": "Season 2",
+      "title": "旅行直前のトラブルで予定を組み直す",
+      "category": "日常",
+      "lines": [
+        [
+          "A",
+          "The airline might call off our flight.",
+          "航空会社、便を欠航にするかもしれんって。"
+        ],
+        [
+          "B",
+          "For a minute there, I thought this trip was finally going smoothly.",
+          "一瞬、今回はやっと順調やと思ったのに。"
+        ],
+        [
+          "A",
+          "The weather alert should clear any day now.",
+          "天気の警報はもうすぐ解除されるはず。"
+        ],
+        [
+          "B",
+          "We can’t seem to catch a break.",
+          "ほんま全然ツイてへんな。"
+        ],
+        [
+          "A",
+          "Good thing we have a backup plan.",
+          "予備プラン作っといてよかったな。"
+        ],
+        [
+          "B",
+          "Which is the exact opposite of a beach vacation.",
+          "ビーチ旅行とは正反対のプランやけどな。"
+        ],
+        [
+          "A",
+          "Indoor museums and good food. What’s the worst that could happen?",
+          "屋内の博物館と美味しいご飯や。最悪でも何が起こる？"
+        ],
+        [
+          "B",
+          "Knowing us? Plenty.",
+          "私らやで？いくらでも。"
+        ],
+        [
+          "A",
+          "That’s the way it goes.",
+          "まあ、そういうもんやな。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1744",
+        "p1623",
+        "p1730",
+        "p1755",
+        "p1754",
+        "p1758",
+        "p1797",
+        "p1825"
+      ]
+    },
+    {
+      "id": "S2-NEW-29",
+      "season": "Season 2",
+      "title": "浮気の噂について本人に問いただす",
+      "category": "恋愛",
+      "lines": [
+        [
+          "A",
+          "This is going to sound awful, but people think you were fooling around with Jamie.",
+          "ひどい話に聞こえると思うけど、ジェイミーと浮気してたって噂されてるで。"
+        ],
+        [
+          "B",
+          "I refuse to acknowledge gossip that stupid.",
+          "そんなアホな噂、相手にする気ない。"
+        ],
+        [
+          "A",
+          "Someone says you got caught kissing outside the restaurant.",
+          "店の外でキスしてるとこ見つかったって言ってる人がおる。"
+        ],
+        [
+          "B",
+          "Not exactly. Jamie kissed me, and I pulled away.",
+          "正確には違う。ジェイミーがキスしてきて、私は離れた。"
+        ],
+        [
+          "A",
+          "Why didn’t you tell Sam?",
+          "なんでサムに言わんかったん？"
+        ],
+        [
+          "B",
+          "I gotta admit, I was scared it would turn into a huge fight.",
+          "正直、大喧嘩になるのが怖かった。"
+        ],
+        [
+          "A",
+          "Don’t take it personally, but hiding it makes you look worse.",
+          "悪く取らんといて。でも隠すと余計怪しく見えるで。"
+        ],
+        [
+          "B",
+          "So what, you’re going to sell me out?",
+          "で、私のこと売るん？"
+        ],
+        [
+          "A",
+          "No. I’m saying you should tell Sam yourself.",
+          "ちゃう。自分でサムに話したほうがいいって言ってる。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1793",
+        "p1801",
+        "p1789",
+        "p1821",
+        "p189",
+        "p1808",
+        "p191",
+        "p1799"
+      ]
+    },
+    {
+      "id": "S2-NEW-30",
+      "season": "Season 2",
+      "title": "初めてのイベント参加を迷う友人を誘う",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "Here’s an idea. Tag along with us Saturday.",
+          "こうしよ。土曜、一緒に来たら？"
+        ],
+        [
+          "B",
+          "To that huge networking event? No thanks.",
+          "あのでかい交流会に？遠慮しとく。"
+        ],
+        [
+          "A",
+          "You’re too chicken to go alone, that’s all.",
+          "一人で行くの怖いだけやろ。"
+        ],
+        [
+          "B",
+          "Take a chill pill. I just hate walking into a room full of strangers.",
+          "落ち着けって。知らん人だらけの部屋に入るのが嫌なだけ。"
+        ],
+        [
+          "A",
+          "Hang in there for twenty minutes. If things go well, stay longer.",
+          "20分だけ耐えてみ。うまくいきそうならそのままおればいい。"
+        ],
+        [
+          "B",
+          "And if I hate it?",
+          "嫌やったら？"
+        ],
+        [
+          "A",
+          "Leave. Simple.",
+          "帰ればいい。簡単やろ。"
+        ],
+        [
+          "B",
+          "I can’t say I’m surprised you have an answer for everything.",
+          "何にでも答えあるの、別に驚かんけどな。"
+        ],
+        [
+          "A",
+          "Trust me. After one lap around the room, you’ll have seen enough to decide.",
+          "信じて。一周したら、続けるか決めるには十分見れるって。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1803",
+        "p190",
+        "p1820",
+        "p1812",
+        "p195",
+        "p1840",
+        "p1868",
+        "p1865"
+      ]
+    },
+    {
+      "id": "S2-NEW-31",
+      "season": "Season 2",
+      "title": "サプライズを待ちきれない友人を止める",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "Is it ready yet?",
+          "もうできた？"
+        ],
+        [
+          "B",
+          "No peeking. You’ll ruin the surprise.",
+          "覗いたらあかん。サプライズ台無しになるで。"
+        ],
+        [
+          "A",
+          "Just checking.",
+          "ちょっと確認しただけ。"
+        ],
+        [
+          "B",
+          "There’s no rush. Sit down for five minutes.",
+          "急がんでええって。5分座っとき。"
+        ],
+        [
+          "A",
+          "Five minutes is forever.",
+          "5分とか永遠やん。"
+        ],
+        [
+          "B",
+          "Trust me, it’ll be worth the wait.",
+          "信じて。待つ価値あるから。"
+        ],
+        [
+          "A",
+          "Fine. I’ll survive.",
+          "分かった。なんとか耐えるわ。"
+        ],
+        [
+          "B",
+          "That’s the stuff. Patience.",
+          "そうそう、その調子。辛抱や。"
+        ],
+        [
+          "A",
+          "Can I at least smell it?",
+          "せめて匂いだけでも？"
+        ],
+        [
+          "B",
+          "There’s no need to make this harder than it is.",
+          "わざわざ余計しんどくせんでええやろ。"
+        ],
+        [
+          "A",
+          "Too late. The moment’s gone. Now I’m obsessed.",
+          "もう遅い。待てる気分は終わった。今めっちゃ気になってる。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1887",
+        "p1872",
+        "p1900",
+        "p1881",
+        "p1899",
+        "p1875",
+        "p1890",
+        "p1889"
+      ]
+    },
+    {
+      "id": "S2-NEW-32",
+      "season": "Season 2",
+      "title": "余計な一言を謝って関係を修復する",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "About what I said last night—I’m sorry.",
+          "昨日言ったことやけど、ごめん。"
+        ],
+        [
+          "B",
+          "In all fairness, you were tired. But you still crossed a line.",
+          "公平に言えば疲れてたんやろうけど、それでも一線は越えてた。"
+        ],
+        [
+          "A",
+          "I know. How can I make it up to you?",
+          "分かってる。どうしたら埋め合わせできる？"
+        ],
+        [
+          "B",
+          "Start by not commenting on my dating life.",
+          "まず私の恋愛に口出さんことやな。"
+        ],
+        [
+          "A",
+          "I don’t just mean the joke. I’m sorry I made you self-conscious.",
+          "冗談のことだけちゃうねん。気にさせてもうたことも悪かった。"
+        ],
+        [
+          "B",
+          "We are into each other, but that doesn’t mean I want everyone discussing it.",
+          "お互い好意はあるけど、だからってみんなに話題にされたくない。"
+        ],
+        [
+          "A",
+          "Fair. I was full of myself and thought I was being funny.",
+          "その通り。調子乗って、自分では面白いと思ってた。"
+        ],
+        [
+          "B",
+          "And then you described his tattoo.",
+          "しかもあの人のタトゥーの話までしたしな。"
+        ],
+        [
+          "A",
+          "Yeah...",
+          "うん…。"
+        ],
+        [
+          "B",
+          "I didn’t need to know that.",
+          "そこは知りたくなかったわ。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1896",
+        "p666",
+        "p1901",
+        "p1888",
+        "p1883",
+        "p202",
+        "p203",
+        "p1898"
+      ]
+    },
+    {
+      "id": "S2-NEW-33",
+      "season": "Season 2",
+      "title": "共同作業を降りる友人と本音で話す",
+      "category": "相談",
+      "lines": [
+        [
+          "A",
+          "I guess this is it. You’re really leaving the project?",
+          "これで終わりか。ほんまにプロジェクト抜けるん？"
+        ],
+        [
+          "B",
+          "Like we talked about, I can’t keep doing two jobs at once.",
+          "前に話した通り、仕事二つ同時には続けられへん。"
+        ],
+        [
+          "A",
+          "You said it yourself—we’re almost finished.",
+          "自分でも言ってたやん、もうすぐ終わるって。"
+        ],
+        [
+          "B",
+          "You want the truth? I’m exhausted.",
+          "本音聞きたい？もう疲れ切ってる。"
+        ],
+        [
+          "A",
+          "I’m not cool with being left high and dry two weeks before launch.",
+          "公開2週間前に置いてかれるのは納得できへん。"
+        ],
+        [
+          "B",
+          "I know, but don’t get bent out of shape before you hear the plan.",
+          "分かってる。でも計画聞く前からそんな怒らんといて。"
+        ],
+        [
+          "A",
+          "There’s a plan?",
+          "計画あるん？"
+        ],
+        [
+          "B",
+          "I found someone who can take over my part. Is that clear?",
+          "私の担当を引き継げる人を見つけた。これで分かった？"
+        ],
+        [
+          "A",
+          "Okay. That changes things.",
+          "そっか。それなら話は変わる。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1970",
+        "p1965",
+        "p1968",
+        "p335",
+        "p1966",
+        "p205",
+        "p210",
+        "p1960"
+      ]
+    },
+    {
+      "id": "S2-NEW-34",
+      "season": "Season 2",
+      "title": "隠し事をめぐって友人と口論する",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "Is this because of what happened Friday?",
+          "これ、金曜のことが原因なん？"
+        ],
+        [
+          "B",
+          "Are we still on that?",
+          "まだその話してんの？"
+        ],
+        [
+          "A",
+          "Yes. Your story was all over the place.",
+          "するよ。話がめちゃくちゃやったもん。"
+        ],
+        [
+          "B",
+          "I was nervous.",
+          "緊張してただけ。"
+        ],
+        [
+          "A",
+          "That’s a load of crap. You were covering something up.",
+          "それは嘘やろ。何か隠してたやん。"
+        ],
+        [
+          "B",
+          "Don’t you see how weird this sounds?",
+          "自分がどれだけ変なこと言ってるか分からん？"
+        ],
+        [
+          "A",
+          "It wouldn’t kill you to be honest once in a while.",
+          "たまには正直に言っても死なんやろ。"
+        ],
+        [
+          "B",
+          "I am being honest.",
+          "正直に言ってる。"
+        ],
+        [
+          "A",
+          "Then tell me what really happened.",
+          "ほんなら何があったかちゃんと教えて。"
+        ]
+      ],
+      "phraseLinks": [
+        "p2077",
+        "p211",
+        "p1959",
+        "p1938",
+        "p1949",
+        "p1956",
+        "p1951",
+        "p204"
+      ]
+    },
+    {
+      "id": "S2-NEW-35",
+      "season": "Season 2",
+      "title": "恋人との関係が本気かどうか話す",
+      "category": "恋愛",
+      "lines": [
+        [
+          "A",
+          "You ever realize you never talk about Jamie casually anymore?",
+          "気づいてる？もうジェイミーのこと軽い感じで話さんようになったよな。"
+        ],
+        [
+          "B",
+          "What’s that supposed to mean?",
+          "どういう意味？"
+        ],
+        [
+          "A",
+          "It says something about how serious you are about her.",
+          "それだけ本気やってことやろ。"
+        ],
+        [
+          "B",
+          "This is wild. Six months ago I didn’t even want a relationship.",
+          "なんかすごいな。半年前は恋愛する気すらなかったのに。"
+        ],
+        [
+          "A",
+          "Speaking of whom, she texted me about tonight.",
+          "噂をすれば、そのジェイミーから今夜のことでメッセージ来たで。"
+        ],
+        [
+          "B",
+          "What’s the occasion?",
+          "何かあるん？"
+        ],
+        [
+          "A",
+          "Dinner with her parents.",
+          "ご両親と晩ご飯。"
+        ],
+        [
+          "B",
+          "Oh. That did not come out right in my head.",
+          "うわ。頭の中で想像してたより重いな。"
+        ],
+        [
+          "A",
+          "Ready when you are.",
+          "いつでも聞くで。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1940",
+        "p1936",
+        "p1943",
+        "p1939",
+        "p1945",
+        "p1942",
+        "p1950",
+        "p1853"
+      ]
+    },
+    {
+      "id": "S2-NEW-36",
+      "season": "Season 2",
+      "title": "友人の派手な旅行計画に乗っかる",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "I booked a last-minute trip to Lisbon.",
+          "勢いでリスボン旅行予約してもうた。"
+        ],
+        [
+          "B",
+          "That’s what they call a devil-may-care attitude.",
+          "そういうのを向こう見ずって言うんやで。"
+        ],
+        [
+          "A",
+          "Yeah, so?",
+          "うん、で？"
+        ],
+        [
+          "B",
+          "I’m jealous. I’ve been living vicariously through your trips for years.",
+          "羨ましい。何年もあんたの旅行話で疑似体験してるもん。"
+        ],
+        [
+          "A",
+          "Then switch places with me. You go.",
+          "ほな代わる？あんた行き。"
+        ],
+        [
+          "B",
+          "Don’t tempt me.",
+          "誘惑せんといて。"
+        ],
+        [
+          "A",
+          "What’s a little credit-card debt between friends?",
+          "友達同士、ちょっとくらいカードの請求増えてもええやん。"
+        ],
+        [
+          "B",
+          "Now you’re talking.",
+          "そうこなくっちゃ。"
+        ],
+        [
+          "A",
+          "Ocean-view hotel, good food, no schedule.",
+          "海が見えるホテル、美味しいご飯、予定なし。"
+        ],
+        [
+          "B",
+          "Basically a fantasy come true.",
+          "ほぼ夢が叶うやつやな。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1948",
+        "p1952",
+        "p1962",
+        "p1953",
+        "p208",
+        "p1937",
+        "p182",
+        "p1599"
+      ]
+    },
+    {
+      "id": "S2-NEW-37",
+      "season": "Season 2",
+      "title": "元恋人とよりを戻すか止められる",
+      "category": "恋愛",
+      "lines": [
+        [
+          "A",
+          "Funny you should mention Alex. He called me last night.",
+          "ちょうどアレックスの話やけど、昨日電話かかってきた。"
+        ],
+        [
+          "B",
+          "I know you don’t want to hear this, but don’t take him back.",
+          "聞きたくないと思うけど、より戻さんほうがいい。"
+        ],
+        [
+          "A",
+          "You’re just saying that because you never liked him.",
+          "あんたが元々あの人嫌いやったから言ってるだけやろ。"
+        ],
+        [
+          "B",
+          "No. That relationship was bad on so many levels.",
+          "ちゃう。あの関係、いろんな意味で最悪やった。"
+        ],
+        [
+          "A",
+          "What if I still want him back?",
+          "それでもまだ戻ってきてほしいって思ってたら？"
+        ],
+        [
+          "B",
+          "Then wait. Don’t jump into some rebound relationship just because you’re lonely.",
+          "ほんなら待ち。寂しいからって勢いでリバウンド恋愛するのも違う。"
+        ],
+        [
+          "A",
+          "If you care about me at all, let me figure this out myself.",
+          "私のこと少しでも大事なら、自分で考えさせて。"
+        ],
+        [
+          "B",
+          "Fine. But I’m here when you want to talk.",
+          "分かった。でも話したくなったらおるからな。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1985",
+        "p1979",
+        "p1982",
+        "p216",
+        "p1981",
+        "p1998",
+        "p1975",
+        "p1992"
+      ]
+    },
+    {
+      "id": "S2-NEW-38",
+      "season": "Season 2",
+      "title": "会議で意見をぶつけたあと役割を譲る",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "Can you get off my back for five minutes?",
+          "5分だけ放っといてくれへん？"
+        ],
+        [
+          "B",
+          "Then get out of my face and let me finish the proposal.",
+          "ほんならこっちにも絡まんと、企画書仕上げさせて。"
+        ],
+        [
+          "A",
+          "I came here to toss out one idea. That’s what I came for.",
+          "一個案を出しに来ただけ。それが目的や。"
+        ],
+        [
+          "B",
+          "Fine. Say it.",
+          "分かった。言って。"
+        ],
+        [
+          "A",
+          "Before I forget, the client wants a cheaper version too.",
+          "忘れる前に言うけど、顧客はもっと安い案も欲しいって。"
+        ],
+        [
+          "B",
+          "I’m not done yet. I already built one.",
+          "まだ話終わってへん。もう作ってある。"
+        ],
+        [
+          "A",
+          "Seriously?",
+          "マジで？"
+        ],
+        [
+          "B",
+          "Seriously. Want to present it?",
+          "マジ。発表する？"
+        ],
+        [
+          "A",
+          "All yours. You did the work.",
+          "任せる。作ったんあんたやし。"
+        ],
+        [
+          "B",
+          "Likewise next time you save me from another deadline.",
+          "次に締切から助けてもらった時はこっちもそうするわ。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1990",
+        "p1989",
+        "p1994",
+        "p1993",
+        "p214",
+        "p1991",
+        "p1974",
+        "p1976"
+      ]
+    },
+    {
+      "id": "S2-NEW-39",
+      "season": "Season 2",
+      "title": "昔の秘密を友人に打ち明ける",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "There’s something I never told you.",
+          "今まで言ってなかったことがある。"
+        ],
+        [
+          "B",
+          "You’d better not tell me you dated my brother.",
+          "まさか私の兄と付き合ってたとか言わんといてや。"
+        ],
+        [
+          "A",
+          "Of all the things you could guess, why that?",
+          "よりによってなんでそれ予想するん？"
+        ],
+        [
+          "B",
+          "His name comes up in conversation every time we talk about college.",
+          "大学時代の話するたびに兄の名前出てくるから。"
+        ],
+        [
+          "A",
+          "Okay... I was a big fan of him back then.",
+          "まあ…当時かなり好きやった。"
+        ],
+        [
+          "B",
+          "Tell me about it. Everyone was.",
+          "ほんまそれ。みんな好きやった。"
+        ],
+        [
+          "A",
+          "I asked him out once.",
+          "一回だけ誘った。"
+        ],
+        [
+          "B",
+          "And?",
+          "で？"
+        ],
+        [
+          "A",
+          "He said no. End of story.",
+          "断られた。それで終わり。"
+        ],
+        [
+          "B",
+          "That sounded better in my head than it probably felt for you.",
+          "今の「それで終わり」、私には軽く聞こえたけど、あんたには結構きつかったんやろな。"
+        ]
+      ],
+      "phraseLinks": [
+        "p2035",
+        "p209",
+        "p2005",
+        "p2033",
+        "p2034",
+        "p2024",
+        "p2010",
+        "p2027"
+      ]
+    },
+    {
+      "id": "S2-NEW-40",
+      "season": "Season 2",
+      "title": "引っ越し祝いでようやく肩の荷が下りる",
+      "category": "日常",
+      "lines": [
+        [
+          "A",
+          "Thanks for taking the time to come over.",
+          "わざわざ来てくれてありがとう。"
+        ],
+        [
+          "B",
+          "Of course. So what’s the ballpark number—twenty people?",
+          "もちろん。だいたい何人くらい？20人？"
+        ],
+        [
+          "A",
+          "Maybe fifteen. I’ve got food to spare.",
+          "15人くらいかな。食べ物は余るくらいある。"
+        ],
+        [
+          "B",
+          "Then break out the good drinks.",
+          "ほな、とっておきの飲み物出そ。"
+        ],
+        [
+          "A",
+          "Deal. I got to talking with the neighbors and invited them too.",
+          "決まり。近所の人と話し込んで、その人らも誘ってん。"
+        ],
+        [
+          "B",
+          "There goes the extra pizza.",
+          "余るはずのピザ、なくなるな。"
+        ],
+        [
+          "A",
+          "If everyone eats everything in sight, yes.",
+          "みんな目につくもん全部食べたらな。"
+        ],
+        [
+          "B",
+          "Still, you’re finally unpacked.",
+          "でもやっと片づいたな。"
+        ],
+        [
+          "A",
+          "Yeah. It feels good to get that monkey off my back.",
+          "うん。ずっと気になってたこと片づいて、めっちゃ肩の荷下りた。"
+        ]
+      ],
+      "phraseLinks": [
+        "p2012",
+        "p219",
+        "p2009",
+        "p1997",
+        "p1996",
+        "p186",
+        "p1747",
+        "p179"
+      ]
+    },
+    {
+      "id": "S2-NEW-41",
+      "season": "Season 2",
+      "title": "突然の転職話に背中を押す",
+      "category": "相談",
+      "lines": [
+        [
+          "A",
+          "Where are you off to with that suitcase?",
+          "そのスーツケース持ってどこ行くん？"
+        ],
+        [
+          "B",
+          "Tokyo. I got a job offer out of the blue.",
+          "東京。急に仕事のオファー来てん。"
+        ],
+        [
+          "A",
+          "Wait, you’re leaving today?",
+          "待って、今日行くん？"
+        ],
+        [
+          "B",
+          "The thing is, I have to decide by Monday, and I want to see the office first.",
+          "実は月曜までに決めなあかんくて、その前に職場見ておきたいねん。"
+        ],
+        [
+          "A",
+          "You’d really move?",
+          "ほんまに引っ越すん？"
+        ],
+        [
+          "B",
+          "I’d do anything to get out of my current job.",
+          "今の仕事辞められるなら何でもするわ。"
+        ],
+        [
+          "A",
+          "Fair. And you don’t have to explain yourself to me.",
+          "そっか。まあ私にいちいち説明せんでもええけどな。"
+        ],
+        [
+          "B",
+          "Exactly. I’m just trying to roll with it.",
+          "そう。とりあえず流れに乗ってみようと思って。"
+        ],
+        [
+          "A",
+          "Who am I to question that?",
+          "それに文句言える立場ちゃうな。"
+        ],
+        [
+          "B",
+          "If they offer me more money too, consider me gone.",
+          "さらに給料上げてくれるなら、もう辞める気満々や。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1761",
+        "p1762",
+        "p1749",
+        "p1751",
+        "p183",
+        "p223",
+        "p2088",
+        "p2081"
+      ]
+    },
+    {
+      "id": "S2-NEW-42",
+      "season": "Season 2",
+      "title": "別れた二人の関係を振り返る",
+      "category": "恋愛",
+      "lines": [
+        [
+          "A",
+          "So who broke up with whom?",
+          "で、どっちがどっちを振ったん？"
+        ],
+        [
+          "B",
+          "Does it matter?",
+          "それ重要？"
+        ],
+        [
+          "A",
+          "I gather from that answer that it was them.",
+          "その答え方やと、向こうからやな。"
+        ],
+        [
+          "B",
+          "What’s your point?",
+          "何が言いたいん？"
+        ],
+        [
+          "A",
+          "You two were joined at the hip for a year. Aren’t you afraid you’ll miss them?",
+          "一年間ずっと一緒やったやん。寂しくならんか怖くない？"
+        ],
+        [
+          "B",
+          "Don’t insult my intelligence. Missing someone doesn’t mean the relationship was good.",
+          "私をアホ扱いせんといて。寂しいからって、いい関係やったとは限らん。"
+        ],
+        [
+          "A",
+          "Fair. It wasn’t such a great relationship, was it?",
+          "確かに。そんなにいい関係でもなかったんやな？"
+        ],
+        [
+          "B",
+          "Exactly. And I don’t need to have the last word.",
+          "そう。最後に言い返して勝つ必要もない。"
+        ],
+        [
+          "A",
+          "So what’s the difference this time?",
+          "じゃあ今回は何が違うん？"
+        ],
+        [
+          "B",
+          "I’m finally okay with letting it end.",
+          "やっと終わらせてもいいって思えてる。"
+        ]
+      ],
+      "phraseLinks": [
+        "p2041",
+        "p218",
+        "p2016",
+        "p2003",
+        "p2026",
+        "p2007",
+        "p2029",
+        "p1999"
+      ]
+    },
+    {
+      "id": "S2-NEW-43",
+      "season": "Season 2",
+      "title": "気まずくなった友人と仲直りする",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "I don’t know if you heard, but I apologized to Maya.",
+          "聞いたか知らんけど、マヤには謝ったで。"
+        ],
+        [
+          "B",
+          "Good. So, are we good too?",
+          "よかった。じゃあ私らももう大丈夫？"
+        ],
+        [
+          "A",
+          "At least let me finish before you decide.",
+          "決める前に、せめて最後まで聞いて。"
+        ],
+        [
+          "B",
+          "Fine.",
+          "分かった。"
+        ],
+        [
+          "A",
+          "I can’t tell you how much I hated us not talking.",
+          "あんたと話してないの、どれだけ嫌やったか言葉にできへん。"
+        ],
+        [
+          "B",
+          "Me too. I felt blue all week.",
+          "私も。一週間ずっと落ち込んでた。"
+        ],
+        [
+          "A",
+          "Then no more avoiding each other.",
+          "じゃあもう、お互い避けるのなしな。"
+        ],
+        [
+          "B",
+          "Agreed. But if this happens again, we start from square one and actually talk.",
+          "賛成。でもまたこうなったら、最初からちゃんと話そ。"
+        ],
+        [
+          "A",
+          "Deal.",
+          "決まり。"
+        ],
+        [
+          "B",
+          "And next time, suck it up and call me first.",
+          "次は意地張らんと、あんたから電話してな。"
+        ]
+      ],
+      "phraseLinks": [
+        "p2110",
+        "p2097",
+        "p2101",
+        "p2083",
+        "p227",
+        "p2096",
+        "p222",
+        "p2104"
+      ]
+    },
+    {
+      "id": "S2-NEW-44",
+      "season": "Season 2",
+      "title": "壊れた企画を締切前に立て直す",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "Man alive, everything is breaking left and right.",
+          "うわ、あっちもこっちも次々壊れてるやん。"
+        ],
+        [
+          "B",
+          "The demo server just crapped out too.",
+          "デモ用サーバーまで落ちた。"
+        ],
+        [
+          "A",
+          "We’re smack dab in the middle of the final test.",
+          "最終テストの真っ最中やのに。"
+        ],
+        [
+          "B",
+          "We can still pull this off.",
+          "まだ何とか成功させられる。"
+        ],
+        [
+          "A",
+          "Be realistic. We may need to take a step backward.",
+          "現実見よ。一回戻る必要あるかもしれん。"
+        ],
+        [
+          "B",
+          "Don’t think for one second that I’m giving up.",
+          "私が諦めるなんて一瞬でも思わんといて。"
+        ],
+        [
+          "A",
+          "I’m not saying give up. I’m saying cut the new feature.",
+          "諦めろとは言ってへん。新機能を切ろうって言ってる。"
+        ],
+        [
+          "B",
+          "Fine. Stabilize first, extras later.",
+          "分かった。まず安定させて、追加はあと。"
+        ]
+      ],
+      "phraseLinks": [
+        "p2087",
+        "p2108",
+        "p2098",
+        "p575",
+        "p2094",
+        "p2093",
+        "p2089",
+        "p2099"
+      ]
+    },
+    {
+      "id": "S2-NEW-45",
+      "season": "Season 2",
+      "title": "新しい恋人への印象を友人と話す",
+      "category": "恋愛",
+      "lines": [
+        [
+          "A",
+          "So, what do you think of Leo?",
+          "で、レオのことどう思う？"
+        ],
+        [
+          "B",
+          "Not to sound too dramatic, but he kind of restored my faith in dating.",
+          "大げさに聞こえたくないけど、あの人のおかげで恋愛も悪くないってまた思えた。"
+        ],
+        [
+          "A",
+          "Wow. You really see him as boyfriend material?",
+          "へえ。ほんまに恋人候補として見てるんや？"
+        ],
+        [
+          "B",
+          "Maybe. He brings out a calmer side of me.",
+          "たぶん。あの人といると自分の穏やかな面が出るねん。"
+        ],
+        [
+          "A",
+          "I saw that coming.",
+          "そうなると思ってた。"
+        ],
+        [
+          "B",
+          "Just don’t make it seem like I’m already planning a wedding.",
+          "もう結婚式の計画してるみたいに言わんといて。"
+        ],
+        [
+          "A",
+          "Relax. I’m trying to shield you from my questions.",
+          "落ち着いて。これでも質問攻めせんように抑えてるねんで。"
+        ],
+        [
+          "B",
+          "Good. And when you meet him, keep your hands to yourself.",
+          "よし。それと会った時、勝手にベタベタ触らんといてな。"
+        ],
+        [
+          "A",
+          "I hug everybody!",
+          "私、誰にでもハグするやん！"
+        ]
+      ],
+      "phraseLinks": [
+        "p2141",
+        "p2119",
+        "p2117",
+        "p2132",
+        "p2139",
+        "p2122",
+        "p2133",
+        "p2145"
+      ]
+    },
+    {
+      "id": "S2-NEW-46",
+      "season": "Season 2",
+      "title": "古いパソコンを直そうとして泥沼になる",
+      "category": "日常",
+      "lines": [
+        [
+          "A",
+          "This could be tough. Your laptop is ancient.",
+          "これは大変かも。このノートPCめっちゃ古いやん。"
+        ],
+        [
+          "B",
+          "I know. I’m a little behind the times.",
+          "分かってる。ちょっと時代遅れやねん。"
+        ],
+        [
+          "A",
+          "Okay, I’m going to reinstall the system.",
+          "よし、OS入れ直すで。"
+        ],
+        [
+          "B",
+          "What’s about to happen?",
+          "今から何が起こるん？"
+        ],
+        [
+          "A",
+          "Hopefully nothing terrible.",
+          "できれば何もひどいことは。"
+        ],
+        [
+          "B",
+          "That answer does not inspire confidence.",
+          "その答え、全然安心できへん。"
+        ],
+        [
+          "A",
+          "You almost had it working before you deleted that folder.",
+          "あのフォルダ消す前は、もうちょっとで直りそうやったのに。"
+        ],
+        [
+          "B",
+          "Tough. We’re here now.",
+          "しゃあない。もうこうなったんやし。"
+        ],
+        [
+          "A",
+          "Great. It keeps getting worse and worse.",
+          "最高。どんどん悪化してる。"
+        ],
+        [
+          "B",
+          "This could go on for a while, couldn’t it?",
+          "これ、しばらく続きそうやな？"
+        ],
+        [
+          "A",
+          "Yep. Let’s try to sidestep any more land mines.",
+          "うん。これ以上地雷踏まんようにしよ。"
+        ]
+      ],
+      "phraseLinks": [
+        "p2120",
+        "p2124",
+        "p2138",
+        "p2129",
+        "p2121",
+        "p2146",
+        "p2123",
+        "p2111"
+      ]
+    },
+    {
+      "id": "S2-NEW-47",
+      "season": "Season 2",
+      "title": "集中できない会議を立て直す",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "Are you good with moving the deadline to Friday?",
+          "締切、金曜にずらしても大丈夫？"
+        ],
+        [
+          "B",
+          "Hard to say. The client still hasn’t approved the budget.",
+          "何とも言えんな。顧客がまだ予算承認してへん。"
+        ],
+        [
+          "A",
+          "For starters, we need a decision today.",
+          "まず今日中に決めてもらわなあかん。"
+        ],
+        [
+          "B",
+          "Agreed. Sorry if I’m hogging your time.",
+          "そうやな。時間取りすぎてたらごめん。"
+        ],
+        [
+          "A",
+          "You’re fine. My mind wanders in long meetings anyway.",
+          "大丈夫。長い会議やとどうせ集中切れるし。"
+        ],
+        [
+          "B",
+          "That’s the first time I’ve heard someone admit that in a meeting.",
+          "会議中にそれ認める人、初めて見たわ。"
+        ],
+        [
+          "A",
+          "Takes nerves of steel.",
+          "鋼のメンタルが要るねん。"
+        ],
+        [
+          "B",
+          "Well, the next two days could be rough going.",
+          "まあ、次の2日はかなり大変そうやな。"
+        ],
+        [
+          "A",
+          "Then let’s keep this short and get back to work.",
+          "ほな手短に終わらせて仕事戻ろ。"
+        ]
+      ],
+      "phraseLinks": [
+        "p2125",
+        "p2140",
+        "p555",
+        "p2135",
+        "p2126",
+        "p2148",
+        "p2130",
+        "p2168"
+      ]
+    },
+    {
+      "id": "S2-NEW-48",
+      "season": "Season 2",
+      "title": "失礼な冗談に本気で怒る",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "Is that supposed to be funny?",
+          "それ、面白いと思って言ってる？"
+        ],
+        [
+          "B",
+          "It was a joke.",
+          "冗談やって。"
+        ],
+        [
+          "A",
+          "I’ve had enough of this. You keep making jokes at my expense.",
+          "もういい加減にして。ずっと私をネタにしてるやん。"
+        ],
+        [
+          "B",
+          "Okay, okay.",
+          "分かったって。"
+        ],
+        [
+          "A",
+          "No. I’m going to make myself clear this time.",
+          "いや。今回ははっきり言う。"
+        ],
+        [
+          "B",
+          "You want to give it to me, go ahead.",
+          "説教したいならどうぞ。"
+        ],
+        [
+          "A",
+          "I’m trying to prove my point, not start a fight.",
+          "言いたいこと分かってほしいだけで、喧嘩したいわけちゃう。"
+        ],
+        [
+          "B",
+          "Want a piece of me?",
+          "やる気？"
+        ],
+        [
+          "A",
+          "Seriously? Take this outside? That’s your response?",
+          "マジで？「外でやる？」が返事なん？"
+        ],
+        [
+          "B",
+          "Fine. I’m sorry.",
+          "分かった。ごめん。"
+        ],
+        [
+          "A",
+          "Good. Stand up to me when I’m wrong, but don’t turn everything into a joke.",
+          "私が悪い時は言い返してええ。でも何でも冗談にせんといて。"
+        ]
+      ],
+      "phraseLinks": [
+        "p2153",
+        "p2180",
+        "p473",
+        "p2160",
+        "p2177",
+        "p2161",
+        "p2164",
+        "p2170"
+      ]
+    },
+    {
+      "id": "S2-NEW-49",
+      "season": "Season 2",
+      "title": "初めての運転練習でビビる",
+      "category": "日常",
+      "lines": [
+        [
+          "A",
+          "Ready for your first highway drive?",
+          "初めての高速、準備できた？"
+        ],
+        [
+          "B",
+          "I might chicken out.",
+          "やっぱやめるかも。"
+        ],
+        [
+          "A",
+          "Driving on the highway is a rite of passage.",
+          "高速運転は一つの通過儀礼やって。"
+        ],
+        [
+          "B",
+          "You don’t know the first thing about calming nervous people down.",
+          "緊張してる人落ち着かせる方法、何にも分かってへんな。"
+        ],
+        [
+          "A",
+          "Speaking of which, remember: don’t slam on the brakes unless you have to.",
+          "そうそう、必要ない限り急ブレーキ踏まんことな。"
+        ],
+        [
+          "B",
+          "That made it worse.",
+          "余計怖なったわ。"
+        ],
+        [
+          "A",
+          "The car’s as good as new. You’re safe.",
+          "車は新品同様や。大丈夫。"
+        ],
+        [
+          "B",
+          "And what’s left of my confidence?",
+          "で、私の自信の残りは？"
+        ],
+        [
+          "A",
+          "Still there. Kudos on getting this far.",
+          "まだある。ここまで来ただけでもようやった。"
+        ]
+      ],
+      "phraseLinks": [
+        "p591",
+        "p2157",
+        "p2150",
+        "p2151",
+        "p236",
+        "p2172",
+        "p2175",
+        "p232"
+      ]
+    },
+    {
+      "id": "S2-NEW-50",
+      "season": "Season 2",
+      "title": "チームの厳しい状況を二人で整理する",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "Where are we on the launch plan?",
+          "ローンチ計画、今どこまで進んでる？"
+        ],
+        [
+          "B",
+          "You had to ask. Two people quit this morning.",
+          "よりによって聞く？今朝二人辞めた。"
+        ],
+        [
+          "A",
+          "You’re joking, right?",
+          "冗談やろ？"
+        ],
+        [
+          "B",
+          "Nope. I had to answer the client on the manager’s behalf too.",
+          "マジ。部長の代わりに顧客対応までせなあかんかった。"
+        ],
+        [
+          "A",
+          "That doesn’t give us much of a choice. We’ll have to delay.",
+          "それやと選択肢あんまりないな。延期するしかない。"
+        ],
+        [
+          "B",
+          "I know. I’m trying to come to terms with it.",
+          "分かってる。受け入れようとしてるとこ。"
+        ],
+        [
+          "A",
+          "Don’t do that to yourself. This isn’t all on you.",
+          "自分を責めんといて。全部あんたの責任ちゃう。"
+        ],
+        [
+          "B",
+          "Thanks. At least we’re in the same boat.",
+          "ありがとう。少なくとも同じ状況で一緒にやれてるな。"
+        ]
+      ],
+      "phraseLinks": [
+        "p2165",
+        "p802",
+        "p2163",
+        "p235",
+        "p2174",
+        "p2173",
+        "p2159",
+        "p2181"
+      ]
+    },
+    {
+      "id": "S2-NEW-51",
+      "season": "Season 2",
+      "title": "料理を手伝ってもらったのに台所が大惨事",
+      "category": "日常",
+      "lines": [
+        [
+          "A",
+          "How many times do I have to tell you not to use the good pan?",
+          "いいフライパン使わんといてって何回言ったら分かるん？"
+        ],
+        [
+          "B",
+          "That’s my bad. I thought this was the cheap one.",
+          "それは私が悪い。安いやつやと思ってた。"
+        ],
+        [
+          "A",
+          "You must be thinking of someone else’s kitchen.",
+          "それ、別の人の台所と勘違いしてるやろ。"
+        ],
+        [
+          "B",
+          "In all seriousness, I can clean it.",
+          "いやほんまに、ちゃんと洗うって。"
+        ],
+        [
+          "A",
+          "You’ve been scrubbing for twenty minutes.",
+          "もう20分こすってるやん。"
+        ],
+        [
+          "B",
+          "I’m no slouch. Give me another five.",
+          "私だって役立たずちゃうで。あと5分。"
+        ],
+        [
+          "A",
+          "God forbid we just order takeout like normal people.",
+          "普通にテイクアウト頼むなんて絶対せえへんもんな。"
+        ],
+        [
+          "B",
+          "Forget about it. Stick a fork in me, I’m done.",
+          "もうええわ。完全にギブアップ。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1802",
+        "p1816",
+        "p1807",
+        "p1852",
+        "p197",
+        "p1871",
+        "p1841",
+        "p2327"
+      ]
+    },
+    {
+      "id": "S2-NEW-52",
+      "season": "Season 2",
+      "title": "昔の恋愛話から今の関係を確認する",
+      "category": "恋愛",
+      "lines": [
+        [
+          "A",
+          "Back then, I thought dating was just supposed to be fun.",
+          "昔は、恋愛なんて楽しかったらそれでいいと思ってた。"
+        ],
+        [
+          "B",
+          "You mean you wanted to sow your wild oats.",
+          "要するに遊びたかったってことやろ。"
+        ],
+        [
+          "A",
+          "Pretty much. Does hearing that trigger anything for you?",
+          "まあそんな感じ。それ聞いて何か思うことある？"
+        ],
+        [
+          "B",
+          "Only that you’d better be kidding if you think that still applies.",
+          "今もそうやと思ってるなら冗談やろ、ってことだけ。"
+        ],
+        [
+          "A",
+          "It doesn’t. I actually like waking up next to the same person.",
+          "今は違う。同じ人の隣で目覚めるの、結構好きやねん。"
+        ],
+        [
+          "B",
+          "Wow. Should I make the ultimate sacrifice and stop teasing you?",
+          "へえ。じゃあ私も最大の犠牲払って、からかうのやめよか？"
+        ],
+        [
+          "A",
+          "Do we dare?",
+          "そんな大胆なことする？"
+        ],
+        [
+          "B",
+          "Fine. At least we’re on the same page.",
+          "はいはい。少なくとも認識は一致してるな。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1794",
+        "p1877",
+        "p1876",
+        "p1879",
+        "p1902",
+        "p1873",
+        "p220",
+        "p234"
+      ]
+    },
+    {
+      "id": "S2-NEW-53",
+      "season": "Season 2",
+      "title": "気まずい集まりからこっそり抜け出す",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "I just came face to face with my ex by the drinks table.",
+          "ドリンク置き場で元恋人と鉢合わせした。"
+        ],
+        [
+          "B",
+          "Stay clear of that side of the room.",
+          "そっち側には近づかんとき。"
+        ],
+        [
+          "A",
+          "I want to sneak off before they see me again.",
+          "もう一回見つかる前にこっそり抜けたい。"
+        ],
+        [
+          "B",
+          "Fine. I’ll create a diversion.",
+          "分かった。私が気をそらす。"
+        ],
+        [
+          "A",
+          "Why again? Last time your “diversion” involved karaoke.",
+          "なんでまた？前回の「気をそらす作戦」、カラオケやったやん。"
+        ],
+        [
+          "B",
+          "It worked. I kept everyone occupied.",
+          "うまくいったやろ。みんなの相手してたやん。"
+        ],
+        [
+          "A",
+          "Text me when the coast is clear.",
+          "もう大丈夫になったらメッセージして。"
+        ],
+        [
+          "B",
+          "Deal. Then we hit the road.",
+          "了解。そしたら帰ろ。"
+        ]
+      ],
+      "phraseLinks": [
+        "p2246",
+        "p241",
+        "p2237",
+        "p2243",
+        "p2233",
+        "p2249",
+        "p2236",
+        "p2234"
+      ]
+    },
+    {
+      "id": "S2-NEW-54",
+      "season": "Season 2",
+      "title": "最悪だった週末旅行を振り返る",
+      "category": "日常",
+      "lines": [
+        [
+          "A",
+          "That was the vacation from hell.",
+          "ほんま最悪の旅行やったな。"
+        ],
+        [
+          "B",
+          "The good news is we made it home.",
+          "いいニュースは、無事帰ってこられたことやな。"
+        ],
+        [
+          "A",
+          "After getting into a fight with the hotel manager.",
+          "ホテルの支配人と喧嘩したあとにな。"
+        ],
+        [
+          "B",
+          "He smoked like a chimney right outside our room.",
+          "部屋の真ん前でずっと煙突みたいにタバコ吸ってたやん。"
+        ],
+        [
+          "A",
+          "And our friendship was on the rocks by Sunday morning.",
+          "日曜の朝には私らの友情まで危うかったし。"
+        ],
+        [
+          "B",
+          "Look on the bright side. We survived each other.",
+          "いいほうに考えよ。お互い耐え抜いたやん。"
+        ],
+        [
+          "A",
+          "When all is said and done, I’m glad we went.",
+          "結局のところ、行ってよかったとは思う。"
+        ],
+        [
+          "B",
+          "Same. Don’t look back.",
+          "私も。もう振り返らんとこ。"
+        ]
+      ],
+      "phraseLinks": [
+        "p2248",
+        "p2226",
+        "p2245",
+        "p2227",
+        "p2225",
+        "p239",
+        "p2242",
+        "p2241"
+      ]
+    },
+    {
+      "id": "S2-NEW-55",
+      "season": "Season 2",
+      "title": "新しい方針をチームに伝える準備をする",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "I have a new schedule in mind for the team.",
+          "チームの新しいスケジュール案がある。"
+        ],
+        [
+          "B",
+          "Whatever you do, don’t announce it cold in the meeting.",
+          "何するにしても、会議でいきなり発表するのはやめて。"
+        ],
+        [
+          "A",
+          "Why?",
+          "なんで？"
+        ],
+        [
+          "B",
+          "You’ll ruffle some feathers.",
+          "反発する人出るで。"
+        ],
+        [
+          "A",
+          "Then I’ll ease everyone in before Friday.",
+          "じゃあ金曜までに少しずつ話して慣らすわ。"
+        ],
+        [
+          "B",
+          "Good. As for the night shift, explain why it’s necessary.",
+          "それがいい。夜シフトについては、必要な理由も説明して。"
+        ],
+        [
+          "A",
+          "Even if I don’t come off well?",
+          "印象悪くなっても？"
+        ],
+        [
+          "B",
+          "It’s for their own good if the current schedule is burning everyone out.",
+          "今の勤務表でみんな疲弊してるなら、本人たちのためでもある。"
+        ],
+        [
+          "A",
+          "Okay. I just need everyone on board.",
+          "分かった。最終的にはみんなに納得してもらわな。"
+        ]
+      ],
+      "phraseLinks": [
+        "p2276",
+        "p2268",
+        "p2270",
+        "p245",
+        "p2264",
+        "p250",
+        "p2277",
+        "p2285"
+      ]
+    },
+    {
+      "id": "S2-NEW-56",
+      "season": "Season 2",
+      "title": "知り合い同士の意外なつながりに気づく",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "You’ll never guess who I ran into at lunch.",
+          "ランチで誰に会ったと思う？"
+        ],
+        [
+          "B",
+          "Who?",
+          "誰？"
+        ],
+        [
+          "A",
+          "Nina’s old roommate. Small world.",
+          "ニーナの昔のルームメイト。世間狭いな。"
+        ],
+        [
+          "B",
+          "Wait, I may be getting people mixed up.",
+          "待って、私たぶん人混同してる。"
+        ],
+        [
+          "A",
+          "You know how it is—one day she’s in Boston, the next day she’s here.",
+          "ほら、あるやん。ある日はボストン、次の日にはこっち、みたいな人。"
+        ],
+        [
+          "B",
+          "Oh, her. I have a strong suspicion that she’s moving back.",
+          "ああ、あの人か。こっち戻ってくるんちゃうかってかなり思ってる。"
+        ],
+        [
+          "A",
+          "Why?",
+          "なんで？"
+        ],
+        [
+          "B",
+          "She asked if we knew of any apartments.",
+          "部屋知らんかって聞かれたから。"
+        ],
+        [
+          "A",
+          "If it means that much to her, I can ask around.",
+          "そんなに重要なら、周りに聞いてみてもええで。"
+        ],
+        [
+          "B",
+          "Just don’t drop the ball and forget.",
+          "ただ、忘れてやらかさんといてな。"
+        ]
+      ],
+      "phraseLinks": [
+        "p2271",
+        "p2279",
+        "p2267",
+        "p2266",
+        "p1026",
+        "p251",
+        "p2280",
+        "p2253"
+      ]
+    },
+    {
+      "id": "S2-NEW-57",
+      "season": "Season 2",
+      "title": "失礼な発言をその場で指摘する",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "If I tell you what he said, you’ll think I’m exaggerating.",
+          "あの人が何言ったか話したら、大げさに言ってると思うで。"
+        ],
+        [
+          "B",
+          "Try me.",
+          "言ってみ。"
+        ],
+        [
+          "A",
+          "He insulted the whole damn team in front of the client.",
+          "顧客の前でチーム全員のことボロクソに言った。"
+        ],
+        [
+          "B",
+          "That was completely uncalled for.",
+          "それは完全に言う必要ないやつやな。"
+        ],
+        [
+          "A",
+          "I called him on it right there.",
+          "その場で本人に指摘した。"
+        ],
+        [
+          "B",
+          "You ran a risk doing that.",
+          "それは結構リスク取ったな。"
+        ],
+        [
+          "A",
+          "Maybe, but I expected better of him.",
+          "そうかも。でももっとまともな人やと思ってた。"
+        ],
+        [
+          "B",
+          "Did he apologize?",
+          "謝った？"
+        ],
+        [
+          "A",
+          "Eventually. How about that?",
+          "最終的にはな。意外やろ？"
+        ],
+        [
+          "B",
+          "Good. Make the apology count and move on.",
+          "よし。その謝罪を無駄にせず、前に進も。"
+        ]
+      ],
+      "phraseLinks": [
+        "p2290",
+        "p2261",
+        "p249",
+        "p2260",
+        "p2259",
+        "p2283",
+        "p2273",
+        "p2258"
+      ]
+    },
+    {
+      "id": "S2-NEW-58",
+      "season": "Season 2",
+      "title": "大事な発表前夜を励まし合う",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "Are you seriously going to stay up all night before the presentation?",
+          "発表前日にほんまに徹夜するん？"
+        ],
+        [
+          "B",
+          "I feel left out of the prep. Everyone else knows the numbers better.",
+          "準備に置いてかれてる感じするねん。みんなのほうが数字分かってる。"
+        ],
+        [
+          "A",
+          "A watched pot never boils. Staring at the slides won’t make you learn faster.",
+          "待ってると余計長く感じるって。スライド睨んでも早く覚えられへんで。"
+        ],
+        [
+          "B",
+          "So what now?",
+          "じゃあどうする？"
+        ],
+        [
+          "A",
+          "Sleep. Then make it through tomorrow with grace and dignity.",
+          "寝る。で、明日は落ち着いて堂々と乗り切る。"
+        ],
+        [
+          "B",
+          "Easy for you to say.",
+          "言うのは簡単やな。"
+        ],
+        [
+          "A",
+          "For the record, I’m nervous too.",
+          "一応言っとくけど、私も緊張してるで。"
+        ],
+        [
+          "B",
+          "Really?",
+          "ほんま？"
+        ],
+        [
+          "A",
+          "Yeah. That’ll teach you to think I have everything under control.",
+          "せやから、私が全部余裕でやってると思ったらあかんで。"
+        ]
+      ],
+      "phraseLinks": [
+        "p2255",
+        "p244",
+        "p2332",
+        "p2330",
+        "p2329",
+        "p2331",
+        "p465",
+        "p2308"
+      ]
+    },
+    {
+      "id": "S2-NEW-59",
+      "season": "Season 2",
+      "title": "退院後の友人の回復を見守る",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "Look at you, up and about already.",
+          "もう起きて動けてるやん。"
+        ],
+        [
+          "B",
+          "Barely. Walking to the kitchen feels like a workout.",
+          "ギリギリな。台所行くだけで運動みたい。"
+        ],
+        [
+          "A",
+          "This must be tough for you.",
+          "しんどいやろな。"
+        ],
+        [
+          "B",
+          "In all seriousness, I’m just happy to be home.",
+          "ほんまに、家に帰れて嬉しいだけ。"
+        ],
+        [
+          "A",
+          "What’s that like after a week in the hospital?",
+          "一週間入院したあと家帰るってどんな感じ？"
+        ],
+        [
+          "B",
+          "Amazing. And I’m kicking myself for complaining about my bed before.",
+          "最高。前は自分のベッドに文句言ってたの、今となっては悔やむわ。"
+        ],
+        [
+          "A",
+          "What do you know about gratitude all of a sudden?",
+          "急に感謝とかどうしたん？"
+        ],
+        [
+          "B",
+          "Get real. Nearly losing my appendix changes a person.",
+          "そりゃそうなるって。虫垂破裂しかけたら人変わるわ。"
+        ],
+        [
+          "A",
+          "Fair. When you’re better, we’re making a toast.",
+          "確かに。元気になったら乾杯しよ。"
+        ]
+      ],
+      "phraseLinks": [
+        "p255",
+        "p2324",
+        "p2327",
+        "p2301",
+        "p2310",
+        "p2311",
+        "p2326",
+        "p2318"
+      ]
+    },
+    {
+      "id": "S2-NEW-60",
+      "season": "Season 2",
+      "title": "危ない運転をめぐって本気で止める",
+      "category": "日常",
+      "lines": [
+        [
+          "A",
+          "Why the hell didn’t you slow down back there?",
+          "さっきなんで減速せえへんかったん？"
+        ],
+        [
+          "B",
+          "I thought I had plenty of room.",
+          "十分距離あると思ってた。"
+        ],
+        [
+          "A",
+          "My life flashed before my eyes.",
+          "走馬灯見えたわ。"
+        ],
+        [
+          "B",
+          "I heard you muttering something under your breath.",
+          "小声でなんかブツブツ言ってたな。"
+        ],
+        [
+          "A",
+          "I tense up every time you take that turn too fast.",
+          "あのカーブ速く曲がるたびに体固まるねん。"
+        ],
+        [
+          "B",
+          "Fine. I’ll seriously consider driving slower.",
+          "分かった。もっとゆっくり走るの、本気で考える。"
+        ],
+        [
+          "A",
+          "Consider? No means no. Don’t drive like that with me in the car.",
+          "「考える」？ダメなもんはダメ。私乗ってる時はあんな運転せんといて。"
+        ],
+        [
+          "B",
+          "Okay, okay.",
+          "分かったって。"
+        ],
+        [
+          "A",
+          "And until you figure out what you’re doing wrong, I’m driving.",
+          "何が悪いかちゃんと分かるまでは、私が運転する。"
+        ],
+        [
+          "B",
+          "Over my dead body.",
+          "絶対イヤや。"
+        ]
+      ],
+      "phraseLinks": [
+        "p2338",
+        "p253",
+        "p2314",
+        "p2302",
+        "p2316",
+        "p2305",
+        "p2304",
+        "p2322"
+      ]
+    },
+    {
+      "id": "S2-NEW-61",
+      "season": "Season 2",
+      "title": "次の仕事を決めきれずに迷う",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "What’s the deal? You still haven’t accepted either offer?",
+          "どうしたん？まだどっちのオファーも受けてへんの？"
+        ],
+        [
+          "B",
+          "I’m kind of in between things right now.",
+          "今ちょうど宙ぶらりんな状態やねん。"
+        ],
+        [
+          "A",
+          "Are you holding out for something better?",
+          "もっといい条件を待ってるん？"
+        ],
+        [
+          "B",
+          "Maybe. Opportunities like this come along once in a blue moon, so I don’t want to rush it.",
+          "たぶん。こんな機会めったにないし、焦って決めたくないねん。"
+        ],
+        [
+          "A",
+          "Fair. Do you ever wonder what the new job will be like?",
+          "そっか。新しい仕事どんな感じになるんやろって考えたりする？"
+        ],
+        [
+          "B",
+          "Constantly. I’ve already started to pack up my desk just in case.",
+          "ずっと考えてる。念のため、もう机の片づけ始めてる。"
+        ]
+      ],
+      "phraseLinks": [
+        "p2230",
+        "p2265",
+        "p2103",
+        "p226",
+        "p2312",
+        "p2334"
+      ]
+    },
+    {
+      "id": "S2-NEW-62",
+      "season": "Season 2",
+      "title": "昨夜のデートを友人に追及される",
+      "category": "恋愛",
+      "lines": [
+        [
+          "A",
+          "So, how was last night?",
+          "で、昨日どうやった？"
+        ],
+        [
+          "B",
+          "I vaguely recall dinner... and then things got blurry.",
+          "晩ご飯まではなんとなく覚えてる…そのあとは曖昧。"
+        ],
+        [
+          "A",
+          "It wasn’t such a bad date, was it?",
+          "そんな悪いデートでもなかったんやろ？"
+        ],
+        [
+          "B",
+          "No, but I may have ditched my friends to stay longer.",
+          "うん。でも長く一緒にいたくて友達置いてきたかも。"
+        ],
+        [
+          "A",
+          "You ditched them to get some action?",
+          "いい感じになりたくて友達置いてきたん？"
+        ],
+        [
+          "B",
+          "I prefer to say I was living in the moment.",
+          "その場を楽しんでた、って言ってほしいな。"
+        ],
+        [
+          "A",
+          "I’m afraid to ask what happened next.",
+          "そのあと何あったか聞くの怖いわ。"
+        ],
+        [
+          "B",
+          "Incidentally, I need you to never ask me that again.",
+          "ちなみに、その質問は二度とせんといて。"
+        ]
+      ],
+      "phraseLinks": [
+        "p2107",
+        "p2020",
+        "p606",
+        "p2307",
+        "p254",
+        "p2313",
+        "p2328"
+      ]
+    },
+    {
+      "id": "S2-NEW-63",
+      "season": "Season 2",
+      "title": "妙に出来すぎた偶然を疑う",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "You’ll never believe who showed up at my café this morning.",
+          "今朝カフェに誰が来たと思う？"
+        ],
+        [
+          "B",
+          "I’ll give you one hint: your ex?",
+          "ヒント一個で当てるわ。元恋人？"
+        ],
+        [
+          "A",
+          "Exactly. And guess who came in five minutes later? Their new partner.",
+          "正解。で、その5分後に誰が来たと思う？あの人の今の恋人。"
+        ],
+        [
+          "B",
+          "Coincidence? I don’t think so.",
+          "偶然？いや、ちゃうやろ。"
+        ],
+        [
+          "A",
+          "They said they didn’t know the other one would be there.",
+          "お互い相手が来るなんて知らんかったって言ってた。"
+        ],
+        [
+          "B",
+          "Or so they would have you believe.",
+          "まあ、そう思わせたいだけかもしれんけどな。"
+        ],
+        [
+          "A",
+          "Then my boss walked in and asked me to serve their table. Top that.",
+          "そのあと店長が来て、その二人のテーブル担当してって言われてん。これ以上ある？"
+        ],
+        [
+          "B",
+          "Is this how your mornings are going to work now?",
+          "これから毎朝こんな感じなん？"
+        ]
+      ],
+      "phraseLinks": [
+        "p1957",
+        "p2152",
+        "p2296",
+        "p2321",
+        "p2298",
+        "p2297"
       ]
     }
   ]

@@ -31,7 +31,7 @@ for(const [episode,target,orderedCount] of [["S01E19",51,51],["S01E20",57,57],["
 assert.deepEqual([byId.get("p2071").phrase,byId.get("p2071").episode,byId.get("p2071").sourceOrder],["Things happen.","S01E22",16]);
 assert.deepEqual([byId.get("p3143").phrase,byId.get("p3143").episode,byId.get("p3143").sourceOrder,byId.get("p3143").frequency,byId.get("p3143").register],["give someone the deep freeze","S01E24",28,"limited","casual"]);
 assert.equal(phrases.some(p=>p.phrase==="frame of graft"),false);
-assert.equal(dialogues.length,198);assert.equal(hash(dialogues.filter(d=>Number(d.id.slice(1))<=167)),"74124dd44ce691184e75d04368785186e04891080f76867bef1775ee4f3a7457");assert.deepEqual(dialogues.flatMap(d=>(d.phraseLinks||[]).filter(id=>!byId.has(id))),[]);
+assert.equal(dialogues.length,326);assert.equal(hash(dialogues.filter(d=>Number(d.id.slice(1))<=167)),"74124dd44ce691184e75d04368785186e04891080f76867bef1775ee4f3a7457");assert.deepEqual(dialogues.flatMap(d=>(d.phraseLinks||[]).filter(id=>!byId.has(id))),[]);
 
 const source=fs.readFileSync(path.join(root,"js","app.js"),"utf8");const context={PHRASES:phrases,seasonNum:s=>Number(s.match(/S(\d+)/)[1]),episodeNumber:s=>Number(s.match(/E(\d+)/)[1]),filters:{phrase:{season:"1",episode:"19",type:"all",frequency:"all",register:"all"}},phraseScopeFrom:()=>"all",bookmarked:()=>false,isWeak:()=>false,isLearned:()=>false,setContinue:()=>{},render:()=>{},route:{name:"phrases",params:{}},lastListContext:null};context.navigate=(name,params)=>{context.route={name,params};};vm.createContext(context);
 for(const name of ["filteredPhrases","sortedPhrasesForDisplay","phraseNavigationIds","openPhrase","phraseMove"]){const fn=source.split(/\r?\n/).find(line=>line.startsWith(`function ${name}(`));assert.ok(fn,name);vm.runInContext(fn,context);}const plain=value=>JSON.parse(JSON.stringify(value));
@@ -41,5 +41,5 @@ const s2=phrases.filter(p=>p.episode==="S02E01");assert.deepEqual(context.sorted
 console.log("Season 1 E19-E24 final curated records, source order, filters and detail navigation tests passed");
 
 // Full production snapshot; the existing-only snapshot above is supplementary.
-assert.equal(dialogues.length,198);
-assert.equal(hash(dialogues),"b1753aede256a939809c5f94e0f41c84942cde09ab912e48564772b3e814d0b5");
+assert.equal(dialogues.length,326);
+assert.equal(hash(dialogues),"2513b2e0b0d33fc394708478309410fa41944cf2654b3b85dfdd5fc21fbed33e");

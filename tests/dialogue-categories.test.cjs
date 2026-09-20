@@ -6,15 +6,15 @@ const root=path.resolve(__dirname,"..");
 const datasets=Array.from({length:9},(_,index)=>JSON.parse(fs.readFileSync(path.join(root,"data",`season${index+1}.json`),"utf8")));
 const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const phrases=datasets.flatMap(dataset=>dataset.phrases||[]);
-const allowed=["日常","仕事","相談","人間関係","恋愛","トラブル","メンタル","雑談"];
+const allowed=["日常","仕事","相談","人間関係","恋愛","トラブル","メンタル","雑談","友人","買い物","挑戦","家族"];
 const category=dialogue=>typeof dialogue.category==="string"&&dialogue.category.trim()?dialogue.category.trim():(String(dialogue.title||"").match(/^([^①②③④⑤⑥⑦⑧⑨⑩（(]+)/)?.[1]?.trim()||"");
 const seasonNumber=value=>Number(String(value||"").match(/\d+/)?.[0])||0;
 const episodeNumber=value=>Number(String(value||"").match(/E(\d+)/i)?.[1])||0;
 const phraseById=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const dialogueEpisodes=dialogue=>[...new Set((dialogue.phraseLinks||[]).map(id=>phraseById.get(id)?.episode).filter(Boolean))];
 
-assert.equal(dialogues.length,198);
-assert.equal(new Set(dialogues.map(dialogue=>dialogue.id)).size,198);
+assert.equal(dialogues.length,326);
+assert.equal(new Set(dialogues.map(dialogue=>dialogue.id)).size,326);
 assert.equal(dialogues.filter(dialogue=>!Object.prototype.hasOwnProperty.call(dialogue,"category")).length,0);
 assert.equal(dialogues.filter(dialogue=>typeof dialogue.category!=="string"||!dialogue.category.trim()).length,0);
 assert.equal(dialogues.filter(dialogue=>!category(dialogue)).length,0);
@@ -24,8 +24,8 @@ assert.equal(dialogues.filter(dialogue=>!dialogue.title.trim()).length,0);
 assert.equal(dialogues.filter(dialogue=>/^(日常|仕事|相談|人間関係|恋愛|トラブル|メンタル|雑談|ケンカ)[①②③④⑤⑥⑦⑧⑨⑩]（.+）$/.test(dialogue.title)).length,0);
 
 const counts=new Map(allowed.map(name=>[name,dialogues.filter(dialogue=>category(dialogue)===name).length]));
-assert.deepEqual(Object.fromEntries(counts),{"日常":78,"仕事":62,"相談":16,"人間関係":20,"恋愛":8,"トラブル":5,"メンタル":4,"雑談":5});
-assert.equal([...counts.values()].filter(count=>count===1).length,0);
+assert.deepEqual(Object.fromEntries(counts),{"日常":103,"仕事":90,"相談":27,"人間関係":21,"恋愛":31,"トラブル":5,"メンタル":5,"雑談":5,"友人":32,"買い物":1,"挑戦":3,"家族":3});
+assert.equal([...counts.values()].filter(count=>count===1).length,1);
 
 const expectedS9={
   "予約の取れないレストラン":"日常","転職するか迷う":"相談","友達の恋愛相談":"相談","引っ越し先探し":"日常",

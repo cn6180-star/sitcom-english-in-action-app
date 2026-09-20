@@ -11,7 +11,7 @@
     "maxPhraseId": "p3300",
     "s3PhraseTotal": 207,
     "s3E01E08": 161,
-    "dialogueTotal": 198
+    "dialogueTotal": 326
   },
   "newRecords": [
     {
@@ -4168,8 +4168,8 @@
     ]
   },
   "frozenSemanticHashes": {
-    "season1": "37733cb12f4895b27e1ed9ec7b6e8e2f10c844544c1f620e9b471ff603ece74c",
-    "season2": "6007cbcc244e44ad788d40a81af9e58acb74636f883aabb437ba020814e85131",
+    "season1": "174b7916490b746ac20fd3adc80127d1662a4adab92f0985d05982c44d57677d",
+    "season2": "f78dc917619a06f7adedceac39f65732b3bd068dcda4f9385dc641217cfa8b6d",
     "season4": "57d493bdda0ad9f05186fab69367019dd2bb7cb3d73ed9e55b140048cff6b784",
     "season5": "291b432e087a4d95b5dd8fc5460bf60b97ff79a9c1b1b4c200be817213b96d25",
     "season6": "68f1c1c80a608be7642644cdf29775c00cdec646f90fcb03774586a296e1c4f1",

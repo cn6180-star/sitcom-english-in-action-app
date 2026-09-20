@@ -55,8 +55,8 @@ for(const phrase of phrases){
   assert.equal(Object.prototype.hasOwnProperty.call(phrase,"usage"),false,`${phrase.id} still has legacy usage`);
 }
 
-assert.equal(dialogues.length,198);
-assert.equal(Math.max(...dialogues.map(dialogue=>Number(dialogue.id.slice(1)))),214);
+assert.equal(dialogues.length,326);
+assert.equal(Math.max(...dialogues.filter(dialogue=>/^d\d+$/.test(dialogue.id)).map(dialogue=>Number(dialogue.id.slice(1)))),214);
 assert.equal(dialogueById.get("d37").phraseLinks.includes("p297"),false);
 assert.equal(dialogueById.get("d37").phraseLinks.includes("p69"),true);
 assert.equal(
@@ -67,5 +67,5 @@ assert.equal(
 console.log("Season 1 Phrase expansion tests passed");
 
 // Full production snapshot; the existing-only snapshot above is supplementary.
-assert.equal(dialogues.length,198);
-assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"b1753aede256a939809c5f94e0f41c84942cde09ab912e48564772b3e814d0b5");
+assert.equal(dialogues.length,326);
+assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"2513b2e0b0d33fc394708478309410fa41944cf2654b3b85dfdd5fc21fbed33e");

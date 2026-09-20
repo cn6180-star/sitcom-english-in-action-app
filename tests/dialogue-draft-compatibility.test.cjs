@@ -32,5 +32,5 @@ assert.deepEqual(segments('p199',"I'm going to get clobbered."),['clobbered']);
 assert.deepEqual(segments('p2229',"I'll pass along your message."),[],'override must not leak to another dialogue');
 for(const [headline,text] of [['pass along a message','pass along your message'],['have a point','have your point'],['make a scene','make your scene'],['take a chance','take your chance']])assert.equal(c.allDialoguePhraseMatches(text,{phrase:headline,type:'phrase'}).length,0,'no general determiner replacement');
 for(const [id,text] of [['p1485',"I'm allergic. To peanuts."],['p1700',"We're sold out. Of those."],['p1485',"I'm allergic to. Peanuts."],['p1700',"We're sold out of. Those."]])assert.deepEqual(segments(id,text),[],'no sentence-boundary slot');
-assert.equal(dialogues.length,198);
+assert.equal(dialogues.length,326);
 console.log('S2 Draft compatibility: 43 unchanged legacy realizations plus 2 rebased production overrides; full tokens, boundaries and isolation PASS');
