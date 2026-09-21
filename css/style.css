@@ -185,6 +185,9 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 .example-translation{color:var(--muted);font-size:12px}
 .speaker-button{flex:0 0 42px;width:42px;height:42px;display:grid;place-items:center;border-radius:50%;background:var(--surface-2);border:1px solid var(--border);font-size:18px}
 .speaker-button:hover,.speaker-button:focus-visible{border-color:#6d4dae;background:var(--purple-soft)}
+.phrase-title-row{display:flex;align-items:flex-start;gap:8px;margin:5px 0 7px}
+.phrase-title-row .detail-title{min-width:0;flex:0 1 auto;margin:0;overflow-wrap:anywhere}
+.phrase-title-speaker{flex:0 0 34px;width:34px;height:34px;font-size:15px}
 .dialogue-line{display:flex;align-items:center;justify-content:space-between;gap:10px}
 .dialogue-line-copy{min-width:0;flex:1}
 .dialogue-line-text{overflow-wrap:anywhere;border-bottom:2px solid transparent}
