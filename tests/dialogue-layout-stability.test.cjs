@@ -3,6 +3,7 @@
 const assert=require("node:assert/strict");
 const fs=require("node:fs");
 const path=require("node:path");
+const vm=require("node:vm");
 
 const root=path.join(__dirname,"..");
 const source=fs.readFileSync(path.join(root,"js","app.js"),"utf8");
@@ -30,7 +31,7 @@ assert.match(source,/speaker\.classList\.remove\("hidden-speaker-control"\)/);
 assert.doesNotMatch(source,/target\.outerHTML=dialogueLineMarkup/);
 assert.match(source,/hint\.textContent="Tap to reveal"/);
 assert.match(source,/hint\.classList\.toggle\("reveal-hint-concealed",!showRevealHint\)/);
-assert.match(source,/eyebrow\.textContent=seasonCode\(seasonNum\(dialogue\.season\)\)/);
+assert.match(source,/eyebrow\.textContent=dialogueDetailEyebrow\(dialogue\)/);
 assert.match(source,/mainCard\.classList\.add\("card","dialogue-main-card"\)/);
 assert.match(source,/mainCard\.prepend\(header\)/);
 assert.match(source,/header\.insertAdjacentHTML\("afterbegin",`<div class="detail-actions dialogue-detail-actions">/);
@@ -51,5 +52,17 @@ assert.match(styles,/\.reveal-hint-concealed\{visibility:hidden;pointer-events:n
 assert.match(styles,/\.dialogue-layout>\.dialogue-main-card\{min-width:0\}/);
 assert.match(styles,/\.dialogue-main-card \.conversation\{margin-bottom:0\}/);
 assert.match(styles,/@media \(min-width:760px\) and \(max-width:1000px\)\{\.dialogue-layout\{grid-template-columns:minmax\(0,1fr\)\}/);
+assert.doesNotMatch(styles,/\.eyebrow\{[^}]*white-space:nowrap/);
+
+const categoryContext={};
+vm.createContext(categoryContext);
+const categoryHelpers=source.split(/\r?\n/).filter(line=>line.startsWith("const seasonNum=")||line.startsWith("const seasonCode=")||line.startsWith("function dialogueCategory(")||line.startsWith("function dialogueDetailEyebrow("));
+vm.runInContext(`${categoryHelpers.join("\n")}\nthis.detailEyebrow=dialogueDetailEyebrow`,categoryContext);
+const season1=JSON.parse(fs.readFileSync(path.join(root,"data","season1.json"),"utf8")).dialogues.find(dialogue=>dialogue.category);
+const season2=JSON.parse(fs.readFileSync(path.join(root,"data","season2.json"),"utf8")).dialogues.find(dialogue=>dialogue.category);
+assert.equal(categoryContext.detailEyebrow(season1),`S01 · ${season1.category}`);
+assert.equal(categoryContext.detailEyebrow(season2),`S02 · ${season2.category}`);
+assert.equal(categoryContext.detailEyebrow({season:"S03",title:""}),"S03");
+assert.equal(categoryContext.detailEyebrow({season:"S02",category:"とても長いカテゴリー名でも折り返せる"}),"S02 · とても長いカテゴリー名でも折り返せる");
 
 console.log("dialogue layout stability tests passed");
