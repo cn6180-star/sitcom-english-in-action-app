@@ -8,18 +8,18 @@ const canonical=p=>Object.fromEntries(Object.keys(p).sort().map(k=>[k,p[k]]));
 const expected={"S02E01": ["p1442", "p1566", "p1443", "p1444", "p1445", "p1769", "p1447", "p131", "p665", "p1448", "p132", "p1907", "p1450", "p1773", "p198", "p1452", "p134", "p1453", "p1454", "p1455", "p135", "p136", "p1456", "p1457", "p2215"], "S02E02": ["p1458", "p1459", "p1460", "p1462", "p2216", "p1463", "p1464", "p1688", "p1465", "p1468", "p382", "p759", "p215", "p831", "p1568", "p137"], "S02E03": ["p1474", "p839", "p1476", "p237", "p436", "p1478", "p1479", "p1774", "p225", "p584", "p1482", "p1483", "p138", "p1911", "p1913", "p1485", "p431", "p1486", "p1487", "p1488", "p141", "p240", "p1093"], "S02E04": ["p1489", "p1492", "p1575", "p1494", "p1495", "p1496", "p1499", "p142", "p1501", "p1502", "p1503", "p143", "p1505", "p1506", "p1507", "p395", "p1778", "p145", "p1508", "p1916", "p146", "p1691", "p1510", "p1511", "p147"], "S02E05": ["p1512", "p148", "p1693", "p1513", "p149", "p1514", "p150", "p1515", "p1516", "p420", "p151", "p1518", "p1519", "p1520", "p1522", "p1523", "p1524", "p1525", "p224", "p1527", "p1922", "p1781", "p1530", "p2217", "p1532", "p1533", "p1534"], "S02E06": ["p1782", "p1536", "p1537", "p1538", "p344", "p1539", "p153", "p1540", "p1541", "p154", "p1542", "p1543", "p1544", "p1545", "p1546", "p1547", "p1548", "p1551", "p1552", "p1553", "p169", "p1554", "p1555", "p155", "p1556", "p1557", "p2218", "p1558", "p1559"], "S02E07": ["p800", "p1583", "p1584", "p1585", "p156", "p157", "p1587", "p1588", "p1589", "p1591", "p1592", "p1593", "p1594", "p1596", "p2219", "p158", "p1597", "p1598", "p159", "p1599", "p1602", "p1612", "p160", "p1604", "p1605", "p1606", "p233", "p1607", "p161", "p1608", "p1609", "p1610", "p1611"], "S02E08": ["p1613", "p1614", "p1616", "p563", "p1617", "p1621", "p1622", "p1623", "p1624", "p1625", "p377", "p866", "p1627", "p1628", "p813", "p1629", "p1630", "p1632", "p163", "p1633", "p165", "p1634", "p1637", "p1638", "p1639", "p1640", "p1644", "p370", "p1645", "p601", "p1642", "p1646", "p1643"]};
 const verified=new Set(Object.values(expected).flat());
 const reviews=[{"id": "p164", "file": "data/season2.json", "arrayIndex": 29}, {"id": "p166", "file": "data/season2.json", "arrayIndex": 31}, {"id": "p1698", "file": "data/season2.json", "arrayIndex": 384}];
-assert.equal(phrases.length,3248);assert.equal(new Set(phrases.map(p=>p.id)).size,3248);
-assert.equal(Math.max(...phrases.map(p=>Number(p.id.slice(1)))),3300);
+assert.equal(phrases.length,3360);assert.equal(new Set(phrases.map(p=>p.id)).size,3360);
+assert.equal(Math.max(...phrases.map(p=>Number(p.id.slice(1)))),3414);
 const scope=phrases.filter(p=>/^S02E0[1-8]$/.test(p.episode));assert.equal(scope.length,214);
 assert.equal(verified.size,211);assert.equal(reviews.length,3);
 const restored=phrases.map(p=>{const q={...p};if(verified.has(q.id))delete q.sourceOrder;return q;}).sort((a,b)=>Number(a.id.slice(1))-Number(b.id.slice(1))).map(canonical);
-// All 3,248 complete Phrase records are covered; only the 211 expressly authorized sourceOrder additions are removed for comparison.
-assert.equal(hash(restored),'fc1d7fc6676d73a9b0517d1828cbf93b7d24ca1fb3893cf04d002d4554f3e11a');
+// All 3,360 complete Phrase records are covered; only the 211 expressly authorized sourceOrder additions are removed for comparison.
+assert.equal(hash(restored),'c824fc8af64db0ea7feba8a7a5a3eb985a943bff7f5b649420d0160920de6eb1');
 const membership=datasets.flatMap(x=>x.data.phrases.map(p=>[p.id,x.file]));
 // Physical file membership is invariant independently of permitted order changes.
-assert.equal(hash([...membership].sort((a,b)=>Number(a[0].slice(1))-Number(b[0].slice(1)))),'3f9ad770d6614a674f5b5f20030e04baaa42899c3d771ed18fbf5cd4bbb93830');
+assert.equal(hash([...membership].sort((a,b)=>Number(a[0].slice(1))-Number(b[0].slice(1)))),'76a1d1a44aa1cea6ac790689bdaa8ce039ff10e7e1ac543390c20cb6067df48d');
 const layout=datasets.flatMap(x=>x.data.phrases.map((p,i)=>[x.file,i,verified.has(p.id)?'TARGET:'+p.episode:p.id]));
-assert.equal(hash(layout),'c9fb0a360a1b3835f5e8875ba4af5279a5b3c685fb6111cd1ec12b4a5d25ed35');
+assert.equal(hash(layout),'b8005f3fc678f3e3784f1de42deccb9b9ed686c0653c35bb28d496776b7db370');
 for(const r of reviews){const p=datasets.find(x=>x.file===r.file).data.phrases[r.arrayIndex];assert.equal(p.id,r.id);assert.equal(Object.hasOwn(p,'sourceOrder'),false);}
 for(const [episode,ids] of Object.entries(expected)){
  const rows=scope.filter(p=>p.episode===episode&&verified.has(p.id)).sort((a,b)=>a.sourceOrder-b.sourceOrder);
@@ -29,8 +29,8 @@ for(const [episode,ids] of Object.entries(expected)){
 }
 assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'data/season1.json'))).digest('hex'),'b18125528dd0d1a45105caf25c1a666702fe55a5ef6f47a86bb5aa1c6100b45d');
 assert.equal(dialogues.length,326);
-assert.equal(hash(dialogues),'2513b2e0b0d33fc394708478309410fa41944cf2654b3b85dfdd5fc21fbed33e');
-assert.equal(hash(dialogues.filter(d=>Number(d.id.slice(1))<=167)),'74124dd44ce691184e75d04368785186e04891080f76867bef1775ee4f3a7457');
+assert.equal(hash(dialogues),'19eadd7722fc37b54fd9d409f53f0a5ddefd56b3a928efc785941b0c374050cb');
+assert.equal(hash(dialogues.filter(d=>Number(d.id.slice(1))<=167)),'bf247740e1e24622c9bee23004df5e881210ce42f57a69dc3f95694855acbe41');
 const ids=new Set(phrases.map(p=>p.id));assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!ids.has(id))),[]);
 console.log('Friends S2 E01-E08 sourceOrder integrity passed (211 verified; 3 explicitly deferred, not complete-coverage approval).');
 

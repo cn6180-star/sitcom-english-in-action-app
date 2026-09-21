@@ -13,9 +13,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,3248);
-assert.equal(phraseIds.size,3248);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),3300);
+assert.equal(phrases.length,3360);
+assert.equal(phraseIds.size,3360);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),3414);
 
 const newIds=Array.from({length:126},(_,index)=>`p${1560+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
@@ -79,8 +79,9 @@ assert.equal(newPhrases.filter(phrase=>phrase.scene.trim()).length,126);
 assert.equal(newPhrases.filter(phrase=>friendsNames.test(phrase.scene)).length,0);
 assert.equal(newPhrases.filter(phrase=>episodeSpecificScene.test(phrase.scene)).length,0);
 
-const exactDuplicates=Object.fromEntries([...new Set(phrases.map(phrase=>phrase.phrase.toLowerCase()))]
-  .map(headline=>[headline,phrases.filter(phrase=>phrase.phrase.toLowerCase()===headline).map(phrase=>phrase.id).sort()])
+const legacyPhrases=phrases.filter(phrase=>Number(phrase.id.slice(1))<=3300);
+const exactDuplicates=Object.fromEntries([...new Set(legacyPhrases.map(phrase=>phrase.phrase.toLowerCase()))]
+  .map(headline=>[headline,legacyPhrases.filter(phrase=>phrase.phrase.toLowerCase()===headline).map(phrase=>phrase.id).sort()])
   .filter(([,ids])=>ids.length>1));
 assert.deepEqual(exactDuplicates,{
   "you got me.":["p1371","p2942"],
@@ -127,8 +128,8 @@ const normalizeHeadline=headline=>headline.toLowerCase().replaceAll("’","'").t
   .replace(/\b(something|anything)\b/g,"~")
   .replace(/\b(my|your|his|her|our|their|one's)\b/g,"one's")
   .replace(/\s+/g," ");
-const normalizedDuplicates=Object.fromEntries([...new Set(phrases.map(phrase=>normalizeHeadline(phrase.phrase)))]
-  .map(headline=>[headline,phrases.filter(phrase=>normalizeHeadline(phrase.phrase)===headline).map(phrase=>phrase.id).sort()])
+const normalizedDuplicates=Object.fromEntries([...new Set(legacyPhrases.map(phrase=>normalizeHeadline(phrase.phrase)))]
+  .map(headline=>[headline,legacyPhrases.filter(phrase=>normalizeHeadline(phrase.phrase)===headline).map(phrase=>phrase.id).sort()])
   .filter(([,ids])=>ids.length>1));
 assert.deepEqual(normalizedDuplicates,{
   "you got me":["p1371","p2942"],

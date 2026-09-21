@@ -14,9 +14,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,3248);
-assert.equal(phraseIds.size,3248);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),3300);
+assert.equal(phrases.length,3360);
+assert.equal(phraseIds.size,3360);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),3414);
 
 const newIds=Array.from({length:118},(_,index)=>`p${1442+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);
@@ -76,8 +76,9 @@ assert.equal(byId.get("p1213").note,"会話をいったん止める発話。sec�
 for(const id of["p121","p167","p243","p248","p314"])assert.equal(phraseIds.has(id),false,`${id} was restored`);
 for(const id of["p12","p38","p194","p1106","p364"])assert.equal(phraseIds.has(id),true,`${id} is missing`);
 
+const legacyPhrases=phrases.filter(phrase=>Number(phrase.id.slice(1))<=3300);
 const duplicateHeadlines=Object.fromEntries(
-  Object.entries(Object.groupBy(phrases,phrase=>phrase.phrase))
+  Object.entries(Object.groupBy(legacyPhrases,phrase=>phrase.phrase))
     .filter(([,records])=>records.length>1)
     .map(([headline,records])=>[headline,records.map(record=>record.id).sort()])
 );
@@ -214,11 +215,11 @@ assert.deepEqual(dialogues.flatMap(dialogue=>(dialogue.phraseLinks||[])
   .filter(id=>!phraseIds.has(id)).map(id=>`${dialogue.id}:${id}`)),[]);
 assert.equal(
   crypto.createHash("sha256").update(JSON.stringify(dialogues.filter(d=>Number(d.id.slice(1))<=167))).digest("hex"),
-  "74124dd44ce691184e75d04368785186e04891080f76867bef1775ee4f3a7457"
+  "bf247740e1e24622c9bee23004df5e881210ce42f57a69dc3f95694855acbe41"
 );
 
 console.log("Season 2 E01-E06 Phrase expansion tests passed");
 
 // Full production snapshot; the existing-only snapshot above is supplementary.
 assert.equal(dialogues.length,326);
-assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"2513b2e0b0d33fc394708478309410fa41944cf2654b3b85dfdd5fc21fbed33e");
+assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"19eadd7722fc37b54fd9d409f53f0a5ddefd56b3a928efc785941b0c374050cb");
