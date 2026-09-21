@@ -13,13 +13,13 @@ assert.match(source,/dialogueTranslationMarkup\(line\[2\]\)/);
 assert.match(source,/translation-concealed/);
 assert.match(source,/concealed\?' aria-hidden="true"'/);
 
-assert.match(source,/highlight\.classList\.add\("dialogue-blank"\)/);
+assert.match(source,/highlight\.classList\.add\(isRevealed\?"blank-revealed":"dialogue-blank"\)/);
 assert.match(source,/text\.textContent=highlight\.textContent/);
 assert.match(source,/text\.setAttribute\("aria-hidden","true"\)/);
 assert.match(source,/highlight\.setAttribute\("role","button"\)/);
 assert.match(source,/event\.key==="Enter"\|\|event\.key===" "/);
-assert.match(source,/target\.classList\.remove\("dialogue-blank"\)/);
-assert.match(source,/target\.querySelector\("\.dialogue-blank-text"\)\?\.removeAttribute\("aria-hidden"\)/);
+assert.match(source,/route\.params\.blankRevealed=revealed\.includes\(key\)\?revealed\.filter\(item=>item!==key\):\[\.\.\.revealed,key\]/);
+assert.match(source,/highlight\.setAttribute\("aria-label",isRevealed\?"Hide revealed phrase":"Reveal hidden phrase"\)/);
 assert.doesNotMatch(source,/target\.outerHTML=`<span class="highlight-phrase blank-revealed"/);
 assert.match(source,/hiddenLine\.innerHTML=dialogueLineMarkup\(line,lineIndex,matchResults\)/);
 assert.match(source,/text\?\.classList\.add\("hidden-dialogue-text"\)/);
