@@ -9,7 +9,7 @@ const root=path.join(__dirname,"..");
 const datasets=Array.from({length:9},(_,i)=>JSON.parse(fs.readFileSync(path.join(root,"data",`season${i+1}.json`),"utf8")));
 const phrases=datasets.flatMap(d=>d.phrases),dialogues=datasets.flatMap(d=>d.dialogues),byId=new Map(phrases.map(p=>[p.id,p]));
 const hash=value=>crypto.createHash("sha256").update(JSON.stringify(value)).digest("hex"),canonical=p=>Object.fromEntries(Object.entries(p).sort(([a],[b])=>a.localeCompare(b)));
-assert.equal(phrases.length,3547);assert.equal(byId.size,3547);assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),3605);assert.equal(phrases.filter(p=>p.episode.startsWith("S01")).length,1623);
+assert.equal(phrases.length,3591);assert.equal(byId.size,3591);assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),3649);assert.equal(phrases.filter(p=>p.episode.startsWith("S01")).length,1623);
 const aNew=Array.from({length:110},(_,i)=>byId.get(`p${2953+i}`)),bNew=Array.from({length:92},(_,i)=>byId.get(`p${3063+i}`));assert.ok([...aNew,...bNew].every(Boolean));
 assert.equal(hash(aNew.map(canonical)),"f3de712c45ac957371631e016deae50d6ba83dd89d6132a41acf3b40a0c63baa");
 assert.equal(hash(bNew.map(canonical)),"56a1440ad6651e72ebc03412b45ca0d617f5c86df88165e5b02f7f38cb940723");
@@ -19,7 +19,7 @@ assert.equal(aUpdates.length,28);assert.equal(bUpdates.length,30);
 assert.equal(hash(aUpdates.map(id=>canonical(byId.get(id)))),"94341a4f9de1286849be681ab247554b14120b53d3017110dbce31eff4252138");
 assert.equal(hash(bUpdates.map(id=>canonical(byId.get(id)))),"254e96d4ff84ceef9249a8e2a4133c75452ffb34ba7f646f17ae41789152541a");
 const ordered=phrases.filter(p=>p.sourceOrder!==undefined).sort((a,b)=>a.episode.localeCompare(b.episode)||a.sourceOrder-b.sourceOrder);
-assert.equal(ordered.length,2905);assert.equal(hash(ordered.map(p=>[p.id,p.episode,p.sourceOrder])),"55762175dec423e2736b7715a43460e56f9082a94094d47cb9f75f7beee5de85");
+assert.equal(ordered.length,2984);assert.equal(hash(ordered.map(p=>[p.id,p.episode,p.sourceOrder])),"b118d8ddcc29ff37679047483e52ed7d0f644fbd39674e05007bf681edc8a34e");
 // Preserve the original S1-only golden in addition to the expanded global sourceOrder scope.
 const s1Ordered=ordered.filter(p=>/^S01E/.test(p.episode));
 assert.equal(s1Ordered.length,1599);

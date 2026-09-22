@@ -11,9 +11,9 @@ const phrases=datasets.flatMap(d=>d.phrases),dialogues=datasets.flatMap(d=>d.dia
 const hash=value=>crypto.createHash("sha256").update(JSON.stringify(value)).digest("hex");
 const canonical=p=>Object.fromEntries(Object.entries(p).sort(([a],[b])=>a.localeCompare(b)));
 
-assert.equal(phrases.length,3547);
-assert.equal(byId.size,3547);
-assert.equal(Math.max(...phrases.map(p=>Number(p.id.slice(1)))),3605);
+assert.equal(phrases.length,3591);
+assert.equal(byId.size,3591);
+assert.equal(Math.max(...phrases.map(p=>Number(p.id.slice(1)))),3649);
 assert.equal(phrases.filter(p=>p.episode.startsWith("S01")).length,1623);
 const added=Array.from({length:117},(_,i)=>byId.get(`p${2836+i}`));
 assert.ok(added.every(Boolean));
@@ -24,8 +24,8 @@ assert.equal(updateIds.length,26);
 assert.equal(hash(updateIds.map(id=>canonical(byId.get(id)))),"4d0feab43a80cbc5cf3c3b09db3e14b25735d5174a1f72756cfb57e273ca834f");
 
 const ordered=phrases.filter(p=>p.sourceOrder!==undefined).sort((a,b)=>a.episode.localeCompare(b.episode)||a.sourceOrder-b.sourceOrder);
-assert.equal(ordered.length,2905);
-assert.equal(hash(ordered.map(p=>[p.id,p.episode,p.sourceOrder])),"55762175dec423e2736b7715a43460e56f9082a94094d47cb9f75f7beee5de85");
+assert.equal(ordered.length,2984);
+assert.equal(hash(ordered.map(p=>[p.id,p.episode,p.sourceOrder])),"b118d8ddcc29ff37679047483e52ed7d0f644fbd39674e05007bf681edc8a34e");
 // Preserve the original S1-only golden in addition to the expanded global sourceOrder scope.
 const s1Ordered=ordered.filter(p=>/^S01E/.test(p.episode));
 assert.equal(s1Ordered.length,1599);

@@ -14,9 +14,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,3547);
-assert.equal(phraseIds.size,3547);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),3605);
+assert.equal(phrases.length,3591);
+assert.equal(phraseIds.size,3591);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),3649);
 
 const newIds=Array.from({length:118},(_,index)=>`p${1442+index}`);
 assert.deepEqual(newIds.filter(id=>phraseIds.has(id)),newIds);

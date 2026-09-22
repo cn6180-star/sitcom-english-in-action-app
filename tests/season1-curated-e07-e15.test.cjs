@@ -10,18 +10,18 @@ const datasets=Array.from({length:9},(_,i)=>JSON.parse(fs.readFileSync(path.join
 const phrases=datasets.flatMap(d=>d.phrases),dialogues=datasets.flatMap(d=>d.dialogues);
 const byId=new Map(phrases.map(p=>[p.id,p]));
 const hash=value=>crypto.createHash("sha256").update(JSON.stringify(value)).digest("hex");
-assert.equal(phrases.length,3547);
-assert.equal(byId.size,3547);
-assert.equal(Math.max(...phrases.map(p=>Number(p.id.slice(1)))),3605);
+assert.equal(phrases.length,3591);
+assert.equal(byId.size,3591);
+assert.equal(Math.max(...phrases.map(p=>Number(p.id.slice(1)))),3649);
 const added=Array.from({length:302},(_,i)=>byId.get(`p${2534+i}`));
 assert.ok(added.every(Boolean));
 // Golden from the immutable curated drafts, with the prior-NEW update applied and IDs assigned.
 const body=p=>Object.fromEntries(Object.entries(p).filter(([key])=>key!=="sourceOrder").sort(([a],[b])=>a.localeCompare(b)));
 assert.equal(hash(added.map(body)),"46f969223475399f1cc156bf0d444ac7fa45d16d2ddad8a1b29fcd50ec124ee2");
 const ordered=phrases.filter(p=>p.sourceOrder!==undefined).sort((a,b)=>a.episode.localeCompare(b.episode)||a.sourceOrder-b.sourceOrder);
-assert.equal(ordered.length,2905);
+assert.equal(ordered.length,2984);
 // Golden by ref from Astra_S1_E07-E15_Source_Order_Implementation_Package.json.
-assert.equal(hash(ordered.map(p=>[p.id,p.episode,p.sourceOrder])),"55762175dec423e2736b7715a43460e56f9082a94094d47cb9f75f7beee5de85");
+assert.equal(hash(ordered.map(p=>[p.id,p.episode,p.sourceOrder])),"b118d8ddcc29ff37679047483e52ed7d0f644fbd39674e05007bf681edc8a34e");
 // Preserve the original S1-only golden in addition to the expanded global sourceOrder scope.
 const s1Ordered=ordered.filter(p=>/^S01E/.test(p.episode));
 assert.equal(s1Ordered.length,1599);
@@ -67,7 +67,7 @@ for(let i=1;i<=15;i++){
 }
 for(const episode of ["S02E01"]){const rows=phrases.filter(p=>p.episode===episode);assert.deepEqual(context.sortedPhrasesForDisplay(rows).map(p=>p.id),rows.map(p=>p.id));}
 context.filters.phrase.episode="ALL";context.filters.phrase.season="ALL";
-assert.equal(context.filteredPhrases().length,3547);
+assert.equal(context.filteredPhrases().length,3591);
 assert.deepEqual(plain(context.filteredPhrases(true).map(p=>p.id)),[added[0].id]);
 for(const [key,value] of [["type","phrase"],["frequency","frequent"],["register","neutral"]]){
  context.filters.phrase[key]=value;const filtered=context.filteredPhrases();

@@ -5,7 +5,7 @@ const baseline=require('./fixtures/friends-s2-dialogue-production-baseline.json'
 const plain=x=>JSON.parse(JSON.stringify(x)),hash=x=>crypto.createHash('sha256').update(JSON.stringify(x)).digest('hex');
 const byId=new Map(dialogues.map(d=>[d.id,d])),phraseById=new Map(phrases.map(p=>[p.id,p]));
 
-assert.equal(phrases.length,3547);assert.equal(phraseById.size,3547);
+assert.equal(phrases.length,3591);assert.equal(phraseById.size,3591);
 assert.equal(dialogues.length,326);assert.equal(byId.size,326);assert.equal(Math.max(...dialogues.filter(d=>/^d\d+$/.test(d.id)).map(d=>+d.id.slice(1))),214);
 assert.equal(dialogues.filter(d=>d.season==='Season 2').length,81);assert.equal(dialogues.filter(d=>d.season==='Season 1').length,108);
 for(const [file,want] of Object.entries(baseline.phraseHashes))assert.equal(hash(JSON.parse(fs.readFileSync(file,'utf8')).phrases),want,'all Phrase fields and physical order unchanged');
