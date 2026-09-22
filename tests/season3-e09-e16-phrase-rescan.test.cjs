@@ -16,10 +16,10 @@ const existingIds=['p289','p303','p290','p320','p305','p294','p295','p296','p298
 const newIds=Array.from({length:114},(_,index)=>`p${3301+index}`);
 const required=['id','phrase','meaning','scene','example1','example2','exampleTranslations','type','priorityText','priority','source','episode','frequency','register','sourceOrder'];
 
-assert.equal(phrases.length,3360);
-assert.equal(byId.size,3360,'duplicate Phrase ID');
-assert.equal(Math.max(...phrases.map(record=>Number(record.id.slice(1)))),3414);
-assert.equal(phrases.filter(record=>record.episode.startsWith('S03')).length,319);
+assert.equal(phrases.length,3484);
+assert.equal(byId.size,3484,'duplicate Phrase ID');
+assert.equal(Math.max(...phrases.map(record=>Number(record.id.slice(1)))),3539);
+assert.equal(phrases.filter(record=>record.episode.startsWith('S03')).length,443);
 assert.equal(dialogues.length,326);
 assert.ok(newIds.every(id=>seasons[2].phrases.some(record=>record.id===id)),'all 114 NEW records belong to Season 3');
 for(const id of ['p292','p307'])assert.ok(!byId.has(id),`${id} removed`);
@@ -43,7 +43,7 @@ for(const [episode,count] of Object.entries(expectedCounts)){
 assert.equal(sourceOrderEntries.length,132);
 assert.equal(hash(sourceOrderEntries),'9ba06a3b14ffd884e940fdb8be48320b84013cf13f54cae4592b55b8418a6227','Package sourceOrder map');
 assert.equal(seasons[2].dialogues.find(dialogue=>dialogue.id==='d33').phraseLinks.includes('p307'),false);
-assert.equal(hash(seasons[2].dialogues),'1f631e67a28163ba8fb976b838a05047af4073352d983ffc784641378be5b349','S3 Dialogue body and references');
+assert.equal(hash(seasons[2].dialogues),'4015f87c59e3920f01b9700ed7ee55616762a7d5ec3d029a6c08815a6561ab4d','S3 Dialogue body and references');
 for(const dialogue of dialogues)for(const id of dialogue.phraseLinks)assert.ok(byId.has(id),`${dialogue.id}/${id} dangling link`);
 for(const [season,want] of Object.entries({
   1:'174b7916490b746ac20fd3adc80127d1662a4adab92f0985d05982c44d57677d',
