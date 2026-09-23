@@ -117,7 +117,6 @@ const DIALOGUE_EXPLICIT_MATCH_HINTS=Object.freeze({
   "d90|p667":Object.freeze({"dialogueId":"d90","phraseId":"p667","candidateLineIndex":0,"highlightRanges":[{"matchText":"set on"}],"overrideMatcher":true}),
   "d90|p718":Object.freeze({"dialogueId":"d90","phraseId":"p718","candidateLineIndex":5,"matchText":"it can’t hurt to try somewhere new"}),
   "d91|p676":Object.freeze({"dialogueId":"d91","phraseId":"p676","candidateLineIndex":6,"highlightRanges":[{"matchText":"trick me into"}],"overrideMatcher":true}),
-  "d93|p660":Object.freeze({"dialogueId":"d93","phraseId":"p660","candidateLineIndex":2,"matchText":"equity investment"}),
   "d93|p694":Object.freeze({"dialogueId":"d93","phraseId":"p694","candidateLineIndex":5,"matchText":"he’s on to you"}),
   "d94|p641":Object.freeze({"dialogueId":"d94","phraseId":"p641","candidateLineIndex":1,"matchText":"cried my eyes out"}),
   "d95|p744":Object.freeze({"dialogueId":"d95","phraseId":"p744","candidateLineIndex":1,"highlightRanges":[{"matchText":"at fault"}],"overrideMatcher":true}),

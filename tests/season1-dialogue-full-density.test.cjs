@@ -7,7 +7,7 @@ const s1=sets[0].dialogues,s2=sets[1].dialogues,byId=new Map(dialogues.map(d=>[d
 const phraseById=new Map(phrases.map(p=>[p.id,p])),hash=value=>crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const plain=value=>JSON.parse(JSON.stringify(value)),exclusions=plain(vm.runInContext('DIALOGUE_HIGHLIGHT_EXCLUSIONS',c));
 
-assert.equal(phrases.length,3744);assert.equal(phraseById.size,3744);
+assert.equal(phrases.length,3810);assert.equal(phraseById.size,3810);
 assert.equal(phrases.filter(p=>p.episode?.startsWith('S01')).length,1623);
 assert.equal(dialogues.length,326);assert.equal(new Set(dialogues.map(d=>d.id)).size,326);
 assert.equal(s1.length,108);assert.equal(s2.length,81);

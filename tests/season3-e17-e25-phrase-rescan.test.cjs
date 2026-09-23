@@ -15,9 +15,9 @@ const existingIds=['p310','p311','p313','p318','p315','p316','p333','p323','p319
 const expectedCounts={S03E17:24,S03E18:17,S03E19:15,S03E20:15,S03E21:7,S03E22:22,S03E23:15,S03E24:18,S03E25:17};
 const required=['id','phrase','meaning','scene','example1','example2','exampleTranslations','type','priorityText','priority','source','episode','frequency','register','sourceOrder'];
 
-assert.equal(phrases.length,3744);
-assert.equal(byId.size,3744,'duplicate Phrase IDs');
-assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),3821);
+assert.equal(phrases.length,3810);
+assert.equal(byId.size,3810,'duplicate Phrase IDs');
+assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),3908);
 assert.equal(phrases.filter(p=>p.episode.startsWith('S03')).length,443);
 assert.equal(dialogues.length,326);
 assert.ok(newIds.every(id=>seasons[2].phrases.some(p=>p.id===id)),'125 NEW records in Season 3');

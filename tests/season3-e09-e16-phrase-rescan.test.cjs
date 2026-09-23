@@ -16,9 +16,9 @@ const existingIds=['p289','p303','p290','p320','p305','p294','p295','p296','p298
 const newIds=Array.from({length:114},(_,index)=>`p${3301+index}`);
 const required=['id','phrase','meaning','scene','example1','example2','exampleTranslations','type','priorityText','priority','source','episode','frequency','register','sourceOrder'];
 
-assert.equal(phrases.length,3744);
-assert.equal(byId.size,3744,'duplicate Phrase ID');
-assert.equal(Math.max(...phrases.map(record=>Number(record.id.slice(1)))),3821);
+assert.equal(phrases.length,3810);
+assert.equal(byId.size,3810,'duplicate Phrase ID');
+assert.equal(Math.max(...phrases.map(record=>Number(record.id.slice(1)))),3908);
 assert.equal(phrases.filter(record=>record.episode.startsWith('S03')).length,443);
 assert.equal(dialogues.length,326);
 assert.ok(newIds.every(id=>seasons[2].phrases.some(record=>record.id===id)),'all 114 NEW records belong to Season 3');
@@ -50,7 +50,7 @@ for(const [season,want] of Object.entries({
   2:'70d958eaf81e468592ee7dba639f61d5d87c85bf287f54414df1f7c6cb09a16d',
   4:'2ff6ce2e8e485a432e01649af383414d1423c8b3a0256df3f647688de0934dc0',
   5:'c88e34f6eda8d0646a8ef97341e96dd17d2cd3bccc4856c001079083d2a7769a',
-  6:'68f1c1c80a608be7642644cdf29775c00cdec646f90fcb03774586a296e1c4f1',
+  6:'3087db68aef0c24ca4f8c6ae55a896db2d0f0cb241a1174e76f4087d63cc8b7b',
   7:'5a083e07e26c1f97cf45013b7584050f3cab29ae7034ca3d613d1a9fe519979c',
   8:'ac577a6a11624be4222898547bad61522cea3c2b99e4075357d7bb6069a78128',
   9:'9a83a0c2e15e5d5dd3ef20061284920e0334d4c602e5e8868d4823f8b9e03406',

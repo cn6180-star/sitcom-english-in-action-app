@@ -15,9 +15,9 @@ const removedIds=['p477','p518','p527','p561'];
 const episodeCounts={S05E09:10,S05E10:16,S05E11:9,S05E12:10,S05E13:7,S05E14:9,S05E15:9,S05E16:10};
 const required=['id','phrase','meaning','scene','example1','example2','exampleTranslations','type','priorityText','priority','source','episode','frequency','register','sourceOrder'];
 
-assert.equal(phrases.length,3744);
-assert.equal(byId.size,3744,'duplicate Phrase ID');
-assert.equal(Math.max(...phrases.map(record=>+record.id.slice(1))),3821);
+assert.equal(phrases.length,3810);
+assert.equal(byId.size,3810,'duplicate Phrase ID');
+assert.equal(Math.max(...phrases.map(record=>+record.id.slice(1))),3908);
 assert.equal(dialogues.length,326);
 for(const id of removedIds)assert.ok(!byId.has(id),`${id} REMOVE`);
 for(const id of newIds){
