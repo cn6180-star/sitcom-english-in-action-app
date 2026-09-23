@@ -784,22 +784,6 @@
       ]
     },
     {
-      "dialogueId": "d79",
-      "phraseId": "p612",
-      "classification": "VALID_VARIANT",
-      "reason": "one’s→your。限度を越えて要求する同一idiom。",
-      "ranges": [
-        {
-          "lineIndex": 6,
-          "text": "push"
-        },
-        {
-          "lineIndex": 6,
-          "text": "luck"
-        }
-      ]
-    },
-    {
       "dialogueId": "d80",
       "phraseId": "p614",
       "classification": "VALID_BUT_OVERRIDE",

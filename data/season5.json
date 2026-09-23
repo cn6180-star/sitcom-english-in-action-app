@@ -1473,7 +1473,8 @@
       "source": "Friends",
       "episode": "S05E20",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 7
     },
     {
       "id": "p566",
@@ -1489,7 +1490,8 @@
       "source": "Friends",
       "episode": "S05E19",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 1
     },
     {
       "id": "p567",
@@ -1505,7 +1507,8 @@
       "source": "Friends",
       "episode": "S05E20",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 12
     },
     {
       "id": "p568",
@@ -1524,7 +1527,8 @@
       "source": "Friends",
       "episode": "S05E20",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 2
     },
     {
       "id": "p569",
@@ -1543,7 +1547,8 @@
       "source": "Friends",
       "episode": "S05E21",
       "frequency": "limited",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 5
     },
     {
       "id": "p570",
@@ -1559,7 +1564,8 @@
       "source": "Friends",
       "episode": "S05E23",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 3
     },
     {
       "id": "p571",
@@ -1575,7 +1581,8 @@
       "source": "Friends",
       "episode": "S05E22",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 2
     },
     {
       "id": "p572",
@@ -1595,7 +1602,8 @@
       "episode": "S05E21",
       "frequency": "general",
       "register": "casual",
-      "note": "jinxは「悪い運を招く／縁起を悪くする」という動詞。"
+      "note": "jinxは「悪い運を招く／縁起を悪くする」という動詞。",
+      "sourceOrder": 2
     },
     {
       "id": "p573",
@@ -1614,7 +1622,8 @@
       "source": "Friends",
       "episode": "S05E21",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 3
     },
     {
       "id": "p574",
@@ -1630,7 +1639,8 @@
       "source": "Friends",
       "episode": "S05E23",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 6
     },
     {
       "id": "p575",
@@ -1666,7 +1676,8 @@
       "source": "Friends",
       "episode": "S05E22",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 4
     },
     {
       "id": "p578",
@@ -1685,7 +1696,8 @@
       "source": "Friends",
       "episode": "S05E18",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 2
     },
     {
       "id": "p579",
@@ -1704,7 +1716,8 @@
       "source": "Friends",
       "episode": "S05E21",
       "frequency": "limited",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 4
     },
     {
       "id": "p580",
@@ -1720,7 +1733,8 @@
       "source": "Friends",
       "episode": "S05E22",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 6
     },
     {
       "id": "p581",
@@ -1736,7 +1750,8 @@
       "source": "Friends",
       "episode": "S05E20",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 9
     },
     {
       "id": "p582",
@@ -1831,7 +1846,8 @@
       "source": "Friends",
       "episode": "S05E18",
       "frequency": "limited",
-      "register": "slang"
+      "register": "slang",
+      "sourceOrder": 1
     },
         {
       "id": "p588",
@@ -1871,7 +1887,8 @@
       "episode": "S05E22",
       "frequency": "general",
       "register": "neutral",
-      "note": "作中では「There’s a chance this may have been a dream.」の形で登場。may have + past participleは、過去について「〜した／〜だったかもしれない」と推量する形。"
+      "note": "作中では「There’s a chance this may have been a dream.」の形で登場。may have + past participleは、過去について「〜した／〜だったかもしれない」と推量する形。",
+      "sourceOrder": 13
     },
     {
       "id": "p591",
@@ -1922,7 +1939,8 @@
       "source": "Friends",
       "episode": "S05E18",
       "frequency": "limited",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 4
     },
     {
       "id": "p594",
@@ -1958,7 +1976,8 @@
       "source": "Friends",
       "episode": "S05E24",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 1
     },
     {
       "id": "p596",
@@ -1977,7 +1996,8 @@
       "source": "Friends",
       "episode": "S05E23",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 11
     },
     {
       "id": "p597",
@@ -1996,26 +2016,8 @@
       "source": "Friends",
       "episode": "S05E20",
       "frequency": "limited",
-      "register": "neutral"
-    },
-    {
-      "id": "p598",
-      "phrase": "be a drag",
-      "meaning": "面倒、だるいもの、うんざりすること",
-      "scene": "退屈・面倒・同情",
-      "example1": "Waiting in line is such a drag.",
-      "example2": "What a drag.",
-      "exampleTranslations": [
-        "列に並んで待つなんて本当に面倒だ。",
-        "ああ、面倒だな。"
-      ],
-      "type": "idiom",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S05E23",
-      "frequency": "limited",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 6
     },
     {
       "id": "p599",
@@ -2031,7 +2033,8 @@
       "source": "Friends",
       "episode": "S05E18",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 8
     },
     {
       "id": "p600",
@@ -2050,7 +2053,8 @@
       "source": "Friends",
       "episode": "S05E23",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 4
     },
     {
       "id": "p601",
@@ -2090,7 +2094,8 @@
       "source": "Friends",
       "episode": "S05E18",
       "frequency": "limited",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 7
     },
     {
       "id": "p603",
@@ -2126,7 +2131,8 @@
       "source": "Friends",
       "episode": "S05E23",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 9
     },
     {
       "id": "p555",
@@ -2162,7 +2168,8 @@
       "source": "Friends",
       "episode": "S05E20",
       "frequency": "limited",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 10
     },
     {
       "id": "p608",
@@ -2181,7 +2188,8 @@
       "source": "Friends",
       "episode": "S05E22",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 3
     },
     {
       "id": "p609",
@@ -2200,7 +2208,8 @@
       "source": "Friends",
       "episode": "S05E22",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 1
     },
     {
       "id": "p610",
@@ -2219,7 +2228,8 @@
       "source": "Friends",
       "episode": "S05E20",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 8
     },
     {
       "id": "p611",
@@ -2235,26 +2245,8 @@
       "source": "Friends",
       "episode": "S05E19",
       "frequency": "frequent",
-      "register": "neutral"
-    },
-    {
-      "id": "p612",
-      "phrase": "push one’s luck",
-      "meaning": "調子に乗る、限界まで攻める、図に乗りすぎる",
-      "scene": "相手の親切や運に甘えすぎてる時",
-      "example1": "You’re pushing your luck.",
-      "example2": "Ask again and you’ll be pushing your luck.",
-      "exampleTranslations": [
-        "調子に乗りすぎだよ。",
-        "もう一度頼んだら、欲張りすぎだよ。"
-      ],
-      "type": "idiom",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S05E22",
-      "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 3
     },
         {
       "id": "p614",
@@ -2294,7 +2286,8 @@
       "source": "Friends",
       "episode": "S05E22",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 9
     },
     {
       "id": "p616",
@@ -2310,7 +2303,8 @@
       "source": "Friends",
       "episode": "S05E22",
       "frequency": "frequent",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 5
     },
     {
       "id": "p617",
@@ -2329,7 +2323,8 @@
       "source": "Friends",
       "episode": "S05E20",
       "frequency": "general",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 3
     },
     {
       "id": "p618",
@@ -2365,27 +2360,8 @@
       "source": "Friends",
       "episode": "S05E19",
       "frequency": "general",
-      "register": "neutral"
-    },
-    {
-      "id": "p620",
-      "phrase": "10-100",
-      "meaning": "（警察コードで）トイレ休憩／トイレ案件",
-      "scene": "警察ごっこ・冗談っぽく離席する時",
-      "note": "警察無線コードで、地域・組織によって通じ方に差がある。",
-      "example1": "Officer Bing’s got a 10-100.",
-      "example2": "Sorry, I need a 10-100.",
-      "exampleTranslations": [
-        "ビング巡査、トイレ休憩です。",
-        "ごめん、トイレに行かないと。"
-      ],
-      "type": "word",
-      "priorityText": "★☆☆",
-      "priority": 1,
-      "source": "Friends",
-      "episode": "S05E17",
-      "frequency": "limited",
-      "register": "neutral"
+      "register": "neutral",
+      "sourceOrder": 2
     },
     {
       "id": "p621",
@@ -2424,7 +2400,8 @@
       "source": "Friends",
       "episode": "S05E17",
       "frequency": "limited",
-      "register": "casual"
+      "register": "casual",
+      "sourceOrder": 1
     },
     {
       "id": "p3691",
@@ -4245,6 +4222,806 @@
       "frequency": "general",
       "register": "neutral",
       "sourceOrder": 10
+    },
+    {
+      "id": "p3782",
+      "phrase": "cut something short",
+      "meaning": "予定より早く切り上げる",
+      "scene": "予定や会話を途中で終える時",
+      "example1": "We had to cut the trip short because of the storm.",
+      "example2": "Sorry to cut our call short; I have to go.",
+      "exampleTranslations": [
+        "嵐のため旅行を早く切り上げなければならなかった。",
+        "電話を早めに切ってごめん、もう行かないと。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E17",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 2
+    },
+    {
+      "id": "p3783",
+      "phrase": "misspeak",
+      "meaning": "言い間違える／誤ったことを口にする",
+      "scene": "言葉を選び損ねたことを訂正する時",
+      "example1": "Sorry, I misspoke. The meeting is on Thursday.",
+      "example2": "I misspoke earlier; I meant the smaller box.",
+      "exampleTranslations": [
+        "ごめん、言い間違えた。会議は木曜日だ。",
+        "さっきは言い間違えた。小さい箱のことだった。"
+      ],
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E17",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 3
+    },
+    {
+      "id": "p3784",
+      "phrase": "misread someone",
+      "meaning": "相手の言動を読み違える",
+      "scene": "相手の意図を誤解したと気付いた時",
+      "example1": "I misread her smile as an invitation.",
+      "example2": "Maybe I misread him; he wasn't upset after all.",
+      "exampleTranslations": [
+        "彼女の笑顔を誘いだと勘違いした。",
+        "彼を読み違えたのかも。結局怒っていなかった。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E17",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 4
+    },
+    {
+      "id": "p3785",
+      "phrase": "give someone the wrong impression",
+      "meaning": "人に誤解を与える",
+      "scene": "自分の態度の受け取られ方を説明する時",
+      "example1": "I hope I didn't give you the wrong impression.",
+      "example2": "That message gave her the wrong impression about the plan.",
+      "exampleTranslations": [
+        "誤解を与えていなければいいけど。",
+        "そのメッセージで彼女は計画について誤解した。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S05E17",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 5
+    },
+    {
+      "id": "p3786",
+      "phrase": "give someone a shot",
+      "meaning": "人に機会を与える",
+      "scene": "応募者や新しい相手にチャンスを与える時",
+      "example1": "They gave me a shot even though I had little experience.",
+      "example2": "Give the new coach a shot before you decide.",
+      "exampleTranslations": [
+        "経験が少なかったのに私にチャンスをくれた。",
+        "判断する前に新しいコーチに機会をあげて。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E17",
+      "frequency": "general",
+      "register": "casual",
+      "sourceOrder": 6
+    },
+    {
+      "id": "p3787",
+      "phrase": "take a detour",
+      "meaning": "回り道をする",
+      "scene": "通常と違う道順で移動する時",
+      "example1": "We took a detour to avoid traffic.",
+      "example2": "Let's take a detour and stop by the market.",
+      "exampleTranslations": [
+        "渋滞を避けて回り道をした。",
+        "少し回り道して市場に寄ろう。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E17",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 7
+    },
+    {
+      "id": "p3788",
+      "phrase": "a good sign that ~",
+      "meaning": "～という良い兆し",
+      "scene": "結果を見て前向きな兆候を判断する時",
+      "example1": "It's a good sign that they invited you back.",
+      "example2": "Is it a good sign that the pain has gone away?",
+      "exampleTranslations": [
+        "また招いてもらえたのは良い兆しだ。",
+        "痛みがなくなったのは良い兆しなのかな。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E18",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 3
+    },
+    {
+      "id": "p3789",
+      "phrase": "go up against someone",
+      "meaning": "人と競う／対戦する",
+      "scene": "競争相手と直接対決する時",
+      "example1": "Our team goes up against the champions tomorrow.",
+      "example2": "I don't want to go up against my best friend.",
+      "exampleTranslations": [
+        "明日、私たちのチームは王者と対戦する。",
+        "親友とは競争したくない。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E18",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 5
+    },
+    {
+      "id": "p3790",
+      "phrase": "cut back",
+      "meaning": "量や頻度を減らす",
+      "scene": "習慣や出費を減らそうとする時",
+      "example1": "I'm trying to cut back on coffee.",
+      "example2": "We need to cut back until we save more money.",
+      "exampleTranslations": [
+        "コーヒーを減らそうとしている。",
+        "もっと貯金できるまで支出を減らす必要がある。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S05E18",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 6
+    },
+    {
+      "id": "p3791",
+      "phrase": "fill up on ~",
+      "meaning": "～でお腹いっぱいになる",
+      "scene": "食事の前に別のものを食べ過ぎる時",
+      "example1": "Don't fill up on bread before dinner.",
+      "example2": "The kids filled up on snacks at the party.",
+      "exampleTranslations": [
+        "夕食前にパンでお腹いっぱいにならないで。",
+        "子どもたちはパーティーでお菓子を食べ過ぎた。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E18",
+      "frequency": "general",
+      "register": "casual",
+      "sourceOrder": 9
+    },
+    {
+      "id": "p3792",
+      "phrase": "this goes for ~",
+      "meaning": "これは～にも当てはまる",
+      "scene": "説明したルールの適用範囲を広げる時",
+      "example1": "This goes for everyone on the team.",
+      "example2": "The same rule goes for online orders.",
+      "exampleTranslations": [
+        "これはチームの全員に当てはまる。",
+        "同じルールはオンライン注文にも当てはまる。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E19",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 4
+    },
+    {
+      "id": "p3793",
+      "phrase": "have nothing to prove",
+      "meaning": "証明する必要は何もない",
+      "scene": "無理に自分を証明しなくてよいと伝える時",
+      "example1": "You have nothing to prove to them.",
+      "example2": "I've done my work; I have nothing to prove.",
+      "exampleTranslations": [
+        "彼らに自分を証明する必要はないよ。",
+        "仕事はしたし、証明する必要はない。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E19",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 5
+    },
+    {
+      "id": "p3794",
+      "phrase": "have a good heart",
+      "meaning": "心根が優しい",
+      "scene": "人の親切な性格について話す時",
+      "example1": "He can be blunt, but he has a good heart.",
+      "example2": "She has a good heart and helps her neighbors.",
+      "exampleTranslations": [
+        "彼はぶっきらぼうだけど心根は優しい。",
+        "彼女は心優しく、近所の人たちを助けている。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E19",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 6
+    },
+    {
+      "id": "p3795",
+      "phrase": "break something down into ~",
+      "meaning": "物事を～に分けて整理する",
+      "scene": "情報や作業を分類して説明する時",
+      "example1": "Let's break the budget down into categories.",
+      "example2": "She broke the project down into smaller tasks.",
+      "exampleTranslations": [
+        "予算を項目別に分けよう。",
+        "彼女は企画を小さな作業に分けた。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S05E20",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 1
+    },
+    {
+      "id": "p3796",
+      "phrase": "live life to the fullest",
+      "meaning": "人生を精いっぱい楽しむ",
+      "scene": "今を大切に生きようと励ます時",
+      "example1": "After retiring, she decided to live life to the fullest.",
+      "example2": "Travel if you can and live life to the fullest.",
+      "exampleTranslations": [
+        "引退後、彼女は人生を存分に楽しむと決めた。",
+        "できるなら旅をして、人生を精いっぱい楽しんで。"
+      ],
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E20",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 4
+    },
+    {
+      "id": "p3797",
+      "phrase": "with no regard for ~",
+      "meaning": "～を顧みずに",
+      "scene": "危険や影響を考慮しない行動を説明する時",
+      "example1": "He crossed the road with no regard for traffic.",
+      "example2": "They made the decision with no regard for the cost.",
+      "exampleTranslations": [
+        "彼は車を気にせず道路を渡った。",
+        "彼らは費用を考慮せず決定した。"
+      ],
+      "type": "phrase",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S05E20",
+      "frequency": "limited",
+      "register": "formal",
+      "sourceOrder": 5
+    },
+    {
+      "id": "p3798",
+      "phrase": "a near-death experience",
+      "meaning": "死にかけた経験",
+      "scene": "命の危険を感じた体験を説明する時",
+      "example1": "The accident was a near-death experience for her.",
+      "example2": "He described the fall as a near-death experience.",
+      "exampleTranslations": [
+        "その事故は彼女にとって死にかけた経験だった。",
+        "彼はその転落を死にかけた経験だと語った。"
+      ],
+      "type": "phrase",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S05E20",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 11
+    },
+    {
+      "id": "p3799",
+      "phrase": "under fire",
+      "meaning": "攻撃や激しい批判を受けて",
+      "scene": "批判や危険にさらされている状態を言う時",
+      "example1": "The manager came under fire for the delay.",
+      "example2": "She stayed calm under fire during the debate.",
+      "exampleTranslations": [
+        "遅延をめぐって責任者が批判を浴びた。",
+        "討論で厳しく攻められても彼女は冷静だった。"
+      ],
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E20",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 13
+    },
+    {
+      "id": "p3800",
+      "phrase": "hold something in",
+      "meaning": "気持ちや言葉を抑え込む",
+      "scene": "感情や言いたいことを表に出さない時",
+      "example1": "I couldn't hold in my laughter.",
+      "example2": "Don't hold your feelings in all the time.",
+      "exampleTranslations": [
+        "笑いをこらえられなかった。",
+        "いつも気持ちを抑え込まないで。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E21",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 1
+    },
+    {
+      "id": "p3801",
+      "phrase": "move a relationship forward",
+      "meaning": "関係を進展させる",
+      "scene": "交際を次の段階へ進めたい時",
+      "example1": "They talked about how to move their relationship forward.",
+      "example2": "I want to move our relationship forward slowly.",
+      "exampleTranslations": [
+        "二人は関係をどう進展させるか話した。",
+        "私たちの関係をゆっくり進めたい。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E21",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 6
+    },
+    {
+      "id": "p3802",
+      "phrase": "jump into something",
+      "meaning": "よく考えずに何かを始める",
+      "scene": "大きな決定を急いで始めそうな時",
+      "example1": "Let's not jump into a lease before we talk.",
+      "example2": "I jumped into the job without checking the hours.",
+      "exampleTranslations": [
+        "話し合う前に急いで賃貸契約を結ぶのはやめよう。",
+        "勤務時間を確認せずその仕事を始めてしまった。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E21",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 7
+    },
+    {
+      "id": "p3803",
+      "phrase": "mess up what we have",
+      "meaning": "今ある良い関係を台無しにする",
+      "scene": "変化が現在の関係を損なうのを心配する時",
+      "example1": "I don't want to mess up what we have by rushing.",
+      "example2": "Let's talk before we mess up what we have.",
+      "exampleTranslations": [
+        "急ぐことで今の関係を壊したくない。",
+        "今の関係を台無しにする前に話し合おう。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E21",
+      "frequency": "general",
+      "register": "casual",
+      "sourceOrder": 8
+    },
+    {
+      "id": "p3804",
+      "phrase": "as soon as something opens up",
+      "meaning": "空きが出たらすぐに",
+      "scene": "仕事や部屋の空きを待つ時",
+      "example1": "We'll call you as soon as a table opens up.",
+      "example2": "I'll apply as soon as a position opens up.",
+      "exampleTranslations": [
+        "席が空き次第お電話します。",
+        "募集枠が空き次第応募する。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E21",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 9
+    },
+    {
+      "id": "p3805",
+      "phrase": "have doubts",
+      "meaning": "疑いを持つ／迷いがある",
+      "scene": "決断に確信が持てない時",
+      "example1": "I still have doubts about the move.",
+      "example2": "It's okay to have doubts before signing.",
+      "exampleTranslations": [
+        "引っ越しについてまだ迷いがある。",
+        "署名前に迷いがあるのは自然だよ。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E21",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 10
+    },
+    {
+      "id": "p3806",
+      "phrase": "haggle",
+      "meaning": "値段を交渉する",
+      "scene": "買い物で価格を交渉する時",
+      "example1": "Can you haggle over the price at that market?",
+      "example2": "We haggled and got a small discount.",
+      "exampleTranslations": [
+        "あの市場では値段交渉できる？",
+        "交渉して少し安くしてもらった。"
+      ],
+      "type": "word",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E21",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 11
+    },
+    {
+      "id": "p3807",
+      "phrase": "put someone up",
+      "meaning": "人を宿泊させる",
+      "scene": "滞在先を手配して泊める時",
+      "example1": "My aunt put us up for two nights.",
+      "example2": "The company put her up in a hotel.",
+      "exampleTranslations": [
+        "叔母が私たちを二晩泊めてくれた。",
+        "会社が彼女のホテルを手配してくれた。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E22",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 7
+    },
+    {
+      "id": "p3808",
+      "phrase": "spring for ~",
+      "meaning": "奮発して～の代金を払う",
+      "scene": "少し高いものを気前よく購入する時",
+      "example1": "I decided to spring for a better seat.",
+      "example2": "They sprang for a nice dinner after the exam.",
+      "exampleTranslations": [
+        "いい席に奮発することにした。",
+        "試験の後で彼らは良い夕食に奮発した。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E22",
+      "frequency": "general",
+      "register": "casual",
+      "sourceOrder": 8
+    },
+    {
+      "id": "p3809",
+      "phrase": "dump all over ~",
+      "meaning": "～をひどくけなす",
+      "scene": "相手の案や成功を強く批判する時",
+      "example1": "Please don't dump all over my idea before I finish.",
+      "example2": "He dumped all over her presentation afterward.",
+      "exampleTranslations": [
+        "最後まで聞く前に私の案をけなさないで。",
+        "彼はその後で彼女の発表をこき下ろした。"
+      ],
+      "type": "phrasal verb",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E22",
+      "frequency": "general",
+      "register": "casual",
+      "sourceOrder": 10
+    },
+    {
+      "id": "p3810",
+      "phrase": "a practice run",
+      "meaning": "予行演習",
+      "scene": "本番の前に練習する時",
+      "example1": "Let's do a practice run before the interview.",
+      "example2": "The presentation went better after one practice run.",
+      "exampleTranslations": [
+        "面接の前に予行演習をしよう。",
+        "一度練習したら発表はうまくいった。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E22",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 11
+    },
+    {
+      "id": "p3811",
+      "phrase": "make a fortune",
+      "meaning": "大金を稼ぐ",
+      "scene": "仕事や商売で大きな利益を得る時",
+      "example1": "She made a fortune selling her company.",
+      "example2": "You won't make a fortune from this small shop.",
+      "exampleTranslations": [
+        "彼女は会社を売って大金を稼いだ。",
+        "この小さな店で大儲けはできないよ。"
+      ],
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E22",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 12
+    },
+    {
+      "id": "p3812",
+      "phrase": "take someone's calls",
+      "meaning": "人からの電話に応じる",
+      "scene": "相手からの電話を受けるか話す時",
+      "example1": "She hasn't taken my calls all week.",
+      "example2": "He finally took my call this morning.",
+      "exampleTranslations": [
+        "彼女は一週間ずっと私の電話に出てくれない。",
+        "今朝、彼はようやく私の電話に出てくれた。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E23",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 1
+    },
+    {
+      "id": "p3813",
+      "phrase": "grab a bite",
+      "meaning": "軽く食事をする",
+      "scene": "手早く食事を取る時",
+      "example1": "Let's grab a bite before the movie.",
+      "example2": "We grabbed a bite near the station.",
+      "exampleTranslations": [
+        "映画の前に軽く食べよう。",
+        "駅の近くで軽く食事をした。"
+      ],
+      "type": "idiom",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S05E23",
+      "frequency": "frequent",
+      "register": "casual",
+      "sourceOrder": 2
+    },
+    {
+      "id": "p3814",
+      "phrase": "forget this ever happened",
+      "meaning": "このことはなかったことにする",
+      "scene": "気まずい出来事を忘れる提案をする時",
+      "example1": "Can we forget this ever happened?",
+      "example2": "I'd rather forget that meeting ever happened.",
+      "exampleTranslations": [
+        "このことはなかったことにできる？",
+        "あの会議はなかったことにしたい。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E23",
+      "frequency": "general",
+      "register": "casual",
+      "sourceOrder": 5
+    },
+    {
+      "id": "p3815",
+      "phrase": "just letting you know ~",
+      "meaning": "念のため伝えておくと～",
+      "scene": "事前に情報や意図を相手へ知らせる時",
+      "example1": "Just letting you know, I'll be ten minutes late.",
+      "example2": "I'm just letting you know that the schedule changed.",
+      "exampleTranslations": [
+        "念のため言うと、10分遅れるよ。",
+        "予定が変わったことを知らせておくね。"
+      ],
+      "type": "pattern",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S05E23",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 7
+    },
+    {
+      "id": "p3816",
+      "phrase": "a minor setback",
+      "meaning": "ちょっとしたつまずき",
+      "scene": "計画に小さな問題が生じた時",
+      "example1": "The delay is a minor setback, not a disaster.",
+      "example2": "We had a minor setback, but we can still finish today.",
+      "exampleTranslations": [
+        "遅れは小さなつまずきで、大失敗ではない。",
+        "少し問題はあったけど、今日中に終えられる。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E23",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 8
+    },
+    {
+      "id": "p3817",
+      "phrase": "can't put a price on ~",
+      "meaning": "～の価値は金額で測れない",
+      "scene": "大切な経験や支援の価値を表す時",
+      "example1": "You can't put a price on peace of mind.",
+      "example2": "I can't put a price on your help this week.",
+      "exampleTranslations": [
+        "安心には値段を付けられない。",
+        "今週助けてくれたことの価値はお金では測れない。"
+      ],
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E23",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 10
+    },
+    {
+      "id": "p3818",
+      "phrase": "overcharge someone for ~",
+      "meaning": "～について人に高額請求する",
+      "scene": "料金が相場より高いと感じる時",
+      "example1": "They overcharged us for the parking.",
+      "example2": "I think they overcharged me for the repair.",
+      "exampleTranslations": [
+        "駐車料金を高く請求された。",
+        "修理代を高く請求されたと思う。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E24",
+      "frequency": "general",
+      "register": "neutral",
+      "sourceOrder": 2
+    },
+    {
+      "id": "p3819",
+      "phrase": "I'm your man",
+      "meaning": "その役なら私に任せて",
+      "scene": "仕事や頼み事に進んで名乗り出る時",
+      "example1": "Need someone to drive? I'm your man.",
+      "example2": "If you need help with the numbers, I'm your man.",
+      "exampleTranslations": [
+        "運転する人が必要？僕に任せて。",
+        "数字の作業を手伝うなら僕に任せて。"
+      ],
+      "type": "idiom",
+      "priorityText": "★★☆",
+      "priority": 2,
+      "source": "Friends",
+      "episode": "S05E24",
+      "frequency": "general",
+      "register": "casual",
+      "sourceOrder": 3
+    },
+    {
+      "id": "p3820",
+      "phrase": "take a hike",
+      "meaning": "あっちへ行け／立ち去れ",
+      "scene": "相手を強く追い払う時",
+      "example1": "He told the pushy salesman to take a hike.",
+      "example2": "If they keep bothering you, tell them to take a hike.",
+      "exampleTranslations": [
+        "彼はしつこい販売員にあっちへ行けと言った。",
+        "しつこくされたら、立ち去るよう言いなよ。"
+      ],
+      "type": "idiom",
+      "priorityText": "★☆☆",
+      "priority": 1,
+      "source": "Friends",
+      "episode": "S05E24",
+      "frequency": "limited",
+      "register": "slang",
+      "sourceOrder": 4
+    },
+    {
+      "id": "p3821",
+      "phrase": "one thing at a time",
+      "meaning": "一度に一つずつ",
+      "scene": "複数の用件を順に進める時",
+      "example1": "One thing at a time; let's finish this first.",
+      "example2": "We'll answer every question, one thing at a time.",
+      "exampleTranslations": [
+        "一度に一つずつ。まずこれを終わらせよう。",
+        "質問には全部答えるよ、一つずつね。"
+      ],
+      "type": "phrase",
+      "priorityText": "★★★",
+      "priority": 3,
+      "source": "Friends",
+      "episode": "S05E24",
+      "frequency": "frequent",
+      "register": "neutral",
+      "sourceOrder": 5
     }
   ],
   "dialogues": [
@@ -5273,7 +6050,6 @@
         "p600",
         "p609",
         "p606",
-        "p612",
         "p610",
         "p622"
       ]
