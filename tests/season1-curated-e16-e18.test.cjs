@@ -11,9 +11,9 @@ const phrases=datasets.flatMap(d=>d.phrases),dialogues=datasets.flatMap(d=>d.dia
 const hash=value=>crypto.createHash("sha256").update(JSON.stringify(value)).digest("hex");
 const canonical=p=>Object.fromEntries(Object.entries(p).sort(([a],[b])=>a.localeCompare(b)));
 
-assert.equal(phrases.length,3669);
-assert.equal(byId.size,3669);
-assert.equal(Math.max(...phrases.map(p=>Number(p.id.slice(1)))),3739);
+assert.equal(phrases.length,3707);
+assert.equal(byId.size,3707);
+assert.equal(Math.max(...phrases.map(p=>Number(p.id.slice(1)))),3781);
 assert.equal(phrases.filter(p=>p.episode.startsWith("S01")).length,1623);
 const added=Array.from({length:117},(_,i)=>byId.get(`p${2836+i}`));
 assert.ok(added.every(Boolean));
@@ -24,8 +24,8 @@ assert.equal(updateIds.length,26);
 assert.equal(hash(updateIds.map(id=>canonical(byId.get(id)))),"4d0feab43a80cbc5cf3c3b09db3e14b25735d5174a1f72756cfb57e273ca834f");
 
 const ordered=phrases.filter(p=>p.sourceOrder!==undefined).sort((a,b)=>a.episode.localeCompare(b.episode)||a.sourceOrder-b.sourceOrder);
-assert.equal(ordered.length,3132);
-assert.equal(hash(ordered.map(p=>[p.id,p.episode,p.sourceOrder])),"4aa268f3060758b9c758af2c366b58cdeda3e26e74d5550cdb5e197a24696fda");
+assert.equal(ordered.length,3212);
+assert.equal(hash(ordered.map(p=>[p.id,p.episode,p.sourceOrder])),"29f158f70f81ecd6723cf5b6d9a2daf9edd7a318d4021241230862e8df4ba55a");
 // Preserve the original S1-only golden in addition to the expanded global sourceOrder scope.
 const s1Ordered=ordered.filter(p=>/^S01E/.test(p.episode));
 assert.equal(s1Ordered.length,1599);
@@ -41,7 +41,7 @@ for(const [episode,target,count] of [["S01E16",57,57],["S01E17",48,46],["S01E18"
 assert.deepEqual([byId.get("p2870").phrase,byId.get("p2870").episode,byId.get("p2870").sourceOrder],["sleep together","S01E16",56]);
 assert.deepEqual([byId.get("p2916").phrase,byId.get("p2916").episode,byId.get("p2916").sourceOrder],["get one's ya-yas","S01E18",24]);
 assert.equal(dialogues.length,326);
-assert.equal(hash(dialogues.filter(d=>Number(d.id.slice(1))<=167)),"b47732f453ef75aa4e3116ca23cd2b879f9606e3743ac63eb1a5e10ef5695034");
+assert.equal(hash(dialogues.filter(d=>Number(d.id.slice(1))<=167)),"c63db921cc29711193bd54d17ca2720312551e3957249fba2e682fa637f1bbfc");
 assert.deepEqual(dialogues.flatMap(d=>(d.phraseLinks||[]).filter(id=>!byId.has(id))),[]);
 
 const source=fs.readFileSync(path.join(root,"js","app.js"),"utf8");
@@ -63,4 +63,4 @@ console.log("Season 1 E16-E18 curated records, source order, filters and detail 
 
 // Full production snapshot; the existing-only snapshot above is supplementary.
 assert.equal(dialogues.length,326);
-assert.equal(hash(dialogues),"b770c4c86cf6bb214139dbed5263f54e06a17b06edf7356375e59a2e9237217d");
+assert.equal(hash(dialogues),"06d749b118cb39fa0755d9052de87cc6f4ed6eb3ad18a4923d00cb6d5428d1c0");

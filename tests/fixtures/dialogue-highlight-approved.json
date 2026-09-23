@@ -700,22 +700,6 @@
       ]
     },
     {
-      "dialogueId": "d72",
-      "phraseId": "p561",
-      "classification": "VALID_VARIANT",
-      "reason": "困難からの復帰を話者について表す比喩。機器修理後に自分が立ち直ったという文脈。",
-      "ranges": [
-        {
-          "lineIndex": 9,
-          "text": "I’m back on"
-        },
-        {
-          "lineIndex": 9,
-          "text": "feet"
-        }
-      ]
-    },
-    {
       "dialogueId": "d73",
       "phraseId": "p565",
       "classification": "VALID_VARIANT",

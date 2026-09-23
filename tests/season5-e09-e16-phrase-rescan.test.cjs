@@ -9,10 +9,10 @@ const phrases=seasons.flatMap(season=>season.phrases),dialogues=seasons.flatMap(
 const byId=new Map(phrases.map(record=>[record.id,record]));
 const hash=value=>crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const canon=record=>Object.fromEntries(Object.keys(record).sort().map(key=>[key,record[key]]));
-const newIds=Array.from({length:49},(_,i)=>`p${3691+i}`);
-const keepIds=['p510','p486','p502','p495','p553','p535','p537','p519','p551','p480','p511','p493','p509','p523','p521','p546','p497','p530','p543','p508','p536','p507','p504','p484','p496','p526','p541','p557','p479','p533','p516','p528','p488','p483'];
-const removedIds=['p490','p512','p499','p531'];
-const episodeCounts={S05E01:11,S05E02:13,S05E03:8,S05E04:8,S05E05:12,S05E06:10,S05E07:18,S05E08:4};
+const newIds=Array.from({length:42},(_,i)=>`p${3740+i}`);
+const keepIds=['p545','p548','p554','p539','p542','p559','p524','p506','p556','p529','p487','p476','p474','p500','p525','p475','p544','p481','p534','p520','p538','p532','p492','p515','p501','p560','p549','p562','p482','p478','p603','p594','p585','p583','p618','p564','p582'];
+const removedIds=['p477','p518','p527','p561'];
+const episodeCounts={S05E09:10,S05E10:16,S05E11:9,S05E12:10,S05E13:7,S05E14:9,S05E15:9,S05E16:10};
 const required=['id','phrase','meaning','scene','example1','example2','exampleTranslations','type','priorityText','priority','source','episode','frequency','register','sourceOrder'];
 
 assert.equal(phrases.length,3707);
@@ -25,9 +25,9 @@ for(const id of newIds){
  for(const field of required)assert.ok(Object.hasOwn(record,field),`${id}.${field}`);
  assert.equal(record.source,'Friends');assert.equal(record.exampleTranslations.length,2);
 }
-const accepted=[...newIds,...keepIds,'p503'].map(id=>byId.get(id));
-assert.equal(accepted.length,84);assert.ok(accepted.every(Boolean));
-assert.equal(hash([...accepted].sort((a,b)=>+a.id.slice(1)- +b.id.slice(1)).map(canon)),'f08dc04b011b3ad6fdf4deec6d92571311bf03f560374b5190e6020c61295d8a','Final Package completedRecords');
+const accepted=[...newIds,...keepIds,'p621'].map(id=>byId.get(id));
+assert.equal(accepted.length,80);assert.ok(accepted.every(Boolean));
+assert.equal(hash([...accepted].sort((a,b)=>+a.id.slice(1)- +b.id.slice(1)).map(canon)),'2fb90dcef03b7be5118bb3f2180e4fbd96429d94a1714fbe8861b51877c5567b','Final Package completedRecords');
 const ordered=[];
 for(const [episode,count] of Object.entries(episodeCounts)){
  const rows=phrases.filter(record=>record.episode===episode).sort((a,b)=>a.sourceOrder-b.sourceOrder);
@@ -35,15 +35,16 @@ for(const [episode,count] of Object.entries(episodeCounts)){
  assert.deepEqual(rows.map(record=>record.sourceOrder),Array.from({length:count},(_,i)=>i+1),`${episode} sourceOrder unique and gapless`);
  ordered.push(...rows.map(record=>[record.id,record.episode,record.sourceOrder]));
 }
-assert.equal(ordered.length,84);
-assert.equal(hash(ordered),'7bf2443842017e953ddf3214bab8eac5b72028db97bac44a0b963e3771b3e76d','Final Package sourceOrder');
-assert.equal(byId.get('p503').episode,'S05E03');assert.equal(byId.get('p503').sourceOrder,3);
-assert.equal(byId.get('p503').meaning,'本気の関係ではなく気軽に遊ぶ／付き合う');
-assert.equal(byId.get('p3353').meaning,'ふざける');
+assert.equal(ordered.length,80);
+assert.equal(hash(ordered),'9aec08b0037c47cd93d8eb93502cf92ee59c0a9e2348737d57f5240b250ed0c7','Final Package sourceOrder');
+assert.equal(byId.get('p621').episode,'S05E16');assert.equal(byId.get('p621').sourceOrder,9);
+assert.equal(byId.get('p621').meaning,'訴え・告発などを立証して成立させる');
 const expectedDialogues={
- d68:{links:['p520','p502','p554','p505','p557'],lines:'83a63e91f7826eeeaf1754a09a2d947a839bd37a25a340d2e2b3766bae6ce1bf'},
- d75:{links:['p513','p573','p474','p575','p576'],lines:'fffef65c34bd86f50e650eac44ac37f427552254fa56b4f40a3e5254842dd235'},
- d83:{links:['p608','p595','p579','p588','p543','p578','p619'],lines:'33403dbe91ae43c1725fef4e55310c49b4be4e4f6de74edde2a77c8ea27acee1'}
+ d65:{links:['p479','p500','p485','p514','p480','p511'],lines:'13637a66a0a1dc36f20cf7c55c1e42bc74e735e686cc975e4d72cd1ac8cf267a'},
+ d69:{links:['p533','p556','p542','p559','p544','p553'],lines:'c315df2f7309be514e9e442f43f949facdb6a370f13b0dddf4a63051a150c74a'},
+ d70:{links:['p605','p610','p528','p530'],lines:'2e5e8ed51722dd40a79411100f554d1d9ccb8dc518840150b2d3efc08e9b9c03'},
+ d72:{links:['p591','p567','p568','p580','p572','p575'],lines:'a7477bc633dee4d2c8907b25d1b3a0b384c0eb1bdd0bcce6aa414910dfdf0be5'},
+ d77:{links:['p538','p585','p594','p508','p615','p521'],lines:'346da34e3f187840a26f59689de2e10cc736a0c600be4fe4b40c7a6b9ef943e4'}
 };
 for(const [id,want] of Object.entries(expectedDialogues)){
  const dialogue=dialogues.find(item=>item.id===id);assert.ok(dialogue);
@@ -51,4 +52,4 @@ for(const [id,want] of Object.entries(expectedDialogues)){
  assert.equal(hash(dialogue.lines),want.lines,`${id} English and Japanese unchanged`);
 }
 assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!byId.has(id))),[],'no dangling Dialogue references');
-console.log('S5 E01-E08 Final Package: 49 NEW, 1 UPDATE, 34 KEEP, 4 REMOVE; 84 sourceOrder entries PASS');
+console.log('S5 E09-E16 Final Package: 42 NEW, 1 UPDATE, 37 KEEP, 4 REMOVE; 80 sourceOrder entries PASS');
