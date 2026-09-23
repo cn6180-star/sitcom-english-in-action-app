@@ -22,8 +22,8 @@ for(const row of rows){
     if(!intentionalAffix&&(/[A-Za-z]/.test(text[range.start-1]||'')||/[A-Za-z]/.test(text[range.end]||'')))partialTokens.push(`${row.dialogueId}|${row.phraseId}|${range.text}`);
   }
 }
-assert.equal(dialogues.length,326);assert.equal(rows.length,2227);
-assert.deepEqual({auto,explicit,excluded},{auto:1973,explicit:248,excluded:6});
+assert.equal(dialogues.length,326);assert.equal(rows.length,2223);
+assert.deepEqual({auto,explicit,excluded},{auto:1969,explicit:248,excluded:6});
 assert.deepEqual(partialTokens,[],'no production selected range may split a word token');
 Object.keys(exclusions).forEach(key=>assert.ok(rows.some(row=>row.dialogueId+'|'+row.phraseId===key),'no stale exclusion'));
 
@@ -35,7 +35,7 @@ for(const dialogue of dialogues){
   }
 }
 const nonS1=rows.filter(row=>byId.get(row.dialogueId).season!=='Season 1').map(row=>[row.dialogueId,row.phraseId,row.ranges.map(range=>[range.lineIndex,range.start,range.end,range.text,range.source])]);
-assert.equal(nonS1.length,1350);assert.equal(hash(nonS1),'11949feba4bacd0ff3da8bf4195b7984e91bea974a98616f8e4dcff1fe5f26a5','non-S1 matcher ranges match the reviewed Notion Dialogue synchronization and S3 cleanup implementation');
+assert.equal(nonS1.length,1346);assert.equal(hash(nonS1),'e81d8330ef245754f96d5931cff57f17be32f4d207b5193fe44a99eec6f33d10','non-S1 matcher ranges match the reviewed Notion Dialogue synchronization and S3 cleanup implementation');
 
 const expectedProductionRanges={
   'd50|p448':['handled'],
@@ -105,4 +105,4 @@ for(const text of ['snapshot','snappish']){
   assert.deepEqual(plain(c.dialoguePhraseMatchResults(dialogue,[phraseById.get('p50')])),[],'snap word boundary');
 }
 
-console.log(`Highlight coverage: ${auto} auto, ${explicit} explicit, ${excluded} approved mismatches; 2,227 links, offsets, overlap and non-S1 integrity PASS`);
+console.log(`Highlight coverage: ${auto} auto, ${explicit} explicit, ${excluded} approved mismatches; 2,223 links, offsets, overlap and non-S1 integrity PASS`);

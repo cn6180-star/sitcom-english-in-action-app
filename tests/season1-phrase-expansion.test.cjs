@@ -14,9 +14,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const dialogueById=new Map(dialogues.map(dialogue=>[dialogue.id,dialogue]));
 
-assert.equal(phrases.length,3624);
-assert.equal(new Set(phrases.map(phrase=>phrase.id)).size,3624);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),3690);
+assert.equal(phrases.length,3669);
+assert.equal(new Set(phrases.map(phrase=>phrase.id)).size,3669);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),3739);
 assert.equal(byId.has("p297"),false);
 assert.equal(byId.has("p69"),true);
 
@@ -61,11 +61,11 @@ assert.equal(dialogueById.get("d37").phraseLinks.includes("p297"),false);
 assert.equal(dialogueById.get("d37").phraseLinks.includes("p69"),true);
 assert.equal(
   crypto.createHash("sha256").update(JSON.stringify(dialogues.filter(d=>Number(d.id.slice(1))<=167))).digest("hex"),
-  "2146c83ab09844ea0536f7310af68aff803f856f208c6174bf35b8e59b175706"
+  "b47732f453ef75aa4e3116ca23cd2b879f9606e3743ac63eb1a5e10ef5695034"
 );
 
 console.log("Season 1 Phrase expansion tests passed");
 
 // Full production snapshot; the existing-only snapshot above is supplementary.
 assert.equal(dialogues.length,326);
-assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"f03b7b97e9444044451ddb46ae2ca0997337aa68f63e73cbae7d25e06ec28362");
+assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"b770c4c86cf6bb214139dbed5263f54e06a17b06edf7356375e59a2e9237217d");
