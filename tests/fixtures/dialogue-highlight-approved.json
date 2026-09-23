@@ -645,18 +645,6 @@
       ]
     },
     {
-      "dialogueId": "d49",
-      "phraseId": "p454",
-      "classification": "VALID_BUT_OVERRIDE",
-      "reason": "example2に明示されたthere’s省略。安心させる同一構文だが全there isの削除はしない。",
-      "ranges": [
-        {
-          "lineIndex": 6,
-          "text": "No shame in"
-        }
-      ]
-    },
-    {
       "dialogueId": "d51",
       "phraseId": "p466",
       "classification": "VALID_BUT_OVERRIDE",

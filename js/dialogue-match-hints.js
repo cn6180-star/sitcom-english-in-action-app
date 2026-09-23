@@ -36,7 +36,6 @@ const DIALOGUE_EXPLICIT_MATCH_HINTS=Object.freeze({
   "d44|p408":Object.freeze({"dialogueId":"d44","phraseId":"p408","candidateLineIndex":5,"highlightRanges":[{"matchText":"call it first"}],"overrideMatcher":true}),
   "d45|p376":Object.freeze({"dialogueId":"d45","phraseId":"p376","candidateLineIndex":5,"highlightRanges":[{"matchText":"Don’t take this the wrong way"}],"overrideMatcher":true}),
   "d49|p453":Object.freeze({"dialogueId":"d49","phraseId":"p453","candidateLineIndex":5,"highlightRanges":[{"matchText":"What a shame"}],"overrideMatcher":true}),
-  "d49|p454":Object.freeze({"dialogueId":"d49","phraseId":"p454","candidateLineIndex":6,"highlightRanges":[{"matchText":"No shame in"}],"overrideMatcher":true}),
   "d51|p466":Object.freeze({"dialogueId":"d51","phraseId":"p466","candidateLineIndex":4,"highlightRanges":[{"matchText":"in a pickle"}],"overrideMatcher":true}),
   "d71|p547":Object.freeze({"dialogueId":"d71","phraseId":"p547","candidateLineIndex":2,"highlightRanges":[{"matchText":"You’ve got a point"}],"overrideMatcher":true}),
   "d80|p614":Object.freeze({"dialogueId":"d80","phraseId":"p614","candidateLineIndex":0,"highlightRanges":[{"matchText":"I know this may sound"},{"matchText":"but"}],"overrideMatcher":true}),

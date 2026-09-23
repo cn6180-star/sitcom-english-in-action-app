@@ -22,8 +22,8 @@ for(const row of rows){
     if(!intentionalAffix&&(/[A-Za-z]/.test(text[range.start-1]||'')||/[A-Za-z]/.test(text[range.end]||'')))partialTokens.push(`${row.dialogueId}|${row.phraseId}|${range.text}`);
   }
 }
-assert.equal(dialogues.length,326);assert.equal(rows.length,2231);
-assert.deepEqual({auto,explicit,excluded},{auto:1976,explicit:249,excluded:6});
+assert.equal(dialogues.length,326);assert.equal(rows.length,2227);
+assert.deepEqual({auto,explicit,excluded},{auto:1973,explicit:248,excluded:6});
 assert.deepEqual(partialTokens,[],'no production selected range may split a word token');
 Object.keys(exclusions).forEach(key=>assert.ok(rows.some(row=>row.dialogueId+'|'+row.phraseId===key),'no stale exclusion'));
 
@@ -35,10 +35,9 @@ for(const dialogue of dialogues){
   }
 }
 const nonS1=rows.filter(row=>byId.get(row.dialogueId).season!=='Season 1').map(row=>[row.dialogueId,row.phraseId,row.ranges.map(range=>[range.lineIndex,range.start,range.end,range.text,range.source])]);
-assert.equal(nonS1.length,1354);assert.equal(hash(nonS1),'a203eee5dd5d5b2de371978acaf461b84701cd0cd50695be2cd46c959aafb87e','non-S1 matcher ranges match the reviewed Notion Dialogue synchronization and S3 cleanup implementation');
+assert.equal(nonS1.length,1350);assert.equal(hash(nonS1),'11949feba4bacd0ff3da8bf4195b7984e91bea974a98616f8e4dcff1fe5f26a5','non-S1 matcher ranges match the reviewed Notion Dialogue synchronization and S3 cleanup implementation');
 
 const expectedProductionRanges={
-  'd48|p440':['sycophants'],
   'd50|p448':['handled'],
   'd74|p564':['pivot'],
   'd104|p706':['brat','brats'],
@@ -53,7 +52,7 @@ for(const [key,expected] of Object.entries(expectedProductionRanges)){
 }
 
 const hints=plain(vm.runInContext('DIALOGUE_EXPLICIT_MATCH_HINTS',c));
-assert.equal(Object.keys(hints).length,281);assert.equal(Object.values(hints).filter(hint=>hint.overrideMatcher).length,180);
+assert.equal(Object.keys(hints).length,280);assert.equal(Object.values(hints).filter(hint=>hint.overrideMatcher).length,179);
 for(const stale of ['d56|p119','d56|p101','d203|p1289','d6|p102','d6|p95','d8|p43','d54|p55','d54|p126','d54|p118','d53|p65','d21|p174','d14|p177','d15|p192','d17|p202','d17|p250'])assert.ok(!hints[stale]);
 for(const added of ['d182|p1163','d185|p2642','d186|p2432','d190|p433','d198|p1112','d198|p1928','d200|p3088','d201|p2291','d203|p1112','d19|p249','d22|p137','d210|p1903','d15|p802'])assert.ok(hints[added]?.overrideMatcher);
 assert.ok(hints['d208|p2229']?.overrideMatcher);
@@ -106,4 +105,4 @@ for(const text of ['snapshot','snappish']){
   assert.deepEqual(plain(c.dialoguePhraseMatchResults(dialogue,[phraseById.get('p50')])),[],'snap word boundary');
 }
 
-console.log(`Highlight coverage: ${auto} auto, ${explicit} explicit, ${excluded} approved mismatches; 2,233 links, offsets, overlap and non-S1 integrity PASS`);
+console.log(`Highlight coverage: ${auto} auto, ${explicit} explicit, ${excluded} approved mismatches; 2,227 links, offsets, overlap and non-S1 integrity PASS`);
