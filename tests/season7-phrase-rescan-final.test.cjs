@@ -9,8 +9,8 @@ const counts={S07E01:5,S07E02:4,S07E03:6,S07E04:3,S07E05:6,S07E06:6,S07E07:5,S07
 const removed=['p763','p762','p764','p768','p769','p771','p772','p773','p778','p767','p779','p795','p799','p814','p818','p819','p821','p822','p823','p825','p828','p833','p837','p838'];
 const newIds=Array.from({length:80},(_,i)=>`p${3909+i}`);
 const required=['id','phrase','meaning','scene','example1','example2','exampleTranslations','type','priorityText','priority','source','episode','frequency','register','sourceOrder'];
-assert.equal(phrases.length,3924);assert.equal(byId.size,3924,'duplicate Phrase ID');
-assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4051);assert.equal(dialogues.length,326);
+assert.equal(phrases.length,3977);assert.equal(byId.size,3977,'duplicate Phrase ID');
+assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4116);assert.equal(dialogues.length,326);
 for(const id of removed)assert.ok(!byId.has(id),`${id} REMOVE`);
 for(const id of newIds){const p=byId.get(id);assert.ok(p,`${id} NEW`);for(const field of required)assert.ok(Object.hasOwn(p,field),`${id}.${field}`);assert.equal(p.exampleTranslations.length,2);}
 const accepted=s7.phrases.filter(p=>Object.hasOwn(counts,p.episode)&&Number.isInteger(p.sourceOrder));

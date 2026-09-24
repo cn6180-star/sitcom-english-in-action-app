@@ -15,9 +15,9 @@ const existingIds=['p347','p348','p349','p351','p352','p353','p354','p355','p357
 const episodeCounts={S04E01:16,S04E02:9,S04E03:20,S04E04:10,S04E05:12,S04E06:7,S04E07:10,S04E08:8};
 const required=['id','phrase','meaning','scene','example1','example2','exampleTranslations','type','priorityText','priority','source','episode','frequency','register','sourceOrder'];
 
-assert.equal(phrases.length,3924);
-assert.equal(byId.size,3924,'duplicate Phrase ID');
-assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4051);
+assert.equal(phrases.length,3977);
+assert.equal(byId.size,3977,'duplicate Phrase ID');
+assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4116);
 assert.equal(dialogues.length,326);
 assert.ok(newIds.every(id=>seasons[3].phrases.some(p=>p.id===id)),'66 NEW IDs in Season 4');
 for(const id of newIds){const p=byId.get(id);for(const field of required)assert.ok(Object.hasOwn(p,field),`${id}: ${field}`);assert.equal(p.source,'Friends');assert.equal(p.exampleTranslations.length,2);assert.equal(p.priorityText,'★'.repeat(p.priority)+'☆'.repeat(3-p.priority));}

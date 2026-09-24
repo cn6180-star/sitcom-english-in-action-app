@@ -989,18 +989,6 @@
       ]
     },
     {
-      "dialogueId": "d157",
-      "phraseId": "p1008",
-      "classification": "VALID_BUT_OVERRIDE",
-      "reason": "note/example1に明示された比喩形。beをsit likeへ一般置換しない。",
-      "ranges": [
-        {
-          "lineIndex": 0,
-          "text": "sitting there like a lump"
-        }
-      ]
-    },
-    {
       "dialogueId": "d162",
       "phraseId": "p1007",
       "classification": "VALID_VARIANT",
