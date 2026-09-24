@@ -22,8 +22,8 @@ for(const row of rows){
     if(!intentionalAffix&&(/[A-Za-z]/.test(text[range.start-1]||'')||/[A-Za-z]/.test(text[range.end]||'')))partialTokens.push(`${row.dialogueId}|${row.phraseId}|${range.text}`);
   }
 }
-assert.equal(dialogues.length,326);assert.equal(rows.length,2176);
-assert.deepEqual({auto,explicit,excluded},{auto:1926,explicit:244,excluded:6});
+assert.equal(dialogues.length,326);assert.equal(rows.length,2171);
+assert.deepEqual({auto,explicit,excluded},{auto:1921,explicit:244,excluded:6});
 assert.deepEqual(partialTokens,[],'no production selected range may split a word token');
 Object.keys(exclusions).forEach(key=>assert.ok(rows.some(row=>row.dialogueId+'|'+row.phraseId===key),'no stale exclusion'));
 
@@ -35,14 +35,13 @@ for(const dialogue of dialogues){
   }
 }
 const nonS1=rows.filter(row=>byId.get(row.dialogueId).season!=='Season 1').map(row=>[row.dialogueId,row.phraseId,row.ranges.map(range=>[range.lineIndex,range.start,range.end,range.text,range.source])]);
-assert.equal(nonS1.length,1299);assert.equal(hash(nonS1),'1d26f545e345d25dd5920a39472d62c0e6500e1e6fb18acefff033bf2c047e83','non-S1 matcher ranges match the reviewed Notion Dialogue synchronization and S3 cleanup implementation');
+assert.equal(nonS1.length,1294);assert.equal(hash(nonS1),'8fcfc6f04cccdd98fe9fdf38a6b8301f42e485e9f0150df7f4d49f1f9114d26a','non-S1 matcher ranges match the reviewed Notion Dialogue synchronization and S3 cleanup implementation');
 
 const expectedProductionRanges={
   'd50|p448':['handled'],
   'd74|p564':['pivot'],
   'd104|p706':['brat','brats'],
   'd115|p830':['pull','pulled'],
-  'd144|p962':['bamboozled'],
   'd153|p994':['called']
 };
 for(const [key,expected] of Object.entries(expectedProductionRanges)){
@@ -105,4 +104,4 @@ for(const text of ['snapshot','snappish']){
   assert.deepEqual(plain(c.dialoguePhraseMatchResults(dialogue,[phraseById.get('p50')])),[],'snap word boundary');
 }
 
-console.log(`Highlight coverage: ${auto} auto, ${explicit} explicit, ${excluded} approved mismatches; 2,176 links, offsets, overlap and non-S1 integrity PASS`);
+console.log(`Highlight coverage: ${auto} auto, ${explicit} explicit, ${excluded} approved mismatches; 2,171 links, offsets, overlap and non-S1 integrity PASS`);

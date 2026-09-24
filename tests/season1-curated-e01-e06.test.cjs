@@ -14,9 +14,9 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,3866);
-assert.equal(phraseIds.size,3866);
-assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),3988);
+assert.equal(phrases.length,3924);
+assert.equal(phraseIds.size,3924);
+assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),4051);
 assert.equal(phrases.filter(phrase=>phrase.episode.startsWith("S01E")).length,1623);
 
 const e01e03Ids=Array.from({length:106},(_,index)=>`p${2341+index}`);
@@ -68,11 +68,11 @@ assert.deepEqual(dialogues.flatMap(dialogue=>(dialogue.phraseLinks||[])
   .filter(id=>!phraseIds.has(id)).map(id=>`${dialogue.id}:${id}`)),[]);
 assert.equal(
   crypto.createHash("sha256").update(JSON.stringify(dialogues.filter(d=>Number(d.id.slice(1))<=167))).digest("hex"),
-  "d14c44b70222e6c2880f556f04d568cc8063eaa99cace6f832420f71aac141d6"
+  "8c3289733bdf9cef958b7af354fc74dfffb35629edc6e6d8272f992b8349c2d2"
 );
 
 console.log("Season 1 E01-E06 curated Phrase tests passed");
 
 // Full production snapshot; the existing-only snapshot above is supplementary.
 assert.equal(dialogues.length,326);
-assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"60121d13546390cf03cf144d6e90cc66275b4b82a2cdd570184cb80d8c8b93fc");
+assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"1329bdf07f5b5364ee5d605ea3f49aea749c9ea43e3c1fe45dd577218d5da62b");
