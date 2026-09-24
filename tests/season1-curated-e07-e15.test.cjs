@@ -10,18 +10,18 @@ const datasets=Array.from({length:9},(_,i)=>JSON.parse(fs.readFileSync(path.join
 const phrases=datasets.flatMap(d=>d.phrases),dialogues=datasets.flatMap(d=>d.dialogues);
 const byId=new Map(phrases.map(p=>[p.id,p]));
 const hash=value=>crypto.createHash("sha256").update(JSON.stringify(value)).digest("hex");
-assert.equal(phrases.length,3810);
-assert.equal(byId.size,3810);
-assert.equal(Math.max(...phrases.map(p=>Number(p.id.slice(1)))),3908);
+assert.equal(phrases.length,3866);
+assert.equal(byId.size,3866);
+assert.equal(Math.max(...phrases.map(p=>Number(p.id.slice(1)))),3988);
 const added=Array.from({length:302},(_,i)=>byId.get(`p${2534+i}`));
 assert.ok(added.every(Boolean));
 // Golden from the immutable curated drafts, with the prior-NEW update applied and IDs assigned.
 const body=p=>Object.fromEntries(Object.entries(p).filter(([key])=>key!=="sourceOrder").sort(([a],[b])=>a.localeCompare(b)));
 assert.equal(hash(added.map(body)),"46f969223475399f1cc156bf0d444ac7fa45d16d2ddad8a1b29fcd50ec124ee2");
 const ordered=phrases.filter(p=>p.sourceOrder!==undefined).sort((a,b)=>a.episode.localeCompare(b.episode)||a.sourceOrder-b.sourceOrder);
-assert.equal(ordered.length,3475);
+assert.equal(ordered.length,3616);
 // Golden by ref from Astra_S1_E07-E15_Source_Order_Implementation_Package.json.
-assert.equal(hash(ordered.map(p=>[p.id,p.episode,p.sourceOrder])),"0603f5a406e7106b88f446f9f3d357c377589ba1ba70db903f87192a31172bad");
+assert.equal(hash(ordered.map(p=>[p.id,p.episode,p.sourceOrder])),"75a7c8bf2e3ea4128bb7e6ad2d2a3c5135933d976bc79a57bf134754f70e997b");
 // Preserve the original S1-only golden in addition to the expanded global sourceOrder scope.
 const s1Ordered=ordered.filter(p=>/^S01E/.test(p.episode));
 assert.equal(s1Ordered.length,1599);
@@ -36,7 +36,7 @@ for(const [id,episode,order] of [["p1226","S01E13",51],["p1230","S01E11",56],["p
  assert.equal(byId.get(id).episode,episode);assert.equal(byId.get(id).sourceOrder,order);
 }
 assert.equal(dialogues.length,326);
-assert.equal(hash(dialogues.filter(d=>Number(d.id.slice(1))<=167)),"71834ae359e4d65e3f13d1d07918c1e1660ae03e0762281a4e3330cee7149ddf");
+assert.equal(hash(dialogues.filter(d=>Number(d.id.slice(1))<=167)),"d14c44b70222e6c2880f556f04d568cc8063eaa99cace6f832420f71aac141d6");
 assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!byId.has(id))),[]);
 
 // Exercise the actual list filter, sorter, and detail pager without browser layout dependencies.
@@ -67,7 +67,7 @@ for(let i=1;i<=15;i++){
 }
 for(const episode of ["S02E01"]){const rows=phrases.filter(p=>p.episode===episode);assert.deepEqual(context.sortedPhrasesForDisplay(rows).map(p=>p.id),rows.map(p=>p.id));}
 context.filters.phrase.episode="ALL";context.filters.phrase.season="ALL";
-assert.equal(context.filteredPhrases().length,3810);
+assert.equal(context.filteredPhrases().length,3866);
 assert.deepEqual(plain(context.filteredPhrases(true).map(p=>p.id)),[added[0].id]);
 for(const [key,value] of [["type","phrase"],["frequency","frequent"],["register","neutral"]]){
  context.filters.phrase[key]=value;const filtered=context.filteredPhrases();
@@ -91,4 +91,4 @@ console.log("Season 1 E07-E15 curated records, source order, filters and detail 
 
 // Full production snapshot; the existing-only snapshot above is supplementary.
 assert.equal(dialogues.length,326);
-assert.equal(hash(dialogues),"e72fd771cd095e7ad529569ca61c5eb0c70a4bd85601a267f208656c27a188a6");
+assert.equal(hash(dialogues),"60121d13546390cf03cf144d6e90cc66275b4b82a2cdd570184cb80d8c8b93fc");
