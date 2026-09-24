@@ -3,7 +3,7 @@
 const isIPadOS=/\biPad\b/i.test(navigator.userAgent)||(navigator.maxTouchPoints>1&&/\bMac(?:intosh|Intel)\b/i.test(`${navigator.userAgent} ${navigator.platform}`));
 document.documentElement.classList.toggle("ipad-window-ui",isIPadOS);
 
-const DATA_FILES = Array.from({length:9},(_,i)=>`data/season${i+1}.json`);
+const DATA_FILES = Array.from({length:10},(_,i)=>`data/season${i+1}.json`);
 const SERIES = [
   {id:"friends",name:"Friends",role:"For Everyday English",description:"自然な日常会話やリアクション、句動詞、そのまま使える会話表現を学ぶシリーズです。",available:true},
   {id:"tbbt",name:"The Big Bang Theory",role:"For Advanced English",description:"高度な語彙や知的な表現、専門的・学術的な表現を通して、日常英語より一段上の英語を学ぶシリーズです。",available:false}
