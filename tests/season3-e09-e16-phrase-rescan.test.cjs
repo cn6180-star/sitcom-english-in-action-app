@@ -16,8 +16,8 @@ const existingIds=['p289','p303','p290','p320','p305','p294','p295','p296','p298
 const newIds=Array.from({length:114},(_,index)=>`p${3301+index}`);
 const required=['id','phrase','meaning','scene','example1','example2','exampleTranslations','type','priorityText','priority','source','episode','frequency','register','sourceOrder'];
 
-assert.equal(phrases.length,3977);
-assert.equal(byId.size,3977,'duplicate Phrase ID');
+assert.equal(phrases.length,3946);
+assert.equal(byId.size,3946,'duplicate Phrase ID');
 assert.equal(Math.max(...phrases.map(record=>Number(record.id.slice(1)))),4116);
 assert.equal(phrases.filter(record=>record.episode.startsWith('S03')).length,443);
 assert.equal(dialogues.length,326);
@@ -48,12 +48,12 @@ for(const dialogue of dialogues)for(const id of dialogue.phraseLinks)assert.ok(b
 for(const [season,want] of Object.entries({
   1:'174b7916490b746ac20fd3adc80127d1662a4adab92f0985d05982c44d57677d',
   2:'70d958eaf81e468592ee7dba639f61d5d87c85bf287f54414df1f7c6cb09a16d',
-  4:'2ff6ce2e8e485a432e01649af383414d1423c8b3a0256df3f647688de0934dc0',
-  5:'c88e34f6eda8d0646a8ef97341e96dd17d2cd3bccc4856c001079083d2a7769a',
-  6:'3087db68aef0c24ca4f8c6ae55a896db2d0f0cb241a1174e76f4087d63cc8b7b',
-  7:'0f8db34dcbb9b63118bee403dcb2412765fd0a2f9fa8fcc79fbedda1290bf09b',
-  8:'6ff14a02e6129d3da3297c0c21d8a5bef3c0d8fa978152024cdfb6ecda5f6159',
-  9:'2188f2a71b246e2bc00eed45cc745b26fb9c08117095cc3b8489416f337dfb83',
+  4:'2fed7dad77e610f39fc21c9ae73e552b3da3e49d83f8786539e44bd87c19c02a',
+  5:'c2ccce601e26840eee450c7ec945b6c1ff36c24e9ccf09676e3978eb7236f069',
+  6:'54116541983468bc96a8b28fa1d5f53595b617fc0f6ff2f578afc4c28b5e9d6b',
+  7:'6c6ee278b1b408a3d64166cb38431966705451276b354d141b1bc2d9fafc4f33',
+  8:'dbf450b59e5d4425eefd16791ce9cc2e0767a8e4edceeab60efa1cfe1c286914',
+  9:'93e26ecf81c33960b49ebdafa95f8135f5af519963d1b28fcdcd0f0a8ccc894d',
 }))assert.equal(hash(seasons[Number(season)-1]),want,`Season ${season} frozen`);
 
 console.log('S3 E09-E16 Final Package: 114 NEW / 2 UPDATE / 11 KEEP / 5 MOVE / 2 REMOVE, 132 sourceOrder entries, frozen seasons and links PASS');

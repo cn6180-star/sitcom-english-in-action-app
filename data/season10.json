@@ -162,26 +162,6 @@
       "sourceOrder": 2
     },
     {
-      "id": "p4221",
-      "phrase": "go nuts",
-      "meaning": "激怒して取り乱す",
-      "scene": "怒りで冷静さを失いそうなとき",
-      "example1": "My dad will go nuts if he finds out.",
-      "example2": "The coach went nuts when we missed the deadline.",
-      "exampleTranslations": [
-        "父が知ったら激怒するよ。",
-        "締め切りに遅れて監督はひどく怒った。"
-      ],
-      "type": "idiom",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S10E02",
-      "frequency": "frequent",
-      "register": "casual",
-      "sourceOrder": 3
-    },
-    {
       "id": "p4222",
       "phrase": "be a keeper",
       "meaning": "手放したくないほど素敵な人である",
@@ -1142,26 +1122,6 @@
       "sourceOrder": 2
     },
     {
-      "id": "p4229",
-      "phrase": "give yourself a break",
-      "meaning": "自分に休みを与える／無理をしない",
-      "scene": "頑張りすぎた人に休むよう勧めるとき",
-      "example1": "You worked all weekend; give yourself a break.",
-      "example2": "I gave myself a break after the exam.",
-      "exampleTranslations": [
-        "週末ずっと働いたんだから、少し休みなよ。",
-        "試験の後は自分に休みを与えた。"
-      ],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S10E08",
-      "frequency": "frequent",
-      "register": "casual",
-      "sourceOrder": 3
-    },
-    {
       "phrase": "lose one's touch",
       "meaning": "腕が鈍る／以前ほど上手にできなくなる",
       "scene": "得意だったことに自信がなくなったとき",
@@ -1180,26 +1140,6 @@
       "frequency": "frequent",
       "register": "neutral",
       "sourceOrder": 4
-    },
-    {
-      "phrase": "way off",
-      "meaning": "大きく外れている／全然違う",
-      "scene": "予測や理解が正確でないと指摘するとき",
-      "example1": "Your estimate is way off.",
-      "example2": "I was way off about the travel time.",
-      "type": "phrase",
-      "id": "p4166",
-      "exampleTranslations": [
-        "あなたの見積もりは大きく外れている。",
-        "移動時間の見込みが全然違っていた。"
-      ],
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S10E08",
-      "frequency": "frequent",
-      "register": "neutral",
-      "sourceOrder": 5
     },
     {
       "phrase": "In your face!",
@@ -1240,26 +1180,6 @@
       "frequency": "general",
       "register": "neutral",
       "sourceOrder": 7
-    },
-    {
-      "phrase": "It occurred to me (that) ~",
-      "meaning": "ふと～と思いついた",
-      "scene": "思いがけず考えや事実に気づいたとき",
-      "example1": "It occurred to me that we hadn't invited Sam.",
-      "example2": "It just occurred to me: we can take the earlier train.",
-      "type": "pattern",
-      "id": "p4169",
-      "exampleTranslations": [
-        "サムを招待していないことにふと気づいた。",
-        "ふと思いついたんだけど、早い電車に乗れるよ。"
-      ],
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S10E08",
-      "frequency": "frequent",
-      "register": "neutral",
-      "sourceOrder": 8
     },
     {
       "phrase": "blow wide open",
@@ -1642,26 +1562,6 @@
       "sourceOrder": 4
     },
     {
-      "phrase": "be on a roll",
-      "meaning": "調子に乗ってうまくいっている",
-      "scene": "成功が続いているとき",
-      "example1": "We've won three games in a row. We're on a roll.",
-      "example2": "Keep going—you're on a roll!",
-      "type": "idiom",
-      "id": "p4185",
-      "exampleTranslations": [
-        "3試合連続で勝った。波に乗っている。",
-        "そのまま続けて。調子がいいよ！"
-      ],
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S10E11",
-      "frequency": "frequent",
-      "register": "neutral",
-      "sourceOrder": 5
-    },
-    {
       "phrase": "on my turf",
       "meaning": "私の縄張りで／私の得意分野で",
       "scene": "自分の場所や領域を主張するとき",
@@ -1960,26 +1860,6 @@
       "frequency": "frequent",
       "register": "neutral",
       "sourceOrder": 3
-    },
-    {
-      "id": "p4237",
-      "phrase": "go down that road",
-      "meaning": "その行動や関係にまた踏み込む",
-      "scene": "以前の関係や失敗につながる行動を繰り返すか考えるとき",
-      "example1": "I don't want to go down that road again.",
-      "example2": "We tried working together once; let's not go down that road again.",
-      "exampleTranslations": [
-        "また同じことを繰り返したくない。",
-        "一度一緒に仕事をしてみたけれど、またあの道は選ばないでおこう。"
-      ],
-      "type": "idiom",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S10E13",
-      "frequency": "frequent",
-      "register": "neutral",
-      "sourceOrder": 4
     },
     {
       "phrase": "That's all in the past.",

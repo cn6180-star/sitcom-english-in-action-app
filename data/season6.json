@@ -216,26 +216,6 @@
       "sourceOrder": 2
     },
     {
-      "id": "p637",
-      "phrase": "damage control",
-      "meaning": "火消し／被害の最小化",
-      "scene": "問題発生後に評判や損害を抑えようとする時",
-      "example1": "The company is doing damage control.",
-      "example2": "We need damage control now.",
-      "exampleTranslations": [
-        "その会社は事態の収拾にあたっている。",
-        "今すぐ事態を収拾する必要がある。"
-      ],
-      "type": "word",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S06E04",
-      "frequency": "general",
-      "register": "neutral",
-      "sourceOrder": 5
-    },
-    {
       "id": "p638",
       "phrase": "hang over someone’s head",
       "meaning": "気がかりとしてのしかかる",
@@ -793,26 +773,6 @@
       "sourceOrder": 6
     },
     {
-      "id": "p672",
-      "phrase": "pop into one’s head",
-      "meaning": "ふと頭に浮かぶ",
-      "scene": "アイデア・名前・記憶が突然思い浮かぶ時",
-      "example1": "Your name just popped into my head.",
-      "example2": "That idea popped into my head while showering.",
-      "exampleTranslations": [
-        "ふとあなたの名前が頭に浮かんだ。",
-        "シャワー中にそのアイデアがふと浮かんだ。"
-      ],
-      "type": "idiom",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S06E09",
-      "frequency": "general",
-      "register": "neutral",
-      "sourceOrder": 5
-    },
-    {
       "id": "p673",
       "phrase": "come around",
       "meaning": "そのうち考えを変える／受け入れる",
@@ -905,43 +865,6 @@
       "frequency": "general",
       "register": "neutral",
       "sourceOrder": 8
-    },
-    {
-      "id": "p679",
-      "phrase": "have faith in someone",
-      "meaning": "人を信じる／期待する",
-      "scene": "相手の能力や将来を信頼して励ます時",
-      "example1": "I have faith in you.",
-      "example2": "My teacher had faith in me even when I failed.",
-      "exampleTranslations": [
-        "あなたを信じてるよ。",
-        "失敗したときでさえ、先生は私を信じてくれた。"
-      ],
-      "type": "phrase",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S06E09",
-      "frequency": "general",
-      "register": "neutral",
-      "sourceOrder": 3
-    },
-    {
-      "id": "p683",
-      "phrase": "out of nowhere",
-      "meaning": "突然／前触れもなく",
-      "scene": "予想外の出来事・連絡・感情の変化が起きた時",
-      "example1": "My ex texted me out of nowhere.",
-      "example2": "Out of nowhere, it started snowing.",
-      "exampleTranslations": ["元恋人から突然メッセージが来た。", "突然、雪が降り始めた。"],
-      "type": "idiom",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S06E09",
-      "frequency": "general",
-      "register": "neutral",
-      "sourceOrder": 1
     },
     {
       "id": "p687",
@@ -1079,24 +1002,6 @@
       "frequency": "frequent",
       "register": "neutral",
       "sourceOrder": 1
-    },
-    {
-      "id": "p696",
-      "phrase": "take a hike",
-      "meaning": "あっちへ行け／失せろ",
-      "scene": "相手をくだけた言い方で追い払う時",
-      "note": "rudeな「あっち行け／失せろ」という表現だが、slang扱いまではしない。",
-      "example1": "If you don’t like it, take a hike.",
-      "example2": "He told me to take a hike.",
-      "exampleTranslations": ["気に入らないなら、出ていけ。", "彼にあっちへ行けと言われた。"],
-      "type": "idiom",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S06E10",
-      "frequency": "general",
-      "register": "casual",
-      "sourceOrder": 9
     },
     {
       "id": "p699",
@@ -2030,23 +1935,6 @@
       "frequency": "general",
       "register": "casual",
       "note": "くだけた非標準の口語形。改まった文章ではa whole otherやan entirely differentを使う。"
-    },
-    {
-      "id": "p753",
-      "phrase": "call it even",
-      "meaning": "おあいこにする／チャラにする",
-      "scene": "貸し借りや損得を帳消しにする時",
-      "example1": "You bought lunch yesterday, so let’s call it even.",
-      "example2": "I helped you move, so we’re even now.",
-      "exampleTranslations": ["昨日あなたが昼食をおごったから、これでおあいこにしよう。", "引っ越しを手伝ったから、これで貸し借りなしね。"],
-      "type": "idiom",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S06E19",
-      "frequency": "frequent",
-      "register": "neutral",
-      "sourceOrder": 4
     },
     {
       "id": "p754",
@@ -3866,7 +3754,6 @@
         "p656",
         "p635",
         "p662",
-        "p637",
         "p643"
       ]
     },
@@ -4040,8 +3927,7 @@
         "p723",
         "p651",
         "p654",
-        "p720",
-        "p679"
+        "p720"
       ]
     },
     {
@@ -4149,7 +4035,6 @@
       ],
       "phraseLinks": [
         "p701",
-        "p683",
         "p668",
         "p632",
         "p715",
@@ -4379,7 +4264,6 @@
         "p750",
         "p645",
         "p694",
-        "p696",
         "p695"
       ]
     },
@@ -4612,8 +4496,7 @@
       "phraseLinks": [
         "p734",
         "p742",
-        "p746",
-        "p672"
+        "p746"
       ]
     },
     {
@@ -4959,7 +4842,6 @@
         "p707",
         "p730",
         "p729",
-        "p753",
         "p752"
       ]
     },

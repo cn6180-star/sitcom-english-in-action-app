@@ -453,23 +453,6 @@
       "sourceOrder": 1
     },
     {
-      "id": "p887",
-      "phrase": "stay put",
-      "meaning": "その場にじっとしている／動かない",
-      "scene": "誰かにその場で待つよう指示する時",
-      "example1": "Stay put until I get back.",
-      "example2": "The kids were told to stay put.",
-      "exampleTranslations": ["戻るまでそこを動かないで。", "子どもたちはその場を動かないよう言われた。"],
-      "type": "phrase",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S08E05",
-      "frequency": "general",
-      "register": "neutral",
-      "sourceOrder": 4
-    },
-    {
       "id": "p888",
       "phrase": "last-minute",
       "meaning": "土壇場の／ギリギリの",
@@ -970,24 +953,6 @@
       "frequency": "frequent",
       "register": "neutral",
       "sourceOrder": 1
-    },
-    {
-      "id": "p921",
-      "phrase": "be due",
-      "meaning": "〜を受け取る／得ることになっている／〜が支払われる・与えられる予定である",
-      "note": "be due for ~で「そろそろ〜の時期だ／〜が起こりそうだ」という意味になる。",
-      "scene": "締切・出産予定・支払い・時期などを表す時",
-      "example1": "I’m due for a haircut.",
-      "example2": "The report is due tomorrow.",
-      "exampleTranslations": ["そろそろ髪を切らないと。", "報告書の締め切りは明日だ。"],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S08E17",
-      "frequency": "frequent",
-      "register": "neutral",
-      "sourceOrder": 6
     },
     {
       "id": "p922",
@@ -1539,23 +1504,6 @@
       "sourceOrder": 3
     },
     {
-      "id": "p957",
-      "phrase": "pick up",
-      "meaning": "知識・技能を身につける／覚える",
-      "scene": "経験を通して自然に習得する時",
-      "example1": "You’ll pick it up soon.",
-      "example2": "I picked up some Spanish while traveling.",
-      "exampleTranslations": ["すぐに覚えられるよ。", "旅行中にスペイン語を少し覚えた。"],
-      "type": "phrasal verb",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S08E20",
-      "frequency": "general",
-      "register": "neutral",
-      "sourceOrder": 4
-    },
-    {
       "id": "p958",
       "phrase": "construe A as B",
       "meaning": "AをBだと解釈する",
@@ -1726,23 +1674,6 @@
       "frequency": "general",
       "register": "neutral",
       "sourceOrder": 7
-    },
-    {
-      "id": "p970",
-      "phrase": "hear someone out",
-      "meaning": "人の話を最後まで聞く",
-      "scene": "すぐ否定せず、説明が終わるまで判断を待ってほしい時",
-      "example1": "I know it sounds crazy, but hear me out.",
-      "example2": "Before you say no, just hear her out.",
-      "exampleTranslations": ["おかしく聞こえるのは分かるけど、最後まで聞いて。", "断る前に、まず彼女の話を最後まで聞いて。"],
-      "type": "phrasal verb",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S08E23",
-      "frequency": "frequent",
-      "register": "neutral",
-      "sourceOrder": 4
     },
     {
       "id": "p971",
@@ -2505,26 +2436,6 @@
       "sourceOrder": 4
     },
     {
-      "id": "p4022",
-      "phrase": "It wouldn't hurt to ~",
-      "meaning": "～しておいても損はない",
-      "scene": "負担の少ない予防策や試みを提案するとき。",
-      "example1": "It wouldn't hurt to ask for a second opinion.",
-      "example2": "It wouldn't hurt to check the address again.",
-      "exampleTranslations": [
-        "別の人の意見も聞いて損はない。",
-        "住所をもう一度確認しておいても損はない。"
-      ],
-      "type": "pattern",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S08E13",
-      "frequency": "frequent",
-      "register": "neutral",
-      "sourceOrder": 2
-    },
-    {
       "id": "p4023",
       "phrase": "just as well",
       "meaning": "結果的にはそのほうがよかった",
@@ -2623,26 +2534,6 @@
       "frequency": "general",
       "register": "neutral",
       "sourceOrder": 8
-    },
-    {
-      "id": "p4029",
-      "phrase": "don't take this the wrong way",
-      "meaning": "悪く受け取らないでほしいんだけど",
-      "scene": "気を悪くさせるかもしれない意見を切り出すとき。",
-      "example1": "Don't take this the wrong way, but could we revise the plan?",
-      "example2": "I hope you don't take this the wrong way; I'm worried about the timing.",
-      "exampleTranslations": [
-        "悪く受け取らないでほしいんだけど、計画を見直せるかな。",
-        "気を悪くしないでほしいんだけど、時期が心配なんだ。"
-      ],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S08E15",
-      "frequency": "frequent",
-      "register": "neutral",
-      "sourceOrder": 6
     },
     {
       "id": "p4030",
@@ -3273,7 +3164,6 @@
       "phraseLinks": [
         "p940",
         "p866",
-        "p887",
         "p892",
         "p890",
         "p863"
@@ -3604,7 +3494,6 @@
         "p875",
         "p976",
         "p904",
-        "p921",
         "p878"
       ]
     },
@@ -3866,7 +3755,6 @@
         ]
       ],
       "phraseLinks": [
-        "p957",
         "p956",
         "p926",
         "p910"
@@ -3972,8 +3860,7 @@
       "phraseLinks": [
         "p871",
         "p918",
-        "p927",
-        "p970"
+        "p927"
       ]
     },
     {

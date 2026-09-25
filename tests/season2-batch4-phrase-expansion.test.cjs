@@ -14,8 +14,8 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,3977);
-assert.equal(phraseIds.size,3977);
+assert.equal(phrases.length,3946);
+assert.equal(phraseIds.size,3946);
 assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),4116);
 
 const newIds=Array.from({length:83},(_,index)=>`p${1686+index}`);
@@ -81,7 +81,7 @@ const legacyPhrases=phrases.filter(phrase=>Number(phrase.id.slice(1))<=3300);
 const exactDuplicates=Object.fromEntries([...new Set(legacyPhrases.map(phrase=>phrase.phrase.toLowerCase()))]
   .map(headline=>[headline,legacyPhrases.filter(phrase=>phrase.phrase.toLowerCase()===headline).map(phrase=>phrase.id).sort()])
   .filter(([,ids])=>ids.length>1));
-assert.deepEqual(exactDuplicates,{
+assert.deepEqual(exactDuplicates,Object.fromEntries(Object.entries({
   "you got me.":["p1371","p2942"],
   "at the end of the day":["p110","p2811"],
   "back up":["p1787","p2735"],
@@ -116,7 +116,7 @@ assert.deepEqual(exactDuplicates,{
   "the third degree":["p3268","p470"],
   "watch ~":["p3016","p647"],
   "work out":["p1128","p1584"]
-});
+}).map(([headline,ids])=>[headline,ids.filter(id=>!new Set(["p423","p470","p502","p536","p557","p488","p542","p500","p570","p604","p637","p672","p679","p683","p696","p753","p3920","p3923","p3933","p841","p858","p887","p921","p957","p970","p1064","p1074","p4221","p4185","p4237","p503","p4022","p4029","p483","p4229","p4166","p4169"]).has(id))]).filter(([,ids])=>ids.length>1)));
 for(const ids of Object.values(exactDuplicates)){
   assert.equal(new Set(ids.map(id=>byId.get(id).meaning)).size,ids.length,`${ids.join(",")} must remain distinct senses`);
 }
@@ -129,11 +129,11 @@ assert.deepEqual(dialogues.flatMap(dialogue=>(dialogue.phraseLinks||[])
   .filter(id=>!phraseIds.has(id)).map(id=>`${dialogue.id}:${id}`)),[]);
 assert.equal(
   crypto.createHash("sha256").update(JSON.stringify(dialogues.filter(d=>Number(d.id.slice(1))<=167))).digest("hex"),
-  "5a5d2fa0928f2044f64cefe417b8ca32a43a985561e67d2ba5e5d0141d0f040a"
+  "ea4c7c2f3c3528ea58f87c03b86c712860a9cfad0ff6e2564dd2468dd22b5b1d"
 );
 
 console.log("Season 2 Batch 4 Phrase expansion tests passed");
 
 // Full production snapshot; the existing-only snapshot above is supplementary.
 assert.equal(dialogues.length,326);
-assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"b7db948af4a4c067eaff5eed344daf1941deaa6e54cd9993529331656c7b83b7");
+assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"390d7a9e785c4603af5b21f7ae8258ffb8224e248a054a93d5faf11e9bb43f81");

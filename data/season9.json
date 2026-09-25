@@ -1202,23 +1202,6 @@
       "sourceOrder": 6
     },
     {
-      "id": "p1064",
-      "phrase": "step up",
-      "meaning": "必要な場面で前に出る、責任を引き受ける",
-      "scene": "誰かが行動しなければならない状況で、自ら役割を担うとき",
-      "example1": "Someone needs to step up and take responsibility.",
-      "example2": "She really stepped up when the team needed her.",
-      "exampleTranslations": ["誰かが名乗り出て責任を負わなければならない。", "チームが必要とした時、彼女は本当に力を発揮した。"],
-      "type": "phrasal verb",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S09E17",
-      "frequency": "frequent",
-      "register": "neutral",
-      "sourceOrder": 3
-    },
-    {
       "id": "p1065",
       "phrase": "vocal",
       "meaning": "積極的に意見を述べる、はっきり声を上げる",
@@ -1354,23 +1337,6 @@
       "frequency": "limited",
       "register": "neutral",
       "sourceOrder": 2
-    },
-    {
-      "id": "p1074",
-      "phrase": "top-notch",
-      "meaning": "一流の、最高品質の、非常に優秀な",
-      "scene": "人の能力や物・サービスの質を一流だと高く評価するとき",
-      "example1": "The service at that hotel is top-notch.",
-      "example2": "She’s a top-notch lawyer.",
-      "exampleTranslations": ["あのホテルのサービスは一流だ。", "彼女は一流の弁護士だ。"],
-      "type": "word",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S09E20",
-      "frequency": "general",
-      "register": "neutral",
-      "sourceOrder": 6
     },
     {
       "id": "p1075",
@@ -3284,7 +3250,6 @@
         "p1091",
         "p1088",
         "p1016",
-        "p1064",
         "p1065"
       ]
     },
@@ -3776,7 +3741,6 @@
         "p982",
         "p1063",
         "p1066",
-        "p1064",
         "p1039"
       ]
     },
@@ -3985,7 +3949,6 @@
       ],
       "phraseLinks": [
         "p1067",
-        "p1074",
         "p1005",
         "p1069"
       ]

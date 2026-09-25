@@ -148,23 +148,6 @@
       "sourceOrder": 9
     },
     {
-      "id": "p483",
-      "phrase": "now is not the time",
-      "meaning": "今それを言うタイミングじゃない",
-      "scene": "空気を読んで後回しにしたい時",
-      "example1": "Now is not the time for jokes.",
-      "example2": "Now is not the time to argue.",
-      "exampleTranslations": ["今は冗談を言っている場合じゃない。", "今は言い争っている場合じゃない。"],
-      "type": "phrase",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S05E08",
-      "frequency": "general",
-      "register": "neutral",
-      "sourceOrder": 1
-    },
-    {
       "id": "p484",
       "phrase": "get off easy",
       "meaning": "軽く済む、お咎めが軽い",
@@ -228,26 +211,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E10",
-      "frequency": "frequent",
-      "register": "neutral",
-      "sourceOrder": 15
-    },
-    {
-      "id": "p488",
-      "phrase": "hit it off",
-      "meaning": "意気投合する、すぐ仲良くなる",
-      "scene": "初対面で波長が合う時",
-      "example1": "They hit it off right away.",
-      "example2": "I really hit it off with her.",
-      "exampleTranslations": [
-        "二人はすぐに意気投合した。",
-        "彼女とは本当に気が合った。"
-      ],
-      "type": "phrasal verb",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S05E07",
       "frequency": "frequent",
       "register": "neutral",
       "sourceOrder": 15
@@ -405,26 +368,6 @@
       "register": "neutral"
     },
     {
-      "id": "p500",
-      "phrase": "Your timing couldn’t be better",
-      "meaning": "最高のタイミングやな",
-      "scene": "ナイスタイミング、または皮肉で使う",
-      "example1": "Your timing couldn’t be better. Dinner’s ready.",
-      "example2": "Oh great, your timing couldn’t be better. We just started arguing.",
-      "exampleTranslations": [
-        "ちょうどいいところに来たね。夕食ができたよ。",
-        "最高のタイミングだね。ちょうど口論を始めたところだよ。"
-      ],
-      "type": "phrase",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S05E11",
-      "frequency": "general",
-      "register": "neutral",
-      "sourceOrder": 6
-    },
-    {
       "id": "p501",
       "phrase": "I’m begging you",
       "meaning": "お願いやから、頼むから",
@@ -440,43 +383,6 @@
       "frequency": "general",
       "register": "casual",
       "sourceOrder": 6
-    },
-    {
-      "id": "p502",
-      "phrase": "throw someone off",
-      "meaning": "調子を狂わせる、混乱させる",
-      "scene": "集中やペースが乱れた時",
-      "example1": "That question threw me off.",
-      "example2": "Don’t let it throw you off.",
-      "exampleTranslations": ["その質問で調子が狂った。", "それで調子を崩さないで。"],
-      "type": "phrasal verb",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S05E01",
-      "frequency": "frequent",
-      "register": "neutral",
-      "sourceOrder": 8
-    },
-    {
-      "id": "p503",
-      "phrase": "goof around",
-      "meaning": "本気の関係ではなく気軽に遊ぶ／付き合う",
-      "scene": "恋愛関係を真剣な交際とは考えていないと話す時",
-      "example1": "We were just goofing around; we weren't dating.",
-      "example2": "Are you serious about him, or are you just goofing around?",
-      "exampleTranslations": [
-        "私たちは気軽に遊んでいただけで、付き合ってはいなかった。",
-        "彼のことは真剣に考えているの、それともただ遊んでいるの？"
-      ],
-      "type": "phrasal verb",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S05E03",
-      "frequency": "general",
-      "register": "casual",
-      "sourceOrder": 3
     },
     {
       "id": "p504",
@@ -989,23 +895,6 @@
       "sourceOrder": 4
     },
     {
-      "id": "p536",
-      "phrase": "storm out",
-      "meaning": "怒って出ていく",
-      "scene": "ケンカして勢いよく立ち去る時",
-      "example1": "She stormed out of the room.",
-      "example2": "He stormed off without saying goodbye.",
-      "exampleTranslations": ["彼女は怒って部屋を飛び出した。", "彼はさよならも言わず、怒って立ち去った。"],
-      "type": "phrasal verb",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S05E05",
-      "frequency": "general",
-      "register": "neutral",
-      "sourceOrder": 8
-    },
-    {
       "id": "p537",
       "phrase": "bum someone out",
       "meaning": "落ち込ませる、気分を下げる",
@@ -1072,26 +961,6 @@
       "frequency": "limited",
       "register": "neutral",
       "sourceOrder": 9
-    },
-    {
-      "id": "p542",
-      "phrase": "nail it",
-      "meaning": "完璧にやる、バッチリ決める",
-      "scene": "テスト・発表・演技などが大成功した時",
-      "example1": "You totally nailed that presentation.",
-      "example2": "He nailed the audition.",
-      "exampleTranslations": [
-        "あのプレゼン、完璧だったよ。",
-        "彼はオーディションで完璧にやり遂げた。"
-      ],
-      "type": "idiom",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S05E10",
-      "frequency": "frequent",
-      "register": "neutral",
-      "sourceOrder": 2
     },
     {
       "id": "p543",
@@ -1327,23 +1196,6 @@
       "sourceOrder": 8
     },
     {
-      "id": "p557",
-      "phrase": "flip out",
-      "meaning": "ブチ切れる、パニクる",
-      "scene": "急に感情的になる時",
-      "example1": "My mom would flip out.",
-      "example2": "Don’t flip out, okay?",
-      "exampleTranslations": ["母が知ったら激怒するよ。", "取り乱さないでね？"],
-      "type": "phrasal verb",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S05E06",
-      "frequency": "frequent",
-      "register": "casual",
-      "sourceOrder": 10
-    },
-    {
       "id": "p558",
       "phrase": "after all",
       "meaning": "何しろ／だって～なのだから；結局／やはり",
@@ -1549,23 +1401,6 @@
       "frequency": "limited",
       "register": "neutral",
       "sourceOrder": 5
-    },
-    {
-      "id": "p570",
-      "phrase": "bump into someone",
-      "meaning": "（人に）偶然ばったり会う",
-      "scene": "スーパー、街中、昔の知り合いとの再会",
-      "example1": "I bumped into my teacher at the supermarket.",
-      "example2": "Guess who I bumped into yesterday?",
-      "exampleTranslations": ["スーパーで先生にばったり会った。", "昨日誰にばったり会ったと思う？"],
-      "type": "phrasal verb",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S05E23",
-      "frequency": "frequent",
-      "register": "neutral",
-      "sourceOrder": 3
     },
     {
       "id": "p571",
@@ -2110,26 +1945,6 @@
       "priority": 3,
       "source": "Friends",
       "episode": "S05E15",
-      "frequency": "frequent",
-      "register": "neutral",
-      "sourceOrder": 9
-    },
-    {
-      "id": "p604",
-      "phrase": "have something worked out",
-      "meaning": "〜を整理済み・計画済みにしている",
-      "scene": "将来設計、予定、問題解決",
-      "example1": "I don’t have it all worked out yet.",
-      "example2": "Don’t worry, we have everything worked out.",
-      "exampleTranslations": [
-        "まだ全部の段取りは決まっていない。",
-        "心配しないで、すべて段取りはついている。"
-      ],
-      "type": "pattern",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S05E23",
       "frequency": "frequent",
       "register": "neutral",
       "sourceOrder": 9
@@ -5146,7 +4961,6 @@
       ],
       "phraseLinks": [
         "p479",
-        "p500",
         "p485",
         "p514",
         "p480",
@@ -5273,8 +5087,6 @@
         ]
       ],
       "phraseLinks": [
-        "p488",
-        "p570",
         "p592",
         "p519",
         "p496",
@@ -5340,10 +5152,8 @@
       ],
       "phraseLinks": [
         "p520",
-        "p502",
         "p554",
-        "p505",
-        "p557"
+        "p505"
       ]
     },
     {
@@ -5401,7 +5211,6 @@
       "phraseLinks": [
         "p533",
         "p556",
-        "p542",
         "p559",
         "p544",
         "p553"
@@ -5524,7 +5333,6 @@
         ]
       ],
       "phraseLinks": [
-        "p536",
         "p577",
         "p547",
         "p524",
@@ -5856,7 +5664,6 @@
       ],
       "phraseLinks": [
         "p494",
-        "p483",
         "p522",
         "p555",
         "p552",
@@ -5984,7 +5791,6 @@
       "phraseLinks": [
         "p581",
         "p602",
-        "p604",
         "p611",
         "p601"
       ]

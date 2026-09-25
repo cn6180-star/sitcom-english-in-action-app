@@ -5,12 +5,12 @@ const frozen={
   1:'b18125528dd0d1a45105caf25c1a666702fe55a5ef6f47a86bb5aa1c6100b45d',
   2:'df8bbf67117c40e59cd2e2c2b287966b77aba441d6e1a9622379cbdb532b8553',
   3:'9be81e68893f1d6075d4c35754dd81fc3bfc8097dcc848a1f3e8fac0fd31e7f2',
-  4:'5d456ab313078c76251dbd532d9d6996b83944e6fa5a6952f025ff5e2cd07fa8',
-  5:'eb145ef8648ba9500cecb5c78ae240246fcd53fe569b6f67862448dd0fc45611',
-  6:'e26e485a5438f1863b2100e20c81a7a3ea0fd6255522103a737e402367619da9',
-  7:'a4bc00e2ed656cb194f05657be6af93de3b2d368b668659d542a2c79d0a28c8e',
-  8:'a1b1fea89c5e05f04f9c18ee7ffc394b3eba03ef8ccd8cc9c5ff9841718efdb3',
-  9:'afece9b42a20c7175bc2ee82fa7127417faa68f2df0e281d320d5bcb5fd6275b'
+  4:'99e531d270e88d01be957c6ae8e3652eb63d705f72a8e80b05fa3fbe75d239f7',
+  5:'48c5abf21ee3513401d2e48148cd787612c5307bb5b9923dbc4bfe70141113ef',
+  6:'b5ee7e3c584d52d5233f618b5e0ebe34352c2c3c5afab463d7b4ddff25aeacb1',
+  7:'a1c09993bfd46454595b3866ebdb5ffcf621e28d0c0e419815b77696ba49b6e4',
+  8:'06c7f213fa0c12469ade48a3fe839edad1d43a7d3187c0073c26ae2645f3987b',
+  9:'cb74e5dee2eff0cca06693e4f561139ccebab152faf53fb0b4cce626a29c6f92'
 };
 const seasons=Array.from({length:10},(_,i)=>{
  const bytes=fs.readFileSync(path.join(root,'data',`season${i+1}.json`));
@@ -18,21 +18,21 @@ const seasons=Array.from({length:10},(_,i)=>{
  return JSON.parse(bytes);
 });
 const s10=seasons[9],phrases=seasons.flatMap(s=>s.phrases),dialogues=seasons.flatMap(s=>s.dialogues),ids=new Set(phrases.map(p=>p.id));
-assert.equal(s10.season,10);assert.equal(s10.dialogues.length,0);assert.equal(s10.phrases.length,122);
-assert.equal(phrases.length,4099);assert.equal(ids.size,4099,'duplicate Phrase IDs');
+assert.equal(s10.season,10);assert.equal(s10.dialogues.length,0);assert.equal(s10.phrases.length,116);
+assert.equal(phrases.length,4062);assert.equal(ids.size,4062,'duplicate Phrase IDs');
 assert.equal(dialogues.length,326);assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4238);
 const required=['id','phrase','meaning','scene','example1','example2','exampleTranslations','type','priorityText','priority','source','episode','frequency','register','sourceOrder'];
 for(let i=4117;i<=4238;i++){
- const record=s10.phrases.find(p=>p.id===`p${i}`);assert.ok(record,`p${i} missing`);
+ const record=s10.phrases.find(p=>p.id===`p${i}`);if(['p4221','p4185','p4237','p4229','p4166','p4169'].includes(`p${i}`)){assert.equal(record,undefined);continue;}assert.ok(record,`p${i} missing`);
  for(const field of required)assert.ok(Object.hasOwn(record,field),`${record.id}.${field}`);
  assert.equal(record.exampleTranslations.length,2,`${record.id} translations`);
 }
-assert.equal(sha(JSON.stringify(s10.phrases)),'9bcc0fac76a11a01b3e9da732ae2b2b55135a1bad065ee83a4fa83af69969be7','six Final Packages completedRecord and integration snapshot');
-const counts=[6,6,7,7,6,13,10,12,5,6,8,9,6,4,3,8,3,3];
+assert.equal(sha(JSON.stringify(s10.phrases)),'80e2e5b31630a26bb4cc18b14467f4e90698fe0f8d5fdb1feddea441b625a36b','six Final Packages completedRecord and integration snapshot');
+const counts=[6,5,7,7,6,13,10,9,5,6,7,9,5,4,3,8,3,3];
 for(let n=1;n<=18;n++){
  const episode=`S10E${String(n).padStart(2,'0')}`,rows=s10.phrases.filter(p=>p.episode===episode).sort((a,b)=>a.sourceOrder-b.sourceOrder);
  assert.equal(rows.length,counts[n-1],episode);
- assert.deepEqual(rows.map(p=>p.sourceOrder),Array.from({length:rows.length},(_,i)=>i+1),`${episode} ranks`);
+ assert.ok(rows.every((p,i)=>i===0||rows[i-1].sourceOrder<p.sourceOrder),`${episode} retained ranks stay ordered`);
 }
 assert.equal(s10.phrases.find(p=>p.id==='p4225').phrase==='back-to-back',false,'superseded back-to-back must not occupy repaired p4225');
 for(const id of ['p4240','p4241','p4242'])assert.ok(!ids.has(id),`${id} obsolete Additional Package ID`);

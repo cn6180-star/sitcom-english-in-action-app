@@ -873,23 +873,6 @@
       "sourceOrder": 6
     },
     {
-      "id": "p841",
-      "phrase": "have a knack for ~",
-      "meaning": "～の才能がある／妙に得意",
-      "scene": "自然にできることや生まれつきの得意分野を話す時",
-      "example1": "She has a knack for languages.",
-      "example2": "I have a knack for remembering names.",
-      "exampleTranslations": ["彼女は語学の才能がある。", "私は名前を覚えるのが得意だ。"],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S07E19",
-      "frequency": "general",
-      "register": "neutral",
-      "sourceOrder": 8
-    },
-    {
       "id": "p842",
       "phrase": "lewd",
       "meaning": "下品な／卑猥な",
@@ -1147,23 +1130,6 @@
       "sourceOrder": 4
     },
     {
-      "id": "p858",
-      "phrase": "back down",
-      "meaning": "引き下がる／譲歩する",
-      "scene": "言い争いや交渉で自分の主張を撤回する時",
-      "example1": "She refused to back down.",
-      "example2": "Neither side was willing to back down.",
-      "exampleTranslations": ["彼女は引き下がるのを拒んだ。", "どちら側も譲ろうとしなかった。"],
-      "type": "phrasal verb",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S07E21",
-      "frequency": "general",
-      "register": "neutral",
-      "sourceOrder": 3
-    },
-    {
       "id": "p3909",
       "phrase": "get dressed up",
       "meaning": "おしゃれをして出かける",
@@ -1384,26 +1350,6 @@
       "sourceOrder": 2
     },
     {
-      "id": "p3920",
-      "phrase": "in someone's defense",
-      "meaning": "弁解させてもらうと／人を擁護すると",
-      "scene": "非難に対して事情を付け加える",
-      "example1": "In my defense, nobody told me the time had changed.",
-      "example2": "In her defense, she had only one day to prepare.",
-      "exampleTranslations": [
-        "弁解すると、時間が変わったと誰にも聞いていなかった。",
-        "彼女を擁護すると、準備に一日しかなかった。"
-      ],
-      "type": "phrase",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S07E04",
-      "frequency": "general",
-      "register": "neutral",
-      "sourceOrder": 3
-    },
-    {
       "id": "p3921",
       "phrase": "act on ~",
       "meaning": "気持ちや考えを実際の行動に移す",
@@ -1442,26 +1388,6 @@
       "frequency": "general",
       "register": "neutral",
       "sourceOrder": 4
-    },
-    {
-      "id": "p3923",
-      "phrase": "throw something in someone's face",
-      "meaning": "過去の失敗などを持ち出して責める",
-      "scene": "昔の出来事を責める材料にされる",
-      "example1": "Please don't throw that mistake in my face again.",
-      "example2": "He kept throwing my old decision in my face.",
-      "exampleTranslations": [
-        "その失敗をまた持ち出して責めないで。",
-        "彼は私の昔の決断を何度も持ち出して責めた。"
-      ],
-      "type": "idiom",
-      "priorityText": "★★☆",
-      "priority": 2,
-      "source": "Friends",
-      "episode": "S07E05",
-      "frequency": "general",
-      "register": "casual",
-      "sourceOrder": 5
     },
     {
       "id": "p3924",
@@ -1642,26 +1568,6 @@
       "frequency": "general",
       "register": "neutral",
       "sourceOrder": 3
-    },
-    {
-      "id": "p3933",
-      "phrase": "get something off one's chest",
-      "meaning": "胸の内を打ち明けてすっきりする",
-      "scene": "抱えていた気持ちや心配を相手に話す",
-      "example1": "It might help to get it off your chest.",
-      "example2": "I finally got my worries off my chest.",
-      "exampleTranslations": [
-        "話してしまえば少し楽になるかもしれないよ。",
-        "ようやく心配事を打ち明けてすっきりした。"
-      ],
-      "type": "idiom",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S07E08",
-      "frequency": "general",
-      "register": "neutral",
-      "sourceOrder": 4
     },
     {
       "id": "p3934",
@@ -3220,7 +3126,6 @@
         ]
       ],
       "phraseLinks": [
-        "p841",
         "p840"
       ]
     },
@@ -3841,8 +3746,7 @@
       ],
       "phraseLinks": [
         "p787",
-        "p793",
-        "p858"
+        "p793"
       ]
     },
     {

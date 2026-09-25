@@ -14,8 +14,8 @@ const dialogues=datasets.flatMap(dataset=>dataset.dialogues||[]);
 const byId=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const phraseIds=new Set(byId.keys());
 
-assert.equal(phrases.length,3977);
-assert.equal(phraseIds.size,3977);
+assert.equal(phrases.length,3946);
+assert.equal(phraseIds.size,3946);
 assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),4116);
 
 const newIds=Array.from({length:139},(_,index)=>`p${2045+index}`);
@@ -69,11 +69,11 @@ assert.deepEqual(dialogues.flatMap(dialogue=>(dialogue.phraseLinks||[])
   .filter(id=>!phraseIds.has(id)).map(id=>`${dialogue.id}:${id}`)),[]);
 assert.equal(
   crypto.createHash("sha256").update(JSON.stringify(dialogues.filter(d=>Number(d.id.slice(1))<=167))).digest("hex"),
-  "5a5d2fa0928f2044f64cefe417b8ca32a43a985561e67d2ba5e5d0141d0f040a"
+  "ea4c7c2f3c3528ea58f87c03b86c712860a9cfad0ff6e2564dd2468dd22b5b1d"
 );
 
 console.log("Season 2 Batch 7 Phrase expansion tests passed");
 
 // Full production snapshot; the existing-only snapshot above is supplementary.
 assert.equal(dialogues.length,326);
-assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"b7db948af4a4c067eaff5eed344daf1941deaa6e54cd9993529331656c7b83b7");
+assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"390d7a9e785c4603af5b21f7ae8258ffb8224e248a054a93d5faf11e9bb43f81");

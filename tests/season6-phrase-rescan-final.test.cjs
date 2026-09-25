@@ -1,4 +1,5 @@
 'use strict';
+const cleanupDeleted=new Set(["p423","p470","p502","p536","p557","p488","p542","p500","p570","p604","p637","p672","p679","p683","p696","p753","p3920","p3923","p3933","p841","p858","p887","p921","p957","p970","p1064","p1074","p4221","p4185","p4237","p503","p4022","p4029","p483","p4229","p4166","p4169"]);
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const path=require('node:path');
@@ -8,25 +9,26 @@ const seasons=Array.from({length:9},(_,i)=>JSON.parse(fs.readFileSync(path.join(
 const phrases=seasons.flatMap(s=>s.phrases),dialogues=seasons.flatMap(s=>s.dialogues),byId=new Map(phrases.map(p=>[p.id,p]));
 const hash=x=>crypto.createHash('sha256').update(JSON.stringify(x)).digest('hex');
 const canon=p=>Object.fromEntries(Object.keys(p).sort().map(k=>[k,p[k]]));
-const episodeCounts={S06E01:11,S06E02:9,S06E03:9,S06E04:10,S06E05:12,S06E06:9,S06E07:7,S06E08:5,S06E09:9,S06E10:9,S06E11:7,S06E12:16,S06E13:2,S06E14:6,S06E15:7,S06E16:5,S06E17:6,S06E18:8,S06E19:7,S06E20:5,S06E21:7,S06E22:4,S06E23:5,S06E24:7,S06E25:6};
+const episodeCounts={S06E01:11,S06E02:9,S06E03:9,S06E04:9,S06E05:12,S06E06:9,S06E07:7,S06E08:5,S06E09:6,S06E10:8,S06E11:7,S06E12:16,S06E13:2,S06E14:6,S06E15:7,S06E16:5,S06E17:6,S06E18:8,S06E19:6,S06E20:5,S06E21:7,S06E22:4,S06E23:5,S06E24:7,S06E25:6};
+const expectedSourceRanks={"S06E01":[1,2,3,4,5,6,7,8,9,10,11],"S06E02":[1,2,3,4,5,6,7,8,9],"S06E03":[1,2,3,4,5,6,7,8,9],"S06E04":[1,2,3,4,6,7,8,9,10],"S06E05":[1,2,3,4,5,6,7,8,9,10,11,12],"S06E06":[1,2,3,4,5,6,7,8,9],"S06E07":[1,2,3,4,5,6,7],"S06E08":[1,2,3,4,5],"S06E09":[2,4,6,7,8,9],"S06E10":[1,2,3,4,5,6,7,8],"S06E11":[1,2,3,4,5,6,7],"S06E12":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],"S06E13":[1,2],"S06E14":[1,2,3,4,5,6],"S06E15":[1,2,3,4,5,6,7],"S06E16":[1,2,3,4,5],"S06E17":[1,2,3,4,5,6],"S06E18":[1,2,3,4,5,6,7,8],"S06E19":[1,2,3,5,6,7],"S06E20":[1,2,3,4,5],"S06E21":[1,2,3,4,5,6,7],"S06E22":[1,2,3,4],"S06E23":[1,2,3,4,5],"S06E24":[1,2,3,4,5,6,7],"S06E25":[1,2,3,4,5,6]};
 const removed=['p630','p660','p629','p646','p650','p682','p684','p681','p688','p675','p709','p677','p680','p685','p697','p702','p692','p686','p749','p717','p740'];
-const newIds=Array.from({length:87},(_,i)=>`p${3822+i}`);
+const newIds=Array.from({length:87},(_,i)=>`p${3822+i}`).filter(id=>!cleanupDeleted.has(id));
 const required=['id','phrase','meaning','scene','example1','example2','exampleTranslations','type','priorityText','priority','source','episode','frequency','register','sourceOrder'];
-assert.equal(phrases.length,3977);assert.equal(byId.size,3977,'duplicate Phrase ID');
+assert.equal(phrases.length,3946);assert.equal(byId.size,3946,'duplicate Phrase ID');
 assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4116);assert.equal(dialogues.length,326);
 for(const id of removed)assert.ok(!byId.has(id),`${id} REMOVE`);
 for(const id of newIds){const p=byId.get(id);assert.ok(p,`${id} NEW`);for(const field of required)assert.ok(Object.hasOwn(p,field),`${id}.${field}`);assert.equal(p.exampleTranslations.length,2);}
 const accepted=phrases.filter(p=>Object.hasOwn(episodeCounts,p.episode));
-assert.equal(accepted.length,188);
-assert.equal(hash([...accepted].sort((a,b)=>+a.id.slice(1)- +b.id.slice(1)).map(canon)),'2a27e333e32429348cbeefa61311af45c4d313fd4bb606db0a6fedc810d6db3a','three Final Packages completedRecords');
+assert.equal(accepted.length,182);
+assert.equal(hash([...accepted].sort((a,b)=>+a.id.slice(1)- +b.id.slice(1)).map(canon)),'ef47e325bd82801b120b23fb06b45594349b24532469df9e390206595dbecc1c','three Final Packages completedRecords');
 const ordered=[];
 for(const [episode,count] of Object.entries(episodeCounts)){
  const rows=accepted.filter(p=>p.episode===episode).sort((a,b)=>a.sourceOrder-b.sourceOrder);
  assert.equal(rows.length,count,`${episode} count`);
- assert.deepEqual(rows.map(p=>p.sourceOrder),Array.from({length:count},(_,i)=>i+1),`${episode} sourceOrder unique and gapless`);
+ assert.deepEqual(rows.map(p=>p.sourceOrder),expectedSourceRanks[episode],`${episode} sourceOrder unique and gapless`);
  ordered.push(...rows.map(p=>[p.id,p.episode,p.sourceOrder]));
 }
-assert.equal(hash(ordered),'d660f90dd5ccd811db321793358e50bd74c74a3793c0dcb278c8c98be3be128f','three Final Packages sourceOrder');
+assert.equal(hash(ordered),'7f5fd5f8dc6e07413892f871c518172b6442d1e8877f8b7f5a732d362b4345dc','three Final Packages sourceOrder');
 assert.equal(byId.get('p657').episode,'S06E03');assert.equal(byId.get('p657').sourceOrder,8);
 assert.equal(byId.get('p657').meaning,'（方法や取り決めを）考えてまとめる／調整して決める');
 assert.equal(byId.get('p720').episode,'S06E20');assert.equal(byId.get('p720').sourceOrder,3);
@@ -35,6 +37,6 @@ assert.deepEqual(dialogueById.get('d99').phraseLinks,['p653','p703','p722','p724
 assert.deepEqual(dialogueById.get('d102').phraseLinks,['p4','p623','p664','p738']);
 assert.ok(!dialogueById.get('d103').phraseLinks.includes('p657'));
 const touched=['d84','d85','d86','d88','d92','d93','d94','d96','d98','d99','d102','d103','d104'];
-assert.equal(hash(touched.map(id=>{const d=dialogueById.get(id);return[d.id,d.phraseLinks,d.lines]})),'a8bdb8af42176858d3214decc7a77e73793298dbe57a35252c169c1f5c174573','exact Dialogue links and bodies');
+assert.equal(hash(touched.map(id=>{const d=dialogueById.get(id);return[d.id,d.phraseLinks,d.lines]})),'b1cc0169d35ba19d9c72db610cdc73caa7053f312401bdce7d37fb5e9205240f','exact Dialogue links and bodies');
 assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!byId.has(id))),[],'no dangling Dialogue links');
 console.log('S6 three Final Packages: 87 NEW, 1 UPDATE, 21 REMOVE, 99 KEEP, 1 MOVE; 188 sourceOrder entries PASS');

@@ -1220,27 +1220,6 @@
       "sourceOrder": 4
     },
     {
-      "id": "p423",
-      "phrase": "a piece of cake",
-      "meaning": "簡単なこと／朝飯前",
-      "scene": "難易度を言うとき",
-      "example1": "This test is a piece of cake.",
-      "example2": "This is no piece of cake.",
-      "exampleTranslations": [
-        "このテストは楽勝だ。",
-        "これは決して簡単じゃない。"
-      ],
-      "type": "idiom",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S04E16",
-      "frequency": "frequent",
-      "register": "neutral",
-      "note": "作中では「being pregnant is no piece of cake」の形で使われ、通常のnot a piece of cakeより「全然簡単ではない／決して楽ではない」という強い否定を表している。",
-      "sourceOrder": 1
-    },
-    {
       "id": "p424",
       "phrase": "craving",
       "meaning": "強い欲求／無性に食べたくなる気持ち",
@@ -1853,23 +1832,6 @@
       "frequency": "general",
       "register": "casual",
       "sourceOrder": 6
-    },
-    {
-      "id": "p470",
-      "phrase": "the third degree",
-      "meaning": "厳しい尋問、質問攻め",
-      "scene": "根掘り葉掘り聞かれているとき",
-      "example1": "Why are you giving me the third degree?",
-      "example2": "My parents gave me the third degree after the party.",
-      "exampleTranslations": ["なんでそんなに根掘り葉掘り聞くの？", "パーティーのあと、両親に厳しく問い詰められた。"],
-      "type": "idiom",
-      "priorityText": "★★★",
-      "priority": 3,
-      "source": "Friends",
-      "episode": "S04E24",
-      "frequency": "general",
-      "register": "neutral",
-      "sourceOrder": 7
     },
     {
       "id": "p471",
@@ -5893,7 +5855,6 @@
       ],
       "phraseLinks": [
         "p469",
-        "p470",
         "p407",
         "p471",
         "p465"
@@ -5957,7 +5918,6 @@
         ]
       ],
       "phraseLinks": [
-        "p423",
         "p398",
         "p381",
         "p390",
