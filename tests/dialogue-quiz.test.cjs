@@ -50,9 +50,16 @@ reset();storage.dialogueLearned={friends:[d.id]};c.startDialogueQuiz(d.id,roundS
 let result=finishRound([0]);assert.equal(result.score,result.total-1);assert.equal(c.isDialogueWeak(d.id),true);assert.equal(c.isDialogueLearned(d.id),true);
 assert.equal(c.dialogueQuizSummary().today,1);assert.equal(c.dialogueQuizSummary().perfect,0);
 c.renderDialogueQuizResult();assert.match(c.app.innerHTML,/Incorrect/);assert.match(c.app.innerHTML,/Review mistakes/);assert.match(c.app.innerHTML,/Next Dialogue/);
+assert.match(c.app.innerHTML,/quiz-result-actions dialogue-quiz-result-actions section/);
+assert.equal((c.app.innerHTML.match(/<button[^>]*>Review mistakes<\/button>/g)||[]).length,1);
 c.reviewDialogueQuizMistakes();assert.equal(c.getDialogueQuizSession().questions.length,1);assert.equal(c.getDialogueQuizSession().review,true);
 result=finishRound();assert.equal(result.score,1);assert.equal(c.isDialogueWeak(d.id),true);assert.equal(c.dialogueQuizSummary().today,1);
 c.startDialogueQuiz(d.id,roundSettings);finishRound();assert.equal(c.isDialogueWeak(d.id),false);assert.equal(c.isDialogueLearned(d.id),true);
+c.renderDialogueQuizResult();assert.doesNotMatch(c.app.innerHTML,/>Review mistakes<\/button>/);
+const styles=fs.readFileSync(path.join(root,'css/style.css'),'utf8');
+assert.match(moduleSource,/primary-button quiz-start-button dialogue-quiz-start-button/);
+assert.match(styles,/\.quiz-start-area>\.dialogue-quiz-start-button\{width:100%\}/);
+assert.match(styles,/\.quiz-result-actions\.dialogue-quiz-result-actions\{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:minmax\(0,1fr\)\}/);
 assert.equal(c.dialogueQuizSummary().today,2);assert.equal(c.dialogueQuizSummary().perfect,1);
 c.setDialogueWeak(d.id,true);assert.ok(c.dialogueQuizPool(settings("test","blank","weak")).some(x=>x.id===d.id));
 c.filters.dialogue.scope="weak";assert.ok(c.filteredDialogues().every(x=>c.isDialogueWeak(x.id)));c.filters.dialogue.scope="all";
