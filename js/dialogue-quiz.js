@@ -78,12 +78,14 @@ function getDialogueQuizSession(){
   if(!s.questions.every(q=>{const entry=entries.find(e=>e?.phraseId===q?.phraseId);if(!entry||!Array.isArray(q.phraseIds)||!q.phraseIds.includes(q.phraseId))return false;const ranges=q.type==='line'?entry.ranges:dialogueQuizMergedRanges(entries.filter(e=>q.phraseIds.includes(e?.phraseId)));return q.phraseIds.length&&q.phraseIds.every(id=>!ids.has(id)&&ids.add(id)&&entries.some(e=>e?.phraseId===id&&e.lineIndex===q.lineIndex))&&DIALOGUE_QUIZ_TYPES.includes(q.type)&&q.lineIndex===entry.lineIndex&&JSON.stringify(q.ranges)===JSON.stringify(ranges)&&q.answer===(q.type==="line"?d.lines[q.lineIndex][1]:ranges.map(r=>d.lines[q.lineIndex][1].slice(r.index,r.index+r.length)).join(' … '))&&(q.type==="fill"||Array.isArray(q.choices)&&q.choices.length===4&&new Set(q.choices.map(dialogueQuizChoiceKey)).size===4&&q.choices.includes(q.answer))}))return null;
   if(typeof s.graded!=="boolean"||!Array.isArray(s.drafts)||s.drafts.length!==s.questions.length||!s.drafts.every((answer,index)=>typeof answer==='string'&&(s.questions[index].type==='fill'||answer===''||s.questions[index].choices.includes(answer))))return null;
   if(!s.graded&&s.responses.length)return null;
-  if(s.graded&&(!dialogueQuizAllAnswered(s)||s.responses.length!==s.questions.length||!s.responses.every((r,index)=>r?.index===index&&r.answer===s.drafts[index]&&r.correct===dialogueQuizAnswerCorrect(s.questions[index],r.answer))))return null;
+  if(s.graded&&(!dialogueQuizCanSubmit(s)||s.responses.length!==s.questions.length||!s.responses.every((r,index)=>r?.index===index&&r.answer===s.drafts[index]&&r.correct===dialogueQuizAnswerCorrect(s.questions[index],r.answer))))return null;
   return{...s,settings};
 }
 function dialogueQuizAnswerCorrect(question,answer){return question.type==='fill'?dialogueQuizInputMatches(answer,question.answer):answer===question.answer}
 function dialogueQuizAnsweredCount(s){return s.drafts.filter(answer=>answer.trim()).length}
 function dialogueQuizAllAnswered(s){return dialogueQuizAnsweredCount(s)===s.questions.length}
+function dialogueQuizCanSubmit(s){return s.questions.every((q,index)=>q.type==='fill'||Boolean(s.drafts[index].trim()))}
+function dialogueQuizDisplayNumbers(s){const ordered=s.questions.map((q,index)=>({index,line:q.lineIndex,start:q.ranges[0].index})).sort((a,b)=>a.line-b.line||a.start-b.start);return new Map(ordered.map((q,index)=>[q.index,index+1]))}
 function quizKindTabsMarkup(){const dialogue=filters.quizTab==="dialogues";return `<div class="segmented quiz-kind-tabs" role="tablist" aria-label="Quiz content"><button class="seg-button ${dialogue?'':'selected'}" role="tab" aria-selected="${!dialogue}" onclick="setQuizKind('phrases')">Phrases</button><button class="seg-button ${dialogue?'selected':''}" role="tab" aria-selected="${dialogue}" onclick="setQuizKind('dialogues')">Dialogues</button></div>`}
 function setQuizKind(kind){filters.quizTab=kind==="dialogues"?"dialogues":"phrases";saveAppState();renderQuizHome()}
 function setDialogueQuizOption(key,value){filters.dialogueQuiz={...dialogueQuizSettings(),[key]:value};saveAppState();renderDialogueQuizHome()}
@@ -93,11 +95,11 @@ function renderDialogueQuizHome(){
   const settings=dialogueQuizSettings(),practice=settings.mode==='practice',session=getDialogueQuizSession(),pool=dialogueQuizPool(settings),summary=dialogueQuizSummary();
   const buttons=(key,values)=>values.map(([value,label])=>`<button class="chip ${String(settings[key])===String(value)?'selected':''}" aria-pressed="${String(settings[key])===String(value)}" onclick="setDialogueQuizOption('${key}','${value}')">${label}</button>`).join("");
   const seasonGroup=`<div class="filter-group"><div class="filter-label">シーズン</div><div class="chips">${buttons('season',[["ALL","全て"],...SEASONS.map(s=>[s,`S${s}`])])}</div></div>`;
-  const practiceGroups=practice?`<div class="filter-group"><div class="filter-label">問題形式</div><div class="chips quiz-setting-chips">${buttons('type',[["blank","穴埋め4択"],["line","セリフ4択"],["fill","穴埋め入力"]])}</div></div><div class="filter-group"><div class="filter-label">日本語訳</div><button class="translation-toggle" aria-pressed="${settings.japanese}" onclick="setDialogueQuizOption('japanese',${!settings.japanese})">日本語訳 ${settings.japanese?'表示':'非表示'}</button></div><div class="filter-group"><div class="filter-label">絞り込み</div><div class="chips scope-chips">${buttons('scope',[["all","全て"],["weak","苦手"],["unlearned","未習得"],["learned","習得済み"],["saved","保存"]])}</div></div>`:'';
+  const practiceGroups=practice?`<div class="filter-group"><div class="filter-label">問題形式</div><div class="chips quiz-setting-chips">${buttons('type',[["blank","穴埋め4択"],["line","セリフ4択"],["fill","穴埋め入力"]])}</div></div><div class="filter-group"><div class="filter-label">絞り込み</div><div class="chips scope-chips">${buttons('scope',[["all","全て"],["weak","苦手"],["unlearned","未習得"],["learned","習得済み"],["saved","保存"]])}</div></div>`:'';
   const startArea=session?`<div class="quiz-start-area"><div><strong>${session.review?'Quick Review':session.settings.mode==='practice'?'Practice':'Quiz'} in progress</strong><p class="page-subtitle">${dialogueQuizAnsweredCount(session)} / ${session.questions.length} answered</p></div><div class="button-row"><button class="primary-button" onclick="navigate('quizPlay',{quizKind:'dialogue'})">Resume Quiz</button><button class="secondary-button" onclick="confirmDialogueQuizRestart()">Start Over</button></div></div>`:`<div class="quiz-start-area"><button class="primary-button quiz-start-button dialogue-quiz-start-button" ${pool.length?'onclick="startDialogueQuiz()"':'disabled'}>${practice?'Start Practice':'Start Quiz'}</button></div>`;
   const stats=`<section class="card quiz-stats-card"><h2 class="section-title">Your Dialogue Quiz</h2><div class="stats-row"><div class="stat-box"><span>Last</span><strong>${summary.last?`${summary.last.score}/${summary.last.total}`:'—'}</strong></div><div class="stat-box"><span>Today</span><strong>${summary.today}</strong></div><div class="stat-box"><span>Perfect</span><strong>${summary.perfect}</strong></div></div></section>`;
   const note=practice?'<div class="quiz-mode-note"><strong>練習モード</strong><span>形式・日本語訳を選べます。本番のスコアには反映されません。</span></div>':'<div class="quiz-mode-note"><strong>本番モード</strong><span>3形式Mix・1 Round = 1 Dialogue。本番のスコアに反映されます。</span></div>';
-  app.innerHTML=`${listPageHeader("Quiz")}${quizKindTabsMarkup()}<div class="segmented quiz-mode-tabs" role="tablist" aria-label="Dialogue quiz mode"><button class="seg-button ${!practice?'selected':''}" role="tab" aria-selected="${!practice}" onclick="setDialogueQuizOption('mode','test')">本番</button><button class="seg-button ${practice?'selected':''}" role="tab" aria-selected="${practice}" onclick="setDialogueQuizOption('mode','practice')">練習</button></div>${startArea}<section class="card filter-panel quiz-settings-panel">${practiceGroups}${seasonGroup}<p class="page-subtitle">${pool.length} dialogues available · 1 Round = 1 Dialogue</p><p id="dialogueQuizStatus" role="status"></p></section>${practice?'':stats}${note}`;
+  app.innerHTML=`${listPageHeader("Quiz")}${quizKindTabsMarkup()}<div class="segmented quiz-mode-tabs" role="tablist" aria-label="Dialogue quiz mode"><button class="seg-button ${!practice?'selected':''}" role="tab" aria-selected="${!practice}" onclick="setDialogueQuizOption('mode','test')">本番</button><button class="seg-button ${practice?'selected':''}" role="tab" aria-selected="${practice}" onclick="setDialogueQuizOption('mode','practice')">練習</button></div>${startArea}<section class="card filter-panel quiz-settings-panel ${practice?'quiz-practice-settings':''}">${practiceGroups}${seasonGroup}<div class="page-subtitle">${pool.length} dialogues available</div><p id="dialogueQuizStatus" role="status"></p></section>${practice?'':stats}${note}`;
 }
 function confirmDialogueQuizRestart(){showConfirm("Start the dialogue quiz over?",()=>{safeRemoveItem(STORE.dialogueQuiz);startDialogueQuiz()})}
 function startDialogueQuiz(id=null,settings=dialogueQuizSettings(),reviewQuestions=null,parentResult=null){
@@ -115,17 +117,16 @@ function renderDialogueQuizPlay(){
   const page=document.getElementById('dialogueQuizPage');
   if(!page||page.dataset.dialogueId!==s.dialogueId){
     const d=DIALOGUES.find(d=>d.id===s.dialogueId);
-    app.innerHTML=`<section id="dialogueQuizPage" data-dialogue-id="${esc(d.id)}"><header class="quiz-play-header"><h1 id="dialogueQuizCount" class="quiz-question-count"></h1><p id="dialogueQuizTitle"></p>${s.settings.mode==='practice'?'<button id="dialogueQuizJapanese" class="translation-toggle" onclick="toggleDialogueQuizJapanese()"></button>':''}</header><div class="quiz-progress"><span id="dialogueQuizProgress"></span></div><section class="card dialogue-quiz-card"><div class="conversation">${dialogueQuizVisibleLines(d,s).map(i=>{const line=d.lines[i];return `<div id="dialogueQuizLine${i}" class="bubble-row ${line[0].toLowerCase()}"><div class="bubble"><div class="speaker-label">${esc(line[0])}</div><div id="dialogueQuizEnglish${i}"></div><div class="jp" id="dialogueQuizJP${i}" hidden>${esc(line[2])}</div><div id="dialogueQuizControls${i}"></div></div></div>`}).join('')}</div><div class="dialogue-quiz-submit"><p id="dialogueQuizScore" role="status"></p><button id="dialogueQuizCheck" class="primary-button" onclick="checkDialogueQuizAnswers()" disabled>See Results</button><button id="dialogueQuizBack" class="primary-button" onclick="backToDialogueQuizResults()" hidden>Back to Results</button><button id="dialogueQuizDone" class="secondary-button" onclick="doneDialogueQuickReview()" hidden>Done</button></div></section></section>`;
+    app.innerHTML=`<section id="dialogueQuizPage" data-dialogue-id="${esc(d.id)}"><header class="quiz-play-header"><h1 id="dialogueQuizCount" class="quiz-question-count"></h1><p id="dialogueQuizTitle"></p>${s.settings.mode==='practice'?'<button id="dialogueQuizJapanese" class="translation-toggle" onclick="toggleDialogueQuizJapanese()"></button>':''}</header><div class="quiz-progress"><span id="dialogueQuizProgress"></span></div><section class="card dialogue-quiz-card"><div class="conversation">${dialogueQuizVisibleLines(d,s).map(i=>{const line=d.lines[i];return `<div id="dialogueQuizLine${i}" class="bubble-row ${line[0].toLowerCase()}"><div class="bubble"><div class="speaker-label">${esc(line[0])}</div><div id="dialogueQuizEnglish${i}"></div><div class="translation translation-concealed" id="dialogueQuizJP${i}" aria-hidden="true">${esc(line[2])}</div><div id="dialogueQuizControls${i}"></div></div></div>`}).join('')}</div><div class="dialogue-quiz-submit"><p id="dialogueQuizScore" role="status"></p><button id="dialogueQuizCheck" class="primary-button" onclick="checkDialogueQuizAnswers()" disabled>See Results</button><button id="dialogueQuizBack" class="primary-button" onclick="backToDialogueQuizResults()" hidden>Back to Results</button><button id="dialogueQuizDone" class="secondary-button" onclick="doneDialogueQuickReview()" hidden>Done</button></div></section></section>`;
   }
   updateDialogueQuizPage(s);
 }
 function dialogueQuizLineMarkup(d,s,lineIndex){
   const text=d.lines[lineIndex][1],pending=s.graded?[]:s.questions.map((q,index)=>({...q,index})),lineTarget=pending.find(q=>q.type==='line'&&q.lineIndex===lineIndex);
-  if(lineTarget)return '<span class="dialogue-quiz-hidden">██████████</span>';
-  const linked=pending.flatMap(q=>q.phraseIds),matches=dialoguePhraseMatchResults(d,linked.map(id=>PHRASES.find(p=>p.id===id)).filter(Boolean));
-  const ranges=linked.flatMap(id=>selectedDialogueMatches(matches.filter(m=>m.lineIndex===lineIndex&&m.phraseId===id))).map(m=>({...m,question:pending.find(q=>q.phraseIds.includes(m.phraseId)).index})).sort((a,b)=>a.index-b.index),merged=[];
+  if(lineTarget)return `<div class="hidden-line"><span class="dialogue-line-text hidden-dialogue-text" aria-hidden="true">${esc(text)}</span></div>`;
+  const ranges=pending.filter(q=>q.lineIndex===lineIndex).flatMap(q=>q.ranges.map(r=>({...r,question:q.index}))).sort((a,b)=>a.index-b.index),merged=[];
   for(const r of ranges){const last=merged.at(-1);if(last&&r.index<=last.index+last.length)last.length=Math.max(last.index+last.length,r.index+r.length)-last.index;else merged.push({...r})}
-  let result='',cursor=0;for(const r of merged){result+=esc(text.slice(cursor,r.index))+`<span class="dialogue-blank">_____<sup>${r.question+1}</sup></span>`;cursor=r.index+r.length}return result+esc(text.slice(cursor));
+  const numbers=dialogueQuizDisplayNumbers(s);let result='',cursor=0;for(const r of merged){result+=esc(text.slice(cursor,r.index))+`<span class="dialogue-blank">_____<sup>${numbers.get(r.question)}</sup></span>`;cursor=r.index+r.length}return result+esc(text.slice(cursor));
 }
 function dialogueQuizVisibleLines(d,s){
   if(!s.review)return d.lines.map((_,i)=>i);
@@ -133,13 +134,13 @@ function dialogueQuizVisibleLines(d,s){
 }
 function dialogueQuizQuestionMarkup(s,q,index){
   const response=s.review&&s.graded?s.responses[index]:null,draft=s.drafts[index];
-  return `<div class="dialogue-quiz-controls" data-question-index="${index}"><p id="dialogueQuizLabel${index}" class="muted">${q.type==='line'?'セリフ':'空欄'} ${index+1}</p><div class="answer-list">${q.type==='fill'?`<input id="dialogueQuizInput${index}" class="blank-input" autocomplete="off" aria-labelledby="dialogueQuizLabel${index}" ${s.graded?'disabled':''} value="${esc(draft)}" oninput="saveDialogueQuizAnswer(${index},this.value)">`:q.choices.map((choice,i)=>`<button class="answer-button ${response?(choice===q.answer?'correct':draft===choice?'incorrect':''):draft===choice?'selected':''}" ${s.graded?'disabled':''} aria-pressed="${draft===choice}" onclick="answerDialogueQuizChoice(${index},${i})">${esc(choice)}</button>`).join('')}</div>${response?`<div class="feedback ${response.correct?'good':'bad'}" role="status"><span class="quiz-result-status ${response.correct?'correct':'incorrect'}">${response.correct?'Correct':'Incorrect'}</span>${response.correct?'':`<p>Your answer: ${esc(response.answer)}</p><p>Correct: ${esc(q.answer)}</p>`}</div>`:''}</div>`;
+  return `<div class="dialogue-quiz-controls" data-question-index="${index}"><div class="answer-list">${q.type==='fill'?`<input id="dialogueQuizInput${index}" class="blank-input" autocomplete="off" aria-label="Answer ${dialogueQuizDisplayNumbers(s).get(index)}" ${s.graded?'disabled':''} value="${esc(draft)}" oninput="saveDialogueQuizAnswer(${index},this.value)">`:q.choices.map((choice,i)=>`<button class="answer-button ${response?(choice===q.answer?'correct':draft===choice?'incorrect':''):draft===choice?'selected':''}" ${s.graded?'disabled':''} aria-pressed="${draft===choice}" onclick="answerDialogueQuizChoice(${index},${i})">${esc(choice)}</button>`).join('')}</div>${response?`<div class="feedback ${response.correct?'good':'bad'}" role="status"><span class="quiz-result-status ${response.correct?'correct':'incorrect'}">${response.correct?'Correct':'Incorrect'}</span>${response.correct?'':`<p>Your answer: ${esc(response.answer)}</p><p>Correct: ${esc(q.answer)}</p>`}</div>`:''}</div>`;
 }
 function updateDialogueQuizProgress(s){
   const count=dialogueQuizAnsweredCount(s);
   document.getElementById('dialogueQuizCount').textContent=`Answered ${count} / ${s.questions.length}`;
   document.getElementById('dialogueQuizProgress').style.width=`${Math.round(count/s.questions.length*100)}%`;
-  document.getElementById('dialogueQuizCheck').disabled=s.graded||!dialogueQuizAllAnswered(s);
+  document.getElementById('dialogueQuizCheck').disabled=s.graded||!dialogueQuizCanSubmit(s);
   document.getElementById('dialogueQuizCheck').hidden=s.graded;
   document.getElementById('dialogueQuizBack').hidden=!(s.review&&s.graded&&s.parentResult);
   document.getElementById('dialogueQuizDone').hidden=!(s.review&&s.graded);
@@ -152,7 +153,8 @@ function updateDialogueQuizPage(s){
   const jp=document.getElementById('dialogueQuizJapanese');if(jp){jp.textContent=`日本語訳 ${s.settings.japanese?'表示':'非表示'}`;jp.setAttribute('aria-pressed',String(s.settings.japanese))}
   for(const i of dialogueQuizVisibleLines(d,s)){
     const english=document.getElementById(`dialogueQuizEnglish${i}`),markup=dialogueQuizLineMarkup(d,s,i);if(english.innerHTML!==markup)english.innerHTML=markup;
-    document.getElementById(`dialogueQuizJP${i}`).hidden=!(s.settings.mode==='practice'&&s.settings.japanese);
+    const translation=document.getElementById(`dialogueQuizJP${i}`),showJapanese=s.settings.mode==='practice'&&s.settings.japanese;
+    translation.classList.toggle('translation-concealed',!showJapanese);translation.setAttribute('aria-hidden',String(!showJapanese));
     document.getElementById(`dialogueQuizControls${i}`).innerHTML=s.questions.flatMap((q,index)=>q.lineIndex===i?[dialogueQuizQuestionMarkup(s,q,index)]:[]).join('');
   }
 }
@@ -169,7 +171,7 @@ function answerDialogueQuizChoice(questionIndex,choiceIndex){
   saveDialogueQuizAnswer(questionIndex,q.choices[choiceIndex]);renderDialogueQuizPlay();
 }
 function checkDialogueQuizAnswers(){
-  const s=getDialogueQuizSession();if(!s||s.graded||!dialogueQuizAllAnswered(s))return;
+  const s=getDialogueQuizSession();if(!s||s.graded||!dialogueQuizCanSubmit(s))return;
   s.responses=s.questions.map((q,index)=>({index,answer:s.drafts[index],correct:dialogueQuizAnswerCorrect(q,s.drafts[index])}));s.graded=true;
   const score=s.responses.filter(r=>r.correct).length,total=s.questions.length;
   writeJSON(STORE.dialogueQuiz,s);
@@ -199,7 +201,7 @@ function renderDialogueQuizResult(){
 
 // Integrate only at the view boundary; existing Phrase Quiz functions stay intact.
 const phraseQuizHomeView=renderQuizHome,phraseQuizPlayView=renderQuizPlay,phraseQuizResultView=renderQuizResult,phraseQuickChallenge=startQuickChallenge,phraseBackupState=safeBackupState;
-renderQuizHome=function(){if(filters.quizTab==="dialogues")return renderDialogueQuizHome();phraseQuizHomeView();app.querySelector(".list-page-header")?.insertAdjacentHTML("afterend",quizKindTabsMarkup())};
+renderQuizHome=function(){if(filters.quizTab==="dialogues")return renderDialogueQuizHome();phraseQuizHomeView();app.querySelector(".list-page-header")?.insertAdjacentHTML("afterend",quizKindTabsMarkup());app.querySelector(".quiz-settings-panel")?.classList.toggle("quiz-practice-settings",filters.quizMode==="practice")};
 renderQuizPlay=function(){return route.params.quizKind==="dialogue"?renderDialogueQuizPlay():phraseQuizPlayView()};
 renderQuizResult=function(){return route.params.quizKind==="dialogue"?renderDialogueQuizResult():phraseQuizResultView()};
 startQuickChallenge=function(){filters.quizTab="phrases";saveAppState();return phraseQuickChallenge()};
