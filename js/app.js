@@ -320,8 +320,8 @@ function helpFaq(question,answer){return `<details class="help-faq"><summary>${q
 function openHelp(){
   const faqs=[
     ["Phrase QuizとDialogue Quizの違いは？",`<p>Phrasesは個別の表現を確認します。Dialoguesは1つの会話の文脈で、その会話の学習PhraseをRecallします。PhraseとDialogueのスコア・苦手は別管理です。</p>`],
-    ["本番と練習の違いは？",`<p>Dialogue本番は穴埋め4択・次のセリフ4択・穴埋め入力を順番に出題し、日本語訳は表示しません。練習は形式を選び、Quiz中に日本語訳の表示を切り替えられます。DialogueのLast / Today / Perfectは、本番の通常Roundだけを集計します。</p>`],
-    ["Dialogue Quizは何問出る？",`<p>1回につき1 Dialogue。そのDialogueの学習Phraseを基本1回ずつ出題します。練習の「次のセリフ」は1ターン目を除き、同じ発話は重複出題しません。本番では成立しない次のセリフ問題をswapし、できなければ穴埋め4択に切り替えます。</p>`],
+    ["本番と練習の違いは？",`<p>Dialogue本番は穴埋め4択・セリフ4択・穴埋め入力を順番に出題し、日本語訳は表示しません。練習は形式を選び、Quiz中に日本語訳の表示を切り替えられます。DialogueのLast / Today / Perfectは、本番の通常Roundだけを集計します。</p>`],
+    ["Dialogue Quizは何問出る？",`<p>1回につき1 Dialogue。会話を1ページ上で完成させていきます。穴埋めは学習Phraseごと、セリフ4択は発話ごとに出題します。1ターン目も対象で、同じ発話の複数Phraseは1問にまとめます。</p>`],
     ["Dialogue Quizの「苦手」って何？",`<p>通常Roundで1問でも間違えると、そのDialogueが「苦手」になります。苦手Dialogueを通常Roundで全問正解すると解除されます。Review mistakesの全問正解では解除されません。「覚えた」は独立しているため、Learned + Weakの状態もあります。Dialogueの自動習得判定はありません。</p>`],
     ["Progressの数字は何？",`<p>Phrases / Dialoguesそれぞれで、「覚えた」にした数 / 収録総数を表示します。Season別も、そのSeasonで「覚えた」にした数 / 収録総数を表示します。</p>`],
     ["Soundって何の音？",`<p>Quizの正解 / 不正解、「覚えた」を押した時、起動時などの効果音です。英文の音声読み上げとは別の機能です。</p>`],
