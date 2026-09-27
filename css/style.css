@@ -89,7 +89,8 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 .detail-page{padding-top:2px}
 .detail-page.detail-swipe-transition{pointer-events:none;will-change:transform,opacity}
 .detail-swipe-hint{display:none}
-.quiz-kind-tabs{margin-bottom:10px}
+.quiz-kind-tabs{margin-bottom:10px;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;padding:0;overflow:hidden}
+.quiz-kind-tabs>.seg-button{width:100%;min-width:0;margin:0;text-align:center}
 .dialogue-quiz-card{margin-top:12px}
 .dialogue-quiz-card .conversation{margin:0 0 18px}
 .dialogue-quiz-card .jp[hidden]{display:none}
@@ -98,6 +99,9 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 .dialogue-quiz-card .dialogue-blank{cursor:default}.dialogue-quiz-card .dialogue-blank sup{color:var(--purple-2)}
 .dialogue-quiz-submit{display:grid;gap:10px;margin-top:18px}
 .dialogue-quiz-submit [hidden]{display:none}
+.dialogue-result-item{grid-template-columns:minmax(0,1fr);gap:5px}
+.dialogue-result-item>*{min-width:0;overflow-wrap:anywhere}
+.dialogue-result-item .quiz-result-status{justify-self:start;width:fit-content}
 .dialogue-quiz-controls{margin-top:16px;padding-bottom:8px}
 .dialogue-quiz-card .bubble{max-width:100%;min-width:0}
 .dialogue-quiz-card .answer-button{overflow-wrap:anywhere}

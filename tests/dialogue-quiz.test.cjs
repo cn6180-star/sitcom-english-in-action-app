@@ -45,19 +45,20 @@ function finishRound(miss=[]){
   const s=c.getDialogueQuizSession();
   for(let i=s.questions.length-1;i>=0;i--){const q=s.questions[i];c.saveDialogueQuizAnswer(i,miss.includes(i)?q.type==='fill'?'wrong':q.choices.find(a=>a!==q.answer):q.answer)}
   assert.equal(c.getDialogueQuizSession().responses.length,0,'No grading while drafting');
-  c.checkDialogueQuizAnswers();assert.equal(c.getDialogueQuizSession().graded,true);
-  c.completeDialogueQuiz();return c.route.params.result;
+  c.checkDialogueQuizAnswers();
+  if(s.review){const reviewed=c.getDialogueQuizSession();assert.equal(reviewed.graded,true);return {...reviewed,score:reviewed.responses.filter(r=>r.correct).length,total:reviewed.questions.length}}
+  assert.equal(c.getDialogueQuizSession(),null);return c.route.params.result;
 }
 reset();storage.dialogueLearned={friends:[d.id]};c.startDialogueQuiz(d.id,roundSettings);assert.ok(c.getDialogueQuizSession());
 let result=finishRound([0]);assert.equal(result.score,result.total-1);assert.equal(c.isDialogueWeak(d.id),true);assert.equal(c.isDialogueLearned(d.id),true);
 assert.equal(c.dialogueQuizSummary().today,1);assert.equal(c.dialogueQuizSummary().perfect,0);
-c.renderDialogueQuizResult();assert.match(c.app.innerHTML,/Incorrect/);assert.match(c.app.innerHTML,/Review mistakes/);assert.match(c.app.innerHTML,/Next Dialogue/);
-assert.match(c.app.innerHTML,/quiz-result-actions dialogue-quiz-result-actions section/);
+c.renderDialogueQuizResult();assert.match(c.app.innerHTML,/Incorrect/);assert.match(c.app.innerHTML,/Review mistakes/);assert.match(c.app.innerHTML,/Next Round/);
+assert.match(c.app.innerHTML,/quiz-result-actions section/);
 assert.equal((c.app.innerHTML.match(/<button[^>]*>Review mistakes<\/button>/g)||[]).length,1);
 c.reviewDialogueQuizMistakes();assert.equal(c.getDialogueQuizSession().questions.length,1);assert.equal(c.getDialogueQuizSession().review,true);
 result=finishRound();assert.equal(result.score,1);assert.equal(c.isDialogueWeak(d.id),true);assert.equal(c.dialogueQuizSummary().today,1);
 c.startDialogueQuiz(d.id,roundSettings);finishRound();assert.equal(c.isDialogueWeak(d.id),false);assert.equal(c.isDialogueLearned(d.id),true);
-c.renderDialogueQuizResult();assert.doesNotMatch(c.app.innerHTML,/>Review mistakes<\/button>/);
+c.renderDialogueQuizResult();assert.match(c.app.innerHTML,/<button class="primary-button" disabled>Review mistakes<\/button>/);
 const styles=fs.readFileSync(path.join(root,'css/style.css'),'utf8');
 assert.match(moduleSource,/primary-button quiz-start-button dialogue-quiz-start-button/);
 assert.match(styles,/\.quiz-start-area>\.dialogue-quiz-start-button\{width:100%\}/);
@@ -78,68 +79,84 @@ reset();c.filters.quizTab="dialogues";c.startQuickChallenge();assert.equal(c.fil
 const restored=c.safeBackupState({currentSeries:"friends",filters:{quizTab:"dialogues",dialogueQuiz:{...roundSettings,japanese:true}}},[]);
 assert.equal(restored.filters.quizTab,"dialogues");assert.equal(restored.filters.dialogueQuiz.japanese,true);
 assert.match(source,/Dialogue Quizの「苦手」って何/);assert.match(source,/Dialogue練習では日本語訳ON \/ OFF/);
-// Batch answering: every target available, editable drafts, no grading/Weak/sound until Check.
-reset();c.startDialogueQuiz(d.id,settings('practice','blank'));c.renderDialogueQuizPlay();
+// Home stays structurally aligned with Phrase Quiz; test scope data is retained but UI hidden.
+reset();c.filters.dialogueQuiz={...roundSettings,scope:'weak'};c.renderDialogueQuizHome();
+assert.doesNotMatch(c.app.innerHTML,/絞り込み|setDialogueQuizOption\('scope'/);
+assert.equal(c.filters.dialogueQuiz.scope,'weak');
+assert.doesNotMatch(c.app.innerHTML,/<strong>\d+ Dialogues<\/strong>/);
+assert.ok(c.app.innerHTML.indexOf('quiz-start-area')<c.app.innerHTML.indexOf('quiz-settings-panel'));
+assert.ok(c.app.innerHTML.indexOf('quiz-settings-panel')<c.app.innerHTML.indexOf('quiz-stats-card'));
+assert.ok(c.app.innerHTML.indexOf('quiz-stats-card')<c.app.innerHTML.indexOf('quiz-mode-note'));
+c.filters.dialogueQuiz=settings('practice');c.renderDialogueQuizHome();
+assert.match(c.app.innerHTML,/絞り込み/);assert.match(c.app.innerHTML,/日本語訳/);
+assert.doesNotMatch(c.app.innerHTML,/quiz-stats-card/,'Same practice structure as Phrase home');
+assert.match(styles,/\.quiz-kind-tabs\{[^}]*grid-template-columns:repeat\(2,minmax\(0,1fr\)\);gap:0;padding:0/);
+
+// Draft choice changes never grade/reveal. See Results grades and navigates directly once.
+reset();storage.dialogueLearned={friends:[d.id]};c.startDialogueQuiz(d.id,settings('practice','blank'));c.renderDialogueQuizPlay();
 const page=c.app.innerHTML,initialSession=c.getDialogueQuizSession(),firstQuestion=initialSession.questions[0];
-assert.ok(page.includes('dialogueQuizPage'));assert.ok(!page.includes('dialogue-quiz-translations'));
-assert.equal(dom.dialogueQuizCheck.disabled,true);
-assert.equal(Object.hasOwn(initialSession,'index'),false);
-assert.equal(c.isDialogueWeak(d.id),false);
+assert.match(page,/>See Results<\/button>/);assert.doesNotMatch(page,/答え合わせ|dialogueQuizResult/);
+assert.equal(dom.dialogueQuizCheck.disabled,true);assert.equal(Object.hasOwn(initialSession,'index'),false);
 const wrongChoice=firstQuestion.choices.find(a=>a!==firstQuestion.answer);
 c.answerDialogueQuizChoice(0,firstQuestion.choices.indexOf(wrongChoice));
 assert.equal(c.getDialogueQuizSession().responses.length,0);assert.equal(c.isDialogueWeak(d.id),false);assert.equal(soundCalls,0);
-assert.equal(c.app.innerHTML,page,'Selecting preserves Dialogue page');
-assert.match(dom[`dialogueQuizControls${firstQuestion.lineIndex}`].innerHTML,/selected/);
-assert.doesNotMatch(dom[`dialogueQuizControls${firstQuestion.lineIndex}`].innerHTML,/feedback|Correct:|Incorrect/);
+assert.equal(c.app.innerHTML,page);
 c.answerDialogueQuizChoice(0,firstQuestion.choices.indexOf(firstQuestion.answer));
-assert.equal(c.getDialogueQuizSession().drafts[0],firstQuestion.answer,'Can change choice');
-for(let i=0;i<d.lines.length;i++)assert.equal((dom[`dialogueQuizControls${i}`].innerHTML.match(/data-question-index=/g)||[]).length,initialSession.questions.filter(q=>q.lineIndex===i).length,'All answer UIs initially present');
-assert.match(c.dialogueQuizLineMarkup(d,c.getDialogueQuizSession(),firstQuestion.lineIndex),/_____/,'Choice does not reveal');
-c.checkDialogueQuizAnswers();assert.equal(c.getDialogueQuizSession().graded,false,'Partial answers cannot be checked');
+assert.equal(c.getDialogueQuizSession().drafts[0],firstQuestion.answer);
+for(let i=0;i<d.lines.length;i++){
+  const markup=dom[`dialogueQuizControls${i}`].innerHTML;
+  assert.equal((markup.match(/data-question-index=/g)||[]).length,initialSession.questions.filter(q=>q.lineIndex===i).length);
+  assert.doesNotMatch(markup,/選んでください|入力してください|feedback|Your answer|Correct:/);
+}
+assert.match(c.dialogueQuizLineMarkup(d,c.getDialogueQuizSession(),firstQuestion.lineIndex),/_____/);
+c.checkDialogueQuizAnswers();assert.equal(c.getDialogueQuizSession().graded,false);
 for(let i=1;i<initialSession.questions.length;i++)c.saveDialogueQuizAnswer(i,initialSession.questions[i].answer);
 assert.equal(dom.dialogueQuizCheck.disabled,false);c.checkDialogueQuizAnswers();
-assert.equal(c.app.innerHTML,page,'Checking preserves Dialogue page');
-assert.equal(c.getDialogueQuizSession().responses.length,initialSession.questions.length);
-assert.ok(c.getDialogueQuizSession().responses.every(r=>r.correct));
-assert.equal(dom.dialogueQuizResult.hidden,false);assert.equal(dom.dialogueQuizCheck.hidden,true);
-assert.match(dom[`dialogueQuizControls${firstQuestion.lineIndex}`].innerHTML,/Correct/);
-const locked=clone(c.getDialogueQuizSession());c.saveDialogueQuizAnswer(0,wrongChoice);c.answerDialogueQuizChoice(0,firstQuestion.choices.indexOf(wrongChoice));c.checkDialogueQuizAnswers();
-assert.deepEqual(clone(c.getDialogueQuizSession()),locked,'Graded answers locked and no duplicate grading');
-for(const r of firstQuestion.ranges)assert.ok(c.dialogueQuizLineMarkup(d,c.getDialogueQuizSession(),firstQuestion.lineIndex).includes(d.lines[firstQuestion.lineIndex][1].slice(r.index,r.index+r.length)));
+assert.equal(c.route.name,'quizResult');assert.equal(c.getDialogueQuizSession(),null);
+assert.equal(c.route.params.result.score,initialSession.questions.length);
+assert.equal(c.app.innerHTML,page,'No intermediate grading UI before Result navigation');
+const originalResult=clone(c.route.params.result);c.checkDialogueQuizAnswers();assert.deepEqual(clone(c.route.params.result),originalResult);
+c.renderDialogueQuizResult();assert.match(c.app.innerHTML,/quiz-result-status correct/);
+assert.doesNotMatch(c.app.innerHTML,/Correct:|Your answer:|Next Dialogue/);
+assert.match(c.app.innerHTML,/>Next Round<\/button>/);assert.match(c.app.innerHTML,/dialogue-result-item/);
 
-// All input fields coexist. Whitespace is unanswered; typing has no grading or rerender.
+// Input drafts all coexist. Whitespace disables; normalization stays unchanged.
 reset();c.startDialogueQuiz(d.id,settings('practice','fill'));c.renderDialogueQuizPlay();
 const fillSession=c.getDialogueQuizSession(),fillPage=c.app.innerHTML;
-assert.equal(fillSession.questions.length,8);
 assert.equal(Object.values(dom).reduce((n,e)=>n+(e.innerHTML.match(/id="dialogueQuizInput\d+"/g)||[]).length,0),8);
 c.saveDialogueQuizAnswer(5,'draft');c.saveDialogueQuizAnswer(5,'edited');
 assert.equal(c.getDialogueQuizSession().drafts[5],'edited');assert.equal(c.getDialogueQuizSession().responses.length,0);
-assert.equal(c.app.innerHTML,fillPage);assert.equal(c.isDialogueWeak(d.id),false);
 for(let i=0;i<fillSession.questions.length;i++)c.saveDialogueQuizAnswer(i,fillSession.questions[i].answer);
-c.saveDialogueQuizAnswer(3,'   ');assert.equal(dom.dialogueQuizCheck.disabled,true);
-c.checkDialogueQuizAnswers();assert.equal(c.getDialogueQuizSession().graded,false);
-c.saveDialogueQuizAnswer(3,fillSession.questions[3].answer);assert.equal(dom.dialogueQuizCheck.disabled,false);
-c.toggleDialogueQuizJapanese();assert.equal(c.getDialogueQuizSession().drafts[5],fillSession.questions[5].answer,'Japanese toggle preserves drafts');
-c.checkDialogueQuizAnswers();assert.ok(c.getDialogueQuizSession().responses.every(r=>r.correct));
-assert.match(dom[`dialogueQuizControls${fillSession.questions[0].lineIndex}`].innerHTML,/disabled/);
+c.saveDialogueQuizAnswer(3,'   ');assert.equal(dom.dialogueQuizCheck.disabled,true);c.checkDialogueQuizAnswers();assert.equal(c.getDialogueQuizSession().graded,false);
+c.saveDialogueQuizAnswer(3,fillSession.questions[3].answer);c.toggleDialogueQuizJapanese();
+assert.equal(c.getDialogueQuizSession().drafts[5],fillSession.questions[5].answer);c.checkDialogueQuizAnswers();
+assert.equal(c.route.name,'quizResult');assert.equal(c.route.params.result.score,8);
 
-// First-turn line choices remain hidden until all responses are checked.
+// Line choices: first turn eligible; no reveal until direct Result.
 reset();c.startDialogueQuiz(d.id,settings('practice','line'));c.renderDialogueQuizPlay();
 const lineSession=c.getDialogueQuizSession();assert.equal(lineSession.questions[0].lineIndex,0);
 for(let i=0;i<lineSession.questions.length;i++)c.saveDialogueQuizAnswer(i,lineSession.questions[i].answer);
 assert.match(c.dialogueQuizLineMarkup(d,c.getDialogueQuizSession(),0),/████/);
-c.checkDialogueQuizAnswers();assert.ok(c.dialogueQuizLineMarkup(d,c.getDialogueQuizSession(),0).includes(d.lines[0][1]));
+c.checkDialogueQuizAnswers();assert.equal(c.route.name,'quizResult');assert.equal(c.getDialogueQuizSession(),null);
 
-// Weak/history only change when batch-checked, not when showing Result (or checking twice).
-reset();storage.dialogueLearned={friends:[d.id]};c.startDialogueQuiz(d.id,roundSettings);c.renderDialogueQuizPlay();
-const weakRound=c.getDialogueQuizSession();
-for(let i=0;i<weakRound.questions.length;i++)c.saveDialogueQuizAnswer(i,i===0?weakRound.questions[0].choices.find(a=>a!==weakRound.questions[0].answer):weakRound.questions[i].answer);
-assert.equal(c.isDialogueWeak(d.id),false);assert.equal(c.dialogueQuizSummary().today,0);
-c.checkDialogueQuizAnswers();assert.equal(c.isDialogueWeak(d.id),true);assert.equal(c.isDialogueLearned(d.id),true);
-assert.equal(c.dialogueQuizSummary().today,1);c.checkDialogueQuizAnswers();assert.equal(c.dialogueQuizSummary().today,1);
-c.completeDialogueQuiz();assert.equal(c.dialogueQuizSummary().today,1);
-c.reviewDialogueQuizMistakes();c.renderDialogueQuizPlay();assert.equal(c.getDialogueQuizSession().graded,false);finishRound();assert.equal(c.isDialogueWeak(d.id),true);
-
+// Quick Review uses incorrect targets + preceding context, never independent full Result/history.
+reset();storage.dialogueLearned={friends:[d.id]};c.startDialogueQuiz(d.id,roundSettings);const normal=finishRound([0,1]);
+assert.equal(c.isDialogueWeak(d.id),true);assert.equal(c.isDialogueLearned(d.id),true);assert.equal(c.dialogueQuizSummary().today,1);
+c.renderDialogueQuizResult();assert.match(c.app.innerHTML,/quiz-result-status incorrect/);
+assert.match(c.app.innerHTML,/Your answer:|Correct:/);
+c.reviewDialogueQuizMistakes();c.renderDialogueQuizPlay();
+const review=c.getDialogueQuizSession();assert.equal(review.questions.length,2);assert.deepEqual(clone(review.parentResult),clone(normal));
+assert.deepEqual([...c.dialogueQuizVisibleLines(d,review)],[...new Set(review.questions.flatMap(q=>[q.lineIndex-1,q.lineIndex]).filter(i=>i>=0))].sort((a,b)=>a-b));
+assert.ok(c.dialogueQuizVisibleLines(d,review).length<d.lines.length);
+const reviewPage=c.app.innerHTML,routeBefore=c.route.name;
+assert.doesNotMatch(reviewPage,/学習Phrase|未出題|mistake-list/);
+const reviewed=finishRound();assert.equal(reviewed.score,2);assert.equal(c.route.name,routeBefore);
+assert.equal(c.app.innerHTML,reviewPage,'Quick Review grade updates page, not full Result');
+assert.equal(dom.dialogueQuizBack.hidden,false);assert.equal(dom.dialogueQuizDone.hidden,false);
+assert.equal(c.isDialogueWeak(d.id),true);assert.equal(c.dialogueQuizSummary().today,1);
+c.backToDialogueQuizResults();assert.equal(c.route.name,'quizResult');assert.deepEqual(clone(c.route.params.result),clone(normal));
+c.reviewDialogueQuizMistakes();c.doneDialogueQuickReview();assert.equal(c.route.name,'quiz');assert.equal(c.getDialogueQuizSession(),null);
+assert.match(styles,/\.dialogue-result-item\{grid-template-columns:minmax\(0,1fr\)/);
 // Legacy sessions keep entered answers as editable drafts and do not require an active index.
 const legacyEntries=c.dialogueQuizEntries(d);storage[c.STORE.dialogueQuiz]={version:1,dialogueId:d.id,settings:settings('practice','blank'),review:false,index:1,questions:legacyEntries.map(e=>({...e,type:'blank',choices:[e.answer,'to to '+e.answer,'for for '+e.answer,'would would '+e.answer]})),responses:[{index:0,answer:legacyEntries[0].answer,correct:true}]};
 const migrated=c.getDialogueQuizSession();assert.equal(migrated.version,3);assert.equal(migrated.responses.length,0);
