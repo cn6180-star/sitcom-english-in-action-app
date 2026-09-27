@@ -62,13 +62,28 @@ function normalizeDialogueQuizInput(value){
 function dialogueQuizInputMatches(answer,expected){return normalizeDialogueQuizInput(answer)===normalizeDialogueQuizInput(expected)}
 function getDialogueQuizSession(){
   const s=readJSON(STORE.dialogueQuiz,null),d=s&&DIALOGUES.find(d=>d.id===s.dialogueId);
-  if(!d||![1,2].includes(s.version)||!Array.isArray(s.questions)||!s.questions.length||!Number.isInteger(s.index)||s.index<0||s.index>=s.questions.length||!Array.isArray(s.responses)||typeof s.review!=="boolean")return null;
-  if(s.version===1){const questions=createDialogueQuizQuestions(d,dialogueQuizSettings(s.settings),s.questions.map(q=>q.phraseId));const responses=questions.flatMap((q,index)=>{const old=s.questions.flatMap((old,i)=>q.phraseIds.includes(old.phraseId)?[s.responses.find(r=>r.index===i)]:[]);return old.length&&old.every(Boolean)?[{index,answer:q.answer,correct:old.every(r=>r.correct)}]:[]});const migrated={...s,version:2,settings:dialogueQuizSettings(s.settings),questions,responses,index:questions.findIndex((q,i)=>!responses.some(r=>r.index===i))};if(migrated.index<0)migrated.index=questions.length-1;writeJSON(STORE.dialogueQuiz,migrated);return getDialogueQuizSession()}
+  if(!d||![1,2,3].includes(s.version)||!Array.isArray(s.questions)||!s.questions.length||!Array.isArray(s.responses)||typeof s.review!=="boolean")return null;
+  if(s.version!==3){
+    const questions=s.version===1?createDialogueQuizQuestions(d,dialogueQuizSettings(s.settings),s.questions.map(q=>q.phraseId)):s.questions;
+    // Keep legacy answers as editable drafts; no old per-question grading carries into the new round.
+    const drafts=questions.map(q=>{
+      const previous=s.questions.map((old,index)=>({old,response:s.responses.find(r=>r.index===index)})).filter(x=>q.phraseIds.includes(x.old.phraseId)&&x.response);
+      if(previous.length===1&&previous[0].old.answer===q.answer)return String(previous[0].response.answer);
+      return previous.length===q.phraseIds.length&&previous.every(x=>x.response.correct)?q.answer:"";
+    }).map((answer,index)=>questions[index].type==='fill'||questions[index].choices.includes(answer)?answer:"");
+    writeJSON(STORE.dialogueQuiz,{version:3,dialogueId:d.id,settings:dialogueQuizSettings(s.settings),review:s.review,questions,drafts,graded:false,responses:[]});
+    return getDialogueQuizSession();
+  }
   const settings=dialogueQuizSettings(s.settings),entries=dialogueQuizEntries(d),ids=new Set();
   if(!s.questions.every(q=>{const entry=entries.find(e=>e?.phraseId===q?.phraseId);if(!entry||!Array.isArray(q.phraseIds)||!q.phraseIds.includes(q.phraseId))return false;const ranges=q.type==='line'?entry.ranges:dialogueQuizMergedRanges(entries.filter(e=>q.phraseIds.includes(e?.phraseId)));return q.phraseIds.length&&q.phraseIds.every(id=>!ids.has(id)&&ids.add(id)&&entries.some(e=>e?.phraseId===id&&e.lineIndex===q.lineIndex))&&DIALOGUE_QUIZ_TYPES.includes(q.type)&&q.lineIndex===entry.lineIndex&&JSON.stringify(q.ranges)===JSON.stringify(ranges)&&q.answer===(q.type==="line"?d.lines[q.lineIndex][1]:ranges.map(r=>d.lines[q.lineIndex][1].slice(r.index,r.index+r.length)).join(' … '))&&(q.type==="fill"||Array.isArray(q.choices)&&q.choices.length===4&&new Set(q.choices.map(dialogueQuizChoiceKey)).size===4&&q.choices.includes(q.answer))}))return null;
-  const indexes=new Set();if(!s.responses.every(r=>r&&Number.isInteger(r.index)&&r.index>=0&&r.index<s.questions.length&&!indexes.has(r.index)&&indexes.add(r.index)&&typeof r.correct==="boolean"))return null;
+  if(typeof s.graded!=="boolean"||!Array.isArray(s.drafts)||s.drafts.length!==s.questions.length||!s.drafts.every((answer,index)=>typeof answer==='string'&&(s.questions[index].type==='fill'||answer===''||s.questions[index].choices.includes(answer))))return null;
+  if(!s.graded&&s.responses.length)return null;
+  if(s.graded&&(!dialogueQuizAllAnswered(s)||s.responses.length!==s.questions.length||!s.responses.every((r,index)=>r?.index===index&&r.answer===s.drafts[index]&&r.correct===dialogueQuizAnswerCorrect(s.questions[index],r.answer))))return null;
   return{...s,settings};
 }
+function dialogueQuizAnswerCorrect(question,answer){return question.type==='fill'?dialogueQuizInputMatches(answer,question.answer):answer===question.answer}
+function dialogueQuizAnsweredCount(s){return s.drafts.filter(answer=>answer.trim()).length}
+function dialogueQuizAllAnswered(s){return dialogueQuizAnsweredCount(s)===s.questions.length}
 function quizKindTabsMarkup(){const dialogue=filters.quizTab==="dialogues";return `<div class="segmented quiz-kind-tabs" role="tablist" aria-label="Quiz content"><button class="seg-button ${dialogue?'':'selected'}" role="tab" aria-selected="${!dialogue}" onclick="setQuizKind('phrases')">Phrases</button><button class="seg-button ${dialogue?'selected':''}" role="tab" aria-selected="${dialogue}" onclick="setQuizKind('dialogues')">Dialogues</button></div>`}
 function setQuizKind(kind){filters.quizTab=kind==="dialogues"?"dialogues":"phrases";saveAppState();renderQuizHome()}
 function setDialogueQuizOption(key,value){filters.dialogueQuiz={...dialogueQuizSettings(),[key]:value};saveAppState();renderDialogueQuizHome()}
@@ -77,7 +92,7 @@ function dialogueQuizSummary(){const history=dialogueQuizHistory(),today=history
 function renderDialogueQuizHome(){
   const settings=dialogueQuizSettings(),session=getDialogueQuizSession(),pool=dialogueQuizPool(settings),summary=dialogueQuizSummary();
   const buttons=(key,values)=>values.map(([value,label])=>`<button class="chip ${String(settings[key])===String(value)?'selected':''}" aria-pressed="${String(settings[key])===String(value)}" onclick="setDialogueQuizOption('${key}','${value}')">${label}</button>`).join("");
-  app.innerHTML=`${listPageHeader("Quiz")}${quizKindTabsMarkup()}<div class="segmented quiz-mode-tabs" role="tablist" aria-label="Dialogue quiz mode"><button class="seg-button ${settings.mode==='test'?'selected':''}" role="tab" aria-selected="${settings.mode==='test'}" onclick="setDialogueQuizOption('mode','test')">本番</button><button class="seg-button ${settings.mode==='practice'?'selected':''}" role="tab" aria-selected="${settings.mode==='practice'}" onclick="setDialogueQuizOption('mode','practice')">練習</button></div><div class="quiz-start-area">${session?`<span>${esc(DIALOGUES.find(d=>d.id===session.dialogueId).title)} · ${session.responses.length}/${session.questions.length}</span><div class="button-row"><button class="primary-button" onclick="navigate('quizPlay',{quizKind:'dialogue'})">Resume Quiz</button><button class="secondary-button" onclick="confirmDialogueQuizRestart()">Start Over</button></div>`:`<button class="primary-button quiz-start-button dialogue-quiz-start-button" ${pool.length?'onclick="startDialogueQuiz()"':'disabled'}>${settings.mode==='practice'?'Start Practice':'Start Quiz'}</button>`}</div><section class="card filter-panel quiz-settings-panel">${settings.mode==='practice'?`<div class="filter-group"><div class="filter-label">問題形式</div><div class="chips">${buttons('type',[["blank","穴埋め4択"],["line","セリフ4択"],["fill","穴埋め入力"]])}</div></div>`:''}<div class="filter-group"><div class="filter-label">絞り込み</div><div class="chips">${buttons('scope',[["all","全て"],["weak","苦手"],["unlearned","未習得"],["learned","習得済み"],["saved","保存"]])}</div></div><div class="filter-group"><div class="filter-label">シーズン</div><div class="chips">${buttons('season',[["ALL","全て"],...SEASONS.map(s=>[s,`S${s}`])])}</div></div><p class="page-subtitle">${pool.length} dialogues available · 1 Round = 1 Dialogue</p><p id="dialogueQuizStatus" role="status"></p></section><section class="card quiz-stats-card"><h2 class="section-title">Your Dialogue Quiz</h2><div class="stats-row"><div class="stat-box"><span>Last</span><strong>${summary.last?`${summary.last.score}/${summary.last.total}`:'—'}</strong></div><div class="stat-box"><span>Today</span><strong>${summary.today} Dialogues</strong></div><div class="stat-box"><span>Perfect</span><strong>${summary.perfect}</strong></div></div><p class="muted">本番の通常Roundのみ集計</p></section>`;
+  app.innerHTML=`${listPageHeader("Quiz")}${quizKindTabsMarkup()}<div class="segmented quiz-mode-tabs" role="tablist" aria-label="Dialogue quiz mode"><button class="seg-button ${settings.mode==='test'?'selected':''}" role="tab" aria-selected="${settings.mode==='test'}" onclick="setDialogueQuizOption('mode','test')">本番</button><button class="seg-button ${settings.mode==='practice'?'selected':''}" role="tab" aria-selected="${settings.mode==='practice'}" onclick="setDialogueQuizOption('mode','practice')">練習</button></div><div class="quiz-start-area">${session?`<span>${esc(DIALOGUES.find(d=>d.id===session.dialogueId).title)} · ${dialogueQuizAnsweredCount(session)}/${session.questions.length}</span><div class="button-row"><button class="primary-button" onclick="navigate('quizPlay',{quizKind:'dialogue'})">Resume Quiz</button><button class="secondary-button" onclick="confirmDialogueQuizRestart()">Start Over</button></div>`:`<button class="primary-button quiz-start-button dialogue-quiz-start-button" ${pool.length?'onclick="startDialogueQuiz()"':'disabled'}>${settings.mode==='practice'?'Start Practice':'Start Quiz'}</button>`}</div><section class="card filter-panel quiz-settings-panel">${settings.mode==='practice'?`<div class="filter-group"><div class="filter-label">問題形式</div><div class="chips">${buttons('type',[["blank","穴埋め4択"],["line","セリフ4択"],["fill","穴埋め入力"]])}</div></div>`:''}<div class="filter-group"><div class="filter-label">絞り込み</div><div class="chips">${buttons('scope',[["all","全て"],["weak","苦手"],["unlearned","未習得"],["learned","習得済み"],["saved","保存"]])}</div></div><div class="filter-group"><div class="filter-label">シーズン</div><div class="chips">${buttons('season',[["ALL","全て"],...SEASONS.map(s=>[s,`S${s}`])])}</div></div><p class="page-subtitle">${pool.length} dialogues available · 1 Round = 1 Dialogue</p><p id="dialogueQuizStatus" role="status"></p></section><section class="card quiz-stats-card"><h2 class="section-title">Your Dialogue Quiz</h2><div class="stats-row"><div class="stat-box"><span>Last</span><strong>${summary.last?`${summary.last.score}/${summary.last.total}`:'—'}</strong></div><div class="stat-box"><span>Today</span><strong>${summary.today} Dialogues</strong></div><div class="stat-box"><span>Perfect</span><strong>${summary.perfect}</strong></div></div><p class="muted">本番の通常Roundのみ集計</p></section>`;
 }
 function confirmDialogueQuizRestart(){showConfirm("Start the dialogue quiz over?",()=>{safeRemoveItem(STORE.dialogueQuiz);startDialogueQuiz()})}
 function startDialogueQuiz(id=null,settings=dialogueQuizSettings(),reviewQuestions=null){
@@ -86,50 +101,74 @@ function startDialogueQuiz(id=null,settings=dialogueQuizSettings(),reviewQuestio
   const questions=reviewQuestions||createDialogueQuizQuestions(d,settings);
   if(!questions.length){const status=document.getElementById("dialogueQuizStatus");if(status)status.textContent="この形式で出題できる学習Phraseがありません。別の形式またはDialogueを選んでください。";return}
   filters.quizTab="dialogues";filters.dialogueQuiz={...settings};saveAppState();
-  writeJSON(STORE.dialogueQuiz,{version:2,dialogueId:d.id,settings,review:Boolean(reviewQuestions),questions,index:0,responses:[]});navigate("quizPlay",{quizKind:"dialogue"});playQuizStartSound();
+  writeJSON(STORE.dialogueQuiz,{version:3,dialogueId:d.id,settings,review:Boolean(reviewQuestions),questions,drafts:questions.map(()=>""),graded:false,responses:[]});navigate("quizPlay",{quizKind:"dialogue"});playQuizStartSound();
 }
 function toggleDialogueQuizJapanese(){const session=getDialogueQuizSession();if(!session||session.settings.mode!=="practice")return;session.settings.japanese=!session.settings.japanese;filters.dialogueQuiz={...dialogueQuizSettings(),japanese:session.settings.japanese};saveAppState();writeJSON(STORE.dialogueQuiz,session);renderDialogueQuizPlay()}
 function renderDialogueQuizPlay(){
   const s=getDialogueQuizSession();if(!s){route={name:"quiz",params:{}};filters.quizTab="dialogues";render();return}
-  if(!document.getElementById('dialogueQuizPage')){
+  const page=document.getElementById('dialogueQuizPage');
+  if(!page||page.dataset.dialogueId!==s.dialogueId){
     const d=DIALOGUES.find(d=>d.id===s.dialogueId);
-    app.innerHTML=`<section id="dialogueQuizPage" data-dialogue-id="${esc(d.id)}"><header class="quiz-play-header"><h1 id="dialogueQuizCount" class="quiz-question-count"></h1><p id="dialogueQuizTitle"></p>${s.settings.mode==='practice'?'<button id="dialogueQuizJapanese" class="translation-toggle" onclick="toggleDialogueQuizJapanese()"></button>':''}</header><div class="quiz-progress"><span id="dialogueQuizProgress"></span></div><section class="card dialogue-quiz-card"><div class="conversation">${d.lines.map((line,i)=>`<div id="dialogueQuizLine${i}" class="bubble-row ${line[0].toLowerCase()}"><div class="bubble"><div class="speaker-label">${esc(line[0])}</div><div id="dialogueQuizEnglish${i}"></div><div class="jp" id="dialogueQuizJP${i}" hidden>${esc(line[2])}</div><div id="dialogueQuizControls${i}"></div></div></div>`).join('')}</div></section></section>`;
+    app.innerHTML=`<section id="dialogueQuizPage" data-dialogue-id="${esc(d.id)}"><header class="quiz-play-header"><h1 id="dialogueQuizCount" class="quiz-question-count"></h1><p id="dialogueQuizTitle"></p>${s.settings.mode==='practice'?'<button id="dialogueQuizJapanese" class="translation-toggle" onclick="toggleDialogueQuizJapanese()"></button>':''}</header><div class="quiz-progress"><span id="dialogueQuizProgress"></span></div><section class="card dialogue-quiz-card"><div class="conversation">${d.lines.map((line,i)=>`<div id="dialogueQuizLine${i}" class="bubble-row ${line[0].toLowerCase()}"><div class="bubble"><div class="speaker-label">${esc(line[0])}</div><div id="dialogueQuizEnglish${i}"></div><div class="jp" id="dialogueQuizJP${i}" hidden>${esc(line[2])}</div><div id="dialogueQuizControls${i}"></div></div></div>`).join('')}</div><div class="dialogue-quiz-submit"><p id="dialogueQuizScore" role="status"></p><button id="dialogueQuizCheck" class="primary-button" onclick="checkDialogueQuizAnswers()" disabled>答え合わせ</button><button id="dialogueQuizResult" class="primary-button" onclick="completeDialogueQuiz()" hidden>See Results</button></div></section></section>`;
   }
   updateDialogueQuizPage(s);
 }
 function dialogueQuizLineMarkup(d,s,lineIndex){
-  const text=d.lines[lineIndex][1],answered=new Set(s.responses.map(r=>r.index)),pending=s.questions.flatMap((q,index)=>answered.has(index)?[]:[{...q,index}]),lineTarget=pending.find(q=>q.type==='line'&&q.lineIndex===lineIndex);
-  if(lineTarget)return `<span class="dialogue-quiz-hidden ${lineTarget.index===s.index?'active-target':''}">██████████</span>`;
+  const text=d.lines[lineIndex][1],pending=s.graded?[]:s.questions.map((q,index)=>({...q,index})),lineTarget=pending.find(q=>q.type==='line'&&q.lineIndex===lineIndex);
+  if(lineTarget)return '<span class="dialogue-quiz-hidden">██████████</span>';
   const linked=pending.flatMap(q=>q.phraseIds),matches=dialoguePhraseMatchResults(d,linked.map(id=>PHRASES.find(p=>p.id===id)).filter(Boolean));
-  const ranges=linked.flatMap(id=>selectedDialogueMatches(matches.filter(m=>m.lineIndex===lineIndex&&m.phraseId===id))).map(m=>({...m,active:s.questions[s.index].phraseIds.includes(m.phraseId)&&s.questions[s.index].lineIndex===lineIndex})).sort((a,b)=>a.index-b.index),merged=[];
-  for(const r of ranges){const last=merged.at(-1);if(last&&r.index<=last.index+last.length){last.length=Math.max(last.index+last.length,r.index+r.length)-last.index;last.active||=r.active}else merged.push({...r})}
-  let result='',cursor=0;for(const r of merged){result+=esc(text.slice(cursor,r.index))+`<span class="dialogue-blank ${r.active?'active-target':''}">_____</span>`;cursor=r.index+r.length}return result+esc(text.slice(cursor));
+  const ranges=linked.flatMap(id=>selectedDialogueMatches(matches.filter(m=>m.lineIndex===lineIndex&&m.phraseId===id))).map(m=>({...m,question:pending.find(q=>q.phraseIds.includes(m.phraseId)).index})).sort((a,b)=>a.index-b.index),merged=[];
+  for(const r of ranges){const last=merged.at(-1);if(last&&r.index<=last.index+last.length)last.length=Math.max(last.index+last.length,r.index+r.length)-last.index;else merged.push({...r})}
+  let result='',cursor=0;for(const r of merged){result+=esc(text.slice(cursor,r.index))+`<span class="dialogue-blank">_____<sup>${r.question+1}</sup></span>`;cursor=r.index+r.length}return result+esc(text.slice(cursor));
+}
+function dialogueQuizQuestionMarkup(s,q,index){
+  const response=s.graded?s.responses[index]:null,draft=s.drafts[index];
+  return `<div class="dialogue-quiz-controls" data-question-index="${index}"><p id="dialogueQuizLabel${index}" class="muted">${q.type==='line'?'セリフ':'空欄'} ${index+1} · ${q.type==='line'?'隠れているセリフを選んでください。':q.type==='fill'?'空欄に入る表現を入力してください。':'空欄に入る表現を選んでください。'}${q.ranges.length>1&&q.type!=='line'?' 複数の空欄は … で区切れます。':''}</p><div class="answer-list">${q.type==='fill'?`<input id="dialogueQuizInput${index}" class="blank-input" autocomplete="off" aria-labelledby="dialogueQuizLabel${index}" ${s.graded?'disabled':''} value="${esc(draft)}" oninput="saveDialogueQuizAnswer(${index},this.value)">`:q.choices.map((choice,i)=>`<button class="answer-button ${response?(choice===q.answer?'correct':draft===choice?'incorrect':''):draft===choice?'selected':''}" ${s.graded?'disabled':''} aria-pressed="${draft===choice}" onclick="answerDialogueQuizChoice(${index},${i})">${esc(choice)}</button>`).join('')}</div>${response?`<div class="feedback ${response.correct?'good':'bad'}" role="status"><strong>${response.correct?'Correct':'Incorrect'}</strong>${response.correct?'':`<p>Your answer: ${esc(response.answer)}</p>`}<p>Correct: ${esc(q.answer)}</p></div>`:''}</div>`;
+}
+function updateDialogueQuizProgress(s){
+  const count=dialogueQuizAnsweredCount(s);
+  document.getElementById('dialogueQuizCount').textContent=`Answered ${count} / ${s.questions.length}`;
+  document.getElementById('dialogueQuizProgress').style.width=`${Math.round(count/s.questions.length*100)}%`;
+  document.getElementById('dialogueQuizCheck').disabled=s.graded||!dialogueQuizAllAnswered(s);
+  document.getElementById('dialogueQuizCheck').hidden=s.graded;
+  document.getElementById('dialogueQuizResult').hidden=!s.graded;
+  document.getElementById('dialogueQuizScore').textContent=s.graded?`${s.responses.filter(r=>r.correct).length} / ${s.questions.length}`:'';
 }
 function updateDialogueQuizPage(s){
-  const d=DIALOGUES.find(d=>d.id===s.dialogueId),q=s.questions[s.index],response=s.responses.find(r=>r.index===s.index),title={blank:'穴埋め4択',line:'セリフ4択',fill:'穴埋め入力'}[q.type];
-  document.getElementById('dialogueQuizCount').textContent=`Question ${s.index+1} / ${s.questions.length}`;
-  document.getElementById('dialogueQuizTitle').textContent=`${d.title} · ${title}${s.review?' · Review mistakes':''}`;
-  document.getElementById('dialogueQuizProgress').style.width=`${Math.round(s.responses.length/s.questions.length*100)}%`;
+  const d=DIALOGUES.find(d=>d.id===s.dialogueId);
+  document.getElementById('dialogueQuizTitle').textContent=`${d.title}${s.review?' · Review mistakes':''}`;
+  updateDialogueQuizProgress(s);
   const jp=document.getElementById('dialogueQuizJapanese');if(jp){jp.textContent=`日本語訳 ${s.settings.japanese?'表示':'非表示'}`;jp.setAttribute('aria-pressed',String(s.settings.japanese))}
   for(let i=0;i<d.lines.length;i++){
     const english=document.getElementById(`dialogueQuizEnglish${i}`),markup=dialogueQuizLineMarkup(d,s,i);if(english.innerHTML!==markup)english.innerHTML=markup;
     document.getElementById(`dialogueQuizJP${i}`).hidden=!(s.settings.mode==='practice'&&s.settings.japanese);
-    const row=document.getElementById(`dialogueQuizLine${i}`);row.classList.toggle('quiz-active-line',i===q.lineIndex);
-    const controls=document.getElementById(`dialogueQuizControls${i}`);if(i!==q.lineIndex){const completed=s.responses.filter(r=>s.questions[r.index].lineIndex===i);controls.innerHTML=completed.map(r=>`<span class="muted">${r.correct?'Correct':'Incorrect'}</span>`).join(' · ');continue}
-    const draft=controls.dataset.question===String(s.index)?document.getElementById('dialogueQuizInput')?.value||'':'';controls.dataset.question=String(s.index);
-    controls.innerHTML=`<div class="dialogue-quiz-controls"><p class="muted">${q.type==='line'?'隠れているセリフを選んでください。':'空欄に入る表現を答えてください。'}${q.ranges.length>1&&q.type!=='line'?' 複数の空欄は … で区切れます。':''}</p><div class="answer-list">${q.type==='fill'?`<input id="dialogueQuizInput" class="blank-input" autocomplete="off" aria-label="Dialogue answer" ${response?'disabled':''} value="${esc(response?.answer||draft)}">${response?'':`<button class="primary-button" onclick="answerDialogueQuiz(document.getElementById('dialogueQuizInput').value)">Check Answer</button>`}`:q.choices.map((choice,i)=>`<button class="answer-button ${response?(choice===q.answer?'correct':response.answer===choice?'incorrect':''):''}" ${response?'disabled':''} onclick="answerDialogueQuizChoice(${i})">${esc(choice)}</button>`).join('')}</div>${response?`<div class="feedback ${response.correct?'good':'bad'}" role="status"><strong>${response.correct?'Correct':'Incorrect'}</strong><p>Correct: ${esc(q.answer)}</p></div><button class="primary-button" onclick="nextDialogueQuizQuestion()">${s.index===s.questions.length-1?'See Results':'Next Question'}</button>`:''}</div>`;
+    document.getElementById(`dialogueQuizControls${i}`).innerHTML=s.questions.flatMap((q,index)=>q.lineIndex===i?[dialogueQuizQuestionMarkup(s,q,index)]:[]).join('');
   }
 }
-function scrollDialogueQuizTarget(s){const target=document.getElementById(`dialogueQuizLine${s.questions[s.index].lineIndex}`);if(!target)return;const rect=target.getBoundingClientRect();if(rect.top<70||rect.top>window.innerHeight-160)target.scrollIntoView({behavior:'smooth',block:'start'})}
-function answerDialogueQuizChoice(index){const s=getDialogueQuizSession(),q=s?.questions[s.index];if(q&&Number.isInteger(index)&&index>=0&&index<q.choices.length)answerDialogueQuiz(q.choices[index])}
-function answerDialogueQuiz(answer){const s=getDialogueQuizSession();if(!s||s.responses.some(r=>r.index===s.index))return;const q=s.questions[s.index],correct=q.type==="fill"?dialogueQuizInputMatches(answer,q.answer):answer===q.answer;s.responses.push({index:s.index,answer:String(answer),correct});if(!correct&&!s.review)setDialogueWeak(s.dialogueId,true);writeJSON(STORE.dialogueQuiz,s);playQuizSound(correct);renderDialogueQuizPlay();if(s.index<s.questions.length-1&&typeof window.setTimeout==='function')window.setTimeout(()=>{const current=getDialogueQuizSession();if(route.name==='quizPlay'&&route.params.quizKind==='dialogue'&&current?.dialogueId===s.dialogueId&&current.index===s.index&&current.responses.length===s.responses.length)nextDialogueQuizQuestion()},650)}
-function nextDialogueQuizQuestion(){const s=getDialogueQuizSession();if(!s||!s.responses.some(r=>r.index===s.index))return;if(s.index===s.questions.length-1)return completeDialogueQuiz(s);s.index++;writeJSON(STORE.dialogueQuiz,s);renderDialogueQuizPlay();scrollDialogueQuizTarget(s)}
-function completeDialogueQuiz(s){
-  if(s.responses.length!==s.questions.length)return;
+function saveDialogueQuizAnswer(index,answer){
+  const s=getDialogueQuizSession(),q=s?.questions[index];
+  if(!s||s.graded||!Number.isInteger(index)||!q||typeof answer!=='string'||(q.type!=='fill'&&!q.choices.includes(answer)))return;
+  s.drafts[index]=answer;writeJSON(STORE.dialogueQuiz,s);
+  // Typing updates only the summary/button: keep focus, caret, scroll and every input node.
+  updateDialogueQuizProgress(s);
+}
+function answerDialogueQuizChoice(questionIndex,choiceIndex){
+  const s=getDialogueQuizSession(),q=s?.questions[questionIndex];
+  if(!s||s.graded||!Number.isInteger(questionIndex)||!Number.isInteger(choiceIndex)||!q||q.type==='fill'||choiceIndex<0||choiceIndex>=q.choices.length)return;
+  saveDialogueQuizAnswer(questionIndex,q.choices[choiceIndex]);renderDialogueQuizPlay();
+}
+function checkDialogueQuizAnswers(){
+  const s=getDialogueQuizSession();if(!s||s.graded||!dialogueQuizAllAnswered(s))return;
+  s.responses=s.questions.map((q,index)=>({index,answer:s.drafts[index],correct:dialogueQuizAnswerCorrect(q,s.drafts[index])}));s.graded=true;
   const score=s.responses.filter(r=>r.correct).length,total=s.questions.length;
+  writeJSON(STORE.dialogueQuiz,s);
   if(!s.review)setDialogueWeak(s.dialogueId,score!==total);
-  if(!s.review&&s.settings.mode==="test"){const state=dialogueLearnedState();state.quizHistory=[...dialogueQuizHistory(),{dialogueId:s.dialogueId,score,total,date:localDate(),completedAt:new Date().toISOString()}].slice(-100);writeJSON(STORE.dialogueLearned,state)}
-  const result={...s,score,total};safeRemoveItem(STORE.dialogueQuiz);navigate("quizResult",{quizKind:"dialogue",result});playQuizCompleteSound(new Date().toISOString(),score===total);
+  if(!s.review&&s.settings.mode==='test'){const state=dialogueLearnedState();state.quizHistory=[...dialogueQuizHistory(),{dialogueId:s.dialogueId,score,total,date:localDate(),completedAt:new Date().toISOString()}].slice(-100);writeJSON(STORE.dialogueLearned,state)}
+  renderDialogueQuizPlay();playQuizCompleteSound(new Date().toISOString(),score===total);
+}
+function completeDialogueQuiz(){
+  const s=getDialogueQuizSession();if(!s?.graded)return;
+  const result={...s,score:s.responses.filter(r=>r.correct).length,total:s.questions.length};safeRemoveItem(STORE.dialogueQuiz);navigate("quizResult",{quizKind:"dialogue",result});
 }
 function reviewDialogueQuizMistakes(){const r=route.params.result;if(!r)return;const wrong=r.responses.filter(response=>!response.correct).map(response=>response.index);startDialogueQuiz(r.dialogueId,r.settings,r.questions.filter((q,i)=>wrong.includes(i)))}
 function nextQuizDialogue(){const r=route.params.result;if(!r)return;const pool=dialogueQuizPool(r.settings),current=pool.findIndex(d=>d.id===r.dialogueId),next=pool[(current+1)%pool.length];if(next)startDialogueQuiz(next.id,r.settings)}

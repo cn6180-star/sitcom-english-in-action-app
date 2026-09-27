@@ -94,8 +94,10 @@ button,input,select{font:inherit}button{color:inherit}.app-shell{min-height:100v
 .dialogue-quiz-card .conversation{margin:0 0 18px}
 .dialogue-quiz-card .jp[hidden]{display:none}
 .dialogue-quiz-hidden{display:block;color:var(--muted);letter-spacing:2px;padding:8px 0}
-.dialogue-quiz-card .active-target{outline:2px solid var(--purple-2);outline-offset:3px;border-radius:4px}
-.dialogue-quiz-card .quiz-active-line{scroll-margin-top:85px}
+.dialogue-quiz-card .answer-button.selected{border-color:var(--purple-2);background:var(--purple-soft)}
+.dialogue-quiz-card .dialogue-blank{cursor:default}.dialogue-quiz-card .dialogue-blank sup{color:var(--purple-2)}
+.dialogue-quiz-submit{display:grid;gap:10px;margin-top:18px}
+.dialogue-quiz-submit [hidden]{display:none}
 .dialogue-quiz-controls{margin-top:16px;padding-bottom:8px}
 .dialogue-quiz-card .bubble{max-width:100%;min-width:0}
 .dialogue-quiz-card .answer-button{overflow-wrap:anywhere}
