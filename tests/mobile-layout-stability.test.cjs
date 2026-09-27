@@ -34,4 +34,22 @@ assert.match(translationToggle,/aria-pressed/);
 assert.match(source,/const APP_VERSION="6"/);
 assert.match(source,/Version \$\{APP_VERSION\}/);
 
+const swipeContext={};require("node:vm").createContext(swipeContext);
+require("node:vm").runInContext(source.split(/\r?\n/).find(line=>line.startsWith("function detailSwipeHintMarkup(")),swipeContext);
+assert.match(swipeContext.detailSwipeHintMarkup(1,3),/← 左右スワイプで移動 →/);
+assert.match(swipeContext.detailSwipeHintMarkup(0,3),/← スワイプで次へ/);
+assert.doesNotMatch(swipeContext.detailSwipeHintMarkup(0,3),/→/);
+assert.match(swipeContext.detailSwipeHintMarkup(2,3),/前へスワイプ →/);
+assert.doesNotMatch(swipeContext.detailSwipeHintMarkup(2,3),/←/);
+assert.equal(swipeContext.detailSwipeHintMarkup(0,1),"<span></span>");
+assert.equal(swipeContext.detailSwipeHintMarkup(-1,3),"<span></span>");
+assert.equal((source.match(/\$\{detailSwipeHintMarkup\(pos,ids.length\)\}/g)||[]).length,2);
+assert.match(styles,/\.detail-swipe-hint\{display:none\}/);
+assert.match(styles,/@media \(any-pointer:coarse\)\{\.detail-swipe-hint\{display:block;[^}]*pointer-events:none\}\}/);
+// Gesture thresholds and navigation remain covered by their existing behavior; hint is display-only.
+require("node:vm").runInContext(source.split(/\r?\n/).filter(line=>line.startsWith("const DETAIL_SWIPE_MIN_X=")||line.startsWith("function detailSwipeDirection(")).join("\n"),swipeContext);
+assert.equal(swipeContext.detailSwipeDirection(-100,10),1);
+assert.equal(swipeContext.detailSwipeDirection(100,10),-1);
+assert.equal(swipeContext.detailSwipeDirection(20,100),0);
+assert.equal(swipeContext.detailSwipeDirection(30,0),0);
 console.log("mobile layout stability tests passed");
