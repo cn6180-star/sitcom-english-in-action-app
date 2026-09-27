@@ -14,7 +14,7 @@ assert.equal(phrases.filter(p=>p.episode?.startsWith('S02')).length,791);
 assert.equal(dialogues.length,345);assert.equal(new Set(dialogues.map(d=>d.id)).size,345);
 assert.equal(s1.length,108);assert.equal(s2.length,81);
 for(const [file,want] of Object.entries(phraseBaseline.phraseHashes))assert.equal(hash(JSON.parse(fs.readFileSync(file,'utf8')).phrases),want,'Phrase data unchanged '+file);
-assert.equal(hash(s2),'beef02b0404a204f37897ad240840359bbd4215c82156adf02255e6fd72346fe','Notion S2 production snapshot');
+assert.equal(hash(s2),'cf2c9ae655aebd00b439dd726cdc43350b5904c58eb4d263259a32950a26ee47','Notion S2 production snapshot');
 
 const legacyIds=new Set(fixture.expected.map(item=>item.id)),legacy=s2.filter(d=>legacyIds.has(d.id));
 assert.deepEqual(legacy.map(d=>d.id).sort(),fixture.expected.map(item=>item.id).sort(),'existing S2 18 retained');

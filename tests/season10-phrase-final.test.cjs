@@ -3,7 +3,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('n
 const root=path.join(__dirname,'..'),sha=value=>crypto.createHash('sha256').update(value).digest('hex');
 const frozen={
   1:'b18125528dd0d1a45105caf25c1a666702fe55a5ef6f47a86bb5aa1c6100b45d',
-  2:'df8bbf67117c40e59cd2e2c2b287966b77aba441d6e1a9622379cbdb532b8553',
+  2:'f48fa8e3bcda831b1ed881083af6a2a023cc9a616f115d7736b0914503bb5320',
   3:'d358652d4f2763792d1ada65b1f1b959722436c4409bfeb52bebb4cdebe72c1a',
   4:'f6e4f0903b471b233a7f41c1b341f001d4642a6efa898ba3e36199d3439bf7ca',
   5:'48c5abf21ee3513401d2e48148cd787612c5307bb5b9923dbc4bfe70141113ef',

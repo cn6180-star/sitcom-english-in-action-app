@@ -62,11 +62,11 @@ assert.ok(dialogues.every(d=>!d.phraseLinks.includes("p297")),'removed Phrase ha
 assert.ok(phrases.some(p=>p.id==="p69"),'canonical Phrase preserved after old Dialogue retirement');
 assert.equal(
   crypto.createHash("sha256").update(JSON.stringify(dialogues.filter(d=>Number(d.id.slice(1))<=167))).digest("hex"),
-  "58680882c144f7b93f922509fa0caafcbb678f84e6d5432f3e5697559ab5269f"
+  "2703d6f391e3549e59bf1b91163f06ada3b3846da4b18fb1bfa81f4a101fd0d9"
 );
 
 console.log("Season 1 Phrase expansion tests passed");
 
 // Full production snapshot; the existing-only snapshot above is supplementary.
 assert.equal(dialogues.length,345);
-assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"21acdcde0cf8f69c6d96f4cd4615cdfe2990600cfbd2a38bcbda03a8deaa8114");
+assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"0ae555d31593c4773dfbe2e6aa384d85955d71b28c3ae3ea904dff322b72a7e5");

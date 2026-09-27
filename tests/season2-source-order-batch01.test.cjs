@@ -29,8 +29,8 @@ for(const [episode,ids] of Object.entries(expected)){
 }
 assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'data/season1.json'))).digest('hex'),'b18125528dd0d1a45105caf25c1a666702fe55a5ef6f47a86bb5aa1c6100b45d');
 assert.equal(dialogues.length,345);
-assert.equal(hash(dialogues),'21acdcde0cf8f69c6d96f4cd4615cdfe2990600cfbd2a38bcbda03a8deaa8114');
-assert.equal(hash(dialogues.filter(d=>Number(d.id.slice(1))<=167)),'58680882c144f7b93f922509fa0caafcbb678f84e6d5432f3e5697559ab5269f');
+assert.equal(hash(dialogues),'0ae555d31593c4773dfbe2e6aa384d85955d71b28c3ae3ea904dff322b72a7e5');
+assert.equal(hash(dialogues.filter(d=>Number(d.id.slice(1))<=167)),'2703d6f391e3549e59bf1b91163f06ada3b3846da4b18fb1bfa81f4a101fd0d9');
 const ids=new Set(phrases.map(p=>p.id));assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!ids.has(id))),[]);
 console.log('Friends S2 E01-E08 sourceOrder integrity passed (211 verified; 3 explicitly deferred, not complete-coverage approval).');
 

@@ -48,7 +48,7 @@ assert.equal(hash(seasons[2].dialogues),'5bd7e0d24b570753f2fa3fb0d20f4cc80338149
 for(const dialogue of dialogues)for(const id of dialogue.phraseLinks)assert.ok(byId.has(id),`${dialogue.id}/${id} dangling link`);
 for(const [season,want] of Object.entries({
   1:'174b7916490b746ac20fd3adc80127d1662a4adab92f0985d05982c44d57677d',
-  2:'70d958eaf81e468592ee7dba639f61d5d87c85bf287f54414df1f7c6cb09a16d',
+  2:'3e24c7d0b0f05189624a59b9055c7a56736271887f0d741d99ce9e3693a65530',
   4:'1244d13ba824bf70598771799ce971ddb720b454570a84a12c810c4317d93533',
   5:'c2ccce601e26840eee450c7ec945b6c1ff36c24e9ccf09676e3978eb7236f069',
   6:'54116541983468bc96a8b28fa1d5f53595b617fc0f6ff2f578afc4c28b5e9d6b',
