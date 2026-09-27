@@ -54,6 +54,7 @@ function runAnswer(answer){
     PHRASES:phrases,
     returnToQuizHome(){},
     typingAnswerMatches:()=>false,
+    updateQuizLearnedProgress(){},
     markWeakCorrect:()=>{weakCorrects++;return false},
     markMiss:()=>{weakAdds++;return true},
     STORE:{quiz:"quiz"},
