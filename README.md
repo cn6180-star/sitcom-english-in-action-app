@@ -1,4 +1,4 @@
-# Sitcom English in Action v5.4
+# Sitcom English in Action v6
 
 GitHub Pages / PWAで動作する、海外ドラマ英語の学習アプリです。
 
@@ -6,14 +6,14 @@ GitHub Pages / PWAで動作する、海外ドラマ英語の学習アプリで�
 
 ## 収録データ
 
-- Friends Season 1–9 available — For Everyday English
-- 1395 phrases
-- 167 dialogues
-- 2790 examples
-- Friends Season 10 Coming Soon
+- Friends Season 1–10 available — For Everyday English
+- 4062 phrases
+- 334 dialogues
+- 8124 examples
+- Friends Phrase / Dialogue DBはS10までproduction実装済み。S3〜S10 Dialogueは確定済み教材へ再構築済み
 - The Big Bang Theory — For Advanced English（Coming Soon）
 
-## v5.4 Updates
+## v6 Features
 
 - Phrase / Dialogue Detailに最大60秒のRecordingを追加。録音後のPlay / Stop、Retry、Close、60秒での自動停止に対応
 - Quiz Test / Practice、Homeから本番10問Mixへすぐ挑戦できるQuick Challenge、Review mistakes / Next Roundを含むResult UXを整備
@@ -32,7 +32,7 @@ GitHub Pagesの公開URLから利用できます。PWA対応ブラウザでは�
 Phrase一覧から、意味・場面・Examplesを収録したPhrase Detailを開けます。
 
 - Examplesの日本語訳を表示 / 非表示
-- 🔊から英語例文を個別に音声読み上げ
+- 見出しPhraseとExamplesの🔊から、それぞれ個別に音声読み上げ（見出しの`~`は読み上げ時のみ`…`へ置換）
 - Learned（覚えた）とBookmark
 - ★★★・苦手・未習得・習得済み・頻度・口調などの学習フィルター
 - 一覧の表示対象と順番を維持したPrevious / Next
@@ -43,7 +43,7 @@ Phrase一覧から、意味・場面・Examplesを収録したPhrase Detailを�
 Dialogue Detailでは、日本語訳と次のモードを独立して利用できます。
 
 - Normal：A / Bの全セリフを表示
-- Blank：Human Reviewed Highlight Rangeを隠して個別に答え合わせ
+- Blank：確定済みHighlight Rangeを隠して個別に答え合わせ。同じBlankを再タップすると隠し直す
 - Hide A / Hide B：選んだ側の英語を隠して発話練習
 - 日本語訳ON：隠した側の日本語訳をヒントとして表示
 - 日本語訳OFF：日本語訳なしで完全暗唱
@@ -120,7 +120,7 @@ Sidebar / MobileメニューのHelpでは、Dialogues・Quiz・Phrasesからの�
 
 学習データと設定はブラウザのlocalStorageに保存されます。アカウント同期型ではないため別端末へ自動同期されず、ブラウザデータを削除すると履歴が失われる可能性があります。
 
-既存のPhrase ID / Dialogue IDと次のlocalStorage keyを維持しているため、従来のBookmarks、苦手、Learned、Quizなどの状態を引き継げます。
+今回のv6 UI更新では完成済みPhrase / Dialogueデータと次のlocalStorage keyを変更していません。Bookmarks、苦手、Learned、Quizなどの保存状態を維持します。
 
 - `friendsBookmarks_phrase`
 - `friendsBookmarks_dialogue`
@@ -135,4 +135,4 @@ Sidebar / MobileメニューのHelpでは、Dialogues・Quiz・Phrasesからの�
 - `sitcomEnglish_soundEnabled`
 - `sitcomEnglish_lastJingleDate`
 
-Phrase / Dialogue JSON、ID、既存localStorage keyとの互換性はv5.4でも維持しています。
+v6ではFriends S1〜S10の完成済みPhrase / Dialogue内容を凍結しています。DialogueのSeason / Episodeフィルターは一覧だけを更新し、選択時のスクロール位置を保持します。

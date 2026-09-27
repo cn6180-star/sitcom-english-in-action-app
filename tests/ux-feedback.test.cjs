@@ -24,7 +24,7 @@ assert.match(source,/replaceBackupStorage\(restoreData\);[\s\S]*?if\(successSoun
 assert.match(source,/解決しないときは？/);
 assert.match(source,/https:\/\/discord\.gg\/aRZYaGHgdG/);
 assert.match(source,/target="_blank" rel="noopener noreferrer"/);
-assert.match(source,/Version 5\.4/);
+assert.match(source,/Version \$\{APP_VERSION\}/);
 assert.match(source,/Recordって何？/);
 assert.match(source,/Recordはどう使う？/);
 

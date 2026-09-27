@@ -47,7 +47,7 @@ assert.match(help,/頻度とPriority（★）は別の軸/);
 assert.match(help,/砕けた・普通・丁寧・硬め・俗語/);
 assert.doesNotMatch(help,/<strong>(?:word|phrase|idiom|phrasal verb|pattern|grammar)<\/strong>/);
 assert.match(help,/頻出＝必ず★★★ではありません/);
-assert.match(source,/Version 5\.4/);
+assert.match(source,/Version \$\{APP_VERSION\}/);
 
 assert.equal((source.match(/class="filter-group episode-filter-slot"/g)||[]).length,2);
 assert.match(source,/function dialogueFilterPanel\(bookmarkedOnly=false\).*'S','全て'.*'E','全て'.*全てのカテゴリー/);
