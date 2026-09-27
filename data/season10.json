@@ -2322,5 +2322,656 @@
       "sourceOrder": 3
     }
   ],
-  "dialogues": []
+  "dialogues": [
+    {
+      "id": "S10-NEW-01",
+      "season": "Season 10",
+      "title": "働きすぎの同僚に休むよう勧める",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "You look completely spent.",
+          "もう完全にクタクタやん。"
+        ],
+        [
+          "B",
+          "I am, but I can power through one more day.",
+          "せやけど、あと一日くらいなら気合いで乗り切れる。"
+        ],
+        [
+          "A",
+          "Give yourself a break. This project is pushing you over the edge.",
+          "ちょっと自分を休ませ。これ、もう限界まで追い込まれてるで。"
+        ],
+        [
+          "B",
+          "Now is not a good time to disappear.",
+          "今休むのはタイミング悪いねん。"
+        ],
+        [
+          "A",
+          "First things first: you need sleep. Then take some time off.",
+          "まず一番先に寝なあかん。そのあと少し休み取り。"
+        ],
+        [
+          "B",
+          "You really think I should?",
+          "ほんまに休んだ方がいいと思う？"
+        ],
+        [
+          "A",
+          "Yes. Can you at least take tomorrow afternoon off?",
+          "うん。せめて明日の午後だけでも休める？"
+        ],
+        [
+          "B",
+          "That I can do.",
+          "それならできる。"
+        ]
+      ],
+      "phraseLinks": [
+        "p4211",
+        "p4202",
+        "p4203",
+        "p2370",
+        "p4129",
+        "p4223",
+        "p4128",
+        "p4199"
+      ]
+    },
+    {
+      "id": "S10-NEW-02",
+      "season": "Season 10",
+      "title": "気になる相手にもう一度会うか相談する",
+      "category": "恋愛",
+      "lines": [
+        [
+          "A",
+          "So, did Alex blow you away or what?",
+          "で、アレックスには完全に心持ってかれたん？"
+        ],
+        [
+          "B",
+          "Kind of. I can't get them out of my head.",
+          "まあな。ずっと頭から離れへん。"
+        ],
+        [
+          "A",
+          "What's not to like? Smart, funny, kind—the whole package.",
+          "嫌なとこある？ 頭いいし、おもろいし、優しいし、全部そろってるやん。"
+        ],
+        [
+          "B",
+          "That's why I'm on the fence. It feels almost too good.",
+          "だから迷ってんねん。出来すぎてる感じして。"
+        ],
+        [
+          "A",
+          "Sounds like a keeper to me.",
+          "私には、逃したらあかん相手に聞こえるけど。"
+        ],
+        [
+          "B",
+          "So I should text?",
+          "じゃあ連絡した方がいい？"
+        ],
+        [
+          "A",
+          "It's up to you, but you have to get out there sometime.",
+          "決めるのはあんたやけど、いつかは動かなあかんで。"
+        ],
+        [
+          "B",
+          "Fine. One text.",
+          "分かった。一通だけ送る。"
+        ]
+      ],
+      "phraseLinks": [
+        "p4204",
+        "p4238",
+        "p4200",
+        "p4205",
+        "p4140",
+        "p4222",
+        "p4118",
+        "p4146"
+      ]
+    },
+    {
+      "id": "S10-NEW-03",
+      "season": "Season 10",
+      "title": "家族から受け継いだ悪い癖を見直す",
+      "category": "相談",
+      "lines": [
+        [
+          "A",
+          "Being stubborn really does run in your family.",
+          "頑固なん、ほんま家系なんやな。"
+        ],
+        [
+          "B",
+          "Very funny. Everyone gets set in their ways at one time or another.",
+          "はいはい。誰でも一度くらいは考え方固まるやろ。"
+        ],
+        [
+          "A",
+          "Sure, but things went downhill when you stopped listening to anyone.",
+          "そらそうやけど、人の話聞かんようになってから悪くなったやん。"
+        ],
+        [
+          "B",
+          "People come and go. I got tired of changing for everybody.",
+          "人なんて出会ったり離れたりするし、いちいち合わせるの疲れてん。"
+        ],
+        [
+          "A",
+          "You have every reason to be cautious after what happened.",
+          "あんなことあったら慎重になる理由は十分あるよ。"
+        ],
+        [
+          "B",
+          "Exactly.",
+          "そうやろ。"
+        ],
+        [
+          "A",
+          "But that's all in the past. You can move past it without becoming someone else.",
+          "でももう過ぎたことやん。自分を変えすぎんでも、そこから先には進めるで。"
+        ]
+      ],
+      "phraseLinks": [
+        "p4215",
+        "p4219",
+        "p4201",
+        "p4198",
+        "p4172",
+        "p4212",
+        "p4232",
+        "p4176"
+      ]
+    },
+    {
+      "id": "S10-NEW-04",
+      "season": "Season 10",
+      "title": "契約条件を詰めて最終判断する",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "All right, let's get down to business.",
+          "よし、本題入ろ。"
+        ],
+        [
+          "B",
+          "They made an offer this morning.",
+          "今朝、向こうから条件提示あった。"
+        ],
+        [
+          "A",
+          "Can you break it down for me?",
+          "中身、分かりやすく説明してくれる？"
+        ],
+        [
+          "B",
+          "We either sign on for two years or pay a much higher monthly rate.",
+          "2年契約するか、かなり高い月額払うかのどっちか。"
+        ],
+        [
+          "A",
+          "So the two-year deal is the lesser of two evils.",
+          "じゃあ2年契約の方がまだマシってことか。"
+        ],
+        [
+          "B",
+          "Pretty much. Otherwise the setup fee is money down the drain.",
+          "ほぼそう。じゃないと初期費用が丸々無駄になる。"
+        ],
+        [
+          "A",
+          "I'll step in on behalf of the team and ask for one final concession.",
+          "チームを代表して私が入って、最後に一個だけ譲歩頼んでみる。"
+        ],
+        [
+          "B",
+          "Good. Then we decide today.",
+          "うん。それで今日決めよ。"
+        ]
+      ],
+      "phraseLinks": [
+        "p4230",
+        "p4233",
+        "p4194",
+        "p4192",
+        "p4195",
+        "p4196",
+        "p4162",
+        "p4158"
+      ]
+    },
+    {
+      "id": "S10-NEW-05",
+      "season": "Season 10",
+      "title": "口論がエスカレートする前に線を引く",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "Every time I suggest something, you shoot me down.",
+          "私が何か言うたびに即却下するやん。"
+        ],
+        [
+          "B",
+          "Don't put words in my mouth. I said this one idea was bad.",
+          "勝手に私が言ってないことまで言ったことにせんといて。この案がダメって言っただけ。"
+        ],
+        [
+          "A",
+          "And the way you said it was way out of bounds.",
+          "でもその言い方は完全に一線越えてたで。"
+        ],
+        [
+          "B",
+          "You were the one who set me off.",
+          "先に私を怒らせたのあんたやろ。"
+        ],
+        [
+          "A",
+          "Don't turn this around on me.",
+          "こっちのせいみたいに話すり替えんといて。"
+        ],
+        [
+          "B",
+          "You can't have it both ways—you can't ask for honesty and then complain when I give it.",
+          "両方は無理やで。本音言ってって頼んどいて、本音言ったら文句言うのはちゃうやろ。"
+        ],
+        [
+          "A",
+          "Fine. You have every right to disagree. Just pick your battles.",
+          "分かった。反対する権利はある。でも噛みつくとこは選んで。"
+        ]
+      ],
+      "phraseLinks": [
+        "p4216",
+        "p4209",
+        "p4154",
+        "p4164",
+        "p4228",
+        "p4156",
+        "p4147",
+        "p4123"
+      ]
+    },
+    {
+      "id": "S10-NEW-06",
+      "season": "Season 10",
+      "title": "友人同士のゲームで本気になる",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "Three wins in a row. I'm on a roll.",
+          "3連勝。今めっちゃ波乗ってる。"
+        ],
+        [
+          "B",
+          "Well played. But you're going down next round.",
+          "うまかった。でも次は負けるで。"
+        ],
+        [
+          "A",
+          "Two can play at that game.",
+          "その勝負、こっちも乗るで。"
+        ],
+        [
+          "B",
+          "I think you're losing your touch.",
+          "腕落ちてきたんちゃう？"
+        ],
+        [
+          "A",
+          "Please. Your score doesn't hold a candle to mine.",
+          "何言ってんの。あんたの点数、私には全然及ばんやん。"
+        ],
+        [
+          "B",
+          "My confidence is off the charts right now.",
+          "今、自信だけは振り切れてるから。"
+        ],
+        [
+          "A",
+          "I didn't know you had it in you.",
+          "そんな闘争心あるとは思わんかった。"
+        ],
+        [
+          "B",
+          "Deal the cards.",
+          "カード配って。"
+        ]
+      ],
+      "phraseLinks": [
+        "p4210",
+        "p3",
+        "p4191",
+        "p4151",
+        "p4165",
+        "p4171",
+        "p4224",
+        "p4206"
+      ]
+    },
+    {
+      "id": "S10-NEW-07",
+      "season": "Season 10",
+      "title": "担当交代の前に仕事を引き継ぐ",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "Before I pass the torch, I want you to be completely in the know.",
+          "引き継ぐ前に、全部ちゃんと把握しといてほしい。"
+        ],
+        [
+          "B",
+          "Good. It occurred to me that I still don't have the client notes.",
+          "助かる。そういや、まだクライアントのメモもらってないって気づいてん。"
+        ],
+        [
+          "A",
+          "I'll pass them along today and give you a heads-up about the tricky accounts.",
+          "今日送るし、面倒な案件についても先に注意点伝えとく。"
+        ],
+        [
+          "B",
+          "Perfect.",
+          "完璧。"
+        ],
+        [
+          "A",
+          "The new launch may call for extra support next week.",
+          "新しいローンチ、来週追加サポート必要になるかもしれん。"
+        ],
+        [
+          "B",
+          "That's fine. Once the system is back in business, I can handle it.",
+          "大丈夫。システム復旧したら対応できる。"
+        ],
+        [
+          "A",
+          "Other than that, everything's pretty straightforward.",
+          "それ以外は、だいたい分かりやすいから。"
+        ],
+        [
+          "B",
+          "Got it.",
+          "了解。"
+        ]
+      ],
+      "phraseLinks": [
+        "p4188",
+        "p4193",
+        "p242",
+        "p4148",
+        "p4119",
+        "p4214",
+        "p4143",
+        "p4197"
+      ]
+    },
+    {
+      "id": "S10-NEW-08",
+      "season": "Season 10",
+      "title": "友人の目の前で気まずい場面を作ってしまう",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "Get a room!",
+          "もう二人でどっか行って！"
+        ],
+        [
+          "B",
+          "Did I just kiss them in front of everybody?",
+          "私、今みんなの前でキスした？"
+        ],
+        [
+          "A",
+          "Oh, you absolutely did. Get a load of this—everyone is staring.",
+          "したした。見てみ、全員こっち見てるで。"
+        ],
+        [
+          "B",
+          "I'm sorry you had to see that.",
+          "あんなん見せてごめん。"
+        ],
+        [
+          "A",
+          "Stop right there. I do not want details.",
+          "そこで止めて。詳しい話はいらん。"
+        ],
+        [
+          "B",
+          "Not that I was going to kiss and tell or anything.",
+          "別に、キスした話をペラペラしゃべるつもりとかちゃうけど。"
+        ],
+        [
+          "A",
+          "Good. Because if you start, Maya will go nuts.",
+          "それがいい。話し始めたらマヤ大騒ぎするで。"
+        ]
+      ],
+      "phraseLinks": [
+        "p4177",
+        "p4161",
+        "p4121",
+        "p4131",
+        "p4145",
+        "p4141",
+        "p4142",
+        "p3388"
+      ]
+    },
+    {
+      "id": "S10-NEW-09",
+      "season": "Season 10",
+      "title": "買った機材が失敗だったと気づく",
+      "category": "買い物",
+      "lines": [
+        [
+          "A",
+          "You said that camera was a steal.",
+          "そのカメラ、めっちゃお買い得って言ってたやん。"
+        ],
+        [
+          "B",
+          "I can't even begin to explain how bad it is.",
+          "どんだけひどいか、説明する気にもならん。"
+        ],
+        [
+          "A",
+          "What's it gonna take for you to admit we shouldn't go down that road again?",
+          "もう中古の激安品に手ぇ出さん方がいいって、何があったら認めるん？"
+        ],
+        [
+          "B",
+          "To be fair, the lens is still usable.",
+          "まあ公平に言えば、レンズはまだ使える。"
+        ],
+        [
+          "A",
+          "Then put it to better use and sell the rest for parts.",
+          "じゃあレンズはもっと有効に使って、本体は部品取りで売ったら？"
+        ],
+        [
+          "B",
+          "The shop offered a refund today.",
+          "今日、店から返金するって言われた。"
+        ],
+        [
+          "A",
+          "Too little, too late. That thing is beyond help.",
+          "遅すぎるわ。あれはもう救いようない。"
+        ],
+        [
+          "B",
+          "Lesson learned.",
+          "勉強になった。"
+        ]
+      ],
+      "phraseLinks": [
+        "p4218",
+        "p4213",
+        "p64",
+        "p4152",
+        "p4227",
+        "p4153",
+        "p4225",
+        "p4134"
+      ]
+    },
+    {
+      "id": "S10-NEW-10",
+      "season": "Season 10",
+      "title": "渋滞中のロードトリップで役割を決める",
+      "category": "旅行",
+      "lines": [
+        [
+          "A",
+          "I'm getting antsy. We've barely moved in twenty minutes.",
+          "もう落ち着かん。20分でほとんど進んでへんやん。"
+        ],
+        [
+          "B",
+          "Relax. You couldn't ask for a more patient driver than me.",
+          "落ち着き。私以上に気長な運転手おらんで。"
+        ],
+        [
+          "A",
+          "You got pulled over an hour ago for speeding.",
+          "一時間前、スピード違反で止められてたやん。"
+        ],
+        [
+          "B",
+          "Exactly why I'm not hauling ass now.",
+          "せやから今は飛ばしてへんねん。"
+        ],
+        [
+          "A",
+          "Fine. I'll block out your complaining if you block out mine.",
+          "分かった。あんたの愚痴聞き流すから、私のも聞き流して。"
+        ],
+        [
+          "B",
+          "Deal. At the next stop, we draw straws for who drives.",
+          "了解。次の休憩で、誰が運転するかくじ引きな。"
+        ]
+      ],
+      "phraseLinks": [
+        "p4217",
+        "p4236",
+        "p4182",
+        "p4132",
+        "p4136",
+        "p4137"
+      ]
+    },
+    {
+      "id": "S10-NEW-11",
+      "season": "Season 10",
+      "title": "恋人との関係で譲れないことを話す",
+      "category": "恋愛",
+      "lines": [
+        [
+          "A",
+          "A relationship is a two-way street.",
+          "付き合いって、お互い様やろ。"
+        ],
+        [
+          "B",
+          "I know, but there's no way around it—one of us has to compromise.",
+          "分かってる。でも避けられへんやん。どっちかは譲らなあかん。"
+        ],
+        [
+          "A",
+          "It's one thing to compromise, but it's another to always put you first.",
+          "譲り合うのと、いつもあんたを最優先にするのは別の話やで。"
+        ],
+        [
+          "B",
+          "For argument's sake, what would make this feel fair to you?",
+          "仮に聞くけど、どうなったら公平やと思える？"
+        ],
+        [
+          "A",
+          "Put me first sometimes, too. And have some pride—stop acting like your needs don't matter either.",
+          "たまには私のことも優先して。それと、あんたももう少し自分を大事にして、自分の希望を全部引っ込めるのやめて。"
+        ],
+        [
+          "B",
+          "Fair. I can work with that.",
+          "分かった。それなら考えられる。"
+        ]
+      ],
+      "phraseLinks": [
+        "p4175",
+        "p4155",
+        "p4226",
+        "p4120",
+        "p4124",
+        "p4220"
+      ]
+    },
+    {
+      "id": "S10-NEW-12",
+      "season": "Season 10",
+      "title": "久しぶりに会った元同僚と近況を話す",
+      "category": "雑談",
+      "lines": [
+        [
+          "A",
+          "Look who decided to pop by.",
+          "誰かと思ったら。急に寄ってくるやん。"
+        ],
+        [
+          "B",
+          "I was nearby. I heard your new job got off to a bad start.",
+          "近くおってん。新しい仕事、出だし悪かったって聞いたで。"
+        ],
+        [
+          "A",
+          "That's way off. The first week was rough, that's all.",
+          "全然ちゃう。最初の一週間が大変やっただけ。"
+        ],
+        [
+          "B",
+          "So you're running the department already?",
+          "じゃあもう部署仕切ってるん？"
+        ],
+        [
+          "A",
+          "Who am I kidding? My boss is sharp as a tack. I'm still learning.",
+          "いやいや、何言ってんねやろ。上司めっちゃ頭切れるし、私はまだ勉強中。"
+        ],
+        [
+          "B",
+          "And that's the extent of it? No secret promotion?",
+          "ほんまそれだけ？ 隠してる昇進話とかないん？"
+        ],
+        [
+          "A",
+          "Afraid not.",
+          "残念ながらないな。"
+        ]
+      ],
+      "phraseLinks": [
+        "p4235",
+        "p4187",
+        "p1380",
+        "p4139",
+        "p4127",
+        "p4122"
+      ]
+    }
+  ]
 }

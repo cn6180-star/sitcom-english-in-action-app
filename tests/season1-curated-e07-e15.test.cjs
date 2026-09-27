@@ -35,9 +35,9 @@ assert.equal(phrases.filter(p=>/^S01E(0[1-9]|1[0-5])$/.test(p.episode)).length,1
 for(const [id,episode,order] of [["p1226","S01E13",51],["p1230","S01E11",56],["p1233","S01E11",71],["p1160","S01E15",22]]){
  assert.equal(byId.get(id).episode,episode);assert.equal(byId.get(id).sourceOrder,order);
 }
-assert.equal(dialogues.length,345);
-assert.equal(hash(dialogues.filter(d=>Number(d.id.slice(1))<=167)),"2703d6f391e3549e59bf1b91163f06ada3b3846da4b18fb1bfa81f4a101fd0d9");
-assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!byId.has(id))),[]);
+assert.equal(dialogues.length,322);
+assert.equal(hash(dialogues.filter(d=>Number(d.id.slice(1))<=167)),"6618a03e93d1fc12056792299ae99de1b168167c62d6ae1a0e12912d1bb94efc");
+assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!require("./helpers/all-production-phrase-ids.cjs").has(id))),[]);
 
 // Exercise the actual list filter, sorter, and detail pager without browser layout dependencies.
 const source=fs.readFileSync(path.join(root,"js","app.js"),"utf8");
@@ -90,5 +90,5 @@ for(const [key,value] of [["type","phrase"],["frequency","frequent"],["register"
 console.log("Season 1 E07-E15 curated records, source order, filters and detail navigation tests passed");
 
 // Full production snapshot; the existing-only snapshot above is supplementary.
-assert.equal(dialogues.length,345);
-assert.equal(hash(dialogues),"0ae555d31593c4773dfbe2e6aa384d85955d71b28c3ae3ea904dff322b72a7e5");
+assert.equal(dialogues.length,322);
+assert.equal(hash(dialogues),"b21e032cdba94d46641b13adf3d7512228db5c2d6b4767fa9325610b1394f126");

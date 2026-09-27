@@ -8,10 +8,10 @@ const s1=sets[0].dialogues,s2=sets[1].dialogues,byId=new Map(dialogues.map(d=>[d
 const phraseById=new Map(phrases.map(p=>[p.id,p])),hash=value=>crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const plain=value=>JSON.parse(JSON.stringify(value)),exclusions=plain(vm.runInContext('DIALOGUE_HIGHLIGHT_EXCLUSIONS',c));
 
-assert.equal(phrases.length,3946);assert.equal(phraseById.size,3946);
+assert.equal(phrases.length,4062);assert.equal(phraseById.size,4062);
 assert.equal(phrases.filter(p=>p.episode?.startsWith('S01')).length,1623);
 assert.equal(phrases.filter(p=>p.episode?.startsWith('S02')).length,791);
-assert.equal(dialogues.length,345);assert.equal(new Set(dialogues.map(d=>d.id)).size,345);
+assert.equal(dialogues.length,334);assert.equal(new Set(dialogues.map(d=>d.id)).size,334);
 assert.equal(s1.length,108);assert.equal(s2.length,81);
 for(const [file,want] of Object.entries(phraseBaseline.phraseHashes))assert.equal(hash(JSON.parse(fs.readFileSync(file,'utf8')).phrases),want,'Phrase data unchanged '+file);
 assert.equal(hash(s2),'cf2c9ae655aebd00b439dd726cdc43350b5904c58eb4d263259a32950a26ee47','Notion S2 production snapshot');
@@ -45,7 +45,7 @@ for(const dialogue of s2){
   }
 }
 assert.deepEqual({auto,explicit,partial},{auto:590,explicit:51,partial:0});
-const sourceOrder=phrases.filter(p=>p.sourceOrder!==undefined).sort((a,b)=>a.episode.localeCompare(b.episode)||a.sourceOrder-b.sourceOrder);
+const sourceOrder=sets.flatMap(s=>s.phrases).filter(p=>p.sourceOrder!==undefined).sort((a,b)=>a.episode.localeCompare(b.episode)||a.sourceOrder-b.sourceOrder);
 assert.equal(hash(sourceOrder.map(p=>[p.id,p.episode,p.sourceOrder])),fixture.hashes.sourceOrder,'Phrase sourceOrder unchanged');
 
 console.log('S2 Notion Dialogue sync: existing 18 retained + 63 added, 641 links, exact snapshot, A/B-only, Highlight + Blank ranges PASS');

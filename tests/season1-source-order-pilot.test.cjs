@@ -17,9 +17,9 @@ const phraseIds=new Set(byId.keys());
 
 assert.equal(phrases.length,3946);
 assert.equal(phraseIds.size,3946);
-assert.equal(dialogues.length,345);
+assert.equal(dialogues.length,322);
 assert.deepEqual(dialogues.flatMap(dialogue=>(dialogue.phraseLinks||[])
-  .filter(id=>!phraseIds.has(id)).map(id=>`${dialogue.id}:${id}`)),[]);
+  .filter(id=>!require("./helpers/all-production-phrase-ids.cjs").has(id)).map(id=>`${dialogue.id}:${id}`)),[]);
 
 // Retroactive insertions and approved moves from the E07-E15 package revise the pilot sequence.
 const ordered=phrases.filter(phrase=>/^S01E0[1-6]$/.test(phrase.episode)&&Object.prototype.hasOwnProperty.call(phrase,"sourceOrder"));

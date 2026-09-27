@@ -55,18 +55,18 @@ for(const phrase of phrases){
   assert.equal(Object.prototype.hasOwnProperty.call(phrase,"usage"),false,`${phrase.id} still has legacy usage`);
 }
 
-assert.equal(dialogues.length,345);
+assert.equal(dialogues.length,322);
 assert.equal(Math.max(...dialogues.filter(dialogue=>/^d\d+$/.test(dialogue.id)).map(dialogue=>Number(dialogue.id.slice(1)))),214);
 assert.equal(dialogueById.has("d37"),false,'old S3 Dialogue retired by Notion rebuild');
 assert.ok(dialogues.every(d=>!d.phraseLinks.includes("p297")),'removed Phrase has no remaining Dialogue reference');
 assert.ok(phrases.some(p=>p.id==="p69"),'canonical Phrase preserved after old Dialogue retirement');
 assert.equal(
   crypto.createHash("sha256").update(JSON.stringify(dialogues.filter(d=>Number(d.id.slice(1))<=167))).digest("hex"),
-  "2703d6f391e3549e59bf1b91163f06ada3b3846da4b18fb1bfa81f4a101fd0d9"
+  "6618a03e93d1fc12056792299ae99de1b168167c62d6ae1a0e12912d1bb94efc"
 );
 
 console.log("Season 1 Phrase expansion tests passed");
 
 // Full production snapshot; the existing-only snapshot above is supplementary.
-assert.equal(dialogues.length,345);
-assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"0ae555d31593c4773dfbe2e6aa384d85955d71b28c3ae3ea904dff322b72a7e5");
+assert.equal(dialogues.length,322);
+assert.equal(crypto.createHash("sha256").update(JSON.stringify(dialogues)).digest("hex"),"b21e032cdba94d46641b13adf3d7512228db5c2d6b4767fa9325610b1394f126");

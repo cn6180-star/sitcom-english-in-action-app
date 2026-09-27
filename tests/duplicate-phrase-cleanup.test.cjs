@@ -5,7 +5,7 @@ const fs=require("node:fs");
 const path=require("node:path");
 
 const root=path.join(__dirname,"..");
-const datasets=Array.from({length:9},(_,index)=>
+const datasets=Array.from({length:10},(_,index)=>
   JSON.parse(fs.readFileSync(path.join(root,"data",`season${index+1}.json`),"utf8"))
 );
 const phrases=datasets.flatMap(dataset=>dataset.phrases||[]);

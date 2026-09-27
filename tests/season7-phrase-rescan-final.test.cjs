@@ -12,7 +12,7 @@ const removed=['p763','p762','p764','p768','p769','p771','p772','p773','p778','p
 const newIds=Array.from({length:80},(_,i)=>`p${3909+i}`).filter(id=>!cleanupDeleted.has(id));
 const required=['id','phrase','meaning','scene','example1','example2','exampleTranslations','type','priorityText','priority','source','episode','frequency','register','sourceOrder'];
 assert.equal(phrases.length,3946);assert.equal(byId.size,3946,'duplicate Phrase ID');
-assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4116);assert.equal(dialogues.length,345);
+assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4116);assert.equal(dialogues.length,322);
 for(const id of removed)assert.ok(!byId.has(id),`${id} REMOVE`);
 for(const id of newIds){const p=byId.get(id);assert.ok(p,`${id} NEW`);for(const field of required)assert.ok(Object.hasOwn(p,field),`${id}.${field}`);assert.equal(p.exampleTranslations.length,2);}
 const accepted=s7.phrases.filter(p=>Object.hasOwn(counts,p.episode)&&Number.isInteger(p.sourceOrder));
@@ -25,8 +25,8 @@ for(const [episode,count] of Object.entries(counts)){
 }
 assert.ok(!byId.has('p858'));assert.equal(byId.get('p781').episode,'S07E07');assert.equal(byId.get('p781').sourceOrder,2);
 assert.equal(accepted.filter(p=>p.episode==='S07E23').length,4);assert.equal(accepted.filter(p=>p.episode==='S07E24').length,6);
-assert.equal(hash(s7.dialogues),'7e9ccaab186d51351e20f18aacf4c6ee736a41a1d2e4c6ed5c95c97a2b0b0414','exact S7 Dialogue links and bodies');
-assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!byId.has(id))),[],'no dangling Dialogue links');
+assert.equal(hash(s7.dialogues),'4d8327c9452133b7be72832a6e1bd8c6df02e2dbd2b0a790b23b93693595f21f','exact S7 Dialogue links and bodies');
+assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!require("./helpers/all-production-phrase-ids.cjs").has(id))),[],'no dangling Dialogue links');
 const hints=fs.readFileSync(path.join(root,'js/dialogue-match-hints.js'),'utf8');
 for(const id of ['p767','p821','p823'])assert.ok(!new RegExp(`\\b${id}\\b`).test(hints),`${id} stale hint`);
 console.log('S7 three Final Packages: 80 NEW, 0 UPDATE, 24 REMOVE, 59 KEEP, 2 MOVE; 141 sourceOrder entries PASS');

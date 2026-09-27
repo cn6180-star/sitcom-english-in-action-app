@@ -12,7 +12,7 @@ const removed=['p873','p893','p907','p943','p962'];
 const newIds=Array.from({length:63},(_,i)=>`p${3989+i}`).filter(id=>!cleanupDeleted.has(id));
 const required=['id','phrase','meaning','scene','example1','example2','exampleTranslations','type','priorityText','priority','source','episode','frequency','register','sourceOrder'];
 assert.equal(phrases.length,3946);assert.equal(byId.size,3946,'duplicate Phrase ID');
-assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4116);assert.equal(dialogues.length,345);
+assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4116);assert.equal(dialogues.length,322);
 for(const id of removed)assert.ok(!byId.has(id),`${id} REMOVE`);
 for(const id of newIds){const p=byId.get(id);assert.ok(p,`${id} NEW`);for(const field of required)assert.ok(Object.hasOwn(p,field),`${id}.${field}`);assert.equal(p.exampleTranslations.length,2);}
 const accepted=s8.phrases.filter(p=>Object.hasOwn(counts,p.episode)&&Number.isInteger(p.sourceOrder));
@@ -24,9 +24,9 @@ for(const [episode,count] of Object.entries(counts)){
  assert.deepEqual(rows.map(p=>p.sourceOrder),expectedSourceRanks[episode],`${episode} sourceOrder unique and gapless`);
 }
 assert.equal(accepted.filter(p=>p.episode==='S08E23').length,8);assert.equal(accepted.filter(p=>p.episode==='S08E24').length,4);
-assert.equal(hash(s8.dialogues),'85a316ff974a00e5486f42e42b1a0b469b1a90e2656346dedaee3318dec3eab1','exact S8 Dialogue links and bodies');
-for(const [d,id] of [['d143','p873'],['d132','p893'],['d146','p907'],['d141','p943'],['d144','p962']])assert.ok(!dialogues.find(x=>x.id===d).phraseLinks.includes(id),`${d}/${id} stale link`);
-assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!byId.has(id))),[],'no dangling Dialogue links');
+assert.equal(hash(s8.dialogues),'67e42953d54ef3c6dc95a8b324b5a95165258ca4567fd51c5cd6ca9faac5f476','exact S8 Dialogue links and bodies');
+for(const [d,id] of [['d143','p873'],['d132','p893'],['d146','p907'],['d141','p943'],['d144','p962']])assert.ok(!dialogues.some(x=>x.id===d)||!dialogues.find(x=>x.id===d).phraseLinks.includes(id),`${d}/${id} stale link`);
+assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!require("./helpers/all-production-phrase-ids.cjs").has(id))),[],'no dangling Dialogue links');
 const hints=fs.readFileSync(path.join(root,'js/dialogue-match-hints.js'),'utf8');
 for(const id of removed)assert.ok(!new RegExp(`\\b${id}\\b`).test(hints),`${id} stale hint`);
 console.log('S8 three Final Packages: 63 NEW, 0 UPDATE, 5 REMOVE, 102 KEEP, 0 MOVE; 165 sourceOrder entries PASS');

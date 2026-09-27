@@ -20,7 +20,7 @@ const required=['id','phrase','meaning','scene','example1','example2','exampleTr
 assert.equal(phrases.length,3946);
 assert.equal(byId.size,3946,'duplicate Phrase ID');
 assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4116);
-assert.equal(dialogues.length,345);
+assert.equal(dialogues.length,322);
 assert.ok(newIds.every(id=>seasons[3].phrases.some(p=>p.id===id)),'66 NEW IDs in Season 4');
 for(const id of newIds){const p=byId.get(id);for(const field of required)assert.ok(Object.hasOwn(p,field),`${id}: ${field}`);assert.equal(p.source,'Friends');assert.equal(p.exampleTranslations.length,2);assert.equal(p.priorityText,'★'.repeat(p.priority)+'☆'.repeat(3-p.priority));}
 const accepted=[...existingIds,...newIds].filter(id=>!cleanupDeleted.has(id)).map(id=>byId.get(id));
@@ -41,5 +41,5 @@ for(const id of ['p350','p356','p359'])assert.ok(!byId.has(id),`${id} removed`);
 const d60=dialogues.find(d=>d.id==='d60');
 assert.equal(d60,undefined,'old S4 Dialogue retired by Notion rebuild');
 assert.ok(dialogues.every(d=>!d.phraseLinks.includes('p356')));
-assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!byId.has(id))),[],'no dangling Dialogue links');
+assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!require("./helpers/all-production-phrase-ids.cjs").has(id))),[],'no dangling Dialogue links');
 console.log('S4 E01-E08 Final Package production integrity passed (66 NEW, 24 KEEP, 2 MOVE, 3 REMOVE; 92 ordered).');

@@ -6,11 +6,11 @@ const frozen={
   2:'f48fa8e3bcda831b1ed881083af6a2a023cc9a616f115d7736b0914503bb5320',
   3:'d358652d4f2763792d1ada65b1f1b959722436c4409bfeb52bebb4cdebe72c1a',
   4:'f6e4f0903b471b233a7f41c1b341f001d4642a6efa898ba3e36199d3439bf7ca',
-  5:'48c5abf21ee3513401d2e48148cd787612c5307bb5b9923dbc4bfe70141113ef',
-  6:'b5ee7e3c584d52d5233f618b5e0ebe34352c2c3c5afab463d7b4ddff25aeacb1',
-  7:'a1c09993bfd46454595b3866ebdb5ffcf621e28d0c0e419815b77696ba49b6e4',
-  8:'06c7f213fa0c12469ade48a3fe839edad1d43a7d3187c0073c26ae2645f3987b',
-  9:'cb74e5dee2eff0cca06693e4f561139ccebab152faf53fb0b4cce626a29c6f92'
+  5:'2f55d5be9fa2ac6d8086e2795ce31d0c4e82bdbe419f3b260531e02a63cd037d',
+  6:'4b88cb55be406bffb987aacf6ca6e67c8e48a4aa1ad89f0c346af59198c86d7d',
+  7:'2954af6170f295c441f2ef3d1def4460d30207fb137188855929b4858e74eac6',
+  8:'41a1dbce6acb31cc37329f11bf77312129c025b710f2107b661339651da65495',
+  9:'d0927d16a30621b6177b22f6984b3e301af34ef58b87042d451dfdc452d997e0'
 };
 const seasons=Array.from({length:10},(_,i)=>{
  const bytes=fs.readFileSync(path.join(root,'data',`season${i+1}.json`));
@@ -18,9 +18,9 @@ const seasons=Array.from({length:10},(_,i)=>{
  return JSON.parse(bytes);
 });
 const s10=seasons[9],phrases=seasons.flatMap(s=>s.phrases),dialogues=seasons.flatMap(s=>s.dialogues),ids=new Set(phrases.map(p=>p.id));
-assert.equal(s10.season,10);assert.equal(s10.dialogues.length,0);assert.equal(s10.phrases.length,116);
+assert.equal(s10.season,10);assert.equal(s10.dialogues.length,12);assert.equal(s10.phrases.length,116);
 assert.equal(phrases.length,4062);assert.equal(ids.size,4062,'duplicate Phrase IDs');
-assert.equal(dialogues.length,345);assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4238);
+assert.equal(dialogues.length,334);assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4238);
 const required=['id','phrase','meaning','scene','example1','example2','exampleTranslations','type','priorityText','priority','source','episode','frequency','register','sourceOrder'];
 for(let i=4117;i<=4238;i++){
  const record=s10.phrases.find(p=>p.id===`p${i}`);if(['p4221','p4185','p4237','p4229','p4166','p4169'].includes(`p${i}`)){assert.equal(record,undefined);continue;}assert.ok(record,`p${i} missing`);

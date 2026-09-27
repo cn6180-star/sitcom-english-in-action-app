@@ -20,7 +20,7 @@ const required=['id','phrase','meaning','scene','example1','example2','exampleTr
 assert.equal(phrases.length,3946);
 assert.equal(byId.size,3946,'duplicate Phrase ID');
 assert.equal(Math.max(...phrases.map(record=>+record.id.slice(1))),4116);
-assert.equal(dialogues.length,345);
+assert.equal(dialogues.length,322);
 for(const id of removedIds)assert.ok(!byId.has(id),`${id} REMOVE`);
 for(const id of newIds){
  const record=byId.get(id);assert.ok(record,`${id} NEW`);
@@ -39,8 +39,6 @@ for(const [episode,count] of Object.entries(episodeCounts)){
 }
 assert.equal(ordered.length,73);
 assert.equal(hash(ordered),'283ecb4a68d67fb9c114308f50ade356863c5ed6676ca2fad0a9fb274da3c879','Final Package sourceOrder');
-const d79=dialogues.find(d=>d.id==='d79');assert.ok(d79);
-assert.deepEqual(d79.phraseLinks,['p600','p609','p606','p610','p622']);
-assert.equal(hash(d79.lines),'73d206e76d133440b79fe56e4536b64fd6a109062dbafce31cdbdd5cc88a6a1c','d79 English and Japanese unchanged');
-assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!byId.has(id))),[],'no dangling Dialogue references');
+assert.ok(!dialogues.some(d=>d.id==='d79'),'d79 replaced by Notion rebuild');
+assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!require("./helpers/all-production-phrase-ids.cjs").has(id))),[],'no dangling Dialogue references');
 console.log('S5 E17-E24 Final Package: 40 NEW, 35 KEEP, 3 REMOVE; 75 sourceOrder entries PASS');

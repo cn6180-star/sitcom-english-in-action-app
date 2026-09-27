@@ -19,7 +19,7 @@ assert.equal(phrases.length,3946);
 assert.equal(byId.size,3946,'duplicate Phrase IDs');
 assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4116);
 assert.equal(phrases.filter(p=>p.episode.startsWith('S03')).length,443);
-assert.equal(dialogues.length,345);
+assert.equal(dialogues.length,322);
 assert.ok(newIds.every(id=>seasons[2].phrases.some(p=>p.id===id)),'125 NEW records in Season 3');
 for(const id of newIds){
  const p=byId.get(id);
@@ -46,5 +46,5 @@ assert.ok(!byId.has('p342'));
 const d32=dialogues.find(d=>d.id==='d32');
 assert.equal(d32,undefined,'old S3 Dialogue retired by Notion rebuild');
 assert.ok(dialogues.every(d=>!d.phraseLinks.includes('p342')));
-assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!byId.has(id))),[],'no dangling Dialogue link');
+assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!require("./helpers/all-production-phrase-ids.cjs").has(id))),[],'no dangling Dialogue link');
 console.log('S3 E17-E25 Final Package production integrity passed (125 NEW, 4 UPDATE, 20 KEEP, 1 MOVE, 1 REMOVE; 150 ordered).');

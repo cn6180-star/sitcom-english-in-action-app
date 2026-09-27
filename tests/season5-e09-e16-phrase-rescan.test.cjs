@@ -20,7 +20,7 @@ const required=['id','phrase','meaning','scene','example1','example2','exampleTr
 assert.equal(phrases.length,3946);
 assert.equal(byId.size,3946,'duplicate Phrase ID');
 assert.equal(Math.max(...phrases.map(record=>+record.id.slice(1))),4116);
-assert.equal(dialogues.length,345);
+assert.equal(dialogues.length,322);
 for(const id of removedIds)assert.ok(!byId.has(id),`${id} REMOVE`);
 for(const id of newIds){
  const record=byId.get(id);assert.ok(record,`${id} NEW`);
@@ -41,17 +41,6 @@ assert.equal(ordered.length,78);
 assert.equal(hash(ordered),'41e10c05919419e8d4e071f0fb2406835927f30a6714db2d2ffacfb08c22934b','Final Package sourceOrder');
 assert.equal(byId.get('p621').episode,'S05E16');assert.equal(byId.get('p621').sourceOrder,9);
 assert.equal(byId.get('p621').meaning,'訴え・告発などを立証して成立させる');
-const expectedDialogues={
- d65:{links:['p479','p500','p485','p514','p480','p511'].filter(id=>!cleanupDeleted.has(id)),lines:'13637a66a0a1dc36f20cf7c55c1e42bc74e735e686cc975e4d72cd1ac8cf267a'},
- d69:{links:['p533','p556','p542','p559','p544','p553'].filter(id=>!cleanupDeleted.has(id)),lines:'c315df2f7309be514e9e442f43f949facdb6a370f13b0dddf4a63051a150c74a'},
- d70:{links:['p605','p610','p528','p530'].filter(id=>!cleanupDeleted.has(id)),lines:'2e5e8ed51722dd40a79411100f554d1d9ccb8dc518840150b2d3efc08e9b9c03'},
- d72:{links:['p591','p567','p568','p580','p572','p575'].filter(id=>!cleanupDeleted.has(id)),lines:'a7477bc633dee4d2c8907b25d1b3a0b384c0eb1bdd0bcce6aa414910dfdf0be5'},
- d77:{links:['p538','p585','p594','p508','p615','p521'].filter(id=>!cleanupDeleted.has(id)),lines:'346da34e3f187840a26f59689de2e10cc736a0c600be4fe4b40c7a6b9ef943e4'}
-};
-for(const [id,want] of Object.entries(expectedDialogues)){
- const dialogue=dialogues.find(item=>item.id===id);assert.ok(dialogue);
- assert.deepEqual(dialogue.phraseLinks,want.links,`${id} exact links`);
- assert.equal(hash(dialogue.lines),want.lines,`${id} English and Japanese unchanged`);
-}
-assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!byId.has(id))),[],'no dangling Dialogue references');
+for(const id of ['d65','d69','d70','d72','d77'])assert.ok(!dialogues.some(d=>d.id===id),id+' replaced by Notion rebuild');
+assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!require("./helpers/all-production-phrase-ids.cjs").has(id))),[],'no dangling Dialogue references');
 console.log('S5 E09-E16 Final Package: 42 NEW, 1 UPDATE, 37 KEEP, 4 REMOVE; 80 sourceOrder entries PASS');

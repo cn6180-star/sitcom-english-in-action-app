@@ -40,9 +40,9 @@ for(const [episode,target,count] of [["S01E16",57,57],["S01E17",48,46],["S01E18"
 }
 assert.deepEqual([byId.get("p2870").phrase,byId.get("p2870").episode,byId.get("p2870").sourceOrder],["sleep together","S01E16",56]);
 assert.deepEqual([byId.get("p2916").phrase,byId.get("p2916").episode,byId.get("p2916").sourceOrder],["get one's ya-yas","S01E18",24]);
-assert.equal(dialogues.length,345);
-assert.equal(hash(dialogues.filter(d=>Number(d.id.slice(1))<=167)),"2703d6f391e3549e59bf1b91163f06ada3b3846da4b18fb1bfa81f4a101fd0d9");
-assert.deepEqual(dialogues.flatMap(d=>(d.phraseLinks||[]).filter(id=>!byId.has(id))),[]);
+assert.equal(dialogues.length,322);
+assert.equal(hash(dialogues.filter(d=>Number(d.id.slice(1))<=167)),"6618a03e93d1fc12056792299ae99de1b168167c62d6ae1a0e12912d1bb94efc");
+assert.deepEqual(dialogues.flatMap(d=>(d.phraseLinks||[]).filter(id=>!require("./helpers/all-production-phrase-ids.cjs").has(id))),[]);
 
 const source=fs.readFileSync(path.join(root,"js","app.js"),"utf8");
 const context={PHRASES:phrases,seasonNum:s=>Number(s.match(/S(\d+)/)[1]),episodeNumber:s=>Number(s.match(/E(\d+)/)[1]),filters:{phrase:{season:"1",episode:"16",type:"all",frequency:"all",register:"all"}},phraseScopeFrom:()=>"all",bookmarked:()=>false,isWeak:()=>false,isLearned:()=>false,setContinue:()=>{},render:()=>{},route:{name:"phrases",params:{}},lastListContext:null};
@@ -62,5 +62,5 @@ const legacy=phrases.filter(p=>p.episode==="S02E01");assert.deepEqual(context.so
 console.log("Season 1 E16-E18 curated records, source order, filters and detail navigation tests passed");
 
 // Full production snapshot; the existing-only snapshot above is supplementary.
-assert.equal(dialogues.length,345);
-assert.equal(hash(dialogues),"0ae555d31593c4773dfbe2e6aa384d85955d71b28c3ae3ea904dff322b72a7e5");
+assert.equal(dialogues.length,322);
+assert.equal(hash(dialogues),"b21e032cdba94d46641b13adf3d7512228db5c2d6b4767fa9325610b1394f126");

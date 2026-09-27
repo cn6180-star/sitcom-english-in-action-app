@@ -21,7 +21,7 @@ const required=['id','phrase','meaning','scene','example1','example2','exampleTr
 assert.equal(phrases.length,3946);
 assert.equal(byId.size,3946,'duplicate Phrase ID');
 assert.equal(Math.max(...phrases.map(phrase=>Number(phrase.id.slice(1)))),4116);
-assert.equal(dialogues.length,345);
+assert.equal(dialogues.length,322);
 for(const id of removedIds)assert.ok(!byId.has(id),`${id} removed`);
 for(const id of newIds){
   const record=byId.get(id);assert.ok(record,`${id} NEW present`);
@@ -48,5 +48,5 @@ const expectedDialogues={
 for(const [id,want] of Object.entries(expectedDialogues)){
   assert.ok(!dialogues.some(item=>item.id===id),`${id} old S4 Dialogue retired by Notion rebuild`);
 }
-assert.deepEqual(dialogues.flatMap(dialogue=>dialogue.phraseLinks.filter(id=>!byId.has(id))),[],'no dangling Dialogue links');
+assert.deepEqual(dialogues.flatMap(dialogue=>dialogue.phraseLinks.filter(id=>!require("./helpers/all-production-phrase-ids.cjs").has(id))),[],'no dangling Dialogue links');
 console.log('S4 E17-E24 Final Package production integrity passed (41 NEW, 23 KEEP, 8 REMOVE; 64 ordered).');

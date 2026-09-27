@@ -13,8 +13,8 @@ const episodeNumber=value=>Number(String(value||"").match(/E(\d+)/i)?.[1])||0;
 const phraseById=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const dialogueEpisodes=dialogue=>[...new Set((dialogue.phraseLinks||[]).map(id=>phraseById.get(id)?.episode).filter(Boolean))];
 
-assert.equal(dialogues.length,345);
-assert.equal(new Set(dialogues.map(dialogue=>dialogue.id)).size,345);
+assert.equal(dialogues.length,322);
+assert.equal(new Set(dialogues.map(dialogue=>dialogue.id)).size,322);
 assert.equal(dialogues.filter(dialogue=>!Object.prototype.hasOwnProperty.call(dialogue,"category")).length,0);
 assert.equal(dialogues.filter(dialogue=>typeof dialogue.category!=="string"||!dialogue.category.trim()).length,0);
 assert.equal(dialogues.filter(dialogue=>!category(dialogue)).length,0);
@@ -24,25 +24,18 @@ assert.equal(dialogues.filter(dialogue=>!dialogue.title.trim()).length,0);
 assert.equal(dialogues.filter(dialogue=>/^(日常|仕事|相談|人間関係|恋愛|トラブル|メンタル|雑談|ケンカ)[①②③④⑤⑥⑦⑧⑨⑩]（.+）$/.test(dialogue.title)).length,0);
 
 const counts=new Map(allowed.map(name=>[name,dialogues.filter(dialogue=>category(dialogue)===name).length]));
-assert.deepEqual(Object.fromEntries(counts),{"日常":100,"仕事":98,"相談":27,"人間関係":19,"恋愛":35,"トラブル":2,"メンタル":5,"雑談":6,"友人":43,"買い物":1,"挑戦":4,"家族":3,"健康":1,"旅行":1});
-assert.equal([...counts.values()].filter(count=>count===1).length,3);
+assert.deepEqual(Object.fromEntries(counts),{"日常":68,"仕事":91,"相談":25,"人間関係":5,"恋愛":40,"トラブル":2,"メンタル":5,"雑談":8,"友人":64,"買い物":2,"挑戦":4,"家族":3,"健康":1,"旅行":4});
+assert.equal([...counts.values()].filter(count=>count===1).length,1);
 
-const expectedS9={
-  "予約の取れないレストラン":"日常","転職するか迷う":"相談","友達の恋愛相談":"相談","引っ越し先探し":"日常",
-  "仕事を抱えすぎ":"仕事","新しいプロジェクト":"仕事","パーティーの翌朝":"日常","旅行の準備":"日常",
-  "同僚との境界線":"人間関係","会社の建前":"仕事","友達に言いすぎた":"人間関係","チームの空気が悪い":"人間関係",
-  "久しぶりに遊びに行く":"日常","副業を始める":"日常","みんなでプレゼント":"日常","詮索しすぎ":"人間関係",
-  "面接前":"仕事","雑音の多い職場":"仕事"
-};
-for(const [title,expected] of Object.entries(expectedS9))assert.equal(category(dialogues.find(dialogue=>dialogue.title===title)),expected,title);
+for(const expected of require('./fixtures/friends-s5-s10-notion-rebuild.json').seasons[4])assert.equal(category(dialogues.find(dialogue=>dialogue.id===expected.id)),expected.category,expected.id);
 assert.equal(category(dialogues.find(dialogue=>dialogue.id==="d7")),"人間関係");
 assert.equal(dialogues.find(dialogue=>dialogue.id==="d7").title,"感情的になったとき");
 
 const duplicateTitles=[...new Set(dialogues.map(dialogue=>dialogue.title))].filter(title=>dialogues.filter(dialogue=>dialogue.title===title).length>1).sort((a,b)=>a.localeCompare(b,"ja"));
-assert.deepEqual(duplicateTitles,["締切が重なる日","評価面談","副業を始める"].sort((a,b)=>a.localeCompare(b,"ja")));
+assert.deepEqual(duplicateTitles,["ホームパーティーの準備をする"].sort((a,b)=>a.localeCompare(b,"ja")));
 
 const season9Work=dialogues.filter(dialogue=>seasonNumber(dialogue.season)===9&&category(dialogue)==="仕事");
-assert.equal(season9Work.length,5);
+assert.equal(season9Work.length,6);
 const episode=episodeNumber(dialogueEpisodes(season9Work[0])[0]);
 assert.ok(episode>0);
 assert.ok(dialogues.filter(dialogue=>seasonNumber(dialogue.season)===9&&category(dialogue)==="仕事"&&dialogueEpisodes(dialogue).some(value=>episodeNumber(value)===episode)).length>0);

@@ -15,7 +15,7 @@ const removed=['p630','p660','p629','p646','p650','p682','p684','p681','p688','p
 const newIds=Array.from({length:87},(_,i)=>`p${3822+i}`).filter(id=>!cleanupDeleted.has(id));
 const required=['id','phrase','meaning','scene','example1','example2','exampleTranslations','type','priorityText','priority','source','episode','frequency','register','sourceOrder'];
 assert.equal(phrases.length,3946);assert.equal(byId.size,3946,'duplicate Phrase ID');
-assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4116);assert.equal(dialogues.length,345);
+assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4116);assert.equal(dialogues.length,322);
 for(const id of removed)assert.ok(!byId.has(id),`${id} REMOVE`);
 for(const id of newIds){const p=byId.get(id);assert.ok(p,`${id} NEW`);for(const field of required)assert.ok(Object.hasOwn(p,field),`${id}.${field}`);assert.equal(p.exampleTranslations.length,2);}
 const accepted=phrases.filter(p=>Object.hasOwn(episodeCounts,p.episode));
@@ -33,10 +33,8 @@ assert.equal(byId.get('p657').episode,'S06E03');assert.equal(byId.get('p657').so
 assert.equal(byId.get('p657').meaning,'（方法や取り決めを）考えてまとめる／調整して決める');
 assert.equal(byId.get('p720').episode,'S06E20');assert.equal(byId.get('p720').sourceOrder,3);
 const dialogueById=new Map(dialogues.map(d=>[d.id,d]));
-assert.deepEqual(dialogueById.get('d99').phraseLinks,['p653','p703','p722','p724']);
-assert.deepEqual(dialogueById.get('d102').phraseLinks,['p4','p623','p664','p738']);
-assert.ok(!dialogueById.get('d103').phraseLinks.includes('p657'));
-const touched=['d84','d85','d86','d88','d92','d93','d94','d96','d98','d99','d102','d103','d104'];
-assert.equal(hash(touched.map(id=>{const d=dialogueById.get(id);return[d.id,d.phraseLinks,d.lines]})),'b1cc0169d35ba19d9c72db610cdc73caa7053f312401bdce7d37fb5e9205240f','exact Dialogue links and bodies');
-assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!byId.has(id))),[],'no dangling Dialogue links');
+const retired=['d84','d85','d86','d88','d92','d93','d94','d96','d98','d99','d102','d103','d104'];
+for(const id of retired)assert.ok(!dialogueById.has(id),id+' replaced by Notion rebuild');
+assert.equal(hash(seasons[5].dialogues),'5197c77be5ee211d7d65f818f65bdfeb5bed8fd84a989a2937ef2953313a2852','exact rebuilt S6 dialogues');
+assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!require("./helpers/all-production-phrase-ids.cjs").has(id))),[],'no dangling Dialogue links');
 console.log('S6 three Final Packages: 87 NEW, 1 UPDATE, 21 REMOVE, 99 KEEP, 1 MOVE; 188 sourceOrder entries PASS');

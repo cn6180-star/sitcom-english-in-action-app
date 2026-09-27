@@ -178,8 +178,8 @@ assert.deepEqual(normalizedDuplicates,Object.fromEntries(Object.entries({
   "work out":["p1128","p1584"]
 }).map(([headline,ids])=>[headline,ids.filter(id=>!new Set(["p423","p470","p502","p536","p557","p488","p542","p500","p570","p604","p637","p672","p679","p683","p696","p753","p3920","p3923","p3933","p841","p858","p887","p921","p957","p970","p1064","p1074","p4221","p4185","p4237","p503","p4022","p4029","p483","p4229","p4166","p4169"]).has(id))]).filter(([,ids])=>ids.length>1)));
 
-assert.equal(dialogues.length,345);
+assert.equal(dialogues.length,322);
 assert.deepEqual(dialogues.flatMap(dialogue=>(dialogue.phraseLinks||[])
-  .filter(id=>!phraseIds.has(id)).map(id=>`${dialogue.id}:${id}`)),[]);
+  .filter(id=>!require("./helpers/all-production-phrase-ids.cjs").has(id)).map(id=>`${dialogue.id}:${id}`)),[]);
 
 console.log("Season 2 Batch 3 Phrase expansion tests passed");

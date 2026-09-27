@@ -7,9 +7,9 @@ const s1=sets[0].dialogues,s2=sets[1].dialogues,byId=new Map(dialogues.map(d=>[d
 const phraseById=new Map(phrases.map(p=>[p.id,p])),hash=value=>crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const plain=value=>JSON.parse(JSON.stringify(value)),exclusions=plain(vm.runInContext('DIALOGUE_HIGHLIGHT_EXCLUSIONS',c));
 
-assert.equal(phrases.length,3946);assert.equal(phraseById.size,3946);
+assert.equal(phrases.length,4062);assert.equal(phraseById.size,4062);
 assert.equal(phrases.filter(p=>p.episode?.startsWith('S01')).length,1623);
-assert.equal(dialogues.length,345);assert.equal(new Set(dialogues.map(d=>d.id)).size,345);
+assert.equal(dialogues.length,334);assert.equal(new Set(dialogues.map(d=>d.id)).size,334);
 assert.equal(s1.length,108);assert.equal(s2.length,81);
 const expectedIds=[...fixture.expected.map(item=>item.id),...Array.from({length:65},(_,i)=>`S1-NEW-${String(i+1).padStart(2,'0')}`)].sort();
 assert.deepEqual(s1.map(d=>d.id).sort(),expectedIds,'Notion S1 IDs and prior survivors');
@@ -43,7 +43,7 @@ for(const dialogue of s1){
   }
 }
 assert.deepEqual({auto,explicit,partial},{auto:817,explicit:60,partial:0});
-const sourceOrder=phrases.filter(p=>p.sourceOrder!==undefined).sort((a,b)=>a.episode.localeCompare(b.episode)||a.sourceOrder-b.sourceOrder);
+const sourceOrder=sets.flatMap(s=>s.phrases).filter(p=>p.sourceOrder!==undefined).sort((a,b)=>a.episode.localeCompare(b.episode)||a.sourceOrder-b.sourceOrder);
 assert.equal(hash(sourceOrder.map(p=>[p.id,p.episode,p.sourceOrder])),fixture.hashes.sourceOrder,'Phrase sourceOrder unchanged');
 
 console.log('S1 Notion Dialogue sync: 108 records / 877 links, exact snapshot, A/B-only, Highlight + Blank ranges PASS');

@@ -2898,1271 +2898,827 @@
   ],
   "dialogues": [
     {
-      "id": "d150",
-      "series": "Friends",
+      "id": "S9-NEW-01",
       "season": "Season 9",
-      "title": "予約の取れないレストラン",
-      "category": "日常",
-      "lines": [
-        [
-          "A",
-          "I tried to book that new Italian place, but they’re booked solid all weekend.",
-          "あの新しいイタリアンを予約しようとしたんやけど、週末はずっと満席やって。"
-        ],
-        [
-          "B",
-          "Then let’s just walk in. Live a little.",
-          "じゃあ、そのまま行ってみようよ。たまには冒険しよう。"
-        ],
-        [
-          "A",
-          "You really do like to live on the edge.",
-          "ほんま、スリルのあること好きやな。"
-        ],
-        [
-          "B",
-          "Worst case, we eat somewhere else.",
-          "最悪、別の店で食べればいいやん。"
-        ],
-        [
-          "A",
-          "Last time you said that, we got ripped off at that tourist trap.",
-          "前にもそう言って、観光客向けのあの店でぼったくられたやん。"
-        ],
-        [
-          "B",
-          "You’re still wound up about that?",
-          "まだそのことでイライラしてるん？"
-        ],
-        [
-          "A",
-          "They charged us twelve dollars for water.",
-          "水に12ドルも取られたんやで。"
-        ],
-        [
-          "B",
-          "Okay, no hard feelings, but you’re being dramatic.",
-          "まあ悪く思わんといてほしいけど、大げさやで。"
-        ],
-        [
-          "A",
-          "I’ve got news for you: twelve-dollar water is worth being dramatic about.",
-          "言っとくけど、水が12ドルもしたら大げさにもなるわ。"
-        ],
-        [
-          "B",
-          "Fine. You pick the restaurant.",
-          "わかった。店はそっちが選んで。"
-        ],
-        [
-          "A",
-          "Finally, a sensible decision.",
-          "やっとまともな判断したな。"
-        ]
-      ],
-      "phraseLinks": [
-        "p1077",
-        "p1070",
-        "p1071",
-        "p1076",
-        "p1004",
-        "p983"
-      ]
-    },
-    {
-      "id": "d151",
-      "series": "Friends",
-      "season": "Season 9",
-      "title": "転職するか迷う",
-      "category": "相談",
-      "lines": [
-        [
-          "A",
-          "I think I’m on the cusp of quitting my job.",
-          "もう仕事を辞める寸前まで来てる気がする。"
-        ],
-        [
-          "B",
-          "Seriously? I thought things were getting better.",
-          "ほんまに？少しは良くなってきたと思ってた。"
-        ],
-        [
-          "A",
-          "More often than not, I dread going in.",
-          "たいてい、出勤するのが憂うつやねん。"
-        ],
-        [
-          "B",
-          "Then maybe it’s time to leave.",
-          "じゃあ、そろそろ辞めどきかもな。"
-        ],
-        [
-          "A",
-          "Good jobs don’t grow on trees, though.",
-          "でも、いい仕事なんてそう簡単には見つからへんし。"
-        ],
-        [
-          "B",
-          "True, but nothing is worth this if you’re miserable every day.",
-          "確かに。でも毎日つらいなら、そこまでして続ける価値はないよ。"
-        ],
-        [
-          "A",
-          "I’ve been trying to lay the groundwork for something else.",
-          "別の道に進むための土台は作ろうとしてる。"
-        ],
-        [
-          "B",
-          "Good. Update your résumé and start applying.",
-          "いいやん。履歴書を更新して、応募し始めよう。"
-        ],
-        [
-          "A",
-          "Worse comes to worst, I stay where I am a little longer.",
-          "最悪の場合は、もう少し今の職場に残ればいいか。"
-        ],
-        [
-          "B",
-          "Exactly. You don’t have to quit tomorrow.",
-          "そうそう。明日すぐ辞める必要はないんやから。"
-        ],
-        [
-          "A",
-          "That actually makes me feel better.",
-          "そう考えたら、ちょっと気が楽になった。"
-        ]
-      ],
-      "phraseLinks": [
-        "p1033",
-        "p1037",
-        "p1032",
-        "p1054",
-        "p1003"
-      ]
-    },
-    {
-      "id": "d152",
-      "series": "Friends",
-      "season": "Season 9",
-      "title": "友達の恋愛相談",
-      "category": "相談",
-      "lines": [
-        [
-          "A",
-          "Do you think less of me for still checking her Instagram?",
-          "まだ彼女のInstagramを見てるって知ったら、俺のこと軽蔑する？"
-        ],
-        [
-          "B",
-          "No, but you’re clearly still hung up on her.",
-          "せえへんけど、明らかにまだ彼女を引きずってるよ。"
-        ],
-        [
-          "A",
-          "She liked one of my old photos yesterday.",
-          "昨日、昔の写真にいいねしてきたんやで。"
-        ],
-        [
-          "B",
-          "Don’t read too much into it.",
-          "深読みしすぎん方がいいよ。"
-        ],
-        [
-          "A",
-          "What if she’s trying to tell me something?",
-          "何か伝えようとしてるんやったら？"
-        ],
-        [
-          "B",
-          "That’s a bit of a stretch.",
-          "それはちょっとこじつけやと思う。"
-        ],
-        [
-          "A",
-          "You’re probably right.",
-          "たぶんそうやな。"
-        ],
-        [
-          "B",
-          "Let me put it this way: if she wants to talk, she knows your number.",
-          "こう考えたら？話したいなら、向こうはあなたの番号を知ってる。"
-        ],
-        [
-          "A",
-          "So I should just leave it alone?",
-          "じゃあ、放っておいた方がいい？"
-        ],
-        [
-          "B",
-          "Yes. Try to get past it.",
-          "うん。もう乗り越えるようにしてみて。"
-        ],
-        [
-          "A",
-          "Easier said than done.",
-          "言うほど簡単ちゃうけどな。"
-        ]
-      ],
-      "phraseLinks": [
-        "p1081",
-        "p1093",
-        "p1090",
-        "p998",
-        "p1029",
-        "p988"
-      ]
-    },
-    {
-      "id": "d153",
-      "series": "Friends",
-      "season": "Season 9",
-      "title": "引っ越し先探し",
-      "category": "日常",
-      "lines": [
-        [
-          "A",
-          "I looked at six apartments today.",
-          "今日、物件を6件見てきた。"
-        ],
-        [
-          "B",
-          "Any good ones?",
-          "いいところあった？"
-        ],
-        [
-          "A",
-          "Honestly, slim pickings.",
-          "正直、ろくなのがなかった。"
-        ],
-        [
-          "B",
-          "What about the one near the station?",
-          "駅の近くのところは？"
-        ],
-        [
-          "A",
-          "My sister already called dibs on the bigger bedroom.",
-          "広い方の寝室は、もう姉が自分のものって宣言してる。"
-        ],
-        [
-          "B",
-          "She hasn’t even moved in yet.",
-          "まだ引っ越してもいないのに。"
-        ],
-        [
-          "A",
-          "Apparently the rule exists as of this morning.",
-          "どうやら今朝から、そういうルールができたらしい。"
-        ],
-        [
-          "B",
-          "That strikes me as slightly ridiculous.",
-          "それ、ちょっとばかばかしく思えるけど。"
-        ],
-        [
-          "A",
-          "On top of that, the rent went up again.",
-          "そのうえ、家賃もまた上がってた。"
-        ],
-        [
-          "B",
-          "So you’re not taking it?",
-          "じゃあ、そこには決めへんの？"
-        ],
-        [
-          "A",
-          "I haven’t ruled it out yet.",
-          "まだ候補から外したわけではないよ。"
-        ]
-      ],
-      "phraseLinks": [
-        "p994",
-        "p996",
-        "p997",
-        "p993",
-        "p1043"
-      ]
-    },
-    {
-      "id": "d154",
-      "series": "Friends",
-      "season": "Season 9",
-      "title": "仕事を抱えすぎ",
+      "title": "仕事が立て込んだ同僚を助ける",
       "category": "仕事",
       "lines": [
         [
           "A",
-          "Can you help me with this report?",
-          "このレポート、手伝ってくれる？"
+          "You've got a lot on your plate this week.",
+          "今週めっちゃ抱えてるやん。"
         ],
         [
           "B",
-          "I’d love to, but I have a lot on my plate today.",
-          "手伝いたいけど、今日はやることを抱えすぎてて。"
+          "Yeah, I'm booked solid through Friday.",
+          "うん、金曜まで予定びっしり。"
         ],
         [
           "A",
-          "Same. I volunteered for three projects at once.",
-          "私も。3つのプロジェクトに一気に手を挙げてしまった。"
+          "Take time out to eat something, at least.",
+          "せめてご飯食べる時間くらい取って。"
         ],
         [
           "B",
-          "You always take it too far.",
-          "いつもやりすぎるねん。"
+          "I will. I just want to stay ahead of the game.",
+          "分かってる。ただ先回りして進めときたいねん。"
         ],
         [
           "A",
-          "I know. I really stink at saying no.",
-          "わかってる。断るのがほんまに下手で。"
+          "Then get into the habit of delegating.",
+          "じゃあ人に任せる癖つけた方がええで。"
         ],
         [
           "B",
-          "Then start practicing.",
-          "じゃあ、断る練習を始めな。"
+          "Can you get the new guy up to speed?",
+          "新人に状況共有してもらえる？"
         ],
         [
           "A",
-          "My manager keeps asking me to step up.",
-          "上司がもっと頑張れって何度も言ってくるねん。"
+          "Sure. He can step up on the client calls.",
+          "いいよ。クライアント対応はあの人に一段上がってもらお。"
         ],
         [
           "B",
-          "Stepping up doesn’t mean doing everyone else’s job.",
-          "頑張るって、ほかの人の仕事まで全部やることちゃうで。"
-        ],
-        [
-          "A",
-          "You’re very vocal about this.",
-          "このことになると、ずいぶんはっきり言うな。"
-        ],
-        [
-          "B",
-          "Because I’ve watched you burn yourself out before.",
-          "前にも無理しすぎて潰れるところを見てるから。"
-        ],
-        [
-          "A",
-          "Point taken.",
-          "ごもっとも。"
+          "Good, because there's no wiggle room on this deadline.",
+          "助かる。この締め切りはほんま動かされへんし。"
         ]
       ],
       "phraseLinks": [
         "p1091",
-        "p1088",
-        "p1016",
-        "p1065"
+        "p1077",
+        "p4104",
+        "p4103",
+        "p4099",
+        "p4080",
+        "p3547",
+        "p4095"
       ]
     },
     {
-      "id": "d155",
-      "series": "Friends",
+      "id": "S9-NEW-02",
       "season": "Season 9",
-      "title": "新しいプロジェクト",
+      "title": "お金が厳しい時期の副業を考える",
       "category": "仕事",
       "lines": [
         [
           "A",
-          "So we’re really building the whole website from scratch?",
-          "ほんまにウェブサイトを全部ゼロから作るん？"
+          "Are you still short on cash?",
+          "まだお金きついん？"
         ],
         [
           "B",
-          "Yep. And we only have two weeks.",
-          "そう。しかも2週間しかない。"
+          "Yeah. That side project took a hit last month.",
+          "うん。先月、副業の方がかなり痛手受けてん。"
         ],
         [
           "A",
-          "That sounds ambitious.",
-          "かなり大がかりやな。"
+          "At least nobody ripped you off.",
+          "まあ誰かにぼったくられたわけちゃうだけマシやな。"
         ],
         [
           "B",
-          "Third time’s the charm. The last two versions were terrible.",
-          "三度目の正直や。前の2つはひどかったから。"
+          "True. If sales pick up, I can make my money back.",
+          "そうやな。売上戻ったら元は取れる。"
         ],
         [
           "A",
-          "At least we’ve ruled out what doesn’t work.",
-          "少なくとも、何がうまくいかないかはわかった。"
+          "You're trying to make a living from it already?",
+          "もうそれで食べていこうとしてるん？"
         ],
         [
           "B",
-          "Exactly. Can you catch me up on what the designer decided?",
-          "そういうこと。デザイナーが何を決めたか教えてくれる？"
+          "Eventually. Money doesn't grow on trees.",
+          "そのうちな。お金は勝手に湧いてこんし。"
         ],
         [
           "A",
-          "She wants to go to town on the homepage.",
-          "トップページを徹底的に作り込みたいって。"
+          "Just don't treat it like a sure thing.",
+          "絶対うまくいく前提にはせんとき。"
         ],
         [
           "B",
-          "Meaning?",
-          "つまり？"
-        ],
-        [
-          "A",
-          "Animation, video, custom graphics—the works.",
-          "アニメーション、動画、オリジナル画像、全部盛り。"
-        ],
-        [
-          "B",
-          "Okay, but let’s not piss away the entire budget.",
-          "わかった。でも予算を全部無駄遣いするのはやめよう。"
-        ],
-        [
-          "A",
-          "Agreed.",
-          "同感。"
+          "I know. The odds are against me, but I'm giving it a shot.",
+          "分かってる。分は悪いけど、やってみる。"
         ]
       ],
       "phraseLinks": [
-        "p1038",
-        "p1043",
-        "p1031",
-        "p979",
-        "p1069"
+        "p4102",
+        "p1057",
+        "p1071",
+        "p4078",
+        "p4079",
+        "p1032",
+        "p4098",
+        "p1066"
       ]
     },
     {
-      "id": "d156",
-      "series": "Friends",
+      "id": "S9-NEW-03",
       "season": "Season 9",
-      "title": "パーティーの翌朝",
-      "category": "日常",
+      "title": "初デートの相手を考えすぎないようにする",
+      "category": "恋愛",
       "lines": [
         [
           "A",
-          "I feel awful. I’m completely bloated.",
-          "気分最悪。お腹が完全にパンパン。"
+          "I got a really good vibe from Jordan.",
+          "ジョーダン、めっちゃ感じよかった。"
         ],
         [
           "B",
-          "You did feast on half the buffet.",
-          "ビュッフェの半分くらい、たらふく食べてたもんな。"
+          "Don't read too much into one date.",
+          "一回のデートで深読みしすぎんとき。"
         ],
         [
           "A",
-          "And on top of that, I had cake twice.",
-          "そのうえ、ケーキも2回食べた。"
+          "Too late. They practically swept me off my feet.",
+          "もう遅い。ほぼ完全に心持ってかれた。"
         ],
         [
           "B",
-          "Twice?",
-          "2回？"
+          "Are you going after them, then?",
+          "じゃあ自分から行くん？"
         ],
         [
           "A",
-          "Maybe three times. It was a simpler time before you started counting.",
-          "3回かも。そっちが数え始める前は、もっと気楽やったのに。"
+          "Maybe. I might've built them up in my head a little.",
+          "かも。頭の中でちょっと理想化してるかもしれんけど。"
         ],
         [
           "B",
-          "Are you seriously trying to make this nostalgic?",
-          "本気でこれを懐かしい話にしようとしてる？"
+          "First impressions can be misleading.",
+          "第一印象って当てにならんこともあるで。"
         ],
         [
           "A",
-          "Stop getting your jollies from my suffering.",
-          "私が苦しんでるのを見て楽しむのやめて。"
+          "You won't think less of me if I text tonight, right?",
+          "今夜連絡しても、引かへんよな？"
         ],
         [
           "B",
-          "I’m not. I’m impressed.",
-          "楽しんでないよ。感心してる。"
-        ],
-        [
-          "A",
-          "That somehow makes it worse.",
-          "それ、なぜか余計に嫌やわ。"
-        ],
-        [
-          "B",
-          "Coffee?",
-          "コーヒー飲む？"
-        ],
-        [
-          "A",
-          "Please. And no food for at least six hours.",
-          "お願い。あと最低6時間は何も食べへん。"
+          "No. Just don't make it official by tomorrow morning.",
+          "引かへん。でも明日の朝には付き合ってます、みたいなんはやめてな。"
         ]
       ],
       "phraseLinks": [
-        "p990",
-        "p992",
-        "p993",
-        "p986"
+        "p1090",
+        "p4108",
+        "p4109",
+        "p4116",
+        "p4065",
+        "p4081",
+        "p1081",
+        "p984"
       ]
     },
     {
-      "id": "d157",
-      "series": "Friends",
+      "id": "S9-NEW-04",
       "season": "Season 9",
-      "title": "旅行の準備",
-      "category": "日常",
+      "title": "言い過ぎたケンカの後で仲直りする",
+      "category": "友人",
       "lines": [
         [
           "A",
-          "Why are you just sitting there like a lump?",
-          "なんでぼーっと座ってるだけなん？"
+          "I know I took it too far yesterday.",
+          "昨日はさすがにやりすぎた。"
         ],
         [
           "B",
-          "I packed already.",
-          "もう荷造りしたよ。"
+          "You didn't just argue. You lashed out at me.",
+          "言い合いどころちゃうで。私に当たり散らしたやん。"
         ],
         [
           "A",
-          "We leave in twenty minutes. Look alive!",
-          "あと20分で出るんやで。しゃきっとして！"
+          "I was angry and took it out on you.",
+          "イライラしてて、あんたに八つ当たりした。"
         ],
         [
           "B",
-          "Relax. I’m ready.",
-          "落ち着いて。準備できてる。"
+          "You also picked a fight over nothing.",
+          "しかもしょうもないことでケンカふっかけてきたし。"
         ],
         [
           "A",
-          "Your passport is still on the table.",
-          "パスポート、まだテーブルの上にあるけど。"
+          "I know. I can dish it out, but I shouldn't rub your face in your mistakes.",
+          "分かってる。言う時は言うけど、失敗をわざわざ突きつけるべきちゃうかった。"
         ],
         [
           "B",
-          "Good catch.",
-          "よく気づいたな。"
+          "Okay. No hard feelings.",
+          "分かった。もう根には持たへん。"
         ],
         [
           "A",
-          "And your hair dryer, three jackets, and six pairs of shoes, to name a few.",
-          "ほかにもドライヤー、ジャケット3着、靴6足とか、挙げたらきりがない。"
-        ],
-        [
-          "B",
-          "I like having options.",
-          "選択肢が多い方が好きやねん。"
-        ],
-        [
-          "A",
-          "We’re going for two nights.",
-          "2泊するだけやで。"
-        ],
-        [
-          "B",
-          "You need to make peace with the fact that I overpack.",
-          "私が荷物を持ちすぎる人やって、もう受け入れて。"
-        ],
-        [
-          "A",
-          "Apparently I do.",
-          "どうやらそうするしかなさそうやな。"
+          "Thanks. I'm trying to make peace with the whole thing.",
+          "ありがとう。この件は自分の中でも受け入れようとしてる。"
         ]
       ],
       "phraseLinks": [
-        "p1002",
-        "p1013",
+        "p1088",
+        "p1075",
+        "p4071",
+        "p4058",
+        "p1041",
+        "p1042",
+        "p1004",
         "p1010"
       ]
     },
     {
-      "id": "d158",
-      "series": "Friends",
+      "id": "S9-NEW-05",
       "season": "Season 9",
-      "title": "同僚との境界線",
-      "category": "人間関係",
+      "title": "未経験の仕事に挑戦するか相談する",
+      "category": "仕事",
       "lines": [
         [
           "A",
-          "I don’t mean to pry, but why were you arguing with Ben?",
-          "詮索するつもりはないけど、なんでベンと口論してたん？"
+          "You're on the cusp of a big career change.",
+          "もう大きなキャリア変更の一歩手前やな。"
         ],
         [
           "B",
-          "It’s personal.",
-          "個人的なことやねん。"
+          "Yeah, but I'd have to start at the bottom.",
+          "うん。でも一番下からやり直しやで。"
         ],
         [
           "A",
-          "Okay. I’ll back off.",
-          "わかった。これ以上は聞かへん。"
+          "Better than putting your life on hold forever.",
+          "ずっと人生止めとくよりええやん。"
         ],
         [
           "B",
-          "Thanks. I’m just not ready to talk about it.",
-          "ありがとう。まだ話す気になれなくて。"
+          "True. The world is my oyster, apparently.",
+          "まあな。「可能性は何でもある」らしいし。"
         ],
         [
           "A",
-          "Of course. You’re entitled to keep it private.",
-          "もちろん。話さずにおく権利はあるよ。"
+          "You could moonlight as a designer first.",
+          "最初は副業でデザイナーやってみてもいいやん。"
         ],
         [
           "B",
-          "I appreciate that.",
-          "そう言ってくれて助かる。"
+          "And see if I can rise to the occasion?",
+          "いざって時にちゃんとやれるか試すってこと？"
         ],
         [
           "A",
-          "I was only worried because you seemed upset.",
-          "つらそうに見えたから、心配しただけやねん。"
-        ],
-        [
-          "B",
-          "I know.",
-          "わかってる。"
-        ],
-        [
-          "A",
-          "If you need anything, let me know.",
-          "何か必要なら言って。"
-        ],
-        [
-          "B",
-          "I will. And thanks for not pushing.",
-          "そうする。無理に聞かんといてくれてありがとう。"
-        ],
-        [
-          "A",
-          "Anytime.",
-          "いつでも。"
+          "Exactly. Your work is rough around the edges now, but you'll grow into it.",
+          "そう。今はまだ粗いけど、やってるうちに板についてくるって。"
         ]
       ],
       "phraseLinks": [
-        "p1072",
-        "p1023",
+        "p1033",
+        "p4090",
+        "p1047",
+        "p4062",
+        "p1036",
+        "p4070",
+        "p1028",
+        "p1009"
+      ]
+    },
+    {
+      "id": "S9-NEW-06",
+      "season": "Season 9",
+      "title": "自分の信念を曲げるか仕事で悩む",
+      "category": "仕事",
+      "lines": [
+        [
+          "A",
+          "You feel pretty strongly about this campaign, don't you?",
+          "このキャンペーン、かなり思い入れあるんやろ？"
+        ],
+        [
+          "B",
+          "Yeah. I want to be true to what I believe in.",
+          "うん。自分の信念には正直でいたい。"
+        ],
+        [
+          "A",
+          "Then don't sell out just because the client is pushing.",
+          "じゃあクライアントに押されたからって信念売らんとき。"
+        ],
+        [
+          "B",
+          "I also don't want the company to lose face.",
+          "でも会社の面子潰したくもない。"
+        ],
+        [
+          "A",
+          "No need to make a big stink about it. Know your audience.",
+          "大騒ぎする必要はないって。相手見て話し方変えたらいい。"
+        ],
+        [
+          "B",
+          "I guess the way I say it counts for something.",
+          "言い方もそれなりに大事ってことやな。"
+        ],
+        [
+          "A",
+          "Exactly. You're entitled to your opinion without turning it into a fight.",
+          "そう。ケンカにせんでも、自分の意見を持つ権利はある。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1086",
+        "p4107",
+        "p4106",
+        "p4110",
+        "p4105",
+        "p1085",
+        "p4097",
         "p1019"
       ]
     },
     {
-      "id": "d159",
-      "series": "Friends",
+      "id": "S9-NEW-07",
       "season": "Season 9",
-      "title": "会社の建前",
+      "title": "チーム本番前に士気を上げる",
       "category": "仕事",
       "lines": [
         [
           "A",
-          "Management says there won’t be layoffs.",
-          "経営陣は人員削減はないって言ってる。"
+          "Look alive, everyone. We go on in ten minutes.",
+          "しゃきっとして。あと10分で本番やで。"
         ],
         [
           "B",
-          "Do you believe them?",
-          "信じてる？"
+          "Need me to pitch in anywhere?",
+          "どっか手伝う？"
         ],
         [
           "A",
-          "That’s the official party line.",
-          "それが会社の公式見解やから。"
+          "Yeah. You're basically the glue that holds this team together.",
+          "うん。あんた、このチームまとめてる存在やし。"
         ],
         [
           "B",
-          "So, no.",
-          "つまり、信じてないんやな。"
+          "That's a lot of pressure.",
+          "プレッシャーえぐいな。"
         ],
         [
           "A",
-          "Sales took a hit again this month.",
-          "今月も売上が打撃を受けた。"
+          "My timing notes were right on the money, though.",
+          "でもタイミングのメモ、ぴったり当たってたやろ。"
         ],
         [
           "B",
-          "Are you inclined to start job hunting?",
-          "転職活動を始めようかなって思ってる？"
+          "Dead on.",
+          "完全にその通り。"
         ],
         [
           "A",
-          "A little.",
-          "少しね。"
+          "This rehearsal is a testament to how much everyone's improved.",
+          "このリハ、みんながどれだけ伸びたかの証拠やな。"
         ],
         [
           "B",
-          "I don’t blame you.",
-          "無理もないよ。"
+          "Fine. Give me the pep talk.",
+          "分かった。最後に一発励まして。"
         ],
         [
           "A",
-          "The company keeps playing fast and loose with the numbers.",
-          "会社は数字をずっといい加減に扱ってるし。"
-        ],
-        [
-          "B",
-          "That’s reassuring.",
-          "それは安心やな。"
-        ],
-        [
-          "A",
-          "Exactly.",
-          "やろ。"
+          "Bring it on. We've got this.",
+          "かかってこい。いけるで。"
         ]
       ],
       "phraseLinks": [
-        "p1061",
-        "p1057",
-        "p1059",
-        "p1073"
-      ]
-    },
-    {
-      "id": "d160",
-      "series": "Friends",
-      "season": "Season 9",
-      "title": "友達に言いすぎた",
-      "category": "人間関係",
-      "lines": [
-        [
-          "A",
-          "I think I really upset Maya yesterday.",
-          "昨日、マヤをかなり怒らせたと思う。"
-        ],
-        [
-          "B",
-          "What did you say?",
-          "何て言ったん？"
-        ],
-        [
-          "A",
-          "I rubbed her face in the fact that I got promoted first.",
-          "私の方が先に昇進したってことを、これ見よがしに言ってしまった。"
-        ],
-        [
-          "B",
-          "Ouch.",
-          "それはきついな。"
-        ],
-        [
-          "A",
-          "She got all huffy and left.",
-          "彼女、むっとして帰ってしまった。"
-        ],
-        [
-          "B",
-          "To be fair, you can dish it out sometimes.",
-          "正直、あなたも時々ずけずけ言うからな。"
-        ],
-        [
-          "A",
-          "I know. It’s not my place to tell her how to run her career.",
-          "わかってる。彼女のキャリアに口出しする立場ちゃうのに。"
-        ],
-        [
-          "B",
-          "Exactly.",
-          "その通り。"
-        ],
-        [
-          "A",
-          "Should I apologize?",
-          "謝った方がいい？"
-        ],
-        [
-          "B",
-          "Definitely. Just don’t take it too far with some huge dramatic gesture.",
-          "絶対に。でも大げさな演出までして、やりすぎんようにな。"
-        ],
-        [
-          "A",
-          "A normal apology. Got it.",
-          "普通に謝る。了解。"
-        ]
-      ],
-      "phraseLinks": [
-        "p1042",
-        "p1053",
-        "p1041",
-        "p1046",
-        "p1088"
-      ]
-    },
-    {
-      "id": "d161",
-      "series": "Friends",
-      "season": "Season 9",
-      "title": "チームの空気が悪い",
-      "category": "人間関係",
-      "lines": [
-        [
-          "A",
-          "Everyone’s blaming everyone else for the mistake.",
-          "みんながミスをお互いのせいにしてる。"
-        ],
-        [
-          "B",
-          "We can’t turn on each other now.",
-          "今、仲間割れしてる場合ちゃう。"
-        ],
-        [
-          "A",
-          "I agree. Let’s put the argument aside until we know what happened.",
-          "同感。何が起きたかわかるまで、言い争いは脇に置こう。"
-        ],
-        [
-          "B",
-          "Good idea.",
-          "そうしよう。"
-        ],
-        [
-          "A",
-          "The client is already skittish about the delay.",
-          "クライアントはもう遅れに神経質になってる。"
-        ],
-        [
-          "B",
-          "And the odds are against us getting another extension.",
-          "しかも、もう一度期限を延ばしてもらえる見込みは薄い。"
-        ],
-        [
-          "A",
-          "Then we need everyone focused.",
-          "じゃあ、全員が集中しないと。"
-        ],
-        [
-          "B",
-          "I’ll step up and talk to the client.",
-          "私が引き受けて、クライアントと話すよ。"
-        ],
-        [
-          "A",
-          "Are you sure you’re up for it?",
-          "ほんまにやれる？"
-        ],
-        [
-          "B",
-          "Absolutely.",
-          "もちろん。"
-        ],
-        [
-          "A",
-          "All right. Let’s fix this.",
-          "よし。立て直そう。"
-        ]
-      ],
-      "phraseLinks": [
-        "p987",
-        "p982",
-        "p1063",
-        "p1066",
-        "p1039"
-      ]
-    },
-    {
-      "id": "d162",
-      "series": "Friends",
-      "season": "Season 9",
-      "title": "久しぶりに遊びに行く",
-      "category": "日常",
-      "lines": [
-        [
-          "A",
-          "We haven’t gone out together in months.",
-          "何か月も一緒に遊びに行ってないな。"
-        ],
-        [
-          "B",
-          "I know. Tonight we should paint the town red.",
-          "ほんまや。今夜は派手に遊ぼう。"
-        ],
-        [
-          "A",
-          "That sounds dangerous.",
-          "危険な響きやな。"
-        ],
-        [
-          "B",
-          "Bring it on!",
-          "望むところ！"
-        ],
-        [
-          "A",
-          "I have work at eight tomorrow.",
-          "明日は8時から仕事やで。"
-        ],
-        [
-          "B",
-          "Fine. We’ll be responsible.",
-          "わかった。節度を持って遊ぼう。"
-        ],
-        [
-          "A",
-          "Your definition of responsible is pretty lukewarm.",
-          "そっちの言う『節度』は、かなり頼りないけどな。"
-        ],
-        [
-          "B",
-          "Hey, I can behave.",
-          "失礼やな、ちゃんとできるって。"
-        ],
-        [
-          "A",
-          "You always show your true colors after the second drink.",
-          "2杯目を飲んだら、いつも本性が出るやん。"
-        ],
-        [
-          "B",
-          "Wow. No hard feelings, but that was rude.",
-          "うわ。悪く思わんといてほしいけど、今のは失礼やで。"
-        ],
-        [
-          "A",
-          "And accurate.",
-          "でも当たってる。"
-        ]
-      ],
-      "phraseLinks": [
-        "p1001",
-        "p1012",
-        "p980",
-        "p1007",
-        "p1004"
-      ]
-    },
-    {
-      "id": "d163",
-      "series": "Friends",
-      "season": "Season 9",
-      "title": "副業を始める",
-      "category": "日常",
-      "lines": [
-        [
-          "A",
-          "I’m thinking about moonlighting as a photographer.",
-          "副業で写真家をしようかなって思ってる。"
-        ],
-        [
-          "B",
-          "Really? Since when?",
-          "ほんまに？いつから？"
-        ],
-        [
-          "A",
-          "A friend asked me to shoot his wedding.",
-          "友達に結婚式の撮影を頼まれて。"
-        ],
-        [
-          "B",
-          "That could be a good way to make money off your hobby.",
-          "趣味を生かして稼ぐいい方法かもな。"
-        ],
-        [
-          "A",
-          "Exactly. I just need to lay the groundwork for it first.",
-          "そうやねん。まずはそのための土台を作らないと。"
-        ],
-        [
-          "B",
-          "Website, portfolio, social media?",
-          "ウェブサイト、作品集、SNSとか？"
-        ],
-        [
-          "A",
-          "Those, to name a few.",
-          "まあ、いくつか挙げるならその辺やな。"
-        ],
-        [
-          "B",
-          "You’ve already thought this through.",
-          "もうちゃんと考えてるやん。"
-        ],
-        [
-          "A",
-          "Sort of.",
-          "一応ね。"
-        ],
-        [
-          "B",
-          "Then stop dawdling and do it.",
-          "じゃあ、ぐずぐずしてないで始めなよ。"
-        ],
-        [
-          "A",
-          "Bossy, but fair.",
-          "偉そうやけど、正論やな。"
-        ]
-      ],
-      "phraseLinks": [
-        "p1036",
-        "p1048",
-        "p1013"
-      ]
-    },
-    {
-      "id": "d164",
-      "series": "Friends",
-      "season": "Season 9",
-      "title": "みんなでプレゼント",
-      "category": "日常",
-      "lines": [
-        [
-          "A",
-          "We should get Nina something nice for her birthday.",
-          "ニーナの誕生日に、何かいいものをあげよう。"
-        ],
-        [
-          "B",
-          "Agreed. Let’s pool our money.",
-          "賛成。みんなでお金を出し合おう。"
-        ],
-        [
-          "A",
-          "I can pitch in fifty dollars.",
-          "私は50ドル出せるよ。"
-        ],
-        [
-          "B",
-          "Same. What should we buy?",
-          "私も。何を買う？"
-        ],
-        [
-          "A",
-          "She mentioned a watch.",
-          "腕時計が欲しいって言ってた。"
-        ],
-        [
-          "B",
-          "A good one?",
-          "いいやつ？"
-        ],
-        [
-          "A",
-          "Top-notch. Which means expensive.",
-          "最高級の。つまり高いやつ。"
-        ],
-        [
-          "B",
-          "Well, she means the world to all of us.",
-          "まあ、ニーナはみんなにとって本当に大切な人やし。"
-        ],
-        [
-          "A",
-          "True, but let’s not piss the money away on some ridiculous designer brand.",
-          "そうやけど、ばかみたいに高いブランドにお金を無駄遣いするのはやめよう。"
-        ],
-        [
-          "B",
-          "Practical and sentimental.",
-          "実用的で、気持ちもこもったものにしよう。"
-        ],
-        [
-          "A",
-          "Exactly.",
-          "そういうこと。"
-        ]
-      ],
-      "phraseLinks": [
-        "p1067",
-        "p1005",
-        "p1069"
-      ]
-    },
-    {
-      "id": "d165",
-      "series": "Friends",
-      "season": "Season 9",
-      "title": "詮索しすぎ",
-      "category": "人間関係",
-      "lines": [
-        [
-          "A",
-          "Why didn’t you lead with the fact that Emma already apologized?",
-          "エマがもう謝ったってこと、なんで最初に言わへんかったん？"
-        ],
-        [
-          "B",
-          "Because I was telling the story in order.",
-          "話を順番どおりにしてたから。"
-        ],
-        [
-          "A",
-          "I spent ten minutes thinking she hated you.",
-          "10分間、彼女があなたを嫌ってると思い込んでた。"
-        ],
-        [
-          "B",
-          "You read too much into everything.",
-          "何でも深読みしすぎやねん。"
-        ],
-        [
-          "A",
-          "Maybe.",
-          "そうかも。"
-        ],
-        [
-          "B",
-          "And you always lash out at people before you know the whole story.",
-          "それに、事情が全部わかる前にいつも人に食ってかかるやん。"
-        ],
-        [
-          "A",
-          "That’s not fair.",
-          "それは言いすぎやろ。"
-        ],
-        [
-          "B",
-          "It’s pretty dead on, actually.",
-          "いや、かなり的を射てると思うけど。"
-        ],
-        [
-          "A",
-          "Wow.",
-          "うわ。"
-        ],
-        [
-          "B",
-          "Know your audience. You asked me for an honest opinion.",
-          "相手を見て言わな。正直な意見を聞いたのはそっちやで。"
-        ],
-        [
-          "A",
-          "I’m starting to regret that.",
-          "聞いたことを後悔し始めてる。"
-        ]
-      ],
-      "phraseLinks": [
-        "p1080",
-        "p1090",
-        "p1075",
-        "p1020",
-        "p1085"
-      ]
-    },
-    {
-      "id": "d166",
-      "series": "Friends",
-      "season": "Season 9",
-      "title": "面接前",
-      "category": "仕事",
-      "lines": [
-        [
-          "A",
-          "How nervous are you?",
-          "どれくらい緊張してる？"
-        ],
-        [
-          "B",
-          "Very. But I’m trying to tune it out.",
-          "かなり。でも気にしないようにしてる。"
-        ],
-        [
-          "A",
-          "Your résumé is strong.",
-          "履歴書の内容はしっかりしてるよ。"
-        ],
-        [
-          "B",
-          "I hope so. This job would mean the world to me.",
-          "そうやといいけど。この仕事に就けたら、私にとって本当に大きいねん。"
-        ],
-        [
-          "A",
-          "Your experience is right on the money for what they want.",
-          "あなたの経験は、先方が求めてるものにぴったりやで。"
-        ],
-        [
-          "B",
-          "You really think so?",
-          "ほんまにそう思う？"
-        ],
-        [
-          "A",
-          "Absolutely. And if they ask about the gap year, don’t get defensive.",
-          "もちろん。それと空白の1年を聞かれても、身構えんようにな。"
-        ],
-        [
-          "B",
-          "I know.",
-          "わかってる。"
-        ],
-        [
-          "A",
-          "Just explain it honestly. There’s nothing to be ashamed of.",
-          "正直に説明すればいい。恥ずかしがるようなことじゃないよ。"
-        ],
-        [
-          "B",
-          "Thanks. I needed that.",
-          "ありがとう。そう言ってもらいたかった。"
-        ],
-        [
-          "A",
-          "Now go get the job.",
-          "ほら、仕事を勝ち取ってきて。"
-        ]
-      ],
-      "phraseLinks": [
-        "p1082",
-        "p1005",
+        "p4067",
+        "p4054",
         "p1017",
-        "p978"
+        "p1020",
+        "p4068",
+        "p4076",
+        "p1012",
+        "p1002"
       ]
     },
     {
-      "id": "d167",
-      "series": "Friends",
+      "id": "S9-NEW-08",
       "season": "Season 9",
-      "title": "雑音の多い職場",
+      "title": "久しぶりの友人と関係を戻す",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "Wow, this is a blast from the past.",
+          "うわ、めっちゃ懐かしいな。"
+        ],
+        [
+          "B",
+          "We go way back.",
+          "ほんま長い付き合いやもんな。"
+        ],
+        [
+          "A",
+          "Even though we had a falling out for a while.",
+          "途中しばらく絶交みたいになってたけど。"
+        ],
+        [
+          "B",
+          "Maybe it's time to start things up again.",
+          "そろそろまた普通に戻ってもいいかもな。"
+        ],
+        [
+          "A",
+          "Catch me up on what I've missed.",
+          "離れてた間のこと教えて。"
+        ],
+        [
+          "B",
+          "I will. But first, can I make a special request?",
+          "いいよ。でもその前に、ちょっとお願いしていい？"
+        ],
+        [
+          "A",
+          "Depends. It's a lot to ask if you want me to apologize first.",
+          "内容による。先に私が謝れっていうなら結構大きなお願いやで。"
+        ],
+        [
+          "B",
+          "No. I just wanted you to know you still mean the world to me.",
+          "ちゃう。ただ、今でもあんたは私にとってめっちゃ大事やって言いたかった。"
+        ]
+      ],
+      "phraseLinks": [
+        "p4111",
+        "p4055",
+        "p4056",
+        "p4052",
+        "p1031",
+        "p4063",
+        "p4057",
+        "p1005"
+      ]
+    },
+    {
+      "id": "S9-NEW-09",
+      "season": "Season 9",
+      "title": "友人の恋愛問題にどこまで口を出すか迷う",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "I don't mean to pry, but are you two okay?",
+          "詮索するつもりちゃうけど、二人大丈夫なん？"
+        ],
+        [
+          "B",
+          "Honestly, I'd rather you mind your own business.",
+          "正直、そこは放っといてほしい。"
+        ],
+        [
+          "A",
+          "Fair. It's not my place to tell you what to do.",
+          "分かった。私がどうこう言う立場ちゃうしな。"
+        ],
+        [
+          "B",
+          "Exactly. Some things are off limits.",
+          "そういうこと。踏み込まんといてほしい話もある。"
+        ],
+        [
+          "A",
+          "If anyone else asks, I can run interference.",
+          "ほかの人に聞かれたら、私がうまくかわしとくで。"
+        ],
+        [
+          "B",
+          "Thanks. I'm not ruling out talking later.",
+          "ありがとう。あとで話す可能性まで否定してるわけちゃう。"
+        ],
+        [
+          "A",
+          "Then hear me out when you're ready.",
+          "その時は私の話も聞いてな。"
+        ],
+        [
+          "B",
+          "I will. I just need to think it through first.",
+          "聞く。まず自分でちゃんと考えたい。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1072",
+        "p4091",
+        "p1046",
+        "p4082",
+        "p4083",
+        "p1043",
+        "p4074",
+        "p4077"
+      ]
+    },
+    {
+      "id": "S9-NEW-10",
+      "season": "Season 9",
+      "title": "旅行トラブルでも予定を楽しむ",
+      "category": "旅行",
+      "lines": [
+        [
+          "A",
+          "Score! They upgraded our room.",
+          "やった！ 部屋アップグレードされた。"
+        ],
+        [
+          "B",
+          "Nice. This hotel is top-notch.",
+          "ええやん。このホテルかなり上等やな。"
+        ],
+        [
+          "A",
+          "Let's paint the town red tonight.",
+          "今夜は派手に遊ぼ。"
+        ],
+        [
+          "B",
+          "Sure. We can go to town on dinner too.",
+          "いいね。晩ごはんも思いっきりいこ。"
+        ],
+        [
+          "A",
+          "Isn't that a bit of a stretch after missing our train?",
+          "電車逃した後にそこまでやるの、ちょっと無理あるんちゃう？"
+        ],
+        [
+          "B",
+          "Shoot, I forgot about the extra taxi fare.",
+          "しまった、追加のタクシー代忘れてた。"
+        ],
+        [
+          "A",
+          "We already blew past our budget.",
+          "もう予算かなりオーバーしてるで。"
+        ],
+        [
+          "B",
+          "Then let's make the best of a bad situation and enjoy the free upgrade.",
+          "じゃあ悪い状況なりに楽しんで、無料アップグレード満喫しよ。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1018",
+        "p1001",
+        "p979",
+        "p3347",
+        "p998",
+        "p1092",
+        "p1078",
+        "p4112"
+      ]
+    },
+    {
+      "id": "S9-NEW-11",
+      "season": "Season 9",
+      "title": "疲れ切った友人に休むよう勧める",
+      "category": "相談",
+      "lines": [
+        [
+          "A",
+          "You were out cold on the couch again.",
+          "またソファで完全に寝落ちしてたで。"
+        ],
+        [
+          "B",
+          "I know. I just tune everything out when I'm this tired.",
+          "分かってる。ここまで疲れると全部シャットアウトしてまう。"
+        ],
+        [
+          "A",
+          "You usually have a high threshold for stress.",
+          "普段ストレスにはかなり強いのにな。"
+        ],
+        [
+          "B",
+          "This client is unbelievably high-maintenance.",
+          "今回のクライアント、信じられんくらい手ぇかかる。"
+        ],
+        [
+          "A",
+          "More often than not, you still manage.",
+          "でも大抵はなんとかしてるやん。"
+        ],
+        [
+          "B",
+          "Yeah, but nothing is worth this.",
+          "うん。でもここまでしてやる価値ないわ。"
+        ],
+        [
+          "A",
+          "Then act your age and stop answering client emails at two in the morning.",
+          "じゃあいい大人なんやから、夜中2時にクライアントのメール返すのやめ。"
+        ],
+        [
+          "B",
+          "Fine. Third time's the charm. I'll take tomorrow off.",
+          "分かった。三度目の正直や。明日は休む。"
+        ]
+      ],
+      "phraseLinks": [
+        "p1087",
+        "p1082",
+        "p1040",
+        "p4084",
+        "p1037",
+        "p1054",
+        "p4072",
+        "p1038"
+      ]
+    },
+    {
+      "id": "S9-NEW-12",
+      "season": "Season 9",
+      "title": "人のうわさを鵜呑みにしないよう話す",
+      "category": "雑談",
+      "lines": [
+        [
+          "A",
+          "Does Taylor strike you as dishonest?",
+          "テイラーって不誠実そうに見える？"
+        ],
+        [
+          "B",
+          "Not really. Don't believe everything you hear.",
+          "別に。聞いた話全部信じん方がいいで。"
+        ],
+        [
+          "A",
+          "But what if they're finally showing their true colors?",
+          "でも本性出てきたんやったら？"
+        ],
+        [
+          "B",
+          "I can usually see right through people, and I don't get that feeling.",
+          "私、人のごまかし結構見抜くけど、今回はそう感じへん。"
+        ],
+        [
+          "A",
+          "There's a thin line between trusting someone and being naive.",
+          "人を信じるのと、ただのお人よしは紙一重やで。"
+        ],
+        [
+          "B",
+          "Call it what you want.",
+          "好きに呼べばいいやん。"
+        ],
+        [
+          "A",
+          "I'm just floating the idea that we should be careful.",
+          "気をつけた方がいいんちゃう、って提案してるだけ。"
+        ],
+        [
+          "B",
+          "Fine. I'm inclined to give them a chance.",
+          "分かった。でも私はチャンスあげたいかな。"
+        ]
+      ],
+      "phraseLinks": [
+        "p997",
+        "p1007",
+        "p4061",
+        "p4059",
+        "p4085",
+        "p994",
+        "p4113",
+        "p1059"
+      ]
+    },
+    {
+      "id": "S9-NEW-13",
+      "season": "Season 9",
+      "title": "試合で失敗した友人を励ます",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "Rough game?",
+          "しんどい試合やった？"
+        ],
+        [
+          "B",
+          "Yeah. I struck out twice and the team took a hit because of me.",
+          "うん。2回三振したし、私のせいでチームにも痛手出た。"
+        ],
+        [
+          "A",
+          "You had an off night. That's all.",
+          "今日は調子悪かっただけやって。"
+        ],
+        [
+          "B",
+          "I stink at handling this kind of pressure.",
+          "こういうプレッシャー対処するのほんま下手やわ。"
+        ],
+        [
+          "A",
+          "Don't lose faith in yourself over one game.",
+          "一試合だけで自信なくさんとき。"
+        ],
+        [
+          "B",
+          "I know. I just need to get past it before tomorrow.",
+          "分かってる。明日までには切り替えたい。"
+        ]
+      ],
+      "phraseLinks": [
+        "p4087",
+        "p1057",
+        "p4060",
+        "p1016",
+        "p4094",
+        "p988"
+      ]
+    },
+    {
+      "id": "S9-NEW-14",
+      "season": "Season 9",
+      "title": "友人同士の争いを止める",
+      "category": "友人",
+      "lines": [
+        [
+          "A",
+          "You're not getting away that easily after starting this mess.",
+          "こんな騒ぎ始めといて、簡単に逃げられると思わんといて。"
+        ],
+        [
+          "B",
+          "Fine, but I'm not letting you take me down with you either.",
+          "分かった。でも私まで道連れにされる気ないで。"
+        ],
+        [
+          "A",
+          "You're going about this the wrong way.",
+          "そのやり方が間違ってるって。"
+        ],
+        [
+          "B",
+          "I draw the line at blaming me for everything.",
+          "全部私のせいにされるのはさすがに許されへん。"
+        ],
+        [
+          "A",
+          "What good could come from us fighting like this?",
+          "こんなふうにケンカして何かいいことある？"
+        ],
+        [
+          "B",
+          "None. If we keep going, we'll just turn on each other.",
+          "ないな。このままやったらお互い敵みたいになるだけや。"
+        ]
+      ],
+      "phraseLinks": [
+        "p4114",
+        "p1089",
+        "p4086",
+        "p4066",
+        "p4069",
+        "p987"
+      ]
+    },
+    {
+      "id": "S9-NEW-15",
+      "season": "Season 9",
+      "title": "転職先の選択肢を整理する",
       "category": "仕事",
       "lines": [
         [
           "A",
-          "How do you concentrate in here?",
-          "ここでどうやって集中してるん？"
+          "The job market looks like slim pickings right now.",
+          "今の求人、あんまり選択肢ないな。"
         ],
         [
           "B",
-          "After a while you learn to tune everything out.",
-          "そのうち、全部聞き流せるようになるよ。"
+          "I've applied to retail, admin, and customer support, to name a few.",
+          "販売、事務、カスタマーサポートとか、とりあえず何個か応募した。"
         ],
         [
           "A",
-          "The guy behind us has been complaining for an hour.",
-          "後ろの人、もう1時間ずっと文句言ってるで。"
+          "Without a doubt, you could head up a small team with your experience.",
+          "その経験なら、小さいチームの責任者くらい間違いなくできるで。"
         ],
         [
           "B",
-          "He’s always whiny.",
-          "いつも愚痴っぽいねん。"
+          "Maybe, but I feel weird applying for management after being out of work.",
+          "でも離職してたあとに管理職応募するの、ちょっと気が引ける。"
         ],
         [
           "A",
-          "And the manager keeps staring at his phone instead of helping.",
-          "しかも店長は手伝わずに、ずっとスマホ見てるし。"
+          "I've got news for you: there's nothing to be ashamed of.",
+          "言っとくけど、恥ずかしがることなんか何もないで。"
         ],
         [
           "B",
-          "I know. This place is pretty rough around the edges.",
-          "わかってる。ここはかなり洗練されてへんから。"
-        ],
-        [
-          "A",
-          "Everyone keeps telling me I’ll grow into it.",
-          "みんな、そのうちここに馴染むって言うねん。"
-        ],
-        [
-          "B",
-          "Give it a week.",
-          "1週間様子を見てみて。"
-        ],
-        [
-          "A",
-          "I’m not sure I have a high threshold for this much chaos.",
-          "ここまでの混乱に耐えられるほど、私の許容範囲は広くない気がする。"
-        ],
-        [
-          "B",
-          "You’ll be fine.",
-          "大丈夫やって。"
-        ],
-        [
-          "A",
-          "Ask me again Friday.",
-          "金曜日にもう一回聞いて。"
+          "Fair enough. I'll widen the search tomorrow.",
+          "そやな。明日もうちょい範囲広げて探すわ。"
         ]
       ],
       "phraseLinks": [
-        "p1082",
-        "p1022",
-        "p1028",
-        "p1009",
-        "p1040"
+        "p4089",
+        "p1013",
+        "p4064",
+        "p4053",
+        "p983",
+        "p978"
       ]
     }
   ]

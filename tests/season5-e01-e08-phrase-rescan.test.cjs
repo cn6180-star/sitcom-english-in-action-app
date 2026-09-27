@@ -20,7 +20,7 @@ const required=['id','phrase','meaning','scene','example1','example2','exampleTr
 assert.equal(phrases.length,3946);
 assert.equal(byId.size,3946,'duplicate Phrase ID');
 assert.equal(Math.max(...phrases.map(record=>+record.id.slice(1))),4116);
-assert.equal(dialogues.length,345);
+assert.equal(dialogues.length,322);
 for(const id of removedIds)assert.ok(!byId.has(id),`${id} REMOVE`);
 for(const id of newIds){
  const record=byId.get(id);assert.ok(record,`${id} NEW`);
@@ -40,15 +40,6 @@ for(const [episode,count] of Object.entries(episodeCounts)){
 assert.equal(ordered.length,78);
 assert.equal(hash(ordered),'4996ef290fac169be73c52f9834e87b0b7b7a9599fd59b5ccd03a92adb89458f','Final Package sourceOrder');
 assert.ok(!byId.has('p503'));assert.equal(byId.get('p3353').meaning,'ふざける');
-const expectedDialogues={
- d68:{links:['p520','p502','p554','p505','p557'].filter(id=>!cleanupDeleted.has(id)),lines:'83a63e91f7826eeeaf1754a09a2d947a839bd37a25a340d2e2b3766bae6ce1bf'},
- d75:{links:['p513','p573','p474','p575','p576'].filter(id=>!cleanupDeleted.has(id)),lines:'fffef65c34bd86f50e650eac44ac37f427552254fa56b4f40a3e5254842dd235'},
- d83:{links:['p608','p595','p579','p588','p543','p578','p619'].filter(id=>!cleanupDeleted.has(id)),lines:'33403dbe91ae43c1725fef4e55310c49b4be4e4f6de74edde2a77c8ea27acee1'}
-};
-for(const [id,want] of Object.entries(expectedDialogues)){
- const dialogue=dialogues.find(item=>item.id===id);assert.ok(dialogue);
- assert.deepEqual(dialogue.phraseLinks,want.links,`${id} exact links`);
- assert.equal(hash(dialogue.lines),want.lines,`${id} English and Japanese unchanged`);
-}
-assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!byId.has(id))),[],'no dangling Dialogue references');
+for(const id of ['d68','d75','d83'])assert.ok(!dialogues.some(d=>d.id===id),id+' replaced by Notion rebuild');
+assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!require("./helpers/all-production-phrase-ids.cjs").has(id))),[],'no dangling Dialogue references');
 console.log('S5 E01-E08 Final Package: 49 NEW, 1 UPDATE, 34 KEEP, 4 REMOVE; 84 sourceOrder entries PASS');

@@ -4,7 +4,7 @@ const {context:c,rows,phrases,dialogues}=require('../tools/audit-dialogue-highli
 const plain=value=>JSON.parse(JSON.stringify(value)),hash=value=>crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const byId=new Map(dialogues.map(dialogue=>[dialogue.id,dialogue])),phraseById=new Map(phrases.map(phrase=>[phrase.id,phrase]));
 const exclusions=plain(vm.runInContext('DIALOGUE_HIGHLIGHT_EXCLUSIONS',c));
-const exclusionKeys=['d109|p806','d145|p912','d146|p874'];
+const exclusionKeys=[];
 assert.deepEqual(Object.keys(exclusions).sort(),exclusionKeys.sort());
 Object.values(exclusions).forEach(reason=>assert.match(reason,/^SEMANTIC_MISMATCH: .+/));
 
@@ -22,8 +22,8 @@ for(const row of rows){
     if(!intentionalAffix&&(/[A-Za-z]/.test(text[range.start-1]||'')||/[A-Za-z]/.test(text[range.end]||'')))partialTokens.push(`${row.dialogueId}|${row.phraseId}|${range.text}`);
   }
 }
-assert.equal(dialogues.length,345);assert.equal(rows.length,2376);
-assert.deepEqual({auto,explicit,excluded},{auto:2126,explicit:247,excluded:3});
+assert.equal(dialogues.length,334);assert.equal(rows.length,2652);
+assert.deepEqual({auto,explicit,excluded},{auto:2430,explicit:222,excluded:0});
 assert.deepEqual(partialTokens,[],'no production selected range may split a word token');
 Object.keys(exclusions).forEach(key=>assert.ok(rows.some(row=>row.dialogueId+'|'+row.phraseId===key),'no stale exclusion'));
 
@@ -35,14 +35,11 @@ for(const dialogue of dialogues){
   }
 }
 const nonS1=rows.filter(row=>byId.get(row.dialogueId).season!=='Season 1').map(row=>[row.dialogueId,row.phraseId,row.ranges.map(range=>[range.lineIndex,range.start,range.end,range.text,range.source])]);
-assert.equal(nonS1.length,1499);assert.equal(hash(nonS1),'e83787e3361959af33072f1bace8d683e9852dea7ffb10abbf3ac325c7997ecd','non-S1 ranges include the exact Notion S3/S4 rebuild');
+assert.equal(nonS1.length,1775);assert.equal(hash(nonS1),'1a6ffbccc72a09179eba0ac5b2fa2c9f1d546a240733268807a5b25e22faa6aa','non-S1 ranges include the exact Notion S3/S4 rebuild');
 
 const expectedProductionRanges={
   'S4-NEW-16|p439':['be out of','hair'],
-  'd74|p564':['pivot'],
-  'd104|p706':['brat','brats'],
-  'd115|p830':['pull','pulled'],
-  'd153|p994':['called']
+  'S6-NEW-05|p703':['snapped at']
 };
 for(const [key,expected] of Object.entries(expectedProductionRanges)){
   const [dialogueId,phraseId]=key.split('|'),row=rows.find(item=>item.dialogueId===dialogueId&&item.phraseId===phraseId);
@@ -51,7 +48,7 @@ for(const [key,expected] of Object.entries(expectedProductionRanges)){
 }
 
 const hints=plain(vm.runInContext('DIALOGUE_EXPLICIT_MATCH_HINTS',c));
-assert.equal(Object.keys(hints).length,275);assert.equal(Object.values(hints).filter(hint=>hint.overrideMatcher).length,202);
+assert.equal(Object.keys(hints).length,241);assert.equal(Object.values(hints).filter(hint=>hint.overrideMatcher).length,231);
 for(const stale of ['d56|p119','d56|p101','d203|p1289','d6|p102','d6|p95','d8|p43','d54|p55','d54|p126','d54|p118','d53|p65','d21|p174','d14|p177','d15|p192','d17|p202','d17|p250'])assert.ok(!hints[stale]);
 for(const added of ['d182|p1163','d185|p2642','d186|p2432','d190|p433','d198|p1112','d198|p1928','d200|p3088','d201|p2291','d203|p1112','d19|p249','d22|p137','d210|p1903','d15|p802'])assert.ok(hints[added]?.overrideMatcher);
 assert.ok(hints['d208|p2229']?.overrideMatcher);

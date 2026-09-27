@@ -20,7 +20,7 @@ const required=['id','phrase','meaning','scene','example1','example2','exampleTr
 assert.equal(phrases.length,3946);
 assert.equal(byId.size,3946,'duplicate Phrase ID');
 assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4116);
-assert.equal(dialogues.length,345);
+assert.equal(dialogues.length,322);
 assert.ok(newIds.every(id=>seasons[3].phrases.some(p=>p.id===id)),'all 44 NEW records in Season 4');
 for(const id of newIds){const p=byId.get(id);for(const key of required)assert.ok(Object.hasOwn(p,key),`${id}: ${key}`);assert.equal(p.source,'Friends');assert.equal(p.exampleTranslations.length,2);assert.equal(p.priorityText,'★'.repeat(p.priority)+'☆'.repeat(3-p.priority));}
 const accepted=[...existingIds,...newIds].filter(id=>!cleanupDeleted.has(id)).map(id=>byId.get(id));
@@ -39,5 +39,5 @@ for(const [id,sourceOrder] of [['p389',1],['p390',2]]){
  const p=byId.get(id);assert.equal(p.episode,'S04E10');assert.equal(p.sourceOrder,sourceOrder);
  assert.equal(phrases.filter(r=>r.id===id).length,1);assert.equal(phrases.filter(r=>r.episode==='S04E09'&&r.id===id).length,0);
 }
-assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!byId.has(id))),[],'no dangling Dialogue links');
+assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!require("./helpers/all-production-phrase-ids.cjs").has(id))),[],'no dangling Dialogue links');
 console.log('S4 E09-E16 Final Package production integrity passed (44 NEW, 33 KEEP, 2 MOVE; 79 ordered).');
