@@ -20,7 +20,7 @@ const required=['id','phrase','meaning','scene','example1','example2','exampleTr
 assert.equal(phrases.length,3946);
 assert.equal(byId.size,3946,'duplicate Phrase ID');
 assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4116);
-assert.equal(dialogues.length,326);
+assert.equal(dialogues.length,345);
 assert.ok(newIds.every(id=>seasons[3].phrases.some(p=>p.id===id)),'66 NEW IDs in Season 4');
 for(const id of newIds){const p=byId.get(id);for(const field of required)assert.ok(Object.hasOwn(p,field),`${id}: ${field}`);assert.equal(p.source,'Friends');assert.equal(p.exampleTranslations.length,2);assert.equal(p.priorityText,'★'.repeat(p.priority)+'☆'.repeat(3-p.priority));}
 const accepted=[...existingIds,...newIds].filter(id=>!cleanupDeleted.has(id)).map(id=>byId.get(id));
@@ -39,7 +39,7 @@ assert.equal(hash(ordered),'78b5db3168f2cf77e1c8826e62b6beaf86d6886c69ae6152287a
 for(const id of ['p381','p384']){assert.equal(byId.get(id).episode,'S04E07');assert.equal(seasons[3].phrases.filter(p=>p.id===id).length,1);}
 for(const id of ['p350','p356','p359'])assert.ok(!byId.has(id),`${id} removed`);
 const d60=dialogues.find(d=>d.id==='d60');
-assert.deepEqual(d60.phraseLinks,['p423','p398','p381','p390','p355'].filter(id=>!cleanupDeleted.has(id)));
-assert.equal(hash(d60.lines),'7742e2ee734ae6ccbd3aaf3e365abbadb39fa2852926abc41e8cd0874d472177','d60 English/Japanese unchanged');
+assert.equal(d60,undefined,'old S4 Dialogue retired by Notion rebuild');
+assert.ok(dialogues.every(d=>!d.phraseLinks.includes('p356')));
 assert.deepEqual(dialogues.flatMap(d=>d.phraseLinks.filter(id=>!byId.has(id))),[],'no dangling Dialogue links');
 console.log('S4 E01-E08 Final Package production integrity passed (66 NEW, 24 KEEP, 2 MOVE, 3 REMOVE; 92 ordered).');

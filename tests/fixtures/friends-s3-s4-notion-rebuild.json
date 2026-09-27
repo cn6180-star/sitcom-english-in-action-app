@@ -1,0 +1,4711 @@
+{
+  "sources": [
+    "C:\\Users\\akin6\\Downloads\\b8fd3a17-45db-4210-909f-3e94b20fb353_ExportBlock-0f419d4d-6aec-491f-a13a-95f286e1b22c.zip",
+    "C:\\Users\\akin6\\Downloads\\4a505e20-2aca-4424-8997-732963dc5d60_ExportBlock-049e62e8-ccd5-4ea0-a78e-13ad85bc5ebe.zip"
+  ],
+  "seasons": [
+    [
+      {
+        "id": "S3-NEW-01",
+        "season": "Season 3",
+        "title": "気になる相手との関係を見極める",
+        "category": "恋愛",
+        "lines": [
+          [
+            "A",
+            "So, is he actually boyfriend material?",
+            "で、その人ってちゃんと彼氏向きなん？"
+          ],
+          [
+            "B",
+            "I don't know yet. I'm trying to feel him out.",
+            "まだ分からん。どんな人か探ってるところ。"
+          ],
+          [
+            "A",
+            "Did you at least hit it off?",
+            "少なくとも気は合ったん？"
+          ],
+          [
+            "B",
+            "Yeah, but he says he wants to play the field for a while.",
+            "うん。でもしばらくはいろんな人と付き合ってみたいらしい。"
+          ],
+          [
+            "A",
+            "Then don't rush it. There are other fish in the sea.",
+            "じゃあ焦らんでええやん。他にも相手はおるし。"
+          ],
+          [
+            "B",
+            "My friend already offered to set me up on a blind date.",
+            "友達がもうブラインドデート組もうかって言ってきてる。"
+          ],
+          [
+            "A",
+            "Maybe go. If you open up to someone new, you might surprise yourself.",
+            "行ってみたら？ 新しい人に心開いたら、自分でも意外な展開になるかも。"
+          ],
+          [
+            "B",
+            "And if I'm not interested, I just need to let him down easy.",
+            "興味なかったら、傷つけんようにやんわり断ればいいか。"
+          ],
+          [
+            "A",
+            "Exactly. No drama required.",
+            "そうそう。大げさにする必要なし。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3529",
+          "p3502",
+          "p3520",
+          "p3530",
+          "p3261",
+          "p341",
+          "p3507",
+          "p3345"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "boyfriend material",
+            "url": "https://app.notion.com/p/boyfriend-material-3e6acb64a2a681a3aa7dfc68a013df34?pvs=21"
+          },
+          {
+            "headline": "play the field",
+            "url": "https://app.notion.com/p/play-the-field-3e6acb64a2a681d1901fd37f94713834?pvs=21"
+          },
+          {
+            "headline": "other fish in the sea",
+            "url": "https://app.notion.com/p/other-fish-in-the-sea-3e6acb64a2a681fe9a15d0f549c65f8f?pvs=21"
+          },
+          {
+            "headline": "blind date",
+            "url": "https://app.notion.com/p/blind-date-3e6acb64a2a681ed804de412e3092417?pvs=21"
+          },
+          {
+            "headline": "hit it off",
+            "url": "https://app.notion.com/p/hit-it-off-3e6acb64a2a6817790c2e9401e6293dc?pvs=21"
+          },
+          {
+            "headline": "feel someone out",
+            "url": "https://app.notion.com/p/feel-someone-out-3e6acb64a2a6815f805bc59d7928695d?pvs=21"
+          },
+          {
+            "headline": "open up to someone",
+            "url": "https://app.notion.com/p/open-up-to-someone-3e6acb64a2a681b0bcc3e314e5d45dcd?pvs=21"
+          },
+          {
+            "headline": "let someone down easy",
+            "url": "https://app.notion.com/p/let-someone-down-easy-3e6acb64a2a681979614f1d034de36f9?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-02",
+        "season": "Season 3",
+        "title": "急な仕事を引き受けるか相談する",
+        "category": "仕事",
+        "lines": [
+          [
+            "A",
+            "They want the whole report by tomorrow, on short notice.",
+            "急やのに、明日までにレポート全部ほしいって。"
+          ],
+          [
+            "B",
+            "I'd be reluctant to say yes that fast.",
+            "そんな即答で引き受けるのは気が進まんな。"
+          ],
+          [
+            "A",
+            "I know, but the team is in a tough spot.",
+            "分かってる。でもチーム今かなり厳しい状況やねん。"
+          ],
+          [
+            "B",
+            "And you're already up to your elbows in the budget review.",
+            "しかも今、予算見直しで手いっぱいやろ。"
+          ],
+          [
+            "A",
+            "True. I can probably make it work for one day.",
+            "まあな。一日だけなら何とかできるかも。"
+          ],
+          [
+            "B",
+            "Maybe, but in the long run you'll burn out.",
+            "できるかもやけど、長い目で見たら燃え尽きるで。"
+          ],
+          [
+            "A",
+            "So you're saying I shouldn't save their butt again?",
+            "つまり、また助け舟出すのやめとけってこと？"
+          ],
+          [
+            "B",
+            "I'm saying help if you want, but set a limit this time.",
+            "助けたいなら助けてもいい。でも今回は限度決めとき。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3504",
+          "p3503",
+          "p3506",
+          "p3405",
+          "p308",
+          "p3440",
+          "p3382",
+          "p3426"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "on short notice",
+            "url": "https://app.notion.com/p/on-short-notice-3e6acb64a2a6814b973fcce7d77ce6c2?pvs=21"
+          },
+          {
+            "headline": "be reluctant to ~",
+            "url": "https://app.notion.com/p/be-reluctant-to-3e6acb64a2a6816ab115c4c46b786459?pvs=21"
+          },
+          {
+            "headline": "in the long run",
+            "url": "https://app.notion.com/p/in-the-long-run-3e6acb64a2a6817a8733f9fa5885c870?pvs=21"
+          },
+          {
+            "headline": "make it work",
+            "url": "https://app.notion.com/p/make-it-work-3e6acb64a2a68127be9fffbbe1ec233e?pvs=21"
+          },
+          {
+            "headline": "be in a tough spot",
+            "url": "https://app.notion.com/p/be-in-a-tough-spot-3e6acb64a2a681e8b3c3ed0fda0d9391?pvs=21"
+          },
+          {
+            "headline": "up to one's elbows in ~",
+            "url": "https://app.notion.com/p/up-to-one-s-elbows-in-3e6acb64a2a68146b8c3f832216a31fe?pvs=21"
+          },
+          {
+            "headline": "burn out",
+            "url": "https://app.notion.com/p/burn-out-3e6acb64a2a68149b161f85458b8fe03?pvs=21"
+          },
+          {
+            "headline": "save someone's butt",
+            "url": "https://app.notion.com/p/save-someone-s-butt-3e6acb64a2a68147a24bde8972d79d1b?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-03",
+        "season": "Season 3",
+        "title": "友人同士のけんかを仲直りさせる",
+        "category": "友人",
+        "lines": [
+          [
+            "A",
+            "Can you two at least be civil tonight?",
+            "今夜ぐらいはせめて普通に接してくれへん？"
+          ],
+          [
+            "B",
+            "He invited my ex out of spite.",
+            "あいつ、嫌がらせで私の元彼誘ったんやで。"
+          ],
+          [
+            "A",
+            "And you tried to get back at him by canceling his party.",
+            "で、あんたは仕返しにあいつのパーティー潰そうとしたやん。"
+          ],
+          [
+            "B",
+            "Don't put me in the middle. He started it.",
+            "私を板挟みにせんといて。先にやったんはあいつや。"
+          ],
+          [
+            "A",
+            "Both of you need to cool off.",
+            "二人とも一回頭冷やした方がいい。"
+          ],
+          [
+            "B",
+            "Fine. If he apologizes, I'll make up with him.",
+            "分かった。向こうが謝るなら仲直りする。"
+          ],
+          [
+            "A",
+            "He already did.",
+            "もう謝ってたで。"
+          ],
+          [
+            "B",
+            "...Apology accepted. Let's call it even.",
+            "……謝罪は受け入れる。これでおあいこにしよ。"
+          ]
+        ],
+        "phraseLinks": [
+          "p315",
+          "p3453",
+          "p319",
+          "p3430",
+          "p3401",
+          "p3410",
+          "p3403",
+          "p3445"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "be civil",
+            "url": "https://app.notion.com/p/be-civil-3e6acb64a2a6810caefcfa291419ad80?pvs=21"
+          },
+          {
+            "headline": "out of spite",
+            "url": "https://app.notion.com/p/out-of-spite-3e6acb64a2a6810e84e5fe0d214750ad?pvs=21"
+          },
+          {
+            "headline": "get back at someone",
+            "url": "https://app.notion.com/p/get-back-at-someone-3e6acb64a2a68118b6b8eaa40b8972ef?pvs=21"
+          },
+          {
+            "headline": "put someone in the middle",
+            "url": "https://app.notion.com/p/put-someone-in-the-middle-3e6acb64a2a68107b714f16376b9bc96?pvs=21"
+          },
+          {
+            "headline": "cool off",
+            "url": "https://app.notion.com/p/cool-off-3e6acb64a2a6818cbbb7f3832ee59de7?pvs=21"
+          },
+          {
+            "headline": "make up with someone",
+            "url": "https://app.notion.com/p/make-up-with-someone-3e6acb64a2a681e381eeec4ba7feac94?pvs=21"
+          },
+          {
+            "headline": "Apology accepted.",
+            "url": "https://app.notion.com/p/Apology-accepted-3e6acb64a2a681cbab4bc6e3f727779b?pvs=21"
+          },
+          {
+            "headline": "call it even",
+            "url": "https://app.notion.com/p/call-it-even-3e6acb64a2a6817496fbc5c91faf6d75?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-04",
+        "season": "Season 3",
+        "title": "思い切った挑戦をするか決める",
+        "category": "挑戦",
+        "lines": [
+          [
+            "A",
+            "It takes guts to apply for something that competitive.",
+            "あんな競争激しいやつに応募するの、勇気いるで。"
+          ],
+          [
+            "B",
+            "I know, but it's worth a try.",
+            "分かってる。でも試す価値はある。"
+          ],
+          [
+            "A",
+            "Exactly. You have nothing to lose.",
+            "そう。失うものないやん。"
+          ],
+          [
+            "B",
+            "I just don't want to rush into it and regret it.",
+            "ただ、勢いで飛び込んで後悔したくない。"
+          ],
+          [
+            "A",
+            "Are you having second thoughts already?",
+            "もう迷い始めてるん？"
+          ],
+          [
+            "B",
+            "A little. Maybe I'm just playing the odds.",
+            "ちょっとな。可能性に賭けてるだけかもしれん。"
+          ],
+          [
+            "A",
+            "You have a shot at this. Just don't jump the gun and quit your job yet.",
+            "チャンスはあるって。ただ、早まって今の仕事辞めたりはするなよ。"
+          ],
+          [
+            "B",
+            "Fair enough. Application first, panic later.",
+            "せやな。まず応募、パニックはその後や。"
+          ]
+        ],
+        "phraseLinks": [
+          "p340",
+          "p3508",
+          "p3441",
+          "p333",
+          "p3394",
+          "p3245",
+          "p3230",
+          "p296"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "it takes guts to ~",
+            "url": "https://app.notion.com/p/it-takes-guts-to-3e6acb64a2a6817ea1e7c75c0892cc6b?pvs=21"
+          },
+          {
+            "headline": "worth a try",
+            "url": "https://app.notion.com/p/worth-a-try-3e6acb64a2a681dd8fa1d718f33e8392?pvs=21"
+          },
+          {
+            "headline": "have nothing to lose",
+            "url": "https://app.notion.com/p/have-nothing-to-lose-3e6acb64a2a68141bd57c01e174719c7?pvs=21"
+          },
+          {
+            "headline": "rush into ~",
+            "url": "https://app.notion.com/p/rush-into-3e6acb64a2a6813897d0ebbaacfea874?pvs=21"
+          },
+          {
+            "headline": "have second thoughts",
+            "url": "https://app.notion.com/p/have-second-thoughts-3e6acb64a2a681d68ff9f558817722f3?pvs=21"
+          },
+          {
+            "headline": "play the odds",
+            "url": "https://app.notion.com/p/play-the-odds-3e6acb64a2a68154bc97c449db4cf7b9?pvs=21"
+          },
+          {
+            "headline": "have a shot at ~",
+            "url": "https://app.notion.com/p/have-a-shot-at-3e6acb64a2a681b09cced1723806c1bb?pvs=21"
+          },
+          {
+            "headline": "jump the gun",
+            "url": "https://app.notion.com/p/jump-the-gun-3e6acb64a2a681e0aca1d1e83e8942ca?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-05",
+        "season": "Season 3",
+        "title": "失敗した友人を励まして続けさせる",
+        "category": "相談",
+        "lines": [
+          [
+            "A",
+            "Take it from me, one bad presentation doesn't mean you're bad at this.",
+            "経験者から言わせてもらうけど、プレゼン一回失敗しただけで向いてないってことにはならん。"
+          ],
+          [
+            "B",
+            "It sure felt bad.",
+            "でもほんま最悪やったで。"
+          ],
+          [
+            "A",
+            "Let this be a lesson: rehearse the opening next time.",
+            "今回を教訓にしよ。次は最初の部分を練習しとく。"
+          ],
+          [
+            "B",
+            "I get your point.",
+            "言いたいことは分かる。"
+          ],
+          [
+            "A",
+            "And I'm not trying to make a point just to sound smart.",
+            "別に偉そうに言いたくて言ってるんちゃうで。"
+          ],
+          [
+            "B",
+            "If it's any consolation, the client didn't walk out.",
+            "慰めになるなら、クライアントは途中で帰らんかった。"
+          ],
+          [
+            "A",
+            "Exactly. Keep in mind, they even asked a follow-up question.",
+            "そうやろ。しかも追加質問までしてきたってこと忘れんといて。"
+          ],
+          [
+            "B",
+            "Okay. I'll stick it out.",
+            "分かった。もうちょい続ける。"
+          ],
+          [
+            "A",
+            "That's the spirit.",
+            "その意気や。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3539",
+          "p300",
+          "p3473",
+          "p3442",
+          "p3351",
+          "p3212",
+          "p257",
+          "p3337"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "take it from me",
+            "url": "https://app.notion.com/p/take-it-from-me-3e6acb64a2a6811d923be157834cb687?pvs=21"
+          },
+          {
+            "headline": "Let this be a lesson",
+            "url": "https://app.notion.com/p/Let-this-be-a-lesson-3e6acb64a2a6810e925fdab5a800ced6?pvs=21"
+          },
+          {
+            "headline": "make a point",
+            "url": "https://app.notion.com/p/make-a-point-3e6acb64a2a6814db87af3e06b2dbfd2?pvs=21"
+          },
+          {
+            "headline": "get someone's point",
+            "url": "https://app.notion.com/p/get-someone-s-point-3e6acb64a2a6815b9509dcd8d32c8277?pvs=21"
+          },
+          {
+            "headline": "if it's any consolation",
+            "url": "https://app.notion.com/p/if-it-s-any-consolation-3e6acb64a2a68143a0d7d7295e387caa?pvs=21"
+          },
+          {
+            "headline": "keep in mind",
+            "url": "https://app.notion.com/p/keep-in-mind-3e6acb64a2a68122a9e0e0e8677ca285?pvs=21"
+          },
+          {
+            "headline": "That’s the spirit",
+            "url": "https://app.notion.com/p/That-s-the-spirit-3e6acb64a2a68152b4c9c757193170c1?pvs=21"
+          },
+          {
+            "headline": "stick it out",
+            "url": "https://app.notion.com/p/stick-it-out-3e6acb64a2a68107872cf152acc763d2?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-06",
+        "season": "Season 3",
+        "title": "電話で予定変更と連絡先を確認する",
+        "category": "日常",
+        "lines": [
+          [
+            "A",
+            "Hi, is this a bad time?",
+            "もしもし、今まずかった？"
+          ],
+          [
+            "B",
+            "Not really. Can I ask who's calling?",
+            "大丈夫。どちらさまですか？"
+          ],
+          [
+            "A",
+            "It's Maya from the clinic.",
+            "クリニックのマヤです。"
+          ],
+          [
+            "B",
+            "This is she. What's up?",
+            "私です。どうしました？"
+          ],
+          [
+            "A",
+            "Any sign of Daniel, by any chance?",
+            "ダニエル、ひょっとしてそっちに来てません？"
+          ],
+          [
+            "B",
+            "No. Did he cancel on you again?",
+            "来てないよ。またそっちの予定キャンセルしたん？"
+          ],
+          [
+            "A",
+            "Looks like it. Can you stay on the line while I check one thing?",
+            "みたいやねん。ちょっと確認する間、そのまま待っててもらえる？"
+          ],
+          [
+            "B",
+            "Sure. I have to leave in a bit, though.",
+            "いいよ。ただ、もう少ししたら出ないとあかんけど。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3421",
+          "p3482",
+          "p3186",
+          "p3335",
+          "p3239",
+          "p302",
+          "p345",
+          "p3536"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "Is this a bad time?",
+            "url": "https://app.notion.com/p/Is-this-a-bad-time-3e6acb64a2a68187a49cf98cc9c5b962?pvs=21"
+          },
+          {
+            "headline": "stay on the line",
+            "url": "https://app.notion.com/p/stay-on-the-line-3e6acb64a2a6817a91b2dce9a6dfe3b8?pvs=21"
+          },
+          {
+            "headline": "Can I ask who's calling?",
+            "url": "https://app.notion.com/p/Can-I-ask-who-s-calling-3e6acb64a2a681b2bc57e35bd8c2fc9c?pvs=21"
+          },
+          {
+            "headline": "This is she.",
+            "url": "https://app.notion.com/p/This-is-she-3e6acb64a2a68109a0bed9f6f875dfd4?pvs=21"
+          },
+          {
+            "headline": "Any sign of ~?",
+            "url": "https://app.notion.com/p/Any-sign-of-3e6acb64a2a6814d81b2c9ae19874033?pvs=21"
+          },
+          {
+            "headline": "by any chance",
+            "url": "https://app.notion.com/p/by-any-chance-3e6acb64a2a681f89c84f4d7663493d9?pvs=21"
+          },
+          {
+            "headline": "cancel on ~",
+            "url": "https://app.notion.com/p/cancel-on-3e6acb64a2a681c388bfe3e46dacde18?pvs=21"
+          },
+          {
+            "headline": "in a bit",
+            "url": "https://app.notion.com/p/in-a-bit-3e6acb64a2a681f7ab74fc587acb1b00?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-07",
+        "season": "Season 3",
+        "title": "新しい担当者に仕事を引き継ぐ",
+        "category": "仕事",
+        "lines": [
+          [
+            "A",
+            "Are you on board with having Nina take over the account?",
+            "ニナにこの案件引き継いでもらうので賛成？"
+          ],
+          [
+            "B",
+            "Yeah. Can she sit in on today's call first?",
+            "うん。まず今日の電話会議に同席してもらえる？"
+          ],
+          [
+            "A",
+            "Good idea. After that I'll walk her through the system.",
+            "いいね。そのあとシステムの使い方を順番に説明する。"
+          ],
+          [
+            "B",
+            "And show her how it's done with the weekly report.",
+            "週次レポートのやり方も実際に見せてあげて。"
+          ],
+          [
+            "A",
+            "Then she can pick it up where I left off.",
+            "そしたら私の続きからそのまま引き継げる。"
+          ],
+          [
+            "B",
+            "Perfect. How's it coming with the client notes?",
+            "完璧。クライアントメモの方は進んでる？"
+          ],
+          [
+            "A",
+            "I'm on it. That's a piece of cake compared with the billing mess.",
+            "今やってる。請求のゴタゴタに比べたらあれは楽勝。"
+          ],
+          [
+            "B",
+            "Good. Then we're actually on schedule.",
+            "よし。じゃあ珍しく予定どおりやな。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3369",
+          "p304",
+          "p3360",
+          "p263",
+          "p325",
+          "p3189",
+          "p3407",
+          "p3354"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "sit in on ~",
+            "url": "https://app.notion.com/p/sit-in-on-3e6acb64a2a68104835de13455fdec4b?pvs=21"
+          },
+          {
+            "headline": "be on board with something",
+            "url": "https://app.notion.com/p/be-on-board-with-something-3e6acb64a2a68103ae83f3a33edeb80d?pvs=21"
+          },
+          {
+            "headline": "show someone how it's done",
+            "url": "https://app.notion.com/p/show-someone-how-it-s-done-3e6acb64a2a68189a9b0f2d6ec31057e?pvs=21"
+          },
+          {
+            "headline": "walk someone through something",
+            "url": "https://app.notion.com/p/walk-someone-through-something-3e6acb64a2a68176b20ff9788f2f781a?pvs=21"
+          },
+          {
+            "headline": "pick something up where someone left off",
+            "url": "https://app.notion.com/p/pick-something-up-where-someone-left-off-3e6acb64a2a681cda51ac5c0efc8fa21?pvs=21"
+          },
+          {
+            "headline": "be on it",
+            "url": "https://app.notion.com/p/be-on-it-3e6acb64a2a681479dcfc92a4231902b?pvs=21"
+          },
+          {
+            "headline": "How's it coming?",
+            "url": "https://app.notion.com/p/How-s-it-coming-3e6acb64a2a6815cb792ecd24161dbfa?pvs=21"
+          },
+          {
+            "headline": "a piece of cake",
+            "url": "https://app.notion.com/p/a-piece-of-cake-3e6acb64a2a681d0b163dedfdbe60731?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-08",
+        "season": "Season 3",
+        "title": "イベントの予算と演出を決める",
+        "category": "日常",
+        "lines": [
+          [
+            "A",
+            "I don't want this party to feel run-of-the-mill.",
+            "このパーティー、ありきたりにはしたくないねん。"
+          ],
+          [
+            "B",
+            "Then the photo wall is a nice touch.",
+            "じゃあ写真の壁はいい演出やと思う。"
+          ],
+          [
+            "A",
+            "Agreed, but we can't skimp on the food.",
+            "賛成。でも料理をケチるのはあかん。"
+          ],
+          [
+            "B",
+            "If ticket sales are good, we should at least break even.",
+            "チケット売れたら、少なくともトントンにはなるはず。"
+          ],
+          [
+            "A",
+            "So buffet plus the photo wall is the way to go?",
+            "じゃあビュッフェと写真の壁でいくのが正解？"
+          ],
+          [
+            "B",
+            "Yeah. And after that, go nuts with the decorations.",
+            "うん。あとは飾り付け好きにやったらええ。"
+          ],
+          [
+            "A",
+            "Anything goes?",
+            "何でもあり？"
+          ],
+          [
+            "B",
+            "Pretty much. And to top it off, the DJ offered an extra hour for free.",
+            "ほぼな。しかもさらに、DJが1時間無料で延長してくれるって。"
+          ]
+        ],
+        "phraseLinks": [
+          "p331",
+          "p3221",
+          "p316",
+          "p3205",
+          "p3509",
+          "p3388",
+          "p3514",
+          "p298"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "run-of-the-mill",
+            "url": "https://app.notion.com/p/run-of-the-mill-3e6acb64a2a6817dae89fad418dfd61b?pvs=21"
+          },
+          {
+            "headline": "a nice touch",
+            "url": "https://app.notion.com/p/a-nice-touch-3e6acb64a2a681d08d9bdec65ba2bad1?pvs=21"
+          },
+          {
+            "headline": "skimp on ~",
+            "url": "https://app.notion.com/p/skimp-on-3e6acb64a2a68183a71fe7aa7c8389e5?pvs=21"
+          },
+          {
+            "headline": "break even",
+            "url": "https://app.notion.com/p/break-even-3e6acb64a2a68152adaee55ba529d107?pvs=21"
+          },
+          {
+            "headline": "the way to go",
+            "url": "https://app.notion.com/p/the-way-to-go-3e6acb64a2a681768357ff98c89a6916?pvs=21"
+          },
+          {
+            "headline": "go nuts",
+            "url": "https://app.notion.com/p/go-nuts-3e6acb64a2a681b8885ee3ed934ffc7b?pvs=21"
+          },
+          {
+            "headline": "anything goes",
+            "url": "https://app.notion.com/p/anything-goes-3e6acb64a2a68120b4becb1f24f4cfcb?pvs=21"
+          },
+          {
+            "headline": "to top it off",
+            "url": "https://app.notion.com/p/to-top-it-off-3e6acb64a2a681fbacdcc1f09d139854?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-09",
+        "season": "Season 3",
+        "title": "言いにくいことを友人に伝える",
+        "category": "友人",
+        "lines": [
+          [
+            "A",
+            "How do I say this? You've been a little pushy lately.",
+            "なんて言ったらいいかな。最近ちょっと押し強すぎるで。"
+          ],
+          [
+            "B",
+            "Wow. Okay. Don't judge me.",
+            "うわ。分かった。責めんといてな。"
+          ],
+          [
+            "A",
+            "I'm not judging. I just don't want this to come out wrong.",
+            "責めてない。ただ、変な伝わり方したくないねん。"
+          ],
+          [
+            "B",
+            "Did I upset someone?",
+            "誰か嫌な思いさせた？"
+          ],
+          [
+            "A",
+            "I know you didn't mean anything by it, but you kept answering for me.",
+            "悪気なかったのは分かってる。でもずっと私の代わりに答えてたやん。"
+          ],
+          [
+            "B",
+            "Fair. I didn't realize I was doing that.",
+            "確かに。自分では気づいてなかった。"
+          ],
+          [
+            "A",
+            "I'd appreciate it if you'd let me handle my own conversations.",
+            "自分の会話は自分でさせてもらえると助かる。"
+          ],
+          [
+            "B",
+            "We have an understanding. I'll back off.",
+            "分かった。そこは了解。ちょっと引くわ。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3164",
+          "p3409",
+          "p3292",
+          "p320",
+          "p3281",
+          "p294",
+          "p3188",
+          "p3253"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "How do I say this?",
+            "url": "https://app.notion.com/p/How-do-I-say-this-3e6acb64a2a6810fb04bde49aea00f50?pvs=21"
+          },
+          {
+            "headline": "Don't judge me.",
+            "url": "https://app.notion.com/p/Don-t-judge-me-3e6acb64a2a68165b0b1fa887d7a5b32?pvs=21"
+          },
+          {
+            "headline": "I'm not judging.",
+            "url": "https://app.notion.com/p/I-m-not-judging-3e6acb64a2a6815ea72aef9a42d043ce?pvs=21"
+          },
+          {
+            "headline": "come out wrong",
+            "url": "https://app.notion.com/p/come-out-wrong-3e6acb64a2a68104be32ea91a07a5f9e?pvs=21"
+          },
+          {
+            "headline": "not mean anything by something",
+            "url": "https://app.notion.com/p/not-mean-anything-by-something-3e6acb64a2a6816fbfffc65fe985bae1?pvs=21"
+          },
+          {
+            "headline": "pushy",
+            "url": "https://app.notion.com/p/pushy-3e6acb64a2a68171aa36d85a4a8773ed?pvs=21"
+          },
+          {
+            "headline": "I would appreciate it if ~",
+            "url": "https://app.notion.com/p/I-would-appreciate-it-if-3e6acb64a2a681a99f9ce948d42b222c?pvs=21"
+          },
+          {
+            "headline": "have an understanding",
+            "url": "https://app.notion.com/p/have-an-understanding-3e6acb64a2a681aaacc7e591bd9a8c42?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-10",
+        "season": "Season 3",
+        "title": "久しぶりに会った知人の記憶をたどる",
+        "category": "雑談",
+        "lines": [
+          [
+            "A",
+            "You look familiar. Where do I know you from?",
+            "なんか見覚えある。どこで会ったっけ？"
+          ],
+          [
+            "B",
+            "College, maybe? I was in Maya's study group.",
+            "大学ちゃう？ マヤの勉強会におった。"
+          ],
+          [
+            "A",
+            "Wait, I looked you up online once after she mentioned you.",
+            "あ、マヤが話してたあと、一回ネットで調べたことあるわ。"
+          ],
+          [
+            "B",
+            "That's slightly creepy, but okay.",
+            "それちょっと怖いけど、まあええわ。"
+          ],
+          [
+            "A",
+            "Give me the short version. What have you been doing since then?",
+            "ざっくりでいいから教えて。あれから何してたん？"
+          ],
+          [
+            "B",
+            "From the looks of it, less exciting stuff than you.",
+            "見た感じ、君ほど面白いことはしてないな。"
+          ],
+          [
+            "A",
+            "What's Maya like these days?",
+            "最近マヤってどんな感じ？"
+          ],
+          [
+            "B",
+            "You have no idea. She quit her job and moved overseas.",
+            "びっくりするで。仕事辞めて海外引っ越した。"
+          ],
+          [
+            "A",
+            "That's unlike her.",
+            "あの人らしくないな。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3487",
+          "p3449",
+          "p3526",
+          "p3488",
+          "p3524",
+          "p3391",
+          "p3462",
+          "p3501"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "look familiar",
+            "url": "https://app.notion.com/p/look-familiar-3e6acb64a2a6810aab77c2ea8357bc7c?pvs=21"
+          },
+          {
+            "headline": "Where do I know you from?",
+            "url": "https://app.notion.com/p/Where-do-I-know-you-from-3e6acb64a2a681feb2f5f628dda92166?pvs=21"
+          },
+          {
+            "headline": "look someone up",
+            "url": "https://app.notion.com/p/look-someone-up-3e6acb64a2a681278529f2a55fb2fdae?pvs=21"
+          },
+          {
+            "headline": "the short version",
+            "url": "https://app.notion.com/p/the-short-version-3e6acb64a2a681b19295e7cde8488969?pvs=21"
+          },
+          {
+            "headline": "from the looks of it",
+            "url": "https://app.notion.com/p/from-the-looks-of-it-3e6acb64a2a681c9a22efd42377f5f38?pvs=21"
+          },
+          {
+            "headline": "What's someone like?",
+            "url": "https://app.notion.com/p/What-s-someone-like-3e6acb64a2a681d39967cc4b9cfd0d29?pvs=21"
+          },
+          {
+            "headline": "You have no idea.",
+            "url": "https://app.notion.com/p/You-have-no-idea-3e6acb64a2a681de9012c742edd1bd35?pvs=21"
+          },
+          {
+            "headline": "That's unlike you.",
+            "url": "https://app.notion.com/p/That-s-unlike-you-3e6acb64a2a681ec913bf1e6179964cf?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-11",
+        "season": "Season 3",
+        "title": "マンネリ化した生活から少し休む",
+        "category": "日常",
+        "lines": [
+          [
+            "A",
+            "You're in a rut. Every weekend is just work and errands.",
+            "完全にマンネリやで。毎週末、仕事と用事だけやん。"
+          ],
+          [
+            "B",
+            "I know. I can't take it anymore.",
+            "分かってる。もうこれ以上しんどい。"
+          ],
+          [
+            "A",
+            "Then take a break for a change.",
+            "じゃあたまには休み取り。"
+          ],
+          [
+            "B",
+            "Maybe. I could really use some alone time.",
+            "そうやな。一人でゆっくりする時間ほしいかも。"
+          ],
+          [
+            "A",
+            "Working twelve days straight is pushing it.",
+            "12日連続で働くのはさすがに無理しすぎ。"
+          ],
+          [
+            "B",
+            "Yeah, and this routine is getting old.",
+            "うん。この繰り返しにも飽きてきた。"
+          ],
+          [
+            "A",
+            "It's about time you took a whole weekend off.",
+            "そろそろ週末まるごと休んでもいい頃やで。"
+          ],
+          [
+            "B",
+            "Fine. For once, I'm doing absolutely nothing.",
+            "よし。今回はほんまに何もせん。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3510",
+          "p3316",
+          "p3400",
+          "p3361",
+          "p287",
+          "p3190",
+          "p3495",
+          "p3250"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "in a rut",
+            "url": "https://app.notion.com/p/in-a-rut-3e6acb64a2a6812d82b7f49fd6cda39f?pvs=21"
+          },
+          {
+            "headline": "for a change",
+            "url": "https://app.notion.com/p/for-a-change-3e6acb64a2a6816b837be53d7a8b3d37?pvs=21"
+          },
+          {
+            "headline": "take a break",
+            "url": "https://app.notion.com/p/take-a-break-3e6acb64a2a6812e88a8d4692933aaa9?pvs=21"
+          },
+          {
+            "headline": "alone time",
+            "url": "https://app.notion.com/p/alone-time-3e6acb64a2a68152968dce5f2ed4d202?pvs=21"
+          },
+          {
+            "headline": "can’t take it anymore",
+            "url": "https://app.notion.com/p/can-t-take-it-anymore-3e6acb64a2a681949b8dfa5623307f9e?pvs=21"
+          },
+          {
+            "headline": "be pushing it",
+            "url": "https://app.notion.com/p/be-pushing-it-3e6acb64a2a6813b9378e25e86de6a03?pvs=21"
+          },
+          {
+            "headline": "get old",
+            "url": "https://app.notion.com/p/get-old-3e6acb64a2a6813ca65bed50194f7ff7?pvs=21"
+          },
+          {
+            "headline": "It's about time.",
+            "url": "https://app.notion.com/p/It-s-about-time-3e6acb64a2a681b4a639ff6d51d7ba0d?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-12",
+        "season": "Season 3",
+        "title": "何度言っても家事をしない同居人に注意する",
+        "category": "日常",
+        "lines": [
+          [
+            "A",
+            "This is awkward, but I need to bug you about the dishes again.",
+            "言いにくいねんけど、また皿のこと言わなあかん。"
+          ],
+          [
+            "B",
+            "Is that a problem? I did them yesterday.",
+            "そんな問題？ 昨日はやったやん。"
+          ],
+          [
+            "A",
+            "How hard is it to rinse your plate after you eat?",
+            "食べたあと皿すすぐだけやん。そんな難しい？"
+          ],
+          [
+            "B",
+            "Fine. I'll do it now.",
+            "分かった。今やる。"
+          ],
+          [
+            "A",
+            "And if it's not too much trouble, wipe the counter too.",
+            "できれば、カウンターも拭いといて。"
+          ],
+          [
+            "B",
+            "You know, I do appreciate you doing most of the cleaning.",
+            "まあ、いつも掃除ほとんどやってくれてるのは感謝してる。"
+          ],
+          [
+            "A",
+            "Then stop letting everything I say go in one ear and out the other.",
+            "じゃあ、私が言うこと全部右から左に流すのやめて。"
+          ],
+          [
+            "B",
+            "Fine. But if you're just going to redo it all yourself, don't do me any favors.",
+            "分かった。でも結局全部やり直すつもりなら、そこまでしてくれんでええから。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3198",
+          "p3280",
+          "p3415",
+          "p3320",
+          "p3171",
+          "p3278",
+          "p3271",
+          "p3451"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "This is awkward.",
+            "url": "https://app.notion.com/p/This-is-awkward-3e6acb64a2a68164ae86ec2274479f5e?pvs=21"
+          },
+          {
+            "headline": "bug someone about ~",
+            "url": "https://app.notion.com/p/bug-someone-about-3e6acb64a2a68144ab10fcb1fefa92a4?pvs=21"
+          },
+          {
+            "headline": "How hard is it to ~?",
+            "url": "https://app.notion.com/p/How-hard-is-it-to-3e6acb64a2a6813b8783d66f84187470?pvs=21"
+          },
+          {
+            "headline": "if it's not too much trouble",
+            "url": "https://app.notion.com/p/if-it-s-not-too-much-trouble-3e6acb64a2a681b486fcd4fdc5a4e124?pvs=21"
+          },
+          {
+            "headline": "I appreciate you doing ~",
+            "url": "https://app.notion.com/p/I-appreciate-you-doing-3e6acb64a2a68123adfdcf9965a3700a?pvs=21"
+          },
+          {
+            "headline": "Is that a problem?",
+            "url": "https://app.notion.com/p/Is-that-a-problem-3e6acb64a2a6815b81ffd684865a7c80?pvs=21"
+          },
+          {
+            "headline": "go in one ear and out the other",
+            "url": "https://app.notion.com/p/go-in-one-ear-and-out-the-other-3e6acb64a2a6813aa9e6ea7b2076508c?pvs=21"
+          },
+          {
+            "headline": "Don't do me any favors.",
+            "url": "https://app.notion.com/p/Don-t-do-me-any-favors-3e6acb64a2a681ae8b97f3809e945d7f?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-13",
+        "season": "Season 3",
+        "title": "条件の厳しい仕事に応募するか検討する",
+        "category": "仕事",
+        "lines": [
+          [
+            "A",
+            "This job looks like a long shot.",
+            "この求人、かなり望み薄そうやな。"
+          ],
+          [
+            "B",
+            "Maybe, but I'm all for applying anyway.",
+            "そうかも。でも応募するのは大賛成。"
+          ],
+          [
+            "A",
+            "I'd be going out on a limb. I only meet half the requirements.",
+            "かなり思い切った挑戦になるで。条件半分しか満たしてないし。"
+          ],
+          [
+            "B",
+            "The application itself is doable, though.",
+            "でも応募自体はできるやろ。"
+          ],
+          [
+            "A",
+            "True. Even so, I'm not sure they'd interview me.",
+            "確かに。それでも面接まで行くかは分からん。"
+          ],
+          [
+            "B",
+            "As I understand it, they're open to people from other industries.",
+            "私の理解では、異業種からの人も歓迎してるらしいで。"
+          ],
+          [
+            "A",
+            "So I stand to gain experience even if I don't get it.",
+            "じゃあ受からなくても経験にはなるってことか。"
+          ],
+          [
+            "B",
+            "Exactly. If you ask me, send it.",
+            "そう。私なら送る。"
+          ]
+        ],
+        "phraseLinks": [
+          "p301",
+          "p259",
+          "p3202",
+          "p3319",
+          "p3358",
+          "p3477",
+          "p3217",
+          "p290"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "a long shot",
+            "url": "https://app.notion.com/p/a-long-shot-3e6acb64a2a681e79d9dd1077827c34e?pvs=21"
+          },
+          {
+            "headline": "out on a limb",
+            "url": "https://app.notion.com/p/out-on-a-limb-3e6acb64a2a681b7a452f8ffba3de2b3?pvs=21"
+          },
+          {
+            "headline": "be all for ~",
+            "url": "https://app.notion.com/p/be-all-for-3e6acb64a2a68112b1e0c9f260d9164c?pvs=21"
+          },
+          {
+            "headline": "doable",
+            "url": "https://app.notion.com/p/doable-3e6acb64a2a681d7aa86f42d65dc6ef8?pvs=21"
+          },
+          {
+            "headline": "even so",
+            "url": "https://app.notion.com/p/even-so-3e6acb64a2a681169a3df07693da8ef6?pvs=21"
+          },
+          {
+            "headline": "stand to ~",
+            "url": "https://app.notion.com/p/stand-to-3e6acb64a2a681c08cfbfdc1a9b29d1b?pvs=21"
+          },
+          {
+            "headline": "as I understand it",
+            "url": "https://app.notion.com/p/as-I-understand-it-3e6acb64a2a681589b42d69462e534ef?pvs=21"
+          },
+          {
+            "headline": "if you ask me",
+            "url": "https://app.notion.com/p/if-you-ask-me-3e6acb64a2a68158aca0f235dce06c9c?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-14",
+        "season": "Season 3",
+        "title": "秘密を漏らした友人を問いただす",
+        "category": "友人",
+        "lines": [
+          [
+            "A",
+            "Busted. You told Maya, didn't you?",
+            "バレたで。マヤに言ったやろ？"
+          ],
+          [
+            "B",
+            "She asked me directly.",
+            "向こうから直接聞かれてん。"
+          ],
+          [
+            "A",
+            "That doesn't mean you had to rat me out.",
+            "だからって私のこと告げ口せんでもよかったやん。"
+          ],
+          [
+            "B",
+            "I know. I should've kept it to myself.",
+            "分かってる。黙っとくべきやった。"
+          ],
+          [
+            "A",
+            "If you had a problem, you could've said it to my face.",
+            "何か言いたいことあるなら、直接私に言えばよかったやん。"
+          ],
+          [
+            "B",
+            "You're right.",
+            "その通り。"
+          ],
+          [
+            "A",
+            "Answer me this. Did you tell her by accident, or did you decide she deserved to know? Which is it?",
+            "これだけ答えて。うっかり言ったん？ それとも知らせるべきやと思って言ったん？ どっち？"
+          ],
+          [
+            "B",
+            "I'm ashamed to say I thought she'd already heard.",
+            "情けないけど、もう知ってると思い込んでた。"
+          ],
+          [
+            "A",
+            "Then what is this supposed to mean—\"Don't tell her I told you\"?",
+            "じゃあ「私が言ったって言わんといて」って、これはどういう意味なん？"
+          ]
+        ],
+        "phraseLinks": [
+          "p269",
+          "p285",
+          "p284",
+          "p3469",
+          "p3259",
+          "p3296",
+          "p3444",
+          "p3289"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "busted",
+            "url": "https://app.notion.com/p/busted-3e6acb64a2a68194ab21d86d60947f40?pvs=21"
+          },
+          {
+            "headline": "rat someone out",
+            "url": "https://app.notion.com/p/rat-someone-out-3e6acb64a2a681769f72c66fce70c83a?pvs=21"
+          },
+          {
+            "headline": "keep something to oneself",
+            "url": "https://app.notion.com/p/keep-something-to-oneself-3e6acb64a2a681e0ab80d77973771c0e?pvs=21"
+          },
+          {
+            "headline": "to someone's face",
+            "url": "https://app.notion.com/p/to-someone-s-face-3e6acb64a2a681eea3d3c398f3c6350b?pvs=21"
+          },
+          {
+            "headline": "Answer me this.",
+            "url": "https://app.notion.com/p/Answer-me-this-3e6acb64a2a6810b8ceccfb5168ccf2a?pvs=21"
+          },
+          {
+            "headline": "Which is it?",
+            "url": "https://app.notion.com/p/Which-is-it-3e6acb64a2a681969bddf454013a5633?pvs=21"
+          },
+          {
+            "headline": "What is this supposed to mean?",
+            "url": "https://app.notion.com/p/What-is-this-supposed-to-mean-3e6acb64a2a681f388b2ecce2f05cc34?pvs=21"
+          },
+          {
+            "headline": "be ashamed to say ~",
+            "url": "https://app.notion.com/p/be-ashamed-to-say-3e6acb64a2a681589e75d91b7f6363d7?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-15",
+        "season": "Season 3",
+        "title": "誕生日サプライズを店で待つ",
+        "category": "日常",
+        "lines": [
+          [
+            "A",
+            "She should be here any second.",
+            "もういつ来てもおかしくないで。"
+          ],
+          [
+            "B",
+            "Good. She called out of nowhere ten minutes ago and almost figured it out.",
+            "よかった。10分前いきなり電話してきて、もうちょいでバレるとこやった。"
+          ],
+          [
+            "A",
+            "That was a close one.",
+            "危なかったな。"
+          ],
+          [
+            "B",
+            "At least the cake is on the house.",
+            "まあ、ケーキは店のおごりやって。"
+          ],
+          [
+            "A",
+            "Nice. We should compliment the manager on this setup.",
+            "いいやん。この準備、店長にちゃんと褒めとこ。"
+          ],
+          [
+            "B",
+            "Want to light the candles?",
+            "ろうそくつける？"
+          ],
+          [
+            "A",
+            "Be my guest.",
+            "どうぞどうぞ。"
+          ],
+          [
+            "B",
+            "Karaoke after this?",
+            "このあとカラオケ行く？"
+          ],
+          [
+            "A",
+            "Do I ever! I'm there.",
+            "もちろん行くに決まってるやん！ 行く行く。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3376",
+          "p3379",
+          "p3249",
+          "p3372",
+          "p305",
+          "p3263",
+          "p3163",
+          "p3340"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "any second",
+            "url": "https://app.notion.com/p/any-second-3e6acb64a2a681d08c88c2e1df5ff489?pvs=21"
+          },
+          {
+            "headline": "a close one",
+            "url": "https://app.notion.com/p/a-close-one-3e6acb64a2a6813a8627e10410bbe63e?pvs=21"
+          },
+          {
+            "headline": "on the house",
+            "url": "https://app.notion.com/p/on-the-house-3e6acb64a2a6819fad2adc503e596111?pvs=21"
+          },
+          {
+            "headline": "compliment someone on ~",
+            "url": "https://app.notion.com/p/compliment-someone-on-3e6acb64a2a681fe9172d31ef4de9dec?pvs=21"
+          },
+          {
+            "headline": "Be my guest",
+            "url": "https://app.notion.com/p/Be-my-guest-3e6acb64a2a681a18804c1445d6d8dea?pvs=21"
+          },
+          {
+            "headline": "Do I ever!",
+            "url": "https://app.notion.com/p/Do-I-ever-3e6acb64a2a681b9b092c4ce0bd5b475?pvs=21"
+          },
+          {
+            "headline": "I'm there.",
+            "url": "https://app.notion.com/p/I-m-there-3e6acb64a2a68189ac6dc0aef8a44ef1?pvs=21"
+          },
+          {
+            "headline": "out of nowhere",
+            "url": "https://app.notion.com/p/out-of-nowhere-3e6acb64a2a681d3bf1af6fddddd83b0?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-16",
+        "season": "Season 3",
+        "title": "会議で論点を整理して結論を出す",
+        "category": "仕事",
+        "lines": [
+          [
+            "A",
+            "Moving right along, we still need to pick a launch date.",
+            "じゃあ次。まだ発売日を決めなあかん。"
+          ],
+          [
+            "B",
+            "As I was saying, Friday gives us more time to test.",
+            "さっき言いかけてたけど、金曜ならテスト時間をもっと取れる。"
+          ],
+          [
+            "A",
+            "Let's cut to the chase. Can we narrow it down to Thursday or Friday?",
+            "要点だけいこ。木曜か金曜の二択まで絞れる？"
+          ],
+          [
+            "B",
+            "Yes. In which case, I'd choose Friday.",
+            "うん。それなら私は金曜を選ぶ。"
+          ],
+          [
+            "A",
+            "When it comes to launches, you know the tricks of the trade better than I do.",
+            "ローンチに関しては、私よりあんたの方がコツ分かってるもんな。"
+          ],
+          [
+            "B",
+            "Maybe, but we still need everyone to keep their head in the game this week.",
+            "まあな。でも今週は全員に集中切らさずやってもらわなあかん。"
+          ],
+          [
+            "A",
+            "Agreed. Friday it is.",
+            "賛成。じゃあ金曜で。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3277",
+          "p3399",
+          "p289",
+          "p3244",
+          "p3427",
+          "p3438",
+          "p3283",
+          "p3311"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "moving right along",
+            "url": "https://app.notion.com/p/moving-right-along-3e6acb64a2a68110b6a6d5ade98c3198?pvs=21"
+          },
+          {
+            "headline": "as I was saying",
+            "url": "https://app.notion.com/p/as-I-was-saying-3e6acb64a2a681da9259eb005704070f?pvs=21"
+          },
+          {
+            "headline": "cut to the chase",
+            "url": "https://app.notion.com/p/cut-to-the-chase-3e6acb64a2a68160a08dcc7abd5a81c1?pvs=21"
+          },
+          {
+            "headline": "narrow something down to ~",
+            "url": "https://app.notion.com/p/narrow-something-down-to-3e6acb64a2a68191a378f324ce1797dd?pvs=21"
+          },
+          {
+            "headline": "in which case",
+            "url": "https://app.notion.com/p/in-which-case-3e6acb64a2a68190a262ebb37a8d1d52?pvs=21"
+          },
+          {
+            "headline": "when it comes to ~",
+            "url": "https://app.notion.com/p/when-it-comes-to-3e6acb64a2a6818fa24bc15591f6f875?pvs=21"
+          },
+          {
+            "headline": "tricks of the trade",
+            "url": "https://app.notion.com/p/tricks-of-the-trade-3e6acb64a2a681d2865cee40fce15002?pvs=21"
+          },
+          {
+            "headline": "keep one's head in the game",
+            "url": "https://app.notion.com/p/keep-one-s-head-in-the-game-3e6acb64a2a68155a5a5c53e76c6cb9e?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-17",
+        "season": "Season 3",
+        "title": "曖昧な態度の恋人に本音を確かめる",
+        "category": "恋愛",
+        "lines": [
+          [
+            "A",
+            "Look me in the eye and tell me you actually want this relationship.",
+            "ちゃんと目見て、この関係続けたいって言って。"
+          ],
+          [
+            "B",
+            "I do.",
+            "続けたいよ。"
+          ],
+          [
+            "A",
+            "You're not just saying that, are you?",
+            "ただそう言ってるだけちゃうよな？"
+          ],
+          [
+            "B",
+            "No. You can take my word for it.",
+            "違う。ほんまやって信じて。"
+          ],
+          [
+            "A",
+            "I'd feel better if you acted like it sometimes.",
+            "たまには態度でも示してくれたら、もっと安心できる。"
+          ],
+          [
+            "B",
+            "It seems to me that you're taking every quiet day to mean I'm losing interest.",
+            "私からしたら、ちょっと静かな日があるだけで気持ち冷めたって受け取ってるように見える。"
+          ],
+          [
+            "A",
+            "Maybe. You may or may not be right.",
+            "そうかも。合ってるかもしれんし、違うかもしれん。"
+          ],
+          [
+            "B",
+            "So do you trust me or not?",
+            "じゃあ私のこと信じてるん？ 信じてないん？"
+          ],
+          [
+            "A",
+            "Honestly, I can't tell right now.",
+            "正直、今は自分でも分からん。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3158",
+          "p3173",
+          "p3209",
+          "p3175",
+          "p3362",
+          "p3199",
+          "p3490",
+          "p3475"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "look someone in the eye",
+            "url": "https://app.notion.com/p/look-someone-in-the-eye-3e6acb64a2a6817bb1a8dcf8ae88193c?pvs=21"
+          },
+          {
+            "headline": "You're not just saying that, are you?",
+            "url": "https://app.notion.com/p/You-re-not-just-saying-that-are-you-3e6acb64a2a681b3be05e3bce1727ee6?pvs=21"
+          },
+          {
+            "headline": "take someone's word for it / take the word of someone",
+            "url": "https://app.notion.com/p/take-someone-s-word-for-it-take-the-word-of-someone-3e6acb64a2a681a98198c10cc6b98e7a?pvs=21"
+          },
+          {
+            "headline": "I'd feel better if ~",
+            "url": "https://app.notion.com/p/I-d-feel-better-if-3e6acb64a2a681d18f49caaa85639247?pvs=21"
+          },
+          {
+            "headline": "it seems to me that ~",
+            "url": "https://app.notion.com/p/it-seems-to-me-that-3e6acb64a2a681889a64cce78b14f5f0?pvs=21"
+          },
+          {
+            "headline": "take something to mean ~",
+            "url": "https://app.notion.com/p/take-something-to-mean-3e6acb64a2a68155b774e47a47ea1429?pvs=21"
+          },
+          {
+            "headline": "may or may not",
+            "url": "https://app.notion.com/p/may-or-may-not-3e6acb64a2a6815a9264e853c9f097a3?pvs=21"
+          },
+          {
+            "headline": "I can't tell.",
+            "url": "https://app.notion.com/p/I-can-t-tell-3e6acb64a2a681b3a24ce03b61405c20?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-18",
+        "season": "Season 3",
+        "title": "片付けを押し付け合う",
+        "category": "友人",
+        "lines": [
+          [
+            "A",
+            "Here we go again. You're trying to get out of doing the dishes.",
+            "また始まった。皿洗い逃げようとしてるやろ。"
+          ],
+          [
+            "B",
+            "Says who?",
+            "誰がそう言ったん？"
+          ],
+          [
+            "A",
+            "You sure as hell disappeared right after dinner.",
+            "夕食終わった瞬間いなくなったのは間違いないやん。"
+          ],
+          [
+            "B",
+            "I insist on doing my share. I was taking the trash out.",
+            "自分の分はちゃんとやるって。ゴミ出ししてたんや。"
+          ],
+          [
+            "A",
+            "Then why is the sink still full?",
+            "じゃあなんでシンクまだいっぱいなん？"
+          ],
+          [
+            "B",
+            "Don't ask me. Half of those aren't even mine.",
+            "知らんよ。あれ半分は私のちゃうし。"
+          ],
+          [
+            "A",
+            "You said you were done. We'll see about that.",
+            "もう終わったって言ったな。ほんまか見てみよか。"
+          ],
+          [
+            "B",
+            "If this turns into cleaning everybody's mess, I want nothing to do with it.",
+            "全員分の後始末する話になるなら、私は関わらんから。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3377",
+          "p3232",
+          "p3302",
+          "p3456",
+          "p3386",
+          "p3443",
+          "p3295",
+          "p3492"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "Here we go again.",
+            "url": "https://app.notion.com/p/Here-we-go-again-3e6acb64a2a681ac8bf2d8e8c304d6b5?pvs=21"
+          },
+          {
+            "headline": "get out of doing ~",
+            "url": "https://app.notion.com/p/get-out-of-doing-3e6acb64a2a681839f6dd6ef082378be?pvs=21"
+          },
+          {
+            "headline": "Says who?",
+            "url": "https://app.notion.com/p/Says-who-3e6acb64a2a6813cbf4df353fbc42f8d?pvs=21"
+          },
+          {
+            "headline": "sure as hell",
+            "url": "https://app.notion.com/p/sure-as-hell-3e6acb64a2a68121a8eee9e3b7edfb13?pvs=21"
+          },
+          {
+            "headline": "insist on ~",
+            "url": "https://app.notion.com/p/insist-on-3e6acb64a2a681f78f88ccaec83f670d?pvs=21"
+          },
+          {
+            "headline": "Don't ask me.",
+            "url": "https://app.notion.com/p/Don-t-ask-me-3e6acb64a2a68143a60ec4e525bc7602?pvs=21"
+          },
+          {
+            "headline": "We'll see about that.",
+            "url": "https://app.notion.com/p/We-ll-see-about-that-3e6acb64a2a6814a95b9ed0a8a79707f?pvs=21"
+          },
+          {
+            "headline": "want nothing to do with ~",
+            "url": "https://app.notion.com/p/want-nothing-to-do-with-3e6acb64a2a6816287f6d8426c613757?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-19",
+        "season": "Season 3",
+        "title": "つらい職場を辞めるタイミングを考える",
+        "category": "仕事",
+        "lines": [
+          [
+            "A",
+            "I'm thinking about bowing out of this project.",
+            "このプロジェクト降りようかと思ってる。"
+          ],
+          [
+            "B",
+            "Is it the money?",
+            "お金の問題？"
+          ],
+          [
+            "A",
+            "No. I'm not in it for the money. I'm just tired of being on the receiving end of all the blame.",
+            "違う。お金目当てでやってるんちゃう。ただ、全部こっちが責められるのに疲れた。"
+          ],
+          [
+            "B",
+            "Don't let your manager screw you over again.",
+            "また上司にいいようにやられたらあかんで。"
+          ],
+          [
+            "A",
+            "I don't want to step on anyone's toes by leaving mid-project.",
+            "途中で抜けて誰かの領分荒らしたり迷惑かけたりしたくないねん。"
+          ],
+          [
+            "B",
+            "Your health comes first.",
+            "自分の健康が最優先やろ。"
+          ],
+          [
+            "A",
+            "Maybe I should hang on to the job until I find something else.",
+            "次見つかるまでは仕事自体は手放さん方がいいかもな。"
+          ],
+          [
+            "B",
+            "Or better yet, ask for a transfer first.",
+            "いや、もっといいのは、まず異動願い出してみたら。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3299",
+          "p3384",
+          "p3381",
+          "p3433",
+          "p3349",
+          "p282",
+          "p318",
+          "p3184"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "bow out",
+            "url": "https://app.notion.com/p/bow-out-3e6acb64a2a681eaa82af91a726c3728?pvs=21"
+          },
+          {
+            "headline": "be in it for the money",
+            "url": "https://app.notion.com/p/be-in-it-for-the-money-3e6acb64a2a681948f24e122043271ca?pvs=21"
+          },
+          {
+            "headline": "come first",
+            "url": "https://app.notion.com/p/come-first-3e6acb64a2a68124bd8cf5974104360c?pvs=21"
+          },
+          {
+            "headline": "hang on to ~",
+            "url": "https://app.notion.com/p/hang-on-to-3e6acb64a2a6818da3a8c87d4a657968?pvs=21"
+          },
+          {
+            "headline": "on the receiving end of ~",
+            "url": "https://app.notion.com/p/on-the-receiving-end-of-3e6acb64a2a6817abe45cd1ff93543b8?pvs=21"
+          },
+          {
+            "headline": "screw someone over",
+            "url": "https://app.notion.com/p/screw-someone-over-3e6acb64a2a6811d92c3efcdfe6ba667?pvs=21"
+          },
+          {
+            "headline": "step on someone’s toes",
+            "url": "https://app.notion.com/p/step-on-someone-s-toes-3e6acb64a2a681d3a630d6ede5354ced?pvs=21"
+          },
+          {
+            "headline": "or better yet",
+            "url": "https://app.notion.com/p/or-better-yet-3e6acb64a2a681bbb02ad230c92b7aad?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-20",
+        "season": "Season 3",
+        "title": "食事会で感情的になったことを振り返る",
+        "category": "友人",
+        "lines": [
+          [
+            "A",
+            "You stormed out before dessert. What happened?",
+            "デザート前に出ていったやん。何があったん？"
+          ],
+          [
+            "B",
+            "I got caught up in the moment. I'm still shaken up about what she said.",
+            "つい感情的になってん。あの人に言われたこと、まだ動揺してる。"
+          ],
+          [
+            "A",
+            "Brace yourself, because you came off pretty harsh too.",
+            "ちょっと覚悟して聞いてな。あんたもかなりきつく見えたで。"
+          ],
+          [
+            "B",
+            "I know. That subject brings out the worst in me.",
+            "分かってる。あの話題になると自分の嫌なとこ出るねん。"
+          ],
+          [
+            "A",
+            "I told everyone you just needed some air.",
+            "みんなには、ちょっと外の空気吸いたかっただけって言っといた。"
+          ],
+          [
+            "B",
+            "I appreciate the sentiment.",
+            "気遣ってくれたのはありがたい。"
+          ],
+          [
+            "A",
+            "Were you at least calmer once you got outside?",
+            "外出たら少しは落ち着いた？"
+          ],
+          [
+            "B",
+            "Not even a little bit.",
+            "全然。ほんの少しも。"
+          ]
+        ],
+        "phraseLinks": [
+          "p327",
+          "p3447",
+          "p322",
+          "p3242",
+          "p329",
+          "p3419",
+          "p338",
+          "p3207"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "be caught up in the moment",
+            "url": "https://app.notion.com/p/be-caught-up-in-the-moment-3e6acb64a2a681d3a41bcba237f2e574?pvs=21"
+          },
+          {
+            "headline": "storm out",
+            "url": "https://app.notion.com/p/storm-out-3e6acb64a2a681cf8978f8c7a36a8602?pvs=21"
+          },
+          {
+            "headline": "be shaken up about something",
+            "url": "https://app.notion.com/p/be-shaken-up-about-something-3e6acb64a2a681c3a800ee253093935b?pvs=21"
+          },
+          {
+            "headline": "come off",
+            "url": "https://app.notion.com/p/come-off-3e6acb64a2a6819daf54c4097920baa8?pvs=21"
+          },
+          {
+            "headline": "bring out ~",
+            "url": "https://app.notion.com/p/bring-out-3e6acb64a2a6817eaf5dd608304e588d?pvs=21"
+          },
+          {
+            "headline": "brace oneself",
+            "url": "https://app.notion.com/p/brace-oneself-3e6acb64a2a68154933ffedd8a548a4d?pvs=21"
+          },
+          {
+            "headline": "I appreciate the sentiment",
+            "url": "https://app.notion.com/p/I-appreciate-the-sentiment-3e6acb64a2a681da9a1bd6fbf6f216fc?pvs=21"
+          },
+          {
+            "headline": "not even a little bit",
+            "url": "https://app.notion.com/p/not-even-a-little-bit-3e6acb64a2a68104bda7ee7ed0792986?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-21",
+        "season": "Season 3",
+        "title": "カフェイン断ちで生活リズムを立て直す",
+        "category": "日常",
+        "lines": [
+          [
+            "A",
+            "You really quit coffee cold turkey?",
+            "ほんまにコーヒー、いきなり完全にやめたん？"
+          ],
+          [
+            "B",
+            "Yeah. The tiredness kicked in on day two.",
+            "うん。2日目に一気に眠気きた。"
+          ],
+          [
+            "A",
+            "But you're sleeping better now?",
+            "でも今は前より寝れてる？"
+          ],
+          [
+            "B",
+            "Looks that way. I slept like a log last night, and I'm finally catching up on sleep.",
+            "そうみたいやな。昨夜はぐっすり寝たし、やっと寝不足も取り戻してる。"
+          ],
+          [
+            "A",
+            "You look better too.",
+            "顔色もええで。"
+          ],
+          [
+            "B",
+            "Never been better. There's nothing like waking up rested.",
+            "絶好調。すっきり起きられるのって最高やわ。"
+          ]
+        ],
+        "phraseLinks": [
+          "p268",
+          "p3474",
+          "p3533",
+          "p3191",
+          "p3297",
+          "p3466",
+          "p3484"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "cold turkey",
+            "url": "https://app.notion.com/p/cold-turkey-3e6acb64a2a681e9baddffd9148bd7b7?pvs=21"
+          },
+          {
+            "headline": "kick in",
+            "url": "https://app.notion.com/p/kick-in-3e6acb64a2a68162b205dc1db573d117?pvs=21"
+          },
+          {
+            "headline": "sleep like a log",
+            "url": "https://app.notion.com/p/sleep-like-a-log-3e6acb64a2a6812a9660db40ec8bfd63?pvs=21"
+          },
+          {
+            "headline": "catch up on ~",
+            "url": "https://app.notion.com/p/catch-up-on-3e6acb64a2a681bf8b9dc54c7795c7c7?pvs=21"
+          },
+          {
+            "headline": "never been better",
+            "url": "https://app.notion.com/p/never-been-better-3e6acb64a2a681b6be58cafa3d1ad734?pvs=21"
+          },
+          {
+            "headline": "There's nothing like ~",
+            "url": "https://app.notion.com/p/There-s-nothing-like-3e6acb64a2a681bca82ddc1543cc04f1?pvs=21"
+          },
+          {
+            "headline": "Looks that way.",
+            "url": "https://app.notion.com/p/Looks-that-way-3e6acb64a2a681a3bab9c66848cc95d1?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-22",
+        "season": "Season 3",
+        "title": "根掘り葉掘り聞いてくる友人に線を引く",
+        "category": "友人",
+        "lines": [
+          [
+            "A",
+            "Why are you giving me the third degree?",
+            "なんでそんな尋問みたいに聞いてくるん？"
+          ],
+          [
+            "B",
+            "Just out of curiosity. Who was that guy?",
+            "ただ気になっただけ。あの男の人誰？"
+          ],
+          [
+            "A",
+            "Just so I know, are you asking as my friend or as a detective?",
+            "一応聞くけど、友達として聞いてるん？探偵として？"
+          ],
+          [
+            "B",
+            "Come on. I'm not a mind reader.",
+            "だってさ。私、心読めるわけちゃうし。"
+          ],
+          [
+            "A",
+            "You're being a little judgmental.",
+            "ちょっと決めつけすぎやで。"
+          ],
+          [
+            "B",
+            "Fine. Maybe I'm being petty.",
+            "分かった。ちょっと細かいこと気にしすぎたかも。"
+          ],
+          [
+            "A",
+            "And don't “I'm just curious” me.",
+            "あと「ただ気になっただけ」とか言わんといて。"
+          ],
+          [
+            "B",
+            "Say no more. Dropping it.",
+            "分かった、もう言わん。やめとく。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3268",
+          "p261",
+          "p3505",
+          "p3240",
+          "p3321",
+          "p3452",
+          "p346",
+          "p339"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "the third degree",
+            "url": "https://app.notion.com/p/the-third-degree-3e6acb64a2a681579f6fc0857fd88c66?pvs=21"
+          },
+          {
+            "headline": "just out of curiosity",
+            "url": "https://app.notion.com/p/just-out-of-curiosity-3e6acb64a2a6811b8c39d7c52258a4cc?pvs=21"
+          },
+          {
+            "headline": "just so I know",
+            "url": "https://app.notion.com/p/just-so-I-know-3e6acb64a2a681d7b998e4e36e9a5939?pvs=21"
+          },
+          {
+            "headline": "I'm not a mind reader.",
+            "url": "https://app.notion.com/p/I-m-not-a-mind-reader-3e6acb64a2a681fab35edaecc1f07953?pvs=21"
+          },
+          {
+            "headline": "judgmental",
+            "url": "https://app.notion.com/p/judgmental-3e6acb64a2a681ddb248ef7467ccd112?pvs=21"
+          },
+          {
+            "headline": "petty",
+            "url": "https://app.notion.com/p/petty-3e6acb64a2a681bea263f7431f3069c5?pvs=21"
+          },
+          {
+            "headline": "Don’t “~” me",
+            "url": "https://app.notion.com/p/Don-t-me-3e6acb64a2a6811ebc8ad1bae0c66466?pvs=21"
+          },
+          {
+            "headline": "Say no more",
+            "url": "https://app.notion.com/p/Say-no-more-3e6acb64a2a68143904fd9f93a738cc3?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-23",
+        "season": "Season 3",
+        "title": "悪ふざけで怒らせた友人に謝る",
+        "category": "友人",
+        "lines": [
+          [
+            "A",
+            "I was just yanking your chain. I didn't think it'd tick you off that much.",
+            "ちょっとからかっただけやん。そんな怒ると思わんかった。"
+          ],
+          [
+            "B",
+            "Telling everyone I failed the test was lame.",
+            "みんなに私が試験落ちたって言うの、しょうもなさすぎ。"
+          ],
+          [
+            "A",
+            "I know. I didn't expect you to flip out.",
+            "分かってる。あんなにキレると思わんかった。"
+          ],
+          [
+            "B",
+            "Don't make a big deal of my reaction. Your joke was the problem.",
+            "私の反応を大げさに扱わんといて。問題はそっちの冗談やから。"
+          ],
+          [
+            "A",
+            "Fair. I had that coming.",
+            "確かに。怒られて当然やった。"
+          ],
+          [
+            "B",
+            "Honestly, it served you right.",
+            "正直、自業自得やで。"
+          ],
+          [
+            "A",
+            "Can we make nice now?",
+            "もう仲直りせえへん？"
+          ],
+          [
+            "B",
+            "Buy me lunch and we'll talk.",
+            "ランチおごったら考える。"
+          ]
+        ],
+        "phraseLinks": [
+          "p256",
+          "p275",
+          "p303",
+          "p3470",
+          "p326",
+          "p3461",
+          "p3298",
+          "p3285"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "yank someone’s chain",
+            "url": "https://app.notion.com/p/yank-someone-s-chain-3e6acb64a2a681cb9b00f3aec2526749?pvs=21"
+          },
+          {
+            "headline": "tick someone off",
+            "url": "https://app.notion.com/p/tick-someone-off-3e6acb64a2a681db954ddaf4196e6864?pvs=21"
+          },
+          {
+            "headline": "lame",
+            "url": "https://app.notion.com/p/lame-3e6acb64a2a68185a4bcc57f9e036426?pvs=21"
+          },
+          {
+            "headline": "flip out",
+            "url": "https://app.notion.com/p/flip-out-3e6acb64a2a6818d9aa1dff6f20e868e?pvs=21"
+          },
+          {
+            "headline": "make a big deal of it",
+            "url": "https://app.notion.com/p/make-a-big-deal-of-it-3e6acb64a2a681549261df46e723d98d?pvs=21"
+          },
+          {
+            "headline": "have it coming",
+            "url": "https://app.notion.com/p/have-it-coming-3e6acb64a2a6814d9a3eebbd718a672f?pvs=21"
+          },
+          {
+            "headline": "serve someone right",
+            "url": "https://app.notion.com/p/serve-someone-right-3e6acb64a2a681758a81f4752ae39276?pvs=21"
+          },
+          {
+            "headline": "make nice",
+            "url": "https://app.notion.com/p/make-nice-3e6acb64a2a68111a007f083b79baf49?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-24",
+        "season": "Season 3",
+        "title": "連絡が多すぎる恋人との距離感を相談する",
+        "category": "恋愛",
+        "lines": [
+          [
+            "A",
+            "I like him, but he's getting a little clingy.",
+            "好きやねんけど、ちょっとべったりになってきてる。"
+          ],
+          [
+            "B",
+            "But you two really clicked at first.",
+            "でも最初めっちゃ気合ってたやん。"
+          ],
+          [
+            "A",
+            "We did. We even made out after our second date.",
+            "そうやねん。2回目のデートのあと、キスまでしたし。"
+          ],
+          [
+            "B",
+            "So what changed?",
+            "じゃあ何が変わったん？"
+          ],
+          [
+            "A",
+            "I get him—he's insecure.",
+            "気持ちは分かる。あの人ちょっと不安なんやと思う。"
+          ],
+          [
+            "B",
+            "Relationships work both ways, though.",
+            "でも関係ってお互い様やで。"
+          ],
+          [
+            "A",
+            "I would give anything to have one evening without twenty texts.",
+            "一晩だけでも20件メッセージ来ん夜があったら何でもするわ。"
+          ],
+          [
+            "B",
+            "Does he text every thought that pops into his head?",
+            "頭に浮かんだこと全部送ってくるん？"
+          ],
+          [
+            "A",
+            "Pretty much. I don't know why he feels the need to check in constantly.",
+            "ほぼな。なんでずっと連絡取らなあかんって思うんやろ。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3226",
+          "p324",
+          "p3392",
+          "p3200",
+          "p3325",
+          "p3170",
+          "p3260",
+          "p3525"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "clingy",
+            "url": "https://app.notion.com/p/clingy-3e6acb64a2a681be8ad6e80a1d0f3b49?pvs=21"
+          },
+          {
+            "headline": "click with someone",
+            "url": "https://app.notion.com/p/click-with-someone-3e6acb64a2a681a2bee7e83ded4f1ef9?pvs=21"
+          },
+          {
+            "headline": "get someone",
+            "url": "https://app.notion.com/p/get-someone-3e6acb64a2a68165a97bee6e285cfdac?pvs=21"
+          },
+          {
+            "headline": "work both ways",
+            "url": "https://app.notion.com/p/work-both-ways-3e6acb64a2a68111b056c4f912347648?pvs=21"
+          },
+          {
+            "headline": "would give anything to ~",
+            "url": "https://app.notion.com/p/would-give-anything-to-3e6acb64a2a68161ae61c1467674539f?pvs=21"
+          },
+          {
+            "headline": "pop into one's head",
+            "url": "https://app.notion.com/p/pop-into-one-s-head-3e6acb64a2a681248decc062d6eab369?pvs=21"
+          },
+          {
+            "headline": "feel the need to ~",
+            "url": "https://app.notion.com/p/feel-the-need-to-3e6acb64a2a681aca305f961e1ee86c6?pvs=21"
+          },
+          {
+            "headline": "make out",
+            "url": "https://app.notion.com/p/make-out-3e6acb64a2a681a5863ae16d237c86aa?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-25",
+        "season": "Season 3",
+        "title": "無茶な旅行プランを現実的に見直す",
+        "category": "相談",
+        "lines": [
+          [
+            "A",
+            "I'm stumped. Driving through the mountains overnight sounds dicey.",
+            "どうしたらいいか分からん。夜通し山道走るの、かなり危なそう。"
+          ],
+          [
+            "B",
+            "Good call. Let's take the train instead.",
+            "それ正解。電車にしよ。"
+          ],
+          [
+            "A",
+            "If we want the safest option, look no further.",
+            "一番安全なの選ぶなら、もうこれで決まりやな。"
+          ],
+          [
+            "B",
+            "There's got to be a better way than saving money by skipping sleep.",
+            "寝る時間削って節約するより、もっとマシな方法あるやろ。"
+          ],
+          [
+            "A",
+            "Exactly. Let's play by the rules and book proper seats.",
+            "ほんまそれ。ちゃんとルール通り指定席取ろ。"
+          ],
+          [
+            "B",
+            "We'd be out of our minds to do the original plan.",
+            "最初の案で行くとか正気ちゃうわ。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3522",
+          "p3397",
+          "p3333",
+          "p3211",
+          "p313",
+          "p321",
+          "p332"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "dicey",
+            "url": "https://app.notion.com/p/dicey-3e6acb64a2a6811f901df4bd24c97fce?pvs=21"
+          },
+          {
+            "headline": "Good call.",
+            "url": "https://app.notion.com/p/Good-call-3e6acb64a2a681cfac36c32112b7addb?pvs=21"
+          },
+          {
+            "headline": "look no further",
+            "url": "https://app.notion.com/p/look-no-further-3e6acb64a2a681d49c2ac6e53e4b8002?pvs=21"
+          },
+          {
+            "headline": "There's got to be a better way.",
+            "url": "https://app.notion.com/p/There-s-got-to-be-a-better-way-3e6acb64a2a6811dadb1e39f67555a6c?pvs=21"
+          },
+          {
+            "headline": "play by the rules",
+            "url": "https://app.notion.com/p/play-by-the-rules-3e6acb64a2a68135aa49c179f44c7819?pvs=21"
+          },
+          {
+            "headline": "be out of one’s mind",
+            "url": "https://app.notion.com/p/be-out-of-one-s-mind-3e6acb64a2a6814780e5cd52b323c97e?pvs=21"
+          },
+          {
+            "headline": "stumped",
+            "url": "https://app.notion.com/p/stumped-3e6acb64a2a681968db5f8d696758afd?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-26",
+        "season": "Season 3",
+        "title": "締切直前の発表準備を仕上げる",
+        "category": "仕事",
+        "lines": [
+          [
+            "A",
+            "The clock is ticking. We present in forty minutes.",
+            "時間ないで。あと40分で発表や。"
+          ],
+          [
+            "B",
+            "I know. Can you prep me for the questions section?",
+            "分かってる。質疑応答の準備付き合ってくれる？"
+          ],
+          [
+            "A",
+            "Sure. I won't put you through anything worse than the actual panel.",
+            "もちろん。本番の審査員よりキツいことはせえへん。"
+          ],
+          [
+            "B",
+            "All right. Let's see what you've got.",
+            "よし。かかってこい。"
+          ],
+          [
+            "A",
+            "Why should they fund us instead of the other team?",
+            "なんで他のチームじゃなく、うちに出資すべきなんですか？"
+          ],
+          [
+            "B",
+            "Because—uh... wow, that went well.",
+            "それは……えっと……うわ、今の完璧やったな。"
+          ],
+          [
+            "A",
+            "You'll get through it. We're almost out of the woods.",
+            "乗り切れるって。もう山場はほぼ越えてる。"
+          ],
+          [
+            "B",
+            "More than I can say for my confidence right now.",
+            "今の私の自信については、そうは言えんけどな。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3318",
+          "p295",
+          "p3406",
+          "p3279",
+          "p3308",
+          "p3480",
+          "p3185",
+          "p3468"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "the clock is ticking",
+            "url": "https://app.notion.com/p/the-clock-is-ticking-3e6acb64a2a6819e8130c3f4fafe2d3c?pvs=21"
+          },
+          {
+            "headline": "prep someone for something",
+            "url": "https://app.notion.com/p/prep-someone-for-something-3e6acb64a2a6810f83cdd8dc374dc84a?pvs=21"
+          },
+          {
+            "headline": "put someone through ~",
+            "url": "https://app.notion.com/p/put-someone-through-3e6acb64a2a6815ab4aec537341c6aa8?pvs=21"
+          },
+          {
+            "headline": "Let's see what you've got.",
+            "url": "https://app.notion.com/p/Let-s-see-what-you-ve-got-3e6acb64a2a6811fb71edb667c9cd17c?pvs=21"
+          },
+          {
+            "headline": "That went well.",
+            "url": "https://app.notion.com/p/That-went-well-3e6acb64a2a681c4a8d9e0ef7191e1a8?pvs=21"
+          },
+          {
+            "headline": "get through",
+            "url": "https://app.notion.com/p/get-through-3e6acb64a2a68131ae26c93d81900da3?pvs=21"
+          },
+          {
+            "headline": "be out of the woods",
+            "url": "https://app.notion.com/p/be-out-of-the-woods-3e6acb64a2a681a39017d95ca420fdff?pvs=21"
+          },
+          {
+            "headline": "more than I can say for ~",
+            "url": "https://app.notion.com/p/more-than-I-can-say-for-3e6acb64a2a681b285cdef063cf62777?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-27",
+        "season": "Season 3",
+        "title": "企画案の説明を聞いて修正点を伝える",
+        "category": "仕事",
+        "lines": [
+          [
+            "A",
+            "Paint me a picture. What does the final campaign actually look like?",
+            "イメージできるように説明して。最終的にどんなキャンペーンになるん？"
+          ],
+          [
+            "B",
+            "Three short videos, two posters—make that three posters—and one live event.",
+            "短い動画3本、ポスター2枚……いや3枚、それとライブイベント1回。"
+          ],
+          [
+            "A",
+            "Do we need another presentation deck?",
+            "またプレゼン資料も要る？"
+          ],
+          [
+            "B",
+            "That won't be necessary. The old one is basically trash anyway.",
+            "それは要らん。前のやつ、正直ほぼ使い物にならんし。"
+          ],
+          [
+            "A",
+            "The sudden format change might throw the client off.",
+            "急に形式変えたらクライアント戸惑うかも。"
+          ],
+          [
+            "B",
+            "Maybe, but that's neither here nor there. The idea itself is stronger.",
+            "かもな。でもそこは本質ちゃう。アイデア自体は今の方が強い。"
+          ],
+          [
+            "A",
+            "You would think they'd care more about results than the format.",
+            "普通は形式より結果を気にすると思うけどな。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3357",
+          "p3371",
+          "p3370",
+          "p330",
+          "p3233",
+          "p306",
+          "p3326"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "paint a picture",
+            "url": "https://app.notion.com/p/paint-a-picture-3e6acb64a2a68130bad7cc3464fbd923?pvs=21"
+          },
+          {
+            "headline": "That won't be necessary.",
+            "url": "https://app.notion.com/p/That-won-t-be-necessary-3e6acb64a2a6818b8554e01c00c0a3d1?pvs=21"
+          },
+          {
+            "headline": "make that ~",
+            "url": "https://app.notion.com/p/make-that-3e6acb64a2a68184808fcbe7b90e3472?pvs=21"
+          },
+          {
+            "headline": "trash",
+            "url": "https://app.notion.com/p/trash-3e6acb64a2a681628498c74540b9f1e2?pvs=21"
+          },
+          {
+            "headline": "throw someone off",
+            "url": "https://app.notion.com/p/throw-someone-off-3e6acb64a2a681438fbbf7c14c7f3717?pvs=21"
+          },
+          {
+            "headline": "neither here nor there",
+            "url": "https://app.notion.com/p/neither-here-nor-there-3e6acb64a2a6815c9ae1f42d33c2e631?pvs=21"
+          },
+          {
+            "headline": "You would think.",
+            "url": "https://app.notion.com/p/You-would-think-3e6acb64a2a681c0a8e8cddff266cb0d?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-28",
+        "season": "Season 3",
+        "title": "気が進まない集まりに友人を誘う",
+        "category": "友人",
+        "lines": [
+          [
+            "A",
+            "You need a little nudge. Come to the reunion with me.",
+            "ちょっと背中押したる。私と同窓会行こ。"
+          ],
+          [
+            "B",
+            "Nice try. I'm good.",
+            "うまいこと言うな。でも私はええわ。"
+          ],
+          [
+            "A",
+            "Come on. What's it gonna be—one awkward hour or another night on the couch?",
+            "ええやん。どうする？気まずい1時間か、またソファで一晩か。"
+          ],
+          [
+            "B",
+            "With my luck, I'll run into every person I don't want to see.",
+            "私の運やったら、会いたくない人全員に会いそう。"
+          ],
+          [
+            "A",
+            "Shoot! I forgot Karen said she'd be there. Bummer. Is there any chance you'll change your mind?",
+            "しまった！カレンも来るって言ってたの忘れてた。そら嫌やな。でも気変わる可能性ない？"
+          ],
+          [
+            "B",
+            "Maybe if you promise we can leave early.",
+            "早めに帰れるって約束するなら、まあ。"
+          ],
+          [
+            "A",
+            "Deal.",
+            "決まり。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3535",
+          "p3389",
+          "p3317",
+          "p3528",
+          "p3417",
+          "p3485",
+          "p3458",
+          "p3527"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "give someone a nudge",
+            "url": "https://app.notion.com/p/give-someone-a-nudge-3e6acb64a2a68102a33ce81dbeea9137?pvs=21"
+          },
+          {
+            "headline": "What's it gonna be?",
+            "url": "https://app.notion.com/p/What-s-it-gonna-be-3e6acb64a2a6817695b1d28115a7d779?pvs=21"
+          },
+          {
+            "headline": "Nice try.",
+            "url": "https://app.notion.com/p/Nice-try-3e6acb64a2a681028160ecfacbcbe4b7?pvs=21"
+          },
+          {
+            "headline": "bummer",
+            "url": "https://app.notion.com/p/bummer-3e6acb64a2a681488019c3b55fd89df2?pvs=21"
+          },
+          {
+            "headline": "with my luck",
+            "url": "https://app.notion.com/p/with-my-luck-3e6acb64a2a68138848fcda94dbd8da2?pvs=21"
+          },
+          {
+            "headline": "I'm good.",
+            "url": "https://app.notion.com/p/I-m-good-3e6acb64a2a681e596bcc88281cf2c76?pvs=21"
+          },
+          {
+            "headline": "Is there any chance ~?",
+            "url": "https://app.notion.com/p/Is-there-any-chance-3e6acb64a2a6814788d5c504eb4b13f0?pvs=21"
+          },
+          {
+            "headline": "Shoot!",
+            "url": "https://app.notion.com/p/Shoot-3e6acb64a2a6818f917ac4ff92df4fad?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-29",
+        "season": "Season 3",
+        "title": "久しぶりに会った友人と仕事探しの話をする",
+        "category": "雑談",
+        "lines": [
+          [
+            "A",
+            "Still job hunting?",
+            "まだ仕事探してるん？"
+          ],
+          [
+            "B",
+            "Yeah. Applications, interviews, rejections. I'm exhausted.",
+            "うん。応募して、面接して、落ちて。もうヘトヘト。"
+          ],
+          [
+            "A",
+            "I've been there. Job hunting can drain you like you wouldn't believe.",
+            "分かる。仕事探しって、ほんま想像以上に消耗するもんな。"
+          ],
+          [
+            "B",
+            "Exactly.",
+            "ほんまそれ。"
+          ],
+          [
+            "A",
+            "That explains it. You look exhausted.",
+            "なるほどな。めっちゃ疲れて見える。"
+          ],
+          [
+            "B",
+            "Anyway, this is me. I live in this building now.",
+            "あ、ここ私んとこ。今この建物に住んでる。"
+          ],
+          [
+            "A",
+            "Keep me posted. I'll be on the lookout for openings.",
+            "また状況教えて。求人あったら気にして見とく。"
+          ],
+          [
+            "B",
+            "Thanks. I find it hard to believe that there's no such thing as one decent job for me.",
+            "ありがとう。自分に合うまともな仕事が一つもないなんて、さすがに信じにくいわ。"
+          ],
+          [
+            "A",
+            "There is. Keep at it. It just doesn't work that way—you usually have to find it one rejection at a time.",
+            "あるって。そのまま続けて。すぐ見つかるもんちゃうし、普通は何回か落ちながら見つけていくもんや。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3338",
+          "p3266",
+          "p3156",
+          "p3395",
+          "p3368",
+          "p3290",
+          "p3258",
+          "p3414",
+          "p336"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "I've been there.",
+            "url": "https://app.notion.com/p/I-ve-been-there-3e6acb64a2a6818c97a9d92c3ad465ba?pvs=21"
+          },
+          {
+            "headline": "like you wouldn't believe",
+            "url": "https://app.notion.com/p/like-you-wouldn-t-believe-3e6acb64a2a681af84ceed54f3b1b907?pvs=21"
+          },
+          {
+            "headline": "That explains it.",
+            "url": "https://app.notion.com/p/That-explains-it-3e6acb64a2a681f3853dd05c4d66c5df?pvs=21"
+          },
+          {
+            "headline": "This is me.",
+            "url": "https://app.notion.com/p/This-is-me-3e6acb64a2a681baad52d4efd73296b6?pvs=21"
+          },
+          {
+            "headline": "there's no such thing as ~",
+            "url": "https://app.notion.com/p/there-s-no-such-thing-as-3e6acb64a2a681ffad33f515681af47c?pvs=21"
+          },
+          {
+            "headline": "be on the lookout for ~",
+            "url": "https://app.notion.com/p/be-on-the-lookout-for-3e6acb64a2a681acb4ccf3bf5daca261?pvs=21"
+          },
+          {
+            "headline": "find it hard to believe that ~",
+            "url": "https://app.notion.com/p/find-it-hard-to-believe-that-3e6acb64a2a681d4ba6de03f8a79c858?pvs=21"
+          },
+          {
+            "headline": "It doesn't work that way.",
+            "url": "https://app.notion.com/p/It-doesn-t-work-that-way-3e6acb64a2a681b3b34fdbdf35033b1e?pvs=21"
+          },
+          {
+            "headline": "keep at it",
+            "url": "https://app.notion.com/p/keep-at-it-3e6acb64a2a681f78a14cc2472eb1d23?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S3-NEW-30",
+        "season": "Season 3",
+        "title": "新しい同居人と生活ルールを決める",
+        "category": "日常",
+        "lines": [
+          [
+            "A",
+            "Before you move in, let's set some ground rules.",
+            "引っ越してくる前に、生活ルール決めとこ。"
+          ],
+          [
+            "B",
+            "Fair. It's only fair if they apply to both of us.",
+            "ええよ。二人とも同じルールなら公平やし。"
+          ],
+          [
+            "A",
+            "Would it be okay with you if we kept weeknights quiet after eleven?",
+            "平日は11時以降静かにするってことでいい？"
+          ],
+          [
+            "B",
+            "Sure. I can still goof around with friends on weekends, right?",
+            "いいよ。週末は友達と騒いでもええんやろ？"
+          ],
+          [
+            "A",
+            "Absolutely. You do your thing, I do mine.",
+            "もちろん。お互い好きにしたらええ。"
+          ],
+          [
+            "B",
+            "And if one of us needs to vent, we get it out of our system before midnight.",
+            "どっちか愚痴りたい時は、夜中になる前に吐き出すってことで。"
+          ],
+          [
+            "A",
+            "You said it.",
+            "それそれ。"
+          ],
+          [
+            "B",
+            "If you don't mind, I'm adding one more rule: no taking my leftovers.",
+            "よければもう一個追加。私の残り物勝手に食べんといて。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3396",
+          "p311",
+          "p3516",
+          "p3353",
+          "p3364",
+          "p279",
+          "p3210",
+          "p3454"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "ground rules",
+            "url": "https://app.notion.com/p/ground-rules-3e6acb64a2a681698918d5a3a15b8734?pvs=21"
+          },
+          {
+            "headline": "It’s only fair",
+            "url": "https://app.notion.com/p/It-s-only-fair-3e6acb64a2a681a88eeae2820dbf5608?pvs=21"
+          },
+          {
+            "headline": "Would it be okay with you if ~?",
+            "url": "https://app.notion.com/p/Would-it-be-okay-with-you-if-3e6acb64a2a681f994fbdbd67cbfe494?pvs=21"
+          },
+          {
+            "headline": "goof around",
+            "url": "https://app.notion.com/p/goof-around-3e6acb64a2a6819589b7d28e6bb380f8?pvs=21"
+          },
+          {
+            "headline": "do one's thing",
+            "url": "https://app.notion.com/p/do-one-s-thing-3e6acb64a2a6819d9ddef3a8b1f2cad9?pvs=21"
+          },
+          {
+            "headline": "get something out of one’s system",
+            "url": "https://app.notion.com/p/get-something-out-of-one-s-system-3e6acb64a2a681f9b126e09ee2e21626?pvs=21"
+          },
+          {
+            "headline": "You said it.",
+            "url": "https://app.notion.com/p/You-said-it-3e6acb64a2a68185b5c5c55501c89453?pvs=21"
+          },
+          {
+            "headline": "If you don't mind",
+            "url": "https://app.notion.com/p/If-you-don-t-mind-3e6acb64a2a681e4b1a6cf0b1ec571a1?pvs=21"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": "S4-NEW-01",
+        "season": "Season 4",
+        "title": "ミスを報告して責任を引き受ける",
+        "category": "仕事",
+        "lines": [
+          [
+            "A",
+            "Give me the gist. What happened with the client file?",
+            "要点だけ教えて。クライアントのファイル、何があったん？"
+          ],
+          [
+            "B",
+            "I missed one update and then made things worse by trying to hide it.",
+            "更新を一つ忘れて、それを隠そうとして余計悪くしてしまった。"
+          ],
+          [
+            "A",
+            "Don't dig a hole for yourself. Just tell them what happened.",
+            "自分で墓穴掘らんと、起きたことそのまま伝え。"
+          ],
+          [
+            "B",
+            "You're right. I'll own up to it and take responsibility for the mistake.",
+            "そうやな。ちゃんと認めて、ミスの責任取る。"
+          ],
+          [
+            "A",
+            "Good. This is your chance to step up.",
+            "うん。ここはちゃんと前に出るところやで。"
+          ],
+          [
+            "B",
+            "Hard to give myself credit for anything right now.",
+            "今は自分を褒める気には全然ならんけど。"
+          ],
+          [
+            "A",
+            "Gain some perspective. You caught it before anything went public.",
+            "ちょっと引いて見てみ。外に出る前に気づけたんやから。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3541",
+          "p347",
+          "p3545",
+          "p3547",
+          "p351",
+          "p352",
+          "p353",
+          "p348"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "make things worse",
+            "url": "https://app.notion.com/p/make-things-worse-3e6acb64a2a6814b99edfbc694550b39?pvs=21"
+          },
+          {
+            "headline": "dig a hole",
+            "url": "https://app.notion.com/p/dig-a-hole-3e6acb64a2a681d39a65cb822b3a7263?pvs=21"
+          },
+          {
+            "headline": "take responsibility for ~",
+            "url": "https://app.notion.com/p/take-responsibility-for-3e6acb64a2a681a5a160d2945ccd5240?pvs=21"
+          },
+          {
+            "headline": "step up",
+            "url": "https://app.notion.com/p/step-up-3e6acb64a2a681fc8762e92300da9252?pvs=21"
+          },
+          {
+            "headline": "own up to ~",
+            "url": "https://app.notion.com/p/own-up-to-3e6acb64a2a681c7bd6acc95cac377d1?pvs=21"
+          },
+          {
+            "headline": "give oneself credit",
+            "url": "https://app.notion.com/p/give-oneself-credit-3e6acb64a2a681af8984f639764c7a60?pvs=21"
+          },
+          {
+            "headline": "gain perspective",
+            "url": "https://app.notion.com/p/gain-perspective-3e6acb64a2a681f58d5df20c98a65c49?pvs=21"
+          },
+          {
+            "headline": "the gist",
+            "url": "https://app.notion.com/p/the-gist-3e6acb64a2a681eda300fce9247c0f6e?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-02",
+        "season": "Season 4",
+        "title": "久しぶりに会った元同僚と転職の近況を話す",
+        "category": "仕事",
+        "lines": [
+          [
+            "A",
+            "I can't believe I bumped into you here. How've you been?",
+            "こんなとこで会うと思わんかった。元気してた？"
+          ],
+          [
+            "B",
+            "Pretty good. Have you had any luck finding a new job?",
+            "まあまあ。転職先、見つかりそう？"
+          ],
+          [
+            "A",
+            "Maybe. I'm still in touch with Ben, and he keeps raving about his startup.",
+            "たぶん。ベンとはまだ連絡取ってて、あいつ自分のスタートアップのことずっと絶賛してる。"
+          ],
+          [
+            "B",
+            "What about Maya? You two used to work together all the time.",
+            "マヤは？前いつも一緒に仕事してたやん。"
+          ],
+          [
+            "A",
+            "We kind of lost touch.",
+            "なんとなく疎遠になってもうた。"
+          ],
+          [
+            "B",
+            "So Ben wants you to take your career to the next level with his company?",
+            "じゃあベンは、自分の会社でキャリアを次の段階に進めへんかって言ってるん？"
+          ],
+          [
+            "A",
+            "You're catching on.",
+            "そうそう、分かってきたな。"
+          ],
+          [
+            "B",
+            "I get the picture. Sounds like a real possibility.",
+            "なるほど。ほんまにありそうな話やな。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3550",
+          "p3553",
+          "p3554",
+          "p3556",
+          "p362",
+          "p361",
+          "p364",
+          "p366"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "have any luck doing ~",
+            "url": "https://app.notion.com/p/have-any-luck-doing-3e6acb64a2a68163acd1d6f4de350ef8?pvs=21"
+          },
+          {
+            "headline": "be in touch with ~",
+            "url": "https://app.notion.com/p/be-in-touch-with-3e6acb64a2a6814d95bcd79b387734b1?pvs=21"
+          },
+          {
+            "headline": "lose touch with ~",
+            "url": "https://app.notion.com/p/lose-touch-with-3e6acb64a2a6818e9903e9aa5edf7a00?pvs=21"
+          },
+          {
+            "headline": "bump into someone",
+            "url": "https://app.notion.com/p/bump-into-someone-3e6acb64a2a681db8100f0761be57124?pvs=21"
+          },
+          {
+            "headline": "rave about ~",
+            "url": "https://app.notion.com/p/rave-about-3e6acb64a2a681188d6ef134fd78ba7e?pvs=21"
+          },
+          {
+            "headline": "take something to the next level",
+            "url": "https://app.notion.com/p/take-something-to-the-next-level-3e6acb64a2a68194802fe60eca924a1a?pvs=21"
+          },
+          {
+            "headline": "catch on",
+            "url": "https://app.notion.com/p/catch-on-3e6acb64a2a68189bb62f0fde013f508?pvs=21"
+          },
+          {
+            "headline": "I get the picture",
+            "url": "https://app.notion.com/p/I-get-the-picture-3e6acb64a2a681219b30dd4e30c89dcf?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-03",
+        "season": "Season 4",
+        "title": "同僚への嫌がらせをやめるよう注意する",
+        "category": "仕事",
+        "lines": [
+          [
+            "A",
+            "You need to lay off Chris.",
+            "クリスのこと、もうほっとき。"
+          ],
+          [
+            "B",
+            "What? I was just joking.",
+            "何？ただの冗談やん。"
+          ],
+          [
+            "A",
+            "You've been picking on him and giving him grief about every little mistake.",
+            "ずっとあの人いじって、ちょっとしたミスのたびに嫌味言ってるやん。"
+          ],
+          [
+            "B",
+            "He can handle it.",
+            "あの人なら大丈夫やって。"
+          ],
+          [
+            "A",
+            "And yesterday you made something up about him missing a deadline. That's over the line.",
+            "しかも昨日、締切落としたって作り話までしてたやろ。それはやりすぎ。"
+          ],
+          [
+            "B",
+            "Why are you sticking up for him so much?",
+            "なんでそんなあの人かばうん？"
+          ],
+          [
+            "A",
+            "Because I have faith in him, and I think he's going to prove you wrong.",
+            "信用してるから。あんたが間違ってたって証明すると思うで。"
+          ]
+        ],
+        "phraseLinks": [
+          "p360",
+          "p3558",
+          "p3560",
+          "p3562",
+          "p3565",
+          "p3576",
+          "p3564",
+          "p384"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "stick up for someone",
+            "url": "https://app.notion.com/p/stick-up-for-someone-3e6acb64a2a68170bd13cbb00df8e824?pvs=21"
+          },
+          {
+            "headline": "pick on someone",
+            "url": "https://app.notion.com/p/pick-on-someone-3e6acb64a2a68124b307f083dc543650?pvs=21"
+          },
+          {
+            "headline": "give someone grief about ~",
+            "url": "https://app.notion.com/p/give-someone-grief-about-3e6acb64a2a681b686e4dd10fe0d01ab?pvs=21"
+          },
+          {
+            "headline": "have faith in someone",
+            "url": "https://app.notion.com/p/have-faith-in-someone-3e6acb64a2a68105b7f4fcb128b9f18f?pvs=21"
+          },
+          {
+            "headline": "prove someone wrong",
+            "url": "https://app.notion.com/p/prove-someone-wrong-3e6acb64a2a681ec990dd8d3d3b1a33b?pvs=21"
+          },
+          {
+            "headline": "lay off someone",
+            "url": "https://app.notion.com/p/lay-off-someone-3e6acb64a2a681b8ad9ee98a9b67b90a?pvs=21"
+          },
+          {
+            "headline": "make something up",
+            "url": "https://app.notion.com/p/make-something-up-3e6acb64a2a681668a35ea62069b9e59?pvs=21"
+          },
+          {
+            "headline": "be over the line",
+            "url": "https://app.notion.com/p/be-over-the-line-3e6acb64a2a6812ba293c8af88766b21?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-04",
+        "season": "Season 4",
+        "title": "重要プレゼン直前に発表練習をする",
+        "category": "仕事",
+        "lines": [
+          [
+            "A",
+            "We've made progress with the slides, but we still have our work cut out for us.",
+            "スライドは進んだけど、まだやること山ほどあるな。"
+          ],
+          [
+            "B",
+            "We're doomed. I still hate my opening.",
+            "もうあかん。冒頭まだ全然気に入ってへん。"
+          ],
+          [
+            "A",
+            "It's no use panicking. Follow my lead and keep it simple.",
+            "焦ってもしゃあない。私に合わせて、シンプルにいこ。"
+          ],
+          [
+            "B",
+            "Would you mind listening to it one more time?",
+            "もう一回聞いてもらっていい？"
+          ],
+          [
+            "A",
+            "Sure. Let's get it over with.",
+            "もちろん。さっさとやろ。"
+          ],
+          [
+            "B",
+            "Okay... “Thanks everyone for being here today...”",
+            "よし……「今日はお集まりいただきありがとうございます……」"
+          ],
+          [
+            "A",
+            "There. You nailed it.",
+            "ほら。今の完璧やったで。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3571",
+          "p371",
+          "p372",
+          "p3572",
+          "p3573",
+          "p3574",
+          "p381",
+          "p3598"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "Would you mind doing ~?",
+            "url": "https://app.notion.com/p/Would-you-mind-doing-3e6acb64a2a6815eb5e7e792ae366224?pvs=21"
+          },
+          {
+            "headline": "doomed",
+            "url": "https://app.notion.com/p/doomed-3e6acb64a2a68173a29efa7e6bf04a73?pvs=21"
+          },
+          {
+            "headline": "get something over with",
+            "url": "https://app.notion.com/p/get-something-over-with-3e6acb64a2a681a1ba50f1781859410f?pvs=21"
+          },
+          {
+            "headline": "follow someone's lead",
+            "url": "https://app.notion.com/p/follow-someone-s-lead-3e6acb64a2a681538162e13d9db1b83d?pvs=21"
+          },
+          {
+            "headline": "It's no use.",
+            "url": "https://app.notion.com/p/It-s-no-use-3e6acb64a2a681ea98d5e5c4b4628570?pvs=21"
+          },
+          {
+            "headline": "nail it",
+            "url": "https://app.notion.com/p/nail-it-3e6acb64a2a681109c8aed719fe52654?pvs=21"
+          },
+          {
+            "headline": "have one’s work cut out",
+            "url": "https://app.notion.com/p/have-one-s-work-cut-out-3e6acb64a2a681cfa1eeeda19e42fc05?pvs=21"
+          },
+          {
+            "headline": "make progress with ~",
+            "url": "https://app.notion.com/p/make-progress-with-3e6acb64a2a68108a354da101770068d?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-05",
+        "season": "Season 4",
+        "title": "失言したデート相手にもう一度連絡するか相談する",
+        "category": "恋愛",
+        "lines": [
+          [
+            "A",
+            "I really put my foot in my mouth last night.",
+            "昨日ほんまに余計なこと言ってもうた。"
+          ],
+          [
+            "B",
+            "What did you say?",
+            "何言ったん？"
+          ],
+          [
+            "A",
+            "I told her she wasn't usually my type.",
+            "普段は自分のタイプちゃうって言ってしまった。"
+          ],
+          [
+            "B",
+            "Wow. No wonder you got shot down.",
+            "うわ。そら振られるわ。"
+          ],
+          [
+            "A",
+            "The problem is, I can't get her out of my head.",
+            "でも問題は、あの人のこと頭から離れへんねん。"
+          ],
+          [
+            "B",
+            "Then make an effort to apologize, but tone it down. Don't turn it into a speech.",
+            "じゃあちゃんと謝る努力し。でも大げさにせんとき。演説みたいにしたらあかん。"
+          ],
+          [
+            "A",
+            "Maybe I could ask her to coffee. My treat.",
+            "コーヒー誘おかな。私のおごりで。"
+          ],
+          [
+            "B",
+            "Start with “Are we cool?” and see what she says.",
+            "まず「もう大丈夫？」って聞いて、反応見たら。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3575",
+          "p374",
+          "p3578",
+          "p3579",
+          "p3580",
+          "p3581",
+          "p3583",
+          "p3584"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "get shot down",
+            "url": "https://app.notion.com/p/get-shot-down-3e6acb64a2a681279267f3b25467e0f2?pvs=21"
+          },
+          {
+            "headline": "put one’s foot in one’s mouth",
+            "url": "https://app.notion.com/p/put-one-s-foot-in-one-s-mouth-3e6acb64a2a68147882adb1d19574489?pvs=21"
+          },
+          {
+            "headline": "can't get someone out of one's head",
+            "url": "https://app.notion.com/p/can-t-get-someone-out-of-one-s-head-3e6acb64a2a6813d8520cc190a76c013?pvs=21"
+          },
+          {
+            "headline": "make an effort to ~",
+            "url": "https://app.notion.com/p/make-an-effort-to-3e6acb64a2a681a885eae97ff4c63f1e?pvs=21"
+          },
+          {
+            "headline": "My treat.",
+            "url": "https://app.notion.com/p/My-treat-3e6acb64a2a681dfb5c2c9d9bf95a388?pvs=21"
+          },
+          {
+            "headline": "not one's type",
+            "url": "https://app.notion.com/p/not-one-s-type-3e6acb64a2a681b8a74fd9eeac3b720a?pvs=21"
+          },
+          {
+            "headline": "tone it down",
+            "url": "https://app.notion.com/p/tone-it-down-3e6acb64a2a6817e9dccee3ad3f9b294?pvs=21"
+          },
+          {
+            "headline": "Are we cool?",
+            "url": "https://app.notion.com/p/Are-we-cool-3e6acb64a2a681b2b20ac12b69986ba2?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-06",
+        "season": "Season 4",
+        "title": "引っ越し準備をしながら転職オファーを断るか相談する",
+        "category": "相談",
+        "lines": [
+          [
+            "A",
+            "Before we get moving with these boxes, hear me out.",
+            "この箱運び始める前に、ちょっと話聞いて。"
+          ],
+          [
+            "B",
+            "Okay. What's up?",
+            "うん。どうしたん？"
+          ],
+          [
+            "A",
+            "I'm thinking of turning down the job offer.",
+            "あの仕事のオファー、断ろうかと思ってる。"
+          ],
+          [
+            "B",
+            "Because of the commute?",
+            "通勤のせい？"
+          ],
+          [
+            "A",
+            "Yeah. I don't want to get stuck with a two-hour trip every day.",
+            "うん。毎日2時間通勤する羽目にはなりたくない。"
+          ],
+          [
+            "B",
+            "Fair. You're not letting anyone down by saying no to a job that doesn't work for you.",
+            "それなら分かる。自分に合わん仕事断っても、誰かを裏切ることにはならんで。"
+          ],
+          [
+            "A",
+            "Thanks. And while you're at it, could you give me a hand with that lamp?",
+            "ありがとう。ついでに、そのランプ運ぶの手伝ってくれる？"
+          ],
+          [
+            "B",
+            "Nice way to break the tension.",
+            "うまいこと空気変えたな。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3586",
+          "p3587",
+          "p3590",
+          "p3591",
+          "p3599",
+          "p3600",
+          "p3601",
+          "p3603"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "turn down an offer",
+            "url": "https://app.notion.com/p/turn-down-an-offer-3e6acb64a2a68170b24ce4f4fd70d9ed?pvs=21"
+          },
+          {
+            "headline": "get moving",
+            "url": "https://app.notion.com/p/get-moving-3e6acb64a2a6815da03dc79f2a84d226?pvs=21"
+          },
+          {
+            "headline": "while you're at it",
+            "url": "https://app.notion.com/p/while-you-re-at-it-3e6acb64a2a68107ad47c54c38c75618?pvs=21"
+          },
+          {
+            "headline": "give someone a hand",
+            "url": "https://app.notion.com/p/give-someone-a-hand-3e6acb64a2a6810d8776dfbe4886d1ef?pvs=21"
+          },
+          {
+            "headline": "get stuck with ~",
+            "url": "https://app.notion.com/p/get-stuck-with-3e6acb64a2a681b381fbeb7bd39740e0?pvs=21"
+          },
+          {
+            "headline": "hear someone out",
+            "url": "https://app.notion.com/p/hear-someone-out-3e6acb64a2a68145acf8fe83f29d737e?pvs=21"
+          },
+          {
+            "headline": "let someone down",
+            "url": "https://app.notion.com/p/let-someone-down-3e6acb64a2a6811c826af73f836c9c36?pvs=21"
+          },
+          {
+            "headline": "break the tension",
+            "url": "https://app.notion.com/p/break-the-tension-3e6acb64a2a6810cbdc0ee1e27caa990?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-07",
+        "season": "Season 4",
+        "title": "勝手に方針を変えた同僚に理由を問いただす",
+        "category": "仕事",
+        "lines": [
+          [
+            "A",
+            "Did you go behind my back and change the proposal?",
+            "私に黙って提案書変えたん？"
+          ],
+          [
+            "B",
+            "If you must know, yes. The client hated the original version.",
+            "どうしても知りたいなら、そう。クライアントが元の案を嫌がってたから。"
+          ],
+          [
+            "A",
+            "Granted, it needed work, but you can't keep switching directions. Pick a lane.",
+            "確かに修正は必要やった。でも方針ころころ変えたらあかん。どっちかに決めて。"
+          ],
+          [
+            "B",
+            "I stand by the changes I made.",
+            "私は今回の修正は正しかったと思ってる。"
+          ],
+          [
+            "A",
+            "Then take the team seriously enough to tell us first.",
+            "じゃあチームのことちゃんと考えて、先に言うくらいはして。"
+          ],
+          [
+            "B",
+            "Okay, settle down. We can fix this.",
+            "分かったから落ち着いて。修正できるって。"
+          ],
+          [
+            "A",
+            "I'm not making a scene. I'm asking for basic communication.",
+            "騒ぎ立ててるんちゃう。最低限の共有を求めてるだけ。"
+          ]
+        ],
+        "phraseLinks": [
+          "p379",
+          "p380",
+          "p3597",
+          "p3604",
+          "p3610",
+          "p386",
+          "p3611",
+          "p3593"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "granted",
+            "url": "https://app.notion.com/p/granted-3e6acb64a2a6819fbd72f6826882c5f8?pvs=21"
+          },
+          {
+            "headline": "pick a lane",
+            "url": "https://app.notion.com/p/pick-a-lane-3e6acb64a2a68180afe2d2a3181a913b?pvs=21"
+          },
+          {
+            "headline": "go behind someone's back",
+            "url": "https://app.notion.com/p/go-behind-someone-s-back-3e6acb64a2a68126866cf71c7397bbaf?pvs=21"
+          },
+          {
+            "headline": "take something seriously",
+            "url": "https://app.notion.com/p/take-something-seriously-3e6acb64a2a681de9301e52f5a3637bc?pvs=21"
+          },
+          {
+            "headline": "stand by ~",
+            "url": "https://app.notion.com/p/stand-by-3e6acb64a2a6813c89bbf96cb693ae17?pvs=21"
+          },
+          {
+            "headline": "make a scene",
+            "url": "https://app.notion.com/p/make-a-scene-3e6acb64a2a68195b846e992b3c0ac42?pvs=21"
+          },
+          {
+            "headline": "if you must know",
+            "url": "https://app.notion.com/p/if-you-must-know-3e6acb64a2a6810fa0b6c178de2c633c?pvs=21"
+          },
+          {
+            "headline": "settle down",
+            "url": "https://app.notion.com/p/settle-down-3e6acb64a2a681a38d75e2fde4ed3730?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-08",
+        "season": "Season 4",
+        "title": "新規クライアントとの契約を取るため対応を見直す",
+        "category": "仕事",
+        "lines": [
+          [
+            "A",
+            "Are we making any headway with the new client?",
+            "新しいクライアント、話進んでる？"
+          ],
+          [
+            "B",
+            "A little. I'm torn between pushing for a decision and giving them more space.",
+            "少しは。決断を促すか、もう少し時間あげるか迷ってる。"
+          ],
+          [
+            "A",
+            "Don't let them get the wrong idea and think we're desperate.",
+            "必死やと思われるような誤解はさせん方がいいな。"
+          ],
+          [
+            "B",
+            "Exactly. I don't want to scare them away.",
+            "そう。相手を引かせたくない。"
+          ],
+          [
+            "A",
+            "It never hurts to be transparent about the timeline.",
+            "スケジュールについて正直に伝えて損はないで。"
+          ],
+          [
+            "B",
+            "And maybe go out of our way to answer every question quickly?",
+            "あと、質問にはできるだけ早く答えるよう特に気を配るとか？"
+          ],
+          [
+            "A",
+            "That's how we gain their trust.",
+            "そうやって信頼得るんや。"
+          ],
+          [
+            "B",
+            "Otherwise we'll be right back where we started.",
+            "そうせんかったら、また振り出しに戻るな。"
+          ]
+        ],
+        "phraseLinks": [
+          "p389",
+          "p390",
+          "p3616",
+          "p3617",
+          "p3619",
+          "p396",
+          "p3620",
+          "p3621"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "go out of one’s way to ~",
+            "url": "https://app.notion.com/p/go-out-of-one-s-way-to-3e6acb64a2a68129944af0add24a4b04?pvs=21"
+          },
+          {
+            "headline": "make headway",
+            "url": "https://app.notion.com/p/make-headway-3e6acb64a2a6816f9f2afe8a1d8e0bc9?pvs=21"
+          },
+          {
+            "headline": "get the wrong idea",
+            "url": "https://app.notion.com/p/get-the-wrong-idea-3e6acb64a2a681609ee6de01e6a90c0a?pvs=21"
+          },
+          {
+            "headline": "it never hurts to ~",
+            "url": "https://app.notion.com/p/it-never-hurts-to-3e6acb64a2a681d19bf9e55bfc37c4f7?pvs=21"
+          },
+          {
+            "headline": "gain someone's trust",
+            "url": "https://app.notion.com/p/gain-someone-s-trust-3e6acb64a2a6810a8f57ef2216e500c9?pvs=21"
+          },
+          {
+            "headline": "torn",
+            "url": "https://app.notion.com/p/torn-3e6acb64a2a681e88873d0e58868369e?pvs=21"
+          },
+          {
+            "headline": "scare someone away",
+            "url": "https://app.notion.com/p/scare-someone-away-3e6acb64a2a681948acbe95b7afa6aaa?pvs=21"
+          },
+          {
+            "headline": "be right back where one started",
+            "url": "https://app.notion.com/p/be-right-back-where-one-started-3e6acb64a2a681fb9fe2f9c57a5d20ae?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-09",
+        "season": "Season 4",
+        "title": "社内コンテストに本気で挑む作戦を立てる",
+        "category": "仕事",
+        "lines": [
+          [
+            "A",
+            "If we're entering the contest, let's get a jump on things and start tonight.",
+            "コンテスト出るなら、先手打って今夜から始めよ。"
+          ],
+          [
+            "B",
+            "Fine, but I know squat about graphic design.",
+            "いいけど、私デザインのこと全然知らんで。"
+          ],
+          [
+            "A",
+            "Then I'll handle that part. We should go all out this time.",
+            "そこは私がやる。今回は本気で全部出し切ろ。"
+          ],
+          [
+            "B",
+            "That means giving up our free Saturday.",
+            "それやったら土曜の休み潰すことになるで。"
+          ],
+          [
+            "A",
+            "So be it. We said we wanted to win.",
+            "それならそれでいい。勝ちたいって言ったやん。"
+          ],
+          [
+            "B",
+            "I see your point. Want to raise the stakes and aim for the top prize?",
+            "言いたいことは分かる。じゃあもっと勝負かけて最優秀賞狙う？"
+          ],
+          [
+            "A",
+            "Challenge accepted.",
+            "その勝負、受けた。"
+          ]
+        ],
+        "phraseLinks": [
+          "p397",
+          "p3626",
+          "p3627",
+          "p3628",
+          "p3629",
+          "p398",
+          "p1095",
+          "p3634"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "get a jump on things",
+            "url": "https://app.notion.com/p/get-a-jump-on-things-3e6acb64a2a681db93d3fe69ad9ef995?pvs=21"
+          },
+          {
+            "headline": "go all out",
+            "url": "https://app.notion.com/p/go-all-out-3e6acb64a2a6816c96e0d95f8340e663?pvs=21"
+          },
+          {
+            "headline": "give something up",
+            "url": "https://app.notion.com/p/give-something-up-3e6acb64a2a681638fadf4aed82c2de4?pvs=21"
+          },
+          {
+            "headline": "so be it",
+            "url": "https://app.notion.com/p/so-be-it-3e6acb64a2a681f989f2f83816856c27?pvs=21"
+          },
+          {
+            "headline": "I see your point.",
+            "url": "https://app.notion.com/p/I-see-your-point-3e6acb64a2a6814aabcde9189122395a?pvs=21"
+          },
+          {
+            "headline": "know squat",
+            "url": "https://app.notion.com/p/know-squat-3e6acb64a2a681c4b32cdf0776c7a781?pvs=21"
+          },
+          {
+            "headline": "Challenge accepted",
+            "url": "https://app.notion.com/p/Challenge-accepted-3e6acb64a2a6812c8d2cda2266987813?pvs=21"
+          },
+          {
+            "headline": "raise the stakes",
+            "url": "https://app.notion.com/p/raise-the-stakes-3e6acb64a2a68105a6bdd90e6a86e539?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-10",
+        "season": "Season 4",
+        "title": "気になる相手に自分からアプローチするか相談する",
+        "category": "恋愛",
+        "lines": [
+          [
+            "A",
+            "Is it just me, or is there real chemistry between me and Alex?",
+            "私だけ？アレックスと私、ほんまにいい感じちゃう？"
+          ],
+          [
+            "B",
+            "There is. You're not jumping to conclusions.",
+            "あるある。早とちりちゃうで。"
+          ],
+          [
+            "A",
+            "So should I make the first move?",
+            "じゃあ私から動いた方がいい？"
+          ],
+          [
+            "B",
+            "Definitely. Confidence is a turn-on.",
+            "絶対。自信あるのって魅力的やし。"
+          ],
+          [
+            "A",
+            "I was thinking of playing hard to get.",
+            "ちょっと焦らそうかなと思ってた。"
+          ],
+          [
+            "B",
+            "Why? What are the odds that helps more than just asking him out?",
+            "なんで？普通に誘うよりそれが効く確率どれくらいあるん？"
+          ],
+          [
+            "A",
+            "Fair point. And if it doesn't pan out, at least I'll know.",
+            "確かに。うまくいかんくても、少なくとも結果は分かるな。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3635",
+          "p412",
+          "p413",
+          "p415",
+          "p3638",
+          "p417",
+          "p426",
+          "p3647"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "Is it just me, or ~?",
+            "url": "https://app.notion.com/p/Is-it-just-me-or-3e6acb64a2a68195b4affbe7a6910d2a?pvs=21"
+          },
+          {
+            "headline": "chemistry",
+            "url": "https://app.notion.com/p/chemistry-3e6acb64a2a681389a8dfaf3df40fc94?pvs=21"
+          },
+          {
+            "headline": "jump to conclusions",
+            "url": "https://app.notion.com/p/jump-to-conclusions-3e6acb64a2a6811e838efd7cb640d920?pvs=21"
+          },
+          {
+            "headline": "turn-on",
+            "url": "https://app.notion.com/p/turn-on-3e6acb64a2a681b8834bd10443a464aa?pvs=21"
+          },
+          {
+            "headline": "make the first move",
+            "url": "https://app.notion.com/p/make-the-first-move-3e6acb64a2a6817da615cd846bd5046b?pvs=21"
+          },
+          {
+            "headline": "pan out",
+            "url": "https://app.notion.com/p/pan-out-3e6acb64a2a681a599a8fd64035747b3?pvs=21"
+          },
+          {
+            "headline": "play hard to get",
+            "url": "https://app.notion.com/p/play-hard-to-get-3e6acb64a2a6815cb8c0c76bb1d1f847?pvs=21"
+          },
+          {
+            "headline": "What are the odds?",
+            "url": "https://app.notion.com/p/What-are-the-odds-3e6acb64a2a681ffadaefb8c66111813?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-11",
+        "season": "Season 4",
+        "title": "遅れている同僚の代わりに発表準備を立て直す",
+        "category": "仕事",
+        "lines": [
+          [
+            "A",
+            "Maya's running a little late, so I need you to fill in for her.",
+            "マヤがちょっと遅れてるから、代わりに入ってほしい。"
+          ],
+          [
+            "B",
+            "Your timing couldn't be better. I just finished my own slides.",
+            "ちょうどよかった。自分のスライド今終わったとこ。"
+          ],
+          [
+            "A",
+            "Great. I left the handouts to the last minute, and we're screwed if they aren't ready.",
+            "助かる。資料をぎりぎりまで放置してて、間に合わんかったら終わりや。"
+          ],
+          [
+            "B",
+            "Relax. I've got the printer under control.",
+            "落ち着いて。プリンターは任せて。"
+          ],
+          [
+            "A",
+            "That backup laptop may come in handy too.",
+            "予備のノートPCも役に立つかも。"
+          ],
+          [
+            "B",
+            "Good. We can get a lot of use out of it during the demo.",
+            "いいね。デモでもかなり使えそう。"
+          ],
+          [
+            "A",
+            "Thanks. I owe you one.",
+            "ありがとう。借り一つやな。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3606",
+          "p3594",
+          "p3596",
+          "p3649",
+          "p3665",
+          "p3637",
+          "p3548",
+          "p3602"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "fill in for someone",
+            "url": "https://app.notion.com/p/fill-in-for-someone-3e6acb64a2a6819fbb3bd38fb8a00d39?pvs=21"
+          },
+          {
+            "headline": "run a little late",
+            "url": "https://app.notion.com/p/run-a-little-late-3e6acb64a2a6818d86ebd9e0e9ee7fab?pvs=21"
+          },
+          {
+            "headline": "Your timing couldn't be better.",
+            "url": "https://app.notion.com/p/Your-timing-couldn-t-be-better-3e6acb64a2a68119a51cc9801ffe739c?pvs=21"
+          },
+          {
+            "headline": "have something under control",
+            "url": "https://app.notion.com/p/have-something-under-control-3e6acb64a2a6813592d9ff286e44008c?pvs=21"
+          },
+          {
+            "headline": "leave something to the last minute",
+            "url": "https://app.notion.com/p/leave-something-to-the-last-minute-3e6acb64a2a6811f99bbe11537f3c092?pvs=21"
+          },
+          {
+            "headline": "be screwed",
+            "url": "https://app.notion.com/p/be-screwed-3e6acb64a2a6815b881ae01a5d4eac2f?pvs=21"
+          },
+          {
+            "headline": "come in handy",
+            "url": "https://app.notion.com/p/come-in-handy-3e6acb64a2a681ad9f8fcfcf4022af78?pvs=21"
+          },
+          {
+            "headline": "get a lot of use out of ~",
+            "url": "https://app.notion.com/p/get-a-lot-of-use-out-of-3e6acb64a2a6813fb3e4d175d0722f31?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-12",
+        "season": "Season 4",
+        "title": "共同生活の出費をめぐって精算する",
+        "category": "日常",
+        "lines": [
+          [
+            "A",
+            "Enough is enough. You still haven't paid your half of the utilities.",
+            "もうええ加減にして。光熱費の半分、まだ払ってへんやん。"
+          ],
+          [
+            "B",
+            "I'm not being stingy. I just forgot.",
+            "ケチってるんちゃう。ただ忘れてただけ。"
+          ],
+          [
+            "A",
+            "Then fork over the forty bucks.",
+            "じゃあ40ドル払って。"
+          ],
+          [
+            "B",
+            "Forty? I thought it was thirty.",
+            "40？30やと思ってた。"
+          ],
+          [
+            "A",
+            "The least you can do is check the bill before arguing.",
+            "文句言う前に請求書確認するくらいはしてよ。"
+          ],
+          [
+            "B",
+            "Fine, I'll cough it up.",
+            "分かった、払うって。"
+          ],
+          [
+            "A",
+            "Good. People dodging shared bills is my biggest pet peeve.",
+            "よかった。共同の支払い逃げる人、ほんま一番嫌いやねん。"
+          ],
+          [
+            "B",
+            "Message received. I'll pay the piper and we'll even things out tonight.",
+            "分かったって。払うもん払って、今夜きっちり精算する。"
+          ]
+        ],
+        "phraseLinks": [
+          "p1094",
+          "p3582",
+          "p401",
+          "p1096",
+          "p402",
+          "p404",
+          "p358",
+          "p427"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "stingy",
+            "url": "https://app.notion.com/p/stingy-3e6acb64a2a6818bafeed81a4415e253?pvs=21"
+          },
+          {
+            "headline": "the least someone can do",
+            "url": "https://app.notion.com/p/the-least-someone-can-do-3e6acb64a2a681e5925fc035b9d776bc?pvs=21"
+          },
+          {
+            "headline": "fork something over",
+            "url": "https://app.notion.com/p/fork-something-over-3e6acb64a2a681ecb4cbf07d16f2b203?pvs=21"
+          },
+          {
+            "headline": "cough something up",
+            "url": "https://app.notion.com/p/cough-something-up-3e6acb64a2a68148957ff0e1283e7b6f?pvs=21"
+          },
+          {
+            "headline": "pay the piper",
+            "url": "https://app.notion.com/p/pay-the-piper-3e6acb64a2a681d09151cf816d54fb6f?pvs=21"
+          },
+          {
+            "headline": "pet peeve",
+            "url": "https://app.notion.com/p/pet-peeve-3e6acb64a2a681ea9807c5f22b4d5d35?pvs=21"
+          },
+          {
+            "headline": "Enough is enough",
+            "url": "https://app.notion.com/p/Enough-is-enough-3e6acb64a2a681368fa2c62a7c34ee36?pvs=21"
+          },
+          {
+            "headline": "even things out",
+            "url": "https://app.notion.com/p/even-things-out-3e6acb64a2a68109a5afd9e7750cc342?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-13",
+        "season": "Season 4",
+        "title": "雨の週末旅行を途中で切り上げるか決める",
+        "category": "旅行",
+        "lines": [
+          [
+            "A",
+            "I call shotgun when we leave tomorrow.",
+            "明日出発する時、助手席は私な。"
+          ],
+          [
+            "B",
+            "Tomorrow? It's pouring down rain. I thought we might cut the trip short.",
+            "明日？土砂降りやで。旅行切り上げようかと思ってた。"
+          ],
+          [
+            "A",
+            "Seriously? I was craving one more day away.",
+            "ほんまに？もう一日ゆっくりしたかったのに。"
+          ],
+          [
+            "B",
+            "We could spice things up and find something indoors.",
+            "ちょっと趣向変えて、室内で何か探してもいいけど。"
+          ],
+          [
+            "A",
+            "What a coincidence! The hotel just sent me a coupon for their cooking class.",
+            "なんという偶然！ホテルから料理教室のクーポン今来た。"
+          ],
+          [
+            "B",
+            "Perfect. Dig in after class?",
+            "いいやん。終わったら食べまくる？"
+          ],
+          [
+            "A",
+            "Absolutely. I'm all set now.",
+            "もちろん。もう準備万端や。"
+          ]
+        ],
+        "phraseLinks": [
+          "p408",
+          "p3662",
+          "p3633",
+          "p1097",
+          "p3640",
+          "p3663",
+          "p3674",
+          "p357"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "call shotgun",
+            "url": "https://app.notion.com/p/call-shotgun-3e6acb64a2a681839eb7cd018e2a40a1?pvs=21"
+          },
+          {
+            "headline": "Dig in!",
+            "url": "https://app.notion.com/p/Dig-in-3e6acb64a2a681f2bd6adc292618bfa5?pvs=21"
+          },
+          {
+            "headline": "spice something up",
+            "url": "https://app.notion.com/p/spice-something-up-3e6acb64a2a681019d54ef1a517fd100?pvs=21"
+          },
+          {
+            "headline": "crave",
+            "url": "https://app.notion.com/p/crave-3e6acb64a2a681f6b1b4caee4dd7ddd5?pvs=21"
+          },
+          {
+            "headline": "It's pouring down rain.",
+            "url": "https://app.notion.com/p/It-s-pouring-down-rain-3e6acb64a2a68182ad82e1d3bf2b59f1?pvs=21"
+          },
+          {
+            "headline": "cut a trip short",
+            "url": "https://app.notion.com/p/cut-a-trip-short-3e6acb64a2a681fb863ae87d3badda77?pvs=21"
+          },
+          {
+            "headline": "What a coincidence!",
+            "url": "https://app.notion.com/p/What-a-coincidence-3e6acb64a2a6812aaab9c6b810bd75be?pvs=21"
+          },
+          {
+            "headline": "I’m all set",
+            "url": "https://app.notion.com/p/I-m-all-set-3e6acb64a2a6814a8ab1f83e69dac2c2?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-14",
+        "season": "Season 4",
+        "title": "強引な上司に仕事の進め方をはっきり伝える",
+        "category": "仕事",
+        "lines": [
+          [
+            "A",
+            "I've had it up to here with the “my way or the highway” routine.",
+            "「俺のやり方に従え」みたいなん、もう限界や。"
+          ],
+          [
+            "B",
+            "Careful. He'll say you're talking back to him.",
+            "気をつけや。口答えしてるって言われるで。"
+          ],
+          [
+            "A",
+            "Then I'll come out and say it: the deadline is unrealistic.",
+            "じゃあはっきり言う。あの締切は無理がある。"
+          ],
+          [
+            "B",
+            "Have you brought it up with him directly?",
+            "本人に直接その話した？"
+          ],
+          [
+            "A",
+            "Not yet. I was thinking of a preemptive strike in tomorrow's meeting.",
+            "まだ。明日の会議で先にこっちから切り込もうかと思ってる。"
+          ],
+          [
+            "B",
+            "Go easy on him at first. If you attack, you won't leave him much choice but to push back.",
+            "最初は少し穏やかにいき。攻撃的に出たら、向こうも反発するしかなくなる。"
+          ],
+          [
+            "A",
+            "Fair. I'll stick to the workload and the numbers.",
+            "そうやな。業務量と数字だけで話す。"
+          ]
+        ],
+        "phraseLinks": [
+          "p394",
+          "p3618",
+          "p3623",
+          "p435",
+          "p432",
+          "p421",
+          "p3645",
+          "p419"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "I’ve had it up to here",
+            "url": "https://app.notion.com/p/I-ve-had-it-up-to-here-3e6acb64a2a681f7aeddc9074670670a?pvs=21"
+          },
+          {
+            "headline": "my way or the highway",
+            "url": "https://app.notion.com/p/my-way-or-the-highway-3e6acb64a2a6816c9536d63cf17dd690?pvs=21"
+          },
+          {
+            "headline": "talk back to someone",
+            "url": "https://app.notion.com/p/talk-back-to-someone-3e6acb64a2a681c19548ef0348d0e70e?pvs=21"
+          },
+          {
+            "headline": "Come out and say it",
+            "url": "https://app.notion.com/p/Come-out-and-say-it-3e6acb64a2a68177b1fcd51930f89036?pvs=21"
+          },
+          {
+            "headline": "bring something up with someone",
+            "url": "https://app.notion.com/p/bring-something-up-with-someone-3e6acb64a2a681baa89fc1886740f677?pvs=21"
+          },
+          {
+            "headline": "not leave someone much choice",
+            "url": "https://app.notion.com/p/not-leave-someone-much-choice-3e6acb64a2a6812ca05ee19e362a25aa?pvs=21"
+          },
+          {
+            "headline": "go easy on someone",
+            "url": "https://app.notion.com/p/go-easy-on-someone-3e6acb64a2a681daa984e121741b1d98?pvs=21"
+          },
+          {
+            "headline": "preemptive strike",
+            "url": "https://app.notion.com/p/preemptive-strike-3e6acb64a2a681299179e85abeb6769f?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-15",
+        "season": "Season 4",
+        "title": "友人同士の勝負のルールと賭けを決める",
+        "category": "友人",
+        "lines": [
+          [
+            "A",
+            "Ten bucks says I beat you at darts tonight.",
+            "10ドル賭けてもいい。今夜ダーツで私が勝つ。"
+          ],
+          [
+            "B",
+            "You're on. But I only have one shot before I leave.",
+            "乗った。でも帰る前に一回勝負しかできへん。"
+          ],
+          [
+            "A",
+            "I'm in favor of winner takes all, then.",
+            "じゃあ総取りルールに賛成。"
+          ],
+          [
+            "B",
+            "Fine, as long as we play fair and square.",
+            "いいよ。正々堂々やるなら。"
+          ],
+          [
+            "A",
+            "And if I win, you trade me your dessert for my fries. Even trade.",
+            "私が勝ったら、私のポテトとあんたのデザート交換な。対等な交換やろ。"
+          ],
+          [
+            "B",
+            "Hands down the weirdest bet you've suggested.",
+            "今までで文句なしに一番変な賭けやな。"
+          ],
+          [
+            "A",
+            "Maybe. But at what cost are you willing to protect that cheesecake?",
+            "そうかも。でもそのチーズケーキ守るためにどこまで賭ける？"
+          ]
+        ],
+        "phraseLinks": [
+          "p399",
+          "p3632",
+          "p405",
+          "p3668",
+          "p447",
+          "p3667",
+          "p461",
+          "p3648"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "ten bucks says ~",
+            "url": "https://app.notion.com/p/ten-bucks-says-3e6acb64a2a681f38ef4d2acde4f9ba4?pvs=21"
+          },
+          {
+            "headline": "have one shot",
+            "url": "https://app.notion.com/p/have-one-shot-3e6acb64a2a681a8bc4fe65987e68c36?pvs=21"
+          },
+          {
+            "headline": "in favor of ~",
+            "url": "https://app.notion.com/p/in-favor-of-3e6acb64a2a6813a82d3fcc2bc6b1b1c?pvs=21"
+          },
+          {
+            "headline": "winner takes all",
+            "url": "https://app.notion.com/p/winner-takes-all-3e6acb64a2a681a7883df0717b618856?pvs=21"
+          },
+          {
+            "headline": "fair and square",
+            "url": "https://app.notion.com/p/fair-and-square-3e6acb64a2a6815c8f31c5c0a47508e3?pvs=21"
+          },
+          {
+            "headline": "an even trade",
+            "url": "https://app.notion.com/p/an-even-trade-3e6acb64a2a681d7886ad43737d3b2fb?pvs=21"
+          },
+          {
+            "headline": "hands down",
+            "url": "https://app.notion.com/p/hands-down-3e6acb64a2a681029146ce49598561fd?pvs=21"
+          },
+          {
+            "headline": "at what cost?",
+            "url": "https://app.notion.com/p/at-what-cost-3e6acb64a2a6819e9538c75df89fb93a?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-16",
+        "season": "Season 4",
+        "title": "泊まりに来た友人の滞在予定をすり合わせる",
+        "category": "友人",
+        "lines": [
+          [
+            "A",
+            "Let me show you around before I run errands.",
+            "用事行く前に家の中案内するわ。"
+          ],
+          [
+            "B",
+            "Thanks. I don't want to be in your hair all weekend.",
+            "ありがとう。週末ずっと邪魔したくないし。"
+          ],
+          [
+            "A",
+            "You're fine. I'll be out of your hair when you need some quiet, and we can work around your schedule.",
+            "大丈夫。静かにしたい時は邪魔せえへんし、あんたの予定に合わせられるで。"
+          ],
+          [
+            "B",
+            "Good, because I'm a light sleeper and may crash early tonight.",
+            "よかった。私眠り浅いし、今夜早めに寝るかも。"
+          ],
+          [
+            "A",
+            "No problem. Just soak up the quiet while you can.",
+            "全然いいよ。静かなうちに満喫しとき。"
+          ],
+          [
+            "B",
+            "Sounds perfect. I'm in a mellow mood anyway.",
+            "最高。ちょうどゆっくりしたい気分やし。"
+          ],
+          [
+            "A",
+            "And if anyone asks, you're officially on vacation.",
+            "あと誰かに聞かれたら、正式に休暇中ってことで。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3659",
+          "p439",
+          "p3657",
+          "p3672",
+          "p3671",
+          "p3643",
+          "p456",
+          "p3678"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "show someone around",
+            "url": "https://app.notion.com/p/show-someone-around-3e6acb64a2a681459eafdb40ddbbcdb3?pvs=21"
+          },
+          {
+            "headline": "be out of someone’s hair",
+            "url": "https://app.notion.com/p/be-out-of-someone-s-hair-3e6acb64a2a681e3bb1bc19112a6a69b?pvs=21"
+          },
+          {
+            "headline": "work around someone’s schedule",
+            "url": "https://app.notion.com/p/work-around-someone-s-schedule-3e6acb64a2a681468956d20d298f1ed9?pvs=21"
+          },
+          {
+            "headline": "run errands",
+            "url": "https://app.notion.com/p/run-errands-3e6acb64a2a681a2918bed941a1fc46d?pvs=21"
+          },
+          {
+            "headline": "a light sleeper",
+            "url": "https://app.notion.com/p/a-light-sleeper-3e6acb64a2a681d990c0ea3ae05608c0?pvs=21"
+          },
+          {
+            "headline": "soak up ~",
+            "url": "https://app.notion.com/p/soak-up-3e6acb64a2a68184b958ee16dae4e4d8?pvs=21"
+          },
+          {
+            "headline": "mellow",
+            "url": "https://app.notion.com/p/mellow-3e6acb64a2a681758aacf4e19d2ab490?pvs=21"
+          },
+          {
+            "headline": "If anyone asks, ~",
+            "url": "https://app.notion.com/p/If-anyone-asks-3e6acb64a2a681acbc35e29a479cc93a?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-17",
+        "season": "Season 4",
+        "title": "体調不良で旅行を延期するか相談する",
+        "category": "健康",
+        "lines": [
+          [
+            "A",
+            "I think I'm coming down with something.",
+            "なんか風邪ひきかけてる気がする。"
+          ],
+          [
+            "B",
+            "Then take a couple of days off.",
+            "じゃあ2、3日休み。"
+          ],
+          [
+            "A",
+            "I can't. The trip is Friday.",
+            "無理。旅行金曜やもん。"
+          ],
+          [
+            "B",
+            "Postpone it.",
+            "延期し。"
+          ],
+          [
+            "A",
+            "That's not an option. Everything's booked.",
+            "それは無理。全部予約済みやし。"
+          ],
+          [
+            "B",
+            "Then get a second opinion before you decide.",
+            "じゃあ決める前に別の医者にも診てもらい。"
+          ],
+          [
+            "A",
+            "I'm already bummed just thinking about canceling.",
+            "キャンセル考えるだけでもうへこんでる。"
+          ],
+          [
+            "B",
+            "Shame about the timing, but save yourself the time and stress if you're too sick to go.",
+            "タイミング悪いのは残念やけど、しんどいなら無理して時間も労力も使わん方がいいで。"
+          ]
+        ],
+        "phraseLinks": [
+          "p409",
+          "p3630",
+          "p3682",
+          "p3685",
+          "p3686",
+          "p462",
+          "p453",
+          "p3681"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "come down with something",
+            "url": "https://app.notion.com/p/come-down-with-something-3e6acb64a2a681d3b925ffc45435473a?pvs=21"
+          },
+          {
+            "headline": "get a second opinion",
+            "url": "https://app.notion.com/p/get-a-second-opinion-3e6acb64a2a681a1ba95f7b0c130cb3c?pvs=21"
+          },
+          {
+            "headline": "take a couple of days off",
+            "url": "https://app.notion.com/p/take-a-couple-of-days-off-3e6acb64a2a681fa931cf51e487f9d58?pvs=21"
+          },
+          {
+            "headline": "postpone ~",
+            "url": "https://app.notion.com/p/postpone-3e6acb64a2a681d7a49dcfad08ad7194?pvs=21"
+          },
+          {
+            "headline": "not an option",
+            "url": "https://app.notion.com/p/not-an-option-3e6acb64a2a6815aae8bca8da24b3e5c?pvs=21"
+          },
+          {
+            "headline": "bummed",
+            "url": "https://app.notion.com/p/bummed-3e6acb64a2a68103a7abe866cbd84b58?pvs=21"
+          },
+          {
+            "headline": "shame about ~",
+            "url": "https://app.notion.com/p/shame-about-3e6acb64a2a681938207df9d727c006e?pvs=21"
+          },
+          {
+            "headline": "save yourself the time",
+            "url": "https://app.notion.com/p/save-yourself-the-time-3e6acb64a2a68154b6c5d62c3f02b798?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-18",
+        "season": "Season 4",
+        "title": "転職するか迷う友人の背中を押す",
+        "category": "仕事",
+        "lines": [
+          [
+            "A",
+            "You're clearly in the market for a new job.",
+            "明らかに新しい仕事探してるやん。"
+          ],
+          [
+            "B",
+            "I am, but my current company has a promotion on hold for me.",
+            "そうやけど、今の会社で昇進の話が保留になってて。"
+          ],
+          [
+            "A",
+            "You need enough information to make an informed decision.",
+            "ちゃんと情報集めて判断した方がいいな。"
+          ],
+          [
+            "B",
+            "I keep thinking maybe one of these days it'll work out here.",
+            "いつか今の会社でもうまくいくかもって思ってまう。"
+          ],
+          [
+            "A",
+            "Or one of these days you'll finally get off your butt and apply somewhere else.",
+            "あるいは、いつかやっと重い腰上げて他に応募するかやな。"
+          ],
+          [
+            "B",
+            "Harsh, but fair.",
+            "きついけど正しい。"
+          ],
+          [
+            "A",
+            "It may be now or never. You can always come back to this field somewhere down the road.",
+            "今しかないかもやで。将来またこの業界に戻ることもできるし。"
+          ],
+          [
+            "B",
+            "True. Things don't always work out the way you thought.",
+            "そうやな。物事って思った通りにはいかんもんな。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3684",
+          "p3687",
+          "p464",
+          "p3677",
+          "p3676",
+          "p449",
+          "p3675",
+          "p3673"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "be in the market for ~",
+            "url": "https://app.notion.com/p/be-in-the-market-for-3e6acb64a2a6818e982ff102eb524ade?pvs=21"
+          },
+          {
+            "headline": "make an informed decision",
+            "url": "https://app.notion.com/p/make-an-informed-decision-3e6acb64a2a6819791a0de1b35fa99a5?pvs=21"
+          },
+          {
+            "headline": "now or never",
+            "url": "https://app.notion.com/p/now-or-never-3e6acb64a2a68100a255ef2d5147e057?pvs=21"
+          },
+          {
+            "headline": "one of these days",
+            "url": "https://app.notion.com/p/one-of-these-days-3e6acb64a2a6812eaa52ec066adfe7a8?pvs=21"
+          },
+          {
+            "headline": "get off one’s butt",
+            "url": "https://app.notion.com/p/get-off-one-s-butt-3e6acb64a2a681b2a848efcc446ab506?pvs=21"
+          },
+          {
+            "headline": "somewhere down the road",
+            "url": "https://app.notion.com/p/somewhere-down-the-road-3e6acb64a2a6812f9cc5ceaf607990b6?pvs=21"
+          },
+          {
+            "headline": "things don’t work out the way you thought",
+            "url": "https://app.notion.com/p/things-don-t-work-out-the-way-you-thought-3e6acb64a2a68163acb6e93a41bd34f1?pvs=21"
+          },
+          {
+            "headline": "have something on hold",
+            "url": "https://app.notion.com/p/have-something-on-hold-3e6acb64a2a681fe8b6ff91045b07857?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-19",
+        "season": "Season 4",
+        "title": "大げんかした友人と仲直りの条件を話し合う",
+        "category": "友人",
+        "lines": [
+          [
+            "A",
+            "I brought coffee as a peace offering.",
+            "仲直りの印にコーヒー持ってきた。"
+          ],
+          [
+            "B",
+            "Fine, but don't throw yesterday's mistake in my face again.",
+            "いいけど、昨日のミスまた持ち出さんといて。"
+          ],
+          [
+            "A",
+            "I won't. And I shouldn't have kicked you when you were down.",
+            "せえへん。それに落ち込んでる時に追い打ちかけたのも悪かった。"
+          ],
+          [
+            "B",
+            "Good. And don't take that tone with me when we disagree.",
+            "うん。あと意見違っても、その言い方はやめて。"
+          ],
+          [
+            "A",
+            "Fair. No good can come of us yelling at each other.",
+            "分かった。怒鳴り合ってもいいことないしな。"
+          ],
+          [
+            "B",
+            "Then let's meet in the middle.",
+            "じゃあお互い歩み寄ろ。"
+          ],
+          [
+            "A",
+            "Deal. And if you laugh in my face, you can kiss this coffee goodbye.",
+            "決まり。もし笑ったら、このコーヒーは諦めてもらうで。"
+          ]
+        ],
+        "phraseLinks": [
+          "p414",
+          "p3661",
+          "p3669",
+          "p469",
+          "p471",
+          "p472",
+          "p468",
+          "p3690"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "throw something in someone’s face",
+            "url": "https://app.notion.com/p/throw-something-in-someone-s-face-3e6acb64a2a681f3b852c7266d482edd?pvs=21"
+          },
+          {
+            "headline": "kick someone when they’re down",
+            "url": "https://app.notion.com/p/kick-someone-when-they-re-down-3e6acb64a2a6814787abedc31957f5d3?pvs=21"
+          },
+          {
+            "headline": "a peace offering",
+            "url": "https://app.notion.com/p/a-peace-offering-3e6acb64a2a6818ca1d0dcf172686598?pvs=21"
+          },
+          {
+            "headline": "Don’t take that tone with me",
+            "url": "https://app.notion.com/p/Don-t-take-that-tone-with-me-3e6acb64a2a6814f8ddbcfe7446847f8?pvs=21"
+          },
+          {
+            "headline": "No good can come of this",
+            "url": "https://app.notion.com/p/No-good-can-come-of-this-3e6acb64a2a681339975d1d770463608?pvs=21"
+          },
+          {
+            "headline": "meet someone in the middle",
+            "url": "https://app.notion.com/p/meet-someone-in-the-middle-3e6acb64a2a6815684bdf9a98ffe696d?pvs=21"
+          },
+          {
+            "headline": "laugh in someone’s face",
+            "url": "https://app.notion.com/p/laugh-in-someone-s-face-3e6acb64a2a6815bbbc9c3d19c41cea4?pvs=21"
+          },
+          {
+            "headline": "kiss something goodbye",
+            "url": "https://app.notion.com/p/kiss-something-goodbye-3e6acb64a2a681628cbcd991b6b4a8d0?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-20",
+        "season": "Season 4",
+        "title": "プレゼン案を絞り込んで説得力を上げる",
+        "category": "仕事",
+        "lines": [
+          [
+            "A",
+            "Base the forecast on last quarter's data, not guesses.",
+            "予測は勘じゃなくて前四半期のデータを基にして。"
+          ],
+          [
+            "B",
+            "I know. Any analyst worth their salt would do that.",
+            "分かってる。それくらいまともな分析担当ならやる。"
+          ],
+          [
+            "A",
+            "Good, because the current version is a lost cause.",
+            "よかった。今の版はもう救いようないから。"
+          ],
+          [
+            "B",
+            "You're really trying to rile me up today.",
+            "今日はほんま私をイラつかせようとしてるな。"
+          ],
+          [
+            "A",
+            "No, I'm trying to stop you from rambling on for twenty minutes.",
+            "違う。20分もだらだら話すの止めたいだけ。"
+          ],
+          [
+            "B",
+            "Fine. I won't pull a Kevin and read every slide word for word.",
+            "分かった。ケビンみたいにスライド全部一字一句読むのはやめる。"
+          ],
+          [
+            "A",
+            "Good. And don't suck me into another all-nighter.",
+            "よし。あとまた徹夜に巻き込まんといて。"
+          ],
+          [
+            "B",
+            "Deal. We'll leave a little to the imagination and keep the pitch tight.",
+            "決まり。少し余白も残して、プレゼンは簡潔にまとめる。"
+          ]
+        ],
+        "phraseLinks": [
+          "p416",
+          "p418",
+          "p3641",
+          "p407",
+          "p354",
+          "p363",
+          "p355",
+          "p3655"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "base A on B",
+            "url": "https://app.notion.com/p/base-A-on-B-3e6acb64a2a681259225d46ddcf8b6a8?pvs=21"
+          },
+          {
+            "headline": "worth one’s salt",
+            "url": "https://app.notion.com/p/worth-one-s-salt-3e6acb64a2a6818c804fd4e96d610a2e?pvs=21"
+          },
+          {
+            "headline": "a lost cause",
+            "url": "https://app.notion.com/p/a-lost-cause-3e6acb64a2a681c49681f223f5838a9c?pvs=21"
+          },
+          {
+            "headline": "rile someone up",
+            "url": "https://app.notion.com/p/rile-someone-up-3e6acb64a2a681209a9dc62951d94899?pvs=21"
+          },
+          {
+            "headline": "ramble on",
+            "url": "https://app.notion.com/p/ramble-on-3e6acb64a2a68101b5fbc25798eedf10?pvs=21"
+          },
+          {
+            "headline": "pull a [name]",
+            "url": "https://app.notion.com/p/pull-a-name-3e6acb64a2a681e4ba35d1e9f116bbde?pvs=21"
+          },
+          {
+            "headline": "suck someone into ~",
+            "url": "https://app.notion.com/p/suck-someone-into-3e6acb64a2a681dbba3cc365a27ca084?pvs=21"
+          },
+          {
+            "headline": "leave something to the imagination",
+            "url": "https://app.notion.com/p/leave-something-to-the-imagination-3e6acb64a2a681d9ab3de4991aa6a7ac?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-21",
+        "season": "Season 4",
+        "title": "突然退職した同僚の後任と業務への影響を話す",
+        "category": "仕事",
+        "lines": [
+          [
+            "A",
+            "Did you hear Maya resigned this morning?",
+            "マヤ、今朝辞めたって聞いた？"
+          ],
+          [
+            "B",
+            "Yeah. I didn’t see that coming.",
+            "うん。あれは予想してなかった。"
+          ],
+          [
+            "A",
+            "Do you know why she left?",
+            "なんで辞めたか知ってる？"
+          ],
+          [
+            "B",
+            "I’m not at liberty to say.",
+            "それは私からは言えへん。"
+          ],
+          [
+            "A",
+            "Fair enough. In terms of workload, who’s going to fill her shoes?",
+            "そっか。仕事量の面では、誰が後任になるん？"
+          ],
+          [
+            "B",
+            "Probably me for now. One sudden resignation can snowball pretty fast.",
+            "とりあえず私かな。急な退職一つで、いろんなこと一気に広がるからな。"
+          ],
+          [
+            "A",
+            "Just don’t lay into management before you know the whole story.",
+            "全部事情分かる前に、上の人らを責め立てるのはやめとき。"
+          ],
+          [
+            "B",
+            "I won’t. If we keep the clients covered, that’s what counts.",
+            "せえへん。クライアント対応さえ止めへんかったら、それが一番大事や。"
+          ]
+        ],
+        "phraseLinks": [
+          "p444",
+          "p467",
+          "p3625",
+          "p3679",
+          "p3614",
+          "p3609",
+          "p445"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "I didn’t see that coming",
+            "url": "https://app.notion.com/p/I-didn-t-see-that-coming-3e6acb64a2a6819f9808f555e9960c2b?pvs=21"
+          },
+          {
+            "headline": "I’m not at liberty to ~",
+            "url": "https://app.notion.com/p/I-m-not-at-liberty-to-3e6acb64a2a6811c9563e1c6b4de3164?pvs=21"
+          },
+          {
+            "headline": "fill someone's shoes",
+            "url": "https://app.notion.com/p/fill-someone-s-shoes-3e6acb64a2a681578986eda6278bbf14?pvs=21"
+          },
+          {
+            "headline": "in terms of ~",
+            "url": "https://app.notion.com/p/in-terms-of-3e6acb64a2a6810089f5d9380dbb4c5c?pvs=21"
+          },
+          {
+            "headline": "snowball",
+            "url": "https://app.notion.com/p/snowball-3e6acb64a2a68173b663d2db9f99cd07?pvs=21"
+          },
+          {
+            "headline": "lay into someone/something",
+            "url": "https://app.notion.com/p/lay-into-someone-something-3e6acb64a2a6815cb91dfae8d00eacd9?pvs=21"
+          },
+          {
+            "headline": "That’s what counts",
+            "url": "https://app.notion.com/p/That-s-what-counts-3e6acb64a2a6816bbd5fd8293e7dd396?pvs=21"
+          }
+        ]
+      },
+      {
+        "id": "S4-NEW-22",
+        "season": "Season 4",
+        "title": "緊張している友人をデートに送り出す",
+        "category": "恋愛",
+        "lines": [
+          [
+            "A",
+            "You’re really thinking about canceling the date?",
+            "ほんまにデートキャンセルしようとしてるん？"
+          ],
+          [
+            "B",
+            "I’m too nervous. That message notification just scared the bejesus out of me.",
+            "緊張しすぎてる。今の通知音だけでめっちゃびびった。"
+          ],
+          [
+            "A",
+            "First, lay off the energy drinks.",
+            "まずエナジードリンク控え。"
+          ],
+          [
+            "B",
+            "Easy for you to say.",
+            "言うのは簡単やけどな。"
+          ],
+          [
+            "A",
+            "Don’t make the mistake of canceling just because you’re nervous. You’re a great catch.",
+            "緊張してるってだけでキャンセルする失敗はせんとき。あんた十分魅力あるで。"
+          ],
+          [
+            "B",
+            "You’re really trying to talk me into going, huh?",
+            "ほんまに私を行かせようとしてるな。"
+          ],
+          [
+            "A",
+            "Absolutely. I can even swing twenty bucks for a cab if that helps.",
+            "もちろん。必要ならタクシー代20ドルくらいならなんとか出せるで。"
+          ]
+        ],
+        "phraseLinks": [
+          "p3622",
+          "p403",
+          "p429",
+          "p3651",
+          "p3656",
+          "p365"
+        ],
+        "sourceRelations": [
+          {
+            "headline": "be a great catch",
+            "url": "https://app.notion.com/p/be-a-great-catch-3e6acb64a2a68174a1f4eff8db19b4cf?pvs=21"
+          },
+          {
+            "headline": "scare the bejesus out of someone",
+            "url": "https://app.notion.com/p/scare-the-bejesus-out-of-someone-3e6acb64a2a6813b9bddcfe7b19779c7?pvs=21"
+          },
+          {
+            "headline": "lay off ~",
+            "url": "https://app.notion.com/p/lay-off-3e6acb64a2a68194b249f99487355375?pvs=21"
+          },
+          {
+            "headline": "make the mistake of doing ~",
+            "url": "https://app.notion.com/p/make-the-mistake-of-doing-3e6acb64a2a68105bab8e9dc73f2de74?pvs=21"
+          },
+          {
+            "headline": "talk someone into doing ~",
+            "url": "https://app.notion.com/p/talk-someone-into-doing-3e6acb64a2a681ee95c5fcc7fe1ebef0?pvs=21"
+          },
+          {
+            "headline": "swing",
+            "url": "https://app.notion.com/p/swing-3e6acb64a2a681a48e3ccbac899093af?pvs=21"
+          }
+        ]
+      }
+    ]
+  ]
+}

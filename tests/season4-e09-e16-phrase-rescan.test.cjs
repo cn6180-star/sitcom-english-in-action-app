@@ -20,7 +20,7 @@ const required=['id','phrase','meaning','scene','example1','example2','exampleTr
 assert.equal(phrases.length,3946);
 assert.equal(byId.size,3946,'duplicate Phrase ID');
 assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4116);
-assert.equal(dialogues.length,326);
+assert.equal(dialogues.length,345);
 assert.ok(newIds.every(id=>seasons[3].phrases.some(p=>p.id===id)),'all 44 NEW records in Season 4');
 for(const id of newIds){const p=byId.get(id);for(const key of required)assert.ok(Object.hasOwn(p,key),`${id}: ${key}`);assert.equal(p.source,'Friends');assert.equal(p.exampleTranslations.length,2);assert.equal(p.priorityText,'★'.repeat(p.priority)+'☆'.repeat(3-p.priority));}
 const accepted=[...existingIds,...newIds].filter(id=>!cleanupDeleted.has(id)).map(id=>byId.get(id));

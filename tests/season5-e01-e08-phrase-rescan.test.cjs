@@ -20,7 +20,7 @@ const required=['id','phrase','meaning','scene','example1','example2','exampleTr
 assert.equal(phrases.length,3946);
 assert.equal(byId.size,3946,'duplicate Phrase ID');
 assert.equal(Math.max(...phrases.map(record=>+record.id.slice(1))),4116);
-assert.equal(dialogues.length,326);
+assert.equal(dialogues.length,345);
 for(const id of removedIds)assert.ok(!byId.has(id),`${id} REMOVE`);
 for(const id of newIds){
  const record=byId.get(id);assert.ok(record,`${id} NEW`);

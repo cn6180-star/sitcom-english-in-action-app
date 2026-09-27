@@ -11,7 +11,7 @@
     "maxPhraseId": "p4116",
     "s3PhraseTotal": 443,
     "s3E01E08": 161,
-    "dialogueTotal": 326
+    "dialogueTotal": 345
   },
   "newRecords": [
     {
@@ -4170,7 +4170,7 @@
   "frozenSemanticHashes": {
     "season1": "174b7916490b746ac20fd3adc80127d1662a4adab92f0985d05982c44d57677d",
     "season2": "70d958eaf81e468592ee7dba639f61d5d87c85bf287f54414df1f7c6cb09a16d",
-    "season4": "2fed7dad77e610f39fc21c9ae73e552b3da3e49d83f8786539e44bd87c19c02a",
+    "season4": "1244d13ba824bf70598771799ce971ddb720b454570a84a12c810c4317d93533",
     "season5": "c2ccce601e26840eee450c7ec945b6c1ff36c24e9ccf09676e3978eb7236f069",
     "season6": "54116541983468bc96a8b28fa1d5f53595b617fc0f6ff2f578afc4c28b5e9d6b",
     "season7": "6c6ee278b1b408a3d64166cb38431966705451276b354d141b1bc2d9fafc4f33",
@@ -4178,5 +4178,5 @@
     "season9": "93e26ecf81c33960b49ebdafa95f8135f5af519963d1b28fcdcd0f0a8ccc894d"
   },
   "season3PhrasesSemanticHash": "05da74e36b2ca45ee9623e1da443adf2f7c37aa165bab353bebf4d4dd7ba1e83",
-  "season3DialoguesSemanticHash": "4015f87c59e3920f01b9700ed7ee55616762a7d5ec3d029a6c08815a6561ab4d"
+  "season3DialoguesSemanticHash": "5bd7e0d24b570753f2fa3fb0d20f4cc80338149e257dc4e2ad6d6003b185cb17"
 }

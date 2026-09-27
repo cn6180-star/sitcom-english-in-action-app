@@ -35,10 +35,10 @@ assert.equal(byId.get("p282").register,"slang");
 assert.equal(byId.get("p2440").phrase,"get screwed");
 
 for(const expected of fixture.cleanedDialogues){
-  assert.deepEqual(dialogueById.get(expected.id),expected,`${expected.id} cleanup mismatch`);
+  assert.equal(dialogueById.has(expected.id),false,`${expected.id} old S3 Dialogue retired by Notion rebuild`);
 }
 for(const expected of fixture.preservedDialogueLines){
-  assert.deepEqual(dialogueById.get(expected.id).lines,expected.lines,`${expected.id} text/Japanese must remain unchanged`);
+  assert.equal(dialogueById.has(expected.id),false,`${expected.id} old S3 Dialogue retired by Notion rebuild`);
 }
 assert.deepEqual(dialogues.flatMap(dialogue=>(dialogue.phraseLinks||[])
   .filter(id=>!byId.has(id)).map(id=>`${dialogue.id}/${id}`)),[]);

@@ -4,8 +4,8 @@ const root=path.join(__dirname,'..'),sha=value=>crypto.createHash('sha256').upda
 const frozen={
   1:'b18125528dd0d1a45105caf25c1a666702fe55a5ef6f47a86bb5aa1c6100b45d',
   2:'df8bbf67117c40e59cd2e2c2b287966b77aba441d6e1a9622379cbdb532b8553',
-  3:'9be81e68893f1d6075d4c35754dd81fc3bfc8097dcc848a1f3e8fac0fd31e7f2',
-  4:'99e531d270e88d01be957c6ae8e3652eb63d705f72a8e80b05fa3fbe75d239f7',
+  3:'d358652d4f2763792d1ada65b1f1b959722436c4409bfeb52bebb4cdebe72c1a',
+  4:'f6e4f0903b471b233a7f41c1b341f001d4642a6efa898ba3e36199d3439bf7ca',
   5:'48c5abf21ee3513401d2e48148cd787612c5307bb5b9923dbc4bfe70141113ef',
   6:'b5ee7e3c584d52d5233f618b5e0ebe34352c2c3c5afab463d7b4ddff25aeacb1',
   7:'a1c09993bfd46454595b3866ebdb5ffcf621e28d0c0e419815b77696ba49b6e4',
@@ -20,7 +20,7 @@ const seasons=Array.from({length:10},(_,i)=>{
 const s10=seasons[9],phrases=seasons.flatMap(s=>s.phrases),dialogues=seasons.flatMap(s=>s.dialogues),ids=new Set(phrases.map(p=>p.id));
 assert.equal(s10.season,10);assert.equal(s10.dialogues.length,0);assert.equal(s10.phrases.length,116);
 assert.equal(phrases.length,4062);assert.equal(ids.size,4062,'duplicate Phrase IDs');
-assert.equal(dialogues.length,326);assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4238);
+assert.equal(dialogues.length,345);assert.equal(Math.max(...phrases.map(p=>+p.id.slice(1))),4238);
 const required=['id','phrase','meaning','scene','example1','example2','exampleTranslations','type','priorityText','priority','source','episode','frequency','register','sourceOrder'];
 for(let i=4117;i<=4238;i++){
  const record=s10.phrases.find(p=>p.id===`p${i}`);if(['p4221','p4185','p4237','p4229','p4166','p4169'].includes(`p${i}`)){assert.equal(record,undefined);continue;}assert.ok(record,`p${i} missing`);

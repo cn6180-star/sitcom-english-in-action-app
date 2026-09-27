@@ -20,7 +20,7 @@ assert.equal(phrases.length,3946);
 assert.equal(byId.size,3946,'duplicate Phrase ID');
 assert.equal(Math.max(...phrases.map(record=>Number(record.id.slice(1)))),4116);
 assert.equal(phrases.filter(record=>record.episode.startsWith('S03')).length,443);
-assert.equal(dialogues.length,326);
+assert.equal(dialogues.length,345);
 assert.ok(newIds.every(id=>seasons[2].phrases.some(record=>record.id===id)),'all 114 NEW records belong to Season 3');
 for(const id of ['p292','p307'])assert.ok(!byId.has(id),`${id} removed`);
 for(const id of newIds){
@@ -42,13 +42,14 @@ for(const [episode,count] of Object.entries(expectedCounts)){
 }
 assert.equal(sourceOrderEntries.length,132);
 assert.equal(hash(sourceOrderEntries),'9ba06a3b14ffd884e940fdb8be48320b84013cf13f54cae4592b55b8418a6227','Package sourceOrder map');
-assert.equal(seasons[2].dialogues.find(dialogue=>dialogue.id==='d33').phraseLinks.includes('p307'),false);
-assert.equal(hash(seasons[2].dialogues),'4015f87c59e3920f01b9700ed7ee55616762a7d5ec3d029a6c08815a6561ab4d','S3 Dialogue body and references');
+assert.ok(!seasons[2].dialogues.some(dialogue=>dialogue.id==='d33'),'old S3 Dialogue retired by Notion rebuild');
+assert.ok(dialogues.every(d=>!d.phraseLinks.includes('p307')),'removed Phrase has no remaining reference');
+assert.equal(hash(seasons[2].dialogues),'5bd7e0d24b570753f2fa3fb0d20f4cc80338149e257dc4e2ad6d6003b185cb17','S3 Dialogue body and references');
 for(const dialogue of dialogues)for(const id of dialogue.phraseLinks)assert.ok(byId.has(id),`${dialogue.id}/${id} dangling link`);
 for(const [season,want] of Object.entries({
   1:'174b7916490b746ac20fd3adc80127d1662a4adab92f0985d05982c44d57677d',
   2:'70d958eaf81e468592ee7dba639f61d5d87c85bf287f54414df1f7c6cb09a16d',
-  4:'2fed7dad77e610f39fc21c9ae73e552b3da3e49d83f8786539e44bd87c19c02a',
+  4:'1244d13ba824bf70598771799ce971ddb720b454570a84a12c810c4317d93533',
   5:'c2ccce601e26840eee450c7ec945b6c1ff36c24e9ccf09676e3978eb7236f069',
   6:'54116541983468bc96a8b28fa1d5f53595b617fc0f6ff2f578afc4c28b5e9d6b',
   7:'6c6ee278b1b408a3d64166cb38431966705451276b354d141b1bc2d9fafc4f33',

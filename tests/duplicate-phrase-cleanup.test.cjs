@@ -21,6 +21,11 @@ for(const {removed,retained,dialogueId} of[
 ]){
   assert.equal(phraseIds.has(removed),false,`${removed} duplicate still exists`);
   assert.equal(phraseIds.has(retained),true,`${retained} canonical Phrase is missing`);
+  if(dialogueId==='d25'){
+    assert.equal(dialogueById.has(dialogueId),false,'old S3 Dialogue retired by Notion rebuild');
+    assert.ok(dialogues.every(d=>!d.phraseLinks.includes(removed)),'removed ID absent from rebuilt links');
+    continue;
+  }
   assert.equal(dialogueById.get(dialogueId).phraseLinks.includes(removed),false,`${dialogueId} still links ${removed}`);
   assert.equal(dialogueById.get(dialogueId).phraseLinks.includes(retained),true,`${dialogueId} does not link ${retained}`);
 }
