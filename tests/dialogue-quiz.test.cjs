@@ -47,7 +47,30 @@ assert.equal(walkNumbers.get(walkIndex),3);assert.equal(walkNumbers.get(changeIn
 c.startDialogueQuiz(walkDialogue.id,settings('practice','blank'));c.renderDialogueQuizPlay();
 const controls=dom[`dialogueQuizControls${walkQuestions[walkIndex].lineIndex}`].innerHTML;
 assert.ok(controls.indexOf(`data-question-index="${walkIndex}"`)<controls.indexOf(`data-question-index="${changeIndex}"`),'Choice groups follow visual blank numbers');
-for(const id of ['DQ-0275','DQ-2327']){const item=distractorMaster.items.find(x=>x.dqId===id);assert.deepEqual([...c.dialogueQuizSlotChoices(item)], [item.correct,...item.distractors])}
+const fullSentenceItem=distractorMaster.items.find(x=>x.dqId==='DQ-0275');
+const fullSentenceDialogue=dialogues.find(d=>d.phraseLinks.includes(fullSentenceItem.phraseId)&&d.lines.some(line=>line[1]===fullSentenceItem.dialogue));
+const fullSentenceQuestion=c.createDialogueQuizQuestions(fullSentenceDialogue,settings('practice','blank')).find(q=>q.phraseId===fullSentenceItem.phraseId);
+assert.deepEqual(clone(fullSentenceQuestion.ranges),[{index:0,length:fullSentenceItem.dialogue.length}]);
+assert.equal(fullSentenceQuestion.answer,fullSentenceItem.dialogue);
+assert.deepEqual([...fullSentenceQuestion.choices].sort(),[fullSentenceItem.dialogue,...fullSentenceItem.distractors].sort());
+assert.ok(fullSentenceQuestion.choices.every(choice=>choice.endsWith('.')&&choice.length>50));
+const fullSentenceMarkup=c.dialogueQuizLineMarkup(fullSentenceDialogue,{questions:[fullSentenceQuestion],graded:false},fullSentenceQuestion.lineIndex);
+assert.equal((fullSentenceMarkup.match(/class="dialogue-blank"/g)||[]).length,1);
+assert.equal(fullSentenceMarkup.replace(/<[^>]+>/g,''),'_____1');
+assert.equal(c.dialogueQuizAnswerCorrect(fullSentenceQuestion,fullSentenceQuestion.answer),true);
+assert.equal(c.dialogueQuizAnswerCorrect(fullSentenceQuestion,fullSentenceItem.distractors[0]),false);
+const handsItem=distractorMaster.items.find(x=>x.dqId==='DQ-2327');
+const handsDialogue=dialogues.find(d=>d.phraseLinks.includes(handsItem.phraseId)&&d.lines.some(line=>line[1]===handsItem.dialogue));
+const handsQuestion=c.createDialogueQuizQuestions(handsDialogue,settings('practice','blank')).find(q=>q.phraseId===handsItem.phraseId);
+assert.equal(handsItem.slot,'hands');
+assert.equal(handsItem.dialogue.slice(handsQuestion.ranges[0].index,handsQuestion.ranges[0].index+handsQuestion.ranges[0].length),'hands');
+assert.equal(handsQuestion.ranges.length,1);
+assert.equal(c.dialogueQuizLineMarkup(handsDialogue,{questions:[handsQuestion],graded:false},handsQuestion.lineIndex).replace(/<[^>]+>/g,''),"You've got your _____1 full this week, huh?");
+assert.equal(handsQuestion.answer,'hands');
+assert.deepEqual([...handsQuestion.choices].sort(),['hands','head','pockets','arms'].sort());
+assert.ok(handsQuestion.choices.every(choice=>!['A new phone',"A doctor's appointment",'A vacation'].includes(choice)));
+assert.equal(c.dialogueQuizAnswerCorrect(handsQuestion,'hands'),true);
+assert.equal(c.dialogueQuizAnswerCorrect(handsQuestion,'head'),false);
 for(const count of [6,7,8,9]){
   const d=dialogues.find(d=>d.phraseLinks.length===count);assert.ok(d);assert.equal(c.createDialogueQuizQuestions(d,settings('practice','blank')).length,count);
 }
@@ -64,6 +87,16 @@ assert.equal(c.createDialogueQuizQuestions(fallback,settings()).length,1);assert
 c.dialoguePhraseMatchResults=originalMatcher;c.PHRASES=phrases;
 const d=dialogues.find(d=>d.phraseLinks.length===8),roundSettings=settings();
 function reset(){storage={};dom={};c.app.innerHTML='';soundCalls=0;c.filters.dialogueQuiz=roundSettings}
+for(const [dialogue,question,answer,expectedScore] of [
+  [fullSentenceDialogue,fullSentenceQuestion,fullSentenceQuestion.answer,1],
+  [fullSentenceDialogue,fullSentenceQuestion,fullSentenceItem.distractors[0],0],
+  [handsDialogue,handsQuestion,'hands',1],
+  [handsDialogue,handsQuestion,'head',0]
+]){
+  reset();storage[c.STORE.dialogueQuiz]={version:3,dialogueId:dialogue.id,settings:settings('practice','blank'),review:false,questions:[question],drafts:[''],graded:false,responses:[]};
+  c.saveDialogueQuizAnswer(0,answer);c.checkDialogueQuizAnswers();
+  assert.equal(c.route.name,'quizResult');assert.equal(c.route.params.result.score,expectedScore);assert.equal(c.route.params.result.total,1);
+}
 function finishRound(miss=[]){
   const s=c.getDialogueQuizSession();
   for(let i=s.questions.length-1;i>=0;i--){const q=s.questions[i];c.saveDialogueQuizAnswer(i,miss.includes(i)?q.type==='fill'?'wrong':q.choices.find(a=>a!==q.answer):q.answer)}

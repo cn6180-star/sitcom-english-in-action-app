@@ -93,6 +93,7 @@ function dialogueQuizAuditPieces(text,pattern,anchor=0){
   return best;
 }
 function dialogueQuizAuditRanges(text,item,anchor){
+  if(item.dqId==='DQ-0275')return[{index:0,length:text.length}];
   const span=dialogueQuizAuditPieces(text,item.correctSpan,anchor);
   const start=span[0].index,end=span.at(-1).index+span.at(-1).length;
   if(item.slot==='構文全体'||item.slot==='短いリアクション全体')return span;
@@ -111,6 +112,7 @@ function dialogueQuizAuditRanges(text,item,anchor){
   return ranges;
 }
 function dialogueQuizSlotChoices(item){
+  if(item.dqId==='DQ-0275')return[item.dialogue,...item.distractors];
   if(item.slot==='構文全体'||item.slot==='短いリアクション全体')return[item.correct,...item.distractors];
   const source=dialogueQuizAuditText(item.correctSpan),slot=dialogueQuizAuditText(item.slot);
   if(item.slot.includes('…')&&slot!==source){

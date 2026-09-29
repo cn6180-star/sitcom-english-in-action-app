@@ -34887,12 +34887,12 @@
       "phrase": "have one's hands full",
       "dialogue": "You've got your hands full this week, huh?",
       "correctSpan": "You've got … hands full",
-      "slot": "… hands full",
+      "slot": "hands",
       "correct": "You've got … hands full",
       "distractors": [
-        "A new phone",
-        "A doctor's appointment",
-        "A vacation"
+        "head",
+        "pockets",
+        "arms"
       ],
       "quizEligible": true
     },
