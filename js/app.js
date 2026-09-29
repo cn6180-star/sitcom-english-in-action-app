@@ -321,10 +321,10 @@ function openAbout(){
 function helpFaq(question,answer){return `<details class="help-faq"><summary>${question}</summary><div>${answer}</div></details>`}
 function openHelp(){
   const faqs=[
-    ["Phrase QuizとDialogue Quizの違いは？",`<p>Phrasesは個別の表現を確認します。Dialoguesは1つの会話の文脈で、その会話の学習PhraseをRecallします。PhraseとDialogueのスコア・苦手は別管理です。</p>`],
-    ["本番と練習の違いは？",`<p>Dialogue本番は穴埋め4択・セリフ4択・穴埋め入力を順番に出題し、日本語訳は表示しません。練習は形式を選び、Quiz中に日本語訳の表示を切り替えられます。DialogueのLast / Today / Perfectは、本番の通常Roundだけを集計します。</p>`],
-    ["Dialogue Quizは何問出る？",`<p>1回につき1 Dialogue。会話を1ページ上で完成させていきます。穴埋めは学習Phraseごと、セリフ4択は発話ごとに出題します。1ターン目も対象で、同じ発話の複数Phraseは1問にまとめます。</p>`],
-    ["Dialogue Quizの「苦手」って何？",`<p>通常Roundで1問でも間違えると、そのDialogueが「苦手」になります。苦手Dialogueを通常Roundで全問正解すると解除されます。Review mistakesの全問正解では解除されません。「覚えた」は独立しているため、Learned + Weakの状態もあります。Dialogueの自動習得判定はありません。</p>`],
+    ["Phrase QuizとDialogue Quizの違いは？",`<p>Phrasesは個別の表現を確認します。Dialoguesは1つの会話の文脈で、その会話に含まれる学習PhraseをRecallします。PhraseとDialogueのスコア・苦手は別管理です。</p>`],
+    ["本番と練習の違いは？",`<p>Dialogue本番では、選択と入力をMixで出題します。並べ替えは独立した形式として選べます。日本語訳は本番では表示しません。</p><p>練習では問題形式を選び、Quiz中に日本語訳の表示を切り替えられます。DialogueのLast / Today / Perfectは、本番の通常Roundだけを集計します。</p>`],
+    ["Dialogue Quizは何問出る？",`<p>1回につき1 Dialogueを、会話単位で出題します。</p><p>選択と入力は、そのDialogueに含まれる学習Phraseごとに出題します。</p><p>並べ替えは、Dialogue全体のセリフを正しい順番に並べる1問として出題します。</p><p>1ターン目も対象で、同じ発話に複数の学習Phraseがある場合は1問にまとめます。</p>`],
+    ["Dialogue Quizの「苦手」って何？",`<p>通常Roundで1問でも間違えると、そのDialogueが「苦手」になります。苦手Dialogueを通常Roundで全問正解すると解除されます。Review mistakesの全問正解では解除されません。</p><p>「覚えた」は独立しているため、Learned + Weakの状態もあります。Dialogueの自動習得判定はありません。</p>`],
     ["Progressの数字は何？",`<p>Phrases / Dialoguesそれぞれで、「覚えた」にした数 / 収録総数を表示します。Season別も、そのSeasonで「覚えた」にした数 / 収録総数を表示します。</p>`],
     ["Soundって何の音？",`<p>Quizの正解 / 不正解、「覚えた」を押した時、起動時などの効果音です。英文の音声読み上げとは別の機能です。</p>`],
     ["「覚えた」とBookmarkは何が違う？",`<p>「覚えた」は学習進捗を記録する機能です。Bookmarkは、あとで見返したいPhrase / Dialogueを保存する機能です。両者は独立しています。</p>`],
