@@ -117,7 +117,7 @@ c.startDialogueQuiz(d.id,roundSettings);finishRound();assert.equal(c.isDialogueW
 c.renderDialogueQuizResult();assert.match(c.app.innerHTML,/<button class="primary-button" disabled>Review mistakes<\/button>/);
 const styles=fs.readFileSync(path.join(root,'css/style.css'),'utf8');
 assert.match(moduleSource,/primary-button quiz-start-button dialogue-quiz-start-button/);
-assert.match(styles,/\.quiz-start-area>\.dialogue-quiz-start-button\{width:100%\}/);
+assert.match(styles,/\.quiz-start-area>\.quiz-start-button\{width:100%\}/);
 assert.match(styles,/\.quiz-result-actions\.dialogue-quiz-result-actions\{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:minmax\(0,1fr\)\}/);
 assert.equal(c.dialogueQuizSummary().today,2);assert.equal(c.dialogueQuizSummary().perfect,1);
 c.setDialogueWeak(d.id,true);assert.ok(c.dialogueQuizPool(settings("test","blank","weak")).some(x=>x.id===d.id));

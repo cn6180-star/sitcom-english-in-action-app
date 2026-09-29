@@ -28,11 +28,15 @@ assert.match(source,/onclick="startQuickChallenge\(\)"/);
 assert.doesNotMatch(styles,/\.home-view \.home-quiz-card\{display:none\}/);
 
 const quizHome=source.slice(source.indexOf("function renderQuizHome"),source.indexOf("function shuffle"));
-assert.match(quizHome,/const settings=practice\?`\$\{typeGroup\}\$\{countGroup\}\$\{scopeGroup\}\$\{seasonGroup\}`:seasonGroup/);
+assert.match(quizHome,/const settings=practice\?`\$\{typeGroup\}\$\{scopeGroup\}\$\{seasonGroup\}`:seasonGroup/);
+assert.doesNotMatch(quizHome,/countGroup|setQuizOption\('quizQuestionCount'|<div class="filter-label">問題数<\/div>/);
 assert.match(quizHome,/\$\{startArea\}<section class="card filter-panel quiz-settings-panel">\$\{settings\}/);
 assert.match(quizHome,/\$\{practice\?'':`<section class="card quiz-stats-card">/);
 assert.match(quizHome,/practice\?'Start Practice':'Start Quiz'/);
 assert.doesNotMatch(quizHome,/Start Daily Quiz/);
+assert.match(styles,/\.quiz-mode-tabs\{[^}]*width:100%/);
+assert.match(styles,/\.quiz-start-area>\.quiz-start-button\{width:100%\}/);
+assert.match(styles,/\.quiz-settings-panel\{width:100%/);
 assert.match(source,/Today<\/span><strong>\$\{today\} Qs<\/strong>/);
 
 const result=source.slice(source.indexOf("function renderQuizResult"),source.indexOf("function nextQuizRound"));
@@ -68,5 +72,18 @@ assert.equal(quickSession.quizMode,"test");
 assert.equal(quickSession.questionType,"mixed");
 assert.equal(quickSession.questionCount,10);
 assert.equal(quickSession.questions.length,10);
+
+const start=source.slice(source.indexOf("function startQuiz"),source.indexOf("function startQuickChallenge"));
+for(const [mode,savedCount,expectedCount] of [["practice",5,5],["practice",10,5],["practice",15,5],["test",15,10]]){
+  let session=null;
+  const filters={quizMode:mode,quizSeason:"ALL",quizScope:"random",quizQuestionType:"fill",quizQuestionCount:savedCount};
+  vm.runInNewContext(`${start};startQuiz()`,{filters,sanitizeSavedQuizFilters:value=>({...value}),quizPool:()=>quickPool,createQuestions:(_pool,count)=>Array.from({length:count},(_,index)=>({id:`p${index}`})),beginQuizSession:value=>{session=value},renderQuizHome:()=>{},Date,Object});
+  assert.equal(session.questionCount,expectedCount);
+  assert.equal(session.questions.length,expectedCount);
+  assert.equal(session.quizMode,mode);
+}
+let shortageRendered=false,shortageStarted=false;
+vm.runInNewContext(`${start};startQuiz()`,{filters:{quizMode:"practice",quizSeason:"ALL",quizScope:"weak",quizQuestionType:"fill",quizQuestionCount:15},sanitizeSavedQuizFilters:value=>({...value}),quizPool:()=>quickPool.slice(0,4),createQuestions:()=>[],beginQuizSession:()=>{shortageStarted=true},renderQuizHome:()=>{shortageRendered=true},Date,Object});
+assert.equal(shortageRendered,true);assert.equal(shortageStarted,false);
 
 console.log("quiz UX v5.3 tests passed");
