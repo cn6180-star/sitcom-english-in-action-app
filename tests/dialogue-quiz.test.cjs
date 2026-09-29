@@ -29,11 +29,9 @@ for(const d of dialogues){
   assert.ok(excluded.every(id=>!eligibleIds.includes(id)),`Only ineligible blank ranges may be omitted: ${d.id}`);
   assert.deepEqual([...covered,...excluded].sort(),[...d.phraseLinks].sort(),`All production ranges accounted for: ${d.id}`);
   assert.equal(new Set(covered).size,covered.length);
-  for(const q of questions){assert.ok(q.ranges.length);assert.ok(q.answer);if(q.type!=="fill"){assert.equal(q.choices.length,4);assert.equal(new Set(q.choices.map(c.dialogueQuizChoiceKey)).size,4);assert.equal(q.choices.filter(a=>a===q.answer).length,1);assert.ok(q.choices.every(a=>a.trim()&&!/\b([a-z]+)\s+\1\b/i.test(a)))}if(q.type==='line')assert.deepEqual([...q.phraseIds].sort(),[...c.dialogueQuizEntries(d).filter(e=>e.lineIndex===q.lineIndex).map(e=>e.phraseId)].sort())}
-  const initial={questions,index:0,responses:[]};for(let i=0;i<d.lines.length;i++){const markup=c.dialogueQuizLineMarkup(d,initial,i);for(const q of questions.filter(q=>q.lineIndex===i)){assert.ok(markup.includes(q.type==='line'?'hidden-dialogue-text':'_____'))}}
-  const practice=c.createDialogueQuizQuestions(d,settings("practice","line"));
-  assert.equal(new Set(practice.map(q=>q.lineIndex)).size,practice.length);
-  assert.ok(practice.every(q=>q.type==="line"));assert.deepEqual([...practice.flatMap(q=>q.phraseIds)].sort(),[...d.phraseLinks].sort());totalQuestions+=questions.length;
+  for(const q of questions){assert.ok(q.ranges.length);assert.ok(q.answer);assert.ok(['blank','fill'].includes(q.type));if(q.type!=="fill"){assert.equal(q.choices.length,4);assert.equal(new Set(q.choices.map(c.dialogueQuizChoiceKey)).size,4);assert.equal(q.choices.filter(a=>a===q.answer).length,1);assert.ok(q.choices.every(a=>a.trim()&&!/\b([a-z]+)\s+\1\b/i.test(a)))}}
+  const initial={questions,index:0,responses:[]};for(let i=0;i<d.lines.length;i++){const markup=c.dialogueQuizLineMarkup(d,initial,i);for(const q of questions.filter(q=>q.lineIndex===i))assert.ok(markup.includes('_____'))}
+  const order=c.dialogueOrderSequence(d.lines.length);assert.equal(order.length,d.lines.length);assert.deepEqual([...order].sort((a,b)=>a-b),d.lines.map((_,i)=>i));totalQuestions+=questions.length;
 }
 assert.equal(auditOffset,2652);assert.equal(eligibleTotal,2649);
 for(const [dqId,expectedRanges,options] of [['DQ-1599',1,['rut','car','room','queue']],['DQ-2542',1,['Call','Name','Label','Describe']],['DQ-2637',2,['out','back','up','over']]]){const item=distractorMaster.items.find(x=>x.dqId===dqId),dialogue=dialogues.find(d=>d.phraseLinks.includes(item.phraseId)&&d.lines.some(line=>line[1]===item.dialogue)),q=c.createDialogueQuizQuestions(dialogue,settings('practice','blank')).find(q=>q.phraseId===item.phraseId);assert.ok(q);assert.equal(q.ranges.length,expectedRanges);assert.equal(q.answer,options[0]);assert.deepEqual([...q.choices].sort(),[...options].sort());assert.equal(c.dialogueQuizAnswerCorrect(q,q.answer),true);assert.equal(c.dialogueQuizAnswerCorrect(q,options[1]),false);if(dqId==='DQ-1599')assert.equal(item.dialogue.slice(q.ranges[0].index,q.ranges[0].index+q.ranges[0].length),'rut');if(dqId==='DQ-2637'){const markup=c.dialogueQuizLineMarkup(dialogue,{questions:[q],graded:false},q.lineIndex);assert.equal((markup.match(/dialogue-blank/g)||[]).length,2)}}
@@ -81,9 +79,9 @@ const fakePhrases=["alpha","bravo","charlie","delta","echo","foxtrot"].map((phra
 c.PHRASES=[...phrases,...fakePhrases];
 c.dialoguePhraseMatchResults=(d,linked)=>d.lines.flatMap((line,lineIndex)=>linked.flatMap((p,priority)=>{const index=line[1].indexOf(p.phrase);return index<0?[]:[{phraseId:p.id,lineIndex,index,length:p.phrase.length,priority}]}));
 const fixture={id:"fixture-swap",phraseLinks:fakePhrases.map(p=>p.id),lines:[["A","alpha bravo","訳"],["B","charlie","訳"],["A","delta","訳"],["B","echo","訳"],["A","foxtrot","訳"]]};
-const grouped=c.createDialogueQuizQuestions(fixture,settings());assert.equal(grouped[0].type,'line');assert.equal(grouped[0].lineIndex,0);assert.equal(grouped[0].phraseIds.length,2);
+const grouped=c.createDialogueQuizQuestions(fixture,settings());assert.equal(grouped[0].type,'blank');assert.ok(grouped.every(q=>q.type!=='line'));
 const fallback={id:"fixture-fallback",phraseLinks:fakePhrases.slice(0,2).map(p=>p.id),lines:[["A","alpha bravo","訳"]]};
-assert.equal(c.createDialogueQuizQuestions(fallback,settings()).length,1);assert.equal(c.createDialogueQuizQuestions(fallback,settings("practice","line")).length,1);
+assert.equal(c.createDialogueQuizQuestions(fallback,settings()).length,2);
 c.dialoguePhraseMatchResults=originalMatcher;c.PHRASES=phrases;
 const d=dialogues.find(d=>d.phraseLinks.length===8),roundSettings=settings();
 function reset(){storage={};dom={};c.app.innerHTML='';soundCalls=0;c.filters.dialogueQuiz=roundSettings}
@@ -145,6 +143,7 @@ assert.ok(c.app.innerHTML.indexOf('quiz-settings-panel')<c.app.innerHTML.indexOf
 assert.ok(c.app.innerHTML.indexOf('quiz-stats-card')<c.app.innerHTML.indexOf('quiz-mode-note'));
 c.filters.dialogueQuiz=settings('practice');c.renderDialogueQuizHome();
 assert.match(c.app.innerHTML,/絞り込み/);assert.doesNotMatch(c.app.innerHTML,/translation-toggle|<div class="filter-label">日本語訳/);assert.doesNotMatch(c.app.innerHTML.match(/<section class="card filter-panel[\s\S]*?<\/section>/)[0],/1 Round/);
+assert.match(c.app.innerHTML,/選択[\s\S]*並べ替え[\s\S]*入力/);assert.doesNotMatch(c.app.innerHTML,/セリフ4択|穴埋め4択|穴埋め入力/);
 assert.doesNotMatch(c.app.innerHTML,/quiz-stats-card/,'Same practice structure as Phrase home');
 assert.match(styles,/\.quiz-kind-tabs\{[^}]*grid-template-columns:repeat\(2,minmax\(0,1fr\)\);gap:0;padding:0/);
 
@@ -188,12 +187,30 @@ c.saveDialogueQuizAnswer(3,fillSession.questions[3].answer);c.toggleDialogueQuiz
 assert.equal(c.getDialogueQuizSession().drafts[5],fillSession.questions[5].answer);c.checkDialogueQuizAnswers();
 assert.equal(c.route.name,'quizResult');assert.equal(c.route.params.result.score,8);
 
-// Line choices: first turn eligible; no reveal until direct Result.
-reset();c.startDialogueQuiz(d.id,settings('practice','line'));c.renderDialogueQuizPlay();
-const lineSession=c.getDialogueQuizSession();assert.equal(lineSession.questions[0].lineIndex,0);
-for(let i=0;i<lineSession.questions.length;i++)c.saveDialogueQuizAnswer(i,lineSession.questions[i].answer);
-assert.match(c.dialogueQuizLineMarkup(d,c.getDialogueQuizSession(),0),/hidden-line[\s\S]*hidden-dialogue-text/);assert.doesNotMatch(c.dialogueQuizLineMarkup(d,c.getDialogueQuizSession(),0),/████/);
-c.checkDialogueQuizAnswers();assert.equal(c.route.name,'quizResult');assert.equal(c.getDialogueQuizSession(),null);
+// Order uses every real line, slot-first taps, replacement, removal, reset and positional scoring.
+reset();c.startDialogueQuiz(d.id,settings('practice','order'));c.renderDialogueQuizPlay();
+let orderSession=c.getDialogueQuizSession();assert.equal(orderSession.kind,'order');assert.equal(orderSession.placements.length,d.lines.length);
+assert.deepEqual([...orderSession.shuffled].sort((a,b)=>a-b),d.lines.map((_,i)=>i));
+assert.match(c.app.innerHTML,/Order slots[\s\S]*Shuffled lines[\s\S]*Check Order/);
+assert.equal((c.app.innerHTML.match(/class="dialogue-order-slot /g)||[]).length,d.lines.length);
+assert.equal((c.app.innerHTML.match(/class="dialogue-order-card"/g)||[]).length,d.lines.length);
+c.checkDialogueOrder();assert.equal(c.route.name,'quizPlay','Incomplete order cannot be scored');
+c.selectDialogueOrderSlot(0);assert.equal(c.getDialogueQuizSession().selectedSlot,0);
+c.placeDialogueOrderLine(0);assert.equal(c.getDialogueQuizSession().placements[0],0);
+assert.equal((c.app.innerHTML.match(/class="dialogue-order-card"/g)||[]).length,d.lines.length-1);
+c.selectDialogueOrderSlot(0);c.placeDialogueOrderLine(1);assert.equal(c.getDialogueQuizSession().placements[0],1);
+assert.ok(!c.getDialogueQuizSession().placements.includes(0),'Replaced line returns to pool');
+c.removeDialogueOrderLine(0);assert.equal(c.getDialogueQuizSession().placements[0],null);
+c.selectDialogueOrderSlot(0);c.placeDialogueOrderLine(0);c.resetDialogueOrder();assert.ok(c.getDialogueQuizSession().placements.every(x=>x===null));
+assert.equal((c.app.innerHTML.match(/class="dialogue-order-card"/g)||[]).length,d.lines.length);
+for(let i=0;i<d.lines.length;i++){c.selectDialogueOrderSlot(i);c.placeDialogueOrderLine(i)}
+c.checkDialogueOrder();assert.equal(c.route.name,'quizResult');assert.equal(c.route.params.result.score,d.lines.length);assert.equal(c.route.params.result.total,d.lines.length);
+assert.equal(c.getDialogueQuizSession(),null);assert.equal(c.isDialogueWeak(d.id),false);
+c.renderDialogueQuizResult();assert.match(c.app.innerHTML,/Retry[\s\S]*Next Round[\s\S]*Done/);
+c.retryDialogueOrder();assert.equal(c.getDialogueQuizSession().kind,'order');assert.ok(c.getDialogueQuizSession().placements.every(x=>x===null));
+for(let i=0;i<d.lines.length;i++){c.selectDialogueOrderSlot(i);c.placeDialogueOrderLine(i===0?1:i===1?0:i)}
+c.checkDialogueOrder();assert.equal(c.route.params.result.score,d.lines.length-2);assert.equal(c.isDialogueWeak(d.id),true);
+c.renderDialogueQuizResult();assert.match(c.app.innerHTML,/Your answer:[\s\S]*Correct:/);
 
 // Quick Review uses incorrect targets + preceding context, never independent full Result/history.
 reset();storage.dialogueLearned={friends:[d.id]};c.startDialogueQuiz(d.id,roundSettings);const normal=finishRound([0,1]);
@@ -229,10 +246,10 @@ assert.ok(c.route.params.result.responses.every(r=>!r.correct));assert.equal(c.i
 c.reviewDialogueQuizMistakes();assert.equal(c.getDialogueQuizSession().questions.length,c.route.params.result?.questions?.length||d.phraseLinks.length);
 c.checkDialogueQuizAnswers();assert.equal(c.getDialogueQuizSession().graded,true);assert.equal(c.isDialogueWeak(d.id),true);
 assert.ok(c.getDialogueQuizSession().responses.every(r=>!r.correct));
-reset();c.startDialogueQuiz(d.id,settings('practice','line'));c.renderDialogueQuizPlay();assert.equal(dom.dialogueQuizCheck.disabled,true);
-c.checkDialogueQuizAnswers();assert.equal(c.getDialogueQuizSession().graded,false);
-for(const [index,q]of c.getDialogueQuizSession().questions.entries())c.saveDialogueQuizAnswer(index,q.answer);
-assert.equal(dom.dialogueQuizCheck.disabled,false);
+reset();c.startDialogueQuiz(d.id,settings('test','order'));c.renderDialogueQuizPlay();
+assert.equal(c.getDialogueQuizSession().kind,'order');assert.match(c.app.innerHTML,/Check Order/);
+for(let i=0;i<d.lines.length;i++){c.selectDialogueOrderSlot(i);c.placeDialogueOrderLine(i)}
+c.checkDialogueOrder();assert.equal(c.dialogueQuizSummary().today,1);assert.equal(c.dialogueQuizSummary().perfect,1);
 assert.match(styles,/#dialogueQuizCheck:disabled\{[^}]*pointer-events:none/);
 assert.match(styles,/\.translation-concealed\{visibility:hidden/);
 assert.doesNotMatch(styles,/\.quiz-settings-panel\.quiz-practice-settings\{[^}]*min-height/);
