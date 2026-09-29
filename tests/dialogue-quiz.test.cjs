@@ -197,6 +197,8 @@ assert.match(c.app.innerHTML,/dialogue-order-list[\s\S]*Check Order/);
 assert.doesNotMatch(c.app.innerHTML,/Order slots|Shuffled lines|Placed \d/);
 assert.equal((c.app.innerHTML.match(/class="dialogue-order-row"/g)||[]).length,d.lines.length);
 assert.equal((c.app.innerHTML.match(/class="dialogue-order-handle"/g)||[]).length,d.lines.length);
+assert.equal((c.app.innerHTML.match(/class="dialogue-order-position">\d+\.<\/span><div class="dialogue-order-card"><span class="dialogue-order-content">/g)||[]).length,d.lines.length,'Position is outside the line card');
+assert.equal((c.app.innerHTML.match(/<\/span><\/span><button type="button" class="dialogue-order-handle"/g)||[]).length,d.lines.length,'Handle follows speaker and text inside the card');
 assert.doesNotMatch(c.app.innerHTML,/class="translation"/,'Japanese starts hidden');
 const initialOrder=[...orderSession.order],movedLine=initialOrder[0];
 c.moveDialogueOrderLine(movedLine,2);
