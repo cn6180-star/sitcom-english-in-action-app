@@ -31,6 +31,9 @@ assert.match(source,/label=dialogueMode\?"ダイアログ":"フレーズ"/);
 assert.match(source,/\$\{label\}の進捗状況をリセットしますか？/);
 assert.match(source,/if\(scope==="dialogue"\)\{const state=dialogueLearnedState\(\);state\.friends=\[\];writeJSON\(STORE\.dialogueLearned,state\)\}else\{const state=learnedState\(\);state\.friends=\[\];pendingSeasonComplete=null;writeJSON\(STORE\.learned,state\)\}/);
 assert.match(styles,/\.progress-mode-tabs/);
+assert.match(styles,/\.segmented\.section,\.progress-mode-tabs\{grid-template-columns:repeat\(2,minmax\(0,1fr\)\);width:100%\}/);
+assert.match(styles,/\.segmented\.section>\.seg-button,\.progress-mode-tabs>\.seg-button\{width:100%;min-width:0;text-align:center\}/);
+assert.doesNotMatch(styles,/\.progress-mode-tabs\{[^}]*width:min\(360px/);
 assert.match(styles,/\.dialogue-main-card \.detail-page-header\{padding-right:0/);
 
 const learnedStart=source.indexOf("function dialogueLearnedState");
