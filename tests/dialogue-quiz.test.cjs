@@ -13,18 +13,30 @@ Object.assign(c,{PHRASES:phrases,DIALOGUES:dialogues,SEASONS:Array.from({length:
   navigate:(name,params={})=>{c.route={name,params}},render(){},playQuizSound:()=>soundCalls++,playQuizStartSound(){},playQuizCompleteSound(){},showConfirm:(_message,fn)=>fn()});
 vm.runInContext(source.split(/\r?\n/).filter(line=>["dialogueLearnedState","learnedDialogueIds","isDialogueLearned","dialogueScopeFrom","filteredDialogues"].some(name=>line.startsWith(`function ${name}(`))).join("\n"),c);
 vm.runInContext(moduleSource,c);
+const distractorMaster=JSON.parse(fs.readFileSync(path.join(root,"artifacts/dialogue-distractor-audit/dialogue-distractors-final.json"),"utf8"));
+c.setDialogueQuizDistractors(distractorMaster);
 const settings=(mode="test",type="blank",scope="all")=>({mode,type,season:"ALL",scope,japanese:false});
 let totalQuestions=0;
+let auditOffset=0,eligibleTotal=0;
 for(const d of dialogues){
+  const blankQuestions=c.createDialogueQuizQuestions(d,settings('practice','blank'));
+  const eligibleIds=distractorMaster.items.slice(auditOffset,auditOffset+d.phraseLinks.length).filter(item=>item.quizEligible).map(item=>item.phraseId);
+  auditOffset+=d.phraseLinks.length;eligibleTotal+=eligibleIds.length;
+  assert.deepEqual([...blankQuestions.flatMap(q=>q.phraseIds)].sort(),[...eligibleIds].sort(),`Final blank coverage: ${d.id}`);
+  for(const q of blankQuestions){const item=distractorMaster.items.find(item=>item.phraseId===q.phraseId&&item.dialogue===d.lines[q.lineIndex][1]);assert.ok(item?.quizEligible);assert.equal(q.answer,item.correct);assert.deepEqual([...q.choices].sort(),[item.correct,...item.distractors].sort());assert.equal(q.choices.length,4)}
   const questions=c.createDialogueQuizQuestions(d,settings());
-  assert.deepEqual([...questions.flatMap(q=>q.phraseIds)].sort(),[...d.phraseLinks].sort(),`All production ranges available: ${d.id}`);
-  assert.equal(new Set(questions.flatMap(q=>q.phraseIds)).size,d.phraseLinks.length);
+  const covered=questions.flatMap(q=>q.phraseIds),excluded=d.phraseLinks.filter(id=>!covered.includes(id));
+  assert.ok(excluded.every(id=>!eligibleIds.includes(id)),`Only ineligible blank ranges may be omitted: ${d.id}`);
+  assert.deepEqual([...covered,...excluded].sort(),[...d.phraseLinks].sort(),`All production ranges accounted for: ${d.id}`);
+  assert.equal(new Set(covered).size,covered.length);
   for(const q of questions){assert.ok(q.ranges.length);assert.ok(q.answer);if(q.type!=="fill"){assert.equal(q.choices.length,4);assert.equal(new Set(q.choices.map(c.dialogueQuizChoiceKey)).size,4);assert.equal(q.choices.filter(a=>a===q.answer).length,1);assert.ok(q.choices.every(a=>a.trim()&&!/\b([a-z]+)\s+\1\b/i.test(a)))}if(q.type==='line')assert.deepEqual([...q.phraseIds].sort(),[...c.dialogueQuizEntries(d).filter(e=>e.lineIndex===q.lineIndex).map(e=>e.phraseId)].sort())}
   const initial={questions,index:0,responses:[]};for(let i=0;i<d.lines.length;i++){const markup=c.dialogueQuizLineMarkup(d,initial,i);for(const q of questions.filter(q=>q.lineIndex===i)){assert.ok(markup.includes(q.type==='line'?'hidden-dialogue-text':'_____'))}}
   const practice=c.createDialogueQuizQuestions(d,settings("practice","line"));
   assert.equal(new Set(practice.map(q=>q.lineIndex)).size,practice.length);
   assert.ok(practice.every(q=>q.type==="line"));assert.deepEqual([...practice.flatMap(q=>q.phraseIds)].sort(),[...d.phraseLinks].sort());totalQuestions+=questions.length;
 }
+assert.equal(auditOffset,2652);assert.equal(eligibleTotal,2649);
+for(const [dqId,expectedRanges] of [['DQ-2542',1],['DQ-2637',2]]){const item=distractorMaster.items.find(x=>x.dqId===dqId),dialogue=dialogues.find(d=>d.phraseLinks.includes(item.phraseId)&&d.lines.some(line=>line[1]===item.dialogue)),q=c.createDialogueQuizQuestions(dialogue,settings('practice','blank')).find(q=>q.phraseId===item.phraseId);assert.ok(q);assert.equal(q.ranges.length,expectedRanges);assert.equal(q.answer,item.correct);assert.deepEqual([...q.choices].sort(),[item.correct,...item.distractors].sort());if(dqId==='DQ-2637'){const markup=c.dialogueQuizLineMarkup(dialogue,{questions:[q],graded:false},q.lineIndex);assert.equal((markup.match(/dialogue-blank/g)||[]).length,2)}}
 for(const count of [6,7,8,9]){
   const d=dialogues.find(d=>d.phraseLinks.length===count);assert.ok(d);assert.equal(c.createDialogueQuizQuestions(d,settings('practice','blank')).length,count);
 }

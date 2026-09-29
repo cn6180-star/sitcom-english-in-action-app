@@ -4,6 +4,34 @@
 STORE.dialogueQuiz="sitcomEnglish_dialogueQuizInProgress";
 const DIALOGUE_QUIZ_TYPES=["blank","line","fill"];
 const dialogueQuizEntryCache=new Map();
+const DIALOGUE_DISTRACTORS_PATH="artifacts/dialogue-distractor-audit/dialogue-distractors-final.json";
+let dialogueQuizDistractorIndex=null;
+function setDialogueQuizDistractors(document){
+  if(document?.status!=="final"||!Array.isArray(document.items)||document.items.length!==2652)throw new Error("Dialogue distractor master is incomplete");
+  const phraseById=new Map(PHRASES.map(p=>[p.id,p])),index=new Map(),seen=new Set();let offset=0,eligible=0;
+  for(const dialogue of DIALOGUES){
+    const records=new Map();
+    for(const phraseId of dialogue.phraseLinks){
+      const item=document.items[offset++];
+      if(!item||item.dqId!==`DQ-${String(offset).padStart(4,'0')}`||seen.has(item.dqId)||item.phraseId!==phraseId||item.phrase!==phraseById.get(phraseId)?.phrase||!dialogue.lines.some(line=>line[1]===item.dialogue)||typeof item.quizEligible!=="boolean"||(item.quizEligible&&(typeof item.correctSpan!=="string"||typeof item.slot!=="string"||item.correct!==item.correctSpan||!Array.isArray(item.distractors)||item.distractors.length!==3||new Set([item.correct,...item.distractors]).size!==4)))throw new Error(`Dialogue distractor mapping mismatch: ${item?.dqId||offset}`);
+      seen.add(item.dqId);if(item.quizEligible)eligible++;
+      records.set(phraseId,item);
+    }
+    index.set(dialogue.id,records);
+  }
+  if(offset!==document.items.length||eligible!==2649||seen.size!==2652||["DQ-0601","DQ-1383","DQ-1704"].some(id=>document.items.find(item=>item.dqId===id)?.quizEligible!==false))throw new Error("Dialogue distractor counts do not match the final master");
+  dialogueQuizDistractorIndex=index;
+}
+async function loadDialogueQuizDistractors(){
+  const response=await fetch(DIALOGUE_DISTRACTORS_PATH,{cache:"no-store"});
+  if(!response.ok)throw new Error(`${DIALOGUE_DISTRACTORS_PATH}: ${response.status}`);
+  setDialogueQuizDistractors(await response.json());
+}
+function dialogueQuizAuditItem(dialogue,phraseId){
+  const item=dialogueQuizDistractorIndex?.get(dialogue.id)?.get(phraseId);
+  if(!item&&DIALOGUES.includes(dialogue))throw new Error(`Missing final distractor: ${dialogue.id}/${phraseId}`);
+  return item;
+}
 function dialogueQuizSettings(value=filters.dialogueQuiz){
   const v=value&&typeof value==="object"?value:{};
   return{mode:v.mode==="practice"?"practice":"test",type:v.type==="next"?"line":DIALOGUE_QUIZ_TYPES.includes(v.type)?v.type:"blank",season:v.season==="ALL"||SEASONS.includes(Number(v.season))?v.season:"ALL",scope:["all","weak","unlearned","learned","saved"].includes(v.scope)?v.scope:"all",japanese:Boolean(v.japanese)};
@@ -47,10 +75,45 @@ function dialogueQuizChoices(answer,index=0,length=answer.length){
 }
 function dialogueQuizChoiceKey(value){return normalizeDialogueQuizInput(value).toLowerCase()}
 function dialogueQuizMergedRanges(entries){const merged=[];for(const r of entries.flatMap(e=>e.ranges).sort((a,b)=>a.index-b.index)){const last=merged.at(-1);if(last&&r.index<last.index+last.length)last.length=Math.max(last.index+last.length,r.index+r.length)-last.index;else merged.push({...r})}return merged}
+function dialogueQuizAuditText(value){return value.toLowerCase().replace(/[’‘]/g,"'")}
+function dialogueQuizAuditPieces(text,pattern,anchor=0){
+  const source=dialogueQuizAuditText(text),parts=pattern.split('…').map(part=>part.trim()).filter(Boolean),first=dialogueQuizAuditText(parts[0]);let best=null,bestDistance=Infinity;
+  for(let start=source.indexOf(first);start>=0;start=source.indexOf(first,start+1)){
+    const ranges=[{index:start,length:parts[0].length}];
+    for(const part of parts.slice(1)){
+      const index=source.indexOf(dialogueQuizAuditText(part),ranges.at(-1).index+ranges.at(-1).length);
+      if(index<0)break;
+      ranges.push({index,length:part.length});
+    }
+    if(ranges.length!==parts.length)continue;
+    const end=ranges.at(-1).index+ranges.at(-1).length,distance=anchor<start?start-anchor:anchor>end?anchor-end:0;
+    if(distance<bestDistance){best=ranges;bestDistance=distance}
+  }
+  if(!best)throw new Error(`Final distractor span not found: ${pattern}`);
+  return best;
+}
+function dialogueQuizAuditRanges(text,item,anchor){
+  const span=dialogueQuizAuditPieces(text,item.correctSpan,anchor);
+  const start=span[0].index,end=span.at(-1).index+span.at(-1).length;
+  if(item.slot==='構文全体'||item.slot==='短いリアクション全体')return span;
+  if(item.slot.includes('…')){
+    const ranges=dialogueQuizAuditPieces(text,item.slot,start);
+    if(ranges.at(-1).index+ranges.at(-1).length>end)throw new Error(`Final distractor slot outside span: ${item.dqId}`);
+    return ranges;
+  }
+  const source=dialogueQuizAuditText(text),target=dialogueQuizAuditText(item.slot),ranges=[],count=item.slotOccurrences||1;
+  let cursor=start;
+  for(let i=0;i<count;i++){
+    const index=source.indexOf(target,cursor);
+    if(index<0||index+item.slot.length>end)throw new Error(`Final distractor slot not found: ${item.dqId}`);
+    ranges.push({index,length:item.slot.length});cursor=index+item.slot.length;
+  }
+  return ranges;
+}
 function createDialogueQuizQuestions(d,settings,onlyPhraseIds=null){
   const entries=dialogueQuizEntries(d);if(entries.some(e=>!e))return[];
-  const selected=entries.filter(e=>!onlyPhraseIds||onlyPhraseIds.includes(e.phraseId)),types=selected.map((_,i)=>settings.mode==="test"?DIALOGUE_QUIZ_TYPES[i%3]:settings.type),lineTargets=new Set(selected.filter((e,i)=>types[i]==="line").map(e=>e.lineIndex)),used=new Set();
-  const consumed=new Set();return selected.flatMap((e,i)=>{if(consumed.has(e.phraseId))return[];const line=lineTargets.has(e.lineIndex);if(line&&used.has(e.lineIndex))return[];if(line)used.add(e.lineIndex);let group=line?selected.filter(x=>x.lineIndex===e.lineIndex):[e];if(!line){let added=true;while(added){added=false;for(const peer of selected.filter(x=>x.lineIndex===e.lineIndex&&!consumed.has(x.phraseId)&&!group.includes(x)))if(group.some(x=>x.ranges.some(a=>peer.ranges.some(b=>a.index<b.index+b.length&&b.index<a.index+a.length)))){group.push(peer);added=true}}}const type=line?'line':types[i],phraseIds=group.map(x=>x.phraseId),ranges=line?e.ranges:dialogueQuizMergedRanges(group),answer=line?d.lines[e.lineIndex][1]:ranges.map(r=>d.lines[e.lineIndex][1].slice(r.index,r.index+r.length)).join(' … ');phraseIds.forEach(id=>consumed.add(id));return[{...e,ranges,phraseIds,type,answer,choices:type==='fill'?[]:dialogueQuizChoices(answer,line?ranges[0].index:0,line?ranges[0].length:answer.length)}]});
+  const candidates=entries.filter(e=>!onlyPhraseIds||onlyPhraseIds.includes(e.phraseId)),typed=candidates.map((e,i)=>({entry:e,type:settings.mode==="test"?DIALOGUE_QUIZ_TYPES[i%3]:settings.type})).filter(({entry,type})=>type!=="blank"||dialogueQuizAuditItem(d,entry.phraseId)?.quizEligible!==false),selected=typed.map(x=>x.entry),types=typed.map(x=>x.type),lineTargets=new Set(selected.filter((e,i)=>types[i]==="line").map(e=>e.lineIndex)),used=new Set();
+  const consumed=new Set();return selected.flatMap((e,i)=>{if(consumed.has(e.phraseId))return[];const line=lineTargets.has(e.lineIndex);if(line&&used.has(e.lineIndex))return[];if(line)used.add(e.lineIndex);let group=line?selected.filter(x=>x.lineIndex===e.lineIndex):[e];if(!line){let added=true;while(added){added=false;for(const peer of selected.filter(x=>x.lineIndex===e.lineIndex&&!consumed.has(x.phraseId)&&!group.includes(x)))if(group.some(x=>x.ranges.some(a=>peer.ranges.some(b=>a.index<b.index+b.length&&b.index<a.index+a.length)))){group.push(peer);added=true}}}const type=line?'line':types[i],audit=type==='blank'?dialogueQuizAuditItem(d,e.phraseId):null;if(audit&&!audit.quizEligible)return[];const phraseIds=group.map(x=>x.phraseId),ranges=audit?dialogueQuizAuditRanges(d.lines[e.lineIndex][1],audit,e.ranges[0].index):line?e.ranges:dialogueQuizMergedRanges(group),answer=audit?audit.correct:line?d.lines[e.lineIndex][1]:ranges.map(r=>d.lines[e.lineIndex][1].slice(r.index,r.index+r.length)).join(' … ');phraseIds.forEach(id=>consumed.add(id));return[{...e,ranges,phraseIds,type,answer,choices:audit?shuffle([audit.correct,...audit.distractors]):type==='fill'?[]:dialogueQuizChoices(answer,line?ranges[0].index:0,line?ranges[0].length:answer.length)}]});
 }
 function normalizeDialogueQuizInput(value){
   let text=String(value??"").replace(/[’‘]/g,"'").trim();
@@ -75,7 +138,7 @@ function getDialogueQuizSession(){
     return getDialogueQuizSession();
   }
   const settings=dialogueQuizSettings(s.settings),entries=dialogueQuizEntries(d),ids=new Set();
-  if(!s.questions.every(q=>{const entry=entries.find(e=>e?.phraseId===q?.phraseId);if(!entry||!Array.isArray(q.phraseIds)||!q.phraseIds.includes(q.phraseId))return false;const ranges=q.type==='line'?entry.ranges:dialogueQuizMergedRanges(entries.filter(e=>q.phraseIds.includes(e?.phraseId)));return q.phraseIds.length&&q.phraseIds.every(id=>!ids.has(id)&&ids.add(id)&&entries.some(e=>e?.phraseId===id&&e.lineIndex===q.lineIndex))&&DIALOGUE_QUIZ_TYPES.includes(q.type)&&q.lineIndex===entry.lineIndex&&JSON.stringify(q.ranges)===JSON.stringify(ranges)&&q.answer===(q.type==="line"?d.lines[q.lineIndex][1]:ranges.map(r=>d.lines[q.lineIndex][1].slice(r.index,r.index+r.length)).join(' … '))&&(q.type==="fill"||Array.isArray(q.choices)&&q.choices.length===4&&new Set(q.choices.map(dialogueQuizChoiceKey)).size===4&&q.choices.includes(q.answer))}))return null;
+  if(!s.questions.every(q=>{const entry=entries.find(e=>e?.phraseId===q?.phraseId);if(!entry||!Array.isArray(q.phraseIds)||!q.phraseIds.includes(q.phraseId))return false;const audit=q.type==='blank'?dialogueQuizAuditItem(d,q.phraseId):null;if(audit&&!audit.quizEligible)return false;const ranges=audit?dialogueQuizAuditRanges(d.lines[entry.lineIndex][1],audit,entry.ranges[0].index):q.type==='line'?entry.ranges:dialogueQuizMergedRanges(entries.filter(e=>q.phraseIds.includes(e?.phraseId)));return q.phraseIds.length&&q.phraseIds.every(id=>!ids.has(id)&&ids.add(id)&&entries.some(e=>e?.phraseId===id&&e.lineIndex===q.lineIndex))&&DIALOGUE_QUIZ_TYPES.includes(q.type)&&q.lineIndex===entry.lineIndex&&JSON.stringify(q.ranges)===JSON.stringify(ranges)&&q.answer===(audit?audit.correct:q.type==="line"?d.lines[q.lineIndex][1]:ranges.map(r=>d.lines[q.lineIndex][1].slice(r.index,r.index+r.length)).join(' … '))&&(q.type==="fill"||Array.isArray(q.choices)&&q.choices.length===4&&new Set(q.choices.map(dialogueQuizChoiceKey)).size===4&&q.choices.includes(q.answer)&&(audit?new Set(q.choices).size===4&&audit.distractors.every(choice=>q.choices.includes(choice)):true))}))return null;
   if(typeof s.graded!=="boolean"||!Array.isArray(s.drafts)||s.drafts.length!==s.questions.length||!s.drafts.every((answer,index)=>typeof answer==='string'&&(s.questions[index].type==='fill'||answer===''||s.questions[index].choices.includes(answer))))return null;
   if(!s.graded&&s.responses.length)return null;
   if(s.graded&&(!dialogueQuizCanSubmit(s)||s.responses.length!==s.questions.length||!s.responses.every((r,index)=>r?.index===index&&r.answer===s.drafts[index]&&r.correct===dialogueQuizAnswerCorrect(s.questions[index],r.answer))))return null;
