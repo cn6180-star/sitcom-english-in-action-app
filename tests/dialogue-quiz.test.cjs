@@ -23,7 +23,7 @@ for(const d of dialogues){
   const eligibleIds=distractorMaster.items.slice(auditOffset,auditOffset+d.phraseLinks.length).filter(item=>item.quizEligible).map(item=>item.phraseId);
   auditOffset+=d.phraseLinks.length;eligibleTotal+=eligibleIds.length;
   assert.deepEqual([...blankQuestions.flatMap(q=>q.phraseIds)].sort(),[...eligibleIds].sort(),`Final blank coverage: ${d.id}`);
-  for(const q of blankQuestions){const item=distractorMaster.items.find(item=>item.phraseId===q.phraseId&&item.dialogue===d.lines[q.lineIndex][1]);assert.ok(item?.quizEligible);assert.equal(q.answer,item.correct);assert.deepEqual([...q.choices].sort(),[item.correct,...item.distractors].sort());assert.equal(q.choices.length,4)}
+  for(const q of blankQuestions){const item=distractorMaster.items.find(item=>item.phraseId===q.phraseId&&item.dialogue===d.lines[q.lineIndex][1]);assert.ok(item?.quizEligible);const projected=c.dialogueQuizSlotChoices(item);assert.equal(q.answer,projected[0]);assert.deepEqual([...q.choices].sort(),[...projected].sort());assert.equal(q.choices.length,4);assert.equal(new Set(q.choices.map(c.dialogueQuizChoiceKey)).size,4)}
   const questions=c.createDialogueQuizQuestions(d,settings());
   const covered=questions.flatMap(q=>q.phraseIds),excluded=d.phraseLinks.filter(id=>!covered.includes(id));
   assert.ok(excluded.every(id=>!eligibleIds.includes(id)),`Only ineligible blank ranges may be omitted: ${d.id}`);
@@ -36,7 +36,18 @@ for(const d of dialogues){
   assert.ok(practice.every(q=>q.type==="line"));assert.deepEqual([...practice.flatMap(q=>q.phraseIds)].sort(),[...d.phraseLinks].sort());totalQuestions+=questions.length;
 }
 assert.equal(auditOffset,2652);assert.equal(eligibleTotal,2649);
-for(const [dqId,expectedRanges] of [['DQ-2542',1],['DQ-2637',2]]){const item=distractorMaster.items.find(x=>x.dqId===dqId),dialogue=dialogues.find(d=>d.phraseLinks.includes(item.phraseId)&&d.lines.some(line=>line[1]===item.dialogue)),q=c.createDialogueQuizQuestions(dialogue,settings('practice','blank')).find(q=>q.phraseId===item.phraseId);assert.ok(q);assert.equal(q.ranges.length,expectedRanges);assert.equal(q.answer,item.correct);assert.deepEqual([...q.choices].sort(),[item.correct,...item.distractors].sort());if(dqId==='DQ-2637'){const markup=c.dialogueQuizLineMarkup(dialogue,{questions:[q],graded:false},q.lineIndex);assert.equal((markup.match(/dialogue-blank/g)||[]).length,2)}}
+for(const [dqId,expectedRanges,options] of [['DQ-1599',1,['rut','car','room','queue']],['DQ-2542',1,['Call','Name','Label','Describe']],['DQ-2637',2,['out','back','up','over']]]){const item=distractorMaster.items.find(x=>x.dqId===dqId),dialogue=dialogues.find(d=>d.phraseLinks.includes(item.phraseId)&&d.lines.some(line=>line[1]===item.dialogue)),q=c.createDialogueQuizQuestions(dialogue,settings('practice','blank')).find(q=>q.phraseId===item.phraseId);assert.ok(q);assert.equal(q.ranges.length,expectedRanges);assert.equal(q.answer,options[0]);assert.deepEqual([...q.choices].sort(),[...options].sort());assert.equal(c.dialogueQuizAnswerCorrect(q,q.answer),true);assert.equal(c.dialogueQuizAnswerCorrect(q,options[1]),false);if(dqId==='DQ-1599')assert.equal(item.dialogue.slice(q.ranges[0].index,q.ranges[0].index+q.ranges[0].length),'rut');if(dqId==='DQ-2637'){const markup=c.dialogueQuizLineMarkup(dialogue,{questions:[q],graded:false},q.lineIndex);assert.equal((markup.match(/dialogue-blank/g)||[]).length,2)}}
+const walkItem=distractorMaster.items.find(x=>x.dqId==='DQ-1601'),changeItem=distractorMaster.items.find(x=>x.dqId==='DQ-1600');
+assert.equal(walkItem.dialogue,'Then take a break for a change.');
+const walkDialogue=dialogues.find(d=>d.phraseLinks.includes(walkItem.phraseId)&&d.phraseLinks.includes(changeItem.phraseId));
+const walkQuestions=c.createDialogueQuizQuestions(walkDialogue,settings('practice','blank')),walkIndex=walkQuestions.findIndex(q=>q.phraseId===walkItem.phraseId),changeIndex=walkQuestions.findIndex(q=>q.phraseId===changeItem.phraseId),walkNumbers=c.dialogueQuizDisplayNumbers({questions:walkQuestions});
+assert.deepEqual([...walkQuestions[walkIndex].choices].sort(),['break','walk','train','photo'].sort());
+assert.deepEqual([...walkQuestions[changeIndex].choices].sort(),['change','break','visit','walk'].sort());
+assert.equal(walkNumbers.get(walkIndex),3);assert.equal(walkNumbers.get(changeIndex),4);
+c.startDialogueQuiz(walkDialogue.id,settings('practice','blank'));c.renderDialogueQuizPlay();
+const controls=dom[`dialogueQuizControls${walkQuestions[walkIndex].lineIndex}`].innerHTML;
+assert.ok(controls.indexOf(`data-question-index="${walkIndex}"`)<controls.indexOf(`data-question-index="${changeIndex}"`),'Choice groups follow visual blank numbers');
+for(const id of ['DQ-0275','DQ-2327']){const item=distractorMaster.items.find(x=>x.dqId===id);assert.deepEqual([...c.dialogueQuizSlotChoices(item)], [item.correct,...item.distractors])}
 for(const count of [6,7,8,9]){
   const d=dialogues.find(d=>d.phraseLinks.length===count);assert.ok(d);assert.equal(c.createDialogueQuizQuestions(d,settings('practice','blank')).length,count);
 }
