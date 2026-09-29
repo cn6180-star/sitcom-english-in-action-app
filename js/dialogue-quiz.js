@@ -157,20 +157,27 @@ function normalizeDialogueQuizInput(value){
   return text.replace(/[.,!?;:…~]/g," ").replace(/\s+/g," ").trim();
 }
 function dialogueQuizInputMatches(answer,expected){return normalizeDialogueQuizInput(answer)===normalizeDialogueQuizInput(expected)}
-function dialogueOrderSequence(length){
+function dialogueOrderSequence(length,previous=null){
   const original=Array.from({length},(_,index)=>index),mixed=shuffle(original);
   if(length>1&&mixed.every((value,index)=>value===index))[mixed[0],mixed[1]]=[mixed[1],mixed[0]];
+  if(length>1&&previous&&mixed.every((value,index)=>value===previous[index]))[mixed[0],mixed[1]]=[mixed[1],mixed[0]];
   return mixed;
 }
 function dialogueOrderSession(s,d){
-  if(!d||!d.lines.length||!Array.isArray(s.shuffled)||!Array.isArray(s.placements)||s.shuffled.length!==d.lines.length||s.placements.length!==d.lines.length)return null;
-  const indices=Array.from({length:d.lines.length},(_,index)=>index),placed=s.placements.filter(index=>index!==null);
-  if(JSON.stringify([...s.shuffled].sort((a,b)=>a-b))!==JSON.stringify(indices)||!s.placements.every(index=>index===null||Number.isInteger(index)&&index>=0&&index<d.lines.length)||new Set(placed).size!==placed.length||s.selectedSlot!==null&&(!Number.isInteger(s.selectedSlot)||s.selectedSlot<0||s.selectedSlot>=d.lines.length))return null;
+  if(!d||!d.lines.length||!Array.isArray(s.initialOrder)||!Array.isArray(s.order)||s.initialOrder.length!==d.lines.length||s.order.length!==d.lines.length)return null;
+  const indices=Array.from({length:d.lines.length},(_,index)=>index),valid=order=>JSON.stringify([...order].sort((a,b)=>a-b))===JSON.stringify(indices);
+  if(!valid(s.initialOrder)||!valid(s.order))return null;
   return{...s,settings:dialogueQuizSettings(s.settings)};
 }
 function getDialogueQuizSession(){
   const s=readJSON(STORE.dialogueQuiz,null),d=s&&DIALOGUES.find(d=>d.id===s.dialogueId);
-  if(s?.version===4&&s.kind==="order")return dialogueOrderSession(s,d);
+  if(s?.version===4&&s.kind==="order"&&d&&Array.isArray(s.shuffled)&&Array.isArray(s.placements)){
+    const placed=s.placements.filter(index=>index!==null),order=[...placed,...s.shuffled.filter(index=>!placed.includes(index))];
+    const migrated={version:5,kind:'order',dialogueId:d.id,settings:s.settings,initialOrder:s.shuffled,order};
+    if(!dialogueOrderSession(migrated,d))return null;
+    writeJSON(STORE.dialogueQuiz,migrated);return dialogueOrderSession(migrated,d);
+  }
+  if(s?.version===5&&s.kind==="order")return dialogueOrderSession(s,d);
   if(!d||![1,2,3].includes(s.version)||!Array.isArray(s.questions)||!s.questions.length||!Array.isArray(s.responses)||typeof s.review!=="boolean")return null;
   if(s.version!==3){
     const questions=s.version===1?createDialogueQuizQuestions(d,dialogueQuizSettings(s.settings),s.questions.map(q=>q.phraseId)):s.questions;
@@ -191,7 +198,7 @@ function getDialogueQuizSession(){
   return{...s,settings};
 }
 function dialogueQuizAnswerCorrect(question,answer){return question.type==='fill'?dialogueQuizInputMatches(answer,question.answer):answer===question.answer}
-function dialogueQuizAnsweredCount(s){return s.kind==="order"?s.placements.filter(index=>index!==null).length:s.drafts.filter(answer=>answer.trim()).length}
+function dialogueQuizAnsweredCount(s){return s.kind==="order"?s.order.length:s.drafts.filter(answer=>answer.trim()).length}
 function dialogueQuizAllAnswered(s){return dialogueQuizAnsweredCount(s)===s.questions.length}
 function dialogueQuizCanSubmit(s){return s.questions.every((q,index)=>q.type==='fill'||Boolean(s.drafts[index].trim()))}
 function dialogueQuizDisplayNumbers(s){const ordered=s.questions.map((q,index)=>({index,line:q.lineIndex,start:q.ranges[0].index})).sort((a,b)=>a.line-b.line||a.start-b.start);return new Map(ordered.map((q,index)=>[q.index,index+1]))}
@@ -205,18 +212,20 @@ function renderDialogueQuizHome(){
   const buttons=(key,values)=>values.map(([value,label])=>`<button class="chip ${String(settings[key])===String(value)?'selected':''}" aria-pressed="${String(settings[key])===String(value)}" onclick="setDialogueQuizOption('${key}','${value}')">${label}</button>`).join("");
   const seasonGroup=`<div class="filter-group"><div class="filter-label">シーズン</div><div class="chips">${buttons('season',[["ALL","全て"],...SEASONS.map(s=>[s,`S${s}`])])}</div></div>`;
   const practiceGroups=practice?`<div class="filter-group"><div class="filter-label">問題形式</div><div class="chips quiz-setting-chips">${buttons('type',[["blank","選択"],["order","並べ替え"],["fill","入力"]])}</div></div><div class="filter-group"><div class="filter-label">絞り込み</div><div class="chips scope-chips">${buttons('scope',[["all","全て"],["weak","苦手"],["unlearned","未習得"],["learned","習得済み"],["saved","保存"]])}</div></div>`:`<div class="filter-group"><div class="filter-label">出題</div><div class="chips quiz-setting-chips">${buttons('type',[["blank","選択・入力 Mix"],["order","並べ替え"]])}</div></div>`;
-  const startArea=session?`<div class="quiz-start-area"><div><strong>${session.review?'Quick Review':session.settings.mode==='practice'?'Practice':'Quiz'} in progress</strong><p class="page-subtitle">${dialogueQuizAnsweredCount(session)} / ${session.kind==='order'?session.placements.length:session.questions.length} answered</p></div><div class="button-row"><button class="primary-button" onclick="navigate('quizPlay',{quizKind:'dialogue'})">Resume Quiz</button><button class="secondary-button" onclick="confirmDialogueQuizRestart()">Start Over</button></div></div>`:`<div class="quiz-start-area"><button class="primary-button quiz-start-button dialogue-quiz-start-button" ${pool.length?'onclick="startDialogueQuiz()"':'disabled'}>${practice?'Start Practice':'Start Quiz'}</button></div>`;
+  const startArea=session?`<div class="quiz-start-area"><div><strong>${session.review?'Quick Review':session.settings.mode==='practice'?'Practice':'Quiz'} in progress</strong><p class="page-subtitle">${session.kind==='order'?`${session.order.length} lines`: `${dialogueQuizAnsweredCount(session)} / ${session.questions.length} answered`}</p></div><div class="button-row"><button class="primary-button" onclick="navigate('quizPlay',{quizKind:'dialogue'})">Resume Quiz</button><button class="secondary-button" onclick="confirmDialogueQuizRestart()">Start Over</button></div></div>`:`<div class="quiz-start-area"><button class="primary-button quiz-start-button dialogue-quiz-start-button" ${pool.length?'onclick="startDialogueQuiz()"':'disabled'}>${practice?'Start Practice':'Start Quiz'}</button></div>`;
   const stats=`<section class="card quiz-stats-card"><h2 class="section-title">Your Dialogue Quiz</h2><div class="stats-row"><div class="stat-box"><span>Last</span><strong>${summary.last?`${summary.last.score}/${summary.last.total}`:'—'}</strong></div><div class="stat-box"><span>Today</span><strong>${summary.today}</strong></div><div class="stat-box"><span>Perfect</span><strong>${summary.perfect}</strong></div></div></section>`;
   const note=practice?'<div class="quiz-mode-note"><strong>練習モード</strong><span>形式を選べます。日本語訳はQuiz中に切り替えられます。本番のスコアには反映されません。</span></div>':`<div class="quiz-mode-note"><strong>本番モード</strong><span>${settings.type==='order'?'全セリフの並べ替え':'選択・入力Mix'}、1 Round = 1 Dialogue。本番のスコアに反映されます。</span></div>`;
   app.innerHTML=`${listPageHeader("Quiz")}${quizKindTabsMarkup()}<div class="segmented quiz-mode-tabs" role="tablist" aria-label="Dialogue quiz mode"><button class="seg-button ${!practice?'selected':''}" role="tab" aria-selected="${!practice}" onclick="setDialogueQuizOption('mode','test')">本番</button><button class="seg-button ${practice?'selected':''}" role="tab" aria-selected="${practice}" onclick="setDialogueQuizOption('mode','practice')">練習</button></div>${startArea}<section class="card filter-panel quiz-settings-panel ${practice?'quiz-practice-settings':''}">${practiceGroups}${seasonGroup}<div class="page-subtitle">${pool.length} dialogues available</div><p id="dialogueQuizStatus" role="status"></p></section>${practice?'':stats}${note}`;
 }
 function confirmDialogueQuizRestart(){showConfirm("Start the dialogue quiz over?",()=>{safeRemoveItem(STORE.dialogueQuiz);startDialogueQuiz()})}
-function startDialogueQuiz(id=null,settings=dialogueQuizSettings(),reviewQuestions=null,parentResult=null){
+function startDialogueQuiz(id=null,settings=dialogueQuizSettings(),reviewQuestions=null,parentResult=null,previousOrder=null){
   settings=dialogueQuizSettings(settings);
   const pool=dialogueQuizPool(settings),d=id?DIALOGUES.find(d=>d.id===id):sampleValues(pool,1)[0];if(!d)return;
   if(settings.type==='order'&&!reviewQuestions){
+    settings.japanese=false;
     filters.quizTab='dialogues';filters.dialogueQuiz={...settings};saveAppState();
-    writeJSON(STORE.dialogueQuiz,{version:4,kind:'order',dialogueId:d.id,settings,shuffled:dialogueOrderSequence(d.lines.length),placements:d.lines.map(()=>null),selectedSlot:null});
+    const initialOrder=dialogueOrderSequence(d.lines.length,previousOrder);
+    writeJSON(STORE.dialogueQuiz,{version:5,kind:'order',dialogueId:d.id,settings,initialOrder,order:[...initialOrder]});
     navigate('quizPlay',{quizKind:'dialogue'});playQuizStartSound();return;
   }
   const questions=reviewQuestions||createDialogueQuizQuestions(d,settings);
@@ -226,36 +235,72 @@ function startDialogueQuiz(id=null,settings=dialogueQuizSettings(),reviewQuestio
 }
 function toggleDialogueQuizJapanese(){const session=getDialogueQuizSession();if(!session||session.settings.mode!=="practice")return;session.settings.japanese=!session.settings.japanese;filters.dialogueQuiz={...dialogueQuizSettings(),japanese:session.settings.japanese};saveAppState();writeJSON(STORE.dialogueQuiz,session);renderDialogueQuizPlay()}
 function renderDialogueOrderPlay(s){
-  const d=DIALOGUES.find(dialogue=>dialogue.id===s.dialogueId),placed=new Set(s.placements.filter(index=>index!==null));
-  const slots=s.placements.map((lineIndex,slotIndex)=>`<div class="dialogue-order-slot-row"><button class="dialogue-order-slot ${s.selectedSlot===slotIndex?'selected':''}" aria-pressed="${s.selectedSlot===slotIndex}" onclick="selectDialogueOrderSlot(${slotIndex})"><span class="dialogue-order-position">${slotIndex+1}. ${esc(d.lines[slotIndex][0])}</span><span class="dialogue-order-slot-text">${lineIndex===null?'セリフを選択':esc(d.lines[lineIndex][1])}</span></button>${lineIndex===null?'':`<button class="dialogue-order-remove" aria-label="${slotIndex+1}番のセリフを外す" onclick="removeDialogueOrderLine(${slotIndex})">×</button>`}</div>`).join('');
-  const cards=s.shuffled.filter(index=>!placed.has(index)).map(index=>`<button class="dialogue-order-card" onclick="placeDialogueOrderLine(${index})" ${s.selectedSlot===null?'disabled':''}>${esc(d.lines[index][1])}${s.settings.japanese?`<span class="translation">${esc(d.lines[index][2])}</span>`:''}</button>`).join('');
-  const action=s.settings.japanese?'日本語訳を非表示':'日本語訳を表示',count=placed.size;
-  app.innerHTML=`<section id="dialogueQuizPage" data-dialogue-id="${esc(d.id)}" class="dialogue-order-page"><header class="quiz-play-header"><p>${esc(d.title)} · 並べ替え</p>${s.settings.mode==='practice'?`<button class="translation-toggle" aria-label="${action}" aria-pressed="${s.settings.japanese}" onclick="toggleDialogueQuizJapanese()">${lineIcon(s.settings.japanese?'eyeOff':'eye')}<span>${action}</span></button>`:''}</header><div class="dialogue-quiz-progress"><h1 class="quiz-question-count">Placed ${count} / ${d.lines.length}</h1><div class="quiz-progress"><span style="width:${Math.round(count/d.lines.length*100)}%"></span></div></div><section class="card dialogue-order-section"><h2 class="section-title">Order slots</h2><p class="page-subtitle">先に番号を選び、下のセリフをタップしてください。</p><div class="dialogue-order-slots">${slots}</div></section><section class="card dialogue-order-section"><h2 class="section-title">Shuffled lines</h2><div class="dialogue-order-cards">${cards||'<p class="page-subtitle">すべて配置しました。</p>'}</div></section><div class="dialogue-order-actions"><button class="secondary-button" onclick="resetDialogueOrder()">Reset</button><button class="primary-button" onclick="checkDialogueOrder()" ${count===d.lines.length?'':'disabled'}>Check Order</button></div></section>`;
+  const d=DIALOGUES.find(dialogue=>dialogue.id===s.dialogueId),action=s.settings.japanese?'日本語訳を非表示':'日本語訳を表示';
+  const rows=s.order.map((lineIndex,position)=>`<div class="dialogue-order-row" data-line-index="${lineIndex}"><span class="dialogue-order-position">${position+1}.</span><button type="button" class="dialogue-order-handle" aria-label="${position+1}番のセリフを並べ替え" onpointerdown="startDialogueOrderDrag(event,${lineIndex})" onpointermove="moveDialogueOrderDrag(event)" onpointerup="endDialogueOrderDrag(event)" onpointercancel="cancelDialogueOrderDrag(event)" onkeydown="keyDialogueOrderMove(event,${lineIndex})">≡</button><span class="dialogue-order-content"><span class="dialogue-order-speaker">${esc(d.lines[lineIndex][0])}</span><span class="dialogue-order-text">${esc(d.lines[lineIndex][1])}${s.settings.japanese?`<span class="translation">${esc(d.lines[lineIndex][2])}</span>`:''}</span></span></div>`).join('');
+  app.innerHTML=`<section id="dialogueQuizPage" data-dialogue-id="${esc(d.id)}" class="dialogue-order-page"><header class="quiz-play-header"><p>${esc(d.title)} · 並べ替え</p>${s.settings.mode==='practice'?`<button class="translation-toggle" aria-label="${action}" aria-pressed="${s.settings.japanese}" onclick="toggleDialogueQuizJapanese()">${lineIcon(s.settings.japanese?'eyeOff':'eye')}<span>${action}</span></button>`:''}</header><section class="card dialogue-order-section"><div class="dialogue-order-intro"><strong>${d.lines.length} lines</strong><span>≡ を掴んで順番を変えてください。</span></div><div id="dialogueOrderList" class="dialogue-order-list">${rows}</div></section><div class="dialogue-order-actions"><button class="secondary-button" onclick="resetDialogueOrder()">Reset</button><button class="primary-button" onclick="checkDialogueOrder()">Check Order</button></div></section>`;
 }
-function selectDialogueOrderSlot(slotIndex){
-  const s=getDialogueQuizSession();if(s?.kind!=='order'||!Number.isInteger(slotIndex)||slotIndex<0||slotIndex>=s.placements.length)return;
-  s.selectedSlot=slotIndex;writeJSON(STORE.dialogueQuiz,s);renderDialogueOrderPlay(s);
+let dialogueOrderDrag=null;
+function dialogueOrderDropIndex(clientY){
+  const rows=[...document.querySelectorAll('#dialogueOrderList .dialogue-order-row')].filter(row=>row!==dialogueOrderDrag.row);
+  rows.forEach(row=>row.classList.remove('drop-before'));
+  const index=rows.findIndex(row=>clientY<row.getBoundingClientRect().top+row.getBoundingClientRect().height/2);
+  const target=index<0?rows.length:index;
+  if(rows[target])rows[target].classList.add('drop-before');else document.getElementById('dialogueOrderList').classList.add('drop-last');
+  if(rows[target])document.getElementById('dialogueOrderList').classList.remove('drop-last');
+  dialogueOrderDrag.to=target;
 }
-function removeDialogueOrderLine(slotIndex){
-  const s=getDialogueQuizSession();if(s?.kind!=='order'||!Number.isInteger(slotIndex)||slotIndex<0||slotIndex>=s.placements.length||s.placements[slotIndex]===null)return;
-  s.placements[slotIndex]=null;s.selectedSlot=slotIndex;writeJSON(STORE.dialogueQuiz,s);renderDialogueOrderPlay(s);
+function dialogueOrderAutoScroll(){
+  if(!dialogueOrderDrag)return;
+  if(dialogueOrderDrag.scrollDirection){window.scrollBy(0,dialogueOrderDrag.scrollDirection*9);dialogueOrderDropIndex(dialogueOrderDrag.y)}
+  dialogueOrderDrag.frame=requestAnimationFrame(dialogueOrderAutoScroll);
 }
-function placeDialogueOrderLine(lineIndex){
-  const s=getDialogueQuizSession();if(s?.kind!=='order'||s.selectedSlot===null||!s.shuffled.includes(lineIndex)||s.placements.includes(lineIndex))return;
-  s.placements[s.selectedSlot]=lineIndex;s.selectedSlot=null;writeJSON(STORE.dialogueQuiz,s);renderDialogueOrderPlay(s);
+function startDialogueOrderDrag(event,lineIndex){
+  if(dialogueOrderDrag||event.pointerType==='mouse'&&event.button!==0||getDialogueQuizSession()?.kind!=='order')return;
+  event.preventDefault();event.currentTarget.setPointerCapture(event.pointerId);
+  const row=event.currentTarget.closest('.dialogue-order-row'),rect=row.getBoundingClientRect(),ghost=row.cloneNode(true);
+  ghost.classList.add('dialogue-order-ghost');ghost.style.cssText=`left:${rect.left}px;top:${rect.top}px;width:${rect.width}px`;
+  document.body.appendChild(ghost);row.classList.add('dragging');
+  dialogueOrderDrag={pointerId:event.pointerId,lineIndex,row,ghost,offsetY:event.clientY-rect.top,to:null,y:event.clientY,scrollDirection:0,frame:null};
+  dialogueOrderDrag.frame=requestAnimationFrame(dialogueOrderAutoScroll);
+}
+function moveDialogueOrderDrag(event){
+  if(!dialogueOrderDrag||event.pointerId!==dialogueOrderDrag.pointerId)return;
+  event.preventDefault();dialogueOrderDrag.y=event.clientY;dialogueOrderDrag.ghost.style.top=`${event.clientY-dialogueOrderDrag.offsetY}px`;
+  dialogueOrderDrag.scrollDirection=event.clientY<75?-1:event.clientY>window.innerHeight-75?1:0;
+  dialogueOrderDropIndex(event.clientY);
+}
+function finishDialogueOrderDrag(event,commit){
+  if(!dialogueOrderDrag||event.pointerId!==dialogueOrderDrag.pointerId)return;
+  event.preventDefault();const drag=dialogueOrderDrag;dialogueOrderDrag=null;
+  cancelAnimationFrame(drag.frame);drag.ghost.remove();drag.row.classList.remove('dragging');
+  document.querySelectorAll('#dialogueOrderList .drop-before').forEach(row=>row.classList.remove('drop-before'));
+  document.getElementById('dialogueOrderList')?.classList.remove('drop-last');
+  if(commit&&drag.to!==null)moveDialogueOrderLine(drag.lineIndex,drag.to);
+}
+function endDialogueOrderDrag(event){finishDialogueOrderDrag(event,true)}
+function cancelDialogueOrderDrag(event){finishDialogueOrderDrag(event,false)}
+function moveDialogueOrderLine(lineIndex,to){
+  const s=getDialogueQuizSession(),from=s?.kind==='order'?s.order.indexOf(lineIndex):-1;
+  if(from<0||!Number.isInteger(to)||to<0||to>=s.order.length)return;
+  s.order.splice(from,1);s.order.splice(to,0,lineIndex);writeJSON(STORE.dialogueQuiz,s);renderDialogueOrderPlay(s);
+}
+function keyDialogueOrderMove(event,lineIndex){
+  if(!['ArrowUp','ArrowDown'].includes(event.key))return;
+  event.preventDefault();const s=getDialogueQuizSession(),from=s?.order.indexOf(lineIndex)??-1;
+  if(from>=0)moveDialogueOrderLine(lineIndex,Math.max(0,Math.min(s.order.length-1,from+(event.key==='ArrowUp'?-1:1))));
 }
 function resetDialogueOrder(){
   const s=getDialogueQuizSession();if(s?.kind!=='order')return;
-  s.placements=s.placements.map(()=>null);s.selectedSlot=null;writeJSON(STORE.dialogueQuiz,s);renderDialogueOrderPlay(s);
+  s.order=[...s.initialOrder];writeJSON(STORE.dialogueQuiz,s);renderDialogueOrderPlay(s);
 }
 function checkDialogueOrder(){
-  const s=getDialogueQuizSession();if(s?.kind!=='order'||s.placements.some(index=>index===null))return;
-  const score=s.placements.filter((lineIndex,slotIndex)=>lineIndex===slotIndex).length,total=s.placements.length;
+  const s=getDialogueQuizSession();if(s?.kind!=='order')return;
+  const score=s.order.filter((lineIndex,position)=>lineIndex===position).length,total=s.order.length;
   setDialogueWeak(s.dialogueId,score!==total);
   if(s.settings.mode==='test'){const state=dialogueLearnedState();state.quizHistory=[...dialogueQuizHistory(),{dialogueId:s.dialogueId,score,total,date:localDate(),completedAt:new Date().toISOString()}].slice(-100);writeJSON(STORE.dialogueLearned,state)}
-  safeRemoveItem(STORE.dialogueQuiz);navigate('quizResult',{quizKind:'dialogue',result:{kind:'order',dialogueId:s.dialogueId,settings:s.settings,placements:s.placements,score,total}});playQuizCompleteSound(new Date().toISOString(),score===total);
+  safeRemoveItem(STORE.dialogueQuiz);navigate('quizResult',{quizKind:'dialogue',result:{kind:'order',dialogueId:s.dialogueId,settings:s.settings,initialOrder:s.initialOrder,order:s.order,score,total}});playQuizCompleteSound(new Date().toISOString(),score===total);
 }
-function retryDialogueOrder(){const r=route.params.result;if(r?.kind==='order')startDialogueQuiz(r.dialogueId,r.settings)}
+function retryDialogueOrder(){const r=route.params.result;if(r?.kind==='order')startDialogueQuiz(r.dialogueId,r.settings,null,null,r.initialOrder)}
 function renderDialogueQuizPlay(){
   const s=getDialogueQuizSession();if(!s){route={name:"quiz",params:{}};filters.quizTab="dialogues";render();return}
   if(s.kind==='order')return renderDialogueOrderPlay(s);
@@ -342,7 +387,7 @@ function dialogueQuizPhraseDisplayOrder(d){
 function renderDialogueQuizResult(){
   const r=route.params.result,d=r&&DIALOGUES.find(d=>d.id===r.dialogueId);if(!d)return doneDialogueQuiz();
   if(r.kind==='order'){
-    const mistakes=r.placements.map((lineIndex,slotIndex)=>lineIndex===slotIndex?'':`<div class="learning-item dialogue-order-mistake"><strong>${slotIndex+1}. ${esc(d.lines[slotIndex][0])}</strong><span>Your answer: ${esc(d.lines[lineIndex][1])}</span><span>Correct: ${esc(d.lines[slotIndex][1])}</span></div>`).join('');
+    const mistakes=r.order.map((lineIndex,slotIndex)=>lineIndex===slotIndex?'':`<div class="learning-item dialogue-order-mistake"><strong>${slotIndex+1}. ${esc(d.lines[slotIndex][0])}</strong><span>Your answer: ${esc(d.lines[lineIndex][1])}</span><span>Correct: ${esc(d.lines[slotIndex][1])}</span></div>`).join('');
     app.innerHTML=`<section class="card quiz-result-card"><div class="result-score">${r.score} / ${r.total}${r.score===r.total?' 👑':''}</div>${dialogueCard(d)}<div class="quiz-result-actions section"><button class="primary-button" onclick="retryDialogueOrder()">Retry</button><button class="primary-button" ${dialogueQuizPool(r.settings).length?'onclick="nextQuizDialogue()"':'disabled'}>Next Round</button><button class="primary-button" onclick="doneDialogueQuiz()">Done</button></div>${mistakes?`<h2 class="section-title">順番を確認</h2><div class="mistake-list">${mistakes}</div>`:''}</section>`;
     return;
   }
