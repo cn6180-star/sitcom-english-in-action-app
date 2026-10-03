@@ -38,8 +38,8 @@ for(const value of [[],{dates:[]},{dates:{'2026-02-30':{items:[]}}},{dates:{'202
  const backup=clone(document);backup.data.activity=value;
  assert.throws(()=>c.validateBackupDocument(backup),/Activity/);
 }
-const historyBackup=clone(document);historyBackup.data.history=[{total:1,score:0,mistakes:['gone'],completedAt:'2026-08-10T00:00:00.000Z'}];
-assert.throws(()=>c.validateBackupDocument(historyBackup),/Quiz History/,'Quiz History must remain strict');
+const historyBackup=clone(document);historyBackup.data.history=[{total:1,score:0,mistakes:[42],completedAt:'2026-08-10T00:00:00.000Z'}];
+assert.throws(()=>c.validateBackupDocument(historyBackup),/Quiz History/,'Quiz History must still reject non-string IDs');
 // Safety Backup is downloaded before any storage write, using the same sanitized Activity.
 c.pendingRestore={data:validated.data};c.performRestore();
 assert.equal(downloads.length,2);assert.equal(downloads[1].document.backupType,'safety');
