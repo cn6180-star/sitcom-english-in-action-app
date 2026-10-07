@@ -263,7 +263,7 @@ assert.doesNotMatch(styles,/\.quiz-practice-settings[^}]*margin-top:auto/);
 assert.match(styles,/\.dialogue-quiz-card \.translation\{font-size:12px;color:var\(--muted\)/);
 // Round 4 view-only polish; answer, score and relation state remain untouched.
 assert.match(source,/Your Phrase Quiz/);assert.match(moduleSource,/Your Dialogue Quiz/);
-for(const selected of ['dialogues','phrases']){c.filters.quizTab=selected;const tabs=c.quizKindTabsMarkup();assert.ok(tabs.indexOf('>Dialogues<')<tabs.indexOf('>Phrases<'));assert.match(tabs,new RegExp("aria-selected=\"true\" onclick=\"setQuizKind\\('"+selected+"'\\)"))}
+for(const selected of ['dialogues','phrases']){c.filters.quizTab=selected;const tabs=c.quizKindTabsMarkup();assert.ok(tabs.indexOf('>Phrases<')<tabs.indexOf('>Dialogues<'));assert.match(tabs,new RegExp("aria-selected=\"true\" onclick=\"setQuizKind\\('"+selected+"'\\)"))}
 reset();c.startDialogueQuiz(d.id,settings('practice','blank'));c.renderDialogueQuizPlay();
 assert.match(dom.dialogueQuizJapanese.innerHTML,/eye\".*日本語訳を表示/);
 assert.equal(dom.dialogueQuizJapanese['aria-label'],'日本語訳を表示');
